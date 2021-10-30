@@ -1,0 +1,51 @@
+.Equipment {
+  background-size: 368px 500px, cover;
+}
+
+.Equipment hr {
+  background-size: 288px 4px;
+}
+
+.gear-slots-grid {
+  display: flex;
+}
+.gear-slots-col {
+  width: 96px;
+}
+.gear-slots-row-1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 96px;
+}
+.gear-slots-row-3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 288px;
+}
+
+.gear-slot-belt {
+  background-image: url(../images/gearslot_belt.png);
+}
+.gear-slot-chest {
+  background-image: url(../images/gearslot_chest.png);
+}
+.gear-slot-feet {
+  background-image: url(../images/gearslot_feet.png);
+}
+.gear-slot-hands {
+  background-image: url(../images/gearslot_hands.png);
+}
+.gear-slot-head {
+  background-image: url(../images/gearslot_head.png);
+}
+.gear-slot-legs {
+  background-image: url(../images/gearslot_legs.png);
+}
+.gear-slot-shoulders {
+  background-image: url(../images/gearslot_shoulders.png);
+}
+
+.gear-slot-dummy {
+  background-image: url(../images/silhouette_human_male.png);
+  background-size: 100%;
+}
