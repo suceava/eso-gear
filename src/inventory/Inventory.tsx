@@ -8,6 +8,9 @@ import {
   Row,
   TableInstance
 } from 'react-table';
+import ReactTooltip from 'react-tooltip';
+import { ItemSetToolTip } from '../tooltips/ToolTips';
+
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
 import treeClosedImage from '../images/tree_closed_up.png';
@@ -71,6 +74,16 @@ function getTable(tableInstance: TableInstance<InventoryTableData>) {
   );
 }
 
+function rowExpandOnClick(originalOnClick: any) {
+  return (e: any) => {
+    console.log('rebuilding?');
+    ReactTooltip.rebuild();
+    if (originalOnClick) {
+      originalOnClick(e);
+    }
+  };
+}
+
 function Inventory() {
   const data: InventoryTableData[] = useMemo(() => setsData.ESO_SETS, []);
   const columns = useMemo(() => [
@@ -78,21 +91,25 @@ function Inventory() {
       id: 'expander',
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => {
         const img = <img src={isAllRowsExpanded ? treeOpenImage : treeClosedImage} alt={isAllRowsExpanded ? 'Expand' : 'Collapse'}></img>
-        return ( <span {...getToggleAllRowsExpandedProps()}>{img}</span>);
+        const props = getToggleAllRowsExpandedProps();
+        props.onClick = rowExpandOnClick(props.onClick);
+        return ( <span {...props}>{img}</span>);
       },
       Cell: ({ row }: { row: any }) => {
         let img;
         if (row.canExpand) {
           img = <img src={row.isExpanded ? treeOpenImage : treeClosedImage} alt={row.isExpanded ? 'Expand' : 'Collapse'}></img>
         }
-        return ( <span {...row.getToggleRowExpandedProps()}>{img}</span> );
+        const props = row.getToggleRowExpandedProps();
+        props.onClick = rowExpandOnClick(props.onClick);
+        return ( <span {...props}>{img}</span> );
       }
     } as Column<InventoryTableData>,
     {
       Header: '',
       accessor: 'image',
       Cell: ({ row }: { row: any }) => {
-        return <img src={"../images/gear/" + row.values.image} title="" alt={row.values.name}></img>
+        return ( <img src={"../images/gear/" + row.values.image} alt={row.values.name} data-tip={row.values.name} data-for='itemSetTooltip'></img> );
       }
     } as Column<InventoryTableData>,
     {
@@ -111,12 +128,13 @@ function Inventory() {
 
   const getSubRows = (originalRow: InventoryTableData, index: number) => {
     return originalRow?.items?.list || [];
-  }
+  };
 
   const tableInstance = useTable({ columns, data, getSubRows }, useExpanded);
 
   return (
     <div className="Inventory window">
+      <ItemSetToolTip />
       <h1>INVENTORY</h1>
       <hr/>
       <div className="inventory-container">

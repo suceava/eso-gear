@@ -1,0 +1,15 @@
+/* override react-tooltip styles with !important */
+.tooltip {
+  background: url(../images/munge_overlay.png) !important;
+  /* background-color: rgba(0, 0, 0, 0.7) !important; */
+  background-repeat: no-repeat !important;
+  border-radius: 0 !important;
+}
+
+.tooltip-item-set {
+  color: yellowgreen;
+  background-color: black;
+  border-image: linear-gradient(#dcd7b6, #6b613b) 30 !important;
+  border-style: solid !important;
+  border-width: 3px !important;
+}
