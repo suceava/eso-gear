@@ -5,7 +5,11 @@ Create an ESO character build
 ## Development
 This `/scripts` folder contains scripts that may need to be run one time to generate an initial list of sets.
 
-The `generateSetsList.mjs` script can be run to both fetch the data from the website and generate the inital list of sets, or to load the existing script/data file and update stats/info based on already fetched data.  This can be done by setting the `CRAWL_SITE` variable value accordingly. (This is done so that the data doesn't have to be fetched every time).
+The `generateSetsList.mjs` script can be run to fetch the data from the website and generate the inital list of sets.  The script generates a file called `eso-sets.mjs` which will need to be copied to `/src/data/` folder and changed to a json file called `eso-sets.json`.
+
+The `updateSetsList.mjs` script can be run to update the data in the sets list, code can be added here for any new modifications.
+
+The `copySetIcons.mjs` script can be run to copy the images referenced in the sets list file to the proper folder.
 
 
 ### Icons

@@ -3,10 +3,29 @@
   src: url(./fonts/univers67.otf) format("opentype");
 }
 
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-image: url(images/slider_marker_down.png);
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-image: url(images/slider_marker_up.png);
+  padding: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: url(images/scrollbox_elevator.png);
+  height: 32px;
+}
+::-webkit-scrollbar-track {
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 14px;
+}
+
 h1 {
-  text-align: left;
+  color: white;
   font-size: 24px;
   margin: 0px;
+  text-align: left;
 }
 
 hr {
@@ -19,11 +38,30 @@ hr {
   margin: 5px 0px;
 }
 
+
+/* any window section should use this class */
 .window {
   background-image: url(images/window_bg.png);
   background-repeat: no-repeat;
   margin: 10px;
   padding: 30px 40px;
+}
+
+/* item rarity */
+.item-normal {
+  color: white;
+}
+.item-fine {
+  color: #2dc50e;
+}
+.item-superior {
+  color: #3a92ff;
+}
+.item-epic {
+  color: #a02ef7;
+}
+.item-legendary {
+  color: #eeca2a;
 }
 
 .App {
@@ -38,8 +76,4 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   /* padding-top: 120px; */
-}
-
-.Stats {
-  color: #c5c29e;
 }

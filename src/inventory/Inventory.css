@@ -1,7 +1,23 @@
 .Inventory {
-  background-size: 368px 500px, cover;
+  background-size: 368px 910px, cover;
 }
 
 .Inventory hr {
-  background-size: 100px 4px;
+  background-size: 300px 4px;
+}
+
+.inventory-container table {
+  width: 300px;
+}
+.inventory-container thead {
+  color: #c5c29e;
+}
+.inventory-container tbody {
+  display: block;
+  height: 730px;
+  overflow-y: auto;
+}
+
+.inventory-container tr {
+  display: table;
 }

@@ -6,6 +6,7 @@ function Equipment() {
     <div className="Equipment window">
       <h1>EQUIPMENT</h1>
       <hr/>
+      <h2>APPAREL</h2>
       <div className="gear-slots-grid">
         <div className="gear-slots-col">
           <div className="gear-slots-row-1 gear-slot-empty"></div>
@@ -22,6 +23,32 @@ function Equipment() {
           <div className="gear-slots-row-1 gear-slot-chest"></div>
           <div className="gear-slots-row-1 gear-slot-belt"></div>
           <div className="gear-slots-row-1 gear-slot-feet"></div>
+        </div>
+      </div>
+      <hr/>
+      <h2>ACCESSORIES</h2>
+      <hr/>
+      <div className="gear-slots-grid">
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-neck"></div>
+        </div>
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-ring"></div>
+        </div>
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-ring"></div>
+        </div>
+      </div>
+      <h2>WEAPONS</h2>
+      <div className="gear-slots-grid">
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-mainhand"></div>
+        </div>
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-offhand"></div>
+        </div>
+        <div className="gear-slots-col">
+          <div className="gear-slots-row-1 gear-slot-empty"></div>
         </div>
       </div>
     </div>

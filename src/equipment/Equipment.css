@@ -1,5 +1,5 @@
 .Equipment {
-  background-size: 368px 500px, cover;
+  background-size: 368px 910px, cover;
 }
 
 .Equipment hr {
@@ -40,6 +40,18 @@
 }
 .gear-slot-legs {
   background-image: url(../images/gearslot_legs.png);
+}
+.gear-slot-mainhand {
+  background-image: url(../images/gearslot_mainhand.png);
+}
+.gear-slot-neck {
+  background-image: url(../images/gearslot_neck.png);
+}
+.gear-slot-offhand {
+  background-image: url(../images/gearslot_offhand.png);
+}
+.gear-slot-ring {
+  background-image: url(../images/gearslot_ring.png);
 }
 .gear-slot-shoulders {
   background-image: url(../images/gearslot_shoulders.png);
