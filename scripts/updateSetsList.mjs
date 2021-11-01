@@ -3,6 +3,7 @@ import setsList from './eso-sets.mjs';
 
 const FILE_NAME = 'eso-sets.mjs';
 
+// remove path from image names
 const fixImagePaths = () => {
   // remove path from images
   setsList.forEach(s => {
@@ -14,7 +15,7 @@ const fixImagePaths = () => {
 }
 
 const updateData = async () => {
-  fixImagePaths();
+  // fixImagePaths();  // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +

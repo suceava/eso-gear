@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { 
   useTable,
+  useExpanded,
   Cell,
   Column,
   HeaderGroup,
@@ -8,11 +9,16 @@ import {
   TableInstance
 } from 'react-table';
 import './Inventory.css';
+import treeOpenImage from '../images/tree_open_up.png';
+import treeClosedImage from '../images/tree_closed_up.png';
 import setsData from '../data/eso-sets.json';
 
 interface InventoryTableData {
   image: string,
-  name: string
+  name: string,
+  items?: {
+    list: Array<InventoryTableData>
+  }
 }
 
 function getTable(tableInstance: TableInstance<InventoryTableData>) {
@@ -66,21 +72,48 @@ function getTable(tableInstance: TableInstance<InventoryTableData>) {
 }
 
 function Inventory() {
-  const data: InventoryTableData[] = useMemo(() => setsData.ESO_SETS.map((s) => ({ image: s.image, name: s.name })), []);
+  const data: InventoryTableData[] = useMemo(() => setsData.ESO_SETS, []);
   const columns = useMemo(() => [
+    {
+      id: 'expander',
+      Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => {
+        const img = <img src={isAllRowsExpanded ? treeOpenImage : treeClosedImage} alt={isAllRowsExpanded ? 'Expand' : 'Collapse'}></img>
+        return ( <span {...getToggleAllRowsExpandedProps()}>{img}</span>);
+      },
+      Cell: ({ row }: { row: any }) => {
+        let img;
+        if (row.canExpand) {
+          img = <img src={row.isExpanded ? treeOpenImage : treeClosedImage} alt={row.isExpanded ? 'Expand' : 'Collapse'}></img>
+        }
+        return ( <span {...row.getToggleRowExpandedProps()}>{img}</span> );
+      }
+    } as Column<InventoryTableData>,
     {
       Header: '',
       accessor: 'image',
       Cell: ({ row }: { row: any }) => {
-        return <img src={"../images/gear/" + row.values.image} title="AHA" alt="AHA"></img>
+        return <img src={"../images/gear/" + row.values.image} title="" alt={row.values.name}></img>
       }
     } as Column<InventoryTableData>,
     {
       Header: 'NAME',
-      accessor: 'name'
+      accessor: 'name',
+      Cell: ({ row }: { row: Row<InventoryTableData> }) => {
+        // console.log(row);
+        let className = '';
+        if (row.depth > 0) {
+          className += 'item-legendary ';
+        }
+        return ( <span className={className}>{row.values.name}</span> );
+      }
     } as Column<InventoryTableData>
   ], []);
-  const tableInstance = useTable({ columns, data });
+
+  const getSubRows = (originalRow: InventoryTableData, index: number) => {
+    return originalRow?.items?.list || [];
+  }
+
+  const tableInstance = useTable({ columns, data, getSubRows }, useExpanded);
 
   return (
     <div className="Inventory window">
