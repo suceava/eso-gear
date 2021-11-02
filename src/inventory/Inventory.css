@@ -24,3 +24,8 @@
 .inventory-container th:first-child {
   width: 32px;
 }
+
+.inventory-container td img {
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -1,17 +1,31 @@
-import ReactTooltip from 'react-tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
-import './ToolTips.css';
+import './Tooltips.css';
 
-export function ItemSetToolTip () {
-  const getTipContent = (dataTip: string) => {
-    return (
-      <div className='tooltip-item-set'>
-        {dataTip}
-      </div>
-    );
-  }
+export function ItemSetTooltip(props: any) {
+  const row = props.row;
 
   return (
-    <ReactTooltip id='itemSetTooltip' getContent={getTipContent} className='tooltip' arrowColor='transparent' />
+    <OverlayTrigger placement='left' delay={500} overlay={
+      <Tooltip id={`tooltip_${row.name}`} className='tooltip'>
+        <div className='tooltip-item-set'>
+          <img src={'../images/gear/' + row.image} alt={row.name}></img>
+          <h1 className='item-legendary'>{row.name}</h1>
+          <hr />
+          <div dangerouslySetInnerHTML={{ __html: row.htmlDescription }} />
+          <hr />
+          <div className='tooltip-item-set-type'>{row.type}</div>
+          {
+            row.location && row.location.length ?
+              <div className='tooltip-item-set-location'>{row.location[0].name}</div>
+              :
+              undefined
+          }
+        </div>
+      </Tooltip>
+    }>
+      {props.children}
+    </OverlayTrigger>
   );
 }

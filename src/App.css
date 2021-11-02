@@ -3,21 +3,21 @@
   src: url(./fonts/univers67.otf) format("opentype");
 }
 
-::-webkit-scrollbar-button:single-button:vertical:increment {
+.App ::-webkit-scrollbar-button:single-button:vertical:increment {
   background-image: url(images/slider_marker_down.png);
 }
-::-webkit-scrollbar-button:single-button:vertical:decrement {
+.App ::-webkit-scrollbar-button:single-button:vertical:decrement {
   background-image: url(images/slider_marker_up.png);
   padding: 2px;
 }
-::-webkit-scrollbar-thumb {
+.App ::-webkit-scrollbar-thumb {
   background-image: url(images/scrollbox_elevator.png);
   height: 32px;
 }
-::-webkit-scrollbar-track {
+.App ::-webkit-scrollbar-track {
   color: black;
 }
-::-webkit-scrollbar {
+.App ::-webkit-scrollbar {
   width: 14px;
 }
 
@@ -26,10 +26,12 @@ h1 {
   font-size: 24px;
   margin: 0px;
   text-align: left;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 20px;
   margin: 0px;
+  text-transform: uppercase;
 }
 
 hr {
@@ -66,6 +68,20 @@ hr {
 }
 .item-legendary {
   color: #eeca2a;
+}
+
+/* item set description highlights */
+.health {
+  color: #c33331;
+}
+.stamina {
+  color: #0d9068;
+}
+.magicka {
+  color: #0d5c9c;
+}
+.buff {
+  color: #c69510;
 }
 
 .App {

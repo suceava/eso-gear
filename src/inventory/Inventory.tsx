@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { 
+import {
   useTable,
   useExpanded,
   Cell,
@@ -8,9 +8,7 @@ import {
   Row,
   TableInstance
 } from 'react-table';
-import ReactTooltip from 'react-tooltip';
-import { ItemSetToolTip } from '../tooltips/ToolTips';
-
+import { ItemSetTooltip } from '../tooltips/Tooltips';
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
 import treeClosedImage from '../images/tree_closed_up.png';
@@ -42,7 +40,7 @@ function getTable(tableInstance: TableInstance<InventoryTableData>) {
               {
                 headerGroup.headers.map((column: HeaderGroup<InventoryTableData>) => (
                   <th {...column.getHeaderProps()}>
-                    { column.render('Header') }
+                    {column.render('Header')}
                   </th>
                 ))
               }
@@ -60,7 +58,7 @@ function getTable(tableInstance: TableInstance<InventoryTableData>) {
                   row.cells.map((cell: Cell<InventoryTableData>) => {
                     return (
                       <td {...cell.getCellProps()}>
-                        { cell.render('Cell') }
+                        {cell.render('Cell')}
                       </td>
                     );
                   })
@@ -76,8 +74,6 @@ function getTable(tableInstance: TableInstance<InventoryTableData>) {
 
 function rowExpandOnClick(originalOnClick: any) {
   return (e: any) => {
-    console.log('rebuilding?');
-    ReactTooltip.rebuild();
     if (originalOnClick) {
       originalOnClick(e);
     }
@@ -89,12 +85,13 @@ function Inventory() {
   const columns = useMemo(() => [
     {
       id: 'expander',
-      Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => {
-        const img = <img src={isAllRowsExpanded ? treeOpenImage : treeClosedImage} alt={isAllRowsExpanded ? 'Expand' : 'Collapse'}></img>
-        const props = getToggleAllRowsExpandedProps();
-        props.onClick = rowExpandOnClick(props.onClick);
-        return ( <span {...props}>{img}</span>);
-      },
+      // Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => {
+      //   const img = <img src={isAllRowsExpanded ? treeOpenImage : treeClosedImage} alt={isAllRowsExpanded ? 'Expand' : 'Collapse'}></img>
+      //   const props = getToggleAllRowsExpandedProps();
+      //   props.onClick = rowExpandOnClick(props.onClick);
+      //   return ( <span {...props}>{img}</span>);
+      // },
+      Header: '',
       Cell: ({ row }: { row: any }) => {
         let img;
         if (row.canExpand) {
@@ -102,14 +99,7 @@ function Inventory() {
         }
         const props = row.getToggleRowExpandedProps();
         props.onClick = rowExpandOnClick(props.onClick);
-        return ( <span {...props}>{img}</span> );
-      }
-    } as Column<InventoryTableData>,
-    {
-      Header: '',
-      accessor: 'image',
-      Cell: ({ row }: { row: any }) => {
-        return ( <img src={"../images/gear/" + row.values.image} alt={row.values.name} data-tip={row.values.name} data-for='itemSetTooltip'></img> );
+        return (<span {...props}>{img}</span>);
       }
     } as Column<InventoryTableData>,
     {
@@ -121,7 +111,14 @@ function Inventory() {
         if (row.depth > 0) {
           className += 'item-legendary ';
         }
-        return ( <span className={className}>{row.values.name}</span> );
+        return (
+          <ItemSetTooltip row={row.original}>
+            <div>
+              <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
+              <span className={className}>{row.values.name}</span>
+            </div>
+          </ItemSetTooltip>
+        );
       }
     } as Column<InventoryTableData>
   ], []);
@@ -133,12 +130,11 @@ function Inventory() {
   const tableInstance = useTable({ columns, data, getSubRows }, useExpanded);
 
   return (
-    <div className="Inventory window">
-      <ItemSetToolTip />
+    <div className='Inventory window'>
       <h1>INVENTORY</h1>
-      <hr/>
-      <div className="inventory-container">
-        { getTable(tableInstance) }
+      <hr />
+      <div className='inventory-container'>
+        {getTable(tableInstance)}
       </div>
     </div>
   );
