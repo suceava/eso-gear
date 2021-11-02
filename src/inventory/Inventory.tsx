@@ -8,11 +8,16 @@ import {
   Row,
   TableInstance
 } from 'react-table';
-import { ItemSetTooltip } from '../tooltips/Tooltips';
+import { InventoryFilter } from './InventoryFilter';
+import { ItemSetTooltip, ItemTooltip } from '../tooltips/Tooltips';
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
 import treeClosedImage from '../images/tree_closed_up.png';
+
+// json data
 import setsData from '../data/eso-sets.json';
+// enforce typing
+const ESO_SETS: Array<EsoSet> = setsData as Array<EsoSet>;
 
 interface InventoryTableData {
   image: string,
@@ -81,7 +86,7 @@ function rowExpandOnClick(originalOnClick: any) {
 }
 
 function Inventory() {
-  const data: InventoryTableData[] = useMemo(() => setsData.ESO_SETS, []);
+  const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
   const columns = useMemo(() => [
     {
       id: 'expander',
@@ -108,17 +113,30 @@ function Inventory() {
       Cell: ({ row }: { row: Row<InventoryTableData> }) => {
         // console.log(row);
         let className = '';
-        if (row.depth > 0) {
+
+        if (row.depth === 0) {
+          // top level => item set
+          return (
+            <ItemSetTooltip row={row.original}>
+              <div>
+                <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
+                <span className={className}>{row.values.name}</span>
+              </div>
+            </ItemSetTooltip>
+          );
+        } else {
+          // item of a set
           className += 'item-legendary ';
+
+          return (
+            <ItemTooltip row={row.original}>
+              <div className='inventory-item-row'>
+                <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
+                <span className={className}>{row.values.name}</span>
+              </div>
+            </ItemTooltip>
+          );
         }
-        return (
-          <ItemSetTooltip row={row.original}>
-            <div>
-              <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
-              <span className={className}>{row.values.name}</span>
-            </div>
-          </ItemSetTooltip>
-        );
       }
     } as Column<InventoryTableData>
   ], []);
@@ -132,6 +150,8 @@ function Inventory() {
   return (
     <div className='Inventory window'>
       <h1>INVENTORY</h1>
+      <hr />
+      <InventoryFilter />
       <hr />
       <div className='inventory-container'>
         {getTable(tableInstance)}

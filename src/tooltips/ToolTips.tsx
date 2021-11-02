@@ -8,7 +8,7 @@ export function ItemSetTooltip(props: any) {
 
   return (
     <OverlayTrigger placement='left' delay={500} overlay={
-      <Tooltip id={`tooltip_${row.name}`} className='tooltip'>
+      <Tooltip id={`tooltip_set_${row.name}`} className='tooltip'>
         <div className='tooltip-item-set'>
           <img src={'../images/gear/' + row.image} alt={row.name}></img>
           <h1 className='item-legendary'>{row.name}</h1>
@@ -22,6 +22,21 @@ export function ItemSetTooltip(props: any) {
               :
               undefined
           }
+        </div>
+      </Tooltip>
+    }>
+      {props.children}
+    </OverlayTrigger>
+  );
+}
+
+export function ItemTooltip(props: any) {
+  const row = props.row;
+
+  return (
+    <OverlayTrigger placement='left' delay={500} overlay={
+      <Tooltip id={`tooltip_item_${row.name}`} className='tooltip'>
+        <div className='tooltip-item'>
         </div>
       </Tooltip>
     }>
