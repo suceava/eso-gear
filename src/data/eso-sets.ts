@@ -60,10 +60,10 @@ export enum EsoStat {
   physicalResistance = 'physicalResistance',
   healingDone = 'healingDone',
   healingTaken = 'healingTaken'
-}
+};
 
-export interface EsoBonusStat {
-  [key as EsoStat]: number | undefined
+export type EsoBonusStat = {
+  [key in EsoStat]: number | undefined
   // armor: number | undefined,
   // maximumHealth: number | undefined,
   // maximumMagicka: number | undefined,
@@ -86,35 +86,37 @@ export interface EsoBonusStat {
   // healingTaken: number | undefined,
 }
 
-export interface EsoSetBonus {
-  string: {
-    description: string,
-    stats: EsoBonusStat[] | undefined,
-    buffs: string[] | undefined
-  }
-}
+export type EsoSetBonus = {
+  description: string,
+  stats: EsoBonusStat[] | undefined,
+  buffs: string[] | undefined
+};
 
-export interface EsoItem {
+export type EsoItem = {
   name: string,
   image: string,
   slot: EsoSlot,
   itemType: EsoItemType,
   armorType: EsoArmorType | undefined
-}
+};
 
-export interface EsoLocation {
+export type EsoLocation = {
   name: string,
   link: string
-}
+};
 
-export interface EsoSet {
+export type EsoSet = {
   image: string,
   name: string,
   type: EsoSetType,
   link: string,
   htmlDescription: string,
   bonuses: {
-    [key as string]: EsoSetBonus
+    '1': EsoSetBonus | undefined,
+    '2': EsoSetBonus | undefined,
+    '3': EsoSetBonus | undefined,
+    '4': EsoSetBonus | undefined,
+    '5': EsoSetBonus | undefined
   }
   dlc: string | null,
   style: string | null,
@@ -122,4 +124,4 @@ export interface EsoSet {
   items: {
     list: EsoItem[]
   }
-}
+};

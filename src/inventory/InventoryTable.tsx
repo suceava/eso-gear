@@ -9,7 +9,7 @@ import {
   Row
 } from 'react-table';
 
-import { EsoSet, EsoItem, EsoItemType, EsoSlot } from '../data/eso-sets';
+import { EsoSet, EsoItem, EsoItemType } from '../data/eso-sets';
 import { InventoryFilterType } from './InventorySettings';
 import { ItemSetTooltip, ItemTooltip } from '../tooltips/Tooltips';
 
@@ -108,24 +108,18 @@ export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) 
       return rows;
     }
 
+    const filterItemType = props.inventoryFilter as unknown as EsoItemType;
+
     return rows.filter(r => {
       if (r.depth === 0) {
         // set -> must contain an item matching filter
         const orig: EsoSet = r.original as EsoSet;
-        return orig.items.list.find((i: EsoItem) => i.itemType === (props.inventoryFilter as EsoItemType));
-        // if (props.inventoryFilter === InventoryFilterType.jewelry) {
-        //   return orig.items.list.find((i: EsoItem) => i.slot === EsoSlot.ring || i.slot === EsoSlot.neck);
-        // }
-      } else {
-        // item
-        const orig: EsoItem = r.original as EsoItem;
-        return orig.itemType === (props.inventoryFilter as EsoItemType);
-        // if (props.inventoryFilter === InventoryFilterType.jewelry) {
-        //   return orig.slot === EsoSlot.ring || orig.slot === EsoSlot.neck;
-        // }
+        return orig.items.list.find((i: EsoItem) => i.itemType === filterItemType);
       }
 
-      return true;
+      // item
+      const orig: EsoItem = r.original as EsoItem;
+      return orig.itemType === filterItemType;
     });
   }
 
