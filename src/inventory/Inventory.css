@@ -68,6 +68,9 @@
     url(../images/inventory_tabicon_weapons_up.png),
     url(../images/inventory_tabicon_weapons_over.png);
 }
+.inventory-filter-button-weapons.selected {
+  background-image: url(../images/inventory_tabicon_weapons_down.png);
+}
 
 .inventory-filter-button-armor {
   background-image: url(../images/inventory_tabicon_armor_up.png);
@@ -77,6 +80,9 @@
     url(../images/inventory_tabicon_armor_up.png),
     url(../images/inventory_tabicon_armor_over.png);
 }
+.inventory-filter-button-armor.selected {
+  background-image: url(../images/inventory_tabicon_armor_down.png);
+}
 
 .inventory-filter-button-jewelry {
   background-image: url(../images/jewelry_tabicon_icon_up.png);
@@ -85,4 +91,7 @@
   background-image:
     url(../images/jewelry_tabicon_icon_up.png),
     url(../images/jewelry_tabicon_icon_over.png);
+}
+.inventory-filter-button-jewelry.selected {
+  background-image: url(../images/jewelry_tabicon_icon_down.png);
 }

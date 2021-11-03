@@ -1,14 +1,40 @@
 // import 'bootstrap/dist/css/bootstrap-grid.min.css';
+// import { useState } from 'react';
 import { ButtonToolbar, Button } from 'react-bootstrap';
+
+import {
+  InventorySettings,
+  InventoryFilterType
+} from './InventorySettings';
+
 import './Inventory.css';
 
-export function InventoryFilter(props: any) {
+export function InventoryFilter(props: {
+  settings: InventorySettings,
+  filterOnChange: (filter: InventoryFilterType) => void
+}) {
+
+  const filterButtonOnClick = (e: any, filter: InventoryFilterType) => {
+    props.filterOnChange(filter);
+  }
+
   return (
     <ButtonToolbar className='inventory-filter-button-toolbar'>
-      <Button className='inventory-filter-button-all selected'></Button>
-      <Button className='inventory-filter-button-weapons'></Button>
-      <Button className='inventory-filter-button-armor'></Button>
-      <Button className='inventory-filter-button-jewelry'></Button>
+      {
+        Object.keys(InventoryFilterType).map(f => {
+          let cls = `inventory-filter-button-${f}`;
+          if (props.settings.inventoryFilter === f) {
+            cls += ' selected';
+          }
+          return (
+            <Button
+              key={f}
+              className={cls}
+              onClick={(e) => filterButtonOnClick(e, f as InventoryFilterType)}
+            ></Button>
+          );
+        })
+      }
     </ButtonToolbar>
   );
 }

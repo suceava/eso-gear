@@ -1,6 +1,5 @@
-import React from 'react';
-import './App.css';
 import EquipmentGrid from './equipment/EquipmentGrid';
+import './App.css';
 
 function App() {
   return (

@@ -9,7 +9,13 @@ import {
   TableInstance
 } from 'react-table';
 import { InventoryFilter } from './InventoryFilter';
+import {
+  InventorySettings,
+  InventoryFilterType
+} from './InventorySettings';
+import { useStickyState } from '../stickyState';
 import { ItemSetTooltip, ItemTooltip } from '../tooltips/Tooltips';
+
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
 import treeClosedImage from '../images/tree_closed_up.png';
@@ -86,6 +92,14 @@ function rowExpandOnClick(originalOnClick: any) {
 }
 
 function Inventory() {
+  const [settings, setSettings] = useStickyState<InventorySettings>(new InventorySettings(), 'InventorySettings');
+  const filterOnChange = (filter: InventoryFilterType) => {
+    setSettings(prevSettings => ({
+      ...prevSettings,
+      inventoryFilter: filter
+    }));
+  };
+
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
   const columns = useMemo(() => [
     {
@@ -151,7 +165,7 @@ function Inventory() {
     <div className='Inventory window'>
       <h1>INVENTORY</h1>
       <hr />
-      <InventoryFilter />
+      <InventoryFilter settings={settings} filterOnChange={filterOnChange} />
       <hr />
       <div className='inventory-container'>
         {getTable(tableInstance)}

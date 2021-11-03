@@ -1,4 +1,3 @@
-import React from 'react';
 import Inventory from '../inventory/Inventory';
 import Equipment from './Equipment';
 
