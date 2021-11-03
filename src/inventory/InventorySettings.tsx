@@ -1,3 +1,4 @@
+import { EsoItemType } from '../data/eso-sets';
 
 export enum InventoryFilterType {
   all = 'all',

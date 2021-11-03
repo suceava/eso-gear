@@ -178,12 +178,26 @@ const fixMonsterSetArmorTpe = () => {
   });
 }
 
+const addItemType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (i.slot === 'ring' || i.slot === 'neck') {
+        i.itemType = 'jewelry';
+      } else if (i.slot === 'oneHand' || i.slot === 'twoHands') {
+        i.itemType = 'weapons';
+      } else {
+        i.itemType = 'armor';
+      }
+    });
+  });
+}
 
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
   // extractItemInfo(); // DONE
   // fixMonsterSetArmorTpe(); // DONE
+  addItemType();
 
   // write to file
   const content = 'const ESO_SETS = ' +

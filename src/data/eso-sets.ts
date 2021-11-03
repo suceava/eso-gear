@@ -10,6 +10,12 @@ export enum EsoSetType {
   unknown = 'Unknown'
 };
 
+export enum EsoItemType {
+  armor = 'armor',
+  jewelry = 'jewelry',
+  weapons = 'weapons'
+}
+
 export enum EsoArmorType {
   heavy = 'heavy',
   light = 'light',
@@ -92,6 +98,7 @@ export interface EsoItem {
   name: string,
   image: string,
   slot: EsoSlot,
+  itemType: EsoItemType,
   armorType: EsoArmorType | undefined
 }
 
@@ -107,7 +114,7 @@ export interface EsoSet {
   link: string,
   htmlDescription: string,
   bonuses: {
-    [key as string]: ESOSetBonus
+    [key as string]: EsoSetBonus
   }
   dlc: string | null,
   style: string | null,
