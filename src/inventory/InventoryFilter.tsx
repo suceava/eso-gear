@@ -2,15 +2,12 @@
 // import { useState } from 'react';
 import { ButtonToolbar, Button } from 'react-bootstrap';
 
-import {
-  InventorySettings,
-  InventoryFilterType
-} from './InventorySettings';
+import { InventoryFilterType } from './InventorySettings';
 
 import './Inventory.css';
 
 export function InventoryFilter(props: {
-  settings: InventorySettings,
+  inventoryFilter: InventoryFilterType,
   filterOnChange: (filter: InventoryFilterType) => void
 }) {
 
@@ -23,7 +20,7 @@ export function InventoryFilter(props: {
       {
         Object.keys(InventoryFilterType).map(f => {
           let cls = `inventory-filter-button-${f}`;
-          if (props.settings.inventoryFilter === f) {
+          if (props.inventoryFilter === f) {
             cls += ' selected';
           }
           return (

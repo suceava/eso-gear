@@ -1,4 +1,4 @@
-enum EsoSetType {
+export enum EsoSetType {
   arena = 'Arena',
   craftable = 'Craftable',
   dungeon = 'Dungeon',
@@ -10,13 +10,13 @@ enum EsoSetType {
   unknown = 'Unknown'
 };
 
-enum EsoArmorType {
+export enum EsoArmorType {
   heavy = 'heavy',
   light = 'light',
   medium = 'medium'
 };
 
-enum EsoSlot {
+export enum EsoSlot {
   chest = 'chest',
   feet = 'feet',
   hands = 'hands',
@@ -33,7 +33,7 @@ enum EsoSlot {
   twoHands = 'twoHands'
 };
 
-enum EsoStat {
+export enum EsoStat {
   armor = 'armor',
   maximumHealth = 'maximumHealth',
   maximumMagicka = 'maximumMagicka',
@@ -56,7 +56,7 @@ enum EsoStat {
   healingTaken = 'healingTaken'
 }
 
-interface EsoBonusStat {
+export interface EsoBonusStat {
   [key as EsoStat]: number | undefined
   // armor: number | undefined,
   // maximumHealth: number | undefined,
@@ -80,27 +80,27 @@ interface EsoBonusStat {
   // healingTaken: number | undefined,
 }
 
-interface EsoSetBonus {
+export interface EsoSetBonus {
   string: {
     description: string,
-    stats: Array<EsoBonusStat> | undefined,
-    buffs: Array<string> | undefined
+    stats: EsoBonusStat[] | undefined,
+    buffs: string[] | undefined
   }
 }
 
-interface EsoItem {
+export interface EsoItem {
   name: string,
   image: string,
   slot: EsoSlot,
   armorType: EsoArmorType | undefined
 }
 
-interface EsoLocation {
+export interface EsoLocation {
   name: string,
   link: string
 }
 
-interface EsoSet {
+export interface EsoSet {
   image: string,
   name: string,
   type: EsoSetType,
@@ -111,8 +111,8 @@ interface EsoSet {
   }
   dlc: string | null,
   style: string | null,
-  location: Array<EsoLocation>,
+  location: EsoLocation[],
   items: {
-    list: Array<EsoItem>
+    list: EsoItem[]
   }
 }
