@@ -7,6 +7,7 @@
 }
 
 .inventory-container table {
+  border-collapse: collapse;
   width: 400px;
 }
 .inventory-container thead {
@@ -16,13 +17,17 @@
   display: block;
   height: 630px;
   overflow-y: auto;
+  width: 100%;
 }
-.inventory-container tr {
+.inventory-container thead tr {
   display: table;
 }
 .inventory-container td:first-child,
 .inventory-container th:first-child {
   width: 32px;
+}
+.inventory-container tr:hover {
+  background-color: rgba(31, 72, 72, 0.8);
 }
 
 .inventory-container td img {
