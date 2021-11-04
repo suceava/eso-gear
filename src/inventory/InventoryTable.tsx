@@ -9,9 +9,10 @@ import {
   Row
 } from 'react-table';
 
-import { EsoSet, EsoItem, EsoItemType } from '../data/eso-sets';
+import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType } from './InventorySettings';
-import { ItemSetTooltip, ItemTooltip } from '../tooltips/Tooltips';
+import { EsoSet, EsoItem, EsoItemType } from '../data/eso-sets';
+import { ItemSetTooltip } from '../tooltips/Tooltips';
 
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
@@ -21,7 +22,6 @@ import treeClosedImage from '../images/tree_closed_up.png';
 import setsData from '../data/eso-sets.json';
 // enforce typing
 const ESO_SETS: EsoSet[] = setsData as EsoSet[];
-
 
 interface InventoryTableData {
   image: string,
@@ -41,6 +41,7 @@ function rowExpandOnClick(originalOnClick: any) {
 
 export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
+
   const columns = useMemo(() => [
     {
       id: 'expander',
@@ -79,16 +80,8 @@ export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) 
             </ItemSetTooltip>
           );
         } else {
-          // item of a set
-          className += 'item-legendary ';
-
           return (
-            <ItemTooltip row={row.original}>
-              <div className='inventory-item-row'>
-                <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
-                <span className={className}>{row.values.name}</span>
-              </div>
-            </ItemTooltip>
+            <InventoryItem item={row.original as EsoItem}></InventoryItem>
           );
         }
       }

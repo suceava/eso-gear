@@ -12,7 +12,7 @@
 .gear-slots-col {
   width: 96px;
 }
-.gear-slots-row-1 {
+.gear-slots-row-1 div {
   background-repeat: no-repeat;
   background-position: center;
   height: 96px;
@@ -23,38 +23,101 @@
   height: 288px;
 }
 
-.gear-slot-belt {
-  background-image: url(../images/gearslot_belt.png);
-}
 .gear-slot-chest {
   background-image: url(../images/gearslot_chest.png);
 }
+.gear-slot-chest.drop-target {
+  background-image:
+    url(../images/gearslot_chest.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-feet {
   background-image: url(../images/gearslot_feet.png);
 }
+.gear-slot-feet.drop-target {
+  background-image:
+    url(../images/gearslot_feet.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-hands {
   background-image: url(../images/gearslot_hands.png);
 }
+.gear-slot-hands.drop-target {
+  background-image:
+    url(../images/gearslot_hands.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-head {
   background-image: url(../images/gearslot_head.png);
 }
+.gear-slot-head.drop-target {
+  background-image:
+    url(../images/gearslot_head.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-legs {
   background-image: url(../images/gearslot_legs.png);
 }
-.gear-slot-mainhand {
+.gear-slot-legs.drop-target {
+  background-image:
+    url(../images/gearslot_legs.png),
+    url(../images/gearslot_over2.png);
+}
+
+.gear-slot-oneHand {
   background-image: url(../images/gearslot_mainhand.png);
 }
+.gear-slot-oneHand.drop-target {
+  background-image: url(../images/gearslot_mainhand.png);
+}
+
 .gear-slot-neck {
   background-image: url(../images/gearslot_neck.png);
 }
-.gear-slot-offhand {
+.gear-slot-neck.drop-target {
+  background-image:
+    url(../images/gearslot_neck.png),
+    url(../images/gearslot_over2.png);
+}
+
+.gear-slot-offHand {
   background-image: url(../images/gearslot_offhand.png);
 }
+.gear-slot-offHand.drop-target {
+  background-image:
+    url(../images/gearslot_offhand.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-ring {
   background-image: url(../images/gearslot_ring.png);
 }
+.gear-slot-ring.drop-target {
+  background-image:
+    url(../images/gearslot_ring.png),
+    url(../images/gearslot_over2.png);
+}
+
 .gear-slot-shoulders {
   background-image: url(../images/gearslot_shoulders.png);
+}
+.gear-slot-shoulders.drop-target {
+  background-image:
+    url(../images/gearslot_shoulders.png),
+    url(../images/gearslot_over2.png);
+}
+
+.gear-slot-waist {
+  background-image: url(../images/gearslot_belt.png);
+}
+.gear-slot-waist.drop-target {
+  background-image:
+    url(../images/gearslot_belt.png),
+    url(../images/gearslot_over2.png);
 }
 
 .gear-slot-dummy {
