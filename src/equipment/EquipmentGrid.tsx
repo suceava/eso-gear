@@ -15,7 +15,7 @@ function EquipmentGrid() {
   const build = EquipmentBuild.fromPlainBuild(buildObj);
 
   const buildOnChange = (newBuild: EquipmentBuild) => {
-    setBuild(prevBuild => ({ ...prevBuild, ...newBuild }));
+    setBuild(prevBuild => newBuild);
   };
 
   return (
