@@ -6,13 +6,14 @@ import { InventoryFilterType } from './InventorySettings';
 
 import './Inventory.css';
 
-export function InventoryFilter(props: {
-  inventoryFilter: InventoryFilterType,
-  filterOnChange: (filter: InventoryFilterType) => void
-}) {
+export interface InventoryFilterProps {
+  filter: InventoryFilterType;
+  filterOnChange: (filter: InventoryFilterType) => void;
+}
 
-  const filterButtonOnClick = (e: any, filter: InventoryFilterType) => {
-    props.filterOnChange(filter);
+export function InventoryFilter({ filter, filterOnChange }: InventoryFilterProps) {
+  const filterButtonOnClick = (e: any, newFilter: InventoryFilterType) => {
+    filterOnChange(newFilter);
   }
 
   return (
@@ -20,7 +21,7 @@ export function InventoryFilter(props: {
       {
         Object.keys(InventoryFilterType).map(f => {
           let cls = `inventory-filter-button-${f}`;
-          if (props.inventoryFilter === f) {
+          if (filter === f) {
             cls += ' selected';
           }
           return (

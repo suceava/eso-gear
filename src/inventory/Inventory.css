@@ -26,6 +26,9 @@
 .inventory-container th:first-child {
   width: 32px;
 }
+.inventory-container th:nth-child(2) {
+  width: 90%;
+}
 .inventory-container tr:hover {
   background-color: rgba(31, 72, 72, 0.8);
 }

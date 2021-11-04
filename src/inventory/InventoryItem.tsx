@@ -3,9 +3,11 @@ import { DragPreviewImage, useDrag } from 'react-dnd';
 import { EsoItem } from '../data/eso-sets';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
-export function InventoryItem(props: { item: EsoItem }) {
-  const { item } = props;
+export interface InventoryItemProps {
+  item: EsoItem;
+}
 
+export function InventoryItem({ item }: InventoryItemProps) {
   const [{ opacity }, drag, preview] = useDrag(
     () => ({
       type: item.slot,
@@ -22,7 +24,7 @@ export function InventoryItem(props: { item: EsoItem }) {
   return (
     <>
       <DragPreviewImage connect={preview} src={imgPath} />
-      <ItemTooltip row={item}>
+      <ItemTooltip item={item}>
         <div ref={drag} className='inventory-item-row'>
           <img src={imgPath} alt={item.name}></img>
           <span className='item-legendary'>{item.name}</span>

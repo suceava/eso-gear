@@ -3,8 +3,8 @@ import { useDrop } from 'react-dnd'
 import { EsoItem, EsoSlot } from '../data/eso-sets';
 
 export interface EquipmentSlotProps {
-  slot: EsoSlot,
-  onItemDrop: (item: EsoItem) => void
+  slot: EsoSlot;
+  onItemDrop: (item: EsoItem) => void;
 }
 
 export function EquipmentSlot({ slot, onItemDrop }: EquipmentSlotProps) {

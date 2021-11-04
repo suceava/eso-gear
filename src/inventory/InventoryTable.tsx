@@ -24,11 +24,15 @@ import setsData from '../data/eso-sets.json';
 const ESO_SETS: EsoSet[] = setsData as EsoSet[];
 
 interface InventoryTableData {
-  image: string,
-  name: string,
+  image: string;
+  name: string;
   items?: {
-    list: InventoryTableData[]
+    list: InventoryTableData[];
   }
+}
+
+export interface InventoryTableProps {
+  filter: InventoryFilterType;
 }
 
 function rowExpandOnClick(originalOnClick: any) {
@@ -39,7 +43,7 @@ function rowExpandOnClick(originalOnClick: any) {
   };
 }
 
-export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) {
+export function InventoryTable({ filter }: InventoryTableProps) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
 
   const columns = useMemo(() => [
@@ -97,11 +101,11 @@ export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) 
     columnIds: string[],
     filterValue: string
   ) : Row<InventoryTableData>[] => {
-    if (props.inventoryFilter === InventoryFilterType.all) {
+    if (filter === InventoryFilterType.all) {
       return rows;
     }
 
-    const filterItemType = props.inventoryFilter as unknown as EsoItemType;
+    const filterItemType = filter as unknown as EsoItemType;
 
     return rows.filter(r => {
       if (r.depth === 0) {
@@ -120,7 +124,7 @@ export function InventoryTable(props: { inventoryFilter: InventoryFilterType }) 
     return useMemo(
       () => ({
         ...state,
-        globalFilter: props.inventoryFilter
+        globalFilter: filter
       }),
       [state]
     );

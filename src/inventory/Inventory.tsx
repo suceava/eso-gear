@@ -19,14 +19,13 @@ export function Inventory() {
     }));
   };
 
-
   return (
     <div className='Inventory window'>
       <h1>INVENTORY</h1>
       <hr />
-      <InventoryFilter inventoryFilter={settings.inventoryFilter} filterOnChange={filterOnChange} />
+      <InventoryFilter filter={settings.inventoryFilter} filterOnChange={filterOnChange} />
       <hr />
-      <InventoryTable inventoryFilter={settings.inventoryFilter}></InventoryTable>
+      <InventoryTable filter={settings.inventoryFilter} />
     </div>
   );
 }
