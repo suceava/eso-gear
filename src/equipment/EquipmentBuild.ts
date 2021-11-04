@@ -1,13 +1,13 @@
 import { EsoItem, EsoSlot } from '../data/eso-sets';
 
 export enum EquipmentSlot {
-  chest = 'chest',
-  waist = 'waist',
-  feet = 'feet',
-  legs = 'legs',
-  hands = 'hands',
   head = 'head',
   shoulders = 'shoulders',
+  chest = 'chest',
+  legs = 'legs',
+  hands = 'hands',
+  feet = 'feet',
+  waist = 'waist',
   neck = 'neck',
   ring1 = 'ring1',
   ring2 = 'ring2',
@@ -46,7 +46,7 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
 };
 
 type EquipmentBuildSlot = {
-  [key in EquipmentSlot]: EsoItem;
+  [key in EquipmentSlot]: EsoItem | undefined;
 }
 
 export class EquipmentBuild {
@@ -78,6 +78,17 @@ export class EquipmentBuild {
         console.error(`${item.name} is not a ${slot}`);
         return;
       }
+    }
+
+    if (item.slot === EsoSlot.twoHands) {
+      // clear out off hand slot
+      delete this.items[EquipmentSlot.offHand];
+    }
+    if (slot === EquipmentSlot.offHand && 
+      this.items[EquipmentSlot.mainHand] && 
+      this.items[EquipmentSlot.mainHand]?.slot === EsoSlot.twoHands) {
+      // clear out main hand slot
+      delete this.items[EquipmentSlot.mainHand];
     }
 
     this.items[slot] = item;
