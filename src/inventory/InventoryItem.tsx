@@ -12,10 +12,13 @@ export function InventoryItem({ item }: InventoryItemProps) {
     () => ({
       type: item.slot,
       item,
-      collect: (monitor) => ({
-        //isDragging: !!monitor.isDragging()
-        opacity: monitor.isDragging() ? 1 : 1
-      })
+      collect: (monitor) => {
+        // console.log(monitor);
+        return ({
+          //isDragging: !!monitor.isDragging()
+          opacity: monitor.isDragging() ? 1 : 1
+        });
+      }
     })
   );
 

@@ -1,16 +1,24 @@
 import { useCallback } from 'react';
 
-import { EquipmentSlot } from './EquipmentSlot';
-import { EsoItem, EsoSlot } from '../data/eso-sets';
+import { EquipmentBuild, EquipmentSlot } from './EquipmentBuild';
+import { EquipmentItem } from './EquipmentItem';
+import { EsoItem } from '../data/eso-sets';
 
 import './Equipment.css';
 
-function Equipment() {
+export interface EquipmentProps {
+  build: EquipmentBuild;
+  buildOnChange: (newBuild: EquipmentBuild) => void;
+}
+
+function Equipment({ build, buildOnChange }: EquipmentProps) {
   const onEquip = useCallback(
-    (item: EsoItem) => {
-      console.log(item);
+    (droppedItem: EsoItem, slot: EquipmentSlot) => {
+      console.log('equipped', droppedItem, slot);
+      build.equip(droppedItem, slot);
+      buildOnChange(build);
     },
-    []
+    [build, buildOnChange]
   );
 
   return (
@@ -24,18 +32,18 @@ function Equipment() {
             <div className='gear-slot-empty'></div>
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.shoulders} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.shoulders} item={build.items[EquipmentSlot.shoulders]} onItemDrop={onEquip} />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.hands} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.hands} item={build.items[EquipmentSlot.hands]} onItemDrop={onEquip} />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.legs} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.legs} item={build.items[EquipmentSlot.legs]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.head} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.head} item={build.items[EquipmentSlot.head]} onItemDrop={onEquip} />
           </div>
           <div className='gear-slots-row-3 gear-slot-dummy'></div>
         </div>
@@ -44,13 +52,13 @@ function Equipment() {
             <div className='gear-slot-empty'></div>
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.chest} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.chest} item={build.items[EquipmentSlot.chest]} onItemDrop={onEquip} />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.waist} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.waist} item={build.items[EquipmentSlot.waist]} onItemDrop={onEquip} />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.feet} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.feet} item={build.items[EquipmentSlot.feet]} onItemDrop={onEquip} />
           </div>
         </div>
       </div>
@@ -60,17 +68,17 @@ function Equipment() {
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.neck} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.neck} item={build.items[EquipmentSlot.neck]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.ring} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.ring1} item={build.items[EquipmentSlot.ring1]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.ring} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.ring2} item={build.items[EquipmentSlot.ring2]} onItemDrop={onEquip} />
           </div>
         </div>
       </div>
@@ -78,12 +86,12 @@ function Equipment() {
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.oneHand} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.mainHand} item={build.items[EquipmentSlot.mainHand]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentSlot slot={EsoSlot.offHand} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.offHand} item={build.items[EquipmentSlot.offHand]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
