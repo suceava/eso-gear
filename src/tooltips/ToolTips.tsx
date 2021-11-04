@@ -9,7 +9,7 @@ const popperConfig = {
     {
       name: 'offset',
       options: {
-        offset: [0, 50]
+        offset: [0, 64]
       }
     }
   ]
@@ -19,7 +19,7 @@ export function ItemSetTooltip(props: any) {
   const row = props.row;
 
   return (
-    <OverlayTrigger placement='right' popperConfig={popperConfig} overlay={
+    <OverlayTrigger placement='bottom' flip={true} popperConfig={popperConfig} overlay={
       <Tooltip id={`tooltip_set_${row.name}`} className='tooltip'>
         <div className='tooltip-item-set'>
           <img src={'../images/gear/' + row.image} alt={row.name}></img>
@@ -52,7 +52,8 @@ export function ItemTooltip(props: any) {
 
   return (
     <OverlayTrigger
-      placement='right'
+      placement='bottom'
+      flip={true}
       popperConfig={popperConfig}
       overlay={
         <Tooltip id={`tooltip_item_${item.name}`} className='tooltip'>

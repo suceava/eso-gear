@@ -4,6 +4,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend'
 import Equipment from './Equipment';
 import { EquipmentBuild } from './EquipmentBuild';
 import { Inventory } from '../inventory/Inventory';
+import { Summary } from '../summary/Summary';
 import { useStickyState } from '../stickyState';
 
 
@@ -20,7 +21,8 @@ function EquipmentGrid() {
   return (
     <div className="EquipmentGrid">
       <DndProvider backend={HTML5Backend}>
-        <Equipment build={build} buildOnChange={buildOnChange} ></Equipment>
+        <Summary build={build}></Summary>
+        <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
         <Inventory></Inventory>
       </DndProvider>
     </div>

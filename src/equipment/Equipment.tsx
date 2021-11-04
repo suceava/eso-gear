@@ -64,7 +64,6 @@ function Equipment({ build, buildOnChange }: EquipmentProps) {
       </div>
       <hr/>
       <h2>ACCESSORIES</h2>
-      <hr/>
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
@@ -82,6 +81,7 @@ function Equipment({ build, buildOnChange }: EquipmentProps) {
           </div>
         </div>
       </div>
+      <hr/>
       <h2>WEAPONS</h2>
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>

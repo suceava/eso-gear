@@ -11,7 +11,7 @@ export interface EquipmentSlotProps {
 }
 
 export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
-  const [{ isOver, canDrop }, drop] = useDrop({
+  const [{ canDrop }, drop] = useDrop({
     accept: equipmentSlotToEsoSlot(slot),
     drop: (droppedItem: EsoItem) => onItemDrop(droppedItem, slot),
     collect: (monitor) => ({

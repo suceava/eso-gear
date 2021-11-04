@@ -1,13 +1,13 @@
 import { EsoItem, EsoSlot } from '../data/eso-sets';
 
 export enum EquipmentSlot {
-  head = 'head',
-  shoulders = 'shoulders',
-  hands = 'hands',
-  legs = 'legs',
   chest = 'chest',
   waist = 'waist',
   feet = 'feet',
+  legs = 'legs',
+  hands = 'hands',
+  head = 'head',
+  shoulders = 'shoulders',
   neck = 'neck',
   ring1 = 'ring1',
   ring2 = 'ring2',
