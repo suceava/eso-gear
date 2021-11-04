@@ -6,7 +6,7 @@ import { EsoItem } from '../data/eso-sets';
 
 export interface EquipmentSlotProps {
   slot: EquipmentSlot;
-  item: EsoItem | null;
+  item: EsoItem | undefined;
   onItemDrop: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
 }
 

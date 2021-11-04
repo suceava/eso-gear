@@ -63,7 +63,7 @@ export enum EsoStat {
 };
 
 export type EsoBonusStat = {
-  [key in EsoStat]: number | undefined
+  [key in EsoStat]: number | undefined;
   // armor: number | undefined,
   // maximumHealth: number | undefined,
   // maximumMagicka: number | undefined,
@@ -87,41 +87,42 @@ export type EsoBonusStat = {
 }
 
 export type EsoSetBonus = {
-  description: string,
-  stats: EsoBonusStat[] | undefined,
-  buffs: string[] | undefined
+  description: string;
+  stats: EsoBonusStat[] | undefined;
+  buffs: string[] | undefined;
 };
 
 export type EsoItem = {
-  name: string,
-  image: string,
-  slot: EsoSlot,
-  itemType: EsoItemType,
-  armorType: EsoArmorType | undefined
+  name: string;
+  image: string;
+  slot: EsoSlot;
+  itemType: EsoItemType;
+  armorType: EsoArmorType | undefined;
+  set: EsoSet | undefined;
 };
 
 export type EsoLocation = {
-  name: string,
-  link: string
+  name: string;
+  link: string;
 };
 
 export type EsoSet = {
-  image: string,
-  name: string,
-  type: EsoSetType,
-  link: string,
-  htmlDescription: string,
+  image: string;
+  name: string;
+  type: EsoSetType;
+  link: string;
+  htmlDescription: string;
   bonuses: {
-    '1': EsoSetBonus | undefined,
-    '2': EsoSetBonus | undefined,
-    '3': EsoSetBonus | undefined,
-    '4': EsoSetBonus | undefined,
-    '5': EsoSetBonus | undefined
+    '1': EsoSetBonus | undefined;
+    '2': EsoSetBonus | undefined;
+    '3': EsoSetBonus | undefined;
+    '4': EsoSetBonus | undefined;
+    '5': EsoSetBonus | undefined;
   }
-  dlc: string | null,
-  style: string | null,
-  location: EsoLocation[],
+  dlc: string | null;
+  style: string | null;
+  location: EsoLocation[];
   items: {
-    list: EsoItem[]
+    list: EsoItem[];
   }
 };
