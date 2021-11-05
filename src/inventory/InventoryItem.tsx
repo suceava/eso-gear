@@ -1,3 +1,4 @@
+import { useRef, useState } from 'react';
 import { DragPreviewImage, useDrag } from 'react-dnd';
 
 import { EsoItem } from '../data/eso-sets';
@@ -8,31 +9,51 @@ export interface InventoryItemProps {
 }
 
 export function InventoryItem({ item }: InventoryItemProps) {
-  const [{ opacity }, drag, preview] = useDrag(
+  const [showTip, setShowTip] = useState(false);
+
+  const [{ isDragging }, drag, preview] = useDrag(
     () => ({
       type: item.slot,
       item,
       collect: (monitor) => {
-        // console.log(monitor);
         return ({
-          //isDragging: !!monitor.isDragging()
+          isDragging: !!monitor.isDragging(),
           opacity: monitor.isDragging() ? 1 : 1
         });
       }
     })
   );
 
+  const onMouseEnterRow = () => {
+    if (!isDragging) {
+      console.log('showing');
+      setShowTip(true);
+    }
+  }
+
+  if (isDragging && showTip) {
+    // hide tooltip when dragging
+    setShowTip(false);
+  }
+
+  const tooltipRef = useRef<HTMLDivElement>(null);
   const imgPath = `../images/gear/${item.image}`;
 
   return (
     <>
       <DragPreviewImage connect={preview} src={imgPath} />
-      <ItemTooltip item={item}>
-        <div ref={drag} className='inventory-item-row'>
+      <div
+        ref={tooltipRef}
+        className='inventory-item-cell inventory-item'
+        onMouseEnter={onMouseEnterRow}
+        onMouseLeave={() => setShowTip(false)}
+      >
+        <div ref={drag}>
           <img src={imgPath} alt={item.name}></img>
           <span className='item-legendary'>{item.name}</span>
         </div>
-      </ItemTooltip>
+      </div>
+      <ItemTooltip item={item} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }

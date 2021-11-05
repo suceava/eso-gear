@@ -29,16 +29,16 @@
 .inventory-container th:nth-child(2) {
   width: 90%;
 }
-.inventory-container tr:hover {
-  background-color: rgba(31, 72, 72, 0.8);
-}
 
 .inventory-container td img {
   vertical-align: middle;
   margin-right: 5px;
 }
 
-.inventory-item-row {
+.inventory-item-cell:hover {
+  background-color: rgba(31, 72, 72, 0.8);
+}
+.inventory-item {
   padding-left: 25px;
 }
 

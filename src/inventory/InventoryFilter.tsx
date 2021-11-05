@@ -29,6 +29,7 @@ export function InventoryFilter({ filter, filterOnChange }: InventoryFilterProps
               key={f}
               className={cls}
               onClick={(e) => filterButtonOnClick(e, f as InventoryFilterType)}
+              title={f}
             ></Button>
           );
         })

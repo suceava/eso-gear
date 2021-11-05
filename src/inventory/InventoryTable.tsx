@@ -75,7 +75,7 @@ export function InventoryTable({ filter }: InventoryTableProps) {
           // top level => item set
           return (
             <ItemSetTooltip row={row.original}>
-              <div>
+              <div className='inventory-item-cell'>
                 <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
                 <span className={className}>{row.values.name}</span>
               </div>

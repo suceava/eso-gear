@@ -1,7 +1,7 @@
 import { useDrop } from 'react-dnd'
 
 import { EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
-import { ItemTooltip } from '../tooltips/Tooltips';
+import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 
 export interface EquipmentSlotProps {
@@ -31,9 +31,9 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
   return (
     <div ref={drop} className={className}>
       {item && 
-        <ItemTooltip item={item}>
+        <SimpleItemTooltip item={item}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
-        </ItemTooltip>
+        </SimpleItemTooltip>
     }
     </div>
   );
