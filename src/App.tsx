@@ -1,10 +1,10 @@
-import EquipmentGrid from './equipment/EquipmentGrid';
+import { CreateBuildLayout } from './layouts/CreateBuildLayout';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <EquipmentGrid></EquipmentGrid>
+      <CreateBuildLayout></CreateBuildLayout>
     </div>
   );
 }

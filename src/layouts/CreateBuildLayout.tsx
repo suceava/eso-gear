@@ -1,14 +1,14 @@
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 
-import Equipment from './Equipment';
-import { EquipmentBuild } from './EquipmentBuild';
+import Equipment from '../equipment/Equipment';
+import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { Inventory } from '../inventory/Inventory';
 import { Summary } from '../summary/Summary';
 import { useStickyState } from '../stickyState';
 
 
-function EquipmentGrid() {
+export function CreateBuildLayout() {
   // buildObj will be deserialized as a plain object
   const [buildObj, setBuild] = useStickyState<EquipmentBuild>(new EquipmentBuild(), 'EquipmentBuild');
   // instantiate build from buildObj
@@ -28,5 +28,3 @@ function EquipmentGrid() {
     </div>
   );
 }
-
-export default EquipmentGrid;
