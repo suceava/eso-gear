@@ -16,7 +16,7 @@ export function GearSummary({ build }: GearSummaryProps) {
           return (
             <Row key={enumKey}>
               <Col xs={4}>{EquipmentSlot[enumKey]}</Col>
-              <Col xs={8}>{item?.name}</Col>
+              <Col xs={8}>{item?.setName}</Col>
             </Row>
           );
         })

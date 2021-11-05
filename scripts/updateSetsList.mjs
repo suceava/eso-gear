@@ -192,12 +192,21 @@ const addItemType = () => {
   });
 }
 
+const addSetName = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      i.setName = s.name;
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
   // extractItemInfo(); // DONE
   // fixMonsterSetArmorTpe(); // DONE
-  addItemType();
+  // addItemType(); // DONE
+  addSetName();
 
   // write to file
   const content = 'const ESO_SETS = ' +

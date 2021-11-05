@@ -13,15 +13,13 @@ import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType } from './InventorySettings';
 import { EsoSet, EsoItem, EsoItemType } from '../data/eso-sets';
 import { ItemSetTooltip } from '../tooltips/Tooltips';
+import { loadEsoSetData } from '../data/esoSetDataLoader';
 
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
 import treeClosedImage from '../images/tree_closed_up.png';
 
-// json data
-import setsData from '../data/eso-sets.json';
-// enforce typing
-const ESO_SETS: EsoSet[] = setsData as EsoSet[];
+const ESO_SETS: EsoSet[] = loadEsoSetData();
 
 interface InventoryTableData {
   image: string;

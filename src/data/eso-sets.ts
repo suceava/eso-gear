@@ -98,7 +98,7 @@ export type EsoItem = {
   slot: EsoSlot;
   itemType: EsoItemType;
   armorType: EsoArmorType | undefined;
-  set: EsoSet | undefined;
+  setName: string;
 };
 
 export type EsoLocation = {

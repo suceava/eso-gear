@@ -15,7 +15,8 @@
   width: 350px;
 }
 
-.tooltip h1 {
+.tooltip h1,
+.tooltip h3 {
   text-align: center;
 }
 
@@ -28,4 +29,9 @@
 }
 .tooltip-item-set-location {
   float: right;
+}
+
+.tooltip-item {
+  align-content: center;
+  text-align: center;
 }

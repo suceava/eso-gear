@@ -61,6 +61,7 @@ export function ItemTooltip(props: any) {
             <img src={'../images/gear/' + item.image} alt={item.name}></img>
             <h1 className='item-legendary'>{item.name}</h1>
             <hr />
+            <h3>{`Part of the ${item.setName} set`}</h3>
           </div>
         </Tooltip>
       }
