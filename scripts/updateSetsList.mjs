@@ -241,7 +241,7 @@ const itemNameArmorMap = {
   "head_heavy": "Helm",
   "head_medium": "Helmet",
   "head_light": "Hat",
-  "shoulders_heavy": "Pauldrons",
+  "shoulders_heavy": "Pauldron",
   "shoulders_medium": "Arm cops",
   "shoulders_light": "Epaulets",
   "hands_heavy": "Gauntlets",
@@ -309,7 +309,7 @@ const updateData = async () => {
   // addItemType(); // DONE
   // addSetName(); // DONE
 
-  updateItemNames("Ranger's Gait", '', 'of the Ranger');
+  updateItemNames("Beekeeper's Gear", "Beekeeper's", "");
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file

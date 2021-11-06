@@ -9397,7 +9397,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Khajiit Mace 4",
+          "name": "Beekeeper's Mace",
           "image": "gear_khajiit_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -9405,7 +9405,7 @@ const ESO_SETS = [
           "id": 2567060131
         },
         {
-          "name": "Khajiit Dagger 4",
+          "name": "Beekeeper's Dagger",
           "image": "gear_khajiit_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -9413,7 +9413,7 @@ const ESO_SETS = [
           "id": 2967219966
         },
         {
-          "name": "Khajiit Axe 4",
+          "name": "Beekeeper's Axe",
           "image": "gear_khajiit_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -9421,7 +9421,7 @@ const ESO_SETS = [
           "id": 1797733855
         },
         {
-          "name": "Khajiit Sword 4",
+          "name": "Beekeeper's Sword",
           "image": "gear_khajiit_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -9429,7 +9429,7 @@ const ESO_SETS = [
           "id": 2908026458
         },
         {
-          "name": "Khajiit Shield 4",
+          "name": "Beekeeper's Shield",
           "image": "gear_khajiit_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -9437,7 +9437,7 @@ const ESO_SETS = [
           "id": 816230169
         },
         {
-          "name": "Khajiit Maul 4",
+          "name": "Beekeeper's Maul",
           "image": "gear_khajiit_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9445,7 +9445,7 @@ const ESO_SETS = [
           "id": 2751711688
         },
         {
-          "name": "Khajiit Greatsword 4",
+          "name": "Beekeeper's Greatsword",
           "image": "gear_khajiit_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9453,7 +9453,7 @@ const ESO_SETS = [
           "id": 420185947
         },
         {
-          "name": "Khajiit Battle Axe 4",
+          "name": "Beekeeper's Battle Axe",
           "image": "gear_khajiit_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9461,7 +9461,7 @@ const ESO_SETS = [
           "id": 3985697030
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Beekeeper's Restoration Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9469,7 +9469,7 @@ const ESO_SETS = [
           "id": 841472530
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Beekeeper's Inferno Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9477,7 +9477,7 @@ const ESO_SETS = [
           "id": 841472530
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Beekeeper's Ice Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9485,7 +9485,7 @@ const ESO_SETS = [
           "id": 841472530
         },
         {
-          "name": "Khajiit Bow 4",
+          "name": "Beekeeper's Bow",
           "image": "gear_khajiit_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9493,7 +9493,7 @@ const ESO_SETS = [
           "id": 3004474640
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Beekeeper's Lightning Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -9501,7 +9501,7 @@ const ESO_SETS = [
           "id": 841472530
         },
         {
-          "name": "Khajiit Sabatons 4",
+          "name": "Beekeeper's Sabatons",
           "image": "gear_khajiit_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -9510,7 +9510,7 @@ const ESO_SETS = [
           "id": 3856237276
         },
         {
-          "name": "Khajiit Helm 3",
+          "name": "Beekeeper's Helm",
           "image": "gear_khajiit_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -9519,7 +9519,7 @@ const ESO_SETS = [
           "id": 1181765334
         },
         {
-          "name": "Ring",
+          "name": "Beekeeper's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -9527,7 +9527,7 @@ const ESO_SETS = [
           "id": 77938637
         },
         {
-          "name": "Khajiit Cuirass 4",
+          "name": "Beekeeper's Cuirass",
           "image": "gear_khajiit_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -9536,7 +9536,7 @@ const ESO_SETS = [
           "id": 3531285285
         },
         {
-          "name": "Khajiit Greaves 4",
+          "name": "Beekeeper's Greaves",
           "image": "gear_khajiit_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -9545,7 +9545,7 @@ const ESO_SETS = [
           "id": 2976339049
         },
         {
-          "name": "Necklace",
+          "name": "Beekeeper's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -9553,7 +9553,7 @@ const ESO_SETS = [
           "id": 1558238360
         },
         {
-          "name": "Khajiit Gauntlets 4",
+          "name": "Beekeeper's Gauntlets",
           "image": "gear_khajiit_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -9562,7 +9562,7 @@ const ESO_SETS = [
           "id": 4033317894
         },
         {
-          "name": "Khajiit Pauldrons 4",
+          "name": "Beekeeper's Pauldron",
           "image": "gear_khajiit_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -9571,7 +9571,7 @@ const ESO_SETS = [
           "id": 3306297569
         },
         {
-          "name": "Khajiit Girdle 4",
+          "name": "Beekeeper's Girdle",
           "image": "gear_khajiit_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -87398,7 +87398,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Mace 4",
+          "name": "Mace of Syrabane",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87406,7 +87406,7 @@ const ESO_SETS = [
           "id": 2027327960
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Dagger of Syrabane",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87414,7 +87414,7 @@ const ESO_SETS = [
           "id": 3983982801
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Axe of Syrabane",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87422,7 +87422,7 @@ const ESO_SETS = [
           "id": 2579214070
         },
         {
-          "name": "High Elf Sword 4",
+          "name": "Sword of Syrabane",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87430,7 +87430,7 @@ const ESO_SETS = [
           "id": 3833475467
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Shield of Syrabane",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -87438,7 +87438,7 @@ const ESO_SETS = [
           "id": 2577585478
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Greatsword of Syrabane",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87446,7 +87446,7 @@ const ESO_SETS = [
           "id": 3746162122
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Restoration Staff of Syrabane",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87454,7 +87454,7 @@ const ESO_SETS = [
           "id": 3347317663
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Battle Axe of Syrabane",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87462,7 +87462,7 @@ const ESO_SETS = [
           "id": 1415650831
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Inferno Staff of Syrabane",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87470,7 +87470,7 @@ const ESO_SETS = [
           "id": 3347317663
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Maul of Syrabane",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87478,7 +87478,7 @@ const ESO_SETS = [
           "id": 1920539187
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Ice Staff of Syrabane",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87486,7 +87486,7 @@ const ESO_SETS = [
           "id": 3347317663
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Bow of Syrabane",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87494,7 +87494,7 @@ const ESO_SETS = [
           "id": 1663950873
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Lightning Staff of Syrabane",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87502,7 +87502,7 @@ const ESO_SETS = [
           "id": 3347317663
         },
         {
-          "name": "High Elf Shoes 4",
+          "name": "Shoes of Syrabane",
           "image": "gear_altmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -87511,7 +87511,7 @@ const ESO_SETS = [
           "id": 1286374786
         },
         {
-          "name": "High Elf Hat 3",
+          "name": "Hat of Syrabane",
           "image": "gear_altmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -87520,7 +87520,7 @@ const ESO_SETS = [
           "id": 3134433984
         },
         {
-          "name": "Ring",
+          "name": "Ring of Syrabane",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -87528,7 +87528,7 @@ const ESO_SETS = [
           "id": 1265933577
         },
         {
-          "name": "High Elf Jerkin 4",
+          "name": "Robe of Syrabane",
           "image": "gear_altmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -87537,7 +87537,7 @@ const ESO_SETS = [
           "id": 4189741470
         },
         {
-          "name": "High Elf Breeches 4",
+          "name": "Breeches of Syrabane",
           "image": "gear_altmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -87546,7 +87546,7 @@ const ESO_SETS = [
           "id": 1526619259
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Syrabane",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -87554,7 +87554,7 @@ const ESO_SETS = [
           "id": 34299332
         },
         {
-          "name": "High Elf Gloves 4",
+          "name": "Gloves of Syrabane",
           "image": "gear_altmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -87563,7 +87563,7 @@ const ESO_SETS = [
           "id": 1823355156
         },
         {
-          "name": "High Elf Epaulets 4",
+          "name": "Epaulets of Syrabane",
           "image": "gear_altmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -87572,7 +87572,7 @@ const ESO_SETS = [
           "id": 3591157871
         },
         {
-          "name": "High Elf Sash 4",
+          "name": "Sash of Syrabane",
           "image": "gear_altmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
