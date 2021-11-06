@@ -4869,186 +4869,208 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Sword 4",
+          "name": "Sword of the Veiled Heritance",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1252018947
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Dagger of the Veiled Heritance",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 3964581657
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Axe of the Veiled Heritance",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 4017185902
         },
         {
-          "name": "High Elf Mace 4",
+          "name": "Mace of the Veiled Heritance",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 142526080
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Shield of the Veiled Heritance",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 2483223582
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Greatsword of the Veiled Heritance",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 330610050
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Maul of the Veiled Heritance",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1450926139
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Battle Axe of the Veiled Heritance",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 964603943
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Restoration Staff of the Veiled Heritance",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1815281943
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Inferno Staff of the Veiled Heritance",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1815281943
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Ice Staff of the Veiled Heritance",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1815281943
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Bow of the Veiled Heritance",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 898189601
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Lightning Staff of the Veiled Heritance",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "lifeDrain",
           "id": 1815281943
         },
         {
-          "name": "High Elf Sabatons 4",
+          "name": "Sabatons of the Veiled Heritance",
           "image": "gear_altmer_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 3491640163
         },
         {
-          "name": "High Elf Helm 3",
+          "name": "Helm of the Veiled Heritance",
           "image": "gear_altmer_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 2897011281
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Veiled Heritance",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "healthRecovery",
           "id": 2951647953
         },
         {
-          "name": "High Elf Cuirass 4",
+          "name": "Cuirass of the Veiled Heritance",
           "image": "gear_altmer_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 2826097644
         },
         {
-          "name": "High Elf Greaves 4",
+          "name": "Greaves of the Veiled Heritance",
           "image": "gear_altmer_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 3692035842
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Veiled Heritance",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "healthRecovery",
           "id": 805227980
         },
         {
-          "name": "High Elf Gauntlets 4",
+          "name": "Gauntlets of the Veiled Heritance",
           "image": "gear_altmer_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 1128778535
         },
         {
-          "name": "High Elf Pauldrons 4",
+          "name": "Pauldrons of the Veiled Heritance",
           "image": "gear_altmer_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 3157800960
         },
         {
-          "name": "High Elf Girdle 4",
+          "name": "Girdle of the Veiled Heritance",
           "image": "gear_altmer_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Armor of the Veiled Heritance",
+          "enchantment": "maximumHealth",
           "id": 4097238969
         }
       ]
@@ -33111,186 +33133,208 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Sabatons 4",
+          "name": "Sabatons of the Green Pact",
           "image": "gear_bosmer_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 190089822
         },
         {
-          "name": "Wood Elf Helm 3",
+          "name": "Helm of the Green Pact",
           "image": "gear_bosmer_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 3131877388
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Green Pact",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
           "setName": "Green Pact",
+          "enchantment": "healthRecovery",
           "id": 3301699079
         },
         {
-          "name": "Wood Elf Cuirass 4",
+          "name": "Cuirass of the Green Pact",
           "image": "gear_bosmer_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 474058551
         },
         {
-          "name": "Wood Elf Greaves 4",
+          "name": "Greaves of the Green Pact",
           "image": "gear_bosmer_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 56068095
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Green Pact",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
           "setName": "Green Pact",
+          "enchantment": "healthRecovery",
           "id": 380986738
         },
         {
-          "name": "Wood Elf Gauntlets 4",
+          "name": "Gauntlets of the Green Pact",
           "image": "gear_bosmer_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 3583509000
         },
         {
-          "name": "Wood Elf Pauldrons 4",
+          "name": "Pauldrons of the Green Pact",
           "image": "gear_bosmer_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 4063445467
         },
         {
-          "name": "Wood Elf Girdle 4",
+          "name": "Girdle of the Green Pact",
           "image": "gear_bosmer_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumHealth",
           "id": 1337934058
         },
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Mace of the Green Pact",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 2057195389
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Dagger of the Green Pact",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 3168163032
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Axe of the Green Pact",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 2753408097
         },
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Sword of the Green Pact",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 3155820748
         },
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Shield of the Green Pact",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
           "setName": "Green Pact",
+          "enchantment": "maximumStamina",
           "id": 3995979763
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Greatsword of the Green Pact",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 12221297
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Restoration Staff of the Green Pact",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 4123538384
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Battle Axe of the Green Pact",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 1779140548
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Inferno Staff of the Green Pact",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 4123538384
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Maul of the Green Pact",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 2526139398
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Ice Staff of the Green Pact",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 4123538384
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Bow of the Green Pact",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 2758083142
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Lightning Staff of the Green Pact",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Green Pact",
+          "enchantment": "lifeDrain",
           "id": 4123538384
         }
       ]
@@ -68399,186 +68443,208 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Shoes 4",
+          "name": "Elegant Shoes",
           "image": "gear_altmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 3341511581
         },
         {
-          "name": "High Elf Hat 3",
+          "name": "Elegant Hat",
           "image": "gear_altmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 2118589335
         },
         {
-          "name": "Ring",
+          "name": "Elegant Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
           "setName": "Queen's Elegance",
+          "enchantment": "magickaRecovery",
           "id": 3263355750
         },
         {
-          "name": "High Elf Jerkin 4",
+          "name": "Elegant Jerkin",
           "image": "gear_altmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 1662990731
         },
         {
-          "name": "High Elf Breeches 4",
+          "name": "Elegant Breeches",
           "image": "gear_altmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 1690077424
         },
         {
-          "name": "Necklace",
+          "name": "Elegant Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
           "setName": "Queen's Elegance",
+          "enchantment": "magickaRecovery",
           "id": 196365403
         },
         {
-          "name": "High Elf Gloves 4",
+          "name": "Elegant Gloves",
           "image": "gear_altmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 3842186041
         },
         {
-          "name": "High Elf Epaulets 4",
+          "name": "Elegant Epaulets",
           "image": "gear_altmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 3628819890
         },
         {
-          "name": "High Elf Sash 4",
+          "name": "Elegant Sash",
           "image": "gear_altmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 3513102635
         },
         {
-          "name": "High Elf Mace 4",
+          "name": "Elegant Mace",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3004029879
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Elegant Dagger",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 426543370
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Elegant Axe",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 2233984715
         },
         {
-          "name": "High Elf Sword 4",
+          "name": "Elegant Sword",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3598298790
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Elegant Shield",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
           "setName": "Queen's Elegance",
+          "enchantment": "maximumMagicka",
           "id": 4198387421
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Elegant Maul",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 213275388
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Elegant Restoration Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3386957342
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Elegant Battle Axe",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 2088253858
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Elegant Inferno Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3386957342
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Elegant Greatsword",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 2243152647
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Elegant Ice Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3386957342
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Elegant Bow",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 2667167028
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Elegant Lightning Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Queen's Elegance",
+          "enchantment": "absorbMagicka",
           "id": 3386957342
         }
       ]
@@ -94628,186 +94694,208 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Twin Sisters",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 2317741365
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Twin Sisters",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 3327413151
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Twin Sisters",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 1708175646
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Twin Sisters",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 761519971
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Twin Sisters",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 716391026
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Twin Sisters",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 1311821791
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Twin Sisters",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 2279118724
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Twin Sisters",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 4113158298
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Twin Sisters",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 3242729590
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Twin Sisters",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 3242729590
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Twin Sisters",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 3242729590
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Twin Sisters",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 2376209724
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Twin Sisters",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
           "setName": "Twin Sisters",
+          "enchantment": "absorbStamina",
           "id": 3242729590
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Twin Sisters",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 603698264
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Twin Sisters",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 2217963650
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Twin Sisters",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
           "setName": "Twin Sisters",
+          "enchantment": "staminaRecovery",
           "id": 2606623013
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Twin Sisters",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 27769049
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Twin Sisters",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 1834689005
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Twin Sisters",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
           "setName": "Twin Sisters",
+          "enchantment": "staminaRecovery",
           "id": 3255130384
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Twin Sisters",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 1652821674
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Twin Sisters",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 3839317117
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Twin Sisters",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
           "itemType": "armor",
           "setName": "Twin Sisters",
+          "enchantment": "maximumStamina",
           "id": 594904748
         }
       ]
