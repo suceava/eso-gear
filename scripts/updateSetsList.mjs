@@ -237,6 +237,70 @@ const addIDs = () => {
   });
 }
 
+const itemNameArmorMap = {
+  "head_heavy": "Helm",
+  "head_medium": "Helmet",
+  "head_light": "Hat",
+  "shoulders_heavy": "Pauldrons",
+  "shoulders_medium": "Arm cops",
+  "shoulders_light": "Epaulets",
+  "hands_heavy": "Gauntlets",
+  "hands_medium": "Bracers",
+  "hands_light": "Gloves",
+  "chest_heavy": "Cuirass",
+  "chest_medium": "Jack",
+  "chest_light": "Robe",
+  "legs_heavy": "Greaves",
+  "legs_medium": "Guards",
+  "legs_light": "Breeches",
+  "feet_heavy": "Sabatons",
+  "feet_medium": "Boots",
+  "feet_light": "Shoes",
+  "waist_heavy": "Girdle",
+  "waist_medium": "Belt",
+  "waist_light": "Sash"
+}
+const itemNameWeaponMap = ['Battle Axe', 'Axe', 'Bow', 'Dagger', 'Mace', 'Sword', 'Greatsword', 'Maul'];
+const itemNameStaffMap = ['Restoration', 'Inferno', 'Ice', 'Lightning'];
+const itemNameJewelryMap = {
+  'neck': 'Necklace',
+  'ring': 'Ring'
+};
+const updateItemNames = (setName, prefix, suffix) => {
+  let staffIndex = 0;
+  setsList.find(s => s.name === setName)
+    .items.list.forEach(item => {
+      if (item.armorType) {
+        item.name = `${prefix} ${itemNameArmorMap[`${item.slot}_${item.armorType}`]} ${suffix}`.trim();
+        console.log(item.name);
+        return;
+      }
+      if (item.slot === 'ring' || item.slot === 'neck') {
+        item.name = `${prefix} ${itemNameJewelryMap[item.slot]} ${suffix}`.trim();
+        console.log(item.name);
+        return;
+      }
+      if (item.slot === 'offHand') {
+        item.name = `${prefix} Shield ${suffix}`.trim();
+        console.log(item.name);
+        return;
+      }
+      if (item.name.includes('Staff')) {
+        item.name = `${prefix} ${itemNameStaffMap[staffIndex++]} Staff ${suffix}`.trim();
+        console.log(item.name);
+        return;
+      }
+      for (let j=0; j < itemNameWeaponMap.length; j++) {
+        const w = itemNameWeaponMap[j];
+        if (item.name.includes(w)) {
+          item.name = `${prefix} ${w} ${suffix}`.trim();
+          console.log(item.name);
+          return;
+        }
+      }
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -245,6 +309,7 @@ const updateData = async () => {
   // addItemType(); // DONE
   // addSetName(); // DONE
 
+  updateItemNames("Ranger's Gait", '', 'of the Ranger');
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file

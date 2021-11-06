@@ -69264,7 +69264,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Mace of the Ranger",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69272,7 +69272,7 @@ const ESO_SETS = [
           "id": 3266372776
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Dagger of the Ranger",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69280,7 +69280,7 @@ const ESO_SETS = [
           "id": 1496477057
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Axe of the Ranger",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69288,7 +69288,7 @@ const ESO_SETS = [
           "id": 508601958
         },
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Sword of the Ranger",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69296,7 +69296,7 @@ const ESO_SETS = [
           "id": 913718203
         },
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Shield of the Ranger",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -69304,7 +69304,7 @@ const ESO_SETS = [
           "id": 2650813430
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Maul of the Ranger",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69312,7 +69312,7 @@ const ESO_SETS = [
           "id": 1562858883
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Greatsword of the Ranger",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69320,7 +69320,7 @@ const ESO_SETS = [
           "id": 3741289914
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Battle Axe of the Ranger",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69328,7 +69328,7 @@ const ESO_SETS = [
           "id": 1269575743
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Restoration Staff of the Ranger",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69336,7 +69336,7 @@ const ESO_SETS = [
           "id": 1500827023
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Inferno Staff of the Ranger",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69344,7 +69344,7 @@ const ESO_SETS = [
           "id": 1500827023
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Ice Staff of the Ranger",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69352,7 +69352,7 @@ const ESO_SETS = [
           "id": 1500827023
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Bow of the Ranger",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69360,7 +69360,7 @@ const ESO_SETS = [
           "id": 3827512553
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Lightning Staff of the Ranger",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69368,7 +69368,7 @@ const ESO_SETS = [
           "id": 1500827023
         },
         {
-          "name": "Wood Elf Boots 4",
+          "name": "Boots of the Ranger",
           "image": "gear_bosmer_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -69377,16 +69377,16 @@ const ESO_SETS = [
           "id": 2908852157
         },
         {
-          "name": "Wood Elf Helmet 3",
+          "name": "Helmet of the Ranger",
           "image": "gear_bosmer_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Ranger's Gait",
           "id": 1865843127
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Ranger",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -69394,7 +69394,7 @@ const ESO_SETS = [
           "id": 523516526
         },
         {
-          "name": "Wood Elf Jack 4",
+          "name": "Jack of the Ranger",
           "image": "gear_bosmer_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -69403,7 +69403,7 @@ const ESO_SETS = [
           "id": 2579192222
         },
         {
-          "name": "Wood Elf Guards 4",
+          "name": "Guards of the Ranger",
           "image": "gear_bosmer_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -69412,7 +69412,7 @@ const ESO_SETS = [
           "id": 3199076752
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Ranger",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -69420,7 +69420,7 @@ const ESO_SETS = [
           "id": 3117052675
         },
         {
-          "name": "Wood Elf Bracers 4",
+          "name": "Bracers of the Ranger",
           "image": "gear_bosmer_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -69429,7 +69429,7 @@ const ESO_SETS = [
           "id": 2701202905
         },
         {
-          "name": "Wood Elf Arm Cops 4",
+          "name": "Arm cops of the Ranger",
           "image": "gear_bosmer_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -69438,7 +69438,7 @@ const ESO_SETS = [
           "id": 1183530834
         },
         {
-          "name": "Wood Elf Belt 4",
+          "name": "Belt of the Ranger",
           "image": "gear_bosmer_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
