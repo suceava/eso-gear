@@ -309,7 +309,7 @@ const updateData = async () => {
   // addItemType(); // DONE
   // addSetName(); // DONE
 
-  updateItemNames("Ysgramor's Birthright", "Ysgramor's", "");
+  updateItemNames("Wrath of the Imperium", "", "of Imperial Wrath");
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file

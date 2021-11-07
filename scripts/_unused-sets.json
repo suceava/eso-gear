@@ -246,3 +246,346 @@
 
 
 
+
+{
+  "name": "Alessian Hat",
+  "image": "gear_nord_light_head_c.png",
+  "slot": "head",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 116209578
+},
+{
+  "name": "Alessian Helmet",
+  "image": "gear_nord_medium_head_c.png",
+  "slot": "head",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 1184040431
+},
+{
+  "name": "Alessian Robe",
+  "image": "gear_nord_light_robe_c.png",
+  "slot": "chest",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 151273622
+},
+{
+  "name": "Alessian Jack",
+  "image": "gear_nord_medium_chest_c.png",
+  "slot": "chest",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 45382432
+},
+{
+  "name": "Alessian Breeches",
+  "image": "gear_nord_light_legs_c.png",
+  "slot": "legs",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 339524057
+},
+{
+  "name": "Alessian Guards",
+  "image": "gear_nord_medium_legs_c.png",
+  "slot": "legs",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 2647784540
+},
+{
+  "name": "Alessian Gloves",
+  "image": "gear_nord_light_hands_c.png",
+  "slot": "hands",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 1674690288
+},
+{
+  "name": "Alessian Bracers",
+  "image": "gear_nord_medium_hands_c.png",
+  "slot": "hands",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Alessian Order",
+  "id": 3960536863
+},
+
+
+
+
+{
+  "name": "Mace of the Hawk's Eye",
+  "image": "gear_breton_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 3119678196
+},
+{
+  "name": "Dagger of the Hawk's Eye",
+  "image": "gear_breton_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 3605789605
+},
+{
+  "name": "Axe of the Hawk's Eye",
+  "image": "gear_breton_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 1708009706
+},
+{
+  "name": "Sword of the Hawk's Eye",
+  "image": "gear_breton_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 1713906543
+},
+{
+  "name": "Shield of the Hawk's Eye",
+  "image": "gear_breton_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Hawk's Eye",
+  "id": 4046146962
+},
+{
+  "name": "Greatsword of the Hawk's Eye",
+  "image": "gear_breton_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 2433346606
+},
+{
+  "name": "Restoration Staff of the Hawk's Eye",
+  "image": "gear_breton_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 821640611
+},
+{
+  "name": "Battle Axe of the Hawk's Eye",
+  "image": "gear_breton_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 1122586035
+},
+{
+  "name": "Inferno Staff of the Hawk's Eye",
+  "image": "gear_breton_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 821640611
+},
+{
+  "name": "Maul of the Hawk's Eye",
+  "image": "gear_breton_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 803162767
+},
+{
+  "name": "Ice Staff of the Hawk's Eye",
+  "image": "gear_breton_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 821640611
+},
+{
+  "name": "Lightning Staff of the Hawk's Eye",
+  "image": "gear_breton_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Hawk's Eye",
+  "id": 821640611
+},
+
+
+
+
+
+{
+  "name": "Sword of Kyne's Kiss",
+  "image": "gear_breton_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 823690736
+},
+{
+  "name": "Dagger of Kyne's Kiss",
+  "image": "gear_breton_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 3420856508
+},
+{
+  "name": "Axe of Kyne's Kiss",
+  "image": "gear_breton_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 1112671125
+},
+{
+  "name": "Mace of Kyne's Kiss",
+  "image": "gear_breton_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 1860440153
+},
+{
+  "name": "Shield of Kyne's Kiss",
+  "image": "gear_breton_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Kyne's Kiss",
+  "id": 1386477615
+},
+{
+  "name": "Maul of Kyne's Kiss",
+  "image": "gear_breton_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 2261919410
+},
+{
+  "name": "Battle Axe of Kyne's Kiss",
+  "image": "gear_breton_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 2751633288
+},
+{
+  "name": "Greatsword of Kyne's Kiss",
+  "image": "gear_breton_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Kyne's Kiss",
+  "id": 1075960789
+},
+
+
+
+
+
+{
+  "name": "Marksman's Mace",
+  "image": "gear_abahswatch_1hhammer_a.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 380915978
+},
+{
+  "name": "Marksman's Dagger",
+  "image": "gear_abahswatch_dagger_a.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 1204868635
+},
+{
+  "name": "Marksman's Axe",
+  "image": "gear_abahswatch_1haxe_a.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4126403294
+},
+{
+  "name": "Marksman's Sword",
+  "image": "gear_abahswatch_1hsword_a.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4068606615
+},
+{
+  "name": "Marksman's Shield",
+  "image": "gear_abahswatch_shield_a.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Marksman's Crest",
+  "id": 1298672344
+},
+{
+  "name": "Marksman's Greatsword",
+  "image": "gear_abahswatch_2hsword_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 3509955102
+},
+{
+  "name": "Marksman's Maul",
+  "image": "gear_abahswatch_2hhammer_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 3263248401
+},
+{
+  "name": "Marksman's Battle Axe",
+  "image": "gear_abahswatch_2haxe_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 62242607
+},
+{
+  "name": "Marksman's Restoration Staff",
+  "image": "gear_abahswatch_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4162698419
+},
+{
+  "name": "Marksman's Inferno Staff",
+  "image": "gear_abahswatch_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4162698419
+},
+{
+  "name": "Marksman's Ice Staff",
+  "image": "gear_abahswatch_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4162698419
+},
+{
+  "name": "Marksman's Lightning Staff",
+  "image": "gear_abahswatch_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Marksman's Crest",
+  "id": 4162698419
+},
