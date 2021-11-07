@@ -102,12 +102,12 @@ const extractItemArmorType = (item) => {
 
   const armorTypes = [
     {
-      type: 'heavy',
-      rgx: [ 'pauldrons', 'sabatons', 'gauntlets', 'helm', 'cuirass', 'greaves', 'girdle' ]
-    },
-    {
       type: 'medium',
       rgx: [ 'arm cops', 'belt', 'helmet', 'bracers', 'boots', 'guards', 'jack' ]
+    },
+    {
+      type: 'heavy',
+      rgx: [ 'pauldrons', 'sabatons', 'gauntlets', 'helm', 'cuirass', 'greaves', 'girdle' ]
     },
     {
       type: 'light',
@@ -242,7 +242,7 @@ const itemNameArmorMap = {
   "head_medium": "Helmet",
   "head_light": "Hat",
   "shoulders_heavy": "Pauldron",
-  "shoulders_medium": "Arm cops",
+  "shoulders_medium": "Arm Cops",
   "shoulders_light": "Epaulets",
   "hands_heavy": "Gauntlets",
   "hands_medium": "Bracers",
@@ -309,7 +309,7 @@ const updateData = async () => {
   // addItemType(); // DONE
   // addSetName(); // DONE
 
-  updateItemNames("Beekeeper's Gear", "Beekeeper's", "");
+  updateItemNames("Ysgramor's Birthright", "Ysgramor's", "");
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file

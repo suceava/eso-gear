@@ -1,0 +1,248 @@
+{
+  "name": "Shield of the Wilderqueen",
+  "image": "gear_bosmer_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Wilderqueen's Arch",
+  "id": 1693337949
+},
+{
+  "name": "Mace of the Wilderqueen",
+  "image": "gear_bosmer_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1201445431
+},
+{
+  "name": "Dagger of the Wilderqueen",
+  "image": "gear_bosmer_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 2216461194
+},
+{
+  "name": "Axe of the Wilderqueen",
+  "image": "gear_bosmer_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 37655115
+},
+{
+  "name": "Sword of the Wilderqueen",
+  "image": "gear_bosmer_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1233192486
+},
+{
+  "name": "Greatsword of the Wilderqueen",
+  "image": "gear_bosmer_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 4173013639
+},
+{
+  "name": "Maul of the Wilderqueen",
+  "image": "gear_bosmer_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 2705658236
+},
+{
+  "name": "Battle Axe of the Wilderqueen",
+  "image": "gear_bosmer_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 4186891554
+},
+{
+  "name": "Restoration Staff of the Wilderqueen",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1190627742
+},
+{
+  "name": "Inferno Staff of the Wilderqueen",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1190627742
+},
+{
+  "name": "Ice Staff of the Wilderqueen",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1190627742
+},
+{
+  "name": "Lightning Staff of the Wilderqueen",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Wilderqueen's Arch",
+  "id": 1190627742
+},
+
+
+
+{
+  "name": "Sword-Singer's Shield",
+  "image": "gear_redguard_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Sword-Singer",
+  "id": 1138146392
+},
+{
+  "name": "Sword-Singer's Mace",
+  "image": "gear_redguard_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 2912780010
+},
+{
+  "name": "Sword-Singer's Dagger",
+  "image": "gear_redguard_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 1729483395
+},
+{
+  "name": "Sword-Singer's Axe",
+  "image": "gear_redguard_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 159709456
+},
+{
+  "name": "Sword-Singer's Sword",
+  "image": "gear_redguard_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 2755862941
+},
+{
+  "name": "Sword-Singer's Restoration Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 1013017093
+},
+{
+  "name": "Sword-Singer's Inferno Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 1013017093
+},
+{
+  "name": "Sword-Singer's Ice Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 1013017093
+},
+{
+  "name": "Sword-Singer's Bow",
+  "image": "gear_redguard_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 2850421111
+},
+{
+  "name": "Sword-Singer's Lightning Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword-Singer",
+  "id": 1013017093
+},
+
+
+
+{
+  "name": "Sabatons of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_feet_a.png",
+  "slot": "feet",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 1409101869
+},
+{
+  "name": "Helm of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_head_a.png",
+  "slot": "head",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 3253575075
+},
+{
+  "name": "Girdle of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_waist_a.png",
+  "slot": "waist",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 1088719425
+},
+{
+  "name": "Greaves of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_legs_a.png",
+  "slot": "legs",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 2151225968
+},
+{
+  "name": "Gauntlets of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_hands_a.png",
+  "slot": "hands",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 693210455
+},
+{
+  "name": "Pauldron of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_shoulders_a.png",
+  "slot": "shoulders",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 1476070116
+},
+{
+  "name": "Cuirass of the Night Mother",
+  "image": "gear_thievesguildv2_heavy_chest_a.png",
+  "slot": "chest",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Night Mother's Embrace",
+  "id": 1634797736
+},
+
+
+

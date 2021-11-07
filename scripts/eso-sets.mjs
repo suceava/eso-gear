@@ -1574,7 +1574,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Nord Mace 4",
+          "name": "Mace of the Dragon",
           "image": "gear_nord_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1582,7 +1582,7 @@ const ESO_SETS = [
           "id": 1582384234
         },
         {
-          "name": "Nord Dagger 4",
+          "name": "Dagger of the Dragon",
           "image": "gear_nord_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1590,7 +1590,7 @@ const ESO_SETS = [
           "id": 3776691203
         },
         {
-          "name": "Nord Axe 4",
+          "name": "Axe of the Dragon",
           "image": "gear_nord_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1598,7 +1598,7 @@ const ESO_SETS = [
           "id": 1193236880
         },
         {
-          "name": "Nord Sword 4",
+          "name": "Sword of the Dragon",
           "image": "gear_nord_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1606,7 +1606,7 @@ const ESO_SETS = [
           "id": 999405085
         },
         {
-          "name": "Nord Shield 4",
+          "name": "Shield of the Dragon",
           "image": "gear_nord_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -1614,7 +1614,7 @@ const ESO_SETS = [
           "id": 3185354200
         },
         {
-          "name": "Nord Greatsword 4",
+          "name": "Greatsword of the Dragon",
           "image": "gear_nord_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1622,7 +1622,7 @@ const ESO_SETS = [
           "id": 3200975160
         },
         {
-          "name": "Nord Maul 4",
+          "name": "Maul of the Dragon",
           "image": "gear_nord_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1630,7 +1630,7 @@ const ESO_SETS = [
           "id": 3240873969
         },
         {
-          "name": "Nord Battle Axe 4",
+          "name": "Battle Axe of the Dragon",
           "image": "gear_nord_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1638,7 +1638,7 @@ const ESO_SETS = [
           "id": 2447309533
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Restoration Staff of the Dragon",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1646,7 +1646,7 @@ const ESO_SETS = [
           "id": 2046544517
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Inferno Staff of the Dragon",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1654,7 +1654,7 @@ const ESO_SETS = [
           "id": 2046544517
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Ice Staff of the Dragon",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1662,7 +1662,7 @@ const ESO_SETS = [
           "id": 2046544517
         },
         {
-          "name": "Nord Bow 4",
+          "name": "Bow of the Dragon",
           "image": "gear_nord_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1670,7 +1670,7 @@ const ESO_SETS = [
           "id": 1828472311
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Lightning Staff of the Dragon",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1678,7 +1678,7 @@ const ESO_SETS = [
           "id": 2046544517
         },
         {
-          "name": "Nord Sabatons 4",
+          "name": "Sabatons of the Dragon",
           "image": "gear_nord_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -1687,7 +1687,7 @@ const ESO_SETS = [
           "id": 3536600445
         },
         {
-          "name": "Nord Helm 3",
+          "name": "Helm of the Dragon",
           "image": "gear_nord_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -1696,7 +1696,7 @@ const ESO_SETS = [
           "id": 2483433847
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Dragon",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -1704,7 +1704,7 @@ const ESO_SETS = [
           "id": 3416338291
         },
         {
-          "name": "Nord Cuirass 4",
+          "name": "Cuirass of the Dragon",
           "image": "gear_nord_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -1713,7 +1713,7 @@ const ESO_SETS = [
           "id": 396676446
         },
         {
-          "name": "Nord Greaves 4",
+          "name": "Greaves of the Dragon",
           "image": "gear_nord_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -1722,7 +1722,7 @@ const ESO_SETS = [
           "id": 1149273424
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Dragon",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -1730,7 +1730,7 @@ const ESO_SETS = [
           "id": 48924046
         },
         {
-          "name": "Nord Gauntlets 4",
+          "name": "Gauntlets of the Dragon",
           "image": "gear_nord_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -1739,7 +1739,7 @@ const ESO_SETS = [
           "id": 897803929
         },
         {
-          "name": "Nord Pauldrons 4",
+          "name": "Pauldron of the Dragon",
           "image": "gear_nord_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -1748,7 +1748,7 @@ const ESO_SETS = [
           "id": 3022907666
         },
         {
-          "name": "Nord Girdle 4",
+          "name": "Girdle of the Dragon",
           "image": "gear_nord_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -10835,7 +10835,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Primal Shoes",
+          "name": "Bloodthorn Shoes",
           "image": "gear_primative_light_feet_a.png",
           "slot": "feet",
           "armorType": "light",
@@ -10844,7 +10844,7 @@ const ESO_SETS = [
           "id": 371669412
         },
         {
-          "name": "Primal Hat",
+          "name": "Bloodthorn Hat",
           "image": "gear_primative_light_head_a.png",
           "slot": "head",
           "armorType": "light",
@@ -10853,7 +10853,7 @@ const ESO_SETS = [
           "id": 4237871938
         },
         {
-          "name": "Ring",
+          "name": "Bloodthorn Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -10861,7 +10861,7 @@ const ESO_SETS = [
           "id": 963546324
         },
         {
-          "name": "Primal Jerkin",
+          "name": "Bloodthorn Robe",
           "image": "gear_primative_light_shirt_a.png",
           "slot": "chest",
           "armorType": "light",
@@ -10870,7 +10870,7 @@ const ESO_SETS = [
           "id": 1897430338
         },
         {
-          "name": "Primal Breeches",
+          "name": "Bloodthorn Breeches",
           "image": "gear_primative_light_legs_a.png",
           "slot": "legs",
           "armorType": "light",
@@ -10879,7 +10879,7 @@ const ESO_SETS = [
           "id": 983295585
         },
         {
-          "name": "Necklace",
+          "name": "Bloodthorn Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -10887,7 +10887,7 @@ const ESO_SETS = [
           "id": 2808621209
         },
         {
-          "name": "Primal Gloves",
+          "name": "Bloodthorn Gloves",
           "image": "gear_primative_light_hands_a.png",
           "slot": "hands",
           "armorType": "light",
@@ -10896,7 +10896,7 @@ const ESO_SETS = [
           "id": 2155393184
         },
         {
-          "name": "Primal Epaulets",
+          "name": "Bloodthorn Epaulets",
           "image": "gear_primative_light_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -10905,7 +10905,7 @@ const ESO_SETS = [
           "id": 1484420071
         },
         {
-          "name": "Primal Sash",
+          "name": "Bloodthorn Sash",
           "image": "gear_primative_light_waist_a.png",
           "slot": "waist",
           "armorType": "light",
@@ -10914,7 +10914,7 @@ const ESO_SETS = [
           "id": 2640352346
         },
         {
-          "name": "Primal Shield 3",
+          "name": "Bloodthorn Shield",
           "image": "gear_primative_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -10922,7 +10922,7 @@ const ESO_SETS = [
           "id": 3482682610
         },
         {
-          "name": "Primal Mace 3",
+          "name": "Bloodthorn Mace",
           "image": "gear_primative_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -10930,7 +10930,7 @@ const ESO_SETS = [
           "id": 1886580632
         },
         {
-          "name": "Primal Dagger 3",
+          "name": "Bloodthorn Dagger",
           "image": "gear_primative_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -10938,7 +10938,7 @@ const ESO_SETS = [
           "id": 332949117
         },
         {
-          "name": "Primal Axe 3",
+          "name": "Bloodthorn Axe",
           "image": "gear_primative_1haxe_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -10946,7 +10946,7 @@ const ESO_SETS = [
           "id": 4148136276
         },
         {
-          "name": "Primal Sword 3",
+          "name": "Bloodthorn Sword",
           "image": "gear_primative_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -10954,7 +10954,7 @@ const ESO_SETS = [
           "id": 623181177
         },
         {
-          "name": "Primal Greatsword 3",
+          "name": "Bloodthorn Greatsword",
           "image": "gear_primative_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -10962,7 +10962,7 @@ const ESO_SETS = [
           "id": 128457124
         },
         {
-          "name": "Primal Maul 3",
+          "name": "Bloodthorn Maul",
           "image": "gear_primative_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -10970,7 +10970,7 @@ const ESO_SETS = [
           "id": 3619744575
         },
         {
-          "name": "Primal Battle Axe 3",
+          "name": "Bloodthorn Battle Axe",
           "image": "gear_primative_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -10978,7 +10978,7 @@ const ESO_SETS = [
           "id": 2232332369
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Bloodthorn Restoration Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -10986,7 +10986,7 @@ const ESO_SETS = [
           "id": 3379332405
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Bloodthorn Inferno Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -10994,7 +10994,7 @@ const ESO_SETS = [
           "id": 3379332405
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Bloodthorn Ice Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -11002,7 +11002,7 @@ const ESO_SETS = [
           "id": 3379332405
         },
         {
-          "name": "Primal Bow 3",
+          "name": "Bloodthorn Bow",
           "image": "gear_primative_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -11010,7 +11010,7 @@ const ESO_SETS = [
           "id": 1400541439
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Bloodthorn Lightning Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18255,7 +18255,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Thieves Guild Mace",
+          "name": "Darkstride Mace",
           "image": "gear_thievesguildv2_1hhammer_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18263,7 +18263,7 @@ const ESO_SETS = [
           "id": 1043615027
         },
         {
-          "name": "Thieves Guild Sword",
+          "name": "Darkstride Sword",
           "image": "gear_thievesguildv2_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18271,7 +18271,7 @@ const ESO_SETS = [
           "id": 3631650904
         },
         {
-          "name": "Thieves Guild Axe",
+          "name": "Darkstride Axe",
           "image": "gear_thievesguildv2_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18279,7 +18279,7 @@ const ESO_SETS = [
           "id": 3771991257
         },
         {
-          "name": "Thieves Guild Dagger",
+          "name": "Darkstride Dagger",
           "image": "gear_thievesguildv2_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18287,7 +18287,7 @@ const ESO_SETS = [
           "id": 2961062398
         },
         {
-          "name": "Thieves Guild Shield",
+          "name": "Darkstride Shield",
           "image": "gear_thievesguildv2_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -18295,7 +18295,7 @@ const ESO_SETS = [
           "id": 3239264577
         },
         {
-          "name": "Thieves Guild Greatsword",
+          "name": "Darkstride Greatsword",
           "image": "gear_thievesguildv2_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18303,7 +18303,7 @@ const ESO_SETS = [
           "id": 525324821
         },
         {
-          "name": "Thieves Guild Maul",
+          "name": "Darkstride Maul",
           "image": "gear_thievesguildv2_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18311,7 +18311,7 @@ const ESO_SETS = [
           "id": 2282764648
         },
         {
-          "name": "Thieves Guild Battle Axe",
+          "name": "Darkstride Battle Axe",
           "image": "gear_thievesguildv2_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18319,7 +18319,7 @@ const ESO_SETS = [
           "id": 3157820276
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Darkstride Restoration Staff",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18327,7 +18327,7 @@ const ESO_SETS = [
           "id": 2847861988
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Darkstride Inferno Staff",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18335,7 +18335,7 @@ const ESO_SETS = [
           "id": 2847861988
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Darkstride Ice Staff",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18343,7 +18343,7 @@ const ESO_SETS = [
           "id": 2847861988
         },
         {
-          "name": "Thieves Guild Bow",
+          "name": "Darkstride Bow",
           "image": "gear_thievesguildv2_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18351,7 +18351,7 @@ const ESO_SETS = [
           "id": 1929924910
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Darkstride Lightning Staff",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18359,7 +18359,7 @@ const ESO_SETS = [
           "id": 2847861988
         },
         {
-          "name": "Thieves Guild Boots",
+          "name": "Darkstride Boots",
           "image": "gear_thievesguildv2_medium_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -18368,7 +18368,7 @@ const ESO_SETS = [
           "id": 289971498
         },
         {
-          "name": "Thieves Guild Helmet",
+          "name": "Darkstride Helm",
           "image": "gear_thievesguildv2_medium_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -18377,7 +18377,7 @@ const ESO_SETS = [
           "id": 3862848516
         },
         {
-          "name": "Ring",
+          "name": "Darkstride Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -18385,7 +18385,7 @@ const ESO_SETS = [
           "id": 3673545223
         },
         {
-          "name": "Thieves Guild Jack",
+          "name": "Darkstride Jack",
           "image": "gear_thievesguildv2_medium_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -18394,7 +18394,7 @@ const ESO_SETS = [
           "id": 3002297937
         },
         {
-          "name": "Thieves Guild Guards",
+          "name": "Darkstride Guards",
           "image": "gear_thievesguildv2_medium_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -18403,7 +18403,7 @@ const ESO_SETS = [
           "id": 220772883
         },
         {
-          "name": "Necklace",
+          "name": "Darkstride Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -18411,7 +18411,7 @@ const ESO_SETS = [
           "id": 752832882
         },
         {
-          "name": "Thieves Guild Bracers",
+          "name": "Darkstride Bracers",
           "image": "gear_thievesguildv2_medium_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -18420,7 +18420,7 @@ const ESO_SETS = [
           "id": 3125982358
         },
         {
-          "name": "Thieves Guild Arm Cops",
+          "name": "Darkstride Arm Cops",
           "image": "gear_thievesguildv2_medium_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -18429,7 +18429,7 @@ const ESO_SETS = [
           "id": 2292216613
         },
         {
-          "name": "Thieves Guild Belt",
+          "name": "Darkstride Belt",
           "image": "gear_thievesguildv2_medium_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -23061,7 +23061,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Draugr Sabatons",
+          "name": "Sabatons of Draugr Heritage",
           "image": "gear_draugr_heavy_feet_a.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -23070,7 +23070,7 @@ const ESO_SETS = [
           "id": 2970306339
         },
         {
-          "name": "Draugr Helm",
+          "name": "Helm of Draugr Heritage",
           "image": "gear_draugr_heavy_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -23079,7 +23079,7 @@ const ESO_SETS = [
           "id": 60815413
         },
         {
-          "name": "Ring",
+          "name": "Ring of Draugr Heritage",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -23087,7 +23087,7 @@ const ESO_SETS = [
           "id": 2748652894
         },
         {
-          "name": "Draugr Cuirass",
+          "name": "Cuirass of Draugr Heritage",
           "image": "gear_draugr_heavy_chest_a.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -23096,7 +23096,7 @@ const ESO_SETS = [
           "id": 1536332678
         },
         {
-          "name": "Draugr Greaves",
+          "name": "Greaves of Draugr Heritage",
           "image": "gear_draugr_heavy_legs_a.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -23105,7 +23105,7 @@ const ESO_SETS = [
           "id": 526421570
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Draugr Heritage",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -23113,7 +23113,7 @@ const ESO_SETS = [
           "id": 2015409939
         },
         {
-          "name": "Draugr Gauntlets",
+          "name": "Gauntlets of Draugr Heritage",
           "image": "gear_draugr_heavy_hands_a.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -23122,7 +23122,7 @@ const ESO_SETS = [
           "id": 2503725093
         },
         {
-          "name": "Draugr Pauldrons",
+          "name": "Pauldron of Draugr Heritage",
           "image": "gear_draugr_heavy_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -23131,7 +23131,7 @@ const ESO_SETS = [
           "id": 3555421722
         },
         {
-          "name": "Draugr Girdle",
+          "name": "Girdle of Draugr Heritage",
           "image": "gear_draugr_heavy_waist_a.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -23140,7 +23140,7 @@ const ESO_SETS = [
           "id": 2136654327
         },
         {
-          "name": "Draugr Shield",
+          "name": "Shield of Draugr Heritage",
           "image": "gear_draugr_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -23148,7 +23148,7 @@ const ESO_SETS = [
           "id": 2128577522
         },
         {
-          "name": "Draugr Mace",
+          "name": "Mace of Draugr Heritage",
           "image": "gear_draugr_1hhammer_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23156,7 +23156,7 @@ const ESO_SETS = [
           "id": 2154839132
         },
         {
-          "name": "Draugr Dagger",
+          "name": "Dagger of Draugr Heritage",
           "image": "gear_draugr_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23164,7 +23164,7 @@ const ESO_SETS = [
           "id": 924607773
         },
         {
-          "name": "Draugr Axe",
+          "name": "Axe of Draugr Heritage",
           "image": "gear_draugr_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23172,7 +23172,7 @@ const ESO_SETS = [
           "id": 20193888
         },
         {
-          "name": "Draugr Sword",
+          "name": "Sword of Draugr Heritage",
           "image": "gear_draugr_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23180,7 +23180,7 @@ const ESO_SETS = [
           "id": 1772891937
         },
         {
-          "name": "Draugr Maul",
+          "name": "Maul of Draugr Heritage",
           "image": "gear_draugr_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23188,7 +23188,7 @@ const ESO_SETS = [
           "id": 485105223
         },
         {
-          "name": "Draugr Staff",
+          "name": "Restoration Staff of Draugr Heritage",
           "image": "gear_draugr_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23196,7 +23196,7 @@ const ESO_SETS = [
           "id": 2193445049
         },
         {
-          "name": "Draugr Battle Axe",
+          "name": "Battle Axe of Draugr Heritage",
           "image": "gear_draugr_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23204,7 +23204,7 @@ const ESO_SETS = [
           "id": 1342098341
         },
         {
-          "name": "Draugr Staff",
+          "name": "Inferno Staff of Draugr Heritage",
           "image": "gear_draugr_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23212,7 +23212,7 @@ const ESO_SETS = [
           "id": 2193445049
         },
         {
-          "name": "Draugr Greatsword",
+          "name": "Greatsword of Draugr Heritage",
           "image": "gear_draugr_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23220,7 +23220,7 @@ const ESO_SETS = [
           "id": 444554868
         },
         {
-          "name": "Draugr Staff",
+          "name": "Ice Staff of Draugr Heritage",
           "image": "gear_draugr_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23228,7 +23228,7 @@ const ESO_SETS = [
           "id": 2193445049
         },
         {
-          "name": "Draugr Bow",
+          "name": "Bow of Draugr Heritage",
           "image": "gear_draugr_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23236,7 +23236,7 @@ const ESO_SETS = [
           "id": 3524210831
         },
         {
-          "name": "Draugr Staff",
+          "name": "Lightning Staff of Draugr Heritage",
           "image": "gear_draugr_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23739,7 +23739,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Shoes 4",
+          "name": "Dreamer's Shoes",
           "image": "gear_altmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -23748,7 +23748,7 @@ const ESO_SETS = [
           "id": 1338312480
         },
         {
-          "name": "High Elf Hat 3",
+          "name": "Dreamer's Hat",
           "image": "gear_altmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -23757,7 +23757,7 @@ const ESO_SETS = [
           "id": 2455982522
         },
         {
-          "name": "Ring",
+          "name": "Dreamer's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -23765,7 +23765,7 @@ const ESO_SETS = [
           "id": 191987155
         },
         {
-          "name": "High Elf Sash 4",
+          "name": "Dreamer's Sash",
           "image": "gear_altmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -23774,7 +23774,7 @@ const ESO_SETS = [
           "id": 374429012
         },
         {
-          "name": "High Elf Breeches 4",
+          "name": "Dreamer's Breeches",
           "image": "gear_altmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -23783,7 +23783,7 @@ const ESO_SETS = [
           "id": 3341036229
         },
         {
-          "name": "Necklace",
+          "name": "Dreamer's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -23791,7 +23791,7 @@ const ESO_SETS = [
           "id": 2649482990
         },
         {
-          "name": "High Elf Gloves 4",
+          "name": "Dreamer's Gloves",
           "image": "gear_altmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -23800,7 +23800,7 @@ const ESO_SETS = [
           "id": 87591074
         },
         {
-          "name": "High Elf Epaulets 4",
+          "name": "Dreamer's Epaulets",
           "image": "gear_altmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -23809,7 +23809,7 @@ const ESO_SETS = [
           "id": 1973689381
         },
         {
-          "name": "High Elf Jerkin 4",
+          "name": "Dreamer's Robe",
           "image": "gear_altmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -23818,7 +23818,7 @@ const ESO_SETS = [
           "id": 1836675948
         },
         {
-          "name": "High Elf Mace 4",
+          "name": "Dreamer's Mace",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23826,7 +23826,7 @@ const ESO_SETS = [
           "id": 2096350726
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Dreamer's Dagger",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23834,7 +23834,7 @@ const ESO_SETS = [
           "id": 3738462935
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Dreamer's Axe",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23842,7 +23842,7 @@ const ESO_SETS = [
           "id": 1837637060
         },
         {
-          "name": "High Elf Sword 4",
+          "name": "Dreamer's Sword",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -23850,7 +23850,7 @@ const ESO_SETS = [
           "id": 4199547249
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Dreamer's Shield",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -23858,7 +23858,7 @@ const ESO_SETS = [
           "id": 919254484
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Dreamer's Maul",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23866,7 +23866,7 @@ const ESO_SETS = [
           "id": 1627406717
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Dreamer's Restoration Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23874,7 +23874,7 @@ const ESO_SETS = [
           "id": 3201433321
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Dreamer's Battle Axe",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23882,7 +23882,7 @@ const ESO_SETS = [
           "id": 2811904609
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Dreamer's Inferno Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23890,7 +23890,7 @@ const ESO_SETS = [
           "id": 3201433321
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Dreamer's Greatsword",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23898,7 +23898,7 @@ const ESO_SETS = [
           "id": 3048179404
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Dreamer's Ice Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23906,7 +23906,7 @@ const ESO_SETS = [
           "id": 3201433321
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Dreamer's Bow",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -23914,7 +23914,7 @@ const ESO_SETS = [
           "id": 818499347
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Dreamer's Lightning Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29105,7 +29105,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Nord Mace 4",
+          "name": "Fiord's Mace",
           "image": "gear_nord_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -29113,7 +29113,7 @@ const ESO_SETS = [
           "id": 2996740278
         },
         {
-          "name": "Nord Sword 4",
+          "name": "Fiord's Sword",
           "image": "gear_nord_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -29121,7 +29121,7 @@ const ESO_SETS = [
           "id": 2491226817
         },
         {
-          "name": "Nord Dagger 4",
+          "name": "Fiord's Dagger",
           "image": "gear_nord_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -29129,7 +29129,7 @@ const ESO_SETS = [
           "id": 1579027239
         },
         {
-          "name": "Nord Axe 4",
+          "name": "Fiord's Axe",
           "image": "gear_nord_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -29137,7 +29137,7 @@ const ESO_SETS = [
           "id": 4197254548
         },
         {
-          "name": "Nord Shield 4",
+          "name": "Fiord's Shield",
           "image": "gear_nord_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -29145,7 +29145,7 @@ const ESO_SETS = [
           "id": 2063294756
         },
         {
-          "name": "Nord Greatsword 4",
+          "name": "Fiord's Greatsword",
           "image": "gear_nord_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29153,7 +29153,7 @@ const ESO_SETS = [
           "id": 2156332444
         },
         {
-          "name": "Nord Maul 4",
+          "name": "Fiord's Maul",
           "image": "gear_nord_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29161,7 +29161,7 @@ const ESO_SETS = [
           "id": 3819589229
         },
         {
-          "name": "Nord Battle Axe 4",
+          "name": "Fiord's Battle Axe",
           "image": "gear_nord_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29169,7 +29169,7 @@ const ESO_SETS = [
           "id": 753029617
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Fiord's Restoration Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29177,7 +29177,7 @@ const ESO_SETS = [
           "id": 1851317241
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Fiord's Inferno Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29185,7 +29185,7 @@ const ESO_SETS = [
           "id": 1851317241
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Fiord's Ice Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29193,7 +29193,7 @@ const ESO_SETS = [
           "id": 1851317241
         },
         {
-          "name": "Nord Bow 4",
+          "name": "Fiord's Bow",
           "image": "gear_nord_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29201,7 +29201,7 @@ const ESO_SETS = [
           "id": 936233731
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Fiord's Lightning Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -29209,7 +29209,7 @@ const ESO_SETS = [
           "id": 1851317241
         },
         {
-          "name": "Nord Boots 4",
+          "name": "Fiord's Boots",
           "image": "gear_nord_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -29218,16 +29218,16 @@ const ESO_SETS = [
           "id": 365347347
         },
         {
-          "name": "Nord Helmet 3",
+          "name": "Fiord's Helmet",
           "image": "gear_nord_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Fiord's Legacy",
           "id": 2745685729
         },
         {
-          "name": "Ring",
+          "name": "Fiord's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -29235,7 +29235,7 @@ const ESO_SETS = [
           "id": 1525399703
         },
         {
-          "name": "Nord Jack 4",
+          "name": "Fiord's Jack",
           "image": "gear_nord_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -29244,7 +29244,7 @@ const ESO_SETS = [
           "id": 4060539228
         },
         {
-          "name": "Nord Guards 4",
+          "name": "Fiord's Guards",
           "image": "gear_nord_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -29253,7 +29253,7 @@ const ESO_SETS = [
           "id": 928022962
         },
         {
-          "name": "Necklace",
+          "name": "Fiord's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -29261,7 +29261,7 @@ const ESO_SETS = [
           "id": 8098210
         },
         {
-          "name": "Nord Bracers 4",
+          "name": "Fiord's Bracers",
           "image": "gear_nord_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -29270,7 +29270,7 @@ const ESO_SETS = [
           "id": 2233646711
         },
         {
-          "name": "Nord Arm Cops 4",
+          "name": "Fiord's Arm Cops",
           "image": "gear_nord_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -29279,7 +29279,7 @@ const ESO_SETS = [
           "id": 1136143600
         },
         {
-          "name": "Nord Belt 4",
+          "name": "Fiord's Belt",
           "image": "gear_nord_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -34774,7 +34774,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Argonian Mace 4",
+          "name": "Mace of the Hatchling's Shell",
           "image": "gear_argonian_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -34782,7 +34782,7 @@ const ESO_SETS = [
           "id": 2127906059
         },
         {
-          "name": "Argonian Dagger 4",
+          "name": "Dagger of the Hatchling's Shell",
           "image": "gear_argonian_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -34790,7 +34790,7 @@ const ESO_SETS = [
           "id": 3225227814
         },
         {
-          "name": "Argonian Axe 4",
+          "name": "Axe of the Hatchling's Shell",
           "image": "gear_argonian_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -34798,7 +34798,7 @@ const ESO_SETS = [
           "id": 2663755543
         },
         {
-          "name": "Argonian Sword 4",
+          "name": "Sword of the Hatchling's Shell",
           "image": "gear_argonian_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -34806,7 +34806,7 @@ const ESO_SETS = [
           "id": 3960418290
         },
         {
-          "name": "Argonian Shield 4",
+          "name": "Shield of the Hatchling's Shell",
           "image": "gear_argonian_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -34814,7 +34814,7 @@ const ESO_SETS = [
           "id": 1932705361
         },
         {
-          "name": "Argonian Greatsword 4",
+          "name": "Greatsword of the Hatchling's Shell",
           "image": "gear_argonian_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34822,7 +34822,7 @@ const ESO_SETS = [
           "id": 3909366131
         },
         {
-          "name": "Argonian Maul 4",
+          "name": "Maul of the Hatchling's Shell",
           "image": "gear_argonian_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34830,7 +34830,7 @@ const ESO_SETS = [
           "id": 1789574224
         },
         {
-          "name": "Argonian Battle Axe 4",
+          "name": "Battle Axe of the Hatchling's Shell",
           "image": "gear_argonian_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34838,7 +34838,7 @@ const ESO_SETS = [
           "id": 3909015070
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Restoration Staff of the Hatchling's Shell",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34846,7 +34846,7 @@ const ESO_SETS = [
           "id": 371733354
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Inferno Staff of the Hatchling's Shell",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34854,7 +34854,7 @@ const ESO_SETS = [
           "id": 371733354
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Ice Staff of the Hatchling's Shell",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34862,7 +34862,7 @@ const ESO_SETS = [
           "id": 371733354
         },
         {
-          "name": "Argonian Bow 4",
+          "name": "Bow of the Hatchling's Shell",
           "image": "gear_argonian_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34870,7 +34870,7 @@ const ESO_SETS = [
           "id": 1895908952
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Lightning Staff of the Hatchling's Shell",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -34878,7 +34878,7 @@ const ESO_SETS = [
           "id": 371733354
         },
         {
-          "name": "Argonian Sabatons 4",
+          "name": "Sabatons of the Hatchling's Shell",
           "image": "gear_argonian_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -34887,7 +34887,7 @@ const ESO_SETS = [
           "id": 3739985812
         },
         {
-          "name": "Argonian Helm 3",
+          "name": "Helm of the Hatchling's Shell",
           "image": "gear_argonian_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -34896,7 +34896,7 @@ const ESO_SETS = [
           "id": 2991005310
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Hatchling's Shell",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -34904,7 +34904,7 @@ const ESO_SETS = [
           "id": 1057738092
         },
         {
-          "name": "Argonian Cuirass 4",
+          "name": "Cuirass of the Hatchling's Shell",
           "image": "gear_argonian_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -34913,7 +34913,7 @@ const ESO_SETS = [
           "id": 4125089725
         },
         {
-          "name": "Argonian Greaves 4",
+          "name": "Greaves of the Hatchling's Shell",
           "image": "gear_argonian_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -34922,7 +34922,7 @@ const ESO_SETS = [
           "id": 3046005873
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Hatchling's Shell",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -34930,7 +34930,7 @@ const ESO_SETS = [
           "id": 835226641
         },
         {
-          "name": "Argonian Gauntlets 4",
+          "name": "Gauntlets of the Hatchling's Shell",
           "image": "gear_argonian_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -34939,7 +34939,7 @@ const ESO_SETS = [
           "id": 3412775246
         },
         {
-          "name": "Argonian Pauldrons 4",
+          "name": "Pauldron of the Hatchling's Shell",
           "image": "gear_argonian_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -34948,7 +34948,7 @@ const ESO_SETS = [
           "id": 1088524601
         },
         {
-          "name": "Argonian Girdle 4",
+          "name": "Girdle of the Hatchling's Shell",
           "image": "gear_argonian_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -37188,7 +37188,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Primal Mace 3",
+          "name": "Werewolf Hide Mace",
           "image": "gear_primative_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37196,7 +37196,7 @@ const ESO_SETS = [
           "id": 1980116351
         },
         {
-          "name": "Primal Sword 3",
+          "name": "Werewolf Hide Sword",
           "image": "gear_primative_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37204,7 +37204,7 @@ const ESO_SETS = [
           "id": 821206500
         },
         {
-          "name": "Primal Dagger 3",
+          "name": "Werewolf Hide Dagger",
           "image": "gear_primative_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37212,7 +37212,7 @@ const ESO_SETS = [
           "id": 2897427806
         },
         {
-          "name": "Primal Axe 3",
+          "name": "Werewolf Hide Axe",
           "image": "gear_primative_1haxe_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37220,7 +37220,7 @@ const ESO_SETS = [
           "id": 1230583441
         },
         {
-          "name": "Primal Shield 3",
+          "name": "Werewolf Hide Shield",
           "image": "gear_primative_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -37228,7 +37228,7 @@ const ESO_SETS = [
           "id": 81504609
         },
         {
-          "name": "Primal Maul 3",
+          "name": "Werewolf Hide Maul",
           "image": "gear_primative_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37236,7 +37236,7 @@ const ESO_SETS = [
           "id": 2122840792
         },
         {
-          "name": "Primal Greatsword 3",
+          "name": "Werewolf Hide Greatsword",
           "image": "gear_primative_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37244,7 +37244,7 @@ const ESO_SETS = [
           "id": 3849845945
         },
         {
-          "name": "Primal Battle Axe 3",
+          "name": "Werewolf Hide Battle Axe",
           "image": "gear_primative_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37252,7 +37252,7 @@ const ESO_SETS = [
           "id": 2590800532
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Werewolf Hide Restoration Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37260,7 +37260,7 @@ const ESO_SETS = [
           "id": 2583218108
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Werewolf Hide Inferno Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37268,7 +37268,7 @@ const ESO_SETS = [
           "id": 2583218108
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Werewolf Hide Ice Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37276,7 +37276,7 @@ const ESO_SETS = [
           "id": 2583218108
         },
         {
-          "name": "Primal Bow 3",
+          "name": "Werewolf Hide Bow",
           "image": "gear_primative_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37284,7 +37284,7 @@ const ESO_SETS = [
           "id": 620802514
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Werewolf Hide Lightning Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37292,7 +37292,7 @@ const ESO_SETS = [
           "id": 2583218108
         },
         {
-          "name": "Primal Boots",
+          "name": "Werewolf Hide Boots",
           "image": "gear_primative_medium_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -37301,7 +37301,7 @@ const ESO_SETS = [
           "id": 3800542780
         },
         {
-          "name": "Primal Helmet",
+          "name": "Werewolf Hide Helm",
           "image": "gear_primative_medium_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -37310,7 +37310,7 @@ const ESO_SETS = [
           "id": 3461325162
         },
         {
-          "name": "Ring",
+          "name": "Werewolf Hide Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -37318,7 +37318,7 @@ const ESO_SETS = [
           "id": 2745700645
         },
         {
-          "name": "Primal Jack",
+          "name": "Werewolf Hide Jack",
           "image": "gear_primative_medium_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -37327,7 +37327,7 @@ const ESO_SETS = [
           "id": 1182206355
         },
         {
-          "name": "Primal Guards",
+          "name": "Werewolf Hide Guards",
           "image": "gear_primative_medium_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -37336,7 +37336,7 @@ const ESO_SETS = [
           "id": 675851081
         },
         {
-          "name": "Necklace",
+          "name": "Werewolf Hide Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -37344,7 +37344,7 @@ const ESO_SETS = [
           "id": 3394208016
         },
         {
-          "name": "Primal Bracers",
+          "name": "Werewolf Hide Bracers",
           "image": "gear_primative_medium_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -37353,7 +37353,7 @@ const ESO_SETS = [
           "id": 2816636360
         },
         {
-          "name": "Primal Arm Cops",
+          "name": "Werewolf Hide Arm Cops",
           "image": "gear_primative_medium_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -37362,7 +37362,7 @@ const ESO_SETS = [
           "id": 3333025951
         },
         {
-          "name": "Primal Belt",
+          "name": "Werewolf Hide Belt",
           "image": "gear_primative_medium_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -54230,7 +54230,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Argonian Shoes 4",
+          "name": "Shoes of a Mother's Sorrow",
           "image": "gear_argonian_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -54239,7 +54239,7 @@ const ESO_SETS = [
           "id": 1244581746
         },
         {
-          "name": "Argonian Hat 3",
+          "name": "Hat of a Mother's Sorrow",
           "image": "gear_argonian_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -54248,7 +54248,7 @@ const ESO_SETS = [
           "id": 2602827280
         },
         {
-          "name": "Ring",
+          "name": "Ring of a Mother's Sorrow",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -54256,7 +54256,7 @@ const ESO_SETS = [
           "id": 2175668383
         },
         {
-          "name": "Argonian Sash 4",
+          "name": "Sash of a Mother's Sorrow",
           "image": "gear_argonian_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -54265,7 +54265,7 @@ const ESO_SETS = [
           "id": 3267643430
         },
         {
-          "name": "Argonian Breeches 4",
+          "name": "Breeches of a Mother's Sorrow",
           "image": "gear_argonian_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -54274,7 +54274,7 @@ const ESO_SETS = [
           "id": 709889835
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of a Mother's Sorrow",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -54282,7 +54282,7 @@ const ESO_SETS = [
           "id": 3705073034
         },
         {
-          "name": "Argonian Gloves 4",
+          "name": "Gloves of a Mother's Sorrow",
           "image": "gear_argonian_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -54291,7 +54291,7 @@ const ESO_SETS = [
           "id": 3208528548
         },
         {
-          "name": "Argonian Epaulets 4",
+          "name": "Epaulets of a Mother's Sorrow",
           "image": "gear_argonian_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -54300,7 +54300,7 @@ const ESO_SETS = [
           "id": 48569119
         },
         {
-          "name": "Argonian Robe 4",
+          "name": "Robe of a Mother's Sorrow",
           "image": "gear_argonian_light_robe_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -54309,7 +54309,7 @@ const ESO_SETS = [
           "id": 1668727944
         },
         {
-          "name": "Argonian Sword 4",
+          "name": "Sword of a Mother's Sorrow",
           "image": "gear_argonian_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54317,7 +54317,7 @@ const ESO_SETS = [
           "id": 808151675
         },
         {
-          "name": "Argonian Dagger 4",
+          "name": "Dagger of a Mother's Sorrow",
           "image": "gear_argonian_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54325,7 +54325,7 @@ const ESO_SETS = [
           "id": 1097135553
         },
         {
-          "name": "Argonian Axe 4",
+          "name": "Axe of a Mother's Sorrow",
           "image": "gear_argonian_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54333,7 +54333,7 @@ const ESO_SETS = [
           "id": 4211825446
         },
         {
-          "name": "Argonian Mace 4",
+          "name": "Mace of a Mother's Sorrow",
           "image": "gear_argonian_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54341,7 +54341,7 @@ const ESO_SETS = [
           "id": 1015528296
         },
         {
-          "name": "Argonian Shield 4",
+          "name": "Shield of a Mother's Sorrow",
           "image": "gear_argonian_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -54349,7 +54349,7 @@ const ESO_SETS = [
           "id": 3731256630
         },
         {
-          "name": "Argonian Maul 4",
+          "name": "Maul of a Mother's Sorrow",
           "image": "gear_argonian_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54357,7 +54357,7 @@ const ESO_SETS = [
           "id": 453900867
         },
         {
-          "name": "Argonian Greatsword 4",
+          "name": "Greatsword of a Mother's Sorrow",
           "image": "gear_argonian_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54365,7 +54365,7 @@ const ESO_SETS = [
           "id": 4135271802
         },
         {
-          "name": "Argonian Battle Axe 4",
+          "name": "Battle Axe of a Mother's Sorrow",
           "image": "gear_argonian_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54373,7 +54373,7 @@ const ESO_SETS = [
           "id": 2462915327
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Restoration Staff of a Mother's Sorrow",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54381,7 +54381,7 @@ const ESO_SETS = [
           "id": 2107549647
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Inferno Staff of a Mother's Sorrow",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54389,7 +54389,7 @@ const ESO_SETS = [
           "id": 2107549647
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Ice Staff of a Mother's Sorrow",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54397,7 +54397,7 @@ const ESO_SETS = [
           "id": 2107549647
         },
         {
-          "name": "Argonian Bow 4",
+          "name": "Bow of a Mother's Sorrow",
           "image": "gear_argonian_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54405,7 +54405,7 @@ const ESO_SETS = [
           "id": 3042830377
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Lightning Staff of a Mother's Sorrow",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54811,7 +54811,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Argonian Shoes 4",
+          "name": "Shoes of Necropotence",
           "image": "gear_argonian_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -54820,7 +54820,7 @@ const ESO_SETS = [
           "id": 412806880
         },
         {
-          "name": "Argonian Hat 3",
+          "name": "Hat of Necropotence",
           "image": "gear_argonian_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -54829,7 +54829,7 @@ const ESO_SETS = [
           "id": 1333986682
         },
         {
-          "name": "Ring",
+          "name": "Ring of Necropotence",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -54837,7 +54837,7 @@ const ESO_SETS = [
           "id": 2987824793
         },
         {
-          "name": "Argonian Robe 4",
+          "name": "Robe of Necropotence",
           "image": "gear_argonian_light_robe_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -54846,7 +54846,7 @@ const ESO_SETS = [
           "id": 3663986734
         },
         {
-          "name": "Argonian Breeches 4",
+          "name": "Breeches of Necropotence",
           "image": "gear_argonian_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -54855,7 +54855,7 @@ const ESO_SETS = [
           "id": 3862423173
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Necropotence",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -54863,7 +54863,7 @@ const ESO_SETS = [
           "id": 1190060724
         },
         {
-          "name": "Argonian Gloves 4",
+          "name": "Gloves of Necropotence",
           "image": "gear_argonian_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -54872,7 +54872,7 @@ const ESO_SETS = [
           "id": 3609039202
         },
         {
-          "name": "Argonian Epaulets 4",
+          "name": "Epaulets of Necropotence",
           "image": "gear_argonian_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -54881,7 +54881,7 @@ const ESO_SETS = [
           "id": 724270309
         },
         {
-          "name": "Argonian Sash 4",
+          "name": "Sash of Necropotence",
           "image": "gear_argonian_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -54890,7 +54890,7 @@ const ESO_SETS = [
           "id": 229358868
         },
         {
-          "name": "Argonian Mace 4",
+          "name": "Mace of Necropotence",
           "image": "gear_argonian_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54898,7 +54898,7 @@ const ESO_SETS = [
           "id": 1169320006
         },
         {
-          "name": "Argonian Dagger 4",
+          "name": "Dagger of Necropotence",
           "image": "gear_argonian_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54906,7 +54906,7 @@ const ESO_SETS = [
           "id": 3496354455
         },
         {
-          "name": "Argonian Axe 4",
+          "name": "Axe of Necropotence",
           "image": "gear_argonian_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54914,7 +54914,7 @@ const ESO_SETS = [
           "id": 1273781508
         },
         {
-          "name": "Argonian Sword 4",
+          "name": "Sword of Necropotence",
           "image": "gear_argonian_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54922,7 +54922,7 @@ const ESO_SETS = [
           "id": 2302410673
         },
         {
-          "name": "Argonian Shield 4",
+          "name": "Shield of Necropotence",
           "image": "gear_argonian_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -54930,7 +54930,7 @@ const ESO_SETS = [
           "id": 1716234132
         },
         {
-          "name": "Argonian Maul 4",
+          "name": "Maul of Necropotence",
           "image": "gear_argonian_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54938,7 +54938,7 @@ const ESO_SETS = [
           "id": 2738843837
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Restoration Staff of Necropotence",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54946,7 +54946,7 @@ const ESO_SETS = [
           "id": 675911081
         },
         {
-          "name": "Argonian Battle Axe 4",
+          "name": "Battle Axe of Necropotence",
           "image": "gear_argonian_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54954,7 +54954,7 @@ const ESO_SETS = [
           "id": 3183415201
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Inferno Staff of Necropotence",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54962,7 +54962,7 @@ const ESO_SETS = [
           "id": 675911081
         },
         {
-          "name": "Argonian Greatsword 4",
+          "name": "Greatsword of Necropotence",
           "image": "gear_argonian_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54970,7 +54970,7 @@ const ESO_SETS = [
           "id": 2622640396
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Ice Staff of Necropotence",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54978,7 +54978,7 @@ const ESO_SETS = [
           "id": 675911081
         },
         {
-          "name": "Argonian Bow 4",
+          "name": "Bow of Necropotence",
           "image": "gear_argonian_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54986,7 +54986,7 @@ const ESO_SETS = [
           "id": 1778237139
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Lightning Staff of Necropotence",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55718,7 +55718,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Thieves Guild Sword",
+          "name": "Sword of the Night Mother",
           "image": "gear_thievesguildv2_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55726,7 +55726,7 @@ const ESO_SETS = [
           "id": 200511267
         },
         {
-          "name": "Thieves Guild Mace",
+          "name": "Mace of the Night Mother",
           "image": "gear_thievesguildv2_1hhammer_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55734,7 +55734,7 @@ const ESO_SETS = [
           "id": 616234510
         },
         {
-          "name": "Thieves Guild Dagger",
+          "name": "Dagger of the Night Mother",
           "image": "gear_thievesguildv2_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55742,7 +55742,7 @@ const ESO_SETS = [
           "id": 546444903
         },
         {
-          "name": "Thieves Guild Axe",
+          "name": "Axe of the Night Mother",
           "image": "gear_thievesguildv2_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55750,7 +55750,7 @@ const ESO_SETS = [
           "id": 1537557802
         },
         {
-          "name": "Thieves Guild Shield",
+          "name": "Shield of the Night Mother",
           "image": "gear_thievesguildv2_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -55758,7 +55758,7 @@ const ESO_SETS = [
           "id": 232845692
         },
         {
-          "name": "Thieves Guild Greatsword",
+          "name": "Greatsword of the Night Mother",
           "image": "gear_thievesguildv2_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55766,7 +55766,7 @@ const ESO_SETS = [
           "id": 1126035770
         },
         {
-          "name": "Thieves Guild Maul",
+          "name": "Maul of the Night Mother",
           "image": "gear_thievesguildv2_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55774,7 +55774,7 @@ const ESO_SETS = [
           "id": 134526421
         },
         {
-          "name": "Thieves Guild Battle Axe",
+          "name": "Battle Axe of the Night Mother",
           "image": "gear_thievesguildv2_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55782,7 +55782,7 @@ const ESO_SETS = [
           "id": 1795520059
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Restoration Staff of the Night Mother",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55790,7 +55790,7 @@ const ESO_SETS = [
           "id": 1742564575
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Inferno Staff of the Night Mother",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55798,7 +55798,7 @@ const ESO_SETS = [
           "id": 1742564575
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Ice Staff of the Night Mother",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55806,7 +55806,7 @@ const ESO_SETS = [
           "id": 1742564575
         },
         {
-          "name": "Thieves Guild Bow",
+          "name": "Bow of the Night Mother",
           "image": "gear_thievesguildv2_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55814,7 +55814,7 @@ const ESO_SETS = [
           "id": 717093141
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Lightning Staff of the Night Mother",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55822,7 +55822,7 @@ const ESO_SETS = [
           "id": 1742564575
         },
         {
-          "name": "Thieves Guild Boots",
+          "name": "Boots of the Night Mother",
           "image": "gear_thievesguildv2_medium_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -55831,34 +55831,16 @@ const ESO_SETS = [
           "id": 1413859293
         },
         {
-          "name": "Thieves Guild Sabatons",
-          "image": "gear_thievesguildv2_heavy_feet_a.png",
-          "slot": "feet",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 1409101869
-        },
-        {
-          "name": "Thieves Guild Helm",
-          "image": "gear_thievesguildv2_heavy_head_a.png",
-          "slot": "head",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 3253575075
-        },
-        {
-          "name": "Thieves Guild Helmet",
+          "name": "Helmet of the Night Mother",
           "image": "gear_thievesguildv2_medium_head_a.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Night Mother's Embrace",
           "id": 135995635
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Night Mother",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -55866,16 +55848,7 @@ const ESO_SETS = [
           "id": 1030846482
         },
         {
-          "name": "Thieves Guild Girdle",
-          "image": "gear_thievesguildv2_heavy_waist_a.png",
-          "slot": "waist",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 1088719425
-        },
-        {
-          "name": "Thieves Guild Belt",
+          "name": "Belt of the Night Mother",
           "image": "gear_thievesguildv2_medium_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -55884,16 +55857,7 @@ const ESO_SETS = [
           "id": 1099803857
         },
         {
-          "name": "Thieves Guild Greaves",
-          "image": "gear_thievesguildv2_heavy_legs_a.png",
-          "slot": "legs",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 2151225968
-        },
-        {
-          "name": "Thieves Guild Guards",
+          "name": "Guards of the Night Mother",
           "image": "gear_thievesguildv2_medium_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -55902,7 +55866,7 @@ const ESO_SETS = [
           "id": 3804434528
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Night Mother",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -55910,16 +55874,7 @@ const ESO_SETS = [
           "id": 2911040695
         },
         {
-          "name": "Thieves Guild Gauntlets",
-          "image": "gear_thievesguildv2_heavy_hands_a.png",
-          "slot": "hands",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 693210455
-        },
-        {
-          "name": "Thieves Guild Bracers",
+          "name": "Bracers of the Night Mother",
           "image": "gear_thievesguildv2_medium_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -55928,16 +55883,7 @@ const ESO_SETS = [
           "id": 2510993767
         },
         {
-          "name": "Thieves Guild Pauldrons",
-          "image": "gear_thievesguildv2_heavy_shoulders_a.png",
-          "slot": "shoulders",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 1476070116
-        },
-        {
-          "name": "Thieves Guild Arm Cops",
+          "name": "Arm Cops of the Night Mother",
           "image": "gear_thievesguildv2_medium_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -55946,16 +55892,7 @@ const ESO_SETS = [
           "id": 3978467284
         },
         {
-          "name": "Thieves Guild Cuirass",
-          "image": "gear_thievesguildv2_heavy_chest_a.png",
-          "slot": "chest",
-          "armorType": "heavy",
-          "itemType": "armor",
-          "setName": "Night Mother's Embrace",
-          "id": 1634797736
-        },
-        {
-          "name": "Thieves Guild Jack",
+          "name": "Jack of the Night Mother",
           "image": "gear_thievesguildv2_medium_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -56374,7 +56311,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Daedric Boots",
+          "name": "Boots of Night Terror",
           "image": "gear_daedric_medium_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -56383,7 +56320,7 @@ const ESO_SETS = [
           "id": 541030244
         },
         {
-          "name": "Daedric Helmet",
+          "name": "Helm of Night Terror",
           "image": "gear_daedric_medium_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -56392,7 +56329,7 @@ const ESO_SETS = [
           "id": 1243562498
         },
         {
-          "name": "Ring",
+          "name": "Ring of Night Terror",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -56400,7 +56337,7 @@ const ESO_SETS = [
           "id": 2783658648
         },
         {
-          "name": "Daedric Belt",
+          "name": "Belt of Night Terror",
           "image": "gear_daedric_medium_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -56409,7 +56346,7 @@ const ESO_SETS = [
           "id": 1035869466
         },
         {
-          "name": "Daedric Guards",
+          "name": "Guards of Night Terror",
           "image": "gear_daedric_medium_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -56418,7 +56355,7 @@ const ESO_SETS = [
           "id": 2593497889
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Night Terror",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -56426,7 +56363,7 @@ const ESO_SETS = [
           "id": 2042040493
         },
         {
-          "name": "Daedric Bracers",
+          "name": "Bracers of Night Terror",
           "image": "gear_daedric_medium_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -56435,7 +56372,7 @@ const ESO_SETS = [
           "id": 919055456
         },
         {
-          "name": "Daedric Arm Cops",
+          "name": "Arm Cops of Night Terror",
           "image": "gear_daedric_medium_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -56444,7 +56381,7 @@ const ESO_SETS = [
           "id": 3462884775
         },
         {
-          "name": "Daedric Jack",
+          "name": "Jack of Night Terror",
           "image": "gear_daedric_medium_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -56453,7 +56390,7 @@ const ESO_SETS = [
           "id": 2549270907
         },
         {
-          "name": "Daedric Sword 3",
+          "name": "Sword of Night Terror",
           "image": "gear_daedric_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56461,7 +56398,7 @@ const ESO_SETS = [
           "id": 2116653388
         },
         {
-          "name": "Daedric Mace 3",
+          "name": "Mace of Night Terror",
           "image": "gear_daedric_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56469,7 +56406,7 @@ const ESO_SETS = [
           "id": 3738379703
         },
         {
-          "name": "Daedric Dagger 3",
+          "name": "Dagger of Night Terror",
           "image": "gear_daedric_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56477,7 +56414,7 @@ const ESO_SETS = [
           "id": 4023850774
         },
         {
-          "name": "Daedric Axe 2",
+          "name": "Axe of Night Terror",
           "image": "gear_daedric_1haxe_b.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56485,7 +56422,7 @@ const ESO_SETS = [
           "id": 1170088742
         },
         {
-          "name": "Daedric Shield 3",
+          "name": "Shield of Night Terror",
           "image": "gear_daedric_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -56493,7 +56430,7 @@ const ESO_SETS = [
           "id": 4224234601
         },
         {
-          "name": "Daedric Greatsword 3",
+          "name": "Greatsword of Night Terror",
           "image": "gear_daedric_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56501,7 +56438,7 @@ const ESO_SETS = [
           "id": 1993134433
         },
         {
-          "name": "Daedric Maul 3",
+          "name": "Maul of Night Terror",
           "image": "gear_daedric_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56509,7 +56446,7 @@ const ESO_SETS = [
           "id": 412587696
         },
         {
-          "name": "Daedric Battle Axe 3",
+          "name": "Battle Axe of Night Terror",
           "image": "gear_daedric_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56517,7 +56454,7 @@ const ESO_SETS = [
           "id": 1962283356
         },
         {
-          "name": "Daedric Staff 3",
+          "name": "Restoration Staff of Night Terror",
           "image": "gear_daedric_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56525,7 +56462,7 @@ const ESO_SETS = [
           "id": 40934052
         },
         {
-          "name": "Daedric Staff 3",
+          "name": "Inferno Staff of Night Terror",
           "image": "gear_daedric_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56533,7 +56470,7 @@ const ESO_SETS = [
           "id": 40934052
         },
         {
-          "name": "Daedric Staff 3",
+          "name": "Ice Staff of Night Terror",
           "image": "gear_daedric_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56541,7 +56478,7 @@ const ESO_SETS = [
           "id": 40934052
         },
         {
-          "name": "Daedric Bow 3",
+          "name": "Bow of Night Terror",
           "image": "gear_daedric_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56549,7 +56486,7 @@ const ESO_SETS = [
           "id": 809542122
         },
         {
-          "name": "Daedric Staff 3",
+          "name": "Lightning Staff of Night Terror",
           "image": "gear_daedric_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58796,7 +58733,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Redguard Sword 4",
+          "name": "Sword of the Order of Diagna",
           "image": "gear_redguard_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58804,7 +58741,7 @@ const ESO_SETS = [
           "id": 4223869526
         },
         {
-          "name": "Redguard Dagger 4",
+          "name": "Dagger of the Order of Diagna",
           "image": "gear_redguard_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58812,7 +58749,7 @@ const ESO_SETS = [
           "id": 1903100090
         },
         {
-          "name": "Redguard Axe 4",
+          "name": "Axe of the Order of Diagna",
           "image": "gear_redguard_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58820,7 +58757,7 @@ const ESO_SETS = [
           "id": 1065626875
         },
         {
-          "name": "Redguard Mace 4",
+          "name": "Mace of the Order of Diagna",
           "image": "gear_redguard_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58828,7 +58765,7 @@ const ESO_SETS = [
           "id": 3829316359
         },
         {
-          "name": "Redguard Shield 4",
+          "name": "Shield of the Order of Diagna",
           "image": "gear_redguard_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -58836,7 +58773,7 @@ const ESO_SETS = [
           "id": 3926939661
         },
         {
-          "name": "Redguard Maul 4",
+          "name": "Maul of the Order of Diagna",
           "image": "gear_redguard_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58844,7 +58781,7 @@ const ESO_SETS = [
           "id": 266050892
         },
         {
-          "name": "Redguard Greatsword 4",
+          "name": "Greatsword of the Order of Diagna",
           "image": "gear_redguard_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58852,7 +58789,7 @@ const ESO_SETS = [
           "id": 915173047
         },
         {
-          "name": "Redguard Battle Axe 4",
+          "name": "Battle Axe of the Order of Diagna",
           "image": "gear_redguard_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58860,7 +58797,7 @@ const ESO_SETS = [
           "id": 1319207506
         },
         {
-          "name": "Redguard Staff 4",
+          "name": "Restoration Staff of the Order of Diagna",
           "image": "gear_redguard_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58868,7 +58805,7 @@ const ESO_SETS = [
           "id": 3848388878
         },
         {
-          "name": "Redguard Staff 4",
+          "name": "Inferno Staff of the Order of Diagna",
           "image": "gear_redguard_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58876,7 +58813,7 @@ const ESO_SETS = [
           "id": 3848388878
         },
         {
-          "name": "Redguard Staff 4",
+          "name": "Ice Staff of the Order of Diagna",
           "image": "gear_redguard_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58884,7 +58821,7 @@ const ESO_SETS = [
           "id": 3848388878
         },
         {
-          "name": "Redguard Bow 4",
+          "name": "Bow of the Order of Diagna",
           "image": "gear_redguard_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58892,7 +58829,7 @@ const ESO_SETS = [
           "id": 1603405060
         },
         {
-          "name": "Redguard Staff 4",
+          "name": "Lightning Staff of the Order of Diagna",
           "image": "gear_redguard_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58900,7 +58837,7 @@ const ESO_SETS = [
           "id": 3848388878
         },
         {
-          "name": "Redguard Sabatons 4",
+          "name": "Sabatons of the Order of Diagna",
           "image": "gear_redguard_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -58909,7 +58846,7 @@ const ESO_SETS = [
           "id": 2564392240
         },
         {
-          "name": "Redguard Helm 3",
+          "name": "Helm of the Order of Diagna",
           "image": "gear_redguard_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -58918,7 +58855,7 @@ const ESO_SETS = [
           "id": 4218794858
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Order of Diagna",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -58926,7 +58863,7 @@ const ESO_SETS = [
           "id": 3713290761
         },
         {
-          "name": "Redguard Girdle 4",
+          "name": "Girdle of the Order of Diagna",
           "image": "gear_redguard_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -58935,7 +58872,7 @@ const ESO_SETS = [
           "id": 860629764
         },
         {
-          "name": "Redguard Greaves 4",
+          "name": "Greaves of the Order of Diagna",
           "image": "gear_redguard_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -58944,7 +58881,7 @@ const ESO_SETS = [
           "id": 3178269653
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Order of Diagna",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -58952,7 +58889,7 @@ const ESO_SETS = [
           "id": 2481656516
         },
         {
-          "name": "Redguard Gauntlets 4",
+          "name": "Gauntlets of the Order of Diagna",
           "image": "gear_redguard_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -58961,7 +58898,7 @@ const ESO_SETS = [
           "id": 3359260498
         },
         {
-          "name": "Redguard Pauldrons 4",
+          "name": "Pauldron of the Order of Diagna",
           "image": "gear_redguard_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -58970,7 +58907,7 @@ const ESO_SETS = [
           "id": 304652789
         },
         {
-          "name": "Redguard Cuirass 4",
+          "name": "Cuirass of the Order of Diagna",
           "image": "gear_redguard_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -66499,7 +66436,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Plague Doctor's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -66508,7 +66445,7 @@ const ESO_SETS = [
           "id": 2451234872
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Plague Doctor's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -66517,7 +66454,7 @@ const ESO_SETS = [
           "id": 3227882850
         },
         {
-          "name": "Ring",
+          "name": "Plague Doctor's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -66525,7 +66462,7 @@ const ESO_SETS = [
           "id": 3743391653
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Plague Doctor's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -66534,7 +66471,7 @@ const ESO_SETS = [
           "id": 1973891769
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Plague Doctor's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -66543,7 +66480,7 @@ const ESO_SETS = [
           "id": 3569962701
         },
         {
-          "name": "Necklace",
+          "name": "Plague Doctor's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -66551,7 +66488,7 @@ const ESO_SETS = [
           "id": 96931728
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Plague Doctor's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -66560,7 +66497,7 @@ const ESO_SETS = [
           "id": 1503446026
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Plague Doctor's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -66569,7 +66506,7 @@ const ESO_SETS = [
           "id": 2055961693
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Plague Doctor's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -66578,7 +66515,7 @@ const ESO_SETS = [
           "id": 2997007244
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Plague Doctor's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -66586,7 +66523,7 @@ const ESO_SETS = [
           "id": 1343941151
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Plague Doctor's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -66594,7 +66531,7 @@ const ESO_SETS = [
           "id": 2838276254
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Plague Doctor's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -66602,7 +66539,7 @@ const ESO_SETS = [
           "id": 1465264867
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Plague Doctor's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -66610,7 +66547,7 @@ const ESO_SETS = [
           "id": 3005226226
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Plague Doctor's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -66618,7 +66555,7 @@ const ESO_SETS = [
           "id": 311609269
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Plague Doctor's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66626,7 +66563,7 @@ const ESO_SETS = [
           "id": 2441922399
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Plague Doctor's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66634,7 +66571,7 @@ const ESO_SETS = [
           "id": 295646724
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Plague Doctor's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66642,7 +66579,7 @@ const ESO_SETS = [
           "id": 521935898
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Plague Doctor's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66650,7 +66587,7 @@ const ESO_SETS = [
           "id": 3946474486
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Plague Doctor's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66658,7 +66595,7 @@ const ESO_SETS = [
           "id": 3946474486
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Plague Doctor's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66666,7 +66603,7 @@ const ESO_SETS = [
           "id": 3946474486
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Plague Doctor's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -66674,7 +66611,7 @@ const ESO_SETS = [
           "id": 3194328252
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Plague Doctor's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69429,7 +69366,7 @@ const ESO_SETS = [
           "id": 2701202905
         },
         {
-          "name": "Arm cops of the Ranger",
+          "name": "Arm Cops of the Ranger",
           "image": "gear_bosmer_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -72173,7 +72110,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Argonian Shoes 4",
+          "name": "Shoes of Hist Sap",
           "image": "gear_argonian_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -72182,7 +72119,7 @@ const ESO_SETS = [
           "id": 4208270580
         },
         {
-          "name": "Argonian Hat 3",
+          "name": "Hat of Hist Sap",
           "image": "gear_argonian_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -72191,7 +72128,7 @@ const ESO_SETS = [
           "id": 2350951646
         },
         {
-          "name": "Ring",
+          "name": "Ring of Hist Sap",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -72199,7 +72136,7 @@ const ESO_SETS = [
           "id": 3605595269
         },
         {
-          "name": "Argonian Jerkin 4",
+          "name": "Robe of Hist Sap",
           "image": "gear_argonian_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -72208,7 +72145,7 @@ const ESO_SETS = [
           "id": 1777423360
         },
         {
-          "name": "Argonian Breeches 4",
+          "name": "Breeches of Hist Sap",
           "image": "gear_argonian_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -72217,7 +72154,7 @@ const ESO_SETS = [
           "id": 1963994193
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Hist Sap",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -72225,7 +72162,7 @@ const ESO_SETS = [
           "id": 3533048560
         },
         {
-          "name": "Argonian Gloves 4",
+          "name": "Gloves of Hist Sap",
           "image": "gear_argonian_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -72234,7 +72171,7 @@ const ESO_SETS = [
           "id": 1272306734
         },
         {
-          "name": "Argonian Epaulets 4",
+          "name": "Epaulets of Hist Sap",
           "image": "gear_argonian_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -72243,7 +72180,7 @@ const ESO_SETS = [
           "id": 4248014873
         },
         {
-          "name": "Argonian Sash 4",
+          "name": "Sash of Hist Sap",
           "image": "gear_argonian_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -72252,7 +72189,7 @@ const ESO_SETS = [
           "id": 3026827376
         },
         {
-          "name": "Argonian Mace 4",
+          "name": "Mace of Hist Sap",
           "image": "gear_argonian_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72260,7 +72197,7 @@ const ESO_SETS = [
           "id": 1380846722
         },
         {
-          "name": "Argonian Sword 4",
+          "name": "Sword of Hist Sap",
           "image": "gear_argonian_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72268,7 +72205,7 @@ const ESO_SETS = [
           "id": 357342661
         },
         {
-          "name": "Argonian Axe 4",
+          "name": "Axe of Hist Sap",
           "image": "gear_argonian_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72276,7 +72213,7 @@ const ESO_SETS = [
           "id": 4228825912
         },
         {
-          "name": "Argonian Dagger 4",
+          "name": "Dagger of Hist Sap",
           "image": "gear_argonian_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72284,7 +72221,7 @@ const ESO_SETS = [
           "id": 1367754107
         },
         {
-          "name": "Argonian Shield 4",
+          "name": "Shield of Hist Sap",
           "image": "gear_argonian_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -72292,7 +72229,7 @@ const ESO_SETS = [
           "id": 1017651968
         },
         {
-          "name": "Argonian Maul 4",
+          "name": "Maul of Hist Sap",
           "image": "gear_argonian_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72300,7 +72237,7 @@ const ESO_SETS = [
           "id": 3169730281
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Restoration Staff of Hist Sap",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72308,7 +72245,7 @@ const ESO_SETS = [
           "id": 437884301
         },
         {
-          "name": "Argonian Battle Axe 4",
+          "name": "Battle Axe of Hist Sap",
           "image": "gear_argonian_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72316,7 +72253,7 @@ const ESO_SETS = [
           "id": 2333400773
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Inferno Staff of Hist Sap",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72324,7 +72261,7 @@ const ESO_SETS = [
           "id": 437884301
         },
         {
-          "name": "Argonian Greatsword 4",
+          "name": "Greatsword of Hist Sap",
           "image": "gear_argonian_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72332,7 +72269,7 @@ const ESO_SETS = [
           "id": 3028326816
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Ice Staff of Hist Sap",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72340,7 +72277,7 @@ const ESO_SETS = [
           "id": 437884301
         },
         {
-          "name": "Argonian Bow 4",
+          "name": "Bow of Hist Sap",
           "image": "gear_argonian_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72348,7 +72285,7 @@ const ESO_SETS = [
           "id": 197876111
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Lightning Staff of Hist Sap",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72399,7 +72336,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Worm Cult Mace",
+          "name": "Mace of the Withered Hand",
           "image": "gear_wormcult_1hhammer_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72407,7 +72344,7 @@ const ESO_SETS = [
           "id": 3375124616
         },
         {
-          "name": "Worm Cult Sword",
+          "name": "Sword of the Withered Hand",
           "image": "gear_wormcult_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72415,7 +72352,7 @@ const ESO_SETS = [
           "id": 1701994677
         },
         {
-          "name": "Worm Cult Axe",
+          "name": "Axe of the Withered Hand",
           "image": "gear_wormcult_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72423,7 +72360,7 @@ const ESO_SETS = [
           "id": 3161459220
         },
         {
-          "name": "Worm Cult Dagger",
+          "name": "Dagger of the Withered Hand",
           "image": "gear_wormcult_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -72431,7 +72368,7 @@ const ESO_SETS = [
           "id": 3953329537
         },
         {
-          "name": "Worm Cult Shield",
+          "name": "Shield of the Withered Hand",
           "image": "gear_wormcult_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -72439,7 +72376,7 @@ const ESO_SETS = [
           "id": 2235491950
         },
         {
-          "name": "Worm Cult Maul",
+          "name": "Maul of the Withered Hand",
           "image": "gear_wormcult_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72447,7 +72384,7 @@ const ESO_SETS = [
           "id": 3398434003
         },
         {
-          "name": "Worm Cult Greatsword",
+          "name": "Greatsword of the Withered Hand",
           "image": "gear_wormcult_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72455,7 +72392,7 @@ const ESO_SETS = [
           "id": 1605676024
         },
         {
-          "name": "Worm Cult Battle Axe",
+          "name": "Battle Axe of the Withered Hand",
           "image": "gear_wormcult_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72463,7 +72400,7 @@ const ESO_SETS = [
           "id": 584700921
         },
         {
-          "name": "Worm Cult Staff",
+          "name": "Restoration Staff of the Withered Hand",
           "image": "gear_wormcult_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72471,7 +72408,7 @@ const ESO_SETS = [
           "id": 108869293
         },
         {
-          "name": "Worm Cult Staff",
+          "name": "Inferno Staff of the Withered Hand",
           "image": "gear_wormcult_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72479,7 +72416,7 @@ const ESO_SETS = [
           "id": 108869293
         },
         {
-          "name": "Worm Cult Staff",
+          "name": "Ice Staff of the Withered Hand",
           "image": "gear_wormcult_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72487,7 +72424,7 @@ const ESO_SETS = [
           "id": 108869293
         },
         {
-          "name": "Worm Cult Bow",
+          "name": "Bow of the Withered Hand",
           "image": "gear_wormcult_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72495,7 +72432,7 @@ const ESO_SETS = [
           "id": 2873613803
         },
         {
-          "name": "Worm Cult Staff",
+          "name": "Lightning Staff of the Withered Hand",
           "image": "gear_wormcult_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -72503,7 +72440,7 @@ const ESO_SETS = [
           "id": 108869293
         },
         {
-          "name": "Worm Cult Shoes",
+          "name": "Shoes of the Withered Hand",
           "image": "gear_wormcult_lighty_feet_a.png",
           "slot": "feet",
           "armorType": "light",
@@ -72512,7 +72449,7 @@ const ESO_SETS = [
           "id": 445070811
         },
         {
-          "name": "Worm Cult Hat",
+          "name": "Hat of the Withered Hand",
           "image": "gear_wormcult_light_head_a.png",
           "slot": "head",
           "armorType": "light",
@@ -72521,7 +72458,7 @@ const ESO_SETS = [
           "id": 2454087400
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Withered Hand",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -72529,7 +72466,7 @@ const ESO_SETS = [
           "id": 2098044616
         },
         {
-          "name": "Worm Cult Jerkin",
+          "name": "Robe of the Withered Hand",
           "image": "gear_wormcult_light_shirt_a.png",
           "slot": "chest",
           "armorType": "light",
@@ -72538,7 +72475,7 @@ const ESO_SETS = [
           "id": 3475704308
         },
         {
-          "name": "Worm Cult Breeches",
+          "name": "Breeches of the Withered Hand",
           "image": "gear_wormcult_light_legs_a.png",
           "slot": "legs",
           "armorType": "light",
@@ -72547,7 +72484,7 @@ const ESO_SETS = [
           "id": 71745375
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Withered Hand",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -72555,7 +72492,7 @@ const ESO_SETS = [
           "id": 1456161405
         },
         {
-          "name": "Worm Cult Gloves",
+          "name": "Gloves of the Withered Hand",
           "image": "gear_wormcult_light_hands_a.png",
           "slot": "hands",
           "armorType": "light",
@@ -72564,7 +72501,7 @@ const ESO_SETS = [
           "id": 949844194
         },
         {
-          "name": "Worm Cult Epaulets",
+          "name": "Epaulets of the Withered Hand",
           "image": "gear_wormcult_light_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -72573,7 +72510,7 @@ const ESO_SETS = [
           "id": 1456878409
         },
         {
-          "name": "Worm Cult Sash",
+          "name": "Sash of the Withered Hand",
           "image": "gear_wormcult_light_waist_a.png",
           "slot": "waist",
           "armorType": "light",
@@ -73087,7 +73024,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Mace 4",
+          "name": "Mace of Salvation",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -73095,7 +73032,7 @@ const ESO_SETS = [
           "id": 1635805074
         },
         {
-          "name": "High Elf Sword 4",
+          "name": "Sword of Salvation",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -73103,7 +73040,7 @@ const ESO_SETS = [
           "id": 1658406325
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Axe of Salvation",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -73111,7 +73048,7 @@ const ESO_SETS = [
           "id": 1022084584
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Dagger of Salvation",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -73119,7 +73056,7 @@ const ESO_SETS = [
           "id": 2688843243
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Shield of Salvation",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -73127,7 +73064,7 @@ const ESO_SETS = [
           "id": 2263997360
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Greatsword of Salvation",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73135,7 +73072,7 @@ const ESO_SETS = [
           "id": 2142698704
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Maul of Salvation",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73143,7 +73080,7 @@ const ESO_SETS = [
           "id": 1110558009
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Battle Axe of Salvation",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73151,7 +73088,7 @@ const ESO_SETS = [
           "id": 1760343925
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Restoration Staff of Salvation",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73159,7 +73096,7 @@ const ESO_SETS = [
           "id": 4180170365
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Inferno Staff of Salvation",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73167,7 +73104,7 @@ const ESO_SETS = [
           "id": 4180170365
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Ice Staff of Salvation",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73175,7 +73112,7 @@ const ESO_SETS = [
           "id": 4180170365
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Bow of Salvation",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73183,7 +73120,7 @@ const ESO_SETS = [
           "id": 148928031
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Lightning Staff of Salvation",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -73191,7 +73128,7 @@ const ESO_SETS = [
           "id": 4180170365
         },
         {
-          "name": "High Elf Boots 4",
+          "name": "Boots of Salvation",
           "image": "gear_altmer_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -73200,7 +73137,7 @@ const ESO_SETS = [
           "id": 234848623
         },
         {
-          "name": "High Elf Helmet 3",
+          "name": "Helm of Salvation",
           "image": "gear_altmer_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -73209,7 +73146,7 @@ const ESO_SETS = [
           "id": 863053453
         },
         {
-          "name": "Ring",
+          "name": "Ring of Salvation",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -73217,7 +73154,7 @@ const ESO_SETS = [
           "id": 670064655
         },
         {
-          "name": "High Elf Jack 4",
+          "name": "Jack of Salvation",
           "image": "gear_altmer_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -73226,7 +73163,7 @@ const ESO_SETS = [
           "id": 2222557984
         },
         {
-          "name": "High Elf Guards 4",
+          "name": "Guards of Salvation",
           "image": "gear_altmer_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -73235,7 +73172,7 @@ const ESO_SETS = [
           "id": 2608196438
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Salvation",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -73243,7 +73180,7 @@ const ESO_SETS = [
           "id": 1139202778
         },
         {
-          "name": "High Elf Bracers 4",
+          "name": "Bracers of Salvation",
           "image": "gear_altmer_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -73252,7 +73189,7 @@ const ESO_SETS = [
           "id": 3782177355
         },
         {
-          "name": "High Elf Arm Cops 4",
+          "name": "Arm Cops of Salvation",
           "image": "gear_altmer_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -73261,7 +73198,7 @@ const ESO_SETS = [
           "id": 1571996172
         },
         {
-          "name": "High Elf Belt 4",
+          "name": "Belt of Salvation",
           "image": "gear_altmer_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -75184,7 +75121,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Khajiit Boots 4",
+          "name": "Senche's Boots",
           "image": "gear_khajiit_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -75193,7 +75130,7 @@ const ESO_SETS = [
           "id": 353891323
         },
         {
-          "name": "Khajiit Helmet 3",
+          "name": "Senche's Helm",
           "image": "gear_khajiit_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -75202,7 +75139,7 @@ const ESO_SETS = [
           "id": 3687020089
         },
         {
-          "name": "Ring",
+          "name": "Senche's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -75210,7 +75147,7 @@ const ESO_SETS = [
           "id": 3282635234
         },
         {
-          "name": "Khajiit Jack 4",
+          "name": "Senche's Jack",
           "image": "gear_khajiit_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -75219,7 +75156,7 @@ const ESO_SETS = [
           "id": 694824068
         },
         {
-          "name": "Khajiit Guards 4",
+          "name": "Senche's Guards",
           "image": "gear_khajiit_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -75228,7 +75165,7 @@ const ESO_SETS = [
           "id": 2750091018
         },
         {
-          "name": "Necklace",
+          "name": "Senche's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -75236,7 +75173,7 @@ const ESO_SETS = [
           "id": 1040902631
         },
         {
-          "name": "Khajiit Bracers 4",
+          "name": "Senche's Bracers",
           "image": "gear_khajiit_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -75245,7 +75182,7 @@ const ESO_SETS = [
           "id": 187660911
         },
         {
-          "name": "Khajiit Arm Cops 4",
+          "name": "Senche's Arm Cops",
           "image": "gear_khajiit_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -75254,7 +75191,7 @@ const ESO_SETS = [
           "id": 3380934872
         },
         {
-          "name": "Khajiit Belt 4",
+          "name": "Senche's Belt",
           "image": "gear_khajiit_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -75263,7 +75200,7 @@ const ESO_SETS = [
           "id": 958357809
         },
         {
-          "name": "Khajiit Mace 4",
+          "name": "Senche's Mace",
           "image": "gear_khajiit_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -75271,7 +75208,7 @@ const ESO_SETS = [
           "id": 1653947790
         },
         {
-          "name": "Khajiit Sword 4",
+          "name": "Senche's Sword",
           "image": "gear_khajiit_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -75279,7 +75216,7 @@ const ESO_SETS = [
           "id": 3783339881
         },
         {
-          "name": "Khajiit Axe 4",
+          "name": "Senche's Axe",
           "image": "gear_khajiit_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -75287,7 +75224,7 @@ const ESO_SETS = [
           "id": 786012028
         },
         {
-          "name": "Khajiit Dagger 4",
+          "name": "Senche's Dagger",
           "image": "gear_khajiit_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -75295,7 +75232,7 @@ const ESO_SETS = [
           "id": 3352344959
         },
         {
-          "name": "Khajiit Shield 4",
+          "name": "Senche's Shield",
           "image": "gear_khajiit_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -75303,7 +75240,7 @@ const ESO_SETS = [
           "id": 2708494828
         },
         {
-          "name": "Khajiit Maul 4",
+          "name": "Senche's Maul",
           "image": "gear_khajiit_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75311,7 +75248,7 @@ const ESO_SETS = [
           "id": 1567875493
         },
         {
-          "name": "Khajiit Greatsword 4",
+          "name": "Senche's Greatsword",
           "image": "gear_khajiit_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75319,7 +75256,7 @@ const ESO_SETS = [
           "id": 1757511620
         },
         {
-          "name": "Khajiit Battle Axe 4",
+          "name": "Senche's Battle Axe",
           "image": "gear_khajiit_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75327,7 +75264,7 @@ const ESO_SETS = [
           "id": 3507160377
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Senche's Restoration Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75335,7 +75272,7 @@ const ESO_SETS = [
           "id": 1200755809
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Senche's Inferno Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75343,7 +75280,7 @@ const ESO_SETS = [
           "id": 1200755809
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Senche's Ice Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75351,7 +75288,7 @@ const ESO_SETS = [
           "id": 1200755809
         },
         {
-          "name": "Khajiit Bow 4",
+          "name": "Senche's Bow",
           "image": "gear_khajiit_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75359,7 +75296,7 @@ const ESO_SETS = [
           "id": 1292745755
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Senche's Lightning Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76315,7 +76252,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Orc Sabatons 4",
+          "name": "Seventh Legion's Sabatons",
           "image": "gear_orc_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -76324,7 +76261,7 @@ const ESO_SETS = [
           "id": 2925796102
         },
         {
-          "name": "Orc Helm 3",
+          "name": "Seventh Legion's Helm",
           "image": "gear_orc_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -76333,7 +76270,7 @@ const ESO_SETS = [
           "id": 539228228
         },
         {
-          "name": "Ring",
+          "name": "Seventh Legion's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -76341,7 +76278,7 @@ const ESO_SETS = [
           "id": 1713372971
         },
         {
-          "name": "Orc Cuirass 4",
+          "name": "Seventh Legion's Cuirass",
           "image": "gear_orc_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -76350,7 +76287,7 @@ const ESO_SETS = [
           "id": 3213202431
         },
         {
-          "name": "Orc Greaves 4",
+          "name": "Seventh Legion's Greaves",
           "image": "gear_orc_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -76359,7 +76296,7 @@ const ESO_SETS = [
           "id": 1218815543
         },
         {
-          "name": "Necklace",
+          "name": "Seventh Legion's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -76367,7 +76304,7 @@ const ESO_SETS = [
           "id": 3674280678
         },
         {
-          "name": "Orc Gauntlets 4",
+          "name": "Seventh Legion's Gauntlets",
           "image": "gear_orc_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -76376,7 +76313,7 @@ const ESO_SETS = [
           "id": 1954989632
         },
         {
-          "name": "Orc Pauldrons 4",
+          "name": "Seventh Legion's Pauldron",
           "image": "gear_orc_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -76385,7 +76322,7 @@ const ESO_SETS = [
           "id": 3548925827
         },
         {
-          "name": "Orc Girdle 4",
+          "name": "Seventh Legion's Girdle",
           "image": "gear_orc_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -76394,7 +76331,7 @@ const ESO_SETS = [
           "id": 1053349074
         },
         {
-          "name": "Orc Shield 4",
+          "name": "Seventh Legion's Shield",
           "image": "gear_orc_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -76402,7 +76339,7 @@ const ESO_SETS = [
           "id": 2214653627
         },
         {
-          "name": "Orc Sword 4",
+          "name": "Seventh Legion's Sword",
           "image": "gear_orc_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76410,7 +76347,7 @@ const ESO_SETS = [
           "id": 1605980340
         },
         {
-          "name": "Orc Dagger 4",
+          "name": "Seventh Legion's Dagger",
           "image": "gear_orc_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76418,7 +76355,7 @@ const ESO_SETS = [
           "id": 2148225968
         },
         {
-          "name": "Orc Axe 4",
+          "name": "Seventh Legion's Axe",
           "image": "gear_orc_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76426,7 +76363,7 @@ const ESO_SETS = [
           "id": 144442857
         },
         {
-          "name": "Orc Mace 4",
+          "name": "Seventh Legion's Mace",
           "image": "gear_orc_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76434,7 +76371,7 @@ const ESO_SETS = [
           "id": 3951295477
         },
         {
-          "name": "Orc Greatsword 4",
+          "name": "Seventh Legion's Greatsword",
           "image": "gear_orc_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76442,7 +76379,7 @@ const ESO_SETS = [
           "id": 3521556697
         },
         {
-          "name": "Orc Maul 4",
+          "name": "Seventh Legion's Maul",
           "image": "gear_orc_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76450,7 +76387,7 @@ const ESO_SETS = [
           "id": 24558430
         },
         {
-          "name": "Orc Battle Axe 4",
+          "name": "Seventh Legion's Battle Axe",
           "image": "gear_orc_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76458,7 +76395,7 @@ const ESO_SETS = [
           "id": 1749932332
         },
         {
-          "name": "Orc Staff 4",
+          "name": "Seventh Legion's Restoration Staff",
           "image": "gear_orc_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76466,7 +76403,7 @@ const ESO_SETS = [
           "id": 3764704056
         },
         {
-          "name": "Orc Staff 4",
+          "name": "Seventh Legion's Inferno Staff",
           "image": "gear_orc_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76474,7 +76411,7 @@ const ESO_SETS = [
           "id": 3764704056
         },
         {
-          "name": "Orc Staff 4",
+          "name": "Seventh Legion's Ice Staff",
           "image": "gear_orc_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76482,7 +76419,7 @@ const ESO_SETS = [
           "id": 3764704056
         },
         {
-          "name": "Orc Bow 4",
+          "name": "Seventh Legion's Bow",
           "image": "gear_orc_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76490,7 +76427,7 @@ const ESO_SETS = [
           "id": 4045498398
         },
         {
-          "name": "Orc Staff 4",
+          "name": "Seventh Legion's Lightning Staff",
           "image": "gear_orc_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76901,7 +76838,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Thieves Guild Sword",
+          "name": "Sword of the Shadow Dancer",
           "image": "gear_thievesguildv2_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76909,7 +76846,7 @@ const ESO_SETS = [
           "id": 1517314886
         },
         {
-          "name": "Thieves Guild Dagger",
+          "name": "Dagger of the Shadow Dancer",
           "image": "gear_thievesguildv2_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76917,7 +76854,7 @@ const ESO_SETS = [
           "id": 3726174260
         },
         {
-          "name": "Thieves Guild Axe",
+          "name": "Axe of the Shadow Dancer",
           "image": "gear_thievesguildv2_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76925,7 +76862,7 @@ const ESO_SETS = [
           "id": 1368888087
         },
         {
-          "name": "Thieves Guild Mace",
+          "name": "Mace of the Shadow Dancer",
           "image": "gear_thievesguildv2_1hhammer_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76933,7 +76870,7 @@ const ESO_SETS = [
           "id": 3203350857
         },
         {
-          "name": "Thieves Guild Shield",
+          "name": "Shield of the Shadow Dancer",
           "image": "gear_thievesguildv2_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -76941,7 +76878,7 @@ const ESO_SETS = [
           "id": 2969575583
         },
         {
-          "name": "Thieves Guild Greatsword",
+          "name": "Greatsword of the Shadow Dancer",
           "image": "gear_thievesguildv2_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76949,7 +76886,7 @@ const ESO_SETS = [
           "id": 150237759
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Restoration Staff of the Shadow Dancer",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76957,7 +76894,7 @@ const ESO_SETS = [
           "id": 732345358
         },
         {
-          "name": "Thieves Guild Battle Axe",
+          "name": "Battle Axe of the Shadow Dancer",
           "image": "gear_thievesguildv2_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76965,7 +76902,7 @@ const ESO_SETS = [
           "id": 2265688134
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Inferno Staff of the Shadow Dancer",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76973,7 +76910,7 @@ const ESO_SETS = [
           "id": 732345358
         },
         {
-          "name": "Thieves Guild Maul",
+          "name": "Maul of the Shadow Dancer",
           "image": "gear_thievesguildv2_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76981,7 +76918,7 @@ const ESO_SETS = [
           "id": 1253974114
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Ice Staff of the Shadow Dancer",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76989,7 +76926,7 @@ const ESO_SETS = [
           "id": 732345358
         },
         {
-          "name": "Thieves Guild Bow",
+          "name": "Bow of the Shadow Dancer",
           "image": "gear_thievesguildv2_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76997,7 +76934,7 @@ const ESO_SETS = [
           "id": 2795802288
         },
         {
-          "name": "Thieves Guild Staff",
+          "name": "Lightning Staff of the Shadow Dancer",
           "image": "gear_thievesguildv2_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77005,7 +76942,7 @@ const ESO_SETS = [
           "id": 732345358
         },
         {
-          "name": "Thieves Guild Shoes",
+          "name": "Shoes of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_feet_a.png",
           "slot": "feet",
           "armorType": "light",
@@ -77014,7 +76951,7 @@ const ESO_SETS = [
           "id": 4156385979
         },
         {
-          "name": "Thieves Guild Hat",
+          "name": "Cowl of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_head_a.png",
           "slot": "head",
           "armorType": "light",
@@ -77023,7 +76960,7 @@ const ESO_SETS = [
           "id": 3476128605
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Shadow Dancer",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -77031,7 +76968,7 @@ const ESO_SETS = [
           "id": 3841925753
         },
         {
-          "name": "Thieves Guild Jerkin",
+          "name": "Robe of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_shirt_a.png",
           "slot": "chest",
           "armorType": "light",
@@ -77040,7 +76977,7 @@ const ESO_SETS = [
           "id": 1927676767
         },
         {
-          "name": "Thieves Guild Breeches",
+          "name": "Breeches of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_legs_a.png",
           "slot": "legs",
           "armorType": "light",
@@ -77049,7 +76986,7 @@ const ESO_SETS = [
           "id": 2353701418
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Shadow Dancer",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -77057,7 +76994,7 @@ const ESO_SETS = [
           "id": 2340758292
         },
         {
-          "name": "Thieves Guild Gloves",
+          "name": "Gloves of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_hands_a.png",
           "slot": "hands",
           "armorType": "light",
@@ -77066,7 +77003,7 @@ const ESO_SETS = [
           "id": 3719596845
         },
         {
-          "name": "Thieves Guild Epaulets",
+          "name": "Epaulets of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -77075,7 +77012,7 @@ const ESO_SETS = [
           "id": 984296146
         },
         {
-          "name": "Thieves Guild Sash",
+          "name": "Sash of the Shadow Dancer",
           "image": "gear_thievesguildv2_light_waist_a.png",
           "slot": "waist",
           "armorType": "light",
@@ -77138,7 +77075,7 @@ const ESO_SETS = [
           "id": 3602722955
         },
         {
-          "name": "Sword",
+          "name": "Sword of the Red Mountain",
           "image": "gear_ashlander_1hsword_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77146,7 +77083,7 @@ const ESO_SETS = [
           "id": 3504709760
         },
         {
-          "name": "Axe",
+          "name": "Axe of the Red Mountain",
           "image": "gear_ashlander_1haxe_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77154,7 +77091,7 @@ const ESO_SETS = [
           "id": 3076111617
         },
         {
-          "name": "Dagger",
+          "name": "Dagger of the Red Mountain",
           "image": "gear_ashlander_dagger_a.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77162,7 +77099,7 @@ const ESO_SETS = [
           "id": 3913749014
         },
         {
-          "name": "Shield",
+          "name": "Shield of the Red Mountain",
           "image": "gear_ashlander_shield_a.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -77170,7 +77107,7 @@ const ESO_SETS = [
           "id": 584542409
         },
         {
-          "name": "Greatsword",
+          "name": "Greatsword of the Red Mountain",
           "image": "gear_ashlander_2hsword_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77178,7 +77115,7 @@ const ESO_SETS = [
           "id": 2642409821
         },
         {
-          "name": "Maul",
+          "name": "Maul of the Red Mountain",
           "image": "gear_ashlander_2hhammer_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77186,7 +77123,7 @@ const ESO_SETS = [
           "id": 3574804672
         },
         {
-          "name": "Battle Axe",
+          "name": "Battle Axe of the Red Mountain",
           "image": "gear_ashlander_2haxe_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77194,7 +77131,7 @@ const ESO_SETS = [
           "id": 1074932412
         },
         {
-          "name": "Lightning Staff",
+          "name": "Restoration Staff of the Red Mountain",
           "image": "gear_ashlander_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77202,7 +77139,7 @@ const ESO_SETS = [
           "id": 3750865388
         },
         {
-          "name": "Frost Staff",
+          "name": "Inferno Staff of the Red Mountain",
           "image": "gear_ashlander_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77210,7 +77147,7 @@ const ESO_SETS = [
           "id": 3750865388
         },
         {
-          "name": "Healing Staff",
+          "name": "Ice Staff of the Red Mountain",
           "image": "gear_ashlander_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77218,7 +77155,7 @@ const ESO_SETS = [
           "id": 3750865388
         },
         {
-          "name": "Bow",
+          "name": "Bow of the Red Mountain",
           "image": "gear_ashlander_bow_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77226,7 +77163,7 @@ const ESO_SETS = [
           "id": 3089589766
         },
         {
-          "name": "Flame Staff",
+          "name": "Lightning Staff of the Red Mountain",
           "image": "gear_ashlander_staff_a.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77234,7 +77171,7 @@ const ESO_SETS = [
           "id": 3750865388
         },
         {
-          "name": "Boots",
+          "name": "Boots of the Red Mountain",
           "image": "gear_ashlander_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -77243,16 +77180,16 @@ const ESO_SETS = [
           "id": 3173980512
         },
         {
-          "name": "Helmet",
+          "name": "Helmet of the Red Mountain",
           "image": "gear_ashlander_head_a.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Shadow of the Red Mountain",
           "id": 1860080766
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Red Mountain",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -77260,7 +77197,7 @@ const ESO_SETS = [
           "id": 3260861652
         },
         {
-          "name": "Jack",
+          "name": "Jack of the Red Mountain",
           "image": "gear_ashlander_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -77269,7 +77206,7 @@ const ESO_SETS = [
           "id": 178499791
         },
         {
-          "name": "Guards",
+          "name": "Guards of the Red Mountain",
           "image": "gear_ashlander_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -77278,7 +77215,7 @@ const ESO_SETS = [
           "id": 1667544677
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Red Mountain",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -77286,7 +77223,7 @@ const ESO_SETS = [
           "id": 810969241
         },
         {
-          "name": "Bracers",
+          "name": "Bracers of the Red Mountain",
           "image": "gear_ashlander_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -77295,7 +77232,7 @@ const ESO_SETS = [
           "id": 3624137460
         },
         {
-          "name": "Arm Cops",
+          "name": "Arm Cops of the Red Mountain",
           "image": "gear_ashlander_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -77304,7 +77241,7 @@ const ESO_SETS = [
           "id": 2749983171
         },
         {
-          "name": "Belt",
+          "name": "Belt of the Red Mountain",
           "image": "gear_ashlander_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -78028,7 +77965,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Barbaric Sword 3",
+          "name": "Shalk's Sword",
           "image": "gear_reach_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -78036,7 +77973,7 @@ const ESO_SETS = [
           "id": 4283472027
         },
         {
-          "name": "Barbaric Dagger 3",
+          "name": "Shalk's Dagger",
           "image": "gear_reach_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -78044,7 +77981,7 @@ const ESO_SETS = [
           "id": 1227072023
         },
         {
-          "name": "Barbaric Axe 3",
+          "name": "Shalk's Axe",
           "image": "gear_reach_1haxe_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -78052,7 +77989,7 @@ const ESO_SETS = [
           "id": 2324352902
         },
         {
-          "name": "Barbaric Mace 3",
+          "name": "Shalk's Mace",
           "image": "gear_reach_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -78060,7 +77997,7 @@ const ESO_SETS = [
           "id": 3679345922
         },
         {
-          "name": "Barbaric Shield 3",
+          "name": "Shalk's Shield",
           "image": "gear_reach_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -78068,7 +78005,7 @@ const ESO_SETS = [
           "id": 2106572876
         },
         {
-          "name": "Barbaric Maul 3",
+          "name": "Shalk's Maul",
           "image": "gear_reach_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78076,7 +78013,7 @@ const ESO_SETS = [
           "id": 2045965837
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Shalk's Restoration Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78084,7 +78021,7 @@ const ESO_SETS = [
           "id": 2517315955
         },
         {
-          "name": "Barbaric Battle Axe 3",
+          "name": "Shalk's Battle Axe",
           "image": "gear_reach_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78092,7 +78029,7 @@ const ESO_SETS = [
           "id": 3025852895
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Shalk's Inferno Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78100,7 +78037,7 @@ const ESO_SETS = [
           "id": 2517315955
         },
         {
-          "name": "Barbaric Greatsword 3",
+          "name": "Shalk's Greatsword",
           "image": "gear_reach_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78108,7 +78045,7 @@ const ESO_SETS = [
           "id": 3244577946
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Shalk's Ice Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78116,7 +78053,7 @@ const ESO_SETS = [
           "id": 2517315955
         },
         {
-          "name": "Barbaric Bow 3",
+          "name": "Shalk's Bow",
           "image": "gear_reach_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78124,7 +78061,7 @@ const ESO_SETS = [
           "id": 1289704469
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Shalk's Lightning Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -78132,7 +78069,7 @@ const ESO_SETS = [
           "id": 2517315955
         },
         {
-          "name": "Barbaric Sabatons",
+          "name": "Shalk's Sabatons",
           "image": "gear_reach_heavy_feet_a.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -78141,7 +78078,7 @@ const ESO_SETS = [
           "id": 902007587
         },
         {
-          "name": "Barbaric Helm",
+          "name": "Shalk's Helm",
           "image": "gear_reach_heavy_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -78150,7 +78087,7 @@ const ESO_SETS = [
           "id": 2287483957
         },
         {
-          "name": "Ring",
+          "name": "Shalk's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -78158,7 +78095,7 @@ const ESO_SETS = [
           "id": 2622719612
         },
         {
-          "name": "Barbaric Cuirass",
+          "name": "Shalk's Cuirass",
           "image": "gear_reach_heavy_chest_a.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -78167,7 +78104,7 @@ const ESO_SETS = [
           "id": 1235591046
         },
         {
-          "name": "Barbaric Greaves",
+          "name": "Shalk's Greaves",
           "image": "gear_reach_heavy_legs_a.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -78176,7 +78113,7 @@ const ESO_SETS = [
           "id": 2753090114
         },
         {
-          "name": "Necklace",
+          "name": "Shalk's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -78184,7 +78121,7 @@ const ESO_SETS = [
           "id": 3543564097
         },
         {
-          "name": "Barbaric Gauntlets",
+          "name": "Shalk's Gauntlets",
           "image": "gear_reach_heavy_hands_a.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -78193,7 +78130,7 @@ const ESO_SETS = [
           "id": 2202983461
         },
         {
-          "name": "Barbaric Pauldrons",
+          "name": "Shalk's Pauldron",
           "image": "gear_reach_heavy_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -78202,7 +78139,7 @@ const ESO_SETS = [
           "id": 1663253018
         },
         {
-          "name": "Barbaric Girdle",
+          "name": "Shalk's Girdle",
           "image": "gear_reach_heavy_waist_a.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -79198,7 +79135,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Sun",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79206,7 +79143,7 @@ const ESO_SETS = [
           "id": 3402364752
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Sun",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79214,7 +79151,7 @@ const ESO_SETS = [
           "id": 3838765683
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Sun",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79222,7 +79159,7 @@ const ESO_SETS = [
           "id": 648193822
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Sun",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79230,7 +79167,7 @@ const ESO_SETS = [
           "id": 2349677833
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Sun",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -79238,7 +79175,7 @@ const ESO_SETS = [
           "id": 4127387662
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Sun",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79246,7 +79183,7 @@ const ESO_SETS = [
           "id": 3889817842
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Sun",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79254,7 +79191,7 @@ const ESO_SETS = [
           "id": 3740696587
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Sun",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79262,7 +79199,7 @@ const ESO_SETS = [
           "id": 3697901591
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Sun",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79270,7 +79207,7 @@ const ESO_SETS = [
           "id": 2417302471
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Sun",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79278,7 +79215,7 @@ const ESO_SETS = [
           "id": 2417302471
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Sun",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79286,7 +79223,7 @@ const ESO_SETS = [
           "id": 2417302471
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Sun",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79294,7 +79231,7 @@ const ESO_SETS = [
           "id": 1129996977
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Sun",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79302,7 +79239,7 @@ const ESO_SETS = [
           "id": 2417302471
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Sun",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -79311,7 +79248,7 @@ const ESO_SETS = [
           "id": 3484480538
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Sun",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -79320,7 +79257,7 @@ const ESO_SETS = [
           "id": 438076072
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Sun",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -79328,7 +79265,7 @@ const ESO_SETS = [
           "id": 1008321570
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Sun",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -79337,7 +79274,7 @@ const ESO_SETS = [
           "id": 799403726
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Sun",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -79346,7 +79283,7 @@ const ESO_SETS = [
           "id": 308549187
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Sun",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -79354,7 +79291,7 @@ const ESO_SETS = [
           "id": 2802273063
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Sun",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -79363,7 +79300,7 @@ const ESO_SETS = [
           "id": 1074665468
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Sun",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -79372,7 +79309,7 @@ const ESO_SETS = [
           "id": 503675911
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Sun",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -80009,7 +79946,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Khajiit Shoes 4",
+          "name": "Smuggler's Shoes",
           "image": "gear_khajiit_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -80018,7 +79955,7 @@ const ESO_SETS = [
           "id": 3028578738
         },
         {
-          "name": "Khajiit Hat 3",
+          "name": "Smuggler's Hat",
           "image": "gear_khajiit_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -80027,7 +79964,7 @@ const ESO_SETS = [
           "id": 2520052304
         },
         {
-          "name": "Ring",
+          "name": "Smuggler's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -80035,7 +79972,7 @@ const ESO_SETS = [
           "id": 499778184
         },
         {
-          "name": "Khajiit Jerkin 4",
+          "name": "Smuggler's Robe",
           "image": "gear_khajiit_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -80044,7 +79981,7 @@ const ESO_SETS = [
           "id": 110484462
         },
         {
-          "name": "Khajiit Breeches 4",
+          "name": "Smuggler's Breeches",
           "image": "gear_khajiit_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -80053,7 +79990,7 @@ const ESO_SETS = [
           "id": 2337293931
         },
         {
-          "name": "Necklace",
+          "name": "Smuggler's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -80061,7 +79998,7 @@ const ESO_SETS = [
           "id": 3399867965
         },
         {
-          "name": "Khajiit Gloves 4",
+          "name": "Smuggler's Gloves",
           "image": "gear_khajiit_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -80070,7 +80007,7 @@ const ESO_SETS = [
           "id": 3418249444
         },
         {
-          "name": "Khajiit Epaulets 4",
+          "name": "Smuggler's Epaulets",
           "image": "gear_khajiit_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -80079,7 +80016,7 @@ const ESO_SETS = [
           "id": 4196096607
         },
         {
-          "name": "Khajiit Sash 4",
+          "name": "Smuggler's Sash",
           "image": "gear_khajiit_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -80088,7 +80025,7 @@ const ESO_SETS = [
           "id": 1564540774
         },
         {
-          "name": "Khajiit Sword 4",
+          "name": "Smuggler's Sword",
           "image": "gear_khajiit_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80096,7 +80033,7 @@ const ESO_SETS = [
           "id": 155591227
         },
         {
-          "name": "Khajiit Dagger 4",
+          "name": "Smuggler's Dagger",
           "image": "gear_khajiit_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80104,7 +80041,7 @@ const ESO_SETS = [
           "id": 743243009
         },
         {
-          "name": "Khajiit Axe 4",
+          "name": "Smuggler's Axe",
           "image": "gear_khajiit_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80112,7 +80049,7 @@ const ESO_SETS = [
           "id": 4018374886
         },
         {
-          "name": "Khajiit Mace 4",
+          "name": "Smuggler's Mace",
           "image": "gear_khajiit_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80120,7 +80057,7 @@ const ESO_SETS = [
           "id": 536395816
         },
         {
-          "name": "Khajiit Shield 4",
+          "name": "Smuggler's Shield",
           "image": "gear_khajiit_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -80128,7 +80065,7 @@ const ESO_SETS = [
           "id": 1897579382
         },
         {
-          "name": "Khajiit Maul 4",
+          "name": "Smuggler's Maul",
           "image": "gear_khajiit_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80136,7 +80073,7 @@ const ESO_SETS = [
           "id": 3127849219
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Smuggler's Restoration Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80144,7 +80081,7 @@ const ESO_SETS = [
           "id": 715632655
         },
         {
-          "name": "Khajiit Battle Axe 4",
+          "name": "Smuggler's Battle Axe",
           "image": "gear_khajiit_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80152,7 +80089,7 @@ const ESO_SETS = [
           "id": 484381375
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Smuggler's Inferno Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80160,7 +80097,7 @@ const ESO_SETS = [
           "id": 715632655
         },
         {
-          "name": "Khajiit Greatsword 4",
+          "name": "Smuggler's Greatsword",
           "image": "gear_khajiit_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80168,7 +80105,7 @@ const ESO_SETS = [
           "id": 2983162938
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Smuggler's Ice Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80176,7 +80113,7 @@ const ESO_SETS = [
           "id": 715632655
         },
         {
-          "name": "Khajiit Bow 4",
+          "name": "Smuggler's Bow",
           "image": "gear_khajiit_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80184,7 +80121,7 @@ const ESO_SETS = [
           "id": 728347497
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Smuggler's Lightning Staff",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81293,7 +81230,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Khajiit Mace 4",
+          "name": "Mace of Soulshine",
           "image": "gear_khajiit_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81301,7 +81238,7 @@ const ESO_SETS = [
           "id": 418073264
         },
         {
-          "name": "Khajiit Axe 4",
+          "name": "Axe of Soulshine",
           "image": "gear_khajiit_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81309,7 +81246,7 @@ const ESO_SETS = [
           "id": 3582482046
         },
         {
-          "name": "Khajiit Dagger 4",
+          "name": "Dagger of Soulshine",
           "image": "gear_khajiit_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81317,7 +81254,7 @@ const ESO_SETS = [
           "id": 1456457705
         },
         {
-          "name": "Khajiit Sword 4",
+          "name": "Sword of Soulshine",
           "image": "gear_khajiit_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81325,7 +81262,7 @@ const ESO_SETS = [
           "id": 4167251411
         },
         {
-          "name": "Khajiit Shield 4",
+          "name": "Shield of Soulshine",
           "image": "gear_khajiit_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -81333,7 +81270,7 @@ const ESO_SETS = [
           "id": 3302140910
         },
         {
-          "name": "Khajiit Maul 4",
+          "name": "Maul of Soulshine",
           "image": "gear_khajiit_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81341,7 +81278,7 @@ const ESO_SETS = [
           "id": 2959206635
         },
         {
-          "name": "Khajiit Greatsword 4",
+          "name": "Greatsword of Soulshine",
           "image": "gear_khajiit_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81349,7 +81286,7 @@ const ESO_SETS = [
           "id": 835287890
         },
         {
-          "name": "Khajiit Battle Axe 4",
+          "name": "Battle Axe of Soulshine",
           "image": "gear_khajiit_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81357,7 +81294,7 @@ const ESO_SETS = [
           "id": 1933458039
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Restoration Staff of Soulshine",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81365,7 +81302,7 @@ const ESO_SETS = [
           "id": 2698725927
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Inferno Staff of Soulshine",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81373,7 +81310,7 @@ const ESO_SETS = [
           "id": 2698725927
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Ice Staff of Soulshine",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81381,7 +81318,7 @@ const ESO_SETS = [
           "id": 2698725927
         },
         {
-          "name": "Khajiit Bow 4",
+          "name": "Bow of Soulshine",
           "image": "gear_khajiit_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81389,7 +81326,7 @@ const ESO_SETS = [
           "id": 3599226257
         },
         {
-          "name": "Khajiit Staff 4",
+          "name": "Lightning Staff of Soulshine",
           "image": "gear_khajiit_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81397,7 +81334,7 @@ const ESO_SETS = [
           "id": 2698725927
         },
         {
-          "name": "Khajiit Sabatons 4",
+          "name": "Sabatons of Soulshine",
           "image": "gear_khajiit_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -81406,7 +81343,7 @@ const ESO_SETS = [
           "id": 41008787
         },
         {
-          "name": "Khajiit Helm 3",
+          "name": "Helm of Soulshine",
           "image": "gear_khajiit_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -81415,7 +81352,7 @@ const ESO_SETS = [
           "id": 2421347169
         },
         {
-          "name": "Ring",
+          "name": "Ring of Soulshine",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -81423,7 +81360,7 @@ const ESO_SETS = [
           "id": 2268835088
         },
         {
-          "name": "Khajiit Cuirass 4",
+          "name": "Cuirass of Soulshine",
           "image": "gear_khajiit_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -81432,7 +81369,7 @@ const ESO_SETS = [
           "id": 53634780
         },
         {
-          "name": "Khajiit Greaves 4",
+          "name": "Greaves of Soulshine",
           "image": "gear_khajiit_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -81441,7 +81378,7 @@ const ESO_SETS = [
           "id": 603684402
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Soulshine",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -81449,7 +81386,7 @@ const ESO_SETS = [
           "id": 2569506085
         },
         {
-          "name": "Khajiit Gauntlets 4",
+          "name": "Gauntlets of Soulshine",
           "image": "gear_khajiit_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -81458,7 +81395,7 @@ const ESO_SETS = [
           "id": 2521709559
         },
         {
-          "name": "Khajiit Pauldrons 4",
+          "name": "Pauldron of Soulshine",
           "image": "gear_khajiit_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -81467,7 +81404,7 @@ const ESO_SETS = [
           "id": 2910716528
         },
         {
-          "name": "Khajiit Girdle 4",
+          "name": "Girdle of Soulshine",
           "image": "gear_khajiit_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -83338,7 +83275,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Spinner's Mace",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83346,7 +83283,7 @@ const ESO_SETS = [
           "id": 2921780040
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Spinner's Dagger",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83354,7 +83291,7 @@ const ESO_SETS = [
           "id": 1788268065
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Spinner's Axe",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83362,7 +83299,7 @@ const ESO_SETS = [
           "id": 2846528902
         },
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Spinner's Sword",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83370,7 +83307,7 @@ const ESO_SETS = [
           "id": 3569895387
         },
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Spinner's Shield",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -83378,7 +83315,7 @@ const ESO_SETS = [
           "id": 1258718870
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Spinner's Greatsword",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83386,7 +83323,7 @@ const ESO_SETS = [
           "id": 1762768602
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Spinner's Maul",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83394,7 +83331,7 @@ const ESO_SETS = [
           "id": 2737128483
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Spinner's Battle Axe",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83402,7 +83339,7 @@ const ESO_SETS = [
           "id": 658565727
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spinner's Restoration Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83410,7 +83347,7 @@ const ESO_SETS = [
           "id": 1381312943
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spinner's Inferno Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83418,7 +83355,7 @@ const ESO_SETS = [
           "id": 1381312943
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spinner's Ice Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83426,7 +83363,7 @@ const ESO_SETS = [
           "id": 1381312943
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Spinner's Bow",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83434,7 +83371,7 @@ const ESO_SETS = [
           "id": 3400359945
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spinner's Lightning Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83442,7 +83379,7 @@ const ESO_SETS = [
           "id": 1381312943
         },
         {
-          "name": "Wood Elf Shoes 4",
+          "name": "Spinner's Shoes",
           "image": "gear_bosmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -83451,7 +83388,7 @@ const ESO_SETS = [
           "id": 1883568914
         },
         {
-          "name": "Wood Elf Hat 3",
+          "name": "Spinner's Hat",
           "image": "gear_bosmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -83460,7 +83397,7 @@ const ESO_SETS = [
           "id": 3584565808
         },
         {
-          "name": "Ring",
+          "name": "Spinner's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -83468,7 +83405,7 @@ const ESO_SETS = [
           "id": 623371022
         },
         {
-          "name": "Wood Elf Jerkin 4",
+          "name": "Spinner's Robe",
           "image": "gear_bosmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -83477,7 +83414,7 @@ const ESO_SETS = [
           "id": 452920270
         },
         {
-          "name": "Wood Elf Breeches 4",
+          "name": "Spinner's Breeches",
           "image": "gear_bosmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -83486,7 +83423,7 @@ const ESO_SETS = [
           "id": 3971245515
         },
         {
-          "name": "Necklace",
+          "name": "Spinner's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -83494,7 +83431,7 @@ const ESO_SETS = [
           "id": 3824502947
         },
         {
-          "name": "Wood Elf Gloves 4",
+          "name": "Spinner's Gloves",
           "image": "gear_bosmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -83503,7 +83440,7 @@ const ESO_SETS = [
           "id": 2477052868
         },
         {
-          "name": "Wood Elf Epaulets 4",
+          "name": "Spinner's Epaulets",
           "image": "gear_bosmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -83512,7 +83449,7 @@ const ESO_SETS = [
           "id": 2850928447
         },
         {
-          "name": "Wood Elf Sash 4",
+          "name": "Spinner's Sash",
           "image": "gear_bosmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -83567,7 +83504,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Spriggan's Mace",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83575,7 +83512,7 @@ const ESO_SETS = [
           "id": 2754460131
         },
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Spriggan's Sword",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83583,7 +83520,7 @@ const ESO_SETS = [
           "id": 2128992154
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Spriggan's Axe",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83591,7 +83528,7 @@ const ESO_SETS = [
           "id": 3374593567
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Spriggan's Dagger",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -83599,7 +83536,7 @@ const ESO_SETS = [
           "id": 226789054
         },
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Spriggan's Shield",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -83607,7 +83544,7 @@ const ESO_SETS = [
           "id": 929743321
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Spriggan's Greatsword",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83615,7 +83552,7 @@ const ESO_SETS = [
           "id": 1973097627
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Spriggan's Maul",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83623,7 +83560,7 @@ const ESO_SETS = [
           "id": 3762139656
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Spriggan's Battle Axe",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83631,7 +83568,7 @@ const ESO_SETS = [
           "id": 1707833670
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spriggan's Restoration Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83639,7 +83576,7 @@ const ESO_SETS = [
           "id": 3914856914
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spriggan's Inferno Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83647,7 +83584,7 @@ const ESO_SETS = [
           "id": 3914856914
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spriggan's Ice Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83655,7 +83592,7 @@ const ESO_SETS = [
           "id": 3914856914
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Spriggan's Bow",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83663,7 +83600,7 @@ const ESO_SETS = [
           "id": 705479376
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Spriggan's Lightning Staff",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -83671,7 +83608,7 @@ const ESO_SETS = [
           "id": 3914856914
         },
         {
-          "name": "Wood Elf Boots 4",
+          "name": "Spriggan's Boots",
           "image": "gear_bosmer_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -83680,7 +83617,7 @@ const ESO_SETS = [
           "id": 2113960396
         },
         {
-          "name": "Wood Elf Helmet 3",
+          "name": "Spriggan's Helm",
           "image": "gear_bosmer_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -83689,7 +83626,7 @@ const ESO_SETS = [
           "id": 404478054
         },
         {
-          "name": "Ring",
+          "name": "Spriggan's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -83697,7 +83634,7 @@ const ESO_SETS = [
           "id": 2749624869
         },
         {
-          "name": "Wood Elf Jack 4",
+          "name": "Spriggan's Jack",
           "image": "gear_bosmer_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -83706,7 +83643,7 @@ const ESO_SETS = [
           "id": 1674610901
         },
         {
-          "name": "Wood Elf Guards 4",
+          "name": "Spriggan's Guards",
           "image": "gear_bosmer_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -83715,7 +83652,7 @@ const ESO_SETS = [
           "id": 1621634777
         },
         {
-          "name": "Necklace",
+          "name": "Spriggan's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -83723,7 +83660,7 @@ const ESO_SETS = [
           "id": 3398132240
         },
         {
-          "name": "Wood Elf Bracers 4",
+          "name": "Spriggan's Bracers",
           "image": "gear_bosmer_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -83732,7 +83669,7 @@ const ESO_SETS = [
           "id": 2441609110
         },
         {
-          "name": "Wood Elf Arm Cops 4",
+          "name": "Spriggan's Arm Cops",
           "image": "gear_bosmer_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -83741,7 +83678,7 @@ const ESO_SETS = [
           "id": 758804113
         },
         {
-          "name": "Wood Elf Belt 4",
+          "name": "Spriggan's Belt",
           "image": "gear_bosmer_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -84022,7 +83959,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Shield of Stendarr",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -84030,7 +83967,7 @@ const ESO_SETS = [
           "id": 151213264
         },
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Mace of Stendarr",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84038,7 +83975,7 @@ const ESO_SETS = [
           "id": 359828146
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Dagger of Stendarr",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84046,7 +83983,7 @@ const ESO_SETS = [
           "id": 3319247499
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Axe of Stendarr",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84054,7 +83991,7 @@ const ESO_SETS = [
           "id": 3393274760
         },
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Sword of Stendarr",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84062,7 +83999,7 @@ const ESO_SETS = [
           "id": 634283989
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Greatsword of Stendarr",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84070,7 +84007,7 @@ const ESO_SETS = [
           "id": 382013936
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Maul of Stendarr",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84078,7 +84015,7 @@ const ESO_SETS = [
           "id": 4253316185
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Battle Axe of Stendarr",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84086,7 +84023,7 @@ const ESO_SETS = [
           "id": 1754312597
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Restoration Staff of Stendarr",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84094,7 +84031,7 @@ const ESO_SETS = [
           "id": 3481283741
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Inferno Staff of Stendarr",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84102,7 +84039,7 @@ const ESO_SETS = [
           "id": 3481283741
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Ice Staff of Stendarr",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84110,7 +84047,7 @@ const ESO_SETS = [
           "id": 3481283741
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Bow of Stendarr",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84118,7 +84055,7 @@ const ESO_SETS = [
           "id": 2629408319
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Lightning Staff of Stendarr",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84126,7 +84063,7 @@ const ESO_SETS = [
           "id": 3481283741
         },
         {
-          "name": "Wood Elf Shoes 4",
+          "name": "Shoes of Stendarr",
           "image": "gear_bosmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -84135,7 +84072,7 @@ const ESO_SETS = [
           "id": 1395025796
         },
         {
-          "name": "Wood Elf Hat 3",
+          "name": "Hat of Stendarr",
           "image": "gear_bosmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -84144,7 +84081,7 @@ const ESO_SETS = [
           "id": 3562603214
         },
         {
-          "name": "Ring",
+          "name": "Ring of Stendarr",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -84152,7 +84089,7 @@ const ESO_SETS = [
           "id": 532660552
         },
         {
-          "name": "Wood Elf Jerkin 4",
+          "name": "Robe of Stendarr",
           "image": "gear_bosmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -84161,7 +84098,7 @@ const ESO_SETS = [
           "id": 4272062512
         },
         {
-          "name": "Wood Elf Breeches 4",
+          "name": "Breeches of Stendarr",
           "image": "gear_bosmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -84170,7 +84107,7 @@ const ESO_SETS = [
           "id": 4209913633
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Stendarr",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -84178,7 +84115,7 @@ const ESO_SETS = [
           "id": 4185744637
         },
         {
-          "name": "Wood Elf Gloves 4",
+          "name": "Gloves of Stendarr",
           "image": "gear_bosmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -84187,7 +84124,7 @@ const ESO_SETS = [
           "id": 2507838814
         },
         {
-          "name": "Wood Elf Epaulets 4",
+          "name": "Epaulets of Stendarr",
           "image": "gear_bosmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -84196,7 +84133,7 @@ const ESO_SETS = [
           "id": 52183529
         },
         {
-          "name": "Wood Elf Sash 4",
+          "name": "Sash of Stendarr",
           "image": "gear_bosmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -84710,7 +84647,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Storm Knight",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84718,7 +84655,7 @@ const ESO_SETS = [
           "id": 2253656337
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Storm Knight",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84726,7 +84663,7 @@ const ESO_SETS = [
           "id": 883621030
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Storm Knight",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84734,7 +84671,7 @@ const ESO_SETS = [
           "id": 2659269239
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Storm Knight",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84742,7 +84679,7 @@ const ESO_SETS = [
           "id": 3932163300
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Storm Knight",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -84750,7 +84687,7 @@ const ESO_SETS = [
           "id": 2354455412
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Storm Knight",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84758,7 +84695,7 @@ const ESO_SETS = [
           "id": 4251912989
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Storm Knight",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84766,7 +84703,7 @@ const ESO_SETS = [
           "id": 1280105452
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Storm Knight",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84774,7 +84711,7 @@ const ESO_SETS = [
           "id": 2979011713
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Storm Knight",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84782,7 +84719,7 @@ const ESO_SETS = [
           "id": 809785609
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Storm Knight",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84790,7 +84727,7 @@ const ESO_SETS = [
           "id": 809785609
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Storm Knight",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84798,7 +84735,7 @@ const ESO_SETS = [
           "id": 809785609
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Storm Knight",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84806,7 +84743,7 @@ const ESO_SETS = [
           "id": 1385643571
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Storm Knight",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84814,7 +84751,7 @@ const ESO_SETS = [
           "id": 809785609
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Storm Knight",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -84823,7 +84760,7 @@ const ESO_SETS = [
           "id": 3597219241
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Storm Knight",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -84832,7 +84769,7 @@ const ESO_SETS = [
           "id": 865860019
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Storm Knight",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -84840,7 +84777,7 @@ const ESO_SETS = [
           "id": 1614163416
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Storm Knight",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -84849,7 +84786,7 @@ const ESO_SETS = [
           "id": 4176613762
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Storm Knight",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -84858,7 +84795,7 @@ const ESO_SETS = [
           "id": 1544345876
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Storm Knight",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -84866,7 +84803,7 @@ const ESO_SETS = [
           "id": 2416861933
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Storm Knight",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -84875,7 +84812,7 @@ const ESO_SETS = [
           "id": 1932277725
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Storm Knight",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -84884,7 +84821,7 @@ const ESO_SETS = [
           "id": 2219478526
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Storm Knight",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -86543,7 +86480,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Argonian Boots 4",
+          "name": "Swamp Raider's Boots",
           "image": "gear_argonian_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -86552,7 +86489,7 @@ const ESO_SETS = [
           "id": 578252255
         },
         {
-          "name": "Argonian Helmet 3",
+          "name": "Swamp Raider's Helm",
           "image": "gear_argonian_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -86561,7 +86498,7 @@ const ESO_SETS = [
           "id": 902866845
         },
         {
-          "name": "Ring",
+          "name": "Swamp Raider's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -86569,7 +86506,7 @@ const ESO_SETS = [
           "id": 2889255109
         },
         {
-          "name": "Argonian Jack 4",
+          "name": "Swamp Raider's Jack",
           "image": "gear_argonian_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -86578,7 +86515,7 @@ const ESO_SETS = [
           "id": 3989134032
         },
         {
-          "name": "Argonian Guards 4",
+          "name": "Swamp Raider's Guards",
           "image": "gear_argonian_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -86587,7 +86524,7 @@ const ESO_SETS = [
           "id": 2393151430
         },
         {
-          "name": "Necklace",
+          "name": "Swamp Raider's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -86595,7 +86532,7 @@ const ESO_SETS = [
           "id": 1410844976
         },
         {
-          "name": "Argonian Bracers 4",
+          "name": "Swamp Raider's Bracers",
           "image": "gear_argonian_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -86604,7 +86541,7 @@ const ESO_SETS = [
           "id": 1623590875
         },
         {
-          "name": "Argonian Arm Cops 4",
+          "name": "Swamp Raider's Arm Cops",
           "image": "gear_argonian_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -86613,7 +86550,7 @@ const ESO_SETS = [
           "id": 452906492
         },
         {
-          "name": "Argonian Belt 4",
+          "name": "Swamp Raider's Belt",
           "image": "gear_argonian_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -86622,7 +86559,7 @@ const ESO_SETS = [
           "id": 1757077997
         },
         {
-          "name": "Argonian Mace 4",
+          "name": "Swamp Raider's Mace",
           "image": "gear_argonian_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -86630,7 +86567,7 @@ const ESO_SETS = [
           "id": 3729172290
         },
         {
-          "name": "Argonian Sword 4",
+          "name": "Swamp Raider's Sword",
           "image": "gear_argonian_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -86638,7 +86575,7 @@ const ESO_SETS = [
           "id": 305862533
         },
         {
-          "name": "Argonian Axe 4",
+          "name": "Swamp Raider's Axe",
           "image": "gear_argonian_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -86646,7 +86583,7 @@ const ESO_SETS = [
           "id": 2349063672
         },
         {
-          "name": "Argonian Dagger 4",
+          "name": "Swamp Raider's Dagger",
           "image": "gear_argonian_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -86654,7 +86591,7 @@ const ESO_SETS = [
           "id": 975459003
         },
         {
-          "name": "Argonian Shield 4",
+          "name": "Swamp Raider's Shield",
           "image": "gear_argonian_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -86662,7 +86599,7 @@ const ESO_SETS = [
           "id": 1499666496
         },
         {
-          "name": "Argonian Greatsword 4",
+          "name": "Swamp Raider's Greatsword",
           "image": "gear_argonian_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86670,7 +86607,7 @@ const ESO_SETS = [
           "id": 1424219488
         },
         {
-          "name": "Argonian Maul 4",
+          "name": "Swamp Raider's Maul",
           "image": "gear_argonian_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86678,7 +86615,7 @@ const ESO_SETS = [
           "id": 399071145
         },
         {
-          "name": "Argonian Battle Axe 4",
+          "name": "Swamp Raider's Battle Axe",
           "image": "gear_argonian_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86686,7 +86623,7 @@ const ESO_SETS = [
           "id": 1419538053
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Swamp Raider's Restoration Staff",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86694,7 +86631,7 @@ const ESO_SETS = [
           "id": 795430349
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Swamp Raider's Inferno Staff",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86702,7 +86639,7 @@ const ESO_SETS = [
           "id": 795430349
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Swamp Raider's Ice Staff",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86710,7 +86647,7 @@ const ESO_SETS = [
           "id": 795430349
         },
         {
-          "name": "Argonian Bow 4",
+          "name": "Swamp Raider's Bow",
           "image": "gear_argonian_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -86718,7 +86655,7 @@ const ESO_SETS = [
           "id": 979046351
         },
         {
-          "name": "Argonian Staff 4",
+          "name": "Swamp Raider's Lightning Staff",
           "image": "gear_argonian_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87087,47 +87024,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Redguard Shield 4",
-          "image": "gear_redguard_shield_d.png",
-          "slot": "offHand",
-          "itemType": "armor",
-          "setName": "Sword-Singer",
-          "id": 1138146392
-        },
-        {
-          "name": "Redguard Mace 4",
-          "image": "gear_redguard_1hhammer_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 2912780010
-        },
-        {
-          "name": "Redguard Dagger 4",
-          "image": "gear_redguard_dagger_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 1729483395
-        },
-        {
-          "name": "Redguard Axe 4",
-          "image": "gear_redguard_1haxe_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 159709456
-        },
-        {
-          "name": "Redguard Sword 4",
-          "image": "gear_redguard_1hsword_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 2755862941
-        },
-        {
-          "name": "Redguard Greatsword 4",
+          "name": "Sword-Singer's Greatsword",
           "image": "gear_redguard_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87135,7 +87032,7 @@ const ESO_SETS = [
           "id": 662465720
         },
         {
-          "name": "Redguard Maul 4",
+          "name": "Sword-Singer's Maul",
           "image": "gear_redguard_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87143,7 +87040,7 @@ const ESO_SETS = [
           "id": 276302449
         },
         {
-          "name": "Redguard Battle Axe 4",
+          "name": "Sword-Singer's Battle Axe",
           "image": "gear_redguard_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87151,47 +87048,7 @@ const ESO_SETS = [
           "id": 1413782109
         },
         {
-          "name": "Redguard Staff 4",
-          "image": "gear_redguard_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 1013017093
-        },
-        {
-          "name": "Redguard Staff 4",
-          "image": "gear_redguard_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 1013017093
-        },
-        {
-          "name": "Redguard Staff 4",
-          "image": "gear_redguard_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 1013017093
-        },
-        {
-          "name": "Redguard Bow 4",
-          "image": "gear_redguard_bow_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 2850421111
-        },
-        {
-          "name": "Redguard Staff 4",
-          "image": "gear_redguard_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Sword-Singer",
-          "id": 1013017093
-        },
-        {
-          "name": "Redguard Boots 4",
+          "name": "Sword-Singer's Boots",
           "image": "gear_redguard_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -87200,7 +87057,7 @@ const ESO_SETS = [
           "id": 3050335159
         },
         {
-          "name": "Redguard Helmet 3",
+          "name": "Sword-Singer's Helm",
           "image": "gear_redguard_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -87209,7 +87066,7 @@ const ESO_SETS = [
           "id": 2134110437
         },
         {
-          "name": "Ring",
+          "name": "Sword-Singer's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -87217,7 +87074,7 @@ const ESO_SETS = [
           "id": 2897524276
         },
         {
-          "name": "Redguard Jack 4",
+          "name": "Sword-Singer's Jack",
           "image": "gear_redguard_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -87226,7 +87083,7 @@ const ESO_SETS = [
           "id": 400465256
         },
         {
-          "name": "Redguard Guards 4",
+          "name": "Sword-Singer's Guards",
           "image": "gear_redguard_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -87235,7 +87092,7 @@ const ESO_SETS = [
           "id": 3207295310
         },
         {
-          "name": "Necklace",
+          "name": "Sword-Singer's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -87243,7 +87100,7 @@ const ESO_SETS = [
           "id": 500924025
         },
         {
-          "name": "Redguard Bracers 4",
+          "name": "Sword-Singer's Bracers",
           "image": "gear_redguard_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -87252,7 +87109,7 @@ const ESO_SETS = [
           "id": 233120963
         },
         {
-          "name": "Redguard Arm Cops 4",
+          "name": "Sword-Singer's Arm Cops",
           "image": "gear_redguard_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -87261,7 +87118,7 @@ const ESO_SETS = [
           "id": 271917620
         },
         {
-          "name": "Redguard Belt 4",
+          "name": "Sword-Singer's Belt",
           "image": "gear_redguard_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -90373,7 +90230,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Primal Sabatons",
+          "name": "Thunderbug's Sabatons",
           "image": "gear_primative_heavy_feet_a.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -90382,7 +90239,7 @@ const ESO_SETS = [
           "id": 277471339
         },
         {
-          "name": "Primal Helm",
+          "name": "Thunderbug's Helm",
           "image": "gear_primative_heavy_head_a.png",
           "slot": "head",
           "armorType": "heavy",
@@ -90391,7 +90248,7 @@ const ESO_SETS = [
           "id": 4244687469
         },
         {
-          "name": "Ring",
+          "name": "Thunderbug's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -90399,7 +90256,7 @@ const ESO_SETS = [
           "id": 1961648038
         },
         {
-          "name": "Primal Cuirass",
+          "name": "Thunderbug's Cuirass",
           "image": "gear_primative_heavy_chest_a.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -90408,7 +90265,7 @@ const ESO_SETS = [
           "id": 2082847822
         },
         {
-          "name": "Primal Greaves",
+          "name": "Thunderbug's Greaves",
           "image": "gear_primative_heavy_legs_a.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -90417,7 +90274,7 @@ const ESO_SETS = [
           "id": 1446151386
         },
         {
-          "name": "Necklace",
+          "name": "Thunderbug's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -90425,7 +90282,7 @@ const ESO_SETS = [
           "id": 337075355
         },
         {
-          "name": "Primal Gauntlets",
+          "name": "Thunderbug's Gauntlets",
           "image": "gear_primative_heavy_hands_a.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -90434,7 +90291,7 @@ const ESO_SETS = [
           "id": 1739876989
         },
         {
-          "name": "Primal Pauldrons",
+          "name": "Thunderbug's Pauldron",
           "image": "gear_primative_heavy_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -90443,7 +90300,7 @@ const ESO_SETS = [
           "id": 4155323458
         },
         {
-          "name": "Primal Girdle",
+          "name": "Thunderbug's Girdle",
           "image": "gear_primative_heavy_waist_a.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -90452,7 +90309,7 @@ const ESO_SETS = [
           "id": 1340519967
         },
         {
-          "name": "Primal Sword 3",
+          "name": "Thunderbug's Sword",
           "image": "gear_primative_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90460,7 +90317,7 @@ const ESO_SETS = [
           "id": 2415224483
         },
         {
-          "name": "Primal Mace 3",
+          "name": "Thunderbug's Mace",
           "image": "gear_primative_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90468,7 +90325,7 @@ const ESO_SETS = [
           "id": 1734596858
         },
         {
-          "name": "Primal Axe 3",
+          "name": "Thunderbug's Axe",
           "image": "gear_primative_1haxe_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90476,7 +90333,7 @@ const ESO_SETS = [
           "id": 178714958
         },
         {
-          "name": "Primal Dagger 3",
+          "name": "Thunderbug's Dagger",
           "image": "gear_primative_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90484,7 +90341,7 @@ const ESO_SETS = [
           "id": 2672620623
         },
         {
-          "name": "Primal Shield 3",
+          "name": "Thunderbug's Shield",
           "image": "gear_primative_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -90492,7 +90349,7 @@ const ESO_SETS = [
           "id": 4225919604
         },
         {
-          "name": "Primal Greatsword 3",
+          "name": "Thunderbug's Greatsword",
           "image": "gear_primative_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90500,7 +90357,7 @@ const ESO_SETS = [
           "id": 2160076258
         },
         {
-          "name": "Primal Maul 3",
+          "name": "Thunderbug's Maul",
           "image": "gear_primative_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90508,7 +90365,7 @@ const ESO_SETS = [
           "id": 1583751749
         },
         {
-          "name": "Primal Battle Axe 3",
+          "name": "Thunderbug's Battle Axe",
           "image": "gear_primative_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90516,7 +90373,7 @@ const ESO_SETS = [
           "id": 3155866567
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Thunderbug's Restoration Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90524,7 +90381,7 @@ const ESO_SETS = [
           "id": 2317605819
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Thunderbug's Inferno Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90532,7 +90389,7 @@ const ESO_SETS = [
           "id": 2317605819
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Thunderbug's Ice Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90540,7 +90397,7 @@ const ESO_SETS = [
           "id": 2317605819
         },
         {
-          "name": "Primal Bow 3",
+          "name": "Thunderbug's Bow",
           "image": "gear_primative_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90548,7 +90405,7 @@ const ESO_SETS = [
           "id": 1665269069
         },
         {
-          "name": "Primal Staff 3",
+          "name": "Thunderbug's Lightning Staff",
           "image": "gear_primative_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97343,7 +97200,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Vampire's Cloak",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -97352,7 +97209,7 @@ const ESO_SETS = [
           "id": 1564415653
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Vampire's Cloak",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -97361,7 +97218,7 @@ const ESO_SETS = [
           "id": 1794621775
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Vampire's Cloak",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -97369,7 +97226,7 @@ const ESO_SETS = [
           "id": 1207685828
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Vampire's Cloak",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -97378,7 +97235,7 @@ const ESO_SETS = [
           "id": 4005328678
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Vampire's Cloak",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -97387,7 +97244,7 @@ const ESO_SETS = [
           "id": 1748548168
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Vampire's Cloak",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -97395,7 +97252,7 @@ const ESO_SETS = [
           "id": 2211805417
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Vampire's Cloak",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -97404,7 +97261,7 @@ const ESO_SETS = [
           "id": 1264471057
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Vampire's Cloak",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -97413,7 +97270,7 @@ const ESO_SETS = [
           "id": 3626794426
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Vampire's Cloak",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -97422,7 +97279,7 @@ const ESO_SETS = [
           "id": 2754247699
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Vampire's Cloak",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97430,7 +97287,7 @@ const ESO_SETS = [
           "id": 3674158306
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Vampire's Cloak",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97438,7 +97295,7 @@ const ESO_SETS = [
           "id": 1643367259
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Vampire's Cloak",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97446,7 +97303,7 @@ const ESO_SETS = [
           "id": 4058155800
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Vampire's Cloak",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97454,7 +97311,7 @@ const ESO_SETS = [
           "id": 1554665381
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Vampire's Cloak",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -97462,7 +97319,7 @@ const ESO_SETS = [
           "id": 3501365216
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Vampire's Cloak",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97470,7 +97327,7 @@ const ESO_SETS = [
           "id": 1128242121
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Vampire's Cloak",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97478,7 +97335,7 @@ const ESO_SETS = [
           "id": 656691712
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Vampire's Cloak",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97486,7 +97343,7 @@ const ESO_SETS = [
           "id": 1414557861
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Vampire's Cloak",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97494,7 +97351,7 @@ const ESO_SETS = [
           "id": 3307880301
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Vampire's Cloak",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97502,7 +97359,7 @@ const ESO_SETS = [
           "id": 3307880301
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Vampire's Cloak",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97510,7 +97367,7 @@ const ESO_SETS = [
           "id": 3307880301
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Vampire's Cloak",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97518,7 +97375,7 @@ const ESO_SETS = [
           "id": 1858747375
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Vampire's Cloak",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97569,7 +97426,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "High Elf Mace 4",
+          "name": "Vampire Lord's Mace",
           "image": "gear_altmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97577,7 +97434,7 @@ const ESO_SETS = [
           "id": 1726611174
         },
         {
-          "name": "High Elf Dagger 4",
+          "name": "Vampire Lord's Dagger",
           "image": "gear_altmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97585,7 +97442,7 @@ const ESO_SETS = [
           "id": 2259125815
         },
         {
-          "name": "High Elf Axe 4",
+          "name": "Vampire Lord's Axe",
           "image": "gear_altmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97593,7 +97450,7 @@ const ESO_SETS = [
           "id": 1752905764
         },
         {
-          "name": "High Elf Sword 4",
+          "name": "Vampire Lord's Sword",
           "image": "gear_altmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97601,7 +97458,7 @@ const ESO_SETS = [
           "id": 2664710737
         },
         {
-          "name": "High Elf Shield 4",
+          "name": "Vampire Lord's Shield",
           "image": "gear_altmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -97609,7 +97466,7 @@ const ESO_SETS = [
           "id": 4286774580
         },
         {
-          "name": "High Elf Greatsword 4",
+          "name": "Vampire Lord's Greatsword",
           "image": "gear_altmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97617,7 +97474,7 @@ const ESO_SETS = [
           "id": 4225075244
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Vampire Lord's Restoration Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97625,7 +97482,7 @@ const ESO_SETS = [
           "id": 241807817
         },
         {
-          "name": "High Elf Battle Axe 4",
+          "name": "Vampire Lord's Battle Axe",
           "image": "gear_altmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97633,7 +97490,7 @@ const ESO_SETS = [
           "id": 668728001
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Vampire Lord's Inferno Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97641,7 +97498,7 @@ const ESO_SETS = [
           "id": 241807817
         },
         {
-          "name": "High Elf Maul 4",
+          "name": "Vampire Lord's Maul",
           "image": "gear_altmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97649,7 +97506,7 @@ const ESO_SETS = [
           "id": 3017128285
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Vampire Lord's Ice Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97657,7 +97514,7 @@ const ESO_SETS = [
           "id": 241807817
         },
         {
-          "name": "High Elf Bow 4",
+          "name": "Vampire Lord's Bow",
           "image": "gear_altmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97665,7 +97522,7 @@ const ESO_SETS = [
           "id": 196660211
         },
         {
-          "name": "High Elf Staff 4",
+          "name": "Vampire Lord's Lightning Staff",
           "image": "gear_altmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97673,7 +97530,7 @@ const ESO_SETS = [
           "id": 241807817
         },
         {
-          "name": "High Elf Shoes 4",
+          "name": "Vampire Lord's Shoes",
           "image": "gear_altmer_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -97682,7 +97539,7 @@ const ESO_SETS = [
           "id": 3372793536
         },
         {
-          "name": "High Elf Hat 3",
+          "name": "Vampire Lord's Hat",
           "image": "gear_altmer_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -97691,7 +97548,7 @@ const ESO_SETS = [
           "id": 1344234330
         },
         {
-          "name": "Ring",
+          "name": "Vampire Lord's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -97699,7 +97556,7 @@ const ESO_SETS = [
           "id": 1752308147
         },
         {
-          "name": "High Elf Jerkin 4",
+          "name": "Vampire Lord's Robe",
           "image": "gear_altmer_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -97708,7 +97565,7 @@ const ESO_SETS = [
           "id": 2280678284
         },
         {
-          "name": "High Elf Breeches 4",
+          "name": "Vampire Lord's Breeches",
           "image": "gear_altmer_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -97717,7 +97574,7 @@ const ESO_SETS = [
           "id": 4169370597
         },
         {
-          "name": "Necklace",
+          "name": "Vampire Lord's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -97725,7 +97582,7 @@ const ESO_SETS = [
           "id": 3785346510
         },
         {
-          "name": "High Elf Gloves 4",
+          "name": "Vampire Lord's Gloves",
           "image": "gear_altmer_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -97734,7 +97591,7 @@ const ESO_SETS = [
           "id": 3139747394
         },
         {
-          "name": "High Elf Epaulets 4",
+          "name": "Vampire Lord's Epaulets",
           "image": "gear_altmer_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -97743,7 +97600,7 @@ const ESO_SETS = [
           "id": 3048297925
         },
         {
-          "name": "High Elf Sash 4",
+          "name": "Vampire Lord's Sash",
           "image": "gear_altmer_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -104692,95 +104549,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Shield 4",
-          "image": "gear_bosmer_shield_d.png",
-          "slot": "offHand",
-          "itemType": "armor",
-          "setName": "Wilderqueen's Arch",
-          "id": 1693337949
-        },
-        {
-          "name": "Wood Elf Mace 4",
-          "image": "gear_bosmer_1hhammer_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1201445431
-        },
-        {
-          "name": "Wood Elf Dagger 4",
-          "image": "gear_bosmer_dagger_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 2216461194
-        },
-        {
-          "name": "Wood Elf Axe 4",
-          "image": "gear_bosmer_1haxe_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 37655115
-        },
-        {
-          "name": "Wood Elf Sword 4",
-          "image": "gear_bosmer_1hsword_d.png",
-          "slot": "oneHand",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1233192486
-        },
-        {
-          "name": "Wood Elf Greatsword 4",
-          "image": "gear_bosmer_2hsword_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 4173013639
-        },
-        {
-          "name": "Wood Elf Maul 4",
-          "image": "gear_bosmer_2hhammer_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 2705658236
-        },
-        {
-          "name": "Wood Elf Battle Axe 4",
-          "image": "gear_bosmer_2haxe_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 4186891554
-        },
-        {
-          "name": "Wood Elf Staff 4",
-          "image": "gear_bosmer_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1190627742
-        },
-        {
-          "name": "Wood Elf Staff 4",
-          "image": "gear_bosmer_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1190627742
-        },
-        {
-          "name": "Wood Elf Staff 4",
-          "image": "gear_bosmer_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1190627742
-        },
-        {
-          "name": "Wood Elf Bow 4",
+          "name": "Bow of the Wilderqueen",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -104788,15 +104557,7 @@ const ESO_SETS = [
           "id": 3245513908
         },
         {
-          "name": "Wood Elf Staff 4",
-          "image": "gear_bosmer_staff_d.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wilderqueen's Arch",
-          "id": 1190627742
-        },
-        {
-          "name": "Wood Elf Boots 4",
+          "name": "Boots of the Wilderqueen",
           "image": "gear_bosmer_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -104805,7 +104566,7 @@ const ESO_SETS = [
           "id": 3392474848
         },
         {
-          "name": "Wood Elf Helmet 3",
+          "name": "Helm of the Wilderqueen",
           "image": "gear_bosmer_medium_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -104814,7 +104575,7 @@ const ESO_SETS = [
           "id": 18687354
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Wilderqueen",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -104822,7 +104583,7 @@ const ESO_SETS = [
           "id": 3271865585
         },
         {
-          "name": "Wood Elf Belt 4",
+          "name": "Belt of the Wilderqueen",
           "image": "gear_bosmer_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -104831,7 +104592,7 @@ const ESO_SETS = [
           "id": 2739674388
         },
         {
-          "name": "Wood Elf Guards 4",
+          "name": "Guards of the Wilderqueen",
           "image": "gear_bosmer_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -104840,7 +104601,7 @@ const ESO_SETS = [
           "id": 2547123845
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Wilderqueen",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -104848,7 +104609,7 @@ const ESO_SETS = [
           "id": 828745836
         },
         {
-          "name": "Wood Elf Bracers 4",
+          "name": "Bracers of the Wilderqueen",
           "image": "gear_bosmer_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -104857,7 +104618,7 @@ const ESO_SETS = [
           "id": 1824387426
         },
         {
-          "name": "Wood Elf Arm Cops 4",
+          "name": "Arm Cops of the Wilderqueen",
           "image": "gear_bosmer_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -104866,7 +104627,7 @@ const ESO_SETS = [
           "id": 309452005
         },
         {
-          "name": "Wood Elf Jack 4",
+          "name": "Jack of the Wilderqueen",
           "image": "gear_bosmer_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -106580,7 +106341,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Barbaric Mace 3",
+          "name": "Witchman's Mace",
           "image": "gear_reach_1hhammer_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106588,7 +106349,7 @@ const ESO_SETS = [
           "id": 3419337228
         },
         {
-          "name": "Barbaric Sword 3",
+          "name": "Witchman's Sword",
           "image": "gear_reach_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106596,7 +106357,7 @@ const ESO_SETS = [
           "id": 4155095157
         },
         {
-          "name": "Barbaric Dagger 3",
+          "name": "Witchman's Dagger",
           "image": "gear_reach_dagger_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106604,7 +106365,7 @@ const ESO_SETS = [
           "id": 1814659849
         },
         {
-          "name": "Barbaric Axe 3",
+          "name": "Witchman's Axe",
           "image": "gear_reach_1haxe_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106612,7 +106373,7 @@ const ESO_SETS = [
           "id": 3414510480
         },
         {
-          "name": "Barbaric Shield 3",
+          "name": "Witchman's Shield",
           "image": "gear_reach_shield_c.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -106620,7 +106381,7 @@ const ESO_SETS = [
           "id": 4284748118
         },
         {
-          "name": "Barbaric Maul 3",
+          "name": "Witchman's Maul",
           "image": "gear_reach_2hhammer_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106628,7 +106389,7 @@ const ESO_SETS = [
           "id": 1910138643
         },
         {
-          "name": "Barbaric Greatsword 3",
+          "name": "Witchman's Greatsword",
           "image": "gear_reach_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106636,7 +106397,7 @@ const ESO_SETS = [
           "id": 3293805264
         },
         {
-          "name": "Barbaric Battle Axe 3",
+          "name": "Witchman's Battle Axe",
           "image": "gear_reach_2haxe_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106644,7 +106405,7 @@ const ESO_SETS = [
           "id": 2409871821
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Witchman's Restoration Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106652,7 +106413,7 @@ const ESO_SETS = [
           "id": 62565169
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Witchman's Inferno Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106660,7 +106421,7 @@ const ESO_SETS = [
           "id": 62565169
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Witchman's Ice Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106668,7 +106429,7 @@ const ESO_SETS = [
           "id": 62565169
         },
         {
-          "name": "Barbaric Bow 3",
+          "name": "Witchman's Bow",
           "image": "gear_reach_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106676,7 +106437,7 @@ const ESO_SETS = [
           "id": 638228867
         },
         {
-          "name": "Barbaric Staff 3",
+          "name": "Witchman's Lightning Staff",
           "image": "gear_reach_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106684,7 +106445,7 @@ const ESO_SETS = [
           "id": 62565169
         },
         {
-          "name": "Barbaric Boots",
+          "name": "Witchman's Boots",
           "image": "gear_reach_medium_feet_a.png",
           "slot": "feet",
           "armorType": "medium",
@@ -106693,16 +106454,16 @@ const ESO_SETS = [
           "id": 1126497521
         },
         {
-          "name": "Barbaric Helmet",
+          "name": "Witchman's Helmet",
           "image": "gear_reach_medium_head_a.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Witchman Armor",
           "id": 657661399
         },
         {
-          "name": "Ring",
+          "name": "Witchman's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -106710,7 +106471,7 @@ const ESO_SETS = [
           "id": 1798592894
         },
         {
-          "name": "Barbaric Jack",
+          "name": "Witchman's Jack",
           "image": "gear_reach_medium_chest_a.png",
           "slot": "chest",
           "armorType": "medium",
@@ -106719,7 +106480,7 @@ const ESO_SETS = [
           "id": 1808405956
         },
         {
-          "name": "Barbaric Guards",
+          "name": "Witchman's Guards",
           "image": "gear_reach_medium_legs_a.png",
           "slot": "legs",
           "armorType": "medium",
@@ -106728,7 +106489,7 @@ const ESO_SETS = [
           "id": 2100653580
         },
         {
-          "name": "Necklace",
+          "name": "Witchman's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -106736,7 +106497,7 @@ const ESO_SETS = [
           "id": 287983539
         },
         {
-          "name": "Barbaric Bracers",
+          "name": "Witchman's Bracers",
           "image": "gear_reach_medium_hands_a.png",
           "slot": "hands",
           "armorType": "medium",
@@ -106745,7 +106506,7 @@ const ESO_SETS = [
           "id": 406485299
         },
         {
-          "name": "Barbaric Arm Cops",
+          "name": "Witchman's Arm Cops",
           "image": "gear_reach_medium_shoulders_a.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -106754,7 +106515,7 @@ const ESO_SETS = [
           "id": 4223681176
         },
         {
-          "name": "Barbaric Belt",
+          "name": "Witchman's Belt",
           "image": "gear_reach_medium_waist_a.png",
           "slot": "waist",
           "armorType": "medium",
@@ -107608,7 +107369,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Wood Elf Sword 4",
+          "name": "Sword of the Wyrd Tree",
           "image": "gear_bosmer_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -107616,7 +107377,7 @@ const ESO_SETS = [
           "id": 4260528624
         },
         {
-          "name": "Wood Elf Dagger 4",
+          "name": "Dagger of the Wyrd Tree",
           "image": "gear_bosmer_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -107624,7 +107385,7 @@ const ESO_SETS = [
           "id": 1255257276
         },
         {
-          "name": "Wood Elf Axe 4",
+          "name": "Axe of the Wyrd Tree",
           "image": "gear_bosmer_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -107632,7 +107393,7 @@ const ESO_SETS = [
           "id": 3729039253
         },
         {
-          "name": "Wood Elf Mace 4",
+          "name": "Mace of the Wyrd Tree",
           "image": "gear_bosmer_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -107640,7 +107401,7 @@ const ESO_SETS = [
           "id": 3926639705
         },
         {
-          "name": "Wood Elf Shield 4",
+          "name": "Shield of the Wyrd Tree",
           "image": "gear_bosmer_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -107648,7 +107409,7 @@ const ESO_SETS = [
           "id": 3515845679
         },
         {
-          "name": "Wood Elf Greatsword 4",
+          "name": "Greatsword of the Wyrd Tree",
           "image": "gear_bosmer_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107656,7 +107417,7 @@ const ESO_SETS = [
           "id": 217831381
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Restoration Staff of the Wyrd Tree",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107664,7 +107425,7 @@ const ESO_SETS = [
           "id": 3505896452
         },
         {
-          "name": "Wood Elf Battle Axe 4",
+          "name": "Battle Axe of the Wyrd Tree",
           "image": "gear_bosmer_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107672,7 +107433,7 @@ const ESO_SETS = [
           "id": 1073034120
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Inferno Staff of the Wyrd Tree",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107680,7 +107441,7 @@ const ESO_SETS = [
           "id": 3505896452
         },
         {
-          "name": "Wood Elf Maul 4",
+          "name": "Maul of the Wyrd Tree",
           "image": "gear_bosmer_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107688,7 +107449,7 @@ const ESO_SETS = [
           "id": 33151666
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Ice Staff of the Wyrd Tree",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107696,7 +107457,7 @@ const ESO_SETS = [
           "id": 3505896452
         },
         {
-          "name": "Wood Elf Bow 4",
+          "name": "Bow of the Wyrd Tree",
           "image": "gear_bosmer_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107704,7 +107465,7 @@ const ESO_SETS = [
           "id": 2201389666
         },
         {
-          "name": "Wood Elf Staff 4",
+          "name": "Lightning Staff of the Wyrd Tree",
           "image": "gear_bosmer_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -107712,7 +107473,7 @@ const ESO_SETS = [
           "id": 3505896452
         },
         {
-          "name": "Wood Elf Sabatons 4",
+          "name": "Sabatons of the Wyrd Tree",
           "image": "gear_bosmer_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -107721,7 +107482,7 @@ const ESO_SETS = [
           "id": 261667162
         },
         {
-          "name": "Wood Elf Helm 3",
+          "name": "Helm of the Wyrd Tree",
           "image": "gear_bosmer_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -107730,7 +107491,7 @@ const ESO_SETS = [
           "id": 111068392
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Wyrd Tree",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -107738,7 +107499,7 @@ const ESO_SETS = [
           "id": 3795983067
         },
         {
-          "name": "Wood Elf Cuirass 4",
+          "name": "Cuirass of the Wyrd Tree",
           "image": "gear_bosmer_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -107747,7 +107508,7 @@ const ESO_SETS = [
           "id": 3698626075
         },
         {
-          "name": "Wood Elf Greaves 4",
+          "name": "Greaves of the Wyrd Tree",
           "image": "gear_bosmer_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -107756,7 +107517,7 @@ const ESO_SETS = [
           "id": 2859014787
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Wyrd Tree",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -107764,7 +107525,7 @@ const ESO_SETS = [
           "id": 982200758
         },
         {
-          "name": "Wood Elf Gauntlets 4",
+          "name": "Gauntlets of the Wyrd Tree",
           "image": "gear_bosmer_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -107773,7 +107534,7 @@ const ESO_SETS = [
           "id": 2339133500
         },
         {
-          "name": "Wood Elf Pauldrons 4",
+          "name": "Pauldron of the Wyrd Tree",
           "image": "gear_bosmer_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -107782,7 +107543,7 @@ const ESO_SETS = [
           "id": 2778989383
         },
         {
-          "name": "Wood Elf Girdle 4",
+          "name": "Girdle of the Wyrd Tree",
           "image": "gear_bosmer_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -108066,7 +107827,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Nord Shoes 4",
+          "name": "Ysgramor's Shoes",
           "image": "gear_nord_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -108075,7 +107836,7 @@ const ESO_SETS = [
           "id": 531710134
         },
         {
-          "name": "Nord Hat 3",
+          "name": "Ysgramor's Hat",
           "image": "gear_nord_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -108084,7 +107845,7 @@ const ESO_SETS = [
           "id": 493152916
         },
         {
-          "name": "Ring",
+          "name": "Ysgramor's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -108092,7 +107853,7 @@ const ESO_SETS = [
           "id": 1453707465
         },
         {
-          "name": "Nord Jerkin 4",
+          "name": "Ysgramor's Robe",
           "image": "gear_nord_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -108101,7 +107862,7 @@ const ESO_SETS = [
           "id": 2637930258
         },
         {
-          "name": "Nord Breeches 4",
+          "name": "Ysgramor's Breeches",
           "image": "gear_nord_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -108110,7 +107871,7 @@ const ESO_SETS = [
           "id": 1233630119
         },
         {
-          "name": "Necklace",
+          "name": "Ysgramor's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -108118,7 +107879,7 @@ const ESO_SETS = [
           "id": 1409785732
         },
         {
-          "name": "Nord Gloves 4",
+          "name": "Ysgramor's Gloves",
           "image": "gear_nord_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -108127,7 +107888,7 @@ const ESO_SETS = [
           "id": 2071767184
         },
         {
-          "name": "Nord Epaulets 4",
+          "name": "Ysgramor's Epaulets",
           "image": "gear_nord_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -108136,7 +107897,7 @@ const ESO_SETS = [
           "id": 274043571
         },
         {
-          "name": "Nord Sash 4",
+          "name": "Ysgramor's Sash",
           "image": "gear_nord_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -108145,7 +107906,7 @@ const ESO_SETS = [
           "id": 3176216610
         },
         {
-          "name": "Nord Mace 4",
+          "name": "Ysgramor's Mace",
           "image": "gear_nord_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -108153,7 +107914,7 @@ const ESO_SETS = [
           "id": 3353381780
         },
         {
-          "name": "Nord Sword 4",
+          "name": "Ysgramor's Sword",
           "image": "gear_nord_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -108161,7 +107922,7 @@ const ESO_SETS = [
           "id": 2938100879
         },
         {
-          "name": "Nord Axe 4",
+          "name": "Ysgramor's Axe",
           "image": "gear_nord_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -108169,7 +107930,7 @@ const ESO_SETS = [
           "id": 1588934026
         },
         {
-          "name": "Nord Dagger 4",
+          "name": "Ysgramor's Dagger",
           "image": "gear_nord_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -108177,7 +107938,7 @@ const ESO_SETS = [
           "id": 1692240069
         },
         {
-          "name": "Nord Shield 4",
+          "name": "Ysgramor's Shield",
           "image": "gear_nord_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -108185,7 +107946,7 @@ const ESO_SETS = [
           "id": 7323186
         },
         {
-          "name": "Nord Greatsword 4",
+          "name": "Ysgramor's Greatsword",
           "image": "gear_nord_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108193,7 +107954,7 @@ const ESO_SETS = [
           "id": 2327297358
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Ysgramor's Restoration Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108201,7 +107962,7 @@ const ESO_SETS = [
           "id": 1421403843
         },
         {
-          "name": "Nord Battle Axe 4",
+          "name": "Ysgramor's Battle Axe",
           "image": "gear_nord_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108209,7 +107970,7 @@ const ESO_SETS = [
           "id": 4152862931
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Ysgramor's Inferno Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108217,7 +107978,7 @@ const ESO_SETS = [
           "id": 1421403843
         },
         {
-          "name": "Nord Maul 4",
+          "name": "Ysgramor's Maul",
           "image": "gear_nord_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108225,7 +107986,7 @@ const ESO_SETS = [
           "id": 2321707055
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Ysgramor's Ice Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108233,7 +107994,7 @@ const ESO_SETS = [
           "id": 1421403843
         },
         {
-          "name": "Nord Bow 4",
+          "name": "Ysgramor's Bow",
           "image": "gear_nord_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -108241,7 +108002,7 @@ const ESO_SETS = [
           "id": 809637525
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Ysgramor's Lightning Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
