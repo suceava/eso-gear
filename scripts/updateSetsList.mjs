@@ -200,43 +200,6 @@ const addSetName = () => {
   });
 }
 
-
-/**
- * Calculate a 32 bit FNV-1a hash
- * Found here: https://gist.github.com/vaiorabbit/5657561
- * Ref.: http://isthe.com/chongo/tech/comp/fnv/
- *
- * @param {string} str the input value
- * @param {boolean} [asString=false] set to true to return the hash value as 
- *     8-digit hex string instead of an integer
- * @param {integer} [seed] optionally pass the hash of the previous chunk
- * @returns {integer | string}
- */
- function hashFnv32a(str, asString = false, seed = undefined) {
-  /*jshint bitwise:false */
-  var i, l,
-      hval = (seed === undefined) ? 0x811c9dc5 : seed;
-
-  for (i = 0, l = str.length; i < l; i++) {
-      hval ^= str.charCodeAt(i);
-      hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
-  }
-  if( asString ){
-      // Convert to 8 digit hex string
-      return ("0000000" + (hval >>> 0).toString(16)).substr(-8);
-  }
-  return hval >>> 0;
-}
-
-const addIDs = () => {
-  setsList.forEach(s => {
-    s.id = hashFnv32a(s.name);
-    s.items.list.forEach(i => {
-      i.id = hashFnv32a(`${i.setName}_${i.image}`);
-    });
-  });
-}
-
 const itemNameArmorMap = {
   "head_heavy": "Helm",
   "head_medium": "Helmet",
@@ -301,6 +264,44 @@ const updateItemNames = (setName, prefix, suffix) => {
   });
 }
 
+
+/**
+ * Calculate a 32 bit FNV-1a hash
+ * Found here: https://gist.github.com/vaiorabbit/5657561
+ * Ref.: http://isthe.com/chongo/tech/comp/fnv/
+ *
+ * @param {string} str the input value
+ * @param {boolean} [asString=false] set to true to return the hash value as 
+ *     8-digit hex string instead of an integer
+ * @param {integer} [seed] optionally pass the hash of the previous chunk
+ * @returns {integer | string}
+ */
+ function hashFnv32a(str, asString = false, seed = undefined) {
+  /*jshint bitwise:false */
+  var i, l,
+      hval = (seed === undefined) ? 0x811c9dc5 : seed;
+
+  for (i = 0, l = str.length; i < l; i++) {
+      hval ^= str.charCodeAt(i);
+      hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
+  }
+  if( asString ){
+      // Convert to 8 digit hex string
+      return ("0000000" + (hval >>> 0).toString(16)).substr(-8);
+  }
+  return hval >>> 0;
+}
+
+const addIDs = () => {
+  setsList.forEach(s => {
+    s.id = hashFnv32a(s.name);
+    s.items.list.forEach(i => {
+      i.id = hashFnv32a(`${i.setName}_${i.name}`);
+    });
+  });
+}
+
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -308,8 +309,7 @@ const updateData = async () => {
   // fixMonsterSetArmorTpe(); // DONE
   // addItemType(); // DONE
   // addSetName(); // DONE
-
-  updateItemNames("Wrath of the Imperium", "", "of Imperial Wrath");
+  updateItemNames("Stygian", "Stygian", "");  // ALL DONE
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file
