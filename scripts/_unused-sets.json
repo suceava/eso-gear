@@ -1185,3 +1185,130 @@
 }
 
 
+
+{
+  "name": "Restoration Staff of the Advancing Yokeda",
+  "image": "gear_celestial_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Berserking Warrior",
+  "id": 157832792
+},
+{
+  "name": "Inferno Staff of the Advancing Yokeda",
+  "image": "gear_celestial_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Berserking Warrior",
+  "id": 157832792
+},
+{
+  "name": "Ice Staff of the Advancing Yokeda",
+  "image": "gear_celestial_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Berserking Warrior",
+  "id": 157832792
+},
+{
+  "name": "Bow of the Advancing Yokeda",
+  "image": "gear_celestial_bow_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Berserking Warrior",
+  "id": 2826111962
+},
+{
+  "name": "Lightning Staff of the Advancing Yokeda",
+  "image": "gear_celestial_staff_a.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Berserking Warrior",
+  "id": 157832792
+}
+
+
+
+{
+  "name": "Mace of Destruction Mastery",
+  "image": "gear_altmer_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 653982498
+},
+{
+  "name": "Dagger of Destruction Mastery",
+  "image": "gear_altmer_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 2584460571
+},
+{
+  "name": "Axe of Destruction Mastery",
+  "image": "gear_altmer_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 522667608
+},
+{
+  "name": "Sword of Destruction Mastery",
+  "image": "gear_altmer_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 588402149
+},
+{
+  "name": "Shield of Destruction Mastery",
+  "image": "gear_altmer_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Robes of Destruction Mastery",
+  "id": 2481530016
+},
+{
+  "name": "Greatsword of Destruction Mastery",
+  "image": "gear_altmer_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 2831908672
+},
+{
+  "name": "Maul of Destruction Mastery",
+  "image": "gear_altmer_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 3301945609
+},
+{
+  "name": "Battle Axe of Destruction Mastery",
+  "image": "gear_altmer_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 3759827173
+},
+{
+  "name": "Restoration Staff of Destruction Mastery",
+  "image": "gear_altmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 4101478701
+},
+{
+  "name": "Bow of Destruction Mastery",
+  "image": "gear_altmer_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Robes of Destruction Mastery",
+  "id": 373824175
+},
+
+
+
