@@ -42,7 +42,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Adept Rider's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -51,7 +51,7 @@ const ESO_SETS = [
           "id": 3503684679
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Adept Rider's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -60,7 +60,7 @@ const ESO_SETS = [
           "id": 625265350
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Adept Rider's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -69,7 +69,7 @@ const ESO_SETS = [
           "id": 2376756697
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Adept Rider's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -78,7 +78,7 @@ const ESO_SETS = [
           "id": 3885133333
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Adept Rider's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -87,16 +87,16 @@ const ESO_SETS = [
           "id": 3686519300
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Adept Rider's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Adept Rider",
           "id": 2053034307
         },
         {
-          "name": "Ring",
+          "name": "Adept Rider's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -104,7 +104,7 @@ const ESO_SETS = [
           "id": 478294374
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Adept Rider's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -113,7 +113,7 @@ const ESO_SETS = [
           "id": 1373092024
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Adept Rider's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -122,7 +122,7 @@ const ESO_SETS = [
           "id": 2599169730
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Adept Rider's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -131,7 +131,7 @@ const ESO_SETS = [
           "id": 2813771890
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Adept Rider's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -140,7 +140,7 @@ const ESO_SETS = [
           "id": 1365795422
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Adept Rider's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -149,7 +149,7 @@ const ESO_SETS = [
           "id": 2780110071
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Adept Rider's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -158,7 +158,7 @@ const ESO_SETS = [
           "id": 2679597892
         },
         {
-          "name": "Necklace",
+          "name": "Adept Rider's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -166,7 +166,7 @@ const ESO_SETS = [
           "id": 1706271323
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Adept Rider's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -175,7 +175,7 @@ const ESO_SETS = [
           "id": 137222515
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Adept Rider's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -184,7 +184,7 @@ const ESO_SETS = [
           "id": 2171181568
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Adept Rider's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -193,7 +193,7 @@ const ESO_SETS = [
           "id": 2480719213
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Adept Rider's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -202,7 +202,7 @@ const ESO_SETS = [
           "id": 567942212
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Adept Rider's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -211,7 +211,7 @@ const ESO_SETS = [
           "id": 20237379
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Adept Rider's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -220,7 +220,7 @@ const ESO_SETS = [
           "id": 3419852526
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Adept Rider's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -229,7 +229,7 @@ const ESO_SETS = [
           "id": 3612984277
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Adept Rider's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -238,7 +238,7 @@ const ESO_SETS = [
           "id": 2805379474
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Adept Rider's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -247,7 +247,7 @@ const ESO_SETS = [
           "id": 69575231
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Adept Rider's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -255,7 +255,7 @@ const ESO_SETS = [
           "id": 2587481028
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Adept Rider's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -263,7 +263,7 @@ const ESO_SETS = [
           "id": 3531462293
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Adept Rider's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -271,7 +271,7 @@ const ESO_SETS = [
           "id": 111740634
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Adept Rider's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -279,7 +279,7 @@ const ESO_SETS = [
           "id": 429259551
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Adept Rider's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -287,7 +287,7 @@ const ESO_SETS = [
           "id": 65082690
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Adept Rider's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -295,7 +295,7 @@ const ESO_SETS = [
           "id": 2004324446
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Adept Rider's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -303,7 +303,7 @@ const ESO_SETS = [
           "id": 588532447
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Adept Rider's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -311,7 +311,7 @@ const ESO_SETS = [
           "id": 3177064867
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Adept Rider's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -319,7 +319,7 @@ const ESO_SETS = [
           "id": 3295185299
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Adept Rider's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -327,7 +327,7 @@ const ESO_SETS = [
           "id": 3295185299
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Adept Rider's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -335,7 +335,7 @@ const ESO_SETS = [
           "id": 3295185299
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Adept Rider's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -343,7 +343,7 @@ const ESO_SETS = [
           "id": 623560645
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Adept Rider's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -832,7 +832,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Aetherial Ascension",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -840,7 +840,7 @@ const ESO_SETS = [
           "id": 2864966296
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Aetherial Ascension",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -848,7 +848,7 @@ const ESO_SETS = [
           "id": 480814544
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Aetherial Ascension",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -856,7 +856,7 @@ const ESO_SETS = [
           "id": 2977845443
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Aetherial Ascension",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -864,7 +864,7 @@ const ESO_SETS = [
           "id": 2748546986
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Aetherial Ascension",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -872,7 +872,7 @@ const ESO_SETS = [
           "id": 969346141
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Aetherial Ascension",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -880,7 +880,7 @@ const ESO_SETS = [
           "id": 1572561949
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Aetherial Ascension",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -888,7 +888,7 @@ const ESO_SETS = [
           "id": 71518021
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Aetherial Ascension",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -896,7 +896,7 @@ const ESO_SETS = [
           "id": 71518021
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Aetherial Ascension",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -904,7 +904,7 @@ const ESO_SETS = [
           "id": 3833348145
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Aetherial Ascension",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -912,7 +912,7 @@ const ESO_SETS = [
           "id": 71518021
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Aetherial Ascension",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -920,7 +920,7 @@ const ESO_SETS = [
           "id": 3957846455
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Aetherial Ascension",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -928,7 +928,7 @@ const ESO_SETS = [
           "id": 1179428728
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Aetherial Ascension",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -936,7 +936,7 @@ const ESO_SETS = [
           "id": 71518021
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Aetherial Ascension",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -945,7 +945,7 @@ const ESO_SETS = [
           "id": 2815364828
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Aetherial Ascension",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -954,7 +954,7 @@ const ESO_SETS = [
           "id": 3775353847
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Aetherial Ascension",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -963,7 +963,7 @@ const ESO_SETS = [
           "id": 3413523773
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Aetherial Ascension",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -972,7 +972,7 @@ const ESO_SETS = [
           "id": 1454489016
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Aetherial Ascension",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -981,7 +981,7 @@ const ESO_SETS = [
           "id": 3660418725
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Aetherial Ascension",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -990,7 +990,7 @@ const ESO_SETS = [
           "id": 1552524363
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Aetherial Ascension",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -999,7 +999,7 @@ const ESO_SETS = [
           "id": 1173549062
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Aetherial Ascension",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -1008,7 +1008,7 @@ const ESO_SETS = [
           "id": 2400222979
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Aetherial Ascension",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -1017,7 +1017,7 @@ const ESO_SETS = [
           "id": 2072917593
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Aetherial Ascension",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -1026,7 +1026,7 @@ const ESO_SETS = [
           "id": 4042243297
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Aetherial Ascension",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -1035,7 +1035,7 @@ const ESO_SETS = [
           "id": 2587911028
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Aetherial Ascension",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -1044,7 +1044,7 @@ const ESO_SETS = [
           "id": 451536850
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Aetherial Ascension",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -1053,7 +1053,7 @@ const ESO_SETS = [
           "id": 1935466601
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Aetherial Ascension",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -1062,7 +1062,7 @@ const ESO_SETS = [
           "id": 215643790
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Aetherial Ascension",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -1071,7 +1071,7 @@ const ESO_SETS = [
           "id": 3703748368
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Aetherial Ascension",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -1079,7 +1079,7 @@ const ESO_SETS = [
           "id": 347323889
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Aetherial Ascension",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -1088,7 +1088,7 @@ const ESO_SETS = [
           "id": 3506690200
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Aetherial Ascension",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -1097,7 +1097,7 @@ const ESO_SETS = [
           "id": 702268328
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Aetherial Ascension",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -1106,7 +1106,7 @@ const ESO_SETS = [
           "id": 1950906910
         },
         {
-          "name": "Ring",
+          "name": "Ring of Aetherial Ascension",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -1114,7 +1114,7 @@ const ESO_SETS = [
           "id": 1898588364
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Aetherial Ascension",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -1123,16 +1123,16 @@ const ESO_SETS = [
           "id": 140892886
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Aetherial Ascension",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Aetherial Ascension",
           "id": 2063085093
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Aetherial Ascension",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -1811,7 +1811,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Alessia's Bulwark",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -1819,7 +1819,7 @@ const ESO_SETS = [
           "id": 4250622660
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Alessia's Bulwark",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1827,7 +1827,7 @@ const ESO_SETS = [
           "id": 1233648982
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Alessia's Bulwark",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1835,7 +1835,7 @@ const ESO_SETS = [
           "id": 2407739847
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Alessia's Bulwark",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1843,7 +1843,7 @@ const ESO_SETS = [
           "id": 3907365300
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Alessia's Bulwark",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -1851,7 +1851,7 @@ const ESO_SETS = [
           "id": 2611314913
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Alessia's Bulwark",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1859,7 +1859,7 @@ const ESO_SETS = [
           "id": 677167548
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Alessia's Bulwark",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1867,7 +1867,7 @@ const ESO_SETS = [
           "id": 2817655693
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Alessia's Bulwark",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1875,7 +1875,7 @@ const ESO_SETS = [
           "id": 91871889
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Alessia's Bulwark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1883,7 +1883,7 @@ const ESO_SETS = [
           "id": 2002363929
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Alessia's Bulwark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1891,7 +1891,7 @@ const ESO_SETS = [
           "id": 2002363929
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Alessia's Bulwark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1899,7 +1899,7 @@ const ESO_SETS = [
           "id": 2002363929
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Alessia's Bulwark",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1907,7 +1907,7 @@ const ESO_SETS = [
           "id": 2602092067
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Alessia's Bulwark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -1915,7 +1915,7 @@ const ESO_SETS = [
           "id": 2002363929
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Alessia's Bulwark",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -1924,7 +1924,7 @@ const ESO_SETS = [
           "id": 4127116633
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Alessia's Bulwark",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -1933,7 +1933,7 @@ const ESO_SETS = [
           "id": 1759631696
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Alessia's Bulwark",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -1942,7 +1942,7 @@ const ESO_SETS = [
           "id": 3833398003
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Alessia's Bulwark",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -1951,7 +1951,7 @@ const ESO_SETS = [
           "id": 3803394243
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Alessia's Bulwark",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -1960,16 +1960,16 @@ const ESO_SETS = [
           "id": 915848330
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Alessia's Bulwark",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Alessia's Bulwark",
           "id": 1250904001
         },
         {
-          "name": "Ring",
+          "name": "Ring of Alessia's Bulwark",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -1977,7 +1977,7 @@ const ESO_SETS = [
           "id": 4015228264
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Alessia's Bulwark",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -1986,7 +1986,7 @@ const ESO_SETS = [
           "id": 1686705906
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Alessia's Bulwark",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -1995,7 +1995,7 @@ const ESO_SETS = [
           "id": 1144716604
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Alessia's Bulwark",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -2004,7 +2004,7 @@ const ESO_SETS = [
           "id": 1768351420
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Alessia's Bulwark",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -2013,7 +2013,7 @@ const ESO_SETS = [
           "id": 134990532
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Alessia's Bulwark",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -2022,7 +2022,7 @@ const ESO_SETS = [
           "id": 1507371253
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Alessia's Bulwark",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -2031,7 +2031,7 @@ const ESO_SETS = [
           "id": 187811730
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Alessia's Bulwark",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -2039,7 +2039,7 @@ const ESO_SETS = [
           "id": 2195790109
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Alessia's Bulwark",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -2048,7 +2048,7 @@ const ESO_SETS = [
           "id": 1353653229
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Alessia's Bulwark",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -2057,7 +2057,7 @@ const ESO_SETS = [
           "id": 769240434
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Alessia's Bulwark",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -2066,7 +2066,7 @@ const ESO_SETS = [
           "id": 737606103
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Alessia's Bulwark",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -2075,7 +2075,7 @@ const ESO_SETS = [
           "id": 4145548654
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Alessia's Bulwark",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -2084,7 +2084,7 @@ const ESO_SETS = [
           "id": 1643186069
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Alessia's Bulwark",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -2093,7 +2093,7 @@ const ESO_SETS = [
           "id": 2866808784
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Alessia's Bulwark",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -2102,7 +2102,7 @@ const ESO_SETS = [
           "id": 3237476543
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Alessia's Bulwark",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -2111,7 +2111,7 @@ const ESO_SETS = [
           "id": 550401316
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Alessia's Bulwark",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -2856,7 +2856,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Ancient Dragonguard Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -2865,7 +2865,7 @@ const ESO_SETS = [
           "id": 14476019
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Ancient Dragonguard Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -2874,7 +2874,7 @@ const ESO_SETS = [
           "id": 2134483098
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Ancient Dragonguard Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -2883,7 +2883,7 @@ const ESO_SETS = [
           "id": 560550677
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Ancient Dragonguard Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -2892,7 +2892,7 @@ const ESO_SETS = [
           "id": 1726949313
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Ancient Dragonguard Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -2901,16 +2901,16 @@ const ESO_SETS = [
           "id": 3383045928
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Ancient Dragonguard Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Ancient Dragonguard",
           "id": 1921862687
         },
         {
-          "name": "Ring",
+          "name": "Ancient Dragonguard Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -2918,7 +2918,7 @@ const ESO_SETS = [
           "id": 3256349858
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Ancient Dragonguard Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -2927,7 +2927,7 @@ const ESO_SETS = [
           "id": 341083836
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Ancient Dragonguard Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -2936,7 +2936,7 @@ const ESO_SETS = [
           "id": 1475566566
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Ancient Dragonguard Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -2945,7 +2945,7 @@ const ESO_SETS = [
           "id": 3468704534
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Ancient Dragonguard Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -2954,7 +2954,7 @@ const ESO_SETS = [
           "id": 663857042
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Ancient Dragonguard Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -2963,7 +2963,7 @@ const ESO_SETS = [
           "id": 3253519043
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Ancient Dragonguard Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -2972,7 +2972,7 @@ const ESO_SETS = [
           "id": 3399564472
         },
         {
-          "name": "Necklace",
+          "name": "Ancient Dragonguard Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -2980,7 +2980,7 @@ const ESO_SETS = [
           "id": 755334055
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Ancient Dragonguard Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -2989,7 +2989,7 @@ const ESO_SETS = [
           "id": 3605305815
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Ancient Dragonguard Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -2998,7 +2998,7 @@ const ESO_SETS = [
           "id": 339060092
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Ancient Dragonguard Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -3007,7 +3007,7 @@ const ESO_SETS = [
           "id": 3218247713
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Ancient Dragonguard Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -3016,7 +3016,7 @@ const ESO_SETS = [
           "id": 4278691792
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Ancient Dragonguard Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -3025,7 +3025,7 @@ const ESO_SETS = [
           "id": 1115185543
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Ancient Dragonguard Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -3034,7 +3034,7 @@ const ESO_SETS = [
           "id": 1865968746
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Ancient Dragonguard Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -3043,7 +3043,7 @@ const ESO_SETS = [
           "id": 3951382185
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Ancient Dragonguard Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -3052,7 +3052,7 @@ const ESO_SETS = [
           "id": 63798350
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Ancient Dragonguard Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -3061,7 +3061,7 @@ const ESO_SETS = [
           "id": 1796695011
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Ancient Dragonguard Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3069,7 +3069,7 @@ const ESO_SETS = [
           "id": 1966120947
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Ancient Dragonguard Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3077,7 +3077,7 @@ const ESO_SETS = [
           "id": 90972553
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Ancient Dragonguard Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3085,7 +3085,7 @@ const ESO_SETS = [
           "id": 2512978078
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Ancient Dragonguard Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3093,7 +3093,7 @@ const ESO_SETS = [
           "id": 2493296592
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Ancient Dragonguard Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -3101,7 +3101,7 @@ const ESO_SETS = [
           "id": 1868682382
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Ancient Dragonguard Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3109,7 +3109,7 @@ const ESO_SETS = [
           "id": 2017173106
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Ancient Dragonguard Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3117,7 +3117,7 @@ const ESO_SETS = [
           "id": 2831628427
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Ancient Dragonguard Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3125,7 +3125,7 @@ const ESO_SETS = [
           "id": 1267718551
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ancient Dragonguard Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3133,7 +3133,7 @@ const ESO_SETS = [
           "id": 4282086727
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ancient Dragonguard Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3141,7 +3141,7 @@ const ESO_SETS = [
           "id": 4282086727
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ancient Dragonguard Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3149,7 +3149,7 @@ const ESO_SETS = [
           "id": 4282086727
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Ancient Dragonguard Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3157,7 +3157,7 @@ const ESO_SETS = [
           "id": 4146315313
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ancient Dragonguard Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3664,7 +3664,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Armor Master",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -3673,7 +3673,7 @@ const ESO_SETS = [
           "id": 1310454656
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Armor Master",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -3682,7 +3682,7 @@ const ESO_SETS = [
           "id": 1935270397
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Armor Master",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -3691,7 +3691,7 @@ const ESO_SETS = [
           "id": 138735296
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Armor Master",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -3700,7 +3700,7 @@ const ESO_SETS = [
           "id": 2347676698
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Armor Master",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -3709,16 +3709,16 @@ const ESO_SETS = [
           "id": 882103799
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Armor Master",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Armor Master",
           "id": 2405143386
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Armor Master",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -3726,7 +3726,7 @@ const ESO_SETS = [
           "id": 2816204093
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Armor Master",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -3735,7 +3735,7 @@ const ESO_SETS = [
           "id": 729797025
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Armor Master",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -3744,7 +3744,7 @@ const ESO_SETS = [
           "id": 922120811
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Armor Master",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -3753,7 +3753,7 @@ const ESO_SETS = [
           "id": 1591816161
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Armor Master",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -3762,7 +3762,7 @@ const ESO_SETS = [
           "id": 2481434277
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Armor Master",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -3771,7 +3771,7 @@ const ESO_SETS = [
           "id": 3842910672
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Armor Master",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -3780,7 +3780,7 @@ const ESO_SETS = [
           "id": 935312357
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Armor Master",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -3788,7 +3788,7 @@ const ESO_SETS = [
           "id": 512516776
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Armor Master",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -3797,7 +3797,7 @@ const ESO_SETS = [
           "id": 814755330
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Armor Master",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -3806,7 +3806,7 @@ const ESO_SETS = [
           "id": 1954372633
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Armor Master",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -3815,7 +3815,7 @@ const ESO_SETS = [
           "id": 1189367362
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Armor Master",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -3824,7 +3824,7 @@ const ESO_SETS = [
           "id": 3140184709
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Armor Master",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -3833,7 +3833,7 @@ const ESO_SETS = [
           "id": 2553394834
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Armor Master",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -3842,7 +3842,7 @@ const ESO_SETS = [
           "id": 3789153733
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Armor Master",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -3851,7 +3851,7 @@ const ESO_SETS = [
           "id": 3497951540
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Armor Master",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -3860,7 +3860,7 @@ const ESO_SETS = [
           "id": 1047899659
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Armor Master",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -3869,7 +3869,7 @@ const ESO_SETS = [
           "id": 545773172
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Armor Master",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3877,7 +3877,7 @@ const ESO_SETS = [
           "id": 1017399127
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Armor Master",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3885,7 +3885,7 @@ const ESO_SETS = [
           "id": 3907771434
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Armor Master",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3893,7 +3893,7 @@ const ESO_SETS = [
           "id": 724618731
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Armor Master",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -3901,7 +3901,7 @@ const ESO_SETS = [
           "id": 975859142
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Armor Master",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -3909,7 +3909,7 @@ const ESO_SETS = [
           "id": 3898951293
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Armor Master",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3917,7 +3917,7 @@ const ESO_SETS = [
           "id": 2611677223
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Armor Master",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3925,7 +3925,7 @@ const ESO_SETS = [
           "id": 3826493340
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Armor Master",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3933,7 +3933,7 @@ const ESO_SETS = [
           "id": 153204802
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Armor Master",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3941,7 +3941,7 @@ const ESO_SETS = [
           "id": 3168083518
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Armor Master",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3949,7 +3949,7 @@ const ESO_SETS = [
           "id": 3168083518
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Armor Master",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3957,7 +3957,7 @@ const ESO_SETS = [
           "id": 3168083518
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Armor Master",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -3965,7 +3965,7 @@ const ESO_SETS = [
           "id": 3234419540
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Armor Master",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4077,7 +4077,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Seducer",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -4085,7 +4085,7 @@ const ESO_SETS = [
           "id": 678040422
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Seducer",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -4093,7 +4093,7 @@ const ESO_SETS = [
           "id": 2276943543
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Seducer",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -4101,7 +4101,7 @@ const ESO_SETS = [
           "id": 2461672868
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Seducer",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -4109,7 +4109,7 @@ const ESO_SETS = [
           "id": 3402804177
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Seducer",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -4117,7 +4117,7 @@ const ESO_SETS = [
           "id": 9625012
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Seducer",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4125,7 +4125,7 @@ const ESO_SETS = [
           "id": 668201388
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Seducer",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4133,7 +4133,7 @@ const ESO_SETS = [
           "id": 1968557533
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Seducer",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4141,7 +4141,7 @@ const ESO_SETS = [
           "id": 1377495105
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Seducer",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4149,7 +4149,7 @@ const ESO_SETS = [
           "id": 950574921
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Seducer",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4157,7 +4157,7 @@ const ESO_SETS = [
           "id": 950574921
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Seducer",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4165,7 +4165,7 @@ const ESO_SETS = [
           "id": 950574921
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Seducer",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4173,7 +4173,7 @@ const ESO_SETS = [
           "id": 2147196275
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Seducer",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -4181,7 +4181,7 @@ const ESO_SETS = [
           "id": 950574921
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Seducer",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -4190,7 +4190,7 @@ const ESO_SETS = [
           "id": 3037119721
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Seducer",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -4199,7 +4199,7 @@ const ESO_SETS = [
           "id": 1498818368
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Seducer",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -4208,7 +4208,7 @@ const ESO_SETS = [
           "id": 2398108099
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Seducer",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -4217,7 +4217,7 @@ const ESO_SETS = [
           "id": 2853663475
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Seducer",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -4226,16 +4226,16 @@ const ESO_SETS = [
           "id": 3765226458
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Seducer",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Armor of the Seducer",
           "id": 2473005361
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Seducer",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -4243,7 +4243,7 @@ const ESO_SETS = [
           "id": 2548058392
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Seducer",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -4252,7 +4252,7 @@ const ESO_SETS = [
           "id": 2179047106
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Seducer",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -4261,7 +4261,7 @@ const ESO_SETS = [
           "id": 835446028
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Seducer",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -4270,7 +4270,7 @@ const ESO_SETS = [
           "id": 3421250508
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Seducer",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -4279,7 +4279,7 @@ const ESO_SETS = [
           "id": 3693423444
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Seducer",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -4288,7 +4288,7 @@ const ESO_SETS = [
           "id": 2295395429
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Seducer",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -4297,7 +4297,7 @@ const ESO_SETS = [
           "id": 2438993890
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Seducer",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -4305,7 +4305,7 @@ const ESO_SETS = [
           "id": 1806440237
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Seducer",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -4314,7 +4314,7 @@ const ESO_SETS = [
           "id": 79762973
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Seducer",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -4323,7 +4323,7 @@ const ESO_SETS = [
           "id": 1694515138
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Seducer",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -4332,7 +4332,7 @@ const ESO_SETS = [
           "id": 2367821319
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Seducer",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -4341,7 +4341,7 @@ const ESO_SETS = [
           "id": 423571774
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Seducer",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -4350,7 +4350,7 @@ const ESO_SETS = [
           "id": 1143172933
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Seducer",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -4359,7 +4359,7 @@ const ESO_SETS = [
           "id": 2634272224
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Seducer",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -4368,7 +4368,7 @@ const ESO_SETS = [
           "id": 1124365103
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Seducer",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -4377,7 +4377,7 @@ const ESO_SETS = [
           "id": 1050920948
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Seducer",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -5590,7 +5590,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Ashen Grip",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -5598,7 +5598,7 @@ const ESO_SETS = [
           "id": 2780165469
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Ashen Grip",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -5606,7 +5606,7 @@ const ESO_SETS = [
           "id": 3199677624
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Ashen Grip",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -5614,7 +5614,7 @@ const ESO_SETS = [
           "id": 1243295425
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Ashen Grip",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -5622,7 +5622,7 @@ const ESO_SETS = [
           "id": 2391399468
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Ashen Grip",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -5630,7 +5630,7 @@ const ESO_SETS = [
           "id": 52578643
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Ashen Grip",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5638,7 +5638,7 @@ const ESO_SETS = [
           "id": 831034961
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Ashen Grip",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5646,7 +5646,7 @@ const ESO_SETS = [
           "id": 1489648358
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Ashen Grip",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5654,7 +5654,7 @@ const ESO_SETS = [
           "id": 2327473188
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Ashen Grip",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5662,7 +5662,7 @@ const ESO_SETS = [
           "id": 2075649328
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Ashen Grip",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5670,7 +5670,7 @@ const ESO_SETS = [
           "id": 2075649328
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Ashen Grip",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5678,7 +5678,7 @@ const ESO_SETS = [
           "id": 2075649328
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Ashen Grip",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5686,7 +5686,7 @@ const ESO_SETS = [
           "id": 260871462
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Ashen Grip",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -5694,7 +5694,7 @@ const ESO_SETS = [
           "id": 2075649328
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Ashen Grip",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -5703,7 +5703,7 @@ const ESO_SETS = [
           "id": 2511207038
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Ashen Grip",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -5712,7 +5712,7 @@ const ESO_SETS = [
           "id": 1063320203
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Ashen Grip",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -5721,7 +5721,7 @@ const ESO_SETS = [
           "id": 1278292846
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Ashen Grip",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -5730,7 +5730,7 @@ const ESO_SETS = [
           "id": 3405070380
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Ashen Grip",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -5739,16 +5739,16 @@ const ESO_SETS = [
           "id": 1813235305
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Ashen Grip",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Ashen Grip",
           "id": 4175009980
         },
         {
-          "name": "Ring",
+          "name": "Ring of Ashen Grip",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -5756,7 +5756,7 @@ const ESO_SETS = [
           "id": 853064875
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Ashen Grip",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -5765,7 +5765,7 @@ const ESO_SETS = [
           "id": 2596494551
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Ashen Grip",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -5774,7 +5774,7 @@ const ESO_SETS = [
           "id": 37527657
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Ashen Grip",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -5783,7 +5783,7 @@ const ESO_SETS = [
           "id": 1771721863
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Ashen Grip",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -5792,7 +5792,7 @@ const ESO_SETS = [
           "id": 2727177247
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Ashen Grip",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -5801,7 +5801,7 @@ const ESO_SETS = [
           "id": 1980385562
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Ashen Grip",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -5810,7 +5810,7 @@ const ESO_SETS = [
           "id": 884478799
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Ashen Grip",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -5818,7 +5818,7 @@ const ESO_SETS = [
           "id": 2813972582
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Ashen Grip",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -5827,7 +5827,7 @@ const ESO_SETS = [
           "id": 2185427112
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Ashen Grip",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -5836,7 +5836,7 @@ const ESO_SETS = [
           "id": 128592799
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Ashen Grip",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -5845,7 +5845,7 @@ const ESO_SETS = [
           "id": 253384184
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Ashen Grip",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -5854,7 +5854,7 @@ const ESO_SETS = [
           "id": 2713387387
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Ashen Grip",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -5863,7 +5863,7 @@ const ESO_SETS = [
           "id": 2022558824
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Ashen Grip",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -5872,7 +5872,7 @@ const ESO_SETS = [
           "id": 3960372651
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Ashen Grip",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -5881,7 +5881,7 @@ const ESO_SETS = [
           "id": 3322352394
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Ashen Grip",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -5890,7 +5890,7 @@ const ESO_SETS = [
           "id": 4032342817
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Ashen Grip",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -6169,7 +6169,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Assassin's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -6178,7 +6178,7 @@ const ESO_SETS = [
           "id": 82073256
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Assassin's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -6187,7 +6187,7 @@ const ESO_SETS = [
           "id": 4170317237
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Assassin's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -6196,7 +6196,7 @@ const ESO_SETS = [
           "id": 2230989576
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Assassin's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -6205,7 +6205,7 @@ const ESO_SETS = [
           "id": 2349170226
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Assassin's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -6214,16 +6214,16 @@ const ESO_SETS = [
           "id": 1649403967
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Assassin's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Assassin's Guile",
           "id": 3364187282
         },
         {
-          "name": "Ring",
+          "name": "Assassin's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -6231,7 +6231,7 @@ const ESO_SETS = [
           "id": 2301788277
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Assassin's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -6240,7 +6240,7 @@ const ESO_SETS = [
           "id": 1570881641
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Assassin's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -6249,7 +6249,7 @@ const ESO_SETS = [
           "id": 3779903987
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Assassin's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -6258,7 +6258,7 @@ const ESO_SETS = [
           "id": 1966527305
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Assassin's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -6267,7 +6267,7 @@ const ESO_SETS = [
           "id": 3508062461
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Assassin's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -6276,7 +6276,7 @@ const ESO_SETS = [
           "id": 3976545112
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Assassin's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -6285,7 +6285,7 @@ const ESO_SETS = [
           "id": 694146397
         },
         {
-          "name": "Necklace",
+          "name": "Assassin's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -6293,7 +6293,7 @@ const ESO_SETS = [
           "id": 124536192
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Assassin's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -6302,7 +6302,7 @@ const ESO_SETS = [
           "id": 4056624602
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Assassin's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -6311,7 +6311,7 @@ const ESO_SETS = [
           "id": 2084915137
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Assassin's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -6320,7 +6320,7 @@ const ESO_SETS = [
           "id": 497034170
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Assassin's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -6329,7 +6329,7 @@ const ESO_SETS = [
           "id": 85043277
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Assassin's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -6338,7 +6338,7 @@ const ESO_SETS = [
           "id": 849340042
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Assassin's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -6347,7 +6347,7 @@ const ESO_SETS = [
           "id": 3684463277
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Assassin's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -6356,7 +6356,7 @@ const ESO_SETS = [
           "id": 3652708572
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Assassin's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -6365,7 +6365,7 @@ const ESO_SETS = [
           "id": 2858646147
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Assassin's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -6374,7 +6374,7 @@ const ESO_SETS = [
           "id": 177844412
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Assassin's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -6382,7 +6382,7 @@ const ESO_SETS = [
           "id": 1951599311
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Assassin's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -6390,7 +6390,7 @@ const ESO_SETS = [
           "id": 1629248450
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Assassin's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -6398,7 +6398,7 @@ const ESO_SETS = [
           "id": 2417726963
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Assassin's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -6406,7 +6406,7 @@ const ESO_SETS = [
           "id": 144696942
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Assassin's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -6414,7 +6414,7 @@ const ESO_SETS = [
           "id": 2705946629
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Assassin's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6422,7 +6422,7 @@ const ESO_SETS = [
           "id": 2491727535
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Assassin's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6430,7 +6430,7 @@ const ESO_SETS = [
           "id": 2689876276
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Assassin's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6438,7 +6438,7 @@ const ESO_SETS = [
           "id": 1304036650
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Assassin's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6446,7 +6446,7 @@ const ESO_SETS = [
           "id": 3198162502
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Assassin's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6454,7 +6454,7 @@ const ESO_SETS = [
           "id": 3198162502
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Assassin's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6462,7 +6462,7 @@ const ESO_SETS = [
           "id": 3198162502
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Assassin's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -6470,7 +6470,7 @@ const ESO_SETS = [
           "id": 564765484
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Assassin's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13689,7 +13689,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Clever Alchemist Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -13697,7 +13697,7 @@ const ESO_SETS = [
           "id": 1513300574
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Clever Alchemist Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -13705,7 +13705,7 @@ const ESO_SETS = [
           "id": 1871341618
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Clever Alchemist Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -13713,7 +13713,7 @@ const ESO_SETS = [
           "id": 3231116195
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Clever Alchemist Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -13721,7 +13721,7 @@ const ESO_SETS = [
           "id": 274407647
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Clever Alchemist Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -13729,7 +13729,7 @@ const ESO_SETS = [
           "id": 775401461
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Clever Alchemist Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13737,7 +13737,7 @@ const ESO_SETS = [
           "id": 4233202975
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Clever Alchemist Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13745,7 +13745,7 @@ const ESO_SETS = [
           "id": 2273356228
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Clever Alchemist Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13753,7 +13753,7 @@ const ESO_SETS = [
           "id": 165791962
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Clever Alchemist Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13761,7 +13761,7 @@ const ESO_SETS = [
           "id": 3740200758
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Clever Alchemist Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13769,7 +13769,7 @@ const ESO_SETS = [
           "id": 3740200758
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Clever Alchemist Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13777,7 +13777,7 @@ const ESO_SETS = [
           "id": 3740200758
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Clever Alchemist Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13785,7 +13785,7 @@ const ESO_SETS = [
           "id": 2810470396
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Clever Alchemist Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -13793,7 +13793,7 @@ const ESO_SETS = [
           "id": 3740200758
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Clever Alchemist Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -13802,7 +13802,7 @@ const ESO_SETS = [
           "id": 3995762552
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Clever Alchemist Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -13811,7 +13811,7 @@ const ESO_SETS = [
           "id": 2729118181
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Clever Alchemist Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -13820,7 +13820,7 @@ const ESO_SETS = [
           "id": 3207864600
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Clever Alchemist Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -13829,7 +13829,7 @@ const ESO_SETS = [
           "id": 3340253602
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Clever Alchemist Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -13838,16 +13838,16 @@ const ESO_SETS = [
           "id": 2716280207
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Clever Alchemist Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Clever Alchemist",
           "id": 3488188482
         },
         {
-          "name": "Ring",
+          "name": "Clever Alchemist Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -13855,7 +13855,7 @@ const ESO_SETS = [
           "id": 1822412005
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Clever Alchemist Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -13864,7 +13864,7 @@ const ESO_SETS = [
           "id": 1382890233
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Clever Alchemist Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -13873,7 +13873,7 @@ const ESO_SETS = [
           "id": 2315690563
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Clever Alchemist Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -13882,7 +13882,7 @@ const ESO_SETS = [
           "id": 47393945
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Clever Alchemist Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -13891,7 +13891,7 @@ const ESO_SETS = [
           "id": 2606987021
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Clever Alchemist Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -13900,7 +13900,7 @@ const ESO_SETS = [
           "id": 7390600
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Clever Alchemist Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -13909,7 +13909,7 @@ const ESO_SETS = [
           "id": 1673933997
         },
         {
-          "name": "Necklace",
+          "name": "Clever Alchemist Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -13917,7 +13917,7 @@ const ESO_SETS = [
           "id": 4104646864
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Clever Alchemist Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -13926,7 +13926,7 @@ const ESO_SETS = [
           "id": 1708591690
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Clever Alchemist Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -13935,7 +13935,7 @@ const ESO_SETS = [
           "id": 2968791377
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Clever Alchemist Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -13944,7 +13944,7 @@ const ESO_SETS = [
           "id": 489415274
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Clever Alchemist Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -13953,7 +13953,7 @@ const ESO_SETS = [
           "id": 2118012573
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Clever Alchemist Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -13962,7 +13962,7 @@ const ESO_SETS = [
           "id": 2181235450
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Clever Alchemist Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -13971,7 +13971,7 @@ const ESO_SETS = [
           "id": 1254106685
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Clever Alchemist Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -13980,7 +13980,7 @@ const ESO_SETS = [
           "id": 2634817740
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Clever Alchemist Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -13989,7 +13989,7 @@ const ESO_SETS = [
           "id": 418066515
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Clever Alchemist Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -14045,7 +14045,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Coldharbour's Favorite Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -14054,7 +14054,7 @@ const ESO_SETS = [
           "id": 3265965790
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Coldharbour's Favorite Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -14063,7 +14063,7 @@ const ESO_SETS = [
           "id": 2611176043
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Coldharbour's Favorite Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -14072,7 +14072,7 @@ const ESO_SETS = [
           "id": 398514126
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Coldharbour's Favorite Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -14081,7 +14081,7 @@ const ESO_SETS = [
           "id": 1912786060
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Coldharbour's Favorite Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -14090,16 +14090,16 @@ const ESO_SETS = [
           "id": 3011099209
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Coldharbour's Favorite Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Coldharbour's Favorite",
           "id": 575438620
         },
         {
-          "name": "Ring",
+          "name": "Coldharbour's Favorite Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -14107,7 +14107,7 @@ const ESO_SETS = [
           "id": 887924939
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Coldharbour's Favorite Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -14116,7 +14116,7 @@ const ESO_SETS = [
           "id": 954008759
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Coldharbour's Favorite Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -14125,7 +14125,7 @@ const ESO_SETS = [
           "id": 1558622665
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Coldharbour's Favorite Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -14134,7 +14134,7 @@ const ESO_SETS = [
           "id": 1745421415
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Coldharbour's Favorite Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -14143,7 +14143,7 @@ const ESO_SETS = [
           "id": 3131944063
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Coldharbour's Favorite Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -14152,7 +14152,7 @@ const ESO_SETS = [
           "id": 412302074
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Coldharbour's Favorite Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -14161,7 +14161,7 @@ const ESO_SETS = [
           "id": 4098199983
         },
         {
-          "name": "Necklace",
+          "name": "Coldharbour's Favorite Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -14169,7 +14169,7 @@ const ESO_SETS = [
           "id": 653838598
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Coldharbour's Favorite Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -14178,7 +14178,7 @@ const ESO_SETS = [
           "id": 4063459208
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Coldharbour's Favorite Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -14187,7 +14187,7 @@ const ESO_SETS = [
           "id": 2870292479
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Coldharbour's Favorite Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -14196,7 +14196,7 @@ const ESO_SETS = [
           "id": 541281880
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Coldharbour's Favorite Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -14205,7 +14205,7 @@ const ESO_SETS = [
           "id": 1282445147
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Coldharbour's Favorite Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -14214,7 +14214,7 @@ const ESO_SETS = [
           "id": 1688425928
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Coldharbour's Favorite Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -14223,7 +14223,7 @@ const ESO_SETS = [
           "id": 2398927243
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Coldharbour's Favorite Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -14232,7 +14232,7 @@ const ESO_SETS = [
           "id": 1817884266
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Coldharbour's Favorite Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -14241,7 +14241,7 @@ const ESO_SETS = [
           "id": 4219544193
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Coldharbour's Favorite Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -14250,7 +14250,7 @@ const ESO_SETS = [
           "id": 3505591226
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Coldharbour's Favorite Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -14258,7 +14258,7 @@ const ESO_SETS = [
           "id": 3614556157
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Coldharbour's Favorite Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -14266,7 +14266,7 @@ const ESO_SETS = [
           "id": 4019925336
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Coldharbour's Favorite Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -14274,7 +14274,7 @@ const ESO_SETS = [
           "id": 2313235937
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Coldharbour's Favorite Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -14282,7 +14282,7 @@ const ESO_SETS = [
           "id": 671161932
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Coldharbour's Favorite Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -14290,7 +14290,7 @@ const ESO_SETS = [
           "id": 552774771
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Coldharbour's Favorite Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14298,7 +14298,7 @@ const ESO_SETS = [
           "id": 1822529777
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Coldharbour's Favorite Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14306,7 +14306,7 @@ const ESO_SETS = [
           "id": 4083500166
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Coldharbour's Favorite Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14314,7 +14314,7 @@ const ESO_SETS = [
           "id": 1338968388
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Coldharbour's Favorite Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14322,7 +14322,7 @@ const ESO_SETS = [
           "id": 3683366224
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Coldharbour's Favorite Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14330,7 +14330,7 @@ const ESO_SETS = [
           "id": 3683366224
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Coldharbour's Favorite Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14338,7 +14338,7 @@ const ESO_SETS = [
           "id": 3683366224
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Coldharbour's Favorite Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -14346,7 +14346,7 @@ const ESO_SETS = [
           "id": 2427275206
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Coldharbour's Favorite Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -15828,7 +15828,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Critical Riposte",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -15837,7 +15837,7 @@ const ESO_SETS = [
           "id": 359557884
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Critical Riposte",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -15846,7 +15846,7 @@ const ESO_SETS = [
           "id": 976304417
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Critical Riposte",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -15855,7 +15855,7 @@ const ESO_SETS = [
           "id": 3588514988
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Critical Riposte",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -15864,7 +15864,7 @@ const ESO_SETS = [
           "id": 2050845942
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Critical Riposte",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -15873,16 +15873,16 @@ const ESO_SETS = [
           "id": 592189819
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Critical Riposte",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Critical Riposte",
           "id": 4204979014
         },
         {
-          "name": "Ring",
+          "name": "Ring of Critical Riposte",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -15890,7 +15890,7 @@ const ESO_SETS = [
           "id": 3594759993
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Critical Riposte",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -15899,7 +15899,7 @@ const ESO_SETS = [
           "id": 22382917
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Critical Riposte",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -15908,7 +15908,7 @@ const ESO_SETS = [
           "id": 4214510863
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Critical Riposte",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -15917,7 +15917,7 @@ const ESO_SETS = [
           "id": 1604828597
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Critical Riposte",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -15926,7 +15926,7 @@ const ESO_SETS = [
           "id": 3987858569
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Critical Riposte",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -15935,7 +15935,7 @@ const ESO_SETS = [
           "id": 3367791612
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Critical Riposte",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -15944,7 +15944,7 @@ const ESO_SETS = [
           "id": 3446078137
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Critical Riposte",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -15952,7 +15952,7 @@ const ESO_SETS = [
           "id": 875947476
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Critical Riposte",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -15961,7 +15961,7 @@ const ESO_SETS = [
           "id": 1674608294
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Critical Riposte",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -15970,7 +15970,7 @@ const ESO_SETS = [
           "id": 539252293
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Critical Riposte",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -15979,7 +15979,7 @@ const ESO_SETS = [
           "id": 1448025078
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Critical Riposte",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -15988,7 +15988,7 @@ const ESO_SETS = [
           "id": 1652644225
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Critical Riposte",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -15997,7 +15997,7 @@ const ESO_SETS = [
           "id": 3195624502
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Critical Riposte",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -16006,7 +16006,7 @@ const ESO_SETS = [
           "id": 903631473
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Critical Riposte",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -16015,7 +16015,7 @@ const ESO_SETS = [
           "id": 440871128
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Critical Riposte",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -16024,7 +16024,7 @@ const ESO_SETS = [
           "id": 734242087
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Critical Riposte",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -16033,7 +16033,7 @@ const ESO_SETS = [
           "id": 4253693928
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Critical Riposte",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -16041,7 +16041,7 @@ const ESO_SETS = [
           "id": 3798375171
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Critical Riposte",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -16049,7 +16049,7 @@ const ESO_SETS = [
           "id": 890513502
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Critical Riposte",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -16057,7 +16057,7 @@ const ESO_SETS = [
           "id": 3292074175
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Critical Riposte",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -16065,7 +16065,7 @@ const ESO_SETS = [
           "id": 885301818
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Critical Riposte",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -16073,7 +16073,7 @@ const ESO_SETS = [
           "id": 690294649
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Critical Riposte",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16081,7 +16081,7 @@ const ESO_SETS = [
           "id": 2352697403
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Critical Riposte",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16089,7 +16089,7 @@ const ESO_SETS = [
           "id": 1206921768
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Critical Riposte",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16097,7 +16097,7 @@ const ESO_SETS = [
           "id": 2531100390
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Critical Riposte",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16105,7 +16105,7 @@ const ESO_SETS = [
           "id": 3024370930
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Critical Riposte",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16113,7 +16113,7 @@ const ESO_SETS = [
           "id": 3024370930
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Critical Riposte",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16121,7 +16121,7 @@ const ESO_SETS = [
           "id": 3024370930
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Critical Riposte",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16129,7 +16129,7 @@ const ESO_SETS = [
           "id": 476483184
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Critical Riposte",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -16983,7 +16983,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Daedric Trickery",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -16992,7 +16992,7 @@ const ESO_SETS = [
           "id": 1793897640
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Daedric Trickery",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -17001,7 +17001,7 @@ const ESO_SETS = [
           "id": 1587174325
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Daedric Trickery",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -17010,7 +17010,7 @@ const ESO_SETS = [
           "id": 606481672
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Daedric Trickery",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -17019,7 +17019,7 @@ const ESO_SETS = [
           "id": 4060994610
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Daedric Trickery",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -17028,16 +17028,16 @@ const ESO_SETS = [
           "id": 3361228351
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Daedric Trickery",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Daedric Trickery",
           "id": 1739679378
         },
         {
-          "name": "Ring",
+          "name": "Ring of Daedric Trickery",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -17045,7 +17045,7 @@ const ESO_SETS = [
           "id": 1898008181
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Daedric Trickery",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -17054,7 +17054,7 @@ const ESO_SETS = [
           "id": 4241341033
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Daedric Trickery",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -17063,7 +17063,7 @@ const ESO_SETS = [
           "id": 2155396083
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Daedric Trickery",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -17072,7 +17072,7 @@ const ESO_SETS = [
           "id": 124870985
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Daedric Trickery",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -17081,7 +17081,7 @@ const ESO_SETS = [
           "id": 924919549
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Daedric Trickery",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -17090,7 +17090,7 @@ const ESO_SETS = [
           "id": 1393402200
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Daedric Trickery",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -17099,7 +17099,7 @@ const ESO_SETS = [
           "id": 3364605789
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Daedric Trickery",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -17107,7 +17107,7 @@ const ESO_SETS = [
           "id": 4015723392
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Daedric Trickery",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -17116,7 +17116,7 @@ const ESO_SETS = [
           "id": 2432116698
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Daedric Trickery",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -17125,7 +17125,7 @@ const ESO_SETS = [
           "id": 460407233
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Daedric Trickery",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -17134,7 +17134,7 @@ const ESO_SETS = [
           "id": 2950345146
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Daedric Trickery",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -17143,7 +17143,7 @@ const ESO_SETS = [
           "id": 1635992141
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Daedric Trickery",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -17152,7 +17152,7 @@ const ESO_SETS = [
           "id": 2400288906
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Daedric Trickery",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -17161,7 +17161,7 @@ const ESO_SETS = [
           "id": 1651630253
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Daedric Trickery",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -17170,7 +17170,7 @@ const ESO_SETS = [
           "id": 2028200668
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Daedric Trickery",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -17179,7 +17179,7 @@ const ESO_SETS = [
           "id": 1234138243
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Daedric Trickery",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -17188,7 +17188,7 @@ const ESO_SETS = [
           "id": 2631155388
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Daedric Trickery",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17196,7 +17196,7 @@ const ESO_SETS = [
           "id": 132167887
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Daedric Trickery",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17204,7 +17204,7 @@ const ESO_SETS = [
           "id": 3963279810
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Daedric Trickery",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17212,7 +17212,7 @@ const ESO_SETS = [
           "id": 2903105523
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Daedric Trickery",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17220,7 +17220,7 @@ const ESO_SETS = [
           "id": 161497198
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Daedric Trickery",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -17228,7 +17228,7 @@ const ESO_SETS = [
           "id": 745010693
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Daedric Trickery",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17236,7 +17236,7 @@ const ESO_SETS = [
           "id": 2508527791
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Daedric Trickery",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17244,7 +17244,7 @@ const ESO_SETS = [
           "id": 870444852
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Daedric Trickery",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17252,7 +17252,7 @@ const ESO_SETS = [
           "id": 1789415210
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Daedric Trickery",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17260,7 +17260,7 @@ const ESO_SETS = [
           "id": 3683541062
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Daedric Trickery",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17268,7 +17268,7 @@ const ESO_SETS = [
           "id": 3683541062
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Daedric Trickery",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17276,7 +17276,7 @@ const ESO_SETS = [
           "id": 3683541062
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Daedric Trickery",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17284,7 +17284,7 @@ const ESO_SETS = [
           "id": 2247646508
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Daedric Trickery",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17567,7 +17567,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Daring Corsair's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -17576,7 +17576,7 @@ const ESO_SETS = [
           "id": 2310046907
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Daring Corsair's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -17585,7 +17585,7 @@ const ESO_SETS = [
           "id": 3135223410
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Daring Corsair's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -17594,7 +17594,7 @@ const ESO_SETS = [
           "id": 1242671613
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Daring Corsair's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -17603,7 +17603,7 @@ const ESO_SETS = [
           "id": 1359749369
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Daring Corsair's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -17612,16 +17612,16 @@ const ESO_SETS = [
           "id": 198501648
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Daring Corsair's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Daring Corsair",
           "id": 189505015
         },
         {
-          "name": "Ring",
+          "name": "Daring Corsair's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -17629,7 +17629,7 @@ const ESO_SETS = [
           "id": 2834733018
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Daring Corsair's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -17638,7 +17638,7 @@ const ESO_SETS = [
           "id": 1207282756
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Daring Corsair's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -17647,7 +17647,7 @@ const ESO_SETS = [
           "id": 3122740910
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Daring Corsair's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -17656,7 +17656,7 @@ const ESO_SETS = [
           "id": 1508809438
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Daring Corsair's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -17665,7 +17665,7 @@ const ESO_SETS = [
           "id": 411382474
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Daring Corsair's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -17674,7 +17674,7 @@ const ESO_SETS = [
           "id": 2600531499
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Daring Corsair's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -17683,7 +17683,7 @@ const ESO_SETS = [
           "id": 3150311888
         },
         {
-          "name": "Necklace",
+          "name": "Daring Corsair's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -17691,7 +17691,7 @@ const ESO_SETS = [
           "id": 2328401087
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Daring Corsair's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -17700,7 +17700,7 @@ const ESO_SETS = [
           "id": 4292710447
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Daring Corsair's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -17709,7 +17709,7 @@ const ESO_SETS = [
           "id": 632940452
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Daring Corsair's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -17718,7 +17718,7 @@ const ESO_SETS = [
           "id": 2009936921
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Daring Corsair's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -17727,7 +17727,7 @@ const ESO_SETS = [
           "id": 3781085592
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Daring Corsair's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -17736,7 +17736,7 @@ const ESO_SETS = [
           "id": 2595622943
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Daring Corsair's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -17745,7 +17745,7 @@ const ESO_SETS = [
           "id": 2527530642
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Daring Corsair's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -17754,7 +17754,7 @@ const ESO_SETS = [
           "id": 3439940593
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Daring Corsair's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -17763,7 +17763,7 @@ const ESO_SETS = [
           "id": 692055334
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Daring Corsair's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -17772,7 +17772,7 @@ const ESO_SETS = [
           "id": 1103463947
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Daring Corsair's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17780,7 +17780,7 @@ const ESO_SETS = [
           "id": 2614004328
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Daring Corsair's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17788,7 +17788,7 @@ const ESO_SETS = [
           "id": 3938806977
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Daring Corsair's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17796,7 +17796,7 @@ const ESO_SETS = [
           "id": 2886690854
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Daring Corsair's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -17804,7 +17804,7 @@ const ESO_SETS = [
           "id": 3540434811
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Daring Corsair's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -17812,7 +17812,7 @@ const ESO_SETS = [
           "id": 2277960758
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Daring Corsair's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17820,7 +17820,7 @@ const ESO_SETS = [
           "id": 2572587642
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Daring Corsair's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17828,7 +17828,7 @@ const ESO_SETS = [
           "id": 2052376899
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Daring Corsair's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17836,7 +17836,7 @@ const ESO_SETS = [
           "id": 1137780735
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Daring Corsair's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17844,7 +17844,7 @@ const ESO_SETS = [
           "id": 782415055
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Daring Corsair's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17852,7 +17852,7 @@ const ESO_SETS = [
           "id": 782415055
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Daring Corsair's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17860,7 +17860,7 @@ const ESO_SETS = [
           "id": 782415055
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Daring Corsair's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -17868,7 +17868,7 @@ const ESO_SETS = [
           "id": 1627254057
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Daring Corsair's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18372,7 +18372,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Dauntless Combatant",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -18381,7 +18381,7 @@ const ESO_SETS = [
           "id": 2340244715
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Dauntless Combatant",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -18390,7 +18390,7 @@ const ESO_SETS = [
           "id": 3387073154
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Dauntless Combatant",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -18399,7 +18399,7 @@ const ESO_SETS = [
           "id": 3738105837
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Dauntless Combatant",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -18408,7 +18408,7 @@ const ESO_SETS = [
           "id": 2740167881
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Dauntless Combatant",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -18417,16 +18417,16 @@ const ESO_SETS = [
           "id": 940165056
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Dauntless Combatant",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Dauntless Combatant",
           "id": 3367378439
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Dauntless Combatant",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -18434,7 +18434,7 @@ const ESO_SETS = [
           "id": 1608043754
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Dauntless Combatant",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -18443,7 +18443,7 @@ const ESO_SETS = [
           "id": 3198229300
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Dauntless Combatant",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -18452,7 +18452,7 @@ const ESO_SETS = [
           "id": 367659166
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Dauntless Combatant",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -18461,7 +18461,7 @@ const ESO_SETS = [
           "id": 2817456974
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Dauntless Combatant",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -18470,7 +18470,7 @@ const ESO_SETS = [
           "id": 141370746
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Dauntless Combatant",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -18479,7 +18479,7 @@ const ESO_SETS = [
           "id": 3627317627
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Dauntless Combatant",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -18488,7 +18488,7 @@ const ESO_SETS = [
           "id": 2885358592
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Dauntless Combatant",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -18496,7 +18496,7 @@ const ESO_SETS = [
           "id": 906413359
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Dauntless Combatant",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -18505,7 +18505,7 @@ const ESO_SETS = [
           "id": 3206633343
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Dauntless Combatant",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -18514,7 +18514,7 @@ const ESO_SETS = [
           "id": 2296240148
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Dauntless Combatant",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -18523,7 +18523,7 @@ const ESO_SETS = [
           "id": 3993952553
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Dauntless Combatant",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -18532,7 +18532,7 @@ const ESO_SETS = [
           "id": 2167043400
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Dauntless Combatant",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -18541,7 +18541,7 @@ const ESO_SETS = [
           "id": 592433007
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Dauntless Combatant",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -18550,7 +18550,7 @@ const ESO_SETS = [
           "id": 2890423362
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Dauntless Combatant",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -18559,7 +18559,7 @@ const ESO_SETS = [
           "id": 260917761
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Dauntless Combatant",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -18568,7 +18568,7 @@ const ESO_SETS = [
           "id": 157401558
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Dauntless Combatant",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -18577,7 +18577,7 @@ const ESO_SETS = [
           "id": 1290187291
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Dauntless Combatant",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18585,7 +18585,7 @@ const ESO_SETS = [
           "id": 1077290712
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Dauntless Combatant",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18593,7 +18593,7 @@ const ESO_SETS = [
           "id": 2480213457
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Dauntless Combatant",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18601,7 +18601,7 @@ const ESO_SETS = [
           "id": 1296584182
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Dauntless Combatant",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -18609,7 +18609,7 @@ const ESO_SETS = [
           "id": 3404818571
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Dauntless Combatant",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -18617,7 +18617,7 @@ const ESO_SETS = [
           "id": 1073816134
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Dauntless Combatant",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18625,7 +18625,7 @@ const ESO_SETS = [
           "id": 3317505226
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Dauntless Combatant",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18633,7 +18633,7 @@ const ESO_SETS = [
           "id": 970501939
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Dauntless Combatant",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18641,7 +18641,7 @@ const ESO_SETS = [
           "id": 133020943
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Dauntless Combatant",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18649,7 +18649,7 @@ const ESO_SETS = [
           "id": 2064687775
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Dauntless Combatant",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18657,7 +18657,7 @@ const ESO_SETS = [
           "id": 2064687775
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Dauntless Combatant",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18665,7 +18665,7 @@ const ESO_SETS = [
           "id": 2064687775
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Dauntless Combatant",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -18673,7 +18673,7 @@ const ESO_SETS = [
           "id": 4157318937
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Dauntless Combatant",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19184,7 +19184,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Boots 4",
+          "name": "Deadlands Demolisher's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -19193,7 +19193,7 @@ const ESO_SETS = [
           "id": 984434599
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Deadlands Demolisher's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -19202,7 +19202,7 @@ const ESO_SETS = [
           "id": 1882642796
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Deadlands Demolisher's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -19211,7 +19211,7 @@ const ESO_SETS = [
           "id": 4175189293
         },
         {
-          "name": "Necklace",
+          "name": "Deadlands Demolisher's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -19219,7 +19219,7 @@ const ESO_SETS = [
           "id": 3897924257
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Deadlands Demolisher's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -19228,7 +19228,7 @@ const ESO_SETS = [
           "id": 107492691
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Deadlands Demolisher's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -19237,7 +19237,7 @@ const ESO_SETS = [
           "id": 835253942
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Deadlands Demolisher's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -19246,7 +19246,7 @@ const ESO_SETS = [
           "id": 673569897
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Deadlands Demolisher's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -19255,7 +19255,7 @@ const ESO_SETS = [
           "id": 2717055166
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Deadlands Demolisher's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -19264,7 +19264,7 @@ const ESO_SETS = [
           "id": 1941673337
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Deadlands Demolisher's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -19273,7 +19273,7 @@ const ESO_SETS = [
           "id": 3234813760
         },
         {
-          "name": "Ring",
+          "name": "Deadlands Demolisher's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -19281,16 +19281,16 @@ const ESO_SETS = [
           "id": 1838602460
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Deadlands Demolisher's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Deadlands Demolisher",
           "id": 3449413109
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Deadlands Demolisher's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -19299,7 +19299,7 @@ const ESO_SETS = [
           "id": 442498054
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Deadlands Demolisher's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -19308,7 +19308,7 @@ const ESO_SETS = [
           "id": 216437319
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Deadlands Demolisher's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -19317,7 +19317,7 @@ const ESO_SETS = [
           "id": 1695980085
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Deadlands Demolisher's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -19326,7 +19326,7 @@ const ESO_SETS = [
           "id": 3174888616
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Deadlands Demolisher's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -19335,7 +19335,7 @@ const ESO_SETS = [
           "id": 277354587
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Deadlands Demolisher's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -19344,7 +19344,7 @@ const ESO_SETS = [
           "id": 3962607384
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Deadlands Demolisher's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -19353,7 +19353,7 @@ const ESO_SETS = [
           "id": 174417672
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Deadlands Demolisher's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -19362,7 +19362,7 @@ const ESO_SETS = [
           "id": 342431630
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Deadlands Demolisher's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -19371,7 +19371,7 @@ const ESO_SETS = [
           "id": 1197526820
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Deadlands Demolisher's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -19380,7 +19380,7 @@ const ESO_SETS = [
           "id": 970185009
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Deadlands Demolisher's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -19389,7 +19389,7 @@ const ESO_SETS = [
           "id": 4044723842
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Deadlands Demolisher's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19397,7 +19397,7 @@ const ESO_SETS = [
           "id": 3375444320
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Deadlands Demolisher's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19405,7 +19405,7 @@ const ESO_SETS = [
           "id": 341671085
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Deadlands Demolisher's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19413,7 +19413,7 @@ const ESO_SETS = [
           "id": 990438938
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Deadlands Demolisher's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19421,7 +19421,7 @@ const ESO_SETS = [
           "id": 2686513299
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Deadlands Demolisher's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -19429,7 +19429,7 @@ const ESO_SETS = [
           "id": 1319277352
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Deadlands Demolisher's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19437,7 +19437,7 @@ const ESO_SETS = [
           "id": 3845033197
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Deadlands Demolisher's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19445,7 +19445,7 @@ const ESO_SETS = [
           "id": 807557717
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Deadlands Demolisher's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19453,7 +19453,7 @@ const ESO_SETS = [
           "id": 1587828577
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Deadlands Demolisher's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19461,7 +19461,7 @@ const ESO_SETS = [
           "id": 83044199
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Deadlands Demolisher's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19469,7 +19469,7 @@ const ESO_SETS = [
           "id": 807557717
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Deadlands Demolisher's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19477,7 +19477,7 @@ const ESO_SETS = [
           "id": 2088224712
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Deadlands Demolisher's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19485,7 +19485,7 @@ const ESO_SETS = [
           "id": 807557717
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Deadlands Demolisher's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19800,7 +19800,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Death's Wind",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19808,7 +19808,7 @@ const ESO_SETS = [
           "id": 1353394232
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Death's Wind",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19816,7 +19816,7 @@ const ESO_SETS = [
           "id": 561331761
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Death's Wind",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19824,7 +19824,7 @@ const ESO_SETS = [
           "id": 4047393622
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Death's Wind",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -19832,7 +19832,7 @@ const ESO_SETS = [
           "id": 3440820971
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Death's Wind",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -19840,7 +19840,7 @@ const ESO_SETS = [
           "id": 2814501158
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Death's Wind",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19848,7 +19848,7 @@ const ESO_SETS = [
           "id": 497949866
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Death's Wind",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19856,7 +19856,7 @@ const ESO_SETS = [
           "id": 3002443283
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Death's Wind",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19864,7 +19864,7 @@ const ESO_SETS = [
           "id": 3085400943
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Death's Wind",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19872,7 +19872,7 @@ const ESO_SETS = [
           "id": 2691121407
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Death's Wind",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19880,7 +19880,7 @@ const ESO_SETS = [
           "id": 2691121407
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Death's Wind",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19888,7 +19888,7 @@ const ESO_SETS = [
           "id": 2691121407
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Death's Wind",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19896,7 +19896,7 @@ const ESO_SETS = [
           "id": 333871225
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Death's Wind",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -19904,7 +19904,7 @@ const ESO_SETS = [
           "id": 2691121407
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Death's Wind",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -19913,7 +19913,7 @@ const ESO_SETS = [
           "id": 2982022667
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Death's Wind",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -19922,7 +19922,7 @@ const ESO_SETS = [
           "id": 1039163810
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Death's Wind",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -19931,7 +19931,7 @@ const ESO_SETS = [
           "id": 3517353613
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Death's Wind",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -19940,7 +19940,7 @@ const ESO_SETS = [
           "id": 3731937769
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Death's Wind",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -19949,16 +19949,16 @@ const ESO_SETS = [
           "id": 796936544
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Death's Wind",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Death's Wind",
           "id": 3969785639
         },
         {
-          "name": "Ring",
+          "name": "Ring of Death's Wind",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -19966,7 +19966,7 @@ const ESO_SETS = [
           "id": 2813163082
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Death's Wind",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -19975,7 +19975,7 @@ const ESO_SETS = [
           "id": 1997632468
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Death's Wind",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -19984,7 +19984,7 @@ const ESO_SETS = [
           "id": 1826689726
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Death's Wind",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -19993,7 +19993,7 @@ const ESO_SETS = [
           "id": 3765412846
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Death's Wind",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -20002,7 +20002,7 @@ const ESO_SETS = [
           "id": 3899088026
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Death's Wind",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -20011,7 +20011,7 @@ const ESO_SETS = [
           "id": 718141723
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Death's Wind",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -20020,7 +20020,7 @@ const ESO_SETS = [
           "id": 3344290080
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Death's Wind",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -20028,7 +20028,7 @@ const ESO_SETS = [
           "id": 2780852495
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Death's Wind",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -20037,7 +20037,7 @@ const ESO_SETS = [
           "id": 2419056159
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Death's Wind",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -20046,7 +20046,7 @@ const ESO_SETS = [
           "id": 2539347252
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Death's Wind",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -20055,7 +20055,7 @@ const ESO_SETS = [
           "id": 2459660489
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Death's Wind",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -20064,7 +20064,7 @@ const ESO_SETS = [
           "id": 509355752
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Death's Wind",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -20073,7 +20073,7 @@ const ESO_SETS = [
           "id": 499651471
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Death's Wind",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -20082,7 +20082,7 @@ const ESO_SETS = [
           "id": 142730082
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Death's Wind",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -20091,7 +20091,7 @@ const ESO_SETS = [
           "id": 2027838881
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Death's Wind",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -20100,7 +20100,7 @@ const ESO_SETS = [
           "id": 903432694
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Death's Wind",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -21185,7 +21185,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Diamond's Victory",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21193,7 +21193,7 @@ const ESO_SETS = [
           "id": 1756107719
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Diamond's Victory",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21201,7 +21201,7 @@ const ESO_SETS = [
           "id": 1756107719
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Diamond's Victory",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21209,7 +21209,7 @@ const ESO_SETS = [
           "id": 1756107719
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Diamond's Victory",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21217,7 +21217,7 @@ const ESO_SETS = [
           "id": 2996381707
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Diamond's Victory",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21225,7 +21225,7 @@ const ESO_SETS = [
           "id": 2683674866
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Diamond's Victory",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21233,7 +21233,7 @@ const ESO_SETS = [
           "id": 1219140273
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Diamond's Victory",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21241,7 +21241,7 @@ const ESO_SETS = [
           "id": 1756107719
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Diamond's Victory",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21249,7 +21249,7 @@ const ESO_SETS = [
           "id": 3036706839
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Diamond's Victory",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -21257,7 +21257,7 @@ const ESO_SETS = [
           "id": 3953874958
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Diamond's Victory",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21265,7 +21265,7 @@ const ESO_SETS = [
           "id": 2632622707
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Diamond's Victory",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21273,7 +21273,7 @@ const ESO_SETS = [
           "id": 2176165129
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Diamond's Victory",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21281,7 +21281,7 @@ const ESO_SETS = [
           "id": 4281966366
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Diamond's Victory",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21289,7 +21289,7 @@ const ESO_SETS = [
           "id": 2658049872
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Diamond's Victory",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -21297,7 +21297,7 @@ const ESO_SETS = [
           "id": 72315687
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Diamond's Victory",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -21306,7 +21306,7 @@ const ESO_SETS = [
           "id": 3672126471
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Diamond's Victory",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -21315,7 +21315,7 @@ const ESO_SETS = [
           "id": 3668495338
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Diamond's Victory",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -21324,7 +21324,7 @@ const ESO_SETS = [
           "id": 2540665424
         },
         {
-          "name": "Ring",
+          "name": "Ring of Diamond's Victory",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -21332,7 +21332,7 @@ const ESO_SETS = [
           "id": 2573331490
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Diamond's Victory",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -21341,7 +21341,7 @@ const ESO_SETS = [
           "id": 3687130830
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Diamond's Victory",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -21350,7 +21350,7 @@ const ESO_SETS = [
           "id": 3858287459
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Diamond's Victory",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -21359,7 +21359,7 @@ const ESO_SETS = [
           "id": 3279747369
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Diamond's Victory",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -21368,7 +21368,7 @@ const ESO_SETS = [
           "id": 803931750
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Diamond's Victory",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -21377,7 +21377,7 @@ const ESO_SETS = [
           "id": 1235329686
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Diamond's Victory",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -21386,7 +21386,7 @@ const ESO_SETS = [
           "id": 3964416316
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Diamond's Victory",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -21395,16 +21395,16 @@ const ESO_SETS = [
           "id": 3152243368
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Diamond's Victory",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Diamond's Victory",
           "id": 1250227871
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Diamond's Victory",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -21413,7 +21413,7 @@ const ESO_SETS = [
           "id": 1496146753
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Diamond's Victory",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -21422,7 +21422,7 @@ const ESO_SETS = [
           "id": 1903680538
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Diamond's Victory",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -21431,7 +21431,7 @@ const ESO_SETS = [
           "id": 4183883157
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Diamond's Victory",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -21440,7 +21440,7 @@ const ESO_SETS = [
           "id": 4078640755
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Diamond's Victory",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -21449,7 +21449,7 @@ const ESO_SETS = [
           "id": 3022716483
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Diamond's Victory",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -21458,7 +21458,7 @@ const ESO_SETS = [
           "id": 2727929656
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Diamond's Victory",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -21467,7 +21467,7 @@ const ESO_SETS = [
           "id": 433054482
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Diamond's Victory",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -21476,7 +21476,7 @@ const ESO_SETS = [
           "id": 3962392572
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Diamond's Victory",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -21485,7 +21485,7 @@ const ESO_SETS = [
           "id": 984872865
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Diamond's Victory",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -21676,7 +21676,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Necklace",
+          "name": "Necklace of Dragon's Appetite",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -21684,7 +21684,7 @@ const ESO_SETS = [
           "id": 1388898892
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Dragon's Appetite",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -21693,7 +21693,7 @@ const ESO_SETS = [
           "id": 3712526559
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Dragon's Appetite",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -21702,7 +21702,7 @@ const ESO_SETS = [
           "id": 4252468400
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Dragon's Appetite",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -21711,7 +21711,7 @@ const ESO_SETS = [
           "id": 4016513184
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Dragon's Appetite",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -21720,7 +21720,7 @@ const ESO_SETS = [
           "id": 3633291662
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Dragon's Appetite",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -21729,7 +21729,7 @@ const ESO_SETS = [
           "id": 3948454745
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Dragon's Appetite",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -21738,7 +21738,7 @@ const ESO_SETS = [
           "id": 1437657705
         },
         {
-          "name": "Ring",
+          "name": "Ring of Dragon's Appetite",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -21746,7 +21746,7 @@ const ESO_SETS = [
           "id": 3535318865
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Dragon's Appetite",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -21755,16 +21755,16 @@ const ESO_SETS = [
           "id": 1600432483
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Dragon's Appetite",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Dragon's Appetite",
           "id": 4167303966
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Dragon's Appetite",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -21773,7 +21773,7 @@ const ESO_SETS = [
           "id": 234860622
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Dragon's Appetite",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -21782,7 +21782,7 @@ const ESO_SETS = [
           "id": 1023697037
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Dragon's Appetite",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -21791,7 +21791,7 @@ const ESO_SETS = [
           "id": 3940262254
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Dragon's Appetite",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -21800,7 +21800,7 @@ const ESO_SETS = [
           "id": 3604854238
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Dragon's Appetite",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -21809,7 +21809,7 @@ const ESO_SETS = [
           "id": 3298392825
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Dragon's Appetite",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -21818,7 +21818,7 @@ const ESO_SETS = [
           "id": 2128042804
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Dragon's Appetite",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -21827,7 +21827,7 @@ const ESO_SETS = [
           "id": 2362250500
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Dragon's Appetite",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -21836,7 +21836,7 @@ const ESO_SETS = [
           "id": 1876900964
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Dragon's Appetite",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -21845,7 +21845,7 @@ const ESO_SETS = [
           "id": 1062794385
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Dragon's Appetite",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -21854,7 +21854,7 @@ const ESO_SETS = [
           "id": 882171041
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Dragon's Appetite",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -21863,7 +21863,7 @@ const ESO_SETS = [
           "id": 427082263
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Dragon's Appetite",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -21872,7 +21872,7 @@ const ESO_SETS = [
           "id": 3220419805
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Dragon's Appetite",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -21881,7 +21881,7 @@ const ESO_SETS = [
           "id": 1528805613
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Dragon's Appetite",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -21889,7 +21889,7 @@ const ESO_SETS = [
           "id": 610522209
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Dragon's Appetite",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21897,7 +21897,7 @@ const ESO_SETS = [
           "id": 3984599682
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Dragon's Appetite",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21905,7 +21905,7 @@ const ESO_SETS = [
           "id": 834965307
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Dragon's Appetite",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21913,7 +21913,7 @@ const ESO_SETS = [
           "id": 2192432423
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Dragon's Appetite",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -21921,7 +21921,7 @@ const ESO_SETS = [
           "id": 613216246
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Dragon's Appetite",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21929,7 +21929,7 @@ const ESO_SETS = [
           "id": 611041283
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Dragon's Appetite",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21937,7 +21937,7 @@ const ESO_SETS = [
           "id": 2142842760
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Dragon's Appetite",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21945,7 +21945,7 @@ const ESO_SETS = [
           "id": 950047086
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Dragon's Appetite",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21953,7 +21953,7 @@ const ESO_SETS = [
           "id": 3085294970
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Dragon's Appetite",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21961,7 +21961,7 @@ const ESO_SETS = [
           "id": 3085294970
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Dragon's Appetite",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21969,7 +21969,7 @@ const ESO_SETS = [
           "id": 3085294970
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Dragon's Appetite",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -21977,7 +21977,7 @@ const ESO_SETS = [
           "id": 3085294970
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Dragon's Appetite",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26652,7 +26652,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Eternal Hunt Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -26660,7 +26660,7 @@ const ESO_SETS = [
           "id": 367670315
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Eternal Hunt Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -26668,7 +26668,7 @@ const ESO_SETS = [
           "id": 1212978929
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Eternal Hunt Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -26676,7 +26676,7 @@ const ESO_SETS = [
           "id": 1560055702
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Eternal Hunt Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -26684,7 +26684,7 @@ const ESO_SETS = [
           "id": 4169637496
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Eternal Hunt Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -26692,7 +26692,7 @@ const ESO_SETS = [
           "id": 2667620582
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Eternal Hunt Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26700,7 +26700,7 @@ const ESO_SETS = [
           "id": 2351543786
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Eternal Hunt Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26708,7 +26708,7 @@ const ESO_SETS = [
           "id": 3267225939
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Eternal Hunt Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26716,7 +26716,7 @@ const ESO_SETS = [
           "id": 438172335
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eternal Hunt Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26724,7 +26724,7 @@ const ESO_SETS = [
           "id": 3018953407
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eternal Hunt Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26732,7 +26732,7 @@ const ESO_SETS = [
           "id": 3018953407
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eternal Hunt Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26740,7 +26740,7 @@ const ESO_SETS = [
           "id": 3018953407
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Eternal Hunt Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26748,7 +26748,7 @@ const ESO_SETS = [
           "id": 2120202297
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eternal Hunt Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -26756,7 +26756,7 @@ const ESO_SETS = [
           "id": 3018953407
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Eternal Hunt Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -26765,7 +26765,7 @@ const ESO_SETS = [
           "id": 2467041995
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Eternal Hunt Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -26774,7 +26774,7 @@ const ESO_SETS = [
           "id": 3535133282
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Eternal Hunt Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -26783,7 +26783,7 @@ const ESO_SETS = [
           "id": 760174925
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Eternal Hunt Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -26792,7 +26792,7 @@ const ESO_SETS = [
           "id": 1619625897
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Eternal Hunt Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -26801,16 +26801,16 @@ const ESO_SETS = [
           "id": 295098144
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Eternal Hunt Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Eternal Hunt",
           "id": 2443472359
         },
         {
-          "name": "Ring",
+          "name": "Eternal Hunt Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -26818,7 +26818,7 @@ const ESO_SETS = [
           "id": 3533875466
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Eternal Hunt Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -26827,7 +26827,7 @@ const ESO_SETS = [
           "id": 594061204
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Eternal Hunt Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -26836,7 +26836,7 @@ const ESO_SETS = [
           "id": 294060158
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Eternal Hunt Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -26845,7 +26845,7 @@ const ESO_SETS = [
           "id": 2074466222
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Eternal Hunt Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -26854,7 +26854,7 @@ const ESO_SETS = [
           "id": 1901792346
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Eternal Hunt Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -26863,7 +26863,7 @@ const ESO_SETS = [
           "id": 401355739
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Eternal Hunt Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -26872,7 +26872,7 @@ const ESO_SETS = [
           "id": 2427486688
         },
         {
-          "name": "Necklace",
+          "name": "Eternal Hunt Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -26880,7 +26880,7 @@ const ESO_SETS = [
           "id": 468882127
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Eternal Hunt Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -26889,7 +26889,7 @@ const ESO_SETS = [
           "id": 870329823
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Eternal Hunt Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -26898,7 +26898,7 @@ const ESO_SETS = [
           "id": 2650396404
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Eternal Hunt Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -26907,7 +26907,7 @@ const ESO_SETS = [
           "id": 3456453513
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Eternal Hunt Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -26916,7 +26916,7 @@ const ESO_SETS = [
           "id": 3242583976
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Eternal Hunt Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -26925,7 +26925,7 @@ const ESO_SETS = [
           "id": 2803547983
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Eternal Hunt Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -26934,7 +26934,7 @@ const ESO_SETS = [
           "id": 2429770530
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Eternal Hunt Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -26943,7 +26943,7 @@ const ESO_SETS = [
           "id": 381223521
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Eternal Hunt Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -26952,7 +26952,7 @@ const ESO_SETS = [
           "id": 1429832886
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Eternal Hunt Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -28211,7 +28211,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Eyes of Mara Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -28219,7 +28219,7 @@ const ESO_SETS = [
           "id": 3257937736
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Eyes of Mara Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -28227,7 +28227,7 @@ const ESO_SETS = [
           "id": 2626800161
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Eyes of Mara Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -28235,7 +28235,7 @@ const ESO_SETS = [
           "id": 663824774
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Eyes of Mara Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -28243,7 +28243,7 @@ const ESO_SETS = [
           "id": 2195913691
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Eyes of Mara Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -28251,7 +28251,7 @@ const ESO_SETS = [
           "id": 2097250966
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Eyes of Mara Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28259,7 +28259,7 @@ const ESO_SETS = [
           "id": 388786906
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Eyes of Mara Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28267,7 +28267,7 @@ const ESO_SETS = [
           "id": 3073286179
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Eyes of Mara Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28275,7 +28275,7 @@ const ESO_SETS = [
           "id": 2770828895
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eyes of Mara Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28283,7 +28283,7 @@ const ESO_SETS = [
           "id": 3493576111
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eyes of Mara Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28291,7 +28291,7 @@ const ESO_SETS = [
           "id": 3493576111
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eyes of Mara Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28299,7 +28299,7 @@ const ESO_SETS = [
           "id": 3493576111
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Eyes of Mara Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28307,7 +28307,7 @@ const ESO_SETS = [
           "id": 1371853833
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Eyes of Mara Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -28315,7 +28315,7 @@ const ESO_SETS = [
           "id": 3493576111
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Eyes of Mara Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -28324,7 +28324,7 @@ const ESO_SETS = [
           "id": 2754971355
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Eyes of Mara Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -28333,7 +28333,7 @@ const ESO_SETS = [
           "id": 3589519122
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Eyes of Mara Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -28342,7 +28342,7 @@ const ESO_SETS = [
           "id": 3633961757
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Eyes of Mara Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -28351,7 +28351,7 @@ const ESO_SETS = [
           "id": 1251934233
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Eyes of Mara Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -28360,16 +28360,16 @@ const ESO_SETS = [
           "id": 995548720
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Eyes of Mara Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Eyes of Mara",
           "id": 2411039511
         },
         {
-          "name": "Ring",
+          "name": "Eyes of Mara Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -28377,7 +28377,7 @@ const ESO_SETS = [
           "id": 1618364474
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Eyes of Mara Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -28386,7 +28386,7 @@ const ESO_SETS = [
           "id": 1972494308
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Eyes of Mara Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -28395,7 +28395,7 @@ const ESO_SETS = [
           "id": 756086734
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Eyes of Mara Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -28404,7 +28404,7 @@ const ESO_SETS = [
           "id": 719330686
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Eyes of Mara Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -28413,7 +28413,7 @@ const ESO_SETS = [
           "id": 1227472234
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Eyes of Mara Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -28422,7 +28422,7 @@ const ESO_SETS = [
           "id": 1382228427
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Eyes of Mara Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -28431,7 +28431,7 @@ const ESO_SETS = [
           "id": 1982527600
         },
         {
-          "name": "Necklace",
+          "name": "Eyes of Mara Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -28439,7 +28439,7 @@ const ESO_SETS = [
           "id": 2204735903
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Eyes of Mara Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -28448,7 +28448,7 @@ const ESO_SETS = [
           "id": 2755152335
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Eyes of Mara Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -28457,7 +28457,7 @@ const ESO_SETS = [
           "id": 2780219332
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Eyes of Mara Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -28466,7 +28466,7 @@ const ESO_SETS = [
           "id": 3588006329
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Eyes of Mara Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -28475,7 +28475,7 @@ const ESO_SETS = [
           "id": 2087499192
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Eyes of Mara Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -28484,7 +28484,7 @@ const ESO_SETS = [
           "id": 942336831
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Eyes of Mara Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -28493,7 +28493,7 @@ const ESO_SETS = [
           "id": 2094453810
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Eyes of Mara Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -28502,7 +28502,7 @@ const ESO_SETS = [
           "id": 1816430609
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Eyes of Mara Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -28511,7 +28511,7 @@ const ESO_SETS = [
           "id": 1227264070
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Eyes of Mara Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -30197,7 +30197,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Fortified Brass Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -30206,7 +30206,7 @@ const ESO_SETS = [
           "id": 624044704
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Fortified Brass Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -30215,7 +30215,7 @@ const ESO_SETS = [
           "id": 539698589
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Fortified Brass Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -30224,7 +30224,7 @@ const ESO_SETS = [
           "id": 1757515104
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Fortified Brass Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -30233,7 +30233,7 @@ const ESO_SETS = [
           "id": 1741714746
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Fortified Brass Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -30242,16 +30242,16 @@ const ESO_SETS = [
           "id": 3611743639
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Fortified Brass Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Fortified Brass",
           "id": 2678694906
         },
         {
-          "name": "Ring",
+          "name": "Fortified Brass Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -30259,7 +30259,7 @@ const ESO_SETS = [
           "id": 4054684189
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Fortified Brass Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -30268,7 +30268,7 @@ const ESO_SETS = [
           "id": 4106775617
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Fortified Brass Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -30277,7 +30277,7 @@ const ESO_SETS = [
           "id": 2108753803
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Fortified Brass Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -30286,7 +30286,7 @@ const ESO_SETS = [
           "id": 1750803201
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Fortified Brass Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -30295,7 +30295,7 @@ const ESO_SETS = [
           "id": 2626768453
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Fortified Brass Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -30304,7 +30304,7 @@ const ESO_SETS = [
           "id": 3183231728
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Fortified Brass Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -30313,7 +30313,7 @@ const ESO_SETS = [
           "id": 912164101
         },
         {
-          "name": "Necklace",
+          "name": "Fortified Brass Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -30321,7 +30321,7 @@ const ESO_SETS = [
           "id": 171922056
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Fortified Brass Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -30330,7 +30330,7 @@ const ESO_SETS = [
           "id": 2147969826
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Fortified Brass Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -30339,7 +30339,7 @@ const ESO_SETS = [
           "id": 4287949113
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Fortified Brass Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -30348,7 +30348,7 @@ const ESO_SETS = [
           "id": 2213090530
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Fortified Brass Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -30357,7 +30357,7 @@ const ESO_SETS = [
           "id": 1964943013
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Fortified Brass Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -30366,7 +30366,7 @@ const ESO_SETS = [
           "id": 3853259698
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Fortified Brass Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -30375,7 +30375,7 @@ const ESO_SETS = [
           "id": 1410054245
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Fortified Brass Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -30384,7 +30384,7 @@ const ESO_SETS = [
           "id": 2434807764
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Fortified Brass Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -30393,7 +30393,7 @@ const ESO_SETS = [
           "id": 3958865707
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Fortified Brass Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -30402,7 +30402,7 @@ const ESO_SETS = [
           "id": 3128377492
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Fortified Brass Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -30410,7 +30410,7 @@ const ESO_SETS = [
           "id": 3058992567
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Fortified Brass Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -30418,7 +30418,7 @@ const ESO_SETS = [
           "id": 4202996490
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Fortified Brass Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -30426,7 +30426,7 @@ const ESO_SETS = [
           "id": 229090507
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Fortified Brass Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -30434,7 +30434,7 @@ const ESO_SETS = [
           "id": 795516070
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Fortified Brass Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -30442,7 +30442,7 @@ const ESO_SETS = [
           "id": 3679873245
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Fortified Brass Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30450,7 +30450,7 @@ const ESO_SETS = [
           "id": 3735337223
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Fortified Brass Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30458,7 +30458,7 @@ const ESO_SETS = [
           "id": 268238076
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Fortified Brass Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30466,7 +30466,7 @@ const ESO_SETS = [
           "id": 83359650
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Fortified Brass Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30474,7 +30474,7 @@ const ESO_SETS = [
           "id": 1382063134
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Fortified Brass Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30482,7 +30482,7 @@ const ESO_SETS = [
           "id": 1382063134
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Fortified Brass Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30490,7 +30490,7 @@ const ESO_SETS = [
           "id": 1382063134
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Fortified Brass Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -30498,7 +30498,7 @@ const ESO_SETS = [
           "id": 2425867060
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Fortified Brass Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32626,7 +32626,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Grave-Stake Collector Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -32635,7 +32635,7 @@ const ESO_SETS = [
           "id": 2174538860
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Grave-Stake Collector Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -32644,7 +32644,7 @@ const ESO_SETS = [
           "id": 1906300913
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Grave-Stake Collector Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -32653,7 +32653,7 @@ const ESO_SETS = [
           "id": 3323522140
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Grave-Stake Collector Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -32662,7 +32662,7 @@ const ESO_SETS = [
           "id": 734394118
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Grave-Stake Collector Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -32671,16 +32671,16 @@ const ESO_SETS = [
           "id": 3769397419
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Grave-Stake Collector Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Grave-Stake Collector",
           "id": 649050198
         },
         {
-          "name": "Ring",
+          "name": "Grave-Stake Collector Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -32688,7 +32688,7 @@ const ESO_SETS = [
           "id": 538717961
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Grave-Stake Collector Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -32697,7 +32697,7 @@ const ESO_SETS = [
           "id": 3636861557
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Grave-Stake Collector Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -32706,7 +32706,7 @@ const ESO_SETS = [
           "id": 3137782847
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Grave-Stake Collector Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -32715,7 +32715,7 @@ const ESO_SETS = [
           "id": 1447966629
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Grave-Stake Collector Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -32724,7 +32724,7 @@ const ESO_SETS = [
           "id": 2233569401
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Grave-Stake Collector Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -32733,7 +32733,7 @@ const ESO_SETS = [
           "id": 2872978252
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Grave-Stake Collector Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -32742,7 +32742,7 @@ const ESO_SETS = [
           "id": 2443623913
         },
         {
-          "name": "Necklace",
+          "name": "Grave-Stake Collector Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -32750,7 +32750,7 @@ const ESO_SETS = [
           "id": 3602051012
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Grave-Stake Collector Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -32759,7 +32759,7 @@ const ESO_SETS = [
           "id": 2505250742
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Grave-Stake Collector Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -32768,7 +32768,7 @@ const ESO_SETS = [
           "id": 251945269
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Grave-Stake Collector Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -32777,7 +32777,7 @@ const ESO_SETS = [
           "id": 1949999238
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Grave-Stake Collector Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -32786,7 +32786,7 @@ const ESO_SETS = [
           "id": 2149517873
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Grave-Stake Collector Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -32795,7 +32795,7 @@ const ESO_SETS = [
           "id": 3300496070
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Grave-Stake Collector Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -32804,7 +32804,7 @@ const ESO_SETS = [
           "id": 4263638369
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Grave-Stake Collector Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -32813,7 +32813,7 @@ const ESO_SETS = [
           "id": 549918120
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Grave-Stake Collector Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -32822,7 +32822,7 @@ const ESO_SETS = [
           "id": 3106373079
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Grave-Stake Collector Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -32831,7 +32831,7 @@ const ESO_SETS = [
           "id": 2230939192
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Grave-Stake Collector Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -32839,7 +32839,7 @@ const ESO_SETS = [
           "id": 3507420403
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Grave-Stake Collector Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -32847,7 +32847,7 @@ const ESO_SETS = [
           "id": 4158571310
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Grave-Stake Collector Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -32855,7 +32855,7 @@ const ESO_SETS = [
           "id": 637382351
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Grave-Stake Collector Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -32863,7 +32863,7 @@ const ESO_SETS = [
           "id": 2057571210
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Grave-Stake Collector Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -32871,7 +32871,7 @@ const ESO_SETS = [
           "id": 3146895241
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Grave-Stake Collector Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32879,7 +32879,7 @@ const ESO_SETS = [
           "id": 1895959627
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Grave-Stake Collector Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32887,7 +32887,7 @@ const ESO_SETS = [
           "id": 1443002264
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Grave-Stake Collector Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32895,7 +32895,7 @@ const ESO_SETS = [
           "id": 542568630
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Grave-Stake Collector Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32903,7 +32903,7 @@ const ESO_SETS = [
           "id": 1024089986
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Grave-Stake Collector Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32911,7 +32911,7 @@ const ESO_SETS = [
           "id": 1024089986
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Grave-Stake Collector Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32919,7 +32919,7 @@ const ESO_SETS = [
           "id": 1024089986
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Grave-Stake Collector Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -32927,7 +32927,7 @@ const ESO_SETS = [
           "id": 2250565664
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Grave-Stake Collector Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35661,7 +35661,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Staff 4",
+          "name": "Heartland Conqueror's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35669,7 +35669,7 @@ const ESO_SETS = [
           "id": 666228890
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Heartland Conqueror's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35677,7 +35677,7 @@ const ESO_SETS = [
           "id": 666228890
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Heartland Conqueror's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35685,7 +35685,7 @@ const ESO_SETS = [
           "id": 666228890
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Heartland Conqueror's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35693,7 +35693,7 @@ const ESO_SETS = [
           "id": 4286048672
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Heartland Conqueror's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35701,7 +35701,7 @@ const ESO_SETS = [
           "id": 1124205219
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Heartland Conqueror's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35709,7 +35709,7 @@ const ESO_SETS = [
           "id": 2459206568
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Heartland Conqueror's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35717,7 +35717,7 @@ const ESO_SETS = [
           "id": 666228890
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Heartland Conqueror's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -35725,7 +35725,7 @@ const ESO_SETS = [
           "id": 1453897230
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Heartland Conqueror's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -35733,7 +35733,7 @@ const ESO_SETS = [
           "id": 603476225
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Heartland Conqueror's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -35741,7 +35741,7 @@ const ESO_SETS = [
           "id": 1916602018
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Heartland Conqueror's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -35749,7 +35749,7 @@ const ESO_SETS = [
           "id": 3330540950
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Heartland Conqueror's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -35757,7 +35757,7 @@ const ESO_SETS = [
           "id": 2468080583
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Heartland Conqueror's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -35765,7 +35765,7 @@ const ESO_SETS = [
           "id": 2563218523
         },
         {
-          "name": "Necklace",
+          "name": "Heartland Conqueror's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -35773,7 +35773,7 @@ const ESO_SETS = [
           "id": 1240668140
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Heartland Conqueror's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -35782,7 +35782,7 @@ const ESO_SETS = [
           "id": 4041059438
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Heartland Conqueror's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -35791,7 +35791,7 @@ const ESO_SETS = [
           "id": 642416185
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Heartland Conqueror's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -35800,7 +35800,7 @@ const ESO_SETS = [
           "id": 3542686793
         },
         {
-          "name": "Ring",
+          "name": "Heartland Conqueror's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -35808,7 +35808,7 @@ const ESO_SETS = [
           "id": 3683787889
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Heartland Conqueror's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -35817,7 +35817,7 @@ const ESO_SETS = [
           "id": 856795071
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Heartland Conqueror's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -35826,7 +35826,7 @@ const ESO_SETS = [
           "id": 162702352
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Heartland Conqueror's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -35835,7 +35835,7 @@ const ESO_SETS = [
           "id": 2028252288
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Heartland Conqueror's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -35844,7 +35844,7 @@ const ESO_SETS = [
           "id": 3096177911
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Heartland Conqueror's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -35853,7 +35853,7 @@ const ESO_SETS = [
           "id": 2078538941
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Heartland Conqueror's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -35862,7 +35862,7 @@ const ESO_SETS = [
           "id": 2832336205
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Heartland Conqueror's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -35871,16 +35871,16 @@ const ESO_SETS = [
           "id": 1857824195
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Heartland Conqueror's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Heartland Conqueror",
           "id": 2591599998
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Heartland Conqueror's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -35889,7 +35889,7 @@ const ESO_SETS = [
           "id": 3116873134
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Heartland Conqueror's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -35898,7 +35898,7 @@ const ESO_SETS = [
           "id": 2181546585
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Heartland Conqueror's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -35907,7 +35907,7 @@ const ESO_SETS = [
           "id": 3340580500
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Heartland Conqueror's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -35916,7 +35916,7 @@ const ESO_SETS = [
           "id": 3529984356
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Heartland Conqueror's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -35925,7 +35925,7 @@ const ESO_SETS = [
           "id": 2484387780
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Heartland Conqueror's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -35934,7 +35934,7 @@ const ESO_SETS = [
           "id": 2646600561
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Heartland Conqueror's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -35943,7 +35943,7 @@ const ESO_SETS = [
           "id": 243926017
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Heartland Conqueror's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -35952,7 +35952,7 @@ const ESO_SETS = [
           "id": 3267939053
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Heartland Conqueror's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -35961,7 +35961,7 @@ const ESO_SETS = [
           "id": 1366224462
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Heartland Conqueror's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -37397,7 +37397,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Hist Bark",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37405,7 +37405,7 @@ const ESO_SETS = [
           "id": 2082177406
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Hist Bark",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37413,7 +37413,7 @@ const ESO_SETS = [
           "id": 254747471
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Hist Bark",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37421,7 +37421,7 @@ const ESO_SETS = [
           "id": 777379532
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Hist Bark",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37429,7 +37429,7 @@ const ESO_SETS = [
           "id": 2796567417
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Hist Bark",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -37437,7 +37437,7 @@ const ESO_SETS = [
           "id": 2807095676
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Hist Bark",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37445,7 +37445,7 @@ const ESO_SETS = [
           "id": 2581012564
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Hist Bark",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37453,7 +37453,7 @@ const ESO_SETS = [
           "id": 2630417557
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Hist Bark",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37461,7 +37461,7 @@ const ESO_SETS = [
           "id": 222739081
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Hist Bark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37469,7 +37469,7 @@ const ESO_SETS = [
           "id": 4197820977
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Hist Bark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37477,7 +37477,7 @@ const ESO_SETS = [
           "id": 4197820977
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Hist Bark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37485,7 +37485,7 @@ const ESO_SETS = [
           "id": 4197820977
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Hist Bark",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37493,7 +37493,7 @@ const ESO_SETS = [
           "id": 2673100299
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Hist Bark",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37501,7 +37501,7 @@ const ESO_SETS = [
           "id": 4197820977
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Hist Bark",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -37510,7 +37510,7 @@ const ESO_SETS = [
           "id": 51615889
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Hist Bark",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -37519,7 +37519,7 @@ const ESO_SETS = [
           "id": 759231896
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Hist Bark",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -37528,7 +37528,7 @@ const ESO_SETS = [
           "id": 1807089643
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Hist Bark",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -37537,7 +37537,7 @@ const ESO_SETS = [
           "id": 3769872075
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Hist Bark",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -37546,16 +37546,16 @@ const ESO_SETS = [
           "id": 1039555778
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Hist Bark",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Hist Bark",
           "id": 2207012809
         },
         {
-          "name": "Ring",
+          "name": "Ring of Hist Bark",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -37563,7 +37563,7 @@ const ESO_SETS = [
           "id": 2718437040
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Hist Bark",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -37572,7 +37572,7 @@ const ESO_SETS = [
           "id": 10417322
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Hist Bark",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -37581,7 +37581,7 @@ const ESO_SETS = [
           "id": 2033190132
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Hist Bark",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -37590,7 +37590,7 @@ const ESO_SETS = [
           "id": 3085100084
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Hist Bark",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -37599,7 +37599,7 @@ const ESO_SETS = [
           "id": 2975455084
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Hist Bark",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -37608,7 +37608,7 @@ const ESO_SETS = [
           "id": 3520268589
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Hist Bark",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -37617,7 +37617,7 @@ const ESO_SETS = [
           "id": 3903182970
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Hist Bark",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -37625,7 +37625,7 @@ const ESO_SETS = [
           "id": 2071662917
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Hist Bark",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -37634,7 +37634,7 @@ const ESO_SETS = [
           "id": 276055381
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Hist Bark",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -37643,7 +37643,7 @@ const ESO_SETS = [
           "id": 3680397290
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Hist Bark",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -37652,7 +37652,7 @@ const ESO_SETS = [
           "id": 3093504127
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Hist Bark",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -37661,7 +37661,7 @@ const ESO_SETS = [
           "id": 456811110
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Hist Bark",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -37670,7 +37670,7 @@ const ESO_SETS = [
           "id": 1291158461
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Hist Bark",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -37679,7 +37679,7 @@ const ESO_SETS = [
           "id": 3405762120
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Hist Bark",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -37688,7 +37688,7 @@ const ESO_SETS = [
           "id": 3760490103
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Hist Bark",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -37697,7 +37697,7 @@ const ESO_SETS = [
           "id": 4261491436
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Hist Bark",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -37749,7 +37749,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Staff 4",
+          "name": "Hist Whisperer's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37757,7 +37757,7 @@ const ESO_SETS = [
           "id": 1696706800
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Hist Whisperer's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37765,7 +37765,7 @@ const ESO_SETS = [
           "id": 1696706800
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Hist Whisperer's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37773,7 +37773,7 @@ const ESO_SETS = [
           "id": 1696706800
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Hist Whisperer's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37781,7 +37781,7 @@ const ESO_SETS = [
           "id": 3996366886
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Hist Whisperer's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37789,7 +37789,7 @@ const ESO_SETS = [
           "id": 4025194385
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Hist Whisperer's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37797,7 +37797,7 @@ const ESO_SETS = [
           "id": 3407201766
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Hist Whisperer's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37805,7 +37805,7 @@ const ESO_SETS = [
           "id": 1696706800
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Hist Whisperer's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -37813,7 +37813,7 @@ const ESO_SETS = [
           "id": 4008284004
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Hist Whisperer's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -37821,7 +37821,7 @@ const ESO_SETS = [
           "id": 819089939
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Hist Whisperer's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37829,7 +37829,7 @@ const ESO_SETS = [
           "id": 3051643500
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Hist Whisperer's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37837,7 +37837,7 @@ const ESO_SETS = [
           "id": 362438520
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Hist Whisperer's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37845,7 +37845,7 @@ const ESO_SETS = [
           "id": 3055132417
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Hist Whisperer's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -37853,7 +37853,7 @@ const ESO_SETS = [
           "id": 3069691549
         },
         {
-          "name": "Necklace",
+          "name": "Hist Whisperer's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -37861,7 +37861,7 @@ const ESO_SETS = [
           "id": 3643199270
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Hist Whisperer's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -37870,7 +37870,7 @@ const ESO_SETS = [
           "id": 2684079400
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Hist Whisperer's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -37879,7 +37879,7 @@ const ESO_SETS = [
           "id": 4058508651
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Hist Whisperer's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -37888,7 +37888,7 @@ const ESO_SETS = [
           "id": 2607556923
         },
         {
-          "name": "Ring",
+          "name": "Hist Whisperer's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -37896,7 +37896,7 @@ const ESO_SETS = [
           "id": 1108204139
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Hist Whisperer's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -37905,7 +37905,7 @@ const ESO_SETS = [
           "id": 921931745
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Hist Whisperer's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -37914,7 +37914,7 @@ const ESO_SETS = [
           "id": 4827802
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Hist Whisperer's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -37923,7 +37923,7 @@ const ESO_SETS = [
           "id": 1081261514
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Hist Whisperer's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -37932,7 +37932,7 @@ const ESO_SETS = [
           "id": 2376882473
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Hist Whisperer's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -37941,7 +37941,7 @@ const ESO_SETS = [
           "id": 1390990407
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Hist Whisperer's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -37950,7 +37950,7 @@ const ESO_SETS = [
           "id": 758526871
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hist Whisperer's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -37959,16 +37959,16 @@ const ESO_SETS = [
           "id": 731067433
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Hist Whisperer's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Hist Whisperer",
           "id": 131777916
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Hist Whisperer's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -37977,7 +37977,7 @@ const ESO_SETS = [
           "id": 630080492
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Hist Whisperer's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -37986,7 +37986,7 @@ const ESO_SETS = [
           "id": 1578483531
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Hist Whisperer's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -37995,7 +37995,7 @@ const ESO_SETS = [
           "id": 507696174
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Hist Whisperer's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -38004,7 +38004,7 @@ const ESO_SETS = [
           "id": 3616781374
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Hist Whisperer's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -38013,7 +38013,7 @@ const ESO_SETS = [
           "id": 1013233882
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Hist Whisperer's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -38022,7 +38022,7 @@ const ESO_SETS = [
           "id": 3962954511
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Hist Whisperer's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -38031,7 +38031,7 @@ const ESO_SETS = [
           "id": 3687596511
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Hist Whisperer's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -38040,7 +38040,7 @@ const ESO_SETS = [
           "id": 1411038047
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Hist Whisperer's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -38049,7 +38049,7 @@ const ESO_SETS = [
           "id": 3379249848
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Hist Whisperer's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -38790,7 +38790,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Hunding's Rage",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -38798,7 +38798,7 @@ const ESO_SETS = [
           "id": 2872971807
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Hunding's Rage",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -38806,7 +38806,7 @@ const ESO_SETS = [
           "id": 3856009412
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Hunding's Rage",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -38814,7 +38814,7 @@ const ESO_SETS = [
           "id": 2908734357
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Hunding's Rage",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -38822,7 +38822,7 @@ const ESO_SETS = [
           "id": 4234642906
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Hunding's Rage",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -38830,7 +38830,7 @@ const ESO_SETS = [
           "id": 3737322050
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Hunding's Rage",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38838,7 +38838,7 @@ const ESO_SETS = [
           "id": 153069406
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Hunding's Rage",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38846,7 +38846,7 @@ const ESO_SETS = [
           "id": 1857060831
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Hunding's Rage",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38854,7 +38854,7 @@ const ESO_SETS = [
           "id": 3004999843
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Hunding's Rage",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38862,7 +38862,7 @@ const ESO_SETS = [
           "id": 3123120275
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Hunding's Rage",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38870,7 +38870,7 @@ const ESO_SETS = [
           "id": 3123120275
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Hunding's Rage",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38878,7 +38878,7 @@ const ESO_SETS = [
           "id": 3123120275
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Hunding's Rage",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38886,7 +38886,7 @@ const ESO_SETS = [
           "id": 3647958725
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Hunding's Rage",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -38894,7 +38894,7 @@ const ESO_SETS = [
           "id": 3123120275
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Hunding's Rage",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -38903,7 +38903,7 @@ const ESO_SETS = [
           "id": 2938747207
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Hunding's Rage",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -38912,7 +38912,7 @@ const ESO_SETS = [
           "id": 60327878
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Hunding's Rage",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -38921,7 +38921,7 @@ const ESO_SETS = [
           "id": 2340222169
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Hunding's Rage",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -38930,7 +38930,7 @@ const ESO_SETS = [
           "id": 3320195861
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Hunding's Rage",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -38939,16 +38939,16 @@ const ESO_SETS = [
           "id": 3121581828
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Hunding's Rage",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Hunding's Rage",
           "id": 2016499779
         },
         {
-          "name": "Ring",
+          "name": "Ring of Hunding's Rage",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -38956,7 +38956,7 @@ const ESO_SETS = [
           "id": 3834975846
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Hunding's Rage",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -38965,7 +38965,7 @@ const ESO_SETS = [
           "id": 1336557496
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Hunding's Rage",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -38974,7 +38974,7 @@ const ESO_SETS = [
           "id": 2562635202
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Hunding's Rage",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -38983,7 +38983,7 @@ const ESO_SETS = [
           "id": 975258994
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Hunding's Rage",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -38992,7 +38992,7 @@ const ESO_SETS = [
           "id": 800857950
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Hunding's Rage",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -39001,7 +39001,7 @@ const ESO_SETS = [
           "id": 2215172599
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Hunding's Rage",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -39010,7 +39010,7 @@ const ESO_SETS = [
           "id": 2643063364
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Hunding's Rage",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -39018,7 +39018,7 @@ const ESO_SETS = [
           "id": 767985499
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Hunding's Rage",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -39027,7 +39027,7 @@ const ESO_SETS = [
           "id": 100687987
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Hunding's Rage",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -39036,7 +39036,7 @@ const ESO_SETS = [
           "id": 2134647040
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Hunding's Rage",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -39045,7 +39045,7 @@ const ESO_SETS = [
           "id": 642206317
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Hunding's Rage",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -39054,7 +39054,7 @@ const ESO_SETS = [
           "id": 922436
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Hunding's Rage",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -39063,7 +39063,7 @@ const ESO_SETS = [
           "id": 3748184899
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Hunding's Rage",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -39072,7 +39072,7 @@ const ESO_SETS = [
           "id": 2544149486
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Hunding's Rage",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -39081,7 +39081,7 @@ const ESO_SETS = [
           "id": 3576449749
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Hunding's Rage",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -39090,7 +39090,7 @@ const ESO_SETS = [
           "id": 2768844946
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Hunding's Rage",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -41360,7 +41360,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Innate Axiom Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -41369,7 +41369,7 @@ const ESO_SETS = [
           "id": 2508026970
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Innate Axiom Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -41378,7 +41378,7 @@ const ESO_SETS = [
           "id": 3308800543
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Innate Axiom Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -41387,7 +41387,7 @@ const ESO_SETS = [
           "id": 2179328362
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Innate Axiom Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -41396,7 +41396,7 @@ const ESO_SETS = [
           "id": 2357428200
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Innate Axiom Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -41405,16 +41405,16 @@ const ESO_SETS = [
           "id": 3689727453
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Innate Axiom Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Innate Axiom",
           "id": 3158348824
         },
         {
-          "name": "Ring",
+          "name": "Innate Axiom Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -41422,7 +41422,7 @@ const ESO_SETS = [
           "id": 598870999
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Innate Axiom Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -41431,7 +41431,7 @@ const ESO_SETS = [
           "id": 2743529243
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Innate Axiom Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -41440,7 +41440,7 @@ const ESO_SETS = [
           "id": 1193501053
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Innate Axiom Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -41449,7 +41449,7 @@ const ESO_SETS = [
           "id": 216946859
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Innate Axiom Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -41458,7 +41458,7 @@ const ESO_SETS = [
           "id": 810407299
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Innate Axiom Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -41467,7 +41467,7 @@ const ESO_SETS = [
           "id": 3108667654
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Innate Axiom Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -41476,7 +41476,7 @@ const ESO_SETS = [
           "id": 3188480019
         },
         {
-          "name": "Necklace",
+          "name": "Innate Axiom Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -41484,7 +41484,7 @@ const ESO_SETS = [
           "id": 1624884194
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Innate Axiom Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -41493,7 +41493,7 @@ const ESO_SETS = [
           "id": 1384036668
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Innate Axiom Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -41502,7 +41502,7 @@ const ESO_SETS = [
           "id": 1596177179
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Innate Axiom Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -41511,7 +41511,7 @@ const ESO_SETS = [
           "id": 1637134252
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Innate Axiom Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -41520,7 +41520,7 @@ const ESO_SETS = [
           "id": 263943239
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Innate Axiom Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -41529,7 +41529,7 @@ const ESO_SETS = [
           "id": 2109588540
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Innate Axiom Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -41538,7 +41538,7 @@ const ESO_SETS = [
           "id": 2500085975
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Innate Axiom Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -41547,7 +41547,7 @@ const ESO_SETS = [
           "id": 1430887694
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Innate Axiom Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -41556,7 +41556,7 @@ const ESO_SETS = [
           "id": 1760980269
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Innate Axiom Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -41565,7 +41565,7 @@ const ESO_SETS = [
           "id": 1825365566
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Innate Axiom Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -41573,7 +41573,7 @@ const ESO_SETS = [
           "id": 790972249
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Innate Axiom Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -41581,7 +41581,7 @@ const ESO_SETS = [
           "id": 3306209212
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Innate Axiom Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -41589,7 +41589,7 @@ const ESO_SETS = [
           "id": 1432111253
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Innate Axiom Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -41597,7 +41597,7 @@ const ESO_SETS = [
           "id": 1865470704
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Innate Axiom Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -41605,7 +41605,7 @@ const ESO_SETS = [
           "id": 1271830319
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Innate Axiom Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41613,7 +41613,7 @@ const ESO_SETS = [
           "id": 2117740757
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Innate Axiom Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41621,7 +41621,7 @@ const ESO_SETS = [
           "id": 1192451506
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Innate Axiom Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41629,7 +41629,7 @@ const ESO_SETS = [
           "id": 3071073416
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Innate Axiom Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41637,7 +41637,7 @@ const ESO_SETS = [
           "id": 1208968452
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Innate Axiom Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41645,7 +41645,7 @@ const ESO_SETS = [
           "id": 1208968452
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Innate Axiom Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41653,7 +41653,7 @@ const ESO_SETS = [
           "id": 1208968452
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Innate Axiom Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41661,7 +41661,7 @@ const ESO_SETS = [
           "id": 180472674
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Innate Axiom Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -41944,7 +41944,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Iron Flask",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -41953,7 +41953,7 @@ const ESO_SETS = [
           "id": 3557086518
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Iron Flask",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -41962,7 +41962,7 @@ const ESO_SETS = [
           "id": 1110857443
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Iron Flask",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -41971,7 +41971,7 @@ const ESO_SETS = [
           "id": 1930812102
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Iron Flask",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -41979,7 +41979,7 @@ const ESO_SETS = [
           "id": 4285616510
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Iron Flask",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -41988,7 +41988,7 @@ const ESO_SETS = [
           "id": 3675221520
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Iron Flask",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -41997,7 +41997,7 @@ const ESO_SETS = [
           "id": 1598533031
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Iron Flask",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -42006,7 +42006,7 @@ const ESO_SETS = [
           "id": 25545216
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Iron Flask",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -42015,7 +42015,7 @@ const ESO_SETS = [
           "id": 4259006503
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Iron Flask",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -42024,7 +42024,7 @@ const ESO_SETS = [
           "id": 1311253122
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Iron Flask",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -42033,7 +42033,7 @@ const ESO_SETS = [
           "id": 4085656823
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Iron Flask",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -42041,16 +42041,16 @@ const ESO_SETS = [
           "id": 289002947
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Iron Flask",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Iron Flask",
           "id": 3518529300
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Iron Flask",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -42059,7 +42059,7 @@ const ESO_SETS = [
           "id": 516228561
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Iron Flask",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -42068,7 +42068,7 @@ const ESO_SETS = [
           "id": 697098756
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Iron Flask",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -42077,7 +42077,7 @@ const ESO_SETS = [
           "id": 484703650
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Iron Flask",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -42086,7 +42086,7 @@ const ESO_SETS = [
           "id": 272026169
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Iron Flask",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -42095,7 +42095,7 @@ const ESO_SETS = [
           "id": 659743122
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Iron Flask",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -42104,7 +42104,7 @@ const ESO_SETS = [
           "id": 315454319
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Iron Flask",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -42113,7 +42113,7 @@ const ESO_SETS = [
           "id": 3593717841
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Iron Flask",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -42122,7 +42122,7 @@ const ESO_SETS = [
           "id": 3141948607
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Iron Flask",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -42131,7 +42131,7 @@ const ESO_SETS = [
           "id": 2041524275
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Iron Flask",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -42140,7 +42140,7 @@ const ESO_SETS = [
           "id": 2129904256
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Iron Flask",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -42149,7 +42149,7 @@ const ESO_SETS = [
           "id": 3001285699
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Iron Flask",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -42157,7 +42157,7 @@ const ESO_SETS = [
           "id": 3012556329
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Iron Flask",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -42165,7 +42165,7 @@ const ESO_SETS = [
           "id": 610845428
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Iron Flask",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -42173,7 +42173,7 @@ const ESO_SETS = [
           "id": 1875634997
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Iron Flask",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -42181,7 +42181,7 @@ const ESO_SETS = [
           "id": 854754160
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Iron Flask",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -42189,7 +42189,7 @@ const ESO_SETS = [
           "id": 3685832315
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Iron Flask",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42197,7 +42197,7 @@ const ESO_SETS = [
           "id": 3543876460
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Iron Flask",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42205,7 +42205,7 @@ const ESO_SETS = [
           "id": 3401264376
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Iron Flask",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42213,7 +42213,7 @@ const ESO_SETS = [
           "id": 383247518
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Iron Flask",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42221,7 +42221,7 @@ const ESO_SETS = [
           "id": 3276137438
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Iron Flask",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42229,7 +42229,7 @@ const ESO_SETS = [
           "id": 3401264376
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Iron Flask",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42237,7 +42237,7 @@ const ESO_SETS = [
           "id": 1834099737
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Iron Flask",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -42245,7 +42245,7 @@ const ESO_SETS = [
           "id": 3401264376
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Iron Flask",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43450,7 +43450,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Kagrenac's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -43458,7 +43458,7 @@ const ESO_SETS = [
           "id": 1032438390
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Kagrenac's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -43466,7 +43466,7 @@ const ESO_SETS = [
           "id": 2826978663
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Kagrenac's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -43474,7 +43474,7 @@ const ESO_SETS = [
           "id": 3490232660
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Kagrenac's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -43482,7 +43482,7 @@ const ESO_SETS = [
           "id": 2363325313
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Kagrenac's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -43490,7 +43490,7 @@ const ESO_SETS = [
           "id": 470471268
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Kagrenac's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43498,7 +43498,7 @@ const ESO_SETS = [
           "id": 3242881372
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Kagrenac's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43506,7 +43506,7 @@ const ESO_SETS = [
           "id": 1252586029
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Kagrenac's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43514,7 +43514,7 @@ const ESO_SETS = [
           "id": 2707247537
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Kagrenac's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43522,7 +43522,7 @@ const ESO_SETS = [
           "id": 792134201
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Kagrenac's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43530,7 +43530,7 @@ const ESO_SETS = [
           "id": 792134201
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Kagrenac's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43538,7 +43538,7 @@ const ESO_SETS = [
           "id": 792134201
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Kagrenac's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43546,7 +43546,7 @@ const ESO_SETS = [
           "id": 160506435
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Kagrenac's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -43554,7 +43554,7 @@ const ESO_SETS = [
           "id": 792134201
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Kagrenac's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -43563,7 +43563,7 @@ const ESO_SETS = [
           "id": 2377058105
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Kagrenac's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -43572,7 +43572,7 @@ const ESO_SETS = [
           "id": 1224139824
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Kagrenac's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -43581,7 +43581,7 @@ const ESO_SETS = [
           "id": 2731808595
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Kagrenac's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -43590,7 +43590,7 @@ const ESO_SETS = [
           "id": 3956208035
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Kagrenac's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -43599,16 +43599,16 @@ const ESO_SETS = [
           "id": 2878542442
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Kagrenac's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Kagrenac's Hope",
           "id": 1138058785
         },
         {
-          "name": "Ring",
+          "name": "Kagrenac's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -43616,7 +43616,7 @@ const ESO_SETS = [
           "id": 1486267528
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Kagrenac's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -43625,7 +43625,7 @@ const ESO_SETS = [
           "id": 3962184786
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Kagrenac's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -43634,7 +43634,7 @@ const ESO_SETS = [
           "id": 2725388572
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Kagrenac's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -43643,7 +43643,7 @@ const ESO_SETS = [
           "id": 2207097756
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Kagrenac's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -43652,7 +43652,7 @@ const ESO_SETS = [
           "id": 687804836
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Kagrenac's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -43661,7 +43661,7 @@ const ESO_SETS = [
           "id": 1838017237
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Kagrenac's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -43670,7 +43670,7 @@ const ESO_SETS = [
           "id": 74863346
         },
         {
-          "name": "Necklace",
+          "name": "Kagrenac's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -43678,7 +43678,7 @@ const ESO_SETS = [
           "id": 91390013
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Kagrenac's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -43687,7 +43687,7 @@ const ESO_SETS = [
           "id": 3997242061
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Kagrenac's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -43696,7 +43696,7 @@ const ESO_SETS = [
           "id": 108448850
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Kagrenac's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -43705,7 +43705,7 @@ const ESO_SETS = [
           "id": 2393183415
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Kagrenac's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -43714,7 +43714,7 @@ const ESO_SETS = [
           "id": 2700007630
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Kagrenac's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -43723,7 +43723,7 @@ const ESO_SETS = [
           "id": 1457585909
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Kagrenac's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -43732,7 +43732,7 @@ const ESO_SETS = [
           "id": 4052954672
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Kagrenac's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -43741,7 +43741,7 @@ const ESO_SETS = [
           "id": 1327195679
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Kagrenac's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -43750,7 +43750,7 @@ const ESO_SETS = [
           "id": 1904785412
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Kagrenac's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -45087,7 +45087,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Gladiator's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -45096,7 +45096,7 @@ const ESO_SETS = [
           "id": 2753205791
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Gladiator's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -45105,7 +45105,7 @@ const ESO_SETS = [
           "id": 1741896590
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Gladiator's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -45114,7 +45114,7 @@ const ESO_SETS = [
           "id": 4186348849
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Gladiator's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -45123,7 +45123,7 @@ const ESO_SETS = [
           "id": 3134132701
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Gladiator's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -45132,16 +45132,16 @@ const ESO_SETS = [
           "id": 3189703900
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Gladiator's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Kvatch Gladiator",
           "id": 1593410283
         },
         {
-          "name": "Ring",
+          "name": "Gladiator's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -45149,7 +45149,7 @@ const ESO_SETS = [
           "id": 523693550
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Gladiator's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -45158,7 +45158,7 @@ const ESO_SETS = [
           "id": 157070608
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Gladiator's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -45167,7 +45167,7 @@ const ESO_SETS = [
           "id": 3256775034
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Gladiator's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -45176,7 +45176,7 @@ const ESO_SETS = [
           "id": 3935797706
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Gladiator's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -45185,7 +45185,7 @@ const ESO_SETS = [
           "id": 2553072902
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Gladiator's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -45194,7 +45194,7 @@ const ESO_SETS = [
           "id": 4077295727
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Gladiator's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -45203,7 +45203,7 @@ const ESO_SETS = [
           "id": 810431116
         },
         {
-          "name": "Necklace",
+          "name": "Gladiator's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -45211,7 +45211,7 @@ const ESO_SETS = [
           "id": 3117229699
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gladiator's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -45220,7 +45220,7 @@ const ESO_SETS = [
           "id": 1029791515
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gladiator's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -45229,7 +45229,7 @@ const ESO_SETS = [
           "id": 2498099480
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Gladiator's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -45238,7 +45238,7 @@ const ESO_SETS = [
           "id": 2348482165
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Gladiator's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -45247,7 +45247,7 @@ const ESO_SETS = [
           "id": 2603722812
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Gladiator's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -45256,7 +45256,7 @@ const ESO_SETS = [
           "id": 4168952395
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Gladiator's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -45265,7 +45265,7 @@ const ESO_SETS = [
           "id": 968150534
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Gladiator's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -45274,7 +45274,7 @@ const ESO_SETS = [
           "id": 1194594605
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Gladiator's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -45283,7 +45283,7 @@ const ESO_SETS = [
           "id": 3298520442
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Gladiator's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -45292,7 +45292,7 @@ const ESO_SETS = [
           "id": 1286245399
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Gladiator's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45300,7 +45300,7 @@ const ESO_SETS = [
           "id": 1685344044
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Gladiator's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45308,7 +45308,7 @@ const ESO_SETS = [
           "id": 2179021469
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Gladiator's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45316,7 +45316,7 @@ const ESO_SETS = [
           "id": 2346958770
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Gladiator's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45324,7 +45324,7 @@ const ESO_SETS = [
           "id": 1555185175
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Gladiator's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -45332,7 +45332,7 @@ const ESO_SETS = [
           "id": 1272751098
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Gladiator's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45340,7 +45340,7 @@ const ESO_SETS = [
           "id": 1737192118
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Gladiator's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45348,7 +45348,7 @@ const ESO_SETS = [
           "id": 847907559
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Gladiator's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45356,7 +45356,7 @@ const ESO_SETS = [
           "id": 3863762779
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Gladiator's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45364,7 +45364,7 @@ const ESO_SETS = [
           "id": 84022731
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Gladiator's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45372,7 +45372,7 @@ const ESO_SETS = [
           "id": 84022731
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Gladiator's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45380,7 +45380,7 @@ const ESO_SETS = [
           "id": 84022731
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Gladiator's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45388,7 +45388,7 @@ const ESO_SETS = [
           "id": 3239085133
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Gladiator's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46376,7 +46376,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Julianos",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46384,7 +46384,7 @@ const ESO_SETS = [
           "id": 2009796407
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Julianos",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46392,7 +46392,7 @@ const ESO_SETS = [
           "id": 314568509
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Julianos",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46400,7 +46400,7 @@ const ESO_SETS = [
           "id": 3375501010
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Julianos",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46408,7 +46408,7 @@ const ESO_SETS = [
           "id": 1165117132
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Julianos",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -46416,7 +46416,7 @@ const ESO_SETS = [
           "id": 670376346
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Julianos",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46424,7 +46424,7 @@ const ESO_SETS = [
           "id": 1023525590
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Julianos",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46432,7 +46432,7 @@ const ESO_SETS = [
           "id": 433415303
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Julianos",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46440,7 +46440,7 @@ const ESO_SETS = [
           "id": 3121920379
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Julianos",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46448,7 +46448,7 @@ const ESO_SETS = [
           "id": 2120264427
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Julianos",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46456,7 +46456,7 @@ const ESO_SETS = [
           "id": 2120264427
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Julianos",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46464,7 +46464,7 @@ const ESO_SETS = [
           "id": 2120264427
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Julianos",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46472,7 +46472,7 @@ const ESO_SETS = [
           "id": 2897400813
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Julianos",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -46480,7 +46480,7 @@ const ESO_SETS = [
           "id": 2120264427
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Julianos",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -46489,7 +46489,7 @@ const ESO_SETS = [
           "id": 3315511423
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Julianos",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -46498,7 +46498,7 @@ const ESO_SETS = [
           "id": 4087145326
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Julianos",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -46507,7 +46507,7 @@ const ESO_SETS = [
           "id": 1382507281
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Julianos",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -46516,7 +46516,7 @@ const ESO_SETS = [
           "id": 833627965
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Julianos",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -46525,16 +46525,16 @@ const ESO_SETS = [
           "id": 2688895164
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Julianos",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Law of Julianos",
           "id": 805796171
         },
         {
-          "name": "Ring",
+          "name": "Ring of Julianos",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -46542,7 +46542,7 @@ const ESO_SETS = [
           "id": 2859868046
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Julianos",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -46551,7 +46551,7 @@ const ESO_SETS = [
           "id": 727570800
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Julianos",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -46560,7 +46560,7 @@ const ESO_SETS = [
           "id": 4279384282
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Julianos",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -46569,7 +46569,7 @@ const ESO_SETS = [
           "id": 1636219946
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Julianos",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -46578,7 +46578,7 @@ const ESO_SETS = [
           "id": 2023055974
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Julianos",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -46587,7 +46587,7 @@ const ESO_SETS = [
           "id": 3693331279
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Julianos",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -46596,7 +46596,7 @@ const ESO_SETS = [
           "id": 11379180
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Julianos",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -46604,7 +46604,7 @@ const ESO_SETS = [
           "id": 1766032675
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Julianos",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -46613,7 +46613,7 @@ const ESO_SETS = [
           "id": 3403613947
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Julianos",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -46622,7 +46622,7 @@ const ESO_SETS = [
           "id": 2644534776
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Julianos",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -46631,7 +46631,7 @@ const ESO_SETS = [
           "id": 1901858005
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Julianos",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -46640,7 +46640,7 @@ const ESO_SETS = [
           "id": 3884536348
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Julianos",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -46649,7 +46649,7 @@ const ESO_SETS = [
           "id": 551914923
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Julianos",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -46658,7 +46658,7 @@ const ESO_SETS = [
           "id": 3736543718
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Julianos",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -46667,7 +46667,7 @@ const ESO_SETS = [
           "id": 839861133
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Julianos",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -46676,7 +46676,7 @@ const ESO_SETS = [
           "id": 1246767066
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Julianos",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -46958,7 +46958,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Karth's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -46966,7 +46966,7 @@ const ESO_SETS = [
           "id": 3105198076
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Karth's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46974,7 +46974,7 @@ const ESO_SETS = [
           "id": 80053836
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Karth's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46982,7 +46982,7 @@ const ESO_SETS = [
           "id": 552849871
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Karth's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46990,7 +46990,7 @@ const ESO_SETS = [
           "id": 3723498494
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Karth's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -46998,7 +46998,7 @@ const ESO_SETS = [
           "id": 525266681
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Karth's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47006,7 +47006,7 @@ const ESO_SETS = [
           "id": 3820380681
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Karth's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47014,7 +47014,7 @@ const ESO_SETS = [
           "id": 3500495281
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Karth's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47022,7 +47022,7 @@ const ESO_SETS = [
           "id": 3500495281
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Karth's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47030,7 +47030,7 @@ const ESO_SETS = [
           "id": 4271738645
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Karth's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47038,7 +47038,7 @@ const ESO_SETS = [
           "id": 3500495281
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Karth's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47046,7 +47046,7 @@ const ESO_SETS = [
           "id": 1080476043
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Karth's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47054,7 +47054,7 @@ const ESO_SETS = [
           "id": 309711828
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Karth's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -47062,7 +47062,7 @@ const ESO_SETS = [
           "id": 3500495281
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Karth's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -47071,7 +47071,7 @@ const ESO_SETS = [
           "id": 3225553944
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Karth's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -47080,7 +47080,7 @@ const ESO_SETS = [
           "id": 1449945963
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Karth's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -47089,7 +47089,7 @@ const ESO_SETS = [
           "id": 2517937937
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Karth's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -47098,7 +47098,7 @@ const ESO_SETS = [
           "id": 3904347756
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Karth's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -47107,7 +47107,7 @@ const ESO_SETS = [
           "id": 100289921
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Karth's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -47116,7 +47116,7 @@ const ESO_SETS = [
           "id": 3403346423
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Karth's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -47125,7 +47125,7 @@ const ESO_SETS = [
           "id": 3323253610
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Karth's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -47134,7 +47134,7 @@ const ESO_SETS = [
           "id": 3046005503
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Karth's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -47143,7 +47143,7 @@ const ESO_SETS = [
           "id": 4213878997
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Karth's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -47152,7 +47152,7 @@ const ESO_SETS = [
           "id": 1099376445
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Karth's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -47161,7 +47161,7 @@ const ESO_SETS = [
           "id": 1279537352
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Karth's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -47170,7 +47170,7 @@ const ESO_SETS = [
           "id": 265029094
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Karth's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -47179,7 +47179,7 @@ const ESO_SETS = [
           "id": 1691623341
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Karth's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -47188,7 +47188,7 @@ const ESO_SETS = [
           "id": 3546039290
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Karth's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -47197,7 +47197,7 @@ const ESO_SETS = [
           "id": 1146809836
         },
         {
-          "name": "Necklace",
+          "name": "Karth's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -47205,7 +47205,7 @@ const ESO_SETS = [
           "id": 2341698501
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Karth's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -47214,7 +47214,7 @@ const ESO_SETS = [
           "id": 1676046452
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Karth's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -47223,7 +47223,7 @@ const ESO_SETS = [
           "id": 3037601460
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Karth's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -47232,7 +47232,7 @@ const ESO_SETS = [
           "id": 3948240938
         },
         {
-          "name": "Ring",
+          "name": "Karth's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -47240,7 +47240,7 @@ const ESO_SETS = [
           "id": 2988472624
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Karth's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -47249,16 +47249,16 @@ const ESO_SETS = [
           "id": 3505877826
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Karth's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Legacy of Karth",
           "id": 1849869129
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Karth's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -49320,7 +49320,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Magnus' Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -49328,7 +49328,7 @@ const ESO_SETS = [
           "id": 1720317084
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Magnus' Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -49336,7 +49336,7 @@ const ESO_SETS = [
           "id": 1523895981
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Magnus' Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -49344,7 +49344,7 @@ const ESO_SETS = [
           "id": 2332524354
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Magnus' Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -49352,7 +49352,7 @@ const ESO_SETS = [
           "id": 4055869223
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Magnus' Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -49360,7 +49360,7 @@ const ESO_SETS = [
           "id": 1535861450
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Magnus' Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49368,7 +49368,7 @@ const ESO_SETS = [
           "id": 2420051142
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Magnus' Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49376,7 +49376,7 @@ const ESO_SETS = [
           "id": 3206190167
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Magnus' Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49384,7 +49384,7 @@ const ESO_SETS = [
           "id": 2903938283
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Magnus' Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49392,7 +49392,7 @@ const ESO_SETS = [
           "id": 366849243
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Magnus' Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49400,7 +49400,7 @@ const ESO_SETS = [
           "id": 366849243
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Magnus' Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49408,7 +49408,7 @@ const ESO_SETS = [
           "id": 366849243
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Magnus' Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49416,7 +49416,7 @@ const ESO_SETS = [
           "id": 2534855037
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Magnus' Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -49424,7 +49424,7 @@ const ESO_SETS = [
           "id": 366849243
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Magnus' Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -49433,7 +49433,7 @@ const ESO_SETS = [
           "id": 4095511439
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Magnus' Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -49442,7 +49442,7 @@ const ESO_SETS = [
           "id": 3298658846
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Magnus' Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -49451,7 +49451,7 @@ const ESO_SETS = [
           "id": 394728737
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Magnus' Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -49460,7 +49460,7 @@ const ESO_SETS = [
           "id": 3254142765
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Magnus' Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -49469,16 +49469,16 @@ const ESO_SETS = [
           "id": 3016350668
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Magnus' Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Magnus' Gift",
           "id": 10614139
         },
         {
-          "name": "Ring",
+          "name": "Magnus' Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -49486,7 +49486,7 @@ const ESO_SETS = [
           "id": 673720702
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Magnus' Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -49495,7 +49495,7 @@ const ESO_SETS = [
           "id": 1020723136
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Magnus' Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -49504,7 +49504,7 @@ const ESO_SETS = [
           "id": 3781994858
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Magnus' Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -49513,7 +49513,7 @@ const ESO_SETS = [
           "id": 683217466
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Magnus' Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -49522,7 +49522,7 @@ const ESO_SETS = [
           "id": 2375462518
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Magnus' Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -49531,7 +49531,7 @@ const ESO_SETS = [
           "id": 2210175423
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Magnus' Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -49540,7 +49540,7 @@ const ESO_SETS = [
           "id": 2786215932
         },
         {
-          "name": "Necklace",
+          "name": "Magnus' Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -49548,7 +49548,7 @@ const ESO_SETS = [
           "id": 3458078643
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Magnus' Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -49557,7 +49557,7 @@ const ESO_SETS = [
           "id": 3644354283
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Magnus' Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -49566,7 +49566,7 @@ const ESO_SETS = [
           "id": 1385005768
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Magnus' Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -49575,7 +49575,7 @@ const ESO_SETS = [
           "id": 2387454533
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Magnus' Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -49584,7 +49584,7 @@ const ESO_SETS = [
           "id": 1654412460
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Magnus' Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -49593,7 +49593,7 @@ const ESO_SETS = [
           "id": 663263387
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Magnus' Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -49602,7 +49602,7 @@ const ESO_SETS = [
           "id": 2867064886
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Magnus' Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -49611,7 +49611,7 @@ const ESO_SETS = [
           "id": 3078663293
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Magnus' Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -49620,7 +49620,7 @@ const ESO_SETS = [
           "id": 1533012394
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Magnus' Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -50870,7 +50870,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Mechanical Acuity",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -50879,7 +50879,7 @@ const ESO_SETS = [
           "id": 2277582079
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Mechanical Acuity",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -50888,7 +50888,7 @@ const ESO_SETS = [
           "id": 3049215982
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Mechanical Acuity",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -50897,7 +50897,7 @@ const ESO_SETS = [
           "id": 1856293009
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Mechanical Acuity",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -50906,7 +50906,7 @@ const ESO_SETS = [
           "id": 4090665917
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Mechanical Acuity",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -50915,16 +50915,16 @@ const ESO_SETS = [
           "id": 1650965820
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Mechanical Acuity",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Mechanical Acuity",
           "id": 1279581899
         },
         {
-          "name": "Ring",
+          "name": "Ring of Mechanical Acuity",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -50932,7 +50932,7 @@ const ESO_SETS = [
           "id": 2224969742
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Mechanical Acuity",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -50941,7 +50941,7 @@ const ESO_SETS = [
           "id": 1201356528
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Mechanical Acuity",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -50950,7 +50950,7 @@ const ESO_SETS = [
           "id": 458202714
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Mechanical Acuity",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -50959,7 +50959,7 @@ const ESO_SETS = [
           "id": 1445823658
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Mechanical Acuity",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -50968,7 +50968,7 @@ const ESO_SETS = [
           "id": 985126630
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Mechanical Acuity",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -50977,7 +50977,7 @@ const ESO_SETS = [
           "id": 2655401935
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Mechanical Acuity",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -50986,7 +50986,7 @@ const ESO_SETS = [
           "id": 485164908
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Mechanical Acuity",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -50994,7 +50994,7 @@ const ESO_SETS = [
           "id": 1131134371
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Mechanical Acuity",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -51003,7 +51003,7 @@ const ESO_SETS = [
           "id": 3877399675
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Mechanical Acuity",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -51012,7 +51012,7 @@ const ESO_SETS = [
           "id": 3118320504
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Mechanical Acuity",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -51021,7 +51021,7 @@ const ESO_SETS = [
           "id": 1711461717
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Mechanical Acuity",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -51030,7 +51030,7 @@ const ESO_SETS = [
           "id": 1435996060
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Mechanical Acuity",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -51039,7 +51039,7 @@ const ESO_SETS = [
           "id": 2398341931
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Mechanical Acuity",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -51048,7 +51048,7 @@ const ESO_SETS = [
           "id": 2669802086
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Mechanical Acuity",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -51057,7 +51057,7 @@ const ESO_SETS = [
           "id": 1313646861
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Mechanical Acuity",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -51066,7 +51066,7 @@ const ESO_SETS = [
           "id": 1720552794
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Mechanical Acuity",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -51075,7 +51075,7 @@ const ESO_SETS = [
           "id": 900929143
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Mechanical Acuity",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -51083,7 +51083,7 @@ const ESO_SETS = [
           "id": 1577420620
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Mechanical Acuity",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -51091,7 +51091,7 @@ const ESO_SETS = [
           "id": 690756541
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Mechanical Acuity",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -51099,7 +51099,7 @@ const ESO_SETS = [
           "id": 3062038610
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Mechanical Acuity",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -51107,7 +51107,7 @@ const ESO_SETS = [
           "id": 1142234295
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Mechanical Acuity",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -51115,7 +51115,7 @@ const ESO_SETS = [
           "id": 1046564378
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Mechanical Acuity",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51123,7 +51123,7 @@ const ESO_SETS = [
           "id": 155963478
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Mechanical Acuity",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51131,7 +51131,7 @@ const ESO_SETS = [
           "id": 845718791
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Mechanical Acuity",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51139,7 +51139,7 @@ const ESO_SETS = [
           "id": 2808457979
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Mechanical Acuity",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51147,7 +51147,7 @@ const ESO_SETS = [
           "id": 1806802027
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Mechanical Acuity",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51155,7 +51155,7 @@ const ESO_SETS = [
           "id": 1806802027
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Mechanical Acuity",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51163,7 +51163,7 @@ const ESO_SETS = [
           "id": 1806802027
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Mechanical Acuity",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -51171,7 +51171,7 @@ const ESO_SETS = [
           "id": 1611598189
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Mechanical Acuity",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52007,7 +52007,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Might of the Lost Legion Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -52016,7 +52016,7 @@ const ESO_SETS = [
           "id": 975528792
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Might of the Lost Legion Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -52025,7 +52025,7 @@ const ESO_SETS = [
           "id": 204821445
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Might of the Lost Legion Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -52034,7 +52034,7 @@ const ESO_SETS = [
           "id": 2851946744
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Might of the Lost Legion Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -52043,7 +52043,7 @@ const ESO_SETS = [
           "id": 2589794178
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Might of the Lost Legion Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -52052,16 +52052,16 @@ const ESO_SETS = [
           "id": 1043918575
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Might of the Lost Legion Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Might of the Lost Legion",
           "id": 2196437794
         },
         {
-          "name": "Ring",
+          "name": "Might of the Lost Legion Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -52069,7 +52069,7 @@ const ESO_SETS = [
           "id": 9313157
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Might of the Lost Legion Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -52078,7 +52078,7 @@ const ESO_SETS = [
           "id": 3846583769
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Might of the Lost Legion Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -52087,7 +52087,7 @@ const ESO_SETS = [
           "id": 2069100067
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Might of the Lost Legion Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -52096,7 +52096,7 @@ const ESO_SETS = [
           "id": 2134103929
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Might of the Lost Legion Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -52105,7 +52105,7 @@ const ESO_SETS = [
           "id": 2206519533
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Might of the Lost Legion Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -52114,7 +52114,7 @@ const ESO_SETS = [
           "id": 2712123624
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Might of the Lost Legion Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -52123,7 +52123,7 @@ const ESO_SETS = [
           "id": 1463171213
         },
         {
-          "name": "Necklace",
+          "name": "Might of the Lost Legion Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -52131,7 +52131,7 @@ const ESO_SETS = [
           "id": 4231733744
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Might of the Lost Legion Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -52140,7 +52140,7 @@ const ESO_SETS = [
           "id": 1176669098
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Might of the Lost Legion Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -52149,7 +52149,7 @@ const ESO_SETS = [
           "id": 1180439473
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Might of the Lost Legion Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -52158,7 +52158,7 @@ const ESO_SETS = [
           "id": 2459805386
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Might of the Lost Legion Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -52167,7 +52167,7 @@ const ESO_SETS = [
           "id": 2132844925
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Might of the Lost Legion Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -52176,7 +52176,7 @@ const ESO_SETS = [
           "id": 1982226906
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Might of the Lost Legion Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -52185,7 +52185,7 @@ const ESO_SETS = [
           "id": 1039282973
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Might of the Lost Legion Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -52194,7 +52194,7 @@ const ESO_SETS = [
           "id": 118752172
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Might of the Lost Legion Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -52203,7 +52203,7 @@ const ESO_SETS = [
           "id": 3323503155
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Might of the Lost Legion Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -52212,7 +52212,7 @@ const ESO_SETS = [
           "id": 3386031436
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Might of the Lost Legion Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -52220,7 +52220,7 @@ const ESO_SETS = [
           "id": 2105805055
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Might of the Lost Legion Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -52228,7 +52228,7 @@ const ESO_SETS = [
           "id": 2374578642
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Might of the Lost Legion Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -52236,7 +52236,7 @@ const ESO_SETS = [
           "id": 3078450499
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Might of the Lost Legion Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -52244,7 +52244,7 @@ const ESO_SETS = [
           "id": 287332350
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Might of the Lost Legion Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -52252,7 +52252,7 @@ const ESO_SETS = [
           "id": 202911253
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Might of the Lost Legion Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52260,7 +52260,7 @@ const ESO_SETS = [
           "id": 4107194047
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Might of the Lost Legion Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52268,7 +52268,7 @@ const ESO_SETS = [
           "id": 77547748
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Might of the Lost Legion Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52276,7 +52276,7 @@ const ESO_SETS = [
           "id": 1799853178
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Might of the Lost Legion Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52284,7 +52284,7 @@ const ESO_SETS = [
           "id": 2332365398
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Might of the Lost Legion Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52292,7 +52292,7 @@ const ESO_SETS = [
           "id": 2332365398
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Might of the Lost Legion Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52300,7 +52300,7 @@ const ESO_SETS = [
           "id": 2332365398
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Might of the Lost Legion Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -52308,7 +52308,7 @@ const ESO_SETS = [
           "id": 1854078492
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Might of the Lost Legion Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53237,7 +53237,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Morkuldin's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -53245,7 +53245,7 @@ const ESO_SETS = [
           "id": 2596612018
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Morkuldin's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -53253,7 +53253,7 @@ const ESO_SETS = [
           "id": 4055807846
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Morkuldin's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -53261,7 +53261,7 @@ const ESO_SETS = [
           "id": 3698004695
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Morkuldin's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -53269,7 +53269,7 @@ const ESO_SETS = [
           "id": 872139723
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Morkuldin's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -53277,7 +53277,7 @@ const ESO_SETS = [
           "id": 502685073
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Morkuldin's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53285,7 +53285,7 @@ const ESO_SETS = [
           "id": 3172852787
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Morkuldin's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53293,7 +53293,7 @@ const ESO_SETS = [
           "id": 3652311056
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Morkuldin's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53301,7 +53301,7 @@ const ESO_SETS = [
           "id": 181448670
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Morkuldin's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53309,7 +53309,7 @@ const ESO_SETS = [
           "id": 991291306
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Morkuldin's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53317,7 +53317,7 @@ const ESO_SETS = [
           "id": 991291306
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Morkuldin's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53325,7 +53325,7 @@ const ESO_SETS = [
           "id": 991291306
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Morkuldin's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53333,7 +53333,7 @@ const ESO_SETS = [
           "id": 2928526488
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Morkuldin's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -53341,7 +53341,7 @@ const ESO_SETS = [
           "id": 991291306
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Morkuldin's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -53350,7 +53350,7 @@ const ESO_SETS = [
           "id": 2587611604
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Morkuldin's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -53359,7 +53359,7 @@ const ESO_SETS = [
           "id": 810305449
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Morkuldin's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -53368,7 +53368,7 @@ const ESO_SETS = [
           "id": 2002284356
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Morkuldin's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -53377,7 +53377,7 @@ const ESO_SETS = [
           "id": 1610959806
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Morkuldin's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -53386,16 +53386,16 @@ const ESO_SETS = [
           "id": 2373913523
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Morkuldin's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Morkuldin",
           "id": 1197604494
         },
         {
-          "name": "Ring",
+          "name": "Morkuldin's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -53403,7 +53403,7 @@ const ESO_SETS = [
           "id": 2523597505
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Morkuldin's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -53412,7 +53412,7 @@ const ESO_SETS = [
           "id": 4049691645
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Morkuldin's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -53421,7 +53421,7 @@ const ESO_SETS = [
           "id": 1539782119
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Morkuldin's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -53430,7 +53430,7 @@ const ESO_SETS = [
           "id": 467562797
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Morkuldin's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -53439,7 +53439,7 @@ const ESO_SETS = [
           "id": 2306548145
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Morkuldin's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -53448,7 +53448,7 @@ const ESO_SETS = [
           "id": 3052399380
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Morkuldin's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -53457,7 +53457,7 @@ const ESO_SETS = [
           "id": 3881806049
         },
         {
-          "name": "Necklace",
+          "name": "Morkuldin's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -53465,7 +53465,7 @@ const ESO_SETS = [
           "id": 2568732508
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Morkuldin's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -53474,7 +53474,7 @@ const ESO_SETS = [
           "id": 3521584782
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Morkuldin's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -53483,7 +53483,7 @@ const ESO_SETS = [
           "id": 4087451101
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Morkuldin's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -53492,7 +53492,7 @@ const ESO_SETS = [
           "id": 4103714846
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Morkuldin's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -53501,7 +53501,7 @@ const ESO_SETS = [
           "id": 2334481017
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Morkuldin's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -53510,7 +53510,7 @@ const ESO_SETS = [
           "id": 3024045054
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Morkuldin's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -53519,7 +53519,7 @@ const ESO_SETS = [
           "id": 1985645225
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Morkuldin's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -53528,7 +53528,7 @@ const ESO_SETS = [
           "id": 676908112
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Morkuldin's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -53537,7 +53537,7 @@ const ESO_SETS = [
           "id": 414905839
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Morkuldin's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -53906,7 +53906,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Naga Shaman Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -53915,7 +53915,7 @@ const ESO_SETS = [
           "id": 3310628628
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Naga Shaman Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -53924,7 +53924,7 @@ const ESO_SETS = [
           "id": 3284969449
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Naga Shaman Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -53933,7 +53933,7 @@ const ESO_SETS = [
           "id": 3772617348
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Naga Shaman Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -53942,7 +53942,7 @@ const ESO_SETS = [
           "id": 2561648126
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Naga Shaman Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -53951,16 +53951,16 @@ const ESO_SETS = [
           "id": 3101513203
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Naga Shaman Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Naga Shaman",
           "id": 1645227470
         },
         {
-          "name": "Ring",
+          "name": "Naga Shaman Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -53968,7 +53968,7 @@ const ESO_SETS = [
           "id": 3169672705
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Naga Shaman Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -53977,7 +53977,7 @@ const ESO_SETS = [
           "id": 745352765
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Naga Shaman Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -53986,7 +53986,7 @@ const ESO_SETS = [
           "id": 274772519
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Naga Shaman Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -53995,7 +53995,7 @@ const ESO_SETS = [
           "id": 823478637
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Naga Shaman Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -54004,7 +54004,7 @@ const ESO_SETS = [
           "id": 2616648689
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Naga Shaman Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -54013,7 +54013,7 @@ const ESO_SETS = [
           "id": 3941273172
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Naga Shaman Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -54022,7 +54022,7 @@ const ESO_SETS = [
           "id": 2292537889
         },
         {
-          "name": "Necklace",
+          "name": "Naga Shaman Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -54030,7 +54030,7 @@ const ESO_SETS = [
           "id": 967867804
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Naga Shaman Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -54039,7 +54039,7 @@ const ESO_SETS = [
           "id": 33038286
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Naga Shaman Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -54048,7 +54048,7 @@ const ESO_SETS = [
           "id": 1178955549
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Naga Shaman Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -54057,7 +54057,7 @@ const ESO_SETS = [
           "id": 2899527262
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Naga Shaman Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -54066,7 +54066,7 @@ const ESO_SETS = [
           "id": 613763001
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Naga Shaman Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -54075,7 +54075,7 @@ const ESO_SETS = [
           "id": 1357912638
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Naga Shaman Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -54084,7 +54084,7 @@ const ESO_SETS = [
           "id": 3482256105
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Naga Shaman Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -54093,7 +54093,7 @@ const ESO_SETS = [
           "id": 3124483472
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Naga Shaman Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -54102,7 +54102,7 @@ const ESO_SETS = [
           "id": 2223557679
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Naga Shaman Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -54111,7 +54111,7 @@ const ESO_SETS = [
           "id": 3311186208
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Naga Shaman Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54119,7 +54119,7 @@ const ESO_SETS = [
           "id": 1614651531
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Naga Shaman Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54127,7 +54127,7 @@ const ESO_SETS = [
           "id": 2372149670
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Naga Shaman Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54135,7 +54135,7 @@ const ESO_SETS = [
           "id": 663359895
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Naga Shaman Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -54143,7 +54143,7 @@ const ESO_SETS = [
           "id": 1619826290
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Naga Shaman Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -54151,7 +54151,7 @@ const ESO_SETS = [
           "id": 1079627217
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Naga Shaman Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54159,7 +54159,7 @@ const ESO_SETS = [
           "id": 1568774131
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Naga Shaman Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54167,7 +54167,7 @@ const ESO_SETS = [
           "id": 1276319696
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Naga Shaman Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54175,7 +54175,7 @@ const ESO_SETS = [
           "id": 1908619422
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Naga Shaman Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54183,7 +54183,7 @@ const ESO_SETS = [
           "id": 2666305002
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Naga Shaman Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54191,7 +54191,7 @@ const ESO_SETS = [
           "id": 2666305002
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Naga Shaman Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54199,7 +54199,7 @@ const ESO_SETS = [
           "id": 2666305002
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Naga Shaman Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54207,7 +54207,7 @@ const ESO_SETS = [
           "id": 840778968
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Naga Shaman Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -54810,7 +54810,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Acolyte's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -54819,7 +54819,7 @@ const ESO_SETS = [
           "id": 3435939359
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Acolyte's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -54828,7 +54828,7 @@ const ESO_SETS = [
           "id": 2424630158
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Acolyte's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -54837,7 +54837,7 @@ const ESO_SETS = [
           "id": 155102513
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Acolyte's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -54846,7 +54846,7 @@ const ESO_SETS = [
           "id": 3816866269
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Acolyte's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -54855,16 +54855,16 @@ const ESO_SETS = [
           "id": 3872437468
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Acolyte's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "New Moon Acolyte",
           "id": 1857131243
         },
         {
-          "name": "Ring",
+          "name": "Acolyte's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -54872,7 +54872,7 @@ const ESO_SETS = [
           "id": 901914094
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Acolyte's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -54881,7 +54881,7 @@ const ESO_SETS = [
           "id": 420791568
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Acolyte's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -54890,7 +54890,7 @@ const ESO_SETS = [
           "id": 3520495994
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Acolyte's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -54899,7 +54899,7 @@ const ESO_SETS = [
           "id": 2841162186
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Acolyte's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -54908,7 +54908,7 @@ const ESO_SETS = [
           "id": 3235806470
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Acolyte's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -54917,7 +54917,7 @@ const ESO_SETS = [
           "id": 465061999
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Acolyte's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -54926,7 +54926,7 @@ const ESO_SETS = [
           "id": 1074152076
         },
         {
-          "name": "Necklace",
+          "name": "Acolyte's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -54934,7 +54934,7 @@ const ESO_SETS = [
           "id": 3495450243
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Acolyte's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -54943,7 +54943,7 @@ const ESO_SETS = [
           "id": 1293512475
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Acolyte's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -54952,7 +54952,7 @@ const ESO_SETS = [
           "id": 2761820440
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Acolyte's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -54961,7 +54961,7 @@ const ESO_SETS = [
           "id": 1253846645
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Acolyte's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -54970,7 +54970,7 @@ const ESO_SETS = [
           "id": 2992289852
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Acolyte's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -54979,7 +54979,7 @@ const ESO_SETS = [
           "id": 262552139
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Acolyte's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -54988,7 +54988,7 @@ const ESO_SETS = [
           "id": 2941844998
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Acolyte's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -54997,7 +54997,7 @@ const ESO_SETS = [
           "id": 1458315565
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Acolyte's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -55006,7 +55006,7 @@ const ESO_SETS = [
           "id": 3562241402
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Acolyte's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -55015,7 +55015,7 @@ const ESO_SETS = [
           "id": 191609879
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Acolyte's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55023,7 +55023,7 @@ const ESO_SETS = [
           "id": 1686273836
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Acolyte's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55031,7 +55031,7 @@ const ESO_SETS = [
           "id": 1977084573
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Acolyte's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55039,7 +55039,7 @@ const ESO_SETS = [
           "id": 151015346
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Acolyte's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55047,7 +55047,7 @@ const ESO_SETS = [
           "id": 1778994711
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Acolyte's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -55055,7 +55055,7 @@ const ESO_SETS = [
           "id": 1070814202
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Acolyte's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55063,7 +55063,7 @@ const ESO_SETS = [
           "id": 1961001654
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Acolyte's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55071,7 +55071,7 @@ const ESO_SETS = [
           "id": 848837351
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Acolyte's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55079,7 +55079,7 @@ const ESO_SETS = [
           "id": 1667819355
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Acolyte's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55087,7 +55087,7 @@ const ESO_SETS = [
           "id": 2183046603
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Acolyte's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55095,7 +55095,7 @@ const ESO_SETS = [
           "id": 2183046603
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Acolyte's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55103,7 +55103,7 @@ const ESO_SETS = [
           "id": 2183046603
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Acolyte's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55111,7 +55111,7 @@ const ESO_SETS = [
           "id": 2685834317
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Acolyte's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55406,7 +55406,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Night Mother",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55414,7 +55414,7 @@ const ESO_SETS = [
           "id": 1981449164
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Night Mother",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55422,7 +55422,7 @@ const ESO_SETS = [
           "id": 3866928189
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Night Mother",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55430,7 +55430,7 @@ const ESO_SETS = [
           "id": 1753720274
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Night Mother",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -55438,7 +55438,7 @@ const ESO_SETS = [
           "id": 3386637879
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Night Mother",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -55446,7 +55446,7 @@ const ESO_SETS = [
           "id": 4222736026
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Night Mother",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55454,7 +55454,7 @@ const ESO_SETS = [
           "id": 2400367062
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Night Mother",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55462,7 +55462,7 @@ const ESO_SETS = [
           "id": 1249747335
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Night Mother",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55470,7 +55470,7 @@ const ESO_SETS = [
           "id": 1500139643
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Night Mother",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55478,7 +55478,7 @@ const ESO_SETS = [
           "id": 498483691
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Night Mother",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55486,7 +55486,7 @@ const ESO_SETS = [
           "id": 498483691
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Night Mother",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55494,7 +55494,7 @@ const ESO_SETS = [
           "id": 498483691
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Night Mother",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55502,7 +55502,7 @@ const ESO_SETS = [
           "id": 3858944749
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Night Mother",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -55510,7 +55510,7 @@ const ESO_SETS = [
           "id": 498483691
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Night Mother",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -55519,7 +55519,7 @@ const ESO_SETS = [
           "id": 1639036287
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Night Mother",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -55528,7 +55528,7 @@ const ESO_SETS = [
           "id": 2410670190
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Night Mother",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -55537,7 +55537,7 @@ const ESO_SETS = [
           "id": 72892945
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Night Mother",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -55546,7 +55546,7 @@ const ESO_SETS = [
           "id": 3452120125
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Night Mother",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -55555,16 +55555,16 @@ const ESO_SETS = [
           "id": 1012420028
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Night Mother",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Night Mother's Gaze",
           "id": 3791149131
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Night Mother",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -55572,7 +55572,7 @@ const ESO_SETS = [
           "id": 3815017614
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Night Mother",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -55581,7 +55581,7 @@ const ESO_SETS = [
           "id": 3712923760
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Night Mother",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -55590,7 +55590,7 @@ const ESO_SETS = [
           "id": 2969769946
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Night Mother",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -55599,7 +55599,7 @@ const ESO_SETS = [
           "id": 2142619946
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Night Mother",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -55608,7 +55608,7 @@ const ESO_SETS = [
           "id": 346580838
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Night Mother",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -55617,7 +55617,7 @@ const ESO_SETS = [
           "id": 2016856143
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Night Mother",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -55626,7 +55626,7 @@ const ESO_SETS = [
           "id": 2996732140
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Night Mother",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -55634,7 +55634,7 @@ const ESO_SETS = [
           "id": 2721182243
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Night Mother",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -55643,7 +55643,7 @@ const ESO_SETS = [
           "id": 2093999611
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Night Mother",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -55652,7 +55652,7 @@ const ESO_SETS = [
           "id": 1334920440
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Night Mother",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -55661,7 +55661,7 @@ const ESO_SETS = [
           "id": 2408258005
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Night Mother",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -55670,7 +55670,7 @@ const ESO_SETS = [
           "id": 1399398684
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Night Mother",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -55679,7 +55679,7 @@ const ESO_SETS = [
           "id": 2361744555
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Night Mother",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -55688,7 +55688,7 @@ const ESO_SETS = [
           "id": 2953445094
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Night Mother",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -55697,7 +55697,7 @@ const ESO_SETS = [
           "id": 3825214093
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Night Mother",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -55706,7 +55706,7 @@ const ESO_SETS = [
           "id": 4232120026
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Night Mother",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -55992,7 +55992,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Night's Silence",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56000,7 +56000,7 @@ const ESO_SETS = [
           "id": 951074073
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Night's Silence",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56008,7 +56008,7 @@ const ESO_SETS = [
           "id": 3255679152
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Night's Silence",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56016,7 +56016,7 @@ const ESO_SETS = [
           "id": 3283619413
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Night's Silence",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -56024,7 +56024,7 @@ const ESO_SETS = [
           "id": 202890236
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Night's Silence",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -56032,7 +56032,7 @@ const ESO_SETS = [
           "id": 3003911279
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Night's Silence",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56040,7 +56040,7 @@ const ESO_SETS = [
           "id": 2195210133
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Night's Silence",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56048,7 +56048,7 @@ const ESO_SETS = [
           "id": 2580755314
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Night's Silence",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56056,7 +56056,7 @@ const ESO_SETS = [
           "id": 1678944584
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Night's Silence",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56064,7 +56064,7 @@ const ESO_SETS = [
           "id": 3684299332
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Night's Silence",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56072,7 +56072,7 @@ const ESO_SETS = [
           "id": 3684299332
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Night's Silence",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56080,7 +56080,7 @@ const ESO_SETS = [
           "id": 3684299332
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Night's Silence",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56088,7 +56088,7 @@ const ESO_SETS = [
           "id": 3738288034
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Night's Silence",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -56096,7 +56096,7 @@ const ESO_SETS = [
           "id": 3684299332
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Night's Silence",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -56105,7 +56105,7 @@ const ESO_SETS = [
           "id": 2337753242
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Night's Silence",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -56114,7 +56114,7 @@ const ESO_SETS = [
           "id": 723935327
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Night's Silence",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -56123,7 +56123,7 @@ const ESO_SETS = [
           "id": 3762708138
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Night's Silence",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -56132,7 +56132,7 @@ const ESO_SETS = [
           "id": 3586316072
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Night's Silence",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -56141,16 +56141,16 @@ const ESO_SETS = [
           "id": 1048549917
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Night's Silence",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Night's Silence",
           "id": 290168408
         },
         {
-          "name": "Ring",
+          "name": "Ring of Night's Silence",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -56158,7 +56158,7 @@ const ESO_SETS = [
           "id": 1004565783
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Night's Silence",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -56167,7 +56167,7 @@ const ESO_SETS = [
           "id": 3054112859
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Night's Silence",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -56176,7 +56176,7 @@ const ESO_SETS = [
           "id": 1729908157
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Night's Silence",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -56185,7 +56185,7 @@ const ESO_SETS = [
           "id": 2575619051
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Night's Silence",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -56194,7 +56194,7 @@ const ESO_SETS = [
           "id": 3456789187
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Night's Silence",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -56203,7 +56203,7 @@ const ESO_SETS = [
           "id": 2538834502
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Night's Silence",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -56212,7 +56212,7 @@ const ESO_SETS = [
           "id": 3276530771
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Night's Silence",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -56220,7 +56220,7 @@ const ESO_SETS = [
           "id": 3782231586
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Night's Silence",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -56229,7 +56229,7 @@ const ESO_SETS = [
           "id": 652549500
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Night's Silence",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -56238,7 +56238,7 @@ const ESO_SETS = [
           "id": 2351810395
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Night's Silence",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -56247,7 +56247,7 @@ const ESO_SETS = [
           "id": 48741868
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Night's Silence",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -56256,7 +56256,7 @@ const ESO_SETS = [
           "id": 1319590279
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Night's Silence",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -56265,7 +56265,7 @@ const ESO_SETS = [
           "id": 1862468988
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Night's Silence",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -56274,7 +56274,7 @@ const ESO_SETS = [
           "id": 1065223447
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Night's Silence",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -56283,7 +56283,7 @@ const ESO_SETS = [
           "id": 377287758
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Night's Silence",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -56292,7 +56292,7 @@ const ESO_SETS = [
           "id": 2485297517
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Night's Silence",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -56884,7 +56884,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Noble's Conquest",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -56893,7 +56893,7 @@ const ESO_SETS = [
           "id": 664776029
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Noble's Conquest",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -56902,7 +56902,7 @@ const ESO_SETS = [
           "id": 1226073212
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Noble's Conquest",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -56911,7 +56911,7 @@ const ESO_SETS = [
           "id": 931976727
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Noble's Conquest",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -56920,7 +56920,7 @@ const ESO_SETS = [
           "id": 2940817495
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Noble's Conquest",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -56929,16 +56929,16 @@ const ESO_SETS = [
           "id": 2917361270
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Noble's Conquest",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Noble's Conquest",
           "id": 3981130693
         },
         {
-          "name": "Ring",
+          "name": "Ring of Noble's Conquest",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -56946,7 +56946,7 @@ const ESO_SETS = [
           "id": 2967378348
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Noble's Conquest",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -56955,7 +56955,7 @@ const ESO_SETS = [
           "id": 3767903934
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Noble's Conquest",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -56964,7 +56964,7 @@ const ESO_SETS = [
           "id": 467641400
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Noble's Conquest",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -56973,7 +56973,7 @@ const ESO_SETS = [
           "id": 135212872
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Noble's Conquest",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -56982,7 +56982,7 @@ const ESO_SETS = [
           "id": 2682281136
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Noble's Conquest",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -56991,7 +56991,7 @@ const ESO_SETS = [
           "id": 559406601
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Noble's Conquest",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -57000,7 +57000,7 @@ const ESO_SETS = [
           "id": 664115886
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Noble's Conquest",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -57008,7 +57008,7 @@ const ESO_SETS = [
           "id": 1577276753
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Noble's Conquest",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -57017,7 +57017,7 @@ const ESO_SETS = [
           "id": 1323858425
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Noble's Conquest",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -57026,7 +57026,7 @@ const ESO_SETS = [
           "id": 840450854
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Noble's Conquest",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -57035,7 +57035,7 @@ const ESO_SETS = [
           "id": 3352029859
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Noble's Conquest",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -57044,7 +57044,7 @@ const ESO_SETS = [
           "id": 2089453938
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Noble's Conquest",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -57053,7 +57053,7 @@ const ESO_SETS = [
           "id": 2225137153
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Noble's Conquest",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -57062,7 +57062,7 @@ const ESO_SETS = [
           "id": 3600454932
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Noble's Conquest",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -57071,7 +57071,7 @@ const ESO_SETS = [
           "id": 2079029227
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Noble's Conquest",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -57080,7 +57080,7 @@ const ESO_SETS = [
           "id": 3901680984
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Noble's Conquest",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -57089,7 +57089,7 @@ const ESO_SETS = [
           "id": 3462032837
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Noble's Conquest",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57097,7 +57097,7 @@ const ESO_SETS = [
           "id": 654902794
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Noble's Conquest",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57105,7 +57105,7 @@ const ESO_SETS = [
           "id": 423591075
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Noble's Conquest",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57113,7 +57113,7 @@ const ESO_SETS = [
           "id": 311502512
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Noble's Conquest",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57121,7 +57121,7 @@ const ESO_SETS = [
           "id": 2924685501
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Noble's Conquest",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -57129,7 +57129,7 @@ const ESO_SETS = [
           "id": 3547314936
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Noble's Conquest",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57137,7 +57137,7 @@ const ESO_SETS = [
           "id": 1331445848
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Noble's Conquest",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57145,7 +57145,7 @@ const ESO_SETS = [
           "id": 3155724945
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Noble's Conquest",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57153,7 +57153,7 @@ const ESO_SETS = [
           "id": 140894077
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Noble's Conquest",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57161,7 +57161,7 @@ const ESO_SETS = [
           "id": 3858722341
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Noble's Conquest",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57169,7 +57169,7 @@ const ESO_SETS = [
           "id": 3858722341
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Noble's Conquest",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57177,7 +57177,7 @@ const ESO_SETS = [
           "id": 3858722341
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Noble's Conquest",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57185,7 +57185,7 @@ const ESO_SETS = [
           "id": 4028350743
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Noble's Conquest",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57236,7 +57236,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Nocturnal's Favored Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -57245,7 +57245,7 @@ const ESO_SETS = [
           "id": 951771739
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Nocturnal's Favored Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -57254,7 +57254,7 @@ const ESO_SETS = [
           "id": 1786319506
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Nocturnal's Favored Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -57263,7 +57263,7 @@ const ESO_SETS = [
           "id": 646505885
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Nocturnal's Favored Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -57272,7 +57272,7 @@ const ESO_SETS = [
           "id": 3743701913
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Nocturnal's Favored Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -57281,16 +57281,16 @@ const ESO_SETS = [
           "id": 3487316400
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Nocturnal's Favored Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Nocturnal's Favor",
           "id": 3718550935
         },
         {
-          "name": "Ring",
+          "name": "Nocturnal's Favored Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -57298,7 +57298,7 @@ const ESO_SETS = [
           "id": 1464360890
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Nocturnal's Favored Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -57307,7 +57307,7 @@ const ESO_SETS = [
           "id": 3280005732
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Nocturnal's Favored Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -57316,7 +57316,7 @@ const ESO_SETS = [
           "id": 2063598158
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Nocturnal's Favored Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -57325,7 +57325,7 @@ const ESO_SETS = [
           "id": 1512940798
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Nocturnal's Favored Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -57334,7 +57334,7 @@ const ESO_SETS = [
           "id": 3719239914
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Nocturnal's Favored Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -57343,7 +57343,7 @@ const ESO_SETS = [
           "id": 3873996107
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Nocturnal's Favored Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -57352,7 +57352,7 @@ const ESO_SETS = [
           "id": 3290039024
         },
         {
-          "name": "Necklace",
+          "name": "Nocturnal's Favored Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -57360,7 +57360,7 @@ const ESO_SETS = [
           "id": 2050732319
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Nocturnal's Favored Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -57369,7 +57369,7 @@ const ESO_SETS = [
           "id": 4062663759
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Nocturnal's Favored Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -57378,7 +57378,7 @@ const ESO_SETS = [
           "id": 4087730756
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Nocturnal's Favored Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -57387,7 +57387,7 @@ const ESO_SETS = [
           "id": 86649145
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Nocturnal's Favored Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -57396,7 +57396,7 @@ const ESO_SETS = [
           "id": 1256319032
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Nocturnal's Favored Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -57405,7 +57405,7 @@ const ESO_SETS = [
           "id": 111156671
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Nocturnal's Favored Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -57414,7 +57414,7 @@ const ESO_SETS = [
           "id": 4283782066
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Nocturnal's Favored Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -57423,7 +57423,7 @@ const ESO_SETS = [
           "id": 3123942033
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Nocturnal's Favored Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -57432,7 +57432,7 @@ const ESO_SETS = [
           "id": 2534775494
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Nocturnal's Favored Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -57441,7 +57441,7 @@ const ESO_SETS = [
           "id": 4052533035
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Nocturnal's Favored Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57449,7 +57449,7 @@ const ESO_SETS = [
           "id": 3823910600
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Nocturnal's Favored Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57457,7 +57457,7 @@ const ESO_SETS = [
           "id": 653290913
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Nocturnal's Favored Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57465,7 +57465,7 @@ const ESO_SETS = [
           "id": 877406214
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Nocturnal's Favored Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57473,7 +57473,7 @@ const ESO_SETS = [
           "id": 3588120155
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Nocturnal's Favored Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -57481,7 +57481,7 @@ const ESO_SETS = [
           "id": 123741718
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Nocturnal's Favored Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57489,7 +57489,7 @@ const ESO_SETS = [
           "id": 1780993370
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Nocturnal's Favored Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57497,7 +57497,7 @@ const ESO_SETS = [
           "id": 3639259043
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Nocturnal's Favored Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57505,7 +57505,7 @@ const ESO_SETS = [
           "id": 2984410335
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Nocturnal's Favored Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57513,7 +57513,7 @@ const ESO_SETS = [
           "id": 3707157551
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Nocturnal's Favored Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57521,7 +57521,7 @@ const ESO_SETS = [
           "id": 3707157551
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Nocturnal's Favored Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57529,7 +57529,7 @@ const ESO_SETS = [
           "id": 3707157551
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Nocturnal's Favored Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57537,7 +57537,7 @@ const ESO_SETS = [
           "id": 1664552585
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Nocturnal's Favored Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57822,7 +57822,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Oblivion's Foe",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57830,7 +57830,7 @@ const ESO_SETS = [
           "id": 602734316
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Oblivion's Foe",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57838,7 +57838,7 @@ const ESO_SETS = [
           "id": 2299140061
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Oblivion's Foe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57846,7 +57846,7 @@ const ESO_SETS = [
           "id": 2763829362
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Oblivion's Foe",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -57854,7 +57854,7 @@ const ESO_SETS = [
           "id": 1182068439
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Oblivion's Foe",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -57862,7 +57862,7 @@ const ESO_SETS = [
           "id": 965011258
         },
         {
-          "name": "Redguard Greatsword 4",
+          "name": "Greatsword of Oblivion's Foe",
           "image": "gear_redguard_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57870,7 +57870,7 @@ const ESO_SETS = [
           "id": 1003614650
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Oblivion's Foe",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57878,7 +57878,7 @@ const ESO_SETS = [
           "id": 3820054183
         },
         {
-          "name": "Nord Battle Axe 4",
+          "name": "Battle Axe of Oblivion's Foe",
           "image": "gear_nord_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57886,7 +57886,7 @@ const ESO_SETS = [
           "id": 2088704406
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Oblivion's Foe",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57894,7 +57894,7 @@ const ESO_SETS = [
           "id": 861755915
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Oblivion's Foe",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57902,7 +57902,7 @@ const ESO_SETS = [
           "id": 861755915
         },
         {
-          "name": "Healing Staff",
+          "name": "Ice Staff of Oblivion's Foe",
           "image": "quest_wand_002.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57910,7 +57910,7 @@ const ESO_SETS = [
           "id": 1978319033
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Oblivion's Foe",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57918,7 +57918,7 @@ const ESO_SETS = [
           "id": 1940760973
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Oblivion's Foe",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -57926,7 +57926,7 @@ const ESO_SETS = [
           "id": 861755915
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Oblivion's Foe",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -57935,7 +57935,7 @@ const ESO_SETS = [
           "id": 1120203103
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Oblivion's Foe",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -57944,7 +57944,7 @@ const ESO_SETS = [
           "id": 1017850574
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Oblivion's Foe",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -57953,7 +57953,7 @@ const ESO_SETS = [
           "id": 3619799665
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Oblivion's Foe",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -57962,7 +57962,7 @@ const ESO_SETS = [
           "id": 1444817693
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Oblivion's Foe",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -57971,16 +57971,16 @@ const ESO_SETS = [
           "id": 1194775068
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Oblivion's Foe",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Oblivion's Foe",
           "id": 1187928875
         },
         {
-          "name": "Ring",
+          "name": "Ring of Oblivion's Foe",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -57988,7 +57988,7 @@ const ESO_SETS = [
           "id": 978091822
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Oblivion's Foe",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -57997,7 +57997,7 @@ const ESO_SETS = [
           "id": 1204510032
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Oblivion's Foe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -58006,7 +58006,7 @@ const ESO_SETS = [
           "id": 2727726522
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Oblivion's Foe",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -58015,7 +58015,7 @@ const ESO_SETS = [
           "id": 3061827338
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Oblivion's Foe",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -58024,7 +58024,7 @@ const ESO_SETS = [
           "id": 2935102278
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Oblivion's Foe",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -58033,7 +58033,7 @@ const ESO_SETS = [
           "id": 422569135
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Oblivion's Foe",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -58042,7 +58042,7 @@ const ESO_SETS = [
           "id": 291509708
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Oblivion's Foe",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -58050,7 +58050,7 @@ const ESO_SETS = [
           "id": 3358619587
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Oblivion's Foe",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -58059,7 +58059,7 @@ const ESO_SETS = [
           "id": 3133934171
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Oblivion's Foe",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -58068,7 +58068,7 @@ const ESO_SETS = [
           "id": 1025767256
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Oblivion's Foe",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -58077,7 +58077,7 @@ const ESO_SETS = [
           "id": 1449691317
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Oblivion's Foe",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -58086,7 +58086,7 @@ const ESO_SETS = [
           "id": 4261574780
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Oblivion's Foe",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -58095,7 +58095,7 @@ const ESO_SETS = [
           "id": 3481203339
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Oblivion's Foe",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -58104,7 +58104,7 @@ const ESO_SETS = [
           "id": 4061704774
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Oblivion's Foe",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -58113,7 +58113,7 @@ const ESO_SETS = [
           "id": 3267421293
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Oblivion's Foe",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -58122,7 +58122,7 @@ const ESO_SETS = [
           "id": 3990076602
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Oblivion's Foe",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -58410,7 +58410,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Orgnum's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -58418,7 +58418,7 @@ const ESO_SETS = [
           "id": 1051871239
         },
         {
-          "name": "Akaviri Sword 3",
+          "name": "Orgnum's Sword",
           "image": "gear_akaviri_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58426,7 +58426,7 @@ const ESO_SETS = [
           "id": 2070434888
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Orgnum's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58434,7 +58434,7 @@ const ESO_SETS = [
           "id": 146580964
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Orgnum's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58442,7 +58442,7 @@ const ESO_SETS = [
           "id": 3208124205
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Orgnum's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -58450,7 +58450,7 @@ const ESO_SETS = [
           "id": 83428513
         },
         {
-          "name": "Akaviri Greatsword 3",
+          "name": "Orgnum's Greatsword",
           "image": "gear_akaviri_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58458,7 +58458,7 @@ const ESO_SETS = [
           "id": 3678906093
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Orgnum's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58466,7 +58466,7 @@ const ESO_SETS = [
           "id": 2975074906
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Orgnum's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58474,7 +58474,7 @@ const ESO_SETS = [
           "id": 640556192
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Orgnum's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58482,7 +58482,7 @@ const ESO_SETS = [
           "id": 1547392284
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Orgnum's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58490,7 +58490,7 @@ const ESO_SETS = [
           "id": 1547392284
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Orgnum's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58498,7 +58498,7 @@ const ESO_SETS = [
           "id": 1547392284
         },
         {
-          "name": "Akaviri Bow 3",
+          "name": "Orgnum's Bow",
           "image": "gear_akaviri_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58506,7 +58506,7 @@ const ESO_SETS = [
           "id": 1533521262
         },
         {
-          "name": "Akaviri Staff 3",
+          "name": "Orgnum's Lightning Staff",
           "image": "gear_akaviri_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -58514,7 +58514,7 @@ const ESO_SETS = [
           "id": 2142778288
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Orgnum's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -58523,7 +58523,7 @@ const ESO_SETS = [
           "id": 1885588818
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Orgnum's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -58532,7 +58532,7 @@ const ESO_SETS = [
           "id": 3250888263
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Orgnum's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -58541,7 +58541,7 @@ const ESO_SETS = [
           "id": 781011042
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Orgnum's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -58550,7 +58550,7 @@ const ESO_SETS = [
           "id": 2098219632
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Orgnum's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -58559,16 +58559,16 @@ const ESO_SETS = [
           "id": 3632336917
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Orgnum's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Orgnum's Scales",
           "id": 1835943200
         },
         {
-          "name": "Ring",
+          "name": "Orgnum's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -58576,7 +58576,7 @@ const ESO_SETS = [
           "id": 1956097631
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Orgnum's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -58585,7 +58585,7 @@ const ESO_SETS = [
           "id": 2000169747
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Orgnum's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -58594,7 +58594,7 @@ const ESO_SETS = [
           "id": 1782626517
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Orgnum's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -58603,7 +58603,7 @@ const ESO_SETS = [
           "id": 2293393379
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Orgnum's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -58612,7 +58612,7 @@ const ESO_SETS = [
           "id": 2276469003
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Orgnum's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -58621,7 +58621,7 @@ const ESO_SETS = [
           "id": 1112999006
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Orgnum's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -58630,7 +58630,7 @@ const ESO_SETS = [
           "id": 1942200795
         },
         {
-          "name": "Necklace",
+          "name": "Orgnum's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -58638,7 +58638,7 @@ const ESO_SETS = [
           "id": 3216164682
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Orgnum's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -58647,7 +58647,7 @@ const ESO_SETS = [
           "id": 1330455300
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Orgnum's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -58656,7 +58656,7 @@ const ESO_SETS = [
           "id": 1339481971
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Orgnum's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -58665,7 +58665,7 @@ const ESO_SETS = [
           "id": 840696052
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Orgnum's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -58674,7 +58674,7 @@ const ESO_SETS = [
           "id": 2319202431
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Orgnum's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -58683,7 +58683,7 @@ const ESO_SETS = [
           "id": 2223866436
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Orgnum's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -58692,7 +58692,7 @@ const ESO_SETS = [
           "id": 498436431
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Orgnum's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -58701,7 +58701,7 @@ const ESO_SETS = [
           "id": 204481670
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Orgnum's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -58710,7 +58710,7 @@ const ESO_SETS = [
           "id": 520276437
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Orgnum's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -59250,7 +59250,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Pelinal's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -59259,7 +59259,7 @@ const ESO_SETS = [
           "id": 2808823876
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Pelinal's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -59268,7 +59268,7 @@ const ESO_SETS = [
           "id": 438209337
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Pelinal's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -59277,7 +59277,7 @@ const ESO_SETS = [
           "id": 3149236596
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Pelinal's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -59286,7 +59286,7 @@ const ESO_SETS = [
           "id": 2004144014
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Pelinal's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -59295,16 +59295,16 @@ const ESO_SETS = [
           "id": 2017359267
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Pelinal's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Pelinal's Wrath",
           "id": 1291917662
         },
         {
-          "name": "Ring",
+          "name": "Pelinal's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -59312,7 +59312,7 @@ const ESO_SETS = [
           "id": 923420561
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Pelinal's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -59321,7 +59321,7 @@ const ESO_SETS = [
           "id": 3380442157
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Pelinal's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -59330,7 +59330,7 @@ const ESO_SETS = [
           "id": 1954109527
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Pelinal's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -59339,7 +59339,7 @@ const ESO_SETS = [
           "id": 1927301149
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Pelinal's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -59348,7 +59348,7 @@ const ESO_SETS = [
           "id": 393378273
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Pelinal's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -59357,7 +59357,7 @@ const ESO_SETS = [
           "id": 3043923364
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Pelinal's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -59366,7 +59366,7 @@ const ESO_SETS = [
           "id": 904960209
         },
         {
-          "name": "Necklace",
+          "name": "Pelinal's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -59374,7 +59374,7 @@ const ESO_SETS = [
           "id": 3496425356
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Pelinal's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -59383,7 +59383,7 @@ const ESO_SETS = [
           "id": 2721626910
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Pelinal's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -59392,7 +59392,7 @@ const ESO_SETS = [
           "id": 30269133
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Pelinal's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -59401,7 +59401,7 @@ const ESO_SETS = [
           "id": 1830857134
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pelinal's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -59410,7 +59410,7 @@ const ESO_SETS = [
           "id": 2745613737
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Pelinal's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -59419,7 +59419,7 @@ const ESO_SETS = [
           "id": 2742838478
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Pelinal's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -59428,7 +59428,7 @@ const ESO_SETS = [
           "id": 3988632985
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Pelinal's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -59437,7 +59437,7 @@ const ESO_SETS = [
           "id": 93294560
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Pelinal's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -59446,7 +59446,7 @@ const ESO_SETS = [
           "id": 1655190047
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Pelinal's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -59455,7 +59455,7 @@ const ESO_SETS = [
           "id": 3585377776
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Pelinal's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -59463,7 +59463,7 @@ const ESO_SETS = [
           "id": 1271010555
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Pelinal's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -59471,7 +59471,7 @@ const ESO_SETS = [
           "id": 3452475190
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Pelinal's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -59479,7 +59479,7 @@ const ESO_SETS = [
           "id": 1360917991
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Pelinal's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -59487,7 +59487,7 @@ const ESO_SETS = [
           "id": 2935166274
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Pelinal's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -59495,7 +59495,7 @@ const ESO_SETS = [
           "id": 653636001
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Pelinal's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59503,7 +59503,7 @@ const ESO_SETS = [
           "id": 3561541571
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Pelinal's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59511,7 +59511,7 @@ const ESO_SETS = [
           "id": 758788160
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Pelinal's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59519,7 +59519,7 @@ const ESO_SETS = [
           "id": 3005556782
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Pelinal's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59527,7 +59527,7 @@ const ESO_SETS = [
           "id": 44055738
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Pelinal's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59535,7 +59535,7 @@ const ESO_SETS = [
           "id": 44055738
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Pelinal's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59543,7 +59543,7 @@ const ESO_SETS = [
           "id": 44055738
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Pelinal's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -59551,7 +59551,7 @@ const ESO_SETS = [
           "id": 3373420232
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Pelinal's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69564,7 +69564,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Red Eagle's Fury",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -69572,7 +69572,7 @@ const ESO_SETS = [
           "id": 2061686837
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Red Eagle's Fury",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69580,7 +69580,7 @@ const ESO_SETS = [
           "id": 1379018851
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Red Eagle's Fury",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69588,7 +69588,7 @@ const ESO_SETS = [
           "id": 460336498
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Red Eagle's Fury",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69596,7 +69596,7 @@ const ESO_SETS = [
           "id": 1640935071
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Red Eagle's Fury",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -69604,7 +69604,7 @@ const ESO_SETS = [
           "id": 1597415966
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Red Eagle's Fury",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69612,7 +69612,7 @@ const ESO_SETS = [
           "id": 435689882
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Red Eagle's Fury",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69620,7 +69620,7 @@ const ESO_SETS = [
           "id": 3860228470
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Red Eagle's Fury",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69628,7 +69628,7 @@ const ESO_SETS = [
           "id": 3860228470
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Red Eagle's Fury",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69636,7 +69636,7 @@ const ESO_SETS = [
           "id": 592640644
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Red Eagle's Fury",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69644,7 +69644,7 @@ const ESO_SETS = [
           "id": 3860228470
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Red Eagle's Fury",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69652,7 +69652,7 @@ const ESO_SETS = [
           "id": 3021665852
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Red Eagle's Fury",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69660,7 +69660,7 @@ const ESO_SETS = [
           "id": 1201062111
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Red Eagle's Fury",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -69668,7 +69668,7 @@ const ESO_SETS = [
           "id": 3860228470
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Red Eagle's Fury",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -69677,7 +69677,7 @@ const ESO_SETS = [
           "id": 2252377893
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Red Eagle's Fury",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -69686,7 +69686,7 @@ const ESO_SETS = [
           "id": 906999128
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Red Eagle's Fury",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -69695,7 +69695,7 @@ const ESO_SETS = [
           "id": 159086776
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Red Eagle's Fury",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -69704,7 +69704,7 @@ const ESO_SETS = [
           "id": 2977639827
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Red Eagle's Fury",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -69713,7 +69713,7 @@ const ESO_SETS = [
           "id": 2566068652
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Red Eagle's Fury",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -69722,7 +69722,7 @@ const ESO_SETS = [
           "id": 531809548
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Red Eagle's Fury",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -69731,7 +69731,7 @@ const ESO_SETS = [
           "id": 1487863185
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Red Eagle's Fury",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -69740,7 +69740,7 @@ const ESO_SETS = [
           "id": 3623985578
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Red Eagle's Fury",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -69749,7 +69749,7 @@ const ESO_SETS = [
           "id": 3333215626
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Red Eagle's Fury",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -69758,7 +69758,7 @@ const ESO_SETS = [
           "id": 406243130
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Red Eagle's Fury",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -69767,7 +69767,7 @@ const ESO_SETS = [
           "id": 3713734525
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Red Eagle's Fury",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -69776,7 +69776,7 @@ const ESO_SETS = [
           "id": 2934646237
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Red Eagle's Fury",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -69785,7 +69785,7 @@ const ESO_SETS = [
           "id": 2436510408
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Red Eagle's Fury",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -69794,7 +69794,7 @@ const ESO_SETS = [
           "id": 2137989869
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Red Eagle's Fury",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -69803,7 +69803,7 @@ const ESO_SETS = [
           "id": 1277814605
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Red Eagle's Fury",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -69811,7 +69811,7 @@ const ESO_SETS = [
           "id": 1380944912
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Red Eagle's Fury",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -69820,7 +69820,7 @@ const ESO_SETS = [
           "id": 2747689091
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Red Eagle's Fury",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -69829,7 +69829,7 @@ const ESO_SETS = [
           "id": 1998932953
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Red Eagle's Fury",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -69838,7 +69838,7 @@ const ESO_SETS = [
           "id": 3803661369
         },
         {
-          "name": "Ring",
+          "name": "Ring of Red Eagle's Fury",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -69846,7 +69846,7 @@ const ESO_SETS = [
           "id": 732437541
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Red Eagle's Fury",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -69855,16 +69855,16 @@ const ESO_SETS = [
           "id": 2482584015
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Red Eagle's Fury",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Red Eagle's Fury",
           "id": 2521264514
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Red Eagle's Fury",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -69916,7 +69916,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Redistributor's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -69925,7 +69925,7 @@ const ESO_SETS = [
           "id": 937499057
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Redistributor's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -69934,7 +69934,7 @@ const ESO_SETS = [
           "id": 2688522040
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Redistributor's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -69943,7 +69943,7 @@ const ESO_SETS = [
           "id": 942678411
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Redistributor's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -69952,7 +69952,7 @@ const ESO_SETS = [
           "id": 2639527787
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Redistributor's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -69961,16 +69961,16 @@ const ESO_SETS = [
           "id": 3465170018
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Redistributor's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Redistributor",
           "id": 1692593513
         },
         {
-          "name": "Ring",
+          "name": "Redistributor's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -69978,7 +69978,7 @@ const ESO_SETS = [
           "id": 4050951440
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Redistributor's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -69987,7 +69987,7 @@ const ESO_SETS = [
           "id": 2466873162
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Redistributor's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -69996,7 +69996,7 @@ const ESO_SETS = [
           "id": 34804116
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Redistributor's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -70005,7 +70005,7 @@ const ESO_SETS = [
           "id": 2628134484
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Redistributor's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -70014,7 +70014,7 @@ const ESO_SETS = [
           "id": 1856548620
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Redistributor's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -70023,7 +70023,7 @@ const ESO_SETS = [
           "id": 3807249869
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Redistributor's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -70032,7 +70032,7 @@ const ESO_SETS = [
           "id": 1859743770
         },
         {
-          "name": "Necklace",
+          "name": "Redistributor's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -70040,7 +70040,7 @@ const ESO_SETS = [
           "id": 56655141
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Redistributor's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -70049,7 +70049,7 @@ const ESO_SETS = [
           "id": 879557621
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Redistributor's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -70058,7 +70058,7 @@ const ESO_SETS = [
           "id": 2640894218
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Redistributor's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -70067,7 +70067,7 @@ const ESO_SETS = [
           "id": 3049558175
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Redistributor's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -70076,7 +70076,7 @@ const ESO_SETS = [
           "id": 145302406
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Redistributor's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -70085,7 +70085,7 @@ const ESO_SETS = [
           "id": 3494109533
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Redistributor's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -70094,7 +70094,7 @@ const ESO_SETS = [
           "id": 3811148136
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Redistributor's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -70103,7 +70103,7 @@ const ESO_SETS = [
           "id": 4112288151
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Redistributor's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -70112,7 +70112,7 @@ const ESO_SETS = [
           "id": 4134455436
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Redistributor's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -70121,7 +70121,7 @@ const ESO_SETS = [
           "id": 2658340897
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Redistributor's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -70129,7 +70129,7 @@ const ESO_SETS = [
           "id": 530895326
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Redistributor's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -70137,7 +70137,7 @@ const ESO_SETS = [
           "id": 3754731311
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Redistributor's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -70145,7 +70145,7 @@ const ESO_SETS = [
           "id": 424905900
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Redistributor's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -70153,7 +70153,7 @@ const ESO_SETS = [
           "id": 2345160793
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Redistributor's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -70161,7 +70161,7 @@ const ESO_SETS = [
           "id": 3582708828
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Redistributor's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70169,7 +70169,7 @@ const ESO_SETS = [
           "id": 429584436
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Redistributor's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70177,7 +70177,7 @@ const ESO_SETS = [
           "id": 162665077
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Redistributor's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70185,7 +70185,7 @@ const ESO_SETS = [
           "id": 3114383721
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Redistributor's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70193,7 +70193,7 @@ const ESO_SETS = [
           "id": 810840081
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Redistributor's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70201,7 +70201,7 @@ const ESO_SETS = [
           "id": 810840081
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Redistributor's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70209,7 +70209,7 @@ const ESO_SETS = [
           "id": 810840081
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Redistributor's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -70217,7 +70217,7 @@ const ESO_SETS = [
           "id": 4148921963
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Redistributor's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -74718,7 +74718,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Senche-Raht's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -74727,7 +74727,7 @@ const ESO_SETS = [
           "id": 300247189
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Senche-Raht's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -74736,7 +74736,7 @@ const ESO_SETS = [
           "id": 3696028580
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Senche-Raht's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -74745,7 +74745,7 @@ const ESO_SETS = [
           "id": 2260157551
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Senche-Raht's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -74754,7 +74754,7 @@ const ESO_SETS = [
           "id": 1661559199
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Senche-Raht's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -74763,16 +74763,16 @@ const ESO_SETS = [
           "id": 476316142
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Senche-Raht's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Senche-Raht's Grit",
           "id": 2888362381
         },
         {
-          "name": "Ring",
+          "name": "Senche-Raht's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -74780,7 +74780,7 @@ const ESO_SETS = [
           "id": 1099143636
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Senche-Raht's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -74789,7 +74789,7 @@ const ESO_SETS = [
           "id": 3793097622
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Senche-Raht's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -74798,7 +74798,7 @@ const ESO_SETS = [
           "id": 3127429200
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Senche-Raht's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -74807,7 +74807,7 @@ const ESO_SETS = [
           "id": 2378269728
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Senche-Raht's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -74816,7 +74816,7 @@ const ESO_SETS = [
           "id": 3139260984
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Senche-Raht's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -74825,7 +74825,7 @@ const ESO_SETS = [
           "id": 855761985
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Senche-Raht's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -74834,7 +74834,7 @@ const ESO_SETS = [
           "id": 338538070
         },
         {
-          "name": "Necklace",
+          "name": "Senche-Raht's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -74842,7 +74842,7 @@ const ESO_SETS = [
           "id": 2944218521
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Senche-Raht's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -74851,7 +74851,7 @@ const ESO_SETS = [
           "id": 3542640801
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Senche-Raht's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -74860,7 +74860,7 @@ const ESO_SETS = [
           "id": 4106393854
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Senche-Raht's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -74869,7 +74869,7 @@ const ESO_SETS = [
           "id": 3937889099
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Senche-Raht's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -74878,7 +74878,7 @@ const ESO_SETS = [
           "id": 238243050
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Senche-Raht's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -74887,7 +74887,7 @@ const ESO_SETS = [
           "id": 683955849
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Senche-Raht's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -74896,7 +74896,7 @@ const ESO_SETS = [
           "id": 2109819660
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Senche-Raht's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -74905,7 +74905,7 @@ const ESO_SETS = [
           "id": 2121088099
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Senche-Raht's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -74914,7 +74914,7 @@ const ESO_SETS = [
           "id": 1362019264
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Senche-Raht's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -74923,7 +74923,7 @@ const ESO_SETS = [
           "id": 3913499869
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Senche-Raht's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -74931,7 +74931,7 @@ const ESO_SETS = [
           "id": 2185941138
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Senche-Raht's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -74939,7 +74939,7 @@ const ESO_SETS = [
           "id": 3792994027
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Senche-Raht's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -74947,7 +74947,7 @@ const ESO_SETS = [
           "id": 4062208232
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Senche-Raht's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -74955,7 +74955,7 @@ const ESO_SETS = [
           "id": 4249540789
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Senche-Raht's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -74963,7 +74963,7 @@ const ESO_SETS = [
           "id": 3368148144
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Senche-Raht's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -74971,7 +74971,7 @@ const ESO_SETS = [
           "id": 438865872
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Senche-Raht's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -74979,7 +74979,7 @@ const ESO_SETS = [
           "id": 1660694073
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Senche-Raht's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -74987,7 +74987,7 @@ const ESO_SETS = [
           "id": 505500277
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Senche-Raht's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -74995,7 +74995,7 @@ const ESO_SETS = [
           "id": 2925326717
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Senche-Raht's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75003,7 +75003,7 @@ const ESO_SETS = [
           "id": 2925326717
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Senche-Raht's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75011,7 +75011,7 @@ const ESO_SETS = [
           "id": 2925326717
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Senche-Raht's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75019,7 +75019,7 @@ const ESO_SETS = [
           "id": 2718882079
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Senche-Raht's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -75850,7 +75850,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Shacklebreaker Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -75859,7 +75859,7 @@ const ESO_SETS = [
           "id": 567949054
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shacklebreaker Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -75868,7 +75868,7 @@ const ESO_SETS = [
           "id": 3415029515
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Shacklebreaker Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -75877,7 +75877,7 @@ const ESO_SETS = [
           "id": 1976856814
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Shacklebreaker Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -75886,7 +75886,7 @@ const ESO_SETS = [
           "id": 1461812396
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Shacklebreaker Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -75895,16 +75895,16 @@ const ESO_SETS = [
           "id": 4164944617
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Shacklebreaker Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Shacklebreaker",
           "id": 578606652
         },
         {
-          "name": "Ring",
+          "name": "Shacklebreaker Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -75912,7 +75912,7 @@ const ESO_SETS = [
           "id": 270204203
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Shacklebreaker Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -75921,7 +75921,7 @@ const ESO_SETS = [
           "id": 3295058519
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Shacklebreaker Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -75930,7 +75930,7 @@ const ESO_SETS = [
           "id": 736091625
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Shacklebreaker Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -75939,7 +75939,7 @@ const ESO_SETS = [
           "id": 1972643079
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Shacklebreaker Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -75948,7 +75948,7 @@ const ESO_SETS = [
           "id": 783919263
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Shacklebreaker Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -75957,7 +75957,7 @@ const ESO_SETS = [
           "id": 37127578
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Shacklebreaker Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -75966,7 +75966,7 @@ const ESO_SETS = [
           "id": 1583042767
         },
         {
-          "name": "Necklace",
+          "name": "Shacklebreaker Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -75974,7 +75974,7 @@ const ESO_SETS = [
           "id": 2231111910
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Shacklebreaker Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -75983,7 +75983,7 @@ const ESO_SETS = [
           "id": 2883991080
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Shacklebreaker Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -75992,7 +75992,7 @@ const ESO_SETS = [
           "id": 827156767
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Shacklebreaker Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -76001,7 +76001,7 @@ const ESO_SETS = [
           "id": 454305400
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Shacklebreaker Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -76010,7 +76010,7 @@ const ESO_SETS = [
           "id": 599037691
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Shacklebreaker Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -76019,7 +76019,7 @@ const ESO_SETS = [
           "id": 4203176424
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Shacklebreaker Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -76028,7 +76028,7 @@ const ESO_SETS = [
           "id": 133486123
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Shacklebreaker Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -76037,7 +76037,7 @@ const ESO_SETS = [
           "id": 4020916362
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Shacklebreaker Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -76046,7 +76046,7 @@ const ESO_SETS = [
           "id": 435939489
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Shacklebreaker Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -76055,7 +76055,7 @@ const ESO_SETS = [
           "id": 3351504986
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Shacklebreaker Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76063,7 +76063,7 @@ const ESO_SETS = [
           "id": 3137060317
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Shacklebreaker Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76071,7 +76071,7 @@ const ESO_SETS = [
           "id": 2460002616
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Shacklebreaker Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76079,7 +76079,7 @@ const ESO_SETS = [
           "id": 426162241
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Shacklebreaker Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -76087,7 +76087,7 @@ const ESO_SETS = [
           "id": 2802598316
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shacklebreaker Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -76095,7 +76095,7 @@ const ESO_SETS = [
           "id": 3607870931
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Shacklebreaker Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76103,7 +76103,7 @@ const ESO_SETS = [
           "id": 1242233809
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Shacklebreaker Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76111,7 +76111,7 @@ const ESO_SETS = [
           "id": 1846543206
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Shacklebreaker Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76119,7 +76119,7 @@ const ESO_SETS = [
           "id": 1510340004
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shacklebreaker Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76127,7 +76127,7 @@ const ESO_SETS = [
           "id": 1258516144
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shacklebreaker Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76135,7 +76135,7 @@ const ESO_SETS = [
           "id": 1258516144
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shacklebreaker Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76143,7 +76143,7 @@ const ESO_SETS = [
           "id": 1258516144
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Shacklebreaker Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76151,7 +76151,7 @@ const ESO_SETS = [
           "id": 1842061990
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shacklebreaker Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -76974,7 +76974,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Shalidor's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -76983,7 +76983,7 @@ const ESO_SETS = [
           "id": 618494523
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shalidor's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -76992,7 +76992,7 @@ const ESO_SETS = [
           "id": 1443671026
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Shalidor's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -77001,7 +77001,7 @@ const ESO_SETS = [
           "id": 299377277
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Shalidor's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -77010,7 +77010,7 @@ const ESO_SETS = [
           "id": 3963164281
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Shalidor's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -77019,16 +77019,16 @@ const ESO_SETS = [
           "id": 2801916560
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Shalidor's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Shalidor's Curse",
           "id": 3541177975
         },
         {
-          "name": "Ring",
+          "name": "Shalidor's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -77036,7 +77036,7 @@ const ESO_SETS = [
           "id": 3979843930
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Shalidor's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -77045,7 +77045,7 @@ const ESO_SETS = [
           "id": 263988420
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Shalidor's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -77054,7 +77054,7 @@ const ESO_SETS = [
           "id": 2179446574
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Shalidor's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -77063,7 +77063,7 @@ const ESO_SETS = [
           "id": 1465797726
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Shalidor's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -77072,7 +77072,7 @@ const ESO_SETS = [
           "id": 3014797386
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Shalidor's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -77081,7 +77081,7 @@ const ESO_SETS = [
           "id": 908979115
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Shalidor's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -77090,7 +77090,7 @@ const ESO_SETS = [
           "id": 2207017552
         },
         {
-          "name": "Necklace",
+          "name": "Shalidor's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -77098,7 +77098,7 @@ const ESO_SETS = [
           "id": 3473511999
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Shalidor's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -77107,7 +77107,7 @@ const ESO_SETS = [
           "id": 3349416111
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Shalidor's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -77116,7 +77116,7 @@ const ESO_SETS = [
           "id": 3984613412
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Shalidor's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -77125,7 +77125,7 @@ const ESO_SETS = [
           "id": 1966925209
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Shalidor's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -77134,7 +77134,7 @@ const ESO_SETS = [
           "id": 3006548504
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Shalidor's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -77143,7 +77143,7 @@ const ESO_SETS = [
           "id": 1821085855
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Shalidor's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -77152,7 +77152,7 @@ const ESO_SETS = [
           "id": 1774213138
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Shalidor's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -77161,7 +77161,7 @@ const ESO_SETS = [
           "id": 2496646257
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Shalidor's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -77170,7 +77170,7 @@ const ESO_SETS = [
           "id": 4043728294
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Shalidor's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -77179,7 +77179,7 @@ const ESO_SETS = [
           "id": 1060452235
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Shalidor's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77187,7 +77187,7 @@ const ESO_SETS = [
           "id": 1702765544
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Shalidor's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77195,7 +77195,7 @@ const ESO_SETS = [
           "id": 3878029889
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Shalidor's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77203,7 +77203,7 @@ const ESO_SETS = [
           "id": 2657404070
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Shalidor's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -77211,7 +77211,7 @@ const ESO_SETS = [
           "id": 2669588475
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shalidor's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -77219,7 +77219,7 @@ const ESO_SETS = [
           "id": 2217183670
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Shalidor's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77227,7 +77227,7 @@ const ESO_SETS = [
           "id": 1141138115
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Shalidor's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77235,7 +77235,7 @@ const ESO_SETS = [
           "id": 1701741306
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Shalidor's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77243,7 +77243,7 @@ const ESO_SETS = [
           "id": 908493951
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shalidor's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77251,7 +77251,7 @@ const ESO_SETS = [
           "id": 553128271
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shalidor's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77259,7 +77259,7 @@ const ESO_SETS = [
           "id": 553128271
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Shalidor's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77267,7 +77267,7 @@ const ESO_SETS = [
           "id": 553128271
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Shalidor's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -77275,7 +77275,7 @@ const ESO_SETS = [
           "id": 1656739241
         },
         {
-          "name": "Nord Staff 4",
+          "name": "Shalidor's Lightning Staff",
           "image": "gear_nord_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79628,7 +79628,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sload's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -79637,7 +79637,7 @@ const ESO_SETS = [
           "id": 98233880
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Sload's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -79646,7 +79646,7 @@ const ESO_SETS = [
           "id": 1613715077
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Sload's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -79655,7 +79655,7 @@ const ESO_SETS = [
           "id": 1294386104
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Sload's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -79664,7 +79664,7 @@ const ESO_SETS = [
           "id": 378557762
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Sload's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -79673,16 +79673,16 @@ const ESO_SETS = [
           "id": 2013722287
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Sload's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Sload's Semblance",
           "id": 2071034082
         },
         {
-          "name": "Ring",
+          "name": "Sload's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -79690,7 +79690,7 @@ const ESO_SETS = [
           "id": 1692952645
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Sload's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -79699,7 +79699,7 @@ const ESO_SETS = [
           "id": 996664217
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Sload's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -79708,7 +79708,7 @@ const ESO_SETS = [
           "id": 1309620195
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Sload's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -79717,7 +79717,7 @@ const ESO_SETS = [
           "id": 1767789881
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Sload's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -79726,7 +79726,7 @@ const ESO_SETS = [
           "id": 2859270573
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Sload's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -79735,7 +79735,7 @@ const ESO_SETS = [
           "id": 3908112040
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Sload's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -79744,7 +79744,7 @@ const ESO_SETS = [
           "id": 2413113933
         },
         {
-          "name": "Necklace",
+          "name": "Sload's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -79752,7 +79752,7 @@ const ESO_SETS = [
           "id": 214542512
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Sload's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -79761,7 +79761,7 @@ const ESO_SETS = [
           "id": 1438685546
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Sload's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -79770,7 +79770,7 @@ const ESO_SETS = [
           "id": 1641564273
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Sload's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -79779,7 +79779,7 @@ const ESO_SETS = [
           "id": 1297344138
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Sload's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -79788,7 +79788,7 @@ const ESO_SETS = [
           "id": 430525757
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Sload's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -79797,7 +79797,7 @@ const ESO_SETS = [
           "id": 2320311194
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Sload's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -79806,7 +79806,7 @@ const ESO_SETS = [
           "id": 2838644445
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Sload's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -79815,7 +79815,7 @@ const ESO_SETS = [
           "id": 2019779692
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sload's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -79824,7 +79824,7 @@ const ESO_SETS = [
           "id": 3207135219
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Sload's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -79833,7 +79833,7 @@ const ESO_SETS = [
           "id": 2790905356
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Sload's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79841,7 +79841,7 @@ const ESO_SETS = [
           "id": 3303134271
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Sload's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79849,7 +79849,7 @@ const ESO_SETS = [
           "id": 3612386962
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Sload's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79857,7 +79857,7 @@ const ESO_SETS = [
           "id": 1168119683
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sload's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -79865,7 +79865,7 @@ const ESO_SETS = [
           "id": 163055934
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Sload's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -79873,7 +79873,7 @@ const ESO_SETS = [
           "id": 2353947093
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Sload's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79881,7 +79881,7 @@ const ESO_SETS = [
           "id": 2577881343
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Sload's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79889,7 +79889,7 @@ const ESO_SETS = [
           "id": 2520548132
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Sload's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79897,7 +79897,7 @@ const ESO_SETS = [
           "id": 719937722
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Sload's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79905,7 +79905,7 @@ const ESO_SETS = [
           "id": 3269251862
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Sload's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79913,7 +79913,7 @@ const ESO_SETS = [
           "id": 3269251862
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Sload's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79921,7 +79921,7 @@ const ESO_SETS = [
           "id": 3269251862
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Sload's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -79929,7 +79929,7 @@ const ESO_SETS = [
           "id": 1852431580
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Sload's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80242,7 +80242,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Song of Lamae",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80250,7 +80250,7 @@ const ESO_SETS = [
           "id": 315757226
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Song of Lamae",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80258,7 +80258,7 @@ const ESO_SETS = [
           "id": 1127738307
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Song of Lamae",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80266,7 +80266,7 @@ const ESO_SETS = [
           "id": 422936272
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Song of Lamae",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -80274,7 +80274,7 @@ const ESO_SETS = [
           "id": 2700479837
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Song of Lamae",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -80282,7 +80282,7 @@ const ESO_SETS = [
           "id": 1014859160
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Song of Lamae",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80290,7 +80290,7 @@ const ESO_SETS = [
           "id": 1400558385
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Song of Lamae",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80298,7 +80298,7 @@ const ESO_SETS = [
           "id": 2910562424
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Song of Lamae",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80306,7 +80306,7 @@ const ESO_SETS = [
           "id": 1514683677
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Song of Lamae",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80314,7 +80314,7 @@ const ESO_SETS = [
           "id": 13639749
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Song of Lamae",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80322,7 +80322,7 @@ const ESO_SETS = [
           "id": 13639749
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Song of Lamae",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80330,7 +80330,7 @@ const ESO_SETS = [
           "id": 13639749
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Song of Lamae",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80338,7 +80338,7 @@ const ESO_SETS = [
           "id": 1320739511
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Song of Lamae",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -80346,7 +80346,7 @@ const ESO_SETS = [
           "id": 13639749
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Song of Lamae",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -80355,7 +80355,7 @@ const ESO_SETS = [
           "id": 3387852861
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Song of Lamae",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -80364,7 +80364,7 @@ const ESO_SETS = [
           "id": 2789693916
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Song of Lamae",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -80373,7 +80373,7 @@ const ESO_SETS = [
           "id": 2019910903
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Song of Lamae",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -80382,7 +80382,7 @@ const ESO_SETS = [
           "id": 2344843831
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Song of Lamae",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -80391,16 +80391,16 @@ const ESO_SETS = [
           "id": 115221974
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Song of Lamae",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Song of Lamae",
           "id": 307642149
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Song of Lamae",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -80408,7 +80408,7 @@ const ESO_SETS = [
           "id": 1412044
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Song of Lamae",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -80417,7 +80417,7 @@ const ESO_SETS = [
           "id": 195463966
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Song of Lamae",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -80426,7 +80426,7 @@ const ESO_SETS = [
           "id": 1751247256
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Song of Lamae",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -80435,7 +80435,7 @@ const ESO_SETS = [
           "id": 1928365736
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Song of Lamae",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -80444,7 +80444,7 @@ const ESO_SETS = [
           "id": 3678077456
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Song of Lamae",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -80453,7 +80453,7 @@ const ESO_SETS = [
           "id": 1909795689
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Song of Lamae",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -80462,7 +80462,7 @@ const ESO_SETS = [
           "id": 2755168142
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Song of Lamae",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -80470,7 +80470,7 @@ const ESO_SETS = [
           "id": 2745114865
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Song of Lamae",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -80479,7 +80479,7 @@ const ESO_SETS = [
           "id": 317474649
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Song of Lamae",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -80488,7 +80488,7 @@ const ESO_SETS = [
           "id": 3713073414
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Song of Lamae",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -80497,7 +80497,7 @@ const ESO_SETS = [
           "id": 3626320387
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Song of Lamae",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -80506,7 +80506,7 @@ const ESO_SETS = [
           "id": 978847954
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Song of Lamae",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -80515,7 +80515,7 @@ const ESO_SETS = [
           "id": 274587105
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Song of Lamae",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -80524,7 +80524,7 @@ const ESO_SETS = [
           "id": 345921140
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Song of Lamae",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -80533,7 +80533,7 @@ const ESO_SETS = [
           "id": 4092048715
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Song of Lamae",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -80542,7 +80542,7 @@ const ESO_SETS = [
           "id": 3994013368
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Song of Lamae",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -81010,7 +81010,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Spectre's Eye",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81018,7 +81018,7 @@ const ESO_SETS = [
           "id": 3250362505
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Spectre's Eye",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81026,7 +81026,7 @@ const ESO_SETS = [
           "id": 3297025356
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Spectre's Eye",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81034,7 +81034,7 @@ const ESO_SETS = [
           "id": 688451429
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Spectre's Eye",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81042,7 +81042,7 @@ const ESO_SETS = [
           "id": 1270458816
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Spectre's Eye",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -81050,7 +81050,7 @@ const ESO_SETS = [
           "id": 1622457791
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Spectre's Eye",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81058,7 +81058,7 @@ const ESO_SETS = [
           "id": 3321919589
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Spectre's Eye",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81066,7 +81066,7 @@ const ESO_SETS = [
           "id": 2093172436
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Spectre's Eye",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81074,7 +81074,7 @@ const ESO_SETS = [
           "id": 1746259160
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Spectre's Eye",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81082,7 +81082,7 @@ const ESO_SETS = [
           "id": 2093172436
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Spectre's Eye",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81090,7 +81090,7 @@ const ESO_SETS = [
           "id": 602399394
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Spectre's Eye",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81098,7 +81098,7 @@ const ESO_SETS = [
           "id": 2093172436
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Spectre's Eye",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81106,7 +81106,7 @@ const ESO_SETS = [
           "id": 730088594
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Spectre's Eye",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81114,7 +81114,7 @@ const ESO_SETS = [
           "id": 2093172436
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Spectre's Eye",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -81123,7 +81123,7 @@ const ESO_SETS = [
           "id": 2849369482
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Spectre's Eye",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -81132,7 +81132,7 @@ const ESO_SETS = [
           "id": 908562031
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Spectre's Eye",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -81141,7 +81141,7 @@ const ESO_SETS = [
           "id": 2028237978
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Spectre's Eye",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -81150,7 +81150,7 @@ const ESO_SETS = [
           "id": 2034906424
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Spectre's Eye",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -81159,16 +81159,16 @@ const ESO_SETS = [
           "id": 1536766861
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Spectre's Eye",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Spectre's Eye",
           "id": 3276800808
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Spectre's Eye",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -81176,7 +81176,7 @@ const ESO_SETS = [
           "id": 4168792679
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Spectre's Eye",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -81185,7 +81185,7 @@ const ESO_SETS = [
           "id": 4142171339
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Spectre's Eye",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -81194,7 +81194,7 @@ const ESO_SETS = [
           "id": 4004443821
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Spectre's Eye",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -81203,7 +81203,7 @@ const ESO_SETS = [
           "id": 2873513051
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Spectre's Eye",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -81212,7 +81212,7 @@ const ESO_SETS = [
           "id": 1500473267
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Spectre's Eye",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -81221,7 +81221,7 @@ const ESO_SETS = [
           "id": 3281909846
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Spectre's Eye",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -81230,7 +81230,7 @@ const ESO_SETS = [
           "id": 3147273923
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Spectre's Eye",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -81238,7 +81238,7 @@ const ESO_SETS = [
           "id": 1353106770
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Spectre's Eye",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -81247,7 +81247,7 @@ const ESO_SETS = [
           "id": 3826146252
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Spectre's Eye",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -81256,7 +81256,7 @@ const ESO_SETS = [
           "id": 410773835
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Spectre's Eye",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -81265,7 +81265,7 @@ const ESO_SETS = [
           "id": 471949692
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Spectre's Eye",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -81274,7 +81274,7 @@ const ESO_SETS = [
           "id": 9315831
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Spectre's Eye",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -81283,7 +81283,7 @@ const ESO_SETS = [
           "id": 2328865036
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Spectre's Eye",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -81292,7 +81292,7 @@ const ESO_SETS = [
           "id": 476306823
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Spectre's Eye",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -81301,7 +81301,7 @@ const ESO_SETS = [
           "id": 2339279710
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Spectre's Eye",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -81310,7 +81310,7 @@ const ESO_SETS = [
           "id": 386384605
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Spectre's Eye",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -81362,7 +81362,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Necklace",
+          "name": "Spell Parasite's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -81370,7 +81370,7 @@ const ESO_SETS = [
           "id": 2559530764
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Spell Parasite's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -81379,7 +81379,7 @@ const ESO_SETS = [
           "id": 2194740383
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Spell Parasite's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -81388,7 +81388,7 @@ const ESO_SETS = [
           "id": 4128314736
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Spell Parasite's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -81397,7 +81397,7 @@ const ESO_SETS = [
           "id": 632844896
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Spell Parasite's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -81406,7 +81406,7 @@ const ESO_SETS = [
           "id": 3287347022
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Spell Parasite's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -81415,7 +81415,7 @@ const ESO_SETS = [
           "id": 2234760473
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Spell Parasite's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -81424,7 +81424,7 @@ const ESO_SETS = [
           "id": 3290122281
         },
         {
-          "name": "Ring",
+          "name": "Spell Parasite's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -81432,7 +81432,7 @@ const ESO_SETS = [
           "id": 4281493265
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Spell Parasite's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -81441,16 +81441,16 @@ const ESO_SETS = [
           "id": 1395235107
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Spell Parasite's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Spell Parasite",
           "id": 1831467998
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Spell Parasite's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -81459,7 +81459,7 @@ const ESO_SETS = [
           "id": 1382019854
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Spell Parasite's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -81468,7 +81468,7 @@ const ESO_SETS = [
           "id": 569819469
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Spell Parasite's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -81477,7 +81477,7 @@ const ESO_SETS = [
           "id": 2373794094
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Spell Parasite's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -81486,7 +81486,7 @@ const ESO_SETS = [
           "id": 3261177246
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Spell Parasite's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -81495,7 +81495,7 @@ const ESO_SETS = [
           "id": 4111052473
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Spell Parasite's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -81504,7 +81504,7 @@ const ESO_SETS = [
           "id": 3688786932
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Spell Parasite's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -81513,7 +81513,7 @@ const ESO_SETS = [
           "id": 2186699716
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Spell Parasite's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -81522,7 +81522,7 @@ const ESO_SETS = [
           "id": 2421799204
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Spell Parasite's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -81531,7 +81531,7 @@ const ESO_SETS = [
           "id": 1444510545
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Spell Parasite's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -81540,7 +81540,7 @@ const ESO_SETS = [
           "id": 4066221409
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Spell Parasite's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -81549,7 +81549,7 @@ const ESO_SETS = [
           "id": 2493659863
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Spell Parasite's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -81558,7 +81558,7 @@ const ESO_SETS = [
           "id": 2470238109
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Spell Parasite's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -81567,7 +81567,7 @@ const ESO_SETS = [
           "id": 3919992493
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Spell Parasite's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -81575,7 +81575,7 @@ const ESO_SETS = [
           "id": 2641206561
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Spell Parasite's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81583,7 +81583,7 @@ const ESO_SETS = [
           "id": 2914701250
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Spell Parasite's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81591,7 +81591,7 @@ const ESO_SETS = [
           "id": 3761024123
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Spell Parasite's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81599,7 +81599,7 @@ const ESO_SETS = [
           "id": 3897003111
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Spell Parasite's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -81607,7 +81607,7 @@ const ESO_SETS = [
           "id": 1145078454
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Spell Parasite's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81615,7 +81615,7 @@ const ESO_SETS = [
           "id": 3541076547
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Spell Parasite's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81623,7 +81623,7 @@ const ESO_SETS = [
           "id": 1404789064
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Spell Parasite's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81631,7 +81631,7 @@ const ESO_SETS = [
           "id": 1246674606
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Spell Parasite's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81639,7 +81639,7 @@ const ESO_SETS = [
           "id": 2580140858
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Spell Parasite's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81647,7 +81647,7 @@ const ESO_SETS = [
           "id": 2580140858
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Spell Parasite's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81655,7 +81655,7 @@ const ESO_SETS = [
           "id": 2580140858
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Spell Parasite's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -81663,7 +81663,7 @@ const ESO_SETS = [
           "id": 2580140858
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Spell Parasite's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84713,7 +84713,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Necklace",
+          "name": "Stuhn's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -84721,7 +84721,7 @@ const ESO_SETS = [
           "id": 161629537
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Stuhn's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -84730,7 +84730,7 @@ const ESO_SETS = [
           "id": 48786024
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Stuhn's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -84739,7 +84739,7 @@ const ESO_SETS = [
           "id": 44592629
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Stuhn's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -84748,7 +84748,7 @@ const ESO_SETS = [
           "id": 3628004635
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Stuhn's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -84757,7 +84757,7 @@ const ESO_SETS = [
           "id": 1837837553
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Stuhn's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -84766,7 +84766,7 @@ const ESO_SETS = [
           "id": 2375563748
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Stuhn's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -84775,7 +84775,7 @@ const ESO_SETS = [
           "id": 698470210
         },
         {
-          "name": "Ring",
+          "name": "Stuhn's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -84783,7 +84783,7 @@ const ESO_SETS = [
           "id": 5180060
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Stuhn's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -84792,16 +84792,16 @@ const ESO_SETS = [
           "id": 2249553606
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Stuhn's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Stuhn's Favor",
           "id": 1703991733
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Stuhn's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -84810,7 +84810,7 @@ const ESO_SETS = [
           "id": 1827843847
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Stuhn's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -84819,7 +84819,7 @@ const ESO_SETS = [
           "id": 1538084470
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Stuhn's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -84828,7 +84828,7 @@ const ESO_SETS = [
           "id": 364350739
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Stuhn's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -84837,7 +84837,7 @@ const ESO_SETS = [
           "id": 2036802601
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Stuhn's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -84846,7 +84846,7 @@ const ESO_SETS = [
           "id": 1633089580
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Stuhn's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -84855,7 +84855,7 @@ const ESO_SETS = [
           "id": 3335914087
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Stuhn's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -84864,7 +84864,7 @@ const ESO_SETS = [
           "id": 2198571245
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Stuhn's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -84873,7 +84873,7 @@ const ESO_SETS = [
           "id": 1490652729
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Stuhn's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -84882,7 +84882,7 @@ const ESO_SETS = [
           "id": 1187867262
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Stuhn's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -84891,7 +84891,7 @@ const ESO_SETS = [
           "id": 1345824000
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Stuhn's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -84900,7 +84900,7 @@ const ESO_SETS = [
           "id": 170305480
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Stuhn's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -84909,7 +84909,7 @@ const ESO_SETS = [
           "id": 922215896
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Stuhn's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -84918,7 +84918,7 @@ const ESO_SETS = [
           "id": 860307022
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Stuhn's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -84926,7 +84926,7 @@ const ESO_SETS = [
           "id": 196187880
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Stuhn's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84934,7 +84934,7 @@ const ESO_SETS = [
           "id": 4115434989
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Stuhn's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84942,7 +84942,7 @@ const ESO_SETS = [
           "id": 190814298
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Stuhn's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84950,7 +84950,7 @@ const ESO_SETS = [
           "id": 3523872416
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Stuhn's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -84958,7 +84958,7 @@ const ESO_SETS = [
           "id": 2729437779
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Stuhn's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84966,7 +84966,7 @@ const ESO_SETS = [
           "id": 1249578760
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Stuhn's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84974,7 +84974,7 @@ const ESO_SETS = [
           "id": 815758631
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Stuhn's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84982,7 +84982,7 @@ const ESO_SETS = [
           "id": 1796473133
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Stuhn's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84990,7 +84990,7 @@ const ESO_SETS = [
           "id": 1887185685
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Stuhn's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -84998,7 +84998,7 @@ const ESO_SETS = [
           "id": 1887185685
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Stuhn's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -85006,7 +85006,7 @@ const ESO_SETS = [
           "id": 1887185685
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Stuhn's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -85014,7 +85014,7 @@ const ESO_SETS = [
           "id": 1887185685
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Stuhn's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87280,7 +87280,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Tava's Favor",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87288,7 +87288,7 @@ const ESO_SETS = [
           "id": 2354877781
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Tava's Favor",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87296,7 +87296,7 @@ const ESO_SETS = [
           "id": 3691200267
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Tava's Favor",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87304,7 +87304,7 @@ const ESO_SETS = [
           "id": 3857798408
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Tava's Favor",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -87312,7 +87312,7 @@ const ESO_SETS = [
           "id": 121908018
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Tava's Favor",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -87320,7 +87320,7 @@ const ESO_SETS = [
           "id": 523166032
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Tava's Favor",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87328,7 +87328,7 @@ const ESO_SETS = [
           "id": 2102607728
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Tava's Favor",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87336,7 +87336,7 @@ const ESO_SETS = [
           "id": 4015396057
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Tava's Favor",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87344,7 +87344,7 @@ const ESO_SETS = [
           "id": 2218836245
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Tava's Favor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87352,7 +87352,7 @@ const ESO_SETS = [
           "id": 3945807389
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Tava's Favor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87360,7 +87360,7 @@ const ESO_SETS = [
           "id": 3945807389
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Tava's Favor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87368,7 +87368,7 @@ const ESO_SETS = [
           "id": 3945807389
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Tava's Favor",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87376,7 +87376,7 @@ const ESO_SETS = [
           "id": 542632895
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Tava's Favor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -87384,7 +87384,7 @@ const ESO_SETS = [
           "id": 3945807389
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Tava's Favor",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -87393,7 +87393,7 @@ const ESO_SETS = [
           "id": 3221675893
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Tava's Favor",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -87402,7 +87402,7 @@ const ESO_SETS = [
           "id": 2845719556
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Tava's Favor",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -87411,7 +87411,7 @@ const ESO_SETS = [
           "id": 1418647631
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Tava's Favor",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -87420,7 +87420,7 @@ const ESO_SETS = [
           "id": 3708728063
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Tava's Favor",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -87429,16 +87429,16 @@ const ESO_SETS = [
           "id": 718329678
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Tava's Favor",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Tava's Favor",
           "id": 65090029
         },
         {
-          "name": "Ring",
+          "name": "Ring of Tava's Favor",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -87446,7 +87446,7 @@ const ESO_SETS = [
           "id": 3699341684
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Tava's Favor",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -87455,7 +87455,7 @@ const ESO_SETS = [
           "id": 2602235766
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Tava's Favor",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -87464,7 +87464,7 @@ const ESO_SETS = [
           "id": 2638611888
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Tava's Favor",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -87473,7 +87473,7 @@ const ESO_SETS = [
           "id": 3397368960
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Tava's Favor",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -87482,7 +87482,7 @@ const ESO_SETS = [
           "id": 743184152
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Tava's Favor",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -87491,7 +87491,7 @@ const ESO_SETS = [
           "id": 1365640097
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Tava's Favor",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -87500,7 +87500,7 @@ const ESO_SETS = [
           "id": 2351257142
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Tava's Favor",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -87508,7 +87508,7 @@ const ESO_SETS = [
           "id": 2511908281
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Tava's Favor",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -87517,7 +87517,7 @@ const ESO_SETS = [
           "id": 2108631681
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Tava's Favor",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -87526,7 +87526,7 @@ const ESO_SETS = [
           "id": 874388190
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Tava's Favor",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -87535,7 +87535,7 @@ const ESO_SETS = [
           "id": 620444331
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Tava's Favor",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -87544,7 +87544,7 @@ const ESO_SETS = [
           "id": 863336522
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Tava's Favor",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -87553,7 +87553,7 @@ const ESO_SETS = [
           "id": 3151142761
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Tava's Favor",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -87562,7 +87562,7 @@ const ESO_SETS = [
           "id": 2545327724
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Tava's Favor",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -87571,7 +87571,7 @@ const ESO_SETS = [
           "id": 3241474115
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Tava's Favor",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -87580,7 +87580,7 @@ const ESO_SETS = [
           "id": 1286047136
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Tava's Favor",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -90845,7 +90845,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Torug's Pact",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90853,7 +90853,7 @@ const ESO_SETS = [
           "id": 4282840157
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Torug's Pact",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90861,7 +90861,7 @@ const ESO_SETS = [
           "id": 3840564152
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Torug's Pact",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90869,7 +90869,7 @@ const ESO_SETS = [
           "id": 3312438209
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Torug's Pact",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -90877,7 +90877,7 @@ const ESO_SETS = [
           "id": 2970632492
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Torug's Pact",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -90885,7 +90885,7 @@ const ESO_SETS = [
           "id": 693465171
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Torug's Pact",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90893,7 +90893,7 @@ const ESO_SETS = [
           "id": 1410267985
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Torug's Pact",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90901,7 +90901,7 @@ const ESO_SETS = [
           "id": 2992323046
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Torug's Pact",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90909,7 +90909,7 @@ const ESO_SETS = [
           "id": 101648676
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Torug's Pact",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90917,7 +90917,7 @@ const ESO_SETS = [
           "id": 4144792112
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Torug's Pact",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90925,7 +90925,7 @@ const ESO_SETS = [
           "id": 4144792112
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Torug's Pact",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90933,7 +90933,7 @@ const ESO_SETS = [
           "id": 4144792112
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Torug's Pact",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90941,7 +90941,7 @@ const ESO_SETS = [
           "id": 3477514790
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Torug's Pact",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -90949,7 +90949,7 @@ const ESO_SETS = [
           "id": 4144792112
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Torug's Pact",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -90958,7 +90958,7 @@ const ESO_SETS = [
           "id": 1772917118
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Torug's Pact",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -90967,7 +90967,7 @@ const ESO_SETS = [
           "id": 325030283
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Torug's Pact",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -90976,7 +90976,7 @@ const ESO_SETS = [
           "id": 100198510
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Torug's Pact",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -90985,7 +90985,7 @@ const ESO_SETS = [
           "id": 2666780460
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Torug's Pact",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -90994,16 +90994,16 @@ const ESO_SETS = [
           "id": 1074945385
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Torug's Pact",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Torug's Pact",
           "id": 2996915644
         },
         {
-          "name": "Ring",
+          "name": "Ring of Torug's Pact",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -91011,7 +91011,7 @@ const ESO_SETS = [
           "id": 80202667
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Torug's Pact",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -91020,7 +91020,7 @@ const ESO_SETS = [
           "id": 1418400215
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Torug's Pact",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -91029,7 +91029,7 @@ const ESO_SETS = [
           "id": 3154400617
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Torug's Pact",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -91038,7 +91038,7 @@ const ESO_SETS = [
           "id": 3741074311
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Torug's Pact",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -91047,7 +91047,7 @@ const ESO_SETS = [
           "id": 1988887327
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Torug's Pact",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -91056,7 +91056,7 @@ const ESO_SETS = [
           "id": 1242095642
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Torug's Pact",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -91065,7 +91065,7 @@ const ESO_SETS = [
           "id": 4001351759
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Torug's Pact",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -91073,7 +91073,7 @@ const ESO_SETS = [
           "id": 2041110374
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Torug's Pact",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -91082,7 +91082,7 @@ const ESO_SETS = [
           "id": 1007332776
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Torug's Pact",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -91091,7 +91091,7 @@ const ESO_SETS = [
           "id": 3245465759
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Torug's Pact",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -91100,7 +91100,7 @@ const ESO_SETS = [
           "id": 2222736632
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Torug's Pact",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -91109,7 +91109,7 @@ const ESO_SETS = [
           "id": 965281403
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Torug's Pact",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -91118,7 +91118,7 @@ const ESO_SETS = [
           "id": 274452840
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Torug's Pact",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -91127,7 +91127,7 @@ const ESO_SETS = [
           "id": 3848297643
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Torug's Pact",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -91136,7 +91136,7 @@ const ESO_SETS = [
           "id": 2144258058
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Torug's Pact",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -91145,7 +91145,7 @@ const ESO_SETS = [
           "id": 2854248481
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Torug's Pact",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -91786,7 +91786,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Trials",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -91794,7 +91794,7 @@ const ESO_SETS = [
           "id": 592779420
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Trials",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -91802,7 +91802,7 @@ const ESO_SETS = [
           "id": 3799267240
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Trials",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -91810,7 +91810,7 @@ const ESO_SETS = [
           "id": 1593797873
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Trials",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -91818,7 +91818,7 @@ const ESO_SETS = [
           "id": 772945773
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Trials",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -91826,7 +91826,7 @@ const ESO_SETS = [
           "id": 1179419907
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Trials",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91834,7 +91834,7 @@ const ESO_SETS = [
           "id": 927673793
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Trials",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91842,7 +91842,7 @@ const ESO_SETS = [
           "id": 4245064118
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Trials",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91850,7 +91850,7 @@ const ESO_SETS = [
           "id": 743055508
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Trials",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91858,7 +91858,7 @@ const ESO_SETS = [
           "id": 2274730016
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Trials",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91866,7 +91866,7 @@ const ESO_SETS = [
           "id": 2274730016
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Trials",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91874,7 +91874,7 @@ const ESO_SETS = [
           "id": 2274730016
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Trials",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91882,7 +91882,7 @@ const ESO_SETS = [
           "id": 1228840694
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Trials",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -91890,7 +91890,7 @@ const ESO_SETS = [
           "id": 2274730016
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Trials",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -91899,7 +91899,7 @@ const ESO_SETS = [
           "id": 1082154702
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Trials",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -91908,7 +91908,7 @@ const ESO_SETS = [
           "id": 1889156091
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Trials",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -91917,7 +91917,7 @@ const ESO_SETS = [
           "id": 2257118334
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Trials",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -91926,7 +91926,7 @@ const ESO_SETS = [
           "id": 1259079196
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Trials",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -91935,16 +91935,16 @@ const ESO_SETS = [
           "id": 927317561
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Trials",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Trial by Fire",
           "id": 3150981676
         },
         {
-          "name": "Ring",
+          "name": "Ring of Trials",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -91952,7 +91952,7 @@ const ESO_SETS = [
           "id": 3462620187
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Trials",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -91961,7 +91961,7 @@ const ESO_SETS = [
           "id": 2374666599
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Trials",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -91970,7 +91970,7 @@ const ESO_SETS = [
           "id": 3603697785
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Trials",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -91979,7 +91979,7 @@ const ESO_SETS = [
           "id": 3277961943
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Trials",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -91988,7 +91988,7 @@ const ESO_SETS = [
           "id": 486873263
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Trials",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -91997,7 +91997,7 @@ const ESO_SETS = [
           "id": 4285355786
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Trials",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -92006,7 +92006,7 @@ const ESO_SETS = [
           "id": 2473088543
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Trials",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -92014,7 +92014,7 @@ const ESO_SETS = [
           "id": 2809168630
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Trials",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -92023,7 +92023,7 @@ const ESO_SETS = [
           "id": 1170527064
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Trials",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -92032,7 +92032,7 @@ const ESO_SETS = [
           "id": 424071791
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Trials",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -92041,7 +92041,7 @@ const ESO_SETS = [
           "id": 2866894504
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Trials",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -92050,7 +92050,7 @@ const ESO_SETS = [
           "id": 3360788107
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Trials",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -92059,7 +92059,7 @@ const ESO_SETS = [
           "id": 2545537240
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Trials",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -92068,7 +92068,7 @@ const ESO_SETS = [
           "id": 1969307515
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Trials",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -92077,7 +92077,7 @@ const ESO_SETS = [
           "id": 4134836410
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Trials",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -92086,7 +92086,7 @@ const ESO_SETS = [
           "id": 1194768689
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Trials",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -92593,7 +92593,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Twice-Born Star",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -92601,7 +92601,7 @@ const ESO_SETS = [
           "id": 2310439875
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Twice-Born Star",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -92609,7 +92609,7 @@ const ESO_SETS = [
           "id": 957230681
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Twice-Born Star",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -92617,7 +92617,7 @@ const ESO_SETS = [
           "id": 359054382
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Twice-Born Star",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -92625,7 +92625,7 @@ const ESO_SETS = [
           "id": 3370945600
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Twice-Born Star",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -92633,7 +92633,7 @@ const ESO_SETS = [
           "id": 1707128926
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Twice-Born Star",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92641,7 +92641,7 @@ const ESO_SETS = [
           "id": 1684064578
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Twice-Born Star",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92649,7 +92649,7 @@ const ESO_SETS = [
           "id": 3883167995
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Twice-Born Star",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92657,7 +92657,7 @@ const ESO_SETS = [
           "id": 3009382887
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Twice-Born Star",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92665,7 +92665,7 @@ const ESO_SETS = [
           "id": 3559602007
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Twice-Born Star",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92673,7 +92673,7 @@ const ESO_SETS = [
           "id": 3559602007
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Twice-Born Star",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92681,7 +92681,7 @@ const ESO_SETS = [
           "id": 3559602007
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Twice-Born Star",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92689,7 +92689,7 @@ const ESO_SETS = [
           "id": 3546906721
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Twice-Born Star",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -92697,7 +92697,7 @@ const ESO_SETS = [
           "id": 3559602007
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Twice-Born Star",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -92706,7 +92706,7 @@ const ESO_SETS = [
           "id": 3732034979
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Twice-Born Star",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -92715,7 +92715,7 @@ const ESO_SETS = [
           "id": 4025556138
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Twice-Born Star",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -92724,7 +92724,7 @@ const ESO_SETS = [
           "id": 2556606085
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Twice-Born Star",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -92733,7 +92733,7 @@ const ESO_SETS = [
           "id": 3885925521
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Twice-Born Star",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -92742,16 +92742,16 @@ const ESO_SETS = [
           "id": 553016408
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Twice-Born Star",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Twice-Born Star",
           "id": 2956613295
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Twice-Born Star",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -92759,7 +92759,7 @@ const ESO_SETS = [
           "id": 1107220594
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Twice-Born Star",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -92768,7 +92768,7 @@ const ESO_SETS = [
           "id": 1850496812
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Twice-Born Star",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -92777,7 +92777,7 @@ const ESO_SETS = [
           "id": 1558375446
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Twice-Born Star",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -92786,7 +92786,7 @@ const ESO_SETS = [
           "id": 3824827398
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Twice-Born Star",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -92795,7 +92795,7 @@ const ESO_SETS = [
           "id": 2137738562
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Twice-Born Star",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -92804,7 +92804,7 @@ const ESO_SETS = [
           "id": 3539378771
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Twice-Born Star",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -92813,7 +92813,7 @@ const ESO_SETS = [
           "id": 556035752
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Twice-Born Star",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -92821,7 +92821,7 @@ const ESO_SETS = [
           "id": 1457472023
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Twice-Born Star",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -92830,7 +92830,7 @@ const ESO_SETS = [
           "id": 797067623
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Twice-Born Star",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -92839,7 +92839,7 @@ const ESO_SETS = [
           "id": 2897270764
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Twice-Born Star",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -92848,7 +92848,7 @@ const ESO_SETS = [
           "id": 3669518449
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Twice-Born Star",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -92857,7 +92857,7 @@ const ESO_SETS = [
           "id": 1194294848
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Twice-Born Star",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -92866,7 +92866,7 @@ const ESO_SETS = [
           "id": 2067709719
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Twice-Born Star",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -92875,7 +92875,7 @@ const ESO_SETS = [
           "id": 957301658
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Twice-Born Star",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -92884,7 +92884,7 @@ const ESO_SETS = [
           "id": 3731354361
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Twice-Born Star",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -92893,7 +92893,7 @@ const ESO_SETS = [
           "id": 1678165630
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Twice-Born Star",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -93411,7 +93411,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Twilight's Embrace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -93419,7 +93419,7 @@ const ESO_SETS = [
           "id": 3714429675
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Twilight's Embrace",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -93427,7 +93427,7 @@ const ESO_SETS = [
           "id": 252113414
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Twilight's Embrace",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -93435,7 +93435,7 @@ const ESO_SETS = [
           "id": 497113207
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Twilight's Embrace",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -93443,7 +93443,7 @@ const ESO_SETS = [
           "id": 2361182546
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Twilight's Embrace",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -93451,7 +93451,7 @@ const ESO_SETS = [
           "id": 3923981233
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Twilight's Embrace",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93459,7 +93459,7 @@ const ESO_SETS = [
           "id": 1398178771
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Twilight's Embrace",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93467,7 +93467,7 @@ const ESO_SETS = [
           "id": 1173296304
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Twilight's Embrace",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93475,7 +93475,7 @@ const ESO_SETS = [
           "id": 2146137214
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Twilight's Embrace",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93483,7 +93483,7 @@ const ESO_SETS = [
           "id": 2309667402
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Twilight's Embrace",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93491,7 +93491,7 @@ const ESO_SETS = [
           "id": 2309667402
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Twilight's Embrace",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93499,7 +93499,7 @@ const ESO_SETS = [
           "id": 2309667402
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Twilight's Embrace",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93507,7 +93507,7 @@ const ESO_SETS = [
           "id": 911495736
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Twilight's Embrace",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -93515,7 +93515,7 @@ const ESO_SETS = [
           "id": 2309667402
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Twilight's Embrace",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -93524,7 +93524,7 @@ const ESO_SETS = [
           "id": 1793710388
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Twilight's Embrace",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -93533,7 +93533,7 @@ const ESO_SETS = [
           "id": 2821071113
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Twilight's Embrace",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -93542,7 +93542,7 @@ const ESO_SETS = [
           "id": 1792142884
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Twilight's Embrace",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -93551,7 +93551,7 @@ const ESO_SETS = [
           "id": 3832971550
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Twilight's Embrace",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -93560,16 +93560,16 @@ const ESO_SETS = [
           "id": 3178813459
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Twilight's Embrace",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Twilight's Embrace",
           "id": 2867397742
         },
         {
-          "name": "Ring",
+          "name": "Ring of Twilight's Embrace",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -93577,7 +93577,7 @@ const ESO_SETS = [
           "id": 786780001
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Twilight's Embrace",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -93586,7 +93586,7 @@ const ESO_SETS = [
           "id": 1628442333
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Twilight's Embrace",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -93595,7 +93595,7 @@ const ESO_SETS = [
           "id": 1119371463
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Twilight's Embrace",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -93604,7 +93604,7 @@ const ESO_SETS = [
           "id": 161249805
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Twilight's Embrace",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -93613,7 +93613,7 @@ const ESO_SETS = [
           "id": 728461969
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Twilight's Embrace",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -93622,7 +93622,7 @@ const ESO_SETS = [
           "id": 2458134388
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Twilight's Embrace",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -93631,7 +93631,7 @@ const ESO_SETS = [
           "id": 3246843585
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Twilight's Embrace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -93639,7 +93639,7 @@ const ESO_SETS = [
           "id": 1659234556
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Twilight's Embrace",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -93648,7 +93648,7 @@ const ESO_SETS = [
           "id": 2348284782
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Twilight's Embrace",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -93657,7 +93657,7 @@ const ESO_SETS = [
           "id": 464395709
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Twilight's Embrace",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -93666,7 +93666,7 @@ const ESO_SETS = [
           "id": 3492120702
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Twilight's Embrace",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -93675,7 +93675,7 @@ const ESO_SETS = [
           "id": 274767193
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Twilight's Embrace",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -93684,7 +93684,7 @@ const ESO_SETS = [
           "id": 3985070558
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Twilight's Embrace",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -93693,7 +93693,7 @@ const ESO_SETS = [
           "id": 1028046345
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Twilight's Embrace",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -93702,7 +93702,7 @@ const ESO_SETS = [
           "id": 2660490928
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Twilight's Embrace",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -93711,7 +93711,7 @@ const ESO_SETS = [
           "id": 2857305551
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Twilight's Embrace",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -94477,7 +94477,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Unchained Aggressor",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -94486,7 +94486,7 @@ const ESO_SETS = [
           "id": 4065497225
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Unchained Aggressor",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -94495,7 +94495,7 @@ const ESO_SETS = [
           "id": 33852896
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Unchained Aggressor",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -94504,7 +94504,7 @@ const ESO_SETS = [
           "id": 473585251
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Unchained Aggressor",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -94513,7 +94513,7 @@ const ESO_SETS = [
           "id": 128272275
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Unchained Aggressor",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -94522,16 +94522,16 @@ const ESO_SETS = [
           "id": 955032698
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Unchained Aggressor",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Unchained Aggressor",
           "id": 4173923665
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Unchained Aggressor",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -94539,7 +94539,7 @@ const ESO_SETS = [
           "id": 529289336
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Unchained Aggressor",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -94548,7 +94548,7 @@ const ESO_SETS = [
           "id": 3477599586
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Unchained Aggressor",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -94557,7 +94557,7 @@ const ESO_SETS = [
           "id": 3021309228
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Unchained Aggressor",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -94566,7 +94566,7 @@ const ESO_SETS = [
           "id": 2025712876
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Unchained Aggressor",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -94575,7 +94575,7 @@ const ESO_SETS = [
           "id": 3702560500
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Unchained Aggressor",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -94584,7 +94584,7 @@ const ESO_SETS = [
           "id": 3483469189
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Unchained Aggressor",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -94593,7 +94593,7 @@ const ESO_SETS = [
           "id": 673980930
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Unchained Aggressor",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -94601,7 +94601,7 @@ const ESO_SETS = [
           "id": 4034907533
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Unchained Aggressor",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -94610,7 +94610,7 @@ const ESO_SETS = [
           "id": 1604428861
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Unchained Aggressor",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -94619,7 +94619,7 @@ const ESO_SETS = [
           "id": 1214439010
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Unchained Aggressor",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -94628,7 +94628,7 @@ const ESO_SETS = [
           "id": 328393767
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Unchained Aggressor",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -94637,7 +94637,7 @@ const ESO_SETS = [
           "id": 2093795422
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Unchained Aggressor",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -94646,7 +94646,7 @@ const ESO_SETS = [
           "id": 4206402021
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Unchained Aggressor",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -94655,7 +94655,7 @@ const ESO_SETS = [
           "id": 1482416384
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Unchained Aggressor",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -94664,7 +94664,7 @@ const ESO_SETS = [
           "id": 3997338703
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Unchained Aggressor",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -94673,7 +94673,7 @@ const ESO_SETS = [
           "id": 2129725972
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Unchained Aggressor",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -94682,7 +94682,7 @@ const ESO_SETS = [
           "id": 3296854201
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Unchained Aggressor",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -94690,7 +94690,7 @@ const ESO_SETS = [
           "id": 3282382662
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Unchained Aggressor",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -94698,7 +94698,7 @@ const ESO_SETS = [
           "id": 3219378583
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Unchained Aggressor",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -94706,7 +94706,7 @@ const ESO_SETS = [
           "id": 1400984068
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Unchained Aggressor",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -94714,7 +94714,7 @@ const ESO_SETS = [
           "id": 2350283953
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Unchained Aggressor",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -94722,7 +94722,7 @@ const ESO_SETS = [
           "id": 1439258260
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Unchained Aggressor",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94730,7 +94730,7 @@ const ESO_SETS = [
           "id": 2670513676
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Unchained Aggressor",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94738,7 +94738,7 @@ const ESO_SETS = [
           "id": 556939197
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Unchained Aggressor",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94746,7 +94746,7 @@ const ESO_SETS = [
           "id": 3310617761
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Unchained Aggressor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94754,7 +94754,7 @@ const ESO_SETS = [
           "id": 803113641
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Unchained Aggressor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94762,7 +94762,7 @@ const ESO_SETS = [
           "id": 803113641
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Unchained Aggressor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94770,7 +94770,7 @@ const ESO_SETS = [
           "id": 803113641
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Unchained Aggressor",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -94778,7 +94778,7 @@ const ESO_SETS = [
           "id": 4202326995
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Unchained Aggressor",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96754,7 +96754,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Vampire's Kiss",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -96762,7 +96762,7 @@ const ESO_SETS = [
           "id": 743012872
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Vampire's Kiss",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -96770,7 +96770,7 @@ const ESO_SETS = [
           "id": 298733665
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Vampire's Kiss",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -96778,7 +96778,7 @@ const ESO_SETS = [
           "id": 1959383366
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Vampire's Kiss",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -96786,7 +96786,7 @@ const ESO_SETS = [
           "id": 2178755739
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Vampire's Kiss",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -96794,7 +96794,7 @@ const ESO_SETS = [
           "id": 503083222
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Vampire's Kiss",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96802,7 +96802,7 @@ const ESO_SETS = [
           "id": 2334650266
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Vampire's Kiss",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96810,7 +96810,7 @@ const ESO_SETS = [
           "id": 4030300643
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Vampire's Kiss",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96818,7 +96818,7 @@ const ESO_SETS = [
           "id": 3626143263
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Vampire's Kiss",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96826,7 +96826,7 @@ const ESO_SETS = [
           "id": 3142495471
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Vampire's Kiss",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96834,7 +96834,7 @@ const ESO_SETS = [
           "id": 3142495471
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Vampire's Kiss",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96842,7 +96842,7 @@ const ESO_SETS = [
           "id": 3142495471
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Vampire's Kiss",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96850,7 +96850,7 @@ const ESO_SETS = [
           "id": 1371336777
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Vampire's Kiss",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -96858,7 +96858,7 @@ const ESO_SETS = [
           "id": 3142495471
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Vampire's Kiss",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -96867,7 +96867,7 @@ const ESO_SETS = [
           "id": 2276959259
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Vampire's Kiss",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -96876,7 +96876,7 @@ const ESO_SETS = [
           "id": 3060805458
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Vampire's Kiss",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -96885,7 +96885,7 @@ const ESO_SETS = [
           "id": 2791602013
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Vampire's Kiss",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -96894,7 +96894,7 @@ const ESO_SETS = [
           "id": 805341273
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Vampire's Kiss",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -96903,16 +96903,16 @@ const ESO_SETS = [
           "id": 3273436272
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Vampire's Kiss",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Vampire's Kiss",
           "id": 772676183
         },
         {
-          "name": "Ring",
+          "name": "Ring of Vampire's Kiss",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -96920,7 +96920,7 @@ const ESO_SETS = [
           "id": 3068405882
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Vampire's Kiss",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -96929,7 +96929,7 @@ const ESO_SETS = [
           "id": 4284152356
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Vampire's Kiss",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -96938,7 +96938,7 @@ const ESO_SETS = [
           "id": 2125869582
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Vampire's Kiss",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -96947,7 +96947,7 @@ const ESO_SETS = [
           "id": 1885316286
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Vampire's Kiss",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -96956,7 +96956,7 @@ const ESO_SETS = [
           "id": 3597534890
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Vampire's Kiss",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -96965,7 +96965,7 @@ const ESO_SETS = [
           "id": 3451685643
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Vampire's Kiss",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -96974,7 +96974,7 @@ const ESO_SETS = [
           "id": 514139824
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Vampire's Kiss",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -96982,7 +96982,7 @@ const ESO_SETS = [
           "id": 3696250847
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Vampire's Kiss",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -96991,7 +96991,7 @@ const ESO_SETS = [
           "id": 1992344591
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Vampire's Kiss",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -97000,7 +97000,7 @@ const ESO_SETS = [
           "id": 2496358660
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Vampire's Kiss",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -97009,7 +97009,7 @@ const ESO_SETS = [
           "id": 3736238073
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Vampire's Kiss",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -97018,7 +97018,7 @@ const ESO_SETS = [
           "id": 10184952
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Vampire's Kiss",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -97027,7 +97027,7 @@ const ESO_SETS = [
           "id": 1121508991
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Vampire's Kiss",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -97036,7 +97036,7 @@ const ESO_SETS = [
           "id": 1719035762
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Vampire's Kiss",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -97045,7 +97045,7 @@ const ESO_SETS = [
           "id": 2372920913
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Vampire's Kiss",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -97054,7 +97054,7 @@ const ESO_SETS = [
           "id": 1370385030
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Vampire's Kiss",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -97332,7 +97332,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Varen's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -97341,7 +97341,7 @@ const ESO_SETS = [
           "id": 3643371684
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Varen's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -97350,7 +97350,7 @@ const ESO_SETS = [
           "id": 1458925721
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Varen's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -97359,7 +97359,7 @@ const ESO_SETS = [
           "id": 2301754580
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Varen's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -97368,7 +97368,7 @@ const ESO_SETS = [
           "id": 423659246
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Varen's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -97377,16 +97377,16 @@ const ESO_SETS = [
           "id": 3038075651
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Varen's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Varen's Legacy",
           "id": 1325102782
         },
         {
-          "name": "Ring",
+          "name": "Varen's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -97394,7 +97394,7 @@ const ESO_SETS = [
           "id": 1359273393
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Varen's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -97403,7 +97403,7 @@ const ESO_SETS = [
           "id": 1029630349
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Varen's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -97412,7 +97412,7 @@ const ESO_SETS = [
           "id": 3726163767
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Varen's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -97421,7 +97421,7 @@ const ESO_SETS = [
           "id": 518460669
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Varen's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -97430,7 +97430,7 @@ const ESO_SETS = [
           "id": 803105089
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Varen's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -97439,7 +97439,7 @@ const ESO_SETS = [
           "id": 310974212
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Varen's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -97448,7 +97448,7 @@ const ESO_SETS = [
           "id": 2020691121
         },
         {
-          "name": "Necklace",
+          "name": "Varen's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -97456,7 +97456,7 @@ const ESO_SETS = [
           "id": 1567634988
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Varen's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -97465,7 +97465,7 @@ const ESO_SETS = [
           "id": 65533950
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Varen's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -97474,7 +97474,7 @@ const ESO_SETS = [
           "id": 1081166125
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Varen's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -97483,7 +97483,7 @@ const ESO_SETS = [
           "id": 4285321102
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Varen's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -97492,7 +97492,7 @@ const ESO_SETS = [
           "id": 2963318153
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Varen's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -97501,7 +97501,7 @@ const ESO_SETS = [
           "id": 180488878
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Varen's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -97510,7 +97510,7 @@ const ESO_SETS = [
           "id": 3818199929
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Varen's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -97519,7 +97519,7 @@ const ESO_SETS = [
           "id": 1616126656
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Varen's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -97528,7 +97528,7 @@ const ESO_SETS = [
           "id": 635238655
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Varen's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -97537,7 +97537,7 @@ const ESO_SETS = [
           "id": 1440644432
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Varen's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97545,7 +97545,7 @@ const ESO_SETS = [
           "id": 240914459
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Varen's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97553,7 +97553,7 @@ const ESO_SETS = [
           "id": 3143645142
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Varen's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97561,7 +97561,7 @@ const ESO_SETS = [
           "id": 2440917639
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Varen's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97569,7 +97569,7 @@ const ESO_SETS = [
           "id": 4042581090
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Varen's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -97577,7 +97577,7 @@ const ESO_SETS = [
           "id": 3115787841
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Varen's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97585,7 +97585,7 @@ const ESO_SETS = [
           "id": 3640525155
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Varen's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97593,7 +97593,7 @@ const ESO_SETS = [
           "id": 4128263776
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Varen's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97601,7 +97601,7 @@ const ESO_SETS = [
           "id": 416877518
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Varen's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97609,7 +97609,7 @@ const ESO_SETS = [
           "id": 2332796122
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Varen's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97617,7 +97617,7 @@ const ESO_SETS = [
           "id": 2332796122
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Varen's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97625,7 +97625,7 @@ const ESO_SETS = [
           "id": 2332796122
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Varen's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97633,7 +97633,7 @@ const ESO_SETS = [
           "id": 4180177128
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Varen's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97690,7 +97690,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sabatons 4",
+          "name": "Vastarie's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -97699,7 +97699,7 @@ const ESO_SETS = [
           "id": 606077911
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Vastarie's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -97708,7 +97708,7 @@ const ESO_SETS = [
           "id": 141429366
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Vastarie's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -97717,7 +97717,7 @@ const ESO_SETS = [
           "id": 2609287017
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Vastarie's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -97726,7 +97726,7 @@ const ESO_SETS = [
           "id": 2817507973
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Vastarie's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -97735,16 +97735,16 @@ const ESO_SETS = [
           "id": 372016980
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Vastarie's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Vastarie's Tutelage",
           "id": 2425830771
         },
         {
-          "name": "Ring",
+          "name": "Vastarie's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -97752,7 +97752,7 @@ const ESO_SETS = [
           "id": 741861462
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Vastarie's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -97761,7 +97761,7 @@ const ESO_SETS = [
           "id": 3202599176
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Vastarie's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -97770,7 +97770,7 @@ const ESO_SETS = [
           "id": 2135689682
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Vastarie's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -97779,7 +97779,7 @@ const ESO_SETS = [
           "id": 3708642882
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Vastarie's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -97788,7 +97788,7 @@ const ESO_SETS = [
           "id": 1537487470
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Vastarie's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -97797,7 +97797,7 @@ const ESO_SETS = [
           "id": 1918798951
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Vastarie's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -97806,7 +97806,7 @@ const ESO_SETS = [
           "id": 3265590740
         },
         {
-          "name": "Necklace",
+          "name": "Vastarie's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -97814,7 +97814,7 @@ const ESO_SETS = [
           "id": 716004779
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Vastarie's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -97823,7 +97823,7 @@ const ESO_SETS = [
           "id": 2589202787
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Vastarie's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -97832,7 +97832,7 @@ const ESO_SETS = [
           "id": 3941512784
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Vastarie's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -97841,7 +97841,7 @@ const ESO_SETS = [
           "id": 1609358749
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Vastarie's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -97850,7 +97850,7 @@ const ESO_SETS = [
           "id": 3486174164
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Vastarie's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -97859,7 +97859,7 @@ const ESO_SETS = [
           "id": 1183164787
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Vastarie's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -97868,7 +97868,7 @@ const ESO_SETS = [
           "id": 926937278
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Vastarie's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -97877,7 +97877,7 @@ const ESO_SETS = [
           "id": 53775493
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Vastarie's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -97886,7 +97886,7 @@ const ESO_SETS = [
           "id": 325486306
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Vastarie's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -97895,7 +97895,7 @@ const ESO_SETS = [
           "id": 2653960879
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Vastarie's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97903,7 +97903,7 @@ const ESO_SETS = [
           "id": 38676436
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Vastarie's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97911,7 +97911,7 @@ const ESO_SETS = [
           "id": 3638335109
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Vastarie's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97919,7 +97919,7 @@ const ESO_SETS = [
           "id": 3188170
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Vastarie's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -97927,7 +97927,7 @@ const ESO_SETS = [
           "id": 3706255311
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Vastarie's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -97935,7 +97935,7 @@ const ESO_SETS = [
           "id": 2863964402
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Vastarie's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97943,7 +97943,7 @@ const ESO_SETS = [
           "id": 239066510
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Vastarie's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97951,7 +97951,7 @@ const ESO_SETS = [
           "id": 2708222575
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Vastarie's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97959,7 +97959,7 @@ const ESO_SETS = [
           "id": 4280049427
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Vastarie's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97967,7 +97967,7 @@ const ESO_SETS = [
           "id": 2605922691
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Vastarie's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97975,7 +97975,7 @@ const ESO_SETS = [
           "id": 2605922691
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Vastarie's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97983,7 +97983,7 @@ const ESO_SETS = [
           "id": 2605922691
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Vastarie's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -97991,7 +97991,7 @@ const ESO_SETS = [
           "id": 1262417749
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Vastarie's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102529,7 +102529,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Arena",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102537,7 +102537,7 @@ const ESO_SETS = [
           "id": 2998624849
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Arena",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102545,7 +102545,7 @@ const ESO_SETS = [
           "id": 2014832183
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Arena",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102553,7 +102553,7 @@ const ESO_SETS = [
           "id": 4043659300
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Arena",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102561,7 +102561,7 @@ const ESO_SETS = [
           "id": 3150012134
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Arena",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -102569,7 +102569,7 @@ const ESO_SETS = [
           "id": 4042480948
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Arena",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102577,7 +102577,7 @@ const ESO_SETS = [
           "id": 145561949
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Arena",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102585,7 +102585,7 @@ const ESO_SETS = [
           "id": 264022060
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Arena",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102593,7 +102593,7 @@ const ESO_SETS = [
           "id": 2959481537
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Arena",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102601,7 +102601,7 @@ const ESO_SETS = [
           "id": 2532561353
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Arena",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102609,7 +102609,7 @@ const ESO_SETS = [
           "id": 2532561353
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Arena",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102617,7 +102617,7 @@ const ESO_SETS = [
           "id": 2532561353
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Arena",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102625,7 +102625,7 @@ const ESO_SETS = [
           "id": 2976771059
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Arena",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102633,7 +102633,7 @@ const ESO_SETS = [
           "id": 2532561353
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Arena",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -102642,7 +102642,7 @@ const ESO_SETS = [
           "id": 1422900329
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Arena",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -102651,7 +102651,7 @@ const ESO_SETS = [
           "id": 4179566272
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Arena",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -102660,7 +102660,7 @@ const ESO_SETS = [
           "id": 2555238467
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Arena",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -102669,7 +102669,7 @@ const ESO_SETS = [
           "id": 1239444083
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Arena",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -102678,16 +102678,16 @@ const ESO_SETS = [
           "id": 2151007066
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Arena",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Way of the Arena",
           "id": 2630135729
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Arena",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -102695,7 +102695,7 @@ const ESO_SETS = [
           "id": 4006730904
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Arena",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -102704,7 +102704,7 @@ const ESO_SETS = [
           "id": 2336177474
         },
         {
-          "name": "Breton Robe 4",
+          "name": "Robe of the Arena",
           "image": "gear_breton_light_robe_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -102713,7 +102713,7 @@ const ESO_SETS = [
           "id": 2574234638
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Arena",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -102722,7 +102722,7 @@ const ESO_SETS = [
           "id": 172795724
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Arena",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -102731,7 +102731,7 @@ const ESO_SETS = [
           "id": 2079204052
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Arena",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -102740,7 +102740,7 @@ const ESO_SETS = [
           "id": 681176037
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Arena",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -102749,7 +102749,7 @@ const ESO_SETS = [
           "id": 2596124258
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Arena",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -102757,7 +102757,7 @@ const ESO_SETS = [
           "id": 3265112749
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Arena",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -102766,7 +102766,7 @@ const ESO_SETS = [
           "id": 236893341
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Arena",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -102775,7 +102775,7 @@ const ESO_SETS = [
           "id": 1851645506
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Arena",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -102784,7 +102784,7 @@ const ESO_SETS = [
           "id": 3414333831
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Arena",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -102793,7 +102793,7 @@ const ESO_SETS = [
           "id": 7878590
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Arena",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -102802,7 +102802,7 @@ const ESO_SETS = [
           "id": 727479749
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Arena",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -102811,7 +102811,7 @@ const ESO_SETS = [
           "id": 466159968
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Arena",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -102820,7 +102820,7 @@ const ESO_SETS = [
           "id": 1281495471
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Arena",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -102829,7 +102829,7 @@ const ESO_SETS = [
           "id": 1208051316
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Arena",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -102889,7 +102889,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Whitestrake's Mace",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102897,7 +102897,7 @@ const ESO_SETS = [
           "id": 1123338460
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Whitestrake's Dagger",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102905,7 +102905,7 @@ const ESO_SETS = [
           "id": 4128119149
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Whitestrake's Axe",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102913,7 +102913,7 @@ const ESO_SETS = [
           "id": 2577226370
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Whitestrake's Sword",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -102921,7 +102921,7 @@ const ESO_SETS = [
           "id": 2951215719
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Whitestrake's Shield",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -102929,7 +102929,7 @@ const ESO_SETS = [
           "id": 3295832458
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Whitestrake's Greatsword",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102937,7 +102937,7 @@ const ESO_SETS = [
           "id": 2330382342
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Whitestrake's Maul",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102945,7 +102945,7 @@ const ESO_SETS = [
           "id": 178628759
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Whitestrake's Battle Axe",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102953,7 +102953,7 @@ const ESO_SETS = [
           "id": 2351688747
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Whitestrake's Restoration Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102961,7 +102961,7 @@ const ESO_SETS = [
           "id": 2058124187
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Whitestrake's Inferno Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102969,7 +102969,7 @@ const ESO_SETS = [
           "id": 2058124187
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Whitestrake's Ice Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102977,7 +102977,7 @@ const ESO_SETS = [
           "id": 2058124187
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Whitestrake's Bow",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102985,7 +102985,7 @@ const ESO_SETS = [
           "id": 1091740477
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Whitestrake's Lightning Staff",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -102993,7 +102993,7 @@ const ESO_SETS = [
           "id": 2058124187
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Whitestrake's Sabatons",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -103002,7 +103002,7 @@ const ESO_SETS = [
           "id": 3194114383
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Whitestrake's Shoes",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -103011,7 +103011,7 @@ const ESO_SETS = [
           "id": 1010823646
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Whitestrake's Boots",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -103020,7 +103020,7 @@ const ESO_SETS = [
           "id": 1510592737
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Whitestrake's Helm",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -103029,7 +103029,7 @@ const ESO_SETS = [
           "id": 1840556781
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Whitestrake's Hat",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -103038,16 +103038,16 @@ const ESO_SETS = [
           "id": 3952611212
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Whitestrake's Helmet",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Whitestrake's Retribution",
           "id": 1367946043
         },
         {
-          "name": "Ring",
+          "name": "Whitestrake's Ring",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -103055,7 +103055,7 @@ const ESO_SETS = [
           "id": 345170494
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Whitestrake's Girdle",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -103064,7 +103064,7 @@ const ESO_SETS = [
           "id": 1415777085
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Whitestrake's Sash",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -103073,7 +103073,7 @@ const ESO_SETS = [
           "id": 3528666986
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Whitestrake's Belt",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -103082,7 +103082,7 @@ const ESO_SETS = [
           "id": 764391143
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Whitestrake's Greaves",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -103091,7 +103091,7 @@ const ESO_SETS = [
           "id": 4126723894
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Whitestrake's Breeches",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -103100,7 +103100,7 @@ const ESO_SETS = [
           "id": 876801919
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Whitestrake's Guards",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -103109,7 +103109,7 @@ const ESO_SETS = [
           "id": 73249980
         },
         {
-          "name": "Necklace",
+          "name": "Whitestrake's Necklace",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -103117,7 +103117,7 @@ const ESO_SETS = [
           "id": 3185840755
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Whitestrake's Gauntlets",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -103126,7 +103126,7 @@ const ESO_SETS = [
           "id": 3168974251
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Whitestrake's Gloves",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -103135,7 +103135,7 @@ const ESO_SETS = [
           "id": 1479274632
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Whitestrake's Bracers",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -103144,7 +103144,7 @@ const ESO_SETS = [
           "id": 3433388805
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Whitestrake's Pauldron",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -103153,7 +103153,7 @@ const ESO_SETS = [
           "id": 3378170220
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Whitestrake's Epaulets",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -103162,7 +103162,7 @@ const ESO_SETS = [
           "id": 62363739
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Whitestrake's Arm Cops",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -103171,7 +103171,7 @@ const ESO_SETS = [
           "id": 3888584694
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Whitestrake's Cuirass",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -103180,7 +103180,7 @@ const ESO_SETS = [
           "id": 1650931584
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Whitestrake's Robe",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -103189,7 +103189,7 @@ const ESO_SETS = [
           "id": 1114294570
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Whitestrake's Jack",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -103663,7 +103663,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of the Willow's Path",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -103671,7 +103671,7 @@ const ESO_SETS = [
           "id": 760671009
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of the Willow's Path",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -103679,7 +103679,7 @@ const ESO_SETS = [
           "id": 3310192740
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of the Willow's Path",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -103687,7 +103687,7 @@ const ESO_SETS = [
           "id": 3977984685
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of the Willow's Path",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -103695,7 +103695,7 @@ const ESO_SETS = [
           "id": 2212013192
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of the Willow's Path",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -103703,7 +103703,7 @@ const ESO_SETS = [
           "id": 4215483015
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of the Willow's Path",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103711,7 +103711,7 @@ const ESO_SETS = [
           "id": 782902125
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of the Willow's Path",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103719,7 +103719,7 @@ const ESO_SETS = [
           "id": 3652317402
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of the Willow's Path",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103727,7 +103727,7 @@ const ESO_SETS = [
           "id": 1410416672
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of the Willow's Path",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103735,7 +103735,7 @@ const ESO_SETS = [
           "id": 2317252764
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of the Willow's Path",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103743,7 +103743,7 @@ const ESO_SETS = [
           "id": 2317252764
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of the Willow's Path",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103751,7 +103751,7 @@ const ESO_SETS = [
           "id": 2317252764
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of the Willow's Path",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103759,7 +103759,7 @@ const ESO_SETS = [
           "id": 3697737066
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of the Willow's Path",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -103767,7 +103767,7 @@ const ESO_SETS = [
           "id": 2317252764
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of the Willow's Path",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -103776,7 +103776,7 @@ const ESO_SETS = [
           "id": 2344638418
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of the Willow's Path",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -103785,7 +103785,7 @@ const ESO_SETS = [
           "id": 3709937863
         },
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of the Willow's Path",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -103794,7 +103794,7 @@ const ESO_SETS = [
           "id": 3241889762
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of the Willow's Path",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -103803,7 +103803,7 @@ const ESO_SETS = [
           "id": 2557269232
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of the Willow's Path",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -103812,16 +103812,16 @@ const ESO_SETS = [
           "id": 4091386517
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of the Willow's Path",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Willow's Path",
           "id": 1854624
         },
         {
-          "name": "Ring",
+          "name": "Ring of the Willow's Path",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -103829,7 +103829,7 @@ const ESO_SETS = [
           "id": 3029085407
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of the Willow's Path",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -103838,7 +103838,7 @@ const ESO_SETS = [
           "id": 166081171
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of the Willow's Path",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -103847,7 +103847,7 @@ const ESO_SETS = [
           "id": 4243505237
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of the Willow's Path",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -103856,7 +103856,7 @@ const ESO_SETS = [
           "id": 4037555811
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of the Willow's Path",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -103865,7 +103865,7 @@ const ESO_SETS = [
           "id": 2735518603
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of the Willow's Path",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -103874,7 +103874,7 @@ const ESO_SETS = [
           "id": 1572048606
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of the Willow's Path",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -103883,7 +103883,7 @@ const ESO_SETS = [
           "id": 108112219
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of the Willow's Path",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -103891,7 +103891,7 @@ const ESO_SETS = [
           "id": 4289152458
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of the Willow's Path",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -103900,7 +103900,7 @@ const ESO_SETS = [
           "id": 3791334020
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of the Willow's Path",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -103909,7 +103909,7 @@ const ESO_SETS = [
           "id": 3800360691
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of the Willow's Path",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -103918,7 +103918,7 @@ const ESO_SETS = [
           "id": 2584858484
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of the Willow's Path",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -103927,7 +103927,7 @@ const ESO_SETS = [
           "id": 1705195519
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of the Willow's Path",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -103936,7 +103936,7 @@ const ESO_SETS = [
           "id": 1609859524
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of the Willow's Path",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -103945,7 +103945,7 @@ const ESO_SETS = [
           "id": 14270415
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of the Willow's Path",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -103954,7 +103954,7 @@ const ESO_SETS = [
           "id": 2665360390
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of the Willow's Path",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -103963,7 +103963,7 @@ const ESO_SETS = [
           "id": 2981155157
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of the Willow's Path",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -105990,7 +105990,7 @@ const ESO_SETS = [
     "items": {
       "list": [
         {
-          "name": "Breton Boots 4",
+          "name": "Boots of Wretched Vitality",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -105999,7 +105999,7 @@ const ESO_SETS = [
           "id": 3279226701
         },
         {
-          "name": "Breton Shoes 4",
+          "name": "Shoes of Wretched Vitality",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -106008,7 +106008,7 @@ const ESO_SETS = [
           "id": 3317576802
         },
         {
-          "name": "Breton Sabatons 4",
+          "name": "Sabatons of Wretched Vitality",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -106017,7 +106017,7 @@ const ESO_SETS = [
           "id": 2249485515
         },
         {
-          "name": "Necklace",
+          "name": "Necklace of Wretched Vitality",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -106025,7 +106025,7 @@ const ESO_SETS = [
           "id": 1685601487
         },
         {
-          "name": "Breton Bracers 4",
+          "name": "Bracers of Wretched Vitality",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -106034,7 +106034,7 @@ const ESO_SETS = [
           "id": 727070089
         },
         {
-          "name": "Breton Gloves 4",
+          "name": "Gloves of Wretched Vitality",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -106043,7 +106043,7 @@ const ESO_SETS = [
           "id": 874480884
         },
         {
-          "name": "Breton Gauntlets 4",
+          "name": "Gauntlets of Wretched Vitality",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -106052,7 +106052,7 @@ const ESO_SETS = [
           "id": 3389381599
         },
         {
-          "name": "Breton Guards 4",
+          "name": "Guards of Wretched Vitality",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -106061,7 +106061,7 @@ const ESO_SETS = [
           "id": 651571168
         },
         {
-          "name": "Breton Breeches 4",
+          "name": "Breeches of Wretched Vitality",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -106070,7 +106070,7 @@ const ESO_SETS = [
           "id": 183799259
         },
         {
-          "name": "Breton Greaves 4",
+          "name": "Greaves of Wretched Vitality",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -106079,7 +106079,7 @@ const ESO_SETS = [
           "id": 1684235866
         },
         {
-          "name": "Ring",
+          "name": "Ring of Wretched Vitality",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -106087,16 +106087,16 @@ const ESO_SETS = [
           "id": 455627530
         },
         {
-          "name": "Breton Helmet 3",
+          "name": "Helmet of Wretched Vitality",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
-          "armorType": "heavy",
+          "armorType": "medium",
           "itemType": "armor",
           "setName": "Wretched Vitality",
           "id": 667556839
         },
         {
-          "name": "Breton Hat 3",
+          "name": "Hat of Wretched Vitality",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -106105,7 +106105,7 @@ const ESO_SETS = [
           "id": 77541664
         },
         {
-          "name": "Breton Helm 3",
+          "name": "Helm of Wretched Vitality",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -106114,7 +106114,7 @@ const ESO_SETS = [
           "id": 1402069417
         },
         {
-          "name": "Breton Belt 4",
+          "name": "Belt of Wretched Vitality",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -106123,7 +106123,7 @@ const ESO_SETS = [
           "id": 714786683
         },
         {
-          "name": "Breton Sash 4",
+          "name": "Sash of Wretched Vitality",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -106132,7 +106132,7 @@ const ESO_SETS = [
           "id": 3948884662
         },
         {
-          "name": "Breton Girdle 4",
+          "name": "Girdle of Wretched Vitality",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -106141,7 +106141,7 @@ const ESO_SETS = [
           "id": 2900275297
         },
         {
-          "name": "Breton Jack 4",
+          "name": "Jack of Wretched Vitality",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -106150,7 +106150,7 @@ const ESO_SETS = [
           "id": 3640050094
         },
         {
-          "name": "Breton Jerkin 4",
+          "name": "Robe of Wretched Vitality",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -106159,7 +106159,7 @@ const ESO_SETS = [
           "id": 2813111934
         },
         {
-          "name": "Breton Cuirass 4",
+          "name": "Cuirass of Wretched Vitality",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -106168,7 +106168,7 @@ const ESO_SETS = [
           "id": 3113112980
         },
         {
-          "name": "Breton Arm Cops 4",
+          "name": "Arm Cops of Wretched Vitality",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -106177,7 +106177,7 @@ const ESO_SETS = [
           "id": 3838371106
         },
         {
-          "name": "Breton Epaulets 4",
+          "name": "Epaulets of Wretched Vitality",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -106186,7 +106186,7 @@ const ESO_SETS = [
           "id": 3446492495
         },
         {
-          "name": "Breton Pauldrons 4",
+          "name": "Pauldron of Wretched Vitality",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -106195,7 +106195,7 @@ const ESO_SETS = [
           "id": 3885528488
         },
         {
-          "name": "Breton Axe 4",
+          "name": "Axe of Wretched Vitality",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106203,7 +106203,7 @@ const ESO_SETS = [
           "id": 2271686038
         },
         {
-          "name": "Breton Sword 4",
+          "name": "Sword of Wretched Vitality",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106211,7 +106211,7 @@ const ESO_SETS = [
           "id": 2263941675
         },
         {
-          "name": "Breton Mace 4",
+          "name": "Mace of Wretched Vitality",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106219,7 +106219,7 @@ const ESO_SETS = [
           "id": 3862816888
         },
         {
-          "name": "Breton Dagger 4",
+          "name": "Dagger of Wretched Vitality",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -106227,7 +106227,7 @@ const ESO_SETS = [
           "id": 237195505
         },
         {
-          "name": "Breton Shield 4",
+          "name": "Shield of Wretched Vitality",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -106235,7 +106235,7 @@ const ESO_SETS = [
           "id": 1691837158
         },
         {
-          "name": "Breton Battle Axe 4",
+          "name": "Battle Axe of Wretched Vitality",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106243,7 +106243,7 @@ const ESO_SETS = [
           "id": 1149802671
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Restoration Staff of Wretched Vitality",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106251,7 +106251,7 @@ const ESO_SETS = [
           "id": 3730583743
         },
         {
-          "name": "Breton Maul 4",
+          "name": "Maul of Wretched Vitality",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106259,7 +106259,7 @@ const ESO_SETS = [
           "id": 2960405331
         },
         {
-          "name": "Breton Bow 4",
+          "name": "Bow of Wretched Vitality",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106267,7 +106267,7 @@ const ESO_SETS = [
           "id": 2155193913
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Inferno Staff of Wretched Vitality",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106275,7 +106275,7 @@ const ESO_SETS = [
           "id": 3730583743
         },
         {
-          "name": "Breton Greatsword 4",
+          "name": "Greatsword of Wretched Vitality",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106283,7 +106283,7 @@ const ESO_SETS = [
           "id": 4247815146
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Ice Staff of Wretched Vitality",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -106291,7 +106291,7 @@ const ESO_SETS = [
           "id": 3730583743
         },
         {
-          "name": "Breton Staff 4",
+          "name": "Lightning Staff of Wretched Vitality",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",

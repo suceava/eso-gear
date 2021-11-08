@@ -309,7 +309,7 @@ const updateData = async () => {
   // fixMonsterSetArmorTpe(); // DONE
   // addItemType(); // DONE
   // addSetName(); // DONE
-  updateItemNames("Stygian", "Stygian", "");  // ALL DONE
+  updateItemNames("New Moon Acolyte", "Acolyte's", "");  // ALL DONE
   // addIDs(); // WAIT FOR STAFF FIX
 
   // write to file
