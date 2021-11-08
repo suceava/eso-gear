@@ -589,3 +589,599 @@
   "setName": "Marksman's Crest",
   "id": 4162698419
 },
+
+
+
+
+{
+  "name": "Galerion's Sabatons",
+  "image": "gear_altmer_heavy_feet_d.png",
+  "slot": "feet",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 1746246699
+},
+{
+  "name": "Galerion's Boots",
+  "image": "gear_altmer_medium_feet_d.png",
+  "slot": "feet",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 3340549677
+},
+{
+  "name": "Galerion's Greaves",
+  "image": "gear_altmer_heavy_legs_d.png",
+  "slot": "legs",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 1021106362
+},
+{
+  "name": "Galerion's Guards",
+  "image": "gear_altmer_medium_legs_d.png",
+  "slot": "legs",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 2400174144
+},
+{
+  "name": "Galerion's Gauntlets",
+  "image": "gear_altmer_heavy_hands_d.png",
+  "slot": "hands",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 2106921407
+},
+{
+  "name": "Galerion's Bracers",
+  "image": "gear_altmer_medium_hands_d.png",
+  "slot": "hands",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 3616221033
+},
+{
+  "name": "Galerion's Girdle",
+  "image": "gear_altmer_heavy_waist_d.png",
+  "slot": "waist",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 3388302913
+},
+{
+  "name": "Galerion's Belt",
+  "image": "gear_altmer_medium_waist_d.png",
+  "slot": "waist",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Galerion's Revenge",
+  "id": 3220005723
+},
+
+
+
+{
+  "name": "The Vicecanon's Sabatons",
+  "image": "gear_argonian_heavy_feet_d.png",
+  "slot": "feet",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Vicecanon of Venom",
+  "id": 3042567652
+},
+{
+  "name": "The Vicecanon's Shoes",
+  "image": "gear_argonian_light_feet_d.png",
+  "slot": "feet",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Vicecanon of Venom",
+  "id": 1694129881
+},
+{
+  "name": "The Vicecanon's Gauntlets",
+  "image": "gear_argonian_heavy_hands_d.png",
+  "slot": "hands",
+  "armorType": "heavy",
+  "itemType": "armor",
+  "setName": "Vicecanon of Venom",
+  "id": 3718552382
+},
+{
+  "name": "The Vicecanon's Gloves",
+  "image": "gear_argonian_light_hands_d.png",
+  "slot": "hands",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Vicecanon of Venom",
+  "id": 2260019309
+},
+
+
+
+
+{
+  "name": "Sword Dancer's Shield",
+  "image": "gear_redguard_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Sword Dancer",
+  "id": 2569819664
+},
+{
+  "name": "Sword Dancer's Greatsword",
+  "image": "gear_redguard_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2576335024
+},
+{
+  "name": "Sword Dancer's Maul",
+  "image": "gear_redguard_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2053297433
+},
+{
+  "name": "Sword Dancer's Battle Axe",
+  "image": "gear_redguard_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2962806357
+},
+{
+  "name": "Sword Dancer's Restoration Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2773005789
+},
+{
+  "name": "Sword Dancer's Inferno Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2773005789
+},
+{
+  "name": "Sword Dancer's Ice Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2773005789
+},
+{
+  "name": "Sword Dancer's Bow",
+  "image": "gear_redguard_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 336003711
+},
+{
+  "name": "Sword Dancer's Lightning Staff",
+  "image": "gear_redguard_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Sword Dancer",
+  "id": 2773005789
+},
+
+
+
+
+{
+  "name": "Light Speaker's Shield",
+  "image": "gear_bosmer_shield_d.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Light Speaker",
+  "id": 599474145
+},
+{
+  "name": "Light Speaker's Mace",
+  "image": "gear_bosmer_1hhammer_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 1826268859
+},
+{
+  "name": "Light Speaker's Dagger",
+  "image": "gear_bosmer_dagger_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 602168182
+},
+{
+  "name": "Light Speaker's Axe",
+  "image": "gear_bosmer_1haxe_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 1462367143
+},
+{
+  "name": "Light Speaker's Sword",
+  "image": "gear_bosmer_1hsword_d.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 1679713538
+},
+{
+  "name": "Light Speaker's Greatsword",
+  "image": "gear_bosmer_2hsword_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 2601122435
+},
+{
+  "name": "Light Speaker's Battle Axe",
+  "image": "gear_bosmer_2haxe_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 219981806
+},
+{
+  "name": "Light Speaker's Inferno Staff",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 2355229690
+},
+{
+  "name": "Light Speaker's Maul",
+  "image": "gear_bosmer_2hhammer_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 517868800
+},
+{
+  "name": "Light Speaker's Ice Staff",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 2355229690
+},
+{
+  "name": "Light Speaker's Bow",
+  "image": "gear_bosmer_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 1506853384
+},
+{
+  "name": "Light Speaker's Lightning Staff",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Light Speaker",
+  "id": 2355229690
+},
+
+
+
+
+{
+  "name": "Shoes of the Undaunted Bastion",
+  "image": "gear_breton_light_feet_d.png",
+  "slot": "feet",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 689770346
+},
+{
+  "name": "Boots of the Undaunted Bastion",
+  "image": "gear_breton_medium_feet_d.png",
+  "slot": "feet",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 913690181
+},
+{
+  "name": "Hat of the Undaunted Bastion",
+  "image": "gear_breton_light_head_d.png",
+  "slot": "head",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 1668790808
+},
+{
+  "name": "Helmet of the Undaunted Bastion",
+  "image": "gear_breton_medium_head_d.png",
+  "slot": "head",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 1752787311
+},
+{
+  "name": "Robe of the Undaunted Bastion",
+  "image": "gear_breton_light_shirt_d.png",
+  "slot": "chest",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 3776788950
+},
+{
+  "name": "Jack of the Undaunted Bastion",
+  "image": "gear_breton_medium_chest_d.png",
+  "slot": "chest",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 2623813062
+},
+{
+  "name": "Breeches of the Undaunted Bastion",
+  "image": "gear_breton_light_legs_d.png",
+  "slot": "legs",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 1698922003
+},
+{
+  "name": "Guards of the Undaunted Bastion",
+  "image": "gear_breton_medium_legs_d.png",
+  "slot": "legs",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 3420992360
+},
+{
+  "name": "Gloves of the Undaunted Bastion",
+  "image": "gear_breton_light_hands_d.png",
+  "slot": "hands",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 2640675244
+},
+{
+  "name": "Bracers of the Undaunted Bastion",
+  "image": "gear_breton_medium_hands_d.png",
+  "slot": "hands",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 1239214897
+},
+{
+  "name": "Epaulets of the Undaunted Bastion",
+  "image": "gear_breton_light_shoulders_d.png",
+  "slot": "shoulders",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 160447191
+},
+{
+  "name": "Arm Cops of the Undaunted Bastion",
+  "image": "gear_breton_medium_shoulders_d.png",
+  "slot": "shoulders",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 1891447130
+},
+{
+  "name": "Sash of the Undaunted Bastion",
+  "image": "gear_breton_light_waist_d.png",
+  "slot": "waist",
+  "armorType": "light",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 2828906558
+},
+{
+  "name": "Belt of the Undaunted Bastion",
+  "image": "gear_breton_medium_waist_d.png",
+  "slot": "waist",
+  "armorType": "medium",
+  "itemType": "armor",
+  "setName": "Undaunted Bastion",
+  "id": 3382278579
+},
+
+
+
+
+
+{
+  "name": "Spider Cultist's Shield",
+  "image": "gear_daedric_shield_c.png",
+  "slot": "offHand",
+  "itemType": "armor",
+  "setName": "Spider Cultist Cowl",
+  "id": 4288935329
+},
+{
+  "name": "Spider Cultist's Mace",
+  "image": "gear_daedric_1hhammer_c.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 1828179519
+},
+{
+  "name": "Spider Cultist's Dagger",
+  "image": "gear_daedric_dagger_c.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 805706654
+},
+{
+  "name": "Spider Cultist's Axe",
+  "image": "gear_daedric_1haxe_b.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 2350211102
+},
+{
+  "name": "Spider Cultist's Sword",
+  "image": "gear_daedric_1hsword_c.png",
+  "slot": "oneHand",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 1211075236
+},
+{
+  "name": "Spider Cultist's Maul",
+  "image": "gear_daedric_2hhammer_c.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 95015576
+},
+{
+  "name": "Spider Cultist's Greatsword",
+  "image": "gear_daedric_2hsword_c.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 1705799289
+},
+{
+  "name": "Spider Cultist's Battle Axe",
+  "image": "gear_daedric_2haxe_c.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 385045076
+},
+{
+  "name": "Spider Cultist's Restoration Staff",
+  "image": "gear_daedric_staff_c.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 2081002748
+},
+{
+  "name": "Spider Cultist's Bow",
+  "image": "gear_daedric_bow_c.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Spider Cultist Cowl",
+  "id": 563719442
+},
+
+
+
+
+{
+  "name": "Restoration Staff of the Viper",
+  "image": "gear_argonian_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Viper's Sting",
+  "id": 888949499
+},
+{
+  "name": "Inferno Staff of the Viper",
+  "image": "gear_argonian_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Viper's Sting",
+  "id": 888949499
+},
+{
+  "name": "Ice Staff of the Viper",
+  "image": "gear_argonian_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Viper's Sting",
+  "id": 888949499
+},
+{
+  "name": "Bow of the Viper",
+  "image": "gear_argonian_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Viper's Sting",
+  "id": 3905676957
+},
+{
+  "name": "Lightning Staff of the Viper",
+  "image": "gear_argonian_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Viper's Sting",
+  "id": 888949499
+},
+
+
+
+
+{
+  "name": "Restoration Staff of the Knightmare",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Knightmare",
+  "id": 4172739471
+},
+{
+  "name": "Inferno Staff of the Knightmare",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Knightmare",
+  "id": 4172739471
+},
+{
+  "name": "Ice Staff of the Knightmare",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Knightmare",
+  "id": 4172739471
+},
+{
+  "name": "Bow of the Knightmare",
+  "image": "gear_bosmer_bow_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Knightmare",
+  "id": 2752735977
+},
+{
+  "name": "Lightning Staff of the Knightmare",
+  "image": "gear_bosmer_staff_d.png",
+  "slot": "twoHands",
+  "itemType": "weapons",
+  "setName": "Knightmare",
+  "id": 4172739471
+}
+
+
