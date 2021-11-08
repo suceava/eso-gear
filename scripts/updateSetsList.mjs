@@ -309,8 +309,8 @@ const updateData = async () => {
   // fixMonsterSetArmorTpe(); // DONE
   // addItemType(); // DONE
   // addSetName(); // DONE
-  updateItemNames("New Moon Acolyte", "Acolyte's", "");  // ALL DONE
-  // addIDs(); // WAIT FOR STAFF FIX
+  // updateItemNames("New Moon Acolyte", "Acolyte's", "");  // ALL DONE
+  addIDs(); // WAIT FOR STAFF FIX
 
   // write to file
   const content = 'const ESO_SETS = ' +
