@@ -5,3 +5,16 @@
   justify-content: center;
   /* padding-top: 120px; */
 }
+
+.ViewBuildLayout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding-top: 120px; */
+}
+
+.CreateBuildLayout .Summary {
+  background-size: 368px 800px, cover;
+  width: 288px;
+}

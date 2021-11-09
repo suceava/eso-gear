@@ -49,6 +49,39 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
   }
 };
 
+// convert EquipmentSlot to readable string
+export const equipmentSlotToString = (equipmentSlot: EquipmentSlot): string => {
+  switch (equipmentSlot) {
+    case EquipmentSlot.head:
+      return 'Head';
+    case EquipmentSlot.shoulders:
+      return 'Shoulders';
+    case EquipmentSlot.chest:
+      return 'Chest';
+    case EquipmentSlot.legs:
+      return 'Legs';
+    case EquipmentSlot.hands:
+      return 'Hands';
+    case EquipmentSlot.feet:
+      return 'Feet';
+    case EquipmentSlot.waist:
+      return 'Waist';
+    case EquipmentSlot.neck:
+      return 'Neck';
+    case EquipmentSlot.ring1:
+      return 'Ring 1'
+    case EquipmentSlot.ring2:
+      return 'Ring 2';
+    case EquipmentSlot.mainHand1:
+      return 'Main Hand 1';
+    case EquipmentSlot.offHand1:
+      return 'Off Hand 1'
+    case EquipmentSlot.mainHand2:
+      return 'Main Hand 1';
+    case EquipmentSlot.offHand2:
+      return 'Off Hand 2';
+  }
+};
 
 type EquipmentBuildItem = {
   enchantment?: string | undefined;
