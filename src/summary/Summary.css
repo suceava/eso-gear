@@ -1,7 +1,3 @@
-.Summary hr {
-  background-size: 288px 4px;
-}
-
 .Summary h2 {
   margin-bottom: 15px;
 }
@@ -12,4 +8,27 @@
 .GearSummary a,
 .GearSummary a:visited {
   text-decoration: none;
+}
+
+.gear-summary-table-header-row {
+  font-family: "univers67";
+  margin-bottom: 5px;
+}
+
+.gear-summary-table-row {
+  border-top: solid 1px #444;
+}
+.gear-summary-table-row.cozy{
+  min-height: 64px;
+}
+.gear-summary-table-row.compact{
+  min-height: 24px;
+}
+.gear-summary-table-row.row img {
+  vertical-align: middle;
+}
+
+.gear-summary-table-row .col {
+  vertical-align: middle;
+  align-items: center;
 }

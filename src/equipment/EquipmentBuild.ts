@@ -83,13 +83,8 @@ export const equipmentSlotToString = (equipmentSlot: EquipmentSlot): string => {
   }
 };
 
-export type EquipmentBuildItem = {
-  enchantment?: string | undefined;
-  trait?: string | undefined;
-} & EsoItem;
-
 type EquipmentBuildSlot = {
-  [key in EquipmentSlot]: EquipmentBuildItem | undefined;
+  [key in EquipmentSlot]: EsoItem | undefined;
 }
 
 export class EquipmentBuild {

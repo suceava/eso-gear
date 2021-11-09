@@ -16,7 +16,7 @@ export function ViewBuildLayout() {
 
   return (
     <Container className='ViewBuildLayout'>
-      <Summary build={build}></Summary>
+      <Summary build={build} layout='view'></Summary>
     </Container>
   );
 }

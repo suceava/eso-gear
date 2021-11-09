@@ -22,7 +22,7 @@ export function CreateBuildLayout() {
   return (
     <div className="CreateBuildLayout">
       <DndProvider backend={HTML5Backend}>
-        <Summary build={build}></Summary>
+        <Summary build={build} layout='create'></Summary>
         <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
         <Inventory></Inventory>
       </DndProvider>

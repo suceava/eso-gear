@@ -16,3 +16,11 @@
 .ViewBuildLayout {
   max-width: 860px;
 }
+
+.ViewBuildLayout .Summary {
+  background-size: 840px 800px, cover;
+}
+
+.ViewBuildLayout .Summary hr {
+  background-size: 800px 4px;
+}
