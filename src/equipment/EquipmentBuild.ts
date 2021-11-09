@@ -45,8 +45,14 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
   }
 };
 
+
+type EquipmentBuildItem = {
+  enchantment?: string | undefined;
+  trait?: string | undefined;
+} & EsoItem;
+
 type EquipmentBuildSlot = {
-  [key in EquipmentSlot]: EsoItem | undefined;
+  [key in EquipmentSlot]: EquipmentBuildItem | undefined;
 }
 
 export class EquipmentBuild {
@@ -92,5 +98,15 @@ export class EquipmentBuild {
     }
 
     this.items[slot] = item;
+  }
+
+  public toHash(): string {
+    const buildItems = this.items;
+    const hashArray = Object.keys(EquipmentSlot).map(key => {
+      const enumKey = key as EquipmentSlot;
+      return buildItems[enumKey]?.id;
+    });
+    console.log(hashArray.join('_'));
+    return hashArray.join('_');
   }
 }

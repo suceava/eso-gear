@@ -69,7 +69,6 @@ export interface ItemTooltipProps {
 }
 
 export function ItemTooltip({ item, show, target }: ItemTooltipProps) {
-  console.log(target.current);
   return (
     <Overlay
       target={target.current}

@@ -62,7 +62,7 @@ export enum EsoStat {
   healingTaken = 'healingTaken'
 };
 
-export type EsoBonusStat = {
+export type EsoBonusStats = {
   [key in EsoStat]: number | undefined;
   // armor: number | undefined,
   // maximumHealth: number | undefined,
@@ -88,16 +88,17 @@ export type EsoBonusStat = {
 
 export type EsoSetBonus = {
   description: string;
-  stats: EsoBonusStat[] | undefined;
-  buffs: string[] | undefined;
+  stats?: EsoBonusStats | undefined;
+  buffs?: string[] | undefined;
 };
 
 export type EsoItem = {
-  name: string;
+  id: number;
   image: string;
+  name: string;
   slot: EsoSlot;
   itemType: EsoItemType;
-  armorType: EsoArmorType | undefined;
+  armorType?: EsoArmorType | undefined;
   setName: string;
 };
 
@@ -107,17 +108,18 @@ export type EsoLocation = {
 };
 
 export type EsoSet = {
+  id: number;
   image: string;
   name: string;
   type: EsoSetType;
   link: string;
   htmlDescription: string;
   bonuses: {
-    '1': EsoSetBonus | undefined;
-    '2': EsoSetBonus | undefined;
-    '3': EsoSetBonus | undefined;
-    '4': EsoSetBonus | undefined;
-    '5': EsoSetBonus | undefined;
+    '1'?: EsoSetBonus | undefined;
+    '2'?: EsoSetBonus | undefined;
+    '3'?: EsoSetBonus | undefined;
+    '4'?: EsoSetBonus | undefined;
+    '5'?: EsoSetBonus | undefined;
   }
   dlc: string | null;
   style: string | null;

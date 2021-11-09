@@ -16,6 +16,8 @@ export function CreateBuildLayout() {
 
   const buildOnChange = (newBuild: EquipmentBuild) => {
     setBuild(prevBuild => newBuild);
+
+    // window.location.hash = newBuild.toHash();
   };
 
   return (

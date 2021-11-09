@@ -26,7 +26,6 @@ export function InventoryItem({ item }: InventoryItemProps) {
 
   const onMouseEnterRow = () => {
     if (!isDragging) {
-      console.log('showing');
       setShowTip(true);
     }
   }
