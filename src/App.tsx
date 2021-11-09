@@ -4,6 +4,7 @@ import { CreateBuildLayout } from './layouts/CreateBuildLayout';
 import { ViewBuildLayout } from './layouts/ViewBuildLayout';
 
 import './App.css';
+import { Footer } from "./Footer";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Route path="/" element={<CreateBuildLayout />} />
         <Route path="/build" element={<ViewBuildLayout />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

@@ -110,3 +110,19 @@ hr {
   font-family: "univers67";
   text-shadow: 2px 2px 3px black;
 }
+
+/* footer */
+.footer {
+  color: rgba(255,255,255,.3);
+  font-family: "univers57";
+  padding: 30px;
+  text-align: center;
+}
+.footer .footer-feedback {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.footer .footer-build {
+  font-size: 10px;  
+}
+/* end footer */

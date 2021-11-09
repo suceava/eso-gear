@@ -22,7 +22,6 @@
   }
 }
 
-
 .CreateBuildLayout .Summary {
   background-size: 1100px 800px, cover;
 }
@@ -31,14 +30,17 @@
   margin-right: auto;
 }
 
+.CreateBuildLayout .Summary hr {
+  background-size: 1000px 4px;
+}
 
 
-.ViewBuildLayout {
-  max-width: 860px;
+.ViewBuildLayout.container{
+  max-width: 860px !important;
 }
 
 .ViewBuildLayout .Summary {
-  background-size: 840px 1100px, cover;
+  background-size: 840px 1085px, cover;
 }
 
 .ViewBuildLayout .Summary hr {

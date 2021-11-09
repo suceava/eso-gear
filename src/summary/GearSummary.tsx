@@ -78,7 +78,9 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
                 {
                   set &&
                   <ItemSetTooltip set={set}>
-                    <a target='_blank'rel='noreferrer' href={set.link} className='item-legendary'>{set.name}</a>
+                    <a target='_blank'rel='noreferrer' href={set.link}>
+                      <span className='item-legendary'>{set.name}</span>
+                    </a>
                   </ItemSetTooltip>
                 }
               </Col>

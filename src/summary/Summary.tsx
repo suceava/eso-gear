@@ -1,3 +1,5 @@
+import { Container, Row, Col, Button } from 'react-bootstrap';
+
 import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { GearSummary } from './GearSummary';
 
@@ -9,9 +11,30 @@ export interface SummaryProps {
 }
 
 export function Summary({ build, layout }: SummaryProps) {
+  const shareUrl = `${window.location.origin}/build?#${build.toHash()}`;
+
+  const onCopyLinkClick = () => {
+    navigator.clipboard.writeText(shareUrl);
+  };
+
   return (
     <div className='Summary window'>
-      <h1>SUMMARY</h1>
+      {
+        layout === 'create' &&
+        <Container>
+          <Row>
+            <Col>
+              <h1>SUMMARY</h1>
+            </Col>
+            <Col className='summary-share-cell'>
+              <div>
+                <a target='_blank'rel='noreferrer' href={shareUrl}>Share your build</a>
+              </div>
+              <Button title='Copy link' onClick={onCopyLinkClick}></Button>
+            </Col>
+          </Row>
+        </Container>
+      }
       <hr/>
       <h2>{build.name}</h2>
       <GearSummary build={build} showItem={layout === 'view'}></GearSummary>

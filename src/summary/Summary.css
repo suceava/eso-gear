@@ -1,13 +1,43 @@
+.Summary a,
+.Summary a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
 .Summary h2 {
   margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.summary-share-cell {
+  height: 28px;
+  vertical-align: middle;
+}
+.summary-share-cell div {
+  float: left;
+}
+.summary-share-cell button {
+  background-color: transparent;
+  background-image: url(../images/copy-link-white-32.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+.summary-share-cell button:hover {
+  transition: all .1s;
+  height: 22px;
+  width: 22px;
+}
+.summary-share-cell button:active {
+  transform: translate(-1px, 1px);
 }
 
 .GearSummary {
   font-family: "univers57";
-}
-.GearSummary a,
-.GearSummary a:visited {
-  text-decoration: none;
 }
 
 .gear-summary-table-header-row {
