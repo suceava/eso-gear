@@ -11,8 +11,10 @@ export enum EquipmentSlot {
   neck = 'neck',
   ring1 = 'ring1',
   ring2 = 'ring2',
-  mainHand = 'mainHand',
-  offHand = 'offHand'
+  mainHand1 = 'mainHand1',
+  offHand1 = 'offHand1',
+  mainHand2 = 'mainHand2',
+  offHand2 = 'offHand2'
 }
 
 // convert EquipmentSlot to EsoSlot
@@ -35,12 +37,13 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
     case EquipmentSlot.neck:
       return EsoSlot.neck;
     case EquipmentSlot.ring1:
-      return EsoSlot.ring;
     case EquipmentSlot.ring2:
       return EsoSlot.ring;
-    case EquipmentSlot.mainHand:
+    case EquipmentSlot.mainHand1:
+    case EquipmentSlot.mainHand2:
       return [EsoSlot.oneHand, EsoSlot.twoHands];
-    case EquipmentSlot.offHand:
+    case EquipmentSlot.offHand1:
+    case EquipmentSlot.offHand2:
       return [EsoSlot.oneHand, EsoSlot.offHand];
   }
 };
@@ -88,15 +91,20 @@ export class EquipmentBuild {
 
     if (item.slot === EsoSlot.twoHands) {
       // clear out off hand slot
-      delete this.items[EquipmentSlot.offHand];
+      delete this.items[slot === EquipmentSlot.mainHand1 ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2];
     }
-    if (slot === EquipmentSlot.offHand && 
-      this.items[EquipmentSlot.mainHand] && 
-      this.items[EquipmentSlot.mainHand]?.slot === EsoSlot.twoHands) {
+    if (slot === EquipmentSlot.offHand1 && 
+      this.items[EquipmentSlot.mainHand1] && 
+      this.items[EquipmentSlot.mainHand1]?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
-      delete this.items[EquipmentSlot.mainHand];
+      delete this.items[EquipmentSlot.mainHand1];
     }
-
+    if (slot === EquipmentSlot.offHand2 && 
+      this.items[EquipmentSlot.mainHand2] && 
+      this.items[EquipmentSlot.mainHand2]?.slot === EsoSlot.twoHands) {
+      // clear out main hand slot
+      delete this.items[EquipmentSlot.mainHand2];
+    }
     this.items[slot] = item;
   }
 

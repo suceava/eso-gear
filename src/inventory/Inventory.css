@@ -1,5 +1,5 @@
 .Inventory {
-  background-size: 468px 850px, cover;
+  background-size: 450px 850px, cover;
 }
 
 .Inventory hr {
@@ -15,7 +15,7 @@
 }
 .inventory-container tbody {
   display: block;
-  height: 630px;
+  height: 600px;
   overflow-y: auto;
   width: 100%;
 }
