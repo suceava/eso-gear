@@ -5,7 +5,8 @@ import {
   EsoItemType,
   EsoItem,
   armorTypeToString,
-  weaponTypeToString
+  weaponTypeToString,
+  EsoSlot
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { 
@@ -27,6 +28,9 @@ const getItemTypeString = (item?: EsoItem): string => {
 
   switch (item.itemType) {
     case EsoItemType.armor:
+      if (item.slot === EsoSlot.offHand) {
+        return 'Shield';
+      }
       return armorTypeToString(item.armorType);
 
     case EsoItemType.weapons:

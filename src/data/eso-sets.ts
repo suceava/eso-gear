@@ -46,7 +46,7 @@ export enum EsoWeaponType {
   sword = 'sword',
 
   battleAxe = 'battleAxe',
-  greatSword = 'greatSword',
+  greatsword = 'greatsword',
   maul = 'maul',
 
   restorationStaff = 'restorationStaff',
@@ -72,7 +72,7 @@ export const weaponTypeToString = (weaponType: EsoWeaponType | undefined): strin
       return 'Sword';
     case EsoWeaponType.battleAxe:
       return 'Battle Axe';
-    case EsoWeaponType.greatSword:
+    case EsoWeaponType.greatsword:
       return 'Greatsword';
     case EsoWeaponType.maul:
       return 'Maul';
