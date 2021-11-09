@@ -6,9 +6,29 @@
   /* padding-top: 120px; */
 }
 
+@media (min-width: 990px) {
+  .CreateBuildLayout .Equipment.window {
+    margin-left: auto;
+  }
+  .CreateBuildLayout .Inventory.window {
+    margin-right: auto;
+  }
+}
+@media (max-width: 990px) {
+  .CreateBuildLayout .Inventory.window,
+  .CreateBuildLayout .Equipment.window {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 .CreateBuildLayout .Summary {
-  background-size: 368px 800px, cover;
-  width: 288px;
+  background-size: 1100px 800px, cover;
+}
+.CreateBuildLayout .Summary.window {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -18,7 +38,7 @@
 }
 
 .ViewBuildLayout .Summary {
-  background-size: 840px 800px, cover;
+  background-size: 840px 1100px, cover;
 }
 
 .ViewBuildLayout .Summary hr {
