@@ -3,6 +3,8 @@ version: 0.2
 phases:
   install:
     on-failure: ABORT
+    runtime-versions:
+      nodejs: 16.x
     commands:
       - npm install -g typescript
       - npm install
