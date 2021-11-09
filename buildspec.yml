@@ -2,10 +2,12 @@ version: 0.2
 
 phases:
   install:
+    on-failure: ABORT
     commands:
-      - echo Install dependencies
+      - npm install -g typescript
       - npm install
   build:
+    on-failure: ABORT
     commands:
       - echo Build app on `date`
       - export REACT_APP_BUILD_DATE=$(date +'%FT%T%Z')
