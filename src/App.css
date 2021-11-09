@@ -100,11 +100,3 @@ hr {
   font-family: "univers67";
   text-shadow: 2px 2px 3px black;
 }
-
-.EquipmentGrid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* padding-top: 120px; */
-}

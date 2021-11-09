@@ -1,0 +1,7 @@
+.CreateBuildLayout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding-top: 120px; */
+}

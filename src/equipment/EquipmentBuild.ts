@@ -1,4 +1,5 @@
 import { EsoItem, EsoSlot } from '../data/eso-sets';
+import { getEsoItemById } from '../data/esoSetDataLoader';
 
 export enum EquipmentSlot {
   head = 'head',
@@ -71,6 +72,28 @@ export class EquipmentBuild {
     return new EquipmentBuild(build.name, build.items);
   }
 
+  static fromHash(hash: string): EquipmentBuild {
+    const buildItems = {} as EquipmentBuildSlot;
+    hash.split('_').forEach((itemId, index) => {
+      if (!itemId) {
+        return;
+      }
+      const slot = Object.keys(EquipmentSlot)[index] as EquipmentSlot;
+      buildItems[slot] = getEsoItemById(parseInt(itemId));
+    });
+    return new EquipmentBuild('New Build', buildItems);
+  }
+
+  public toHash(): string {
+    const buildItems = this.items;
+    const hashArray = Object.keys(EquipmentSlot).map(key => {
+      const enumKey = key as EquipmentSlot;
+      return buildItems[enumKey]?.id;
+    });
+    console.log(hashArray.join('_'));
+    return hashArray.join('_');
+  }
+
   public equip(item: EsoItem, slot: EquipmentSlot): void {
     if (!item) {
       return;
@@ -106,15 +129,5 @@ export class EquipmentBuild {
       delete this.items[EquipmentSlot.mainHand2];
     }
     this.items[slot] = item;
-  }
-
-  public toHash(): string {
-    const buildItems = this.items;
-    const hashArray = Object.keys(EquipmentSlot).map(key => {
-      const enumKey = key as EquipmentSlot;
-      return buildItems[enumKey]?.id;
-    });
-    console.log(hashArray.join('_'));
-    return hashArray.join('_');
   }
 }

@@ -7,6 +7,7 @@ import { Inventory } from '../inventory/Inventory';
 import { Summary } from '../summary/Summary';
 import { useStickyState } from '../stickyState';
 
+import './Layout.css';
 
 export function CreateBuildLayout() {
   // buildObj will be deserialized as a plain object
@@ -16,12 +17,10 @@ export function CreateBuildLayout() {
 
   const buildOnChange = (newBuild: EquipmentBuild) => {
     setBuild(prevBuild => newBuild);
-
-    // window.location.hash = newBuild.toHash();
   };
 
   return (
-    <div className="EquipmentGrid">
+    <div className="CreateBuildLayout">
       <DndProvider backend={HTML5Backend}>
         <Summary build={build}></Summary>
         <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
