@@ -1,3 +1,15 @@
 .Summary hr {
   background-size: 288px 4px;
 }
+
+.Summary h2 {
+  margin-bottom: 15px;
+}
+
+.GearSummary {
+  font-family: "univers57";
+}
+.GearSummary a,
+.GearSummary a:visited {
+  text-decoration: none;
+}

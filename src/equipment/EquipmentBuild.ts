@@ -77,13 +77,13 @@ export const equipmentSlotToString = (equipmentSlot: EquipmentSlot): string => {
     case EquipmentSlot.offHand1:
       return 'Off Hand 1'
     case EquipmentSlot.mainHand2:
-      return 'Main Hand 1';
+      return 'Main Hand 2';
     case EquipmentSlot.offHand2:
       return 'Off Hand 2';
   }
 };
 
-type EquipmentBuildItem = {
+export type EquipmentBuildItem = {
   enchantment?: string | undefined;
   trait?: string | undefined;
 } & EsoItem;

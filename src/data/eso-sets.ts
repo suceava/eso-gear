@@ -96,10 +96,10 @@ export type EsoItem = {
   id: number;
   image: string;
   name: string;
+  setName: string;
   slot: EsoSlot;
   itemType: EsoItemType;
   armorType?: EsoArmorType | undefined;
-  setName: string;
 };
 
 export type EsoLocation = {

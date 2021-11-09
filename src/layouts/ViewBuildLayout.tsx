@@ -1,3 +1,5 @@
+import { Container } from 'react-bootstrap';
+
 import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { Summary } from '../summary/Summary';
 
@@ -13,8 +15,8 @@ export function ViewBuildLayout() {
   }
 
   return (
-    <div className='ViewBuildLayout'>
+    <Container className='ViewBuildLayout'>
       <Summary build={build}></Summary>
-    </div>
+    </Container>
   );
 }

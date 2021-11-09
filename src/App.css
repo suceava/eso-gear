@@ -2,6 +2,10 @@
   font-family: "univers67";
   src: url(./fonts/univers67.otf) format("opentype");
 }
+@font-face {
+  font-family: "univers57";
+  src: url(./fonts/univers57.otf) format("opentype");
+}
 
 .App ::-webkit-scrollbar-button:single-button:vertical:increment {
   background-image: url(images/slider_marker_down.png);
@@ -62,6 +66,12 @@ hr {
   background-repeat: no-repeat;
   margin: 10px;
   padding: 30px 40px;
+}
+
+/* table section */
+.row-table-header {
+  color: #c5c29e;
+  text-transform: uppercase;
 }
 
 /* item rarity */
