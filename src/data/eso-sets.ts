@@ -21,6 +21,73 @@ export enum EsoArmorType {
   light = 'light',
   medium = 'medium'
 };
+export const armorTypeToString = (armorType: EsoArmorType | undefined): string => {
+  if (!armorType) {
+    return '';
+  }
+
+  switch (armorType) {
+    case EsoArmorType.heavy:
+      return 'Heavy';
+    case EsoArmorType.light:
+      return 'Light';
+    case EsoArmorType.medium:
+      return 'Medium';
+    default:
+      return '';
+  }
+};
+
+export enum EsoWeaponType {
+  axe = 'axe',
+  bow = 'bow',
+  dagger = 'dagger',
+  mace = 'mace',
+  sword = 'sword',
+
+  battleAxe = 'battleAxe',
+  greatsword = 'greatsword',
+  maul = 'maul',
+
+  restorationStaff = 'restorationStaff',
+  infernoStaff = 'infernoStaff',
+  iceStaff = 'iceStaff',
+  lightningStaff = 'lightningStaff'
+};
+export const weaponTypeToString = (weaponType: EsoWeaponType | undefined): string => {
+  if (!weaponType) {
+    return '';
+  }
+
+  switch (weaponType) {
+    case EsoWeaponType.axe:
+      return 'Axe';
+    case EsoWeaponType.bow:
+      return 'Bow';
+    case EsoWeaponType.dagger:
+      return 'Dagger';
+    case EsoWeaponType.mace:
+      return 'Mace';
+    case EsoWeaponType.sword:
+      return 'Sword';
+    case EsoWeaponType.battleAxe:
+      return 'Battle Axe';
+    case EsoWeaponType.greatsword:
+      return 'Greatsword';
+    case EsoWeaponType.maul:
+      return 'Maul';
+    case EsoWeaponType.restorationStaff:
+      return 'Restoration Staff';
+    case EsoWeaponType.infernoStaff:
+      return 'Inferno Staff';
+    case EsoWeaponType.iceStaff:
+      return 'Ice Staff';
+    case EsoWeaponType.lightningStaff:
+      return 'Lightning Staff';
+    default:
+      return '';
+  }
+};
 
 export enum EsoSlot {
   chest = 'chest',
@@ -62,7 +129,7 @@ export enum EsoStat {
   healingTaken = 'healingTaken'
 };
 
-export type EsoBonusStat = {
+export type EsoBonusStats = {
   [key in EsoStat]: number | undefined;
   // armor: number | undefined,
   // maximumHealth: number | undefined,
@@ -88,17 +155,23 @@ export type EsoBonusStat = {
 
 export type EsoSetBonus = {
   description: string;
-  stats: EsoBonusStat[] | undefined;
-  buffs: string[] | undefined;
+  stats?: EsoBonusStats | undefined;
+  buffs?: string[] | undefined;
 };
 
 export type EsoItem = {
-  name: string;
+  id: number;
   image: string;
+  name: string;
+  setName: string;
   slot: EsoSlot;
   itemType: EsoItemType;
-  armorType: EsoArmorType | undefined;
-  setName: string;
+  armorType?: EsoArmorType | undefined;
+  weaponType?: EsoWeaponType | undefined;
+
+  // overridden on build
+  enchantment?: string | undefined;
+  trait?: string | undefined;
 };
 
 export type EsoLocation = {
@@ -107,17 +180,18 @@ export type EsoLocation = {
 };
 
 export type EsoSet = {
+  id: number;
   image: string;
   name: string;
   type: EsoSetType;
   link: string;
   htmlDescription: string;
   bonuses: {
-    '1': EsoSetBonus | undefined;
-    '2': EsoSetBonus | undefined;
-    '3': EsoSetBonus | undefined;
-    '4': EsoSetBonus | undefined;
-    '5': EsoSetBonus | undefined;
+    '1'?: EsoSetBonus | undefined;
+    '2'?: EsoSetBonus | undefined;
+    '3'?: EsoSetBonus | undefined;
+    '4'?: EsoSetBonus | undefined;
+    '5'?: EsoSetBonus | undefined;
   }
   dlc: string | null;
   style: string | null;
@@ -126,3 +200,4 @@ export type EsoSet = {
     list: EsoItem[];
   }
 };
+ 

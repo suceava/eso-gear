@@ -1,26 +1,27 @@
 .Equipment {
-  background-size: 368px 850px, cover;
+  background-size: 320px 800px, cover;
+  width: 256px;
 }
 
 .Equipment hr {
-  background-size: 288px 4px;
+  background-size: 240px 4px;
 }
 
 .gear-slots-grid {
   display: flex;
 }
 .gear-slots-col {
-  width: 96px;
+  width: 80px;
 }
 .gear-slots-row-1 div {
   background-repeat: no-repeat;
   background-position: center;
-  height: 96px;
+  height: 80px;
 }
 .gear-slots-row-3 {
   background-repeat: no-repeat;
   background-position: center;
-  height: 288px;
+  height: 240px;
 }
 
 .gear-slot {
@@ -78,10 +79,14 @@
 }
 
 .gear-slot-mainHand,
+.gear-slot-mainHand1,
+.gear-slot-mainHand2,
 .gear-slot-oneHand {
   background-image: url(../images/gearslot_mainhand.png);
 }
 .gear-slot-mainHand.drop-target,
+.gear-slot-mainHand1.drop-target,
+.gear-slot-mainHand2.drop-target,
 .gear-slot-oneHand.drop-target {
   background-image:
     url(../images/gearslot_mainhand.png),
@@ -97,10 +102,14 @@
     url(../images/gearslot_over2.png);
 }
 
-.gear-slot-offHand {
+.gear-slot-offHand,
+.gear-slot-offHand1,
+.gear-slot-offHand2 {
   background-image: url(../images/gearslot_offhand.png);
 }
-.gear-slot-offHand.drop-target {
+.gear-slot-offHand.drop-target,
+.gear-slot-offHand1.drop-target,
+.gear-slot-offHand2.drop-target {
   background-image:
     url(../images/gearslot_offhand.png),
     url(../images/gearslot_over2.png);

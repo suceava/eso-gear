@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Install dependencies
+      - npm install
+  build:
+    commands:
+      - echo Build app on `date`
+      - export REACT_APP_BUILD_DATE=$(date +'%FT%T%Z')
+      - npm run build
+  post_build:
+    commands:
+      - echo Copy files to root
+      - aws s3 sync ./build s3://eso.gnarlybits.com
+      - echo Build completed on `date`
+
+artifacts:
+  base-directory: build
+  files:
+    - '**/*'

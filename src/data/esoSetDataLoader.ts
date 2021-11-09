@@ -24,3 +24,13 @@ export const loadEsoSetData = (): EsoSet[] => {
 export const getEsoSetByName = (name: string): EsoSet | undefined => {
   return SETS_MAP.get(name);
 }
+
+export const getEsoItemById = (id: number) => {
+  for (const set of ESO_SETS) {
+    for (const item of set.items.list) {
+      if (item.id === id) {
+        return item;
+      }
+    }
+  }
+};

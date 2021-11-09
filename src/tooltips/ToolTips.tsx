@@ -17,7 +17,7 @@ const popperConfig = {
 }
 
 export function ItemSetTooltip(props: any) {
-  const row = props.row;
+  const set = props.set;
 
   return (
     <OverlayTrigger
@@ -25,17 +25,17 @@ export function ItemSetTooltip(props: any) {
       flip={true}
       popperConfig={popperConfig}
       overlay={
-        <Tooltip id={`tooltip_set_${row.name}`} className='tooltip'>
+        <Tooltip id={`tooltip_set_${set.name}`} className='tooltip'>
           <div className='tooltip-item-set'>
-            <img src={'../images/gear/' + row.image} alt={row.name}></img>
-            <h1 className='item-legendary'>{row.name}</h1>
+            <img src={'../images/gear/' + set.image} alt={set.name}></img>
+            <h1 className='item-legendary'>{set.name}</h1>
             <hr />
-            <div dangerouslySetInnerHTML={{ __html: row.htmlDescription }} />
+            <div dangerouslySetInnerHTML={{ __html: set.htmlDescription }} />
             <hr />
-            <div className='tooltip-item-set-type'>{row.type}</div>
+            <div className='tooltip-item-set-type'>{set.type}</div>
             {
-              row.location && row.location.length ?
-                <div className='tooltip-item-set-location'>{row.location[0].name}</div>
+              set.location && set.location.length ?
+                <div className='tooltip-item-set-location'>{set.location[0].name}</div>
                 :
                 undefined
             }
@@ -69,7 +69,6 @@ export interface ItemTooltipProps {
 }
 
 export function ItemTooltip({ item, show, target }: ItemTooltipProps) {
-  console.log(target.current);
   return (
     <Overlay
       target={target.current}

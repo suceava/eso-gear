@@ -301,6 +301,35 @@ const addIDs = () => {
   });
 }
 
+const addWeaponType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(item => {
+      if (item.itemType !== 'weapons') {
+        return;
+      }
+      for (let j=0; j < itemNameWeaponMap.length; j++) {
+        const w = itemNameWeaponMap[j];
+        if (item.name.includes(w)) {
+          if (w === 'Battle Axe') {
+            item.weaponType = 'battleAxe';
+            return;
+          }
+
+          item.weaponType = w.toLowerCase();
+          return;
+        }
+      }
+      for (let j=0; j < itemNameStaffMap.length; j++) {
+        const w = `${itemNameStaffMap[j]} Staff`;
+        if (item.name.includes(w)) {
+          item.weaponType = `${itemNameStaffMap[j].toLowerCase()}Staff`;
+          return;
+        }
+      }
+    });
+  });
+}
+
 
 const updateData = async () => {
   // fixImagePaths();  // DONE
@@ -310,7 +339,8 @@ const updateData = async () => {
   // addItemType(); // DONE
   // addSetName(); // DONE
   // updateItemNames("New Moon Acolyte", "Acolyte's", "");  // ALL DONE
-  addIDs(); // WAIT FOR STAFF FIX
+  // addIDs(); // DONE
+  addWeaponType();
 
   // write to file
   const content = 'const ESO_SETS = ' +

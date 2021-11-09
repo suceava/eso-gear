@@ -1,8 +1,64 @@
-.Summary {
-  background-size: 368px 850px, cover;
-  width: 288px;
+.Summary a,
+.Summary a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
-.Summary hr {
-  background-size: 288px 4px;
+.Summary h2 {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.summary-share-cell {
+  height: 28px;
+  vertical-align: middle;
+}
+.summary-share-cell div {
+  float: left;
+}
+.summary-share-cell button {
+  background-color: transparent;
+  background-image: url(../images/copy-link-white-32.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+.summary-share-cell button:hover {
+  transition: all .1s;
+  height: 22px;
+  width: 22px;
+}
+.summary-share-cell button:active {
+  transform: translate(-1px, 1px);
+}
+
+.GearSummary {
+  font-family: "univers57";
+}
+
+.gear-summary-table-header-row {
+  font-family: "univers67";
+  margin-bottom: 5px;
+}
+
+.gear-summary-table-row {
+  border-top: solid 1px #444;
+}
+.gear-summary-table-row.cozy{
+  min-height: 64px;
+}
+.gear-summary-table-row.compact{
+  min-height: 24px;
+}
+.gear-summary-table-row.row img {
+  vertical-align: middle;
+}
+
+.gear-summary-table-row .col {
+  vertical-align: middle;
+  align-items: center;
 }

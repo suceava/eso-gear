@@ -86,15 +86,24 @@ function Equipment({ build, buildOnChange }: EquipmentProps) {
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem slot={EquipmentSlot.mainHand} item={build.items[EquipmentSlot.mainHand]} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.mainHand1} item={build.items[EquipmentSlot.mainHand1]} onItemDrop={onEquip} />
+          </div>
+          <div className='gear-slots-row-1'>
+            <EquipmentItem slot={EquipmentSlot.mainHand2} item={build.items[EquipmentSlot.mainHand2]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem slot={EquipmentSlot.offHand} item={build.items[EquipmentSlot.offHand]} onItemDrop={onEquip} />
+            <EquipmentItem slot={EquipmentSlot.offHand1} item={build.items[EquipmentSlot.offHand1]} onItemDrop={onEquip} />
+          </div>
+          <div className='gear-slots-row-1'>
+            <EquipmentItem slot={EquipmentSlot.offHand2} item={build.items[EquipmentSlot.offHand2]} onItemDrop={onEquip} />
           </div>
         </div>
         <div className='gear-slots-col'>
+          <div className='gear-slots-row-1'>
+            <div className='gear-slot-empty'></div>
+          </div>
           <div className='gear-slots-row-1'>
             <div className='gear-slot-empty'></div>
           </div>

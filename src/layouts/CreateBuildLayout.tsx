@@ -1,3 +1,4 @@
+import { Container, Row, Col } from 'react-bootstrap';
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 
@@ -7,6 +8,7 @@ import { Inventory } from '../inventory/Inventory';
 import { Summary } from '../summary/Summary';
 import { useStickyState } from '../stickyState';
 
+import './Layout.css';
 
 export function CreateBuildLayout() {
   // buildObj will be deserialized as a plain object
@@ -19,11 +21,21 @@ export function CreateBuildLayout() {
   };
 
   return (
-    <div className="EquipmentGrid">
+    <div className="CreateBuildLayout">
       <DndProvider backend={HTML5Backend}>
-        <Summary build={build}></Summary>
-        <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
-        <Inventory></Inventory>
+        <Container>
+          <Row className='justify-content-lg-center'>
+            <Col lg={5}>
+              <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
+            </Col>
+            <Col lg={7}>
+              <Inventory></Inventory>
+            </Col>
+            <Col lg={10}>
+              <Summary build={build} layout='create'></Summary>
+            </Col>
+          </Row>
+        </Container>
       </DndProvider>
     </div>
   );
