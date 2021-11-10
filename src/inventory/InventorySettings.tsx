@@ -4,6 +4,55 @@ export enum InventoryFilterType {
   armor = 'armor',
   jewelry = 'jewelry'
 };
+
+export enum InventorySubFilterType {
+  all = 'all',
+  // weapons
+  oneHanded = 'oneHanded',
+  twoHanded = 'twoHanded',
+  bow = 'bow',
+  destructionStaff = 'destructionStaff',
+  healingStaff = 'healingStaff',
+  // armor
+  heavy = 'heavy',
+  medium = 'medium',
+  light = 'light',
+  shield = 'shield',
+  // jewelry
+  ring = 'ring',
+  neck = 'neck'
+};
+
+const filterSubFilterMap = {
+  [InventoryFilterType.weapons]: [
+    InventorySubFilterType.all,
+    InventorySubFilterType.oneHanded,
+    InventorySubFilterType.twoHanded,
+    InventorySubFilterType.bow,
+    InventorySubFilterType.destructionStaff,
+    InventorySubFilterType.healingStaff
+  ],
+  [InventoryFilterType.armor]: [
+    InventorySubFilterType.all,
+    InventorySubFilterType.heavy,
+    InventorySubFilterType.light,
+    InventorySubFilterType.medium,
+    InventorySubFilterType.shield
+  ],
+  [InventoryFilterType.jewelry]: [
+    InventorySubFilterType.all,
+    InventorySubFilterType.ring,
+    InventorySubFilterType.neck
+  ]
+};
+
+export const isSubFilterOfFilterType = (filterType: InventoryFilterType, subFilterType: InventorySubFilterType) => {
+  if (filterType === InventoryFilterType.all) {
+    return true;
+  }
+  return filterSubFilterMap[filterType].includes(subFilterType);
+};
+
 export const inventoryFilterTypeToString = (filterType: InventoryFilterType) => {
   switch (filterType) {
     case InventoryFilterType.all:
@@ -19,55 +68,52 @@ export const inventoryFilterTypeToString = (filterType: InventoryFilterType) => 
   }
 };
 
-export enum InventoryWeaponSubFilterType {
-  all = 'all',
-  oneHanded = 'oneHanded',
-  twoHanded = 'twoHanded',
-  bow = 'bow',
-  destructionStaff = 'destructionStaff',
-  healingStaff = 'healingStaff'
-};
-export const inventoryWeaponSubFilterTypeToString = (filterType: InventoryWeaponSubFilterType) => {
+export const inventoryWeaponSubFilterTypeToString = (filterType: InventorySubFilterType) => {
   switch (filterType) {
-    case InventoryWeaponSubFilterType.all:
+    case InventorySubFilterType.all:
       return 'All';
-    case InventoryWeaponSubFilterType.oneHanded:
+    case InventorySubFilterType.oneHanded:
       return 'One-Handed Melee';
-    case InventoryWeaponSubFilterType.twoHanded:
+    case InventorySubFilterType.twoHanded:
       return 'Two-Handed Melee';
-    case InventoryWeaponSubFilterType.bow:
+    case InventorySubFilterType.bow:
       return 'Bow';
-    case InventoryWeaponSubFilterType.destructionStaff:
+    case InventorySubFilterType.destructionStaff:
       return 'Destruction Staff';
-    case InventoryWeaponSubFilterType.healingStaff:
+    case InventorySubFilterType.healingStaff:
       return 'Healing Staff';
+
+    case InventorySubFilterType.heavy:
+      return 'Heavy Armor';
+    case InventorySubFilterType.medium:
+      return 'Medium Armor';
+    case InventorySubFilterType.light:
+      return 'Light Armor';
+    case InventorySubFilterType.shield:
+      return 'Shield';
+
+    case InventorySubFilterType.neck:
+      return 'Neck';
+    case InventorySubFilterType.ring:
+      return 'Ring';
+
     default:
       return '';
   }
 };
 
-export enum InventoryArmorSubFilterType {
-  all = 'all',
-  heavy = 'heavy',
-  medium = 'medium',
-  light = 'light',
-  shield = 'shield'
-};
-
-export enum InventoryJewelrySubFilterType {
-  all = 'all',
-  neck = 'neck',
-  ring = 'ring'
-};
-
 export class InventorySettings {
   inventoryFilter: InventoryFilterType;
-  inventorySubFilter?: InventoryWeaponSubFilterType | InventoryArmorSubFilterType | InventoryJewelrySubFilterType;
+  inventorySubFilter: InventorySubFilterType;
   inventorySearch: string;
 
-  constructor(inventoryFilter = InventoryFilterType.all, inventorySubFilter = undefined) {
+  constructor(
+    inventoryFilter = InventoryFilterType.all,
+    inventorySubFilter = InventorySubFilterType.all,
+    inventorySearch = ''
+  ) {
     this.inventoryFilter = inventoryFilter;
     this.inventorySubFilter = inventorySubFilter;
-    this.inventorySearch = '';
+    this.inventorySearch = inventorySearch;
   }
 }

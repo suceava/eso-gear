@@ -2,9 +2,10 @@ import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 
 import {
   InventoryFilterType,
-  InventoryWeaponSubFilterType,
+  InventorySubFilterType,
   inventoryFilterTypeToString,
-  inventoryWeaponSubFilterTypeToString
+  inventoryWeaponSubFilterTypeToString,
+  isSubFilterOfFilterType
 } from './InventorySettings';
 
 import './Inventory.css';
@@ -12,16 +13,27 @@ import './Inventory.css';
 export interface InventoryFilterProps {
   filter: InventoryFilterType;
   filterOnChange: (filter: InventoryFilterType) => void;
+  subFilter: InventorySubFilterType;
+  subFilterOnChange: (subFilter: InventorySubFilterType) => void;
   search: string;
   searchOnChange: (search: string) => void;
 }
 
-export function InventoryFilter({ filter, filterOnChange, search, searchOnChange }: InventoryFilterProps) {
+export function InventoryFilter({
+  filter,
+  filterOnChange,
+  subFilter,
+  subFilterOnChange,
+  search,
+  searchOnChange
+}: InventoryFilterProps) {
   const filterButtonOnClick = (e: any, newFilter: InventoryFilterType) => {
     filterOnChange(newFilter);
   }
-  // const subFilterButtonOnClick = (e: any, newSubFilter: InventoryWeaponSubFilterType) => {
-  // }
+  const subFilterButtonOnClick = (e: any, newSubFilter: InventorySubFilterType) => {
+    console.log('changing sub', newSubFilter)
+    subFilterOnChange(newSubFilter);
+  }
 
   const searchInputOnBlur = (e: any) => {
     searchOnChange(e.target.value);
@@ -54,24 +66,28 @@ export function InventoryFilter({ filter, filterOnChange, search, searchOnChange
           })
         }
       </ButtonToolbar>
-      <ButtonToolbar className='inventory-filter-button-toolbar'>
-        <Button
-          key={InventoryFilterType.all}
-          className='inventory-filter-button-all'
-          title={inventoryFilterTypeToString(InventoryFilterType.all)}
-        ></Button>
+      <ButtonToolbar className='inventory-filter-button-toolbar inventory-subfilter-button-toolbar'>
         {
-          (filter === InventoryFilterType.all || filter === InventoryFilterType.weapons) &&
-          Object.keys(InventoryWeaponSubFilterType).map(f => {
-            const filterType = f as InventoryWeaponSubFilterType;
-            if (filterType === InventoryWeaponSubFilterType.all) {
+          Object.keys(InventorySubFilterType).map(f => {
+            const subFilterType = f as InventorySubFilterType;
+            if (!isSubFilterOfFilterType(filter, subFilterType)) {
+              if (subFilter === f) {
+                // selected subfilter not visible => select
+                subFilterOnChange(InventorySubFilterType.all);
+              }
               return null;
             }
+            let cls = `inventory-subfilter-button-${f}`;
+            if (subFilter === f) {
+              cls += ' selected';
+            }
+
             return (
               <Button
                 key={f}
-                className={`inventory-filter-button-weapons-${f}`}
-                title={inventoryWeaponSubFilterTypeToString(filterType)}
+                className={cls}
+                onClick={(e) => subFilterButtonOnClick(e, subFilterType)}
+                title={inventoryWeaponSubFilterTypeToString(subFilterType)}
               ></Button>
             );
           })
