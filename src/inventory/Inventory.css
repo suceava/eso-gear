@@ -60,6 +60,7 @@
   transform: translate(-1px, 1px);
 }
 
+/* filter All */
 .inventory-filter-button-all {
   background-image: url(../images/inventory_tabicon_all_up.png);
 }
@@ -71,7 +72,7 @@
 .inventory-filter-button-all.selected {
   background-image: url(../images/inventory_tabicon_all_down.png);
 }
-
+/* filter Weapons */
 .inventory-filter-button-weapons {
   background-image: url(../images/inventory_tabicon_weapons_up.png);
 }
@@ -83,7 +84,7 @@
 .inventory-filter-button-weapons.selected {
   background-image: url(../images/inventory_tabicon_weapons_down.png);
 }
-
+/* filter Armor */
 .inventory-filter-button-armor {
   background-image: url(../images/inventory_tabicon_armor_up.png);
 }
@@ -95,7 +96,7 @@
 .inventory-filter-button-armor.selected {
   background-image: url(../images/inventory_tabicon_armor_down.png);
 }
-
+/* filter Jewelry */
 .inventory-filter-button-jewelry {
   background-image: url(../images/jewelry_tabicon_icon_up.png);
 }
@@ -107,6 +108,68 @@
 .inventory-filter-button-jewelry.selected {
   background-image: url(../images/jewelry_tabicon_icon_down.png);
 }
+
+/* subfilter weapons One Handed */
+.inventory-filter-button-weapons-oneHanded {
+  background-image: url(../images/inventory_tabicon_1handed_up.png);
+}
+.inventory-filter-button-weapons-oneHanded:hover {
+  background-image:
+    url(../images/inventory_tabicon_1handed_up.png),
+    url(../images/inventory_tabicon_1handed_over.png);
+}
+.inventory-filter-button-weapons-oneHanded.selected {
+  background-image: url(../images/inventory_tabicon_1handed_down.png);
+}
+/* subfilter weapons Two Handed */
+.inventory-filter-button-weapons-twoHanded {
+  background-image: url(../images/inventory_tabicon_2handed_up.png);
+}
+.inventory-filter-button-weapons-twoHanded:hover {
+  background-image:
+    url(../images/inventory_tabicon_2handed_up.png),
+    url(../images/inventory_tabicon_2handed_over.png);
+}
+.inventory-filter-button-weapons-twoHanded.selected {
+  background-image: url(../images/inventory_tabicon_2handed_down.png);
+}
+/* subfilter weapons Bow */
+.inventory-filter-button-weapons-bow {
+  background-image: url(../images/inventory_tabicon_bow_up.png);
+}
+.inventory-filter-button-weapons-bow:hover {
+  background-image:
+    url(../images/inventory_tabicon_bow_up.png),
+    url(../images/inventory_tabicon_bow_over.png);
+}
+.inventory-filter-button-weapons-bow.selected {
+  background-image: url(../images/inventory_tabicon_bow_down.png);
+}
+/* subfilter weapons Destruction Staff */
+.inventory-filter-button-weapons-destructionStaff {
+  background-image: url(../images/inventory_tabicon_damagestaff_up.png);
+}
+.inventory-filter-button-weapons-destructionStaff:hover {
+  background-image:
+    url(../images/inventory_tabicon_damagestaff_up.png),
+    url(../images/inventory_tabicon_damagestaff_over.png);
+}
+.inventory-filter-button-weapons-destructionStaff.selected {
+  background-image: url(../images/inventory_tabicon_damagestaff_down.png);
+}
+/* subfilter weapons Healing Staff */
+.inventory-filter-button-weapons-healingStaff {
+  background-image: url(../images/inventory_tabicon_healstaff_up.png);
+}
+.inventory-filter-button-weapons-healingStaff:hover {
+  background-image:
+    url(../images/inventory_tabicon_healstaff_up.png),
+    url(../images/inventory_tabicon_healstaff_over.png);
+}
+.inventory-filter-button-weapons-healingStaff.selected {
+  background-image: url(../images/inventory_tabicon_healstaff_down.png);
+}
+
 
 /* search */
 .inventory-filter-search {

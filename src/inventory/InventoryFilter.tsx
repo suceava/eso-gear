@@ -1,8 +1,11 @@
-// import 'bootstrap/dist/css/bootstrap-grid.min.css';
-import debounce from 'lodash.debounce';
 import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 
-import { InventoryFilterType } from './InventorySettings';
+import {
+  InventoryFilterType,
+  InventoryWeaponSubFilterType,
+  inventoryFilterTypeToString,
+  inventoryWeaponSubFilterTypeToString
+} from './InventorySettings';
 
 import './Inventory.css';
 
@@ -17,10 +20,9 @@ export function InventoryFilter({ filter, filterOnChange, search, searchOnChange
   const filterButtonOnClick = (e: any, newFilter: InventoryFilterType) => {
     filterOnChange(newFilter);
   }
+  // const subFilterButtonOnClick = (e: any, newSubFilter: InventoryWeaponSubFilterType) => {
+  // }
 
-  const searchInputOnChange = (e: any) => {
-    debounce(searchOnChange, 500)(e.target.value);
-  }
   const searchInputOnBlur = (e: any) => {
     searchOnChange(e.target.value);
   }
@@ -31,27 +33,57 @@ export function InventoryFilter({ filter, filterOnChange, search, searchOnChange
   }
 
   return (
-    <ButtonToolbar className='inventory-filter-button-toolbar'>
-      {
-        Object.keys(InventoryFilterType).map(f => {
-          let cls = `inventory-filter-button-${f}`;
-          if (filter === f) {
-            cls += ' selected';
-          }
-          return (
-            <Button
-              key={f}
-              className={cls}
-              onClick={(e) => filterButtonOnClick(e, f as InventoryFilterType)}
-              title={f}
-            ></Button>
-          );
-        })
-      }
-      <FormControl placeholder='Search' className='inventory-filter-search' defaultValue={search}
+    <>
+      <ButtonToolbar className='inventory-filter-button-toolbar'>
+        {
+          Object.keys(InventoryFilterType).map(f => {
+            const filterType = f as InventoryFilterType;
+            let cls = `inventory-filter-button-${f}`;
+            if (filter === f) {
+              cls += ' selected';
+            }
+
+            return (
+              <Button
+                key={f}
+                className={cls}
+                onClick={(e) => filterButtonOnClick(e, filterType)}
+                title={inventoryFilterTypeToString(filterType)}
+              ></Button>
+            );
+          })
+        }
+      </ButtonToolbar>
+      <ButtonToolbar className='inventory-filter-button-toolbar'>
+        <Button
+          key={InventoryFilterType.all}
+          className='inventory-filter-button-all'
+          title={inventoryFilterTypeToString(InventoryFilterType.all)}
+        ></Button>
+        {
+          (filter === InventoryFilterType.all || filter === InventoryFilterType.weapons) &&
+          Object.keys(InventoryWeaponSubFilterType).map(f => {
+            const filterType = f as InventoryWeaponSubFilterType;
+            if (filterType === InventoryWeaponSubFilterType.all) {
+              return null;
+            }
+            return (
+              <Button
+                key={f}
+                className={`inventory-filter-button-weapons-${f}`}
+                title={inventoryWeaponSubFilterTypeToString(filterType)}
+              ></Button>
+            );
+          })
+        }
+      </ButtonToolbar>
+      <FormControl
+        placeholder='Search'
+        className='inventory-filter-search'
+        defaultValue={search}
         onKeyPress={searchInputOnKeyPress}
         onBlur={searchInputOnBlur}
       />
-    </ButtonToolbar>
+    </>
   );
 }

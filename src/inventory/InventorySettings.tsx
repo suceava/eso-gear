@@ -4,14 +4,46 @@ export enum InventoryFilterType {
   armor = 'armor',
   jewelry = 'jewelry'
 };
+export const inventoryFilterTypeToString = (filterType: InventoryFilterType) => {
+  switch (filterType) {
+    case InventoryFilterType.all:
+      return 'All';
+    case InventoryFilterType.weapons:
+      return 'Weapons';
+    case InventoryFilterType.armor:
+      return 'Armor';
+    case InventoryFilterType.jewelry:
+      return 'Jewelry';
+    default:
+      return '';
+  }
+};
 
 export enum InventoryWeaponSubFilterType {
   all = 'all',
   oneHanded = 'oneHanded',
   twoHanded = 'twoHanded',
   bow = 'bow',
-  damageStaff = 'damageStaff',
-  healStaff = 'healingStaff'
+  destructionStaff = 'destructionStaff',
+  healingStaff = 'healingStaff'
+};
+export const inventoryWeaponSubFilterTypeToString = (filterType: InventoryWeaponSubFilterType) => {
+  switch (filterType) {
+    case InventoryWeaponSubFilterType.all:
+      return 'All';
+    case InventoryWeaponSubFilterType.oneHanded:
+      return 'One-Handed Melee';
+    case InventoryWeaponSubFilterType.twoHanded:
+      return 'Two-Handed Melee';
+    case InventoryWeaponSubFilterType.bow:
+      return 'Bow';
+    case InventoryWeaponSubFilterType.destructionStaff:
+      return 'Destruction Staff';
+    case InventoryWeaponSubFilterType.healingStaff:
+      return 'Healing Staff';
+    default:
+      return '';
+  }
 };
 
 export enum InventoryArmorSubFilterType {
@@ -31,10 +63,6 @@ export enum InventoryJewelrySubFilterType {
 export class InventorySettings {
   inventoryFilter: InventoryFilterType;
   inventorySubFilter?: InventoryWeaponSubFilterType | InventoryArmorSubFilterType | InventoryJewelrySubFilterType;
-    // InventoryWeaponSubFilterType |
-    // InventoryArmorSubFilterType |
-    // InventoryJewelrySubFilterType |
-    // undefined;
   inventorySearch: string;
 
   constructor(inventoryFilter = InventoryFilterType.all, inventorySubFilter = undefined) {
