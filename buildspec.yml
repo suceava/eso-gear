@@ -18,6 +18,8 @@ phases:
     commands:
       - echo Copy files to root
       - aws s3 sync ./build s3://eso.gnarlybits.com
+      - echo Invalidate CloudFront distribution
+      - aws cloudfront create-invalidation --distribution-id E31CWVO3G9OUXN --paths "/*"
       - echo Build completed on `date`
 
 artifacts:
