@@ -3,6 +3,7 @@ import { useDrop } from 'react-dnd'
 import { EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
 import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
+import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 export interface EquipmentSlotProps {
   slot: EquipmentSlot;
@@ -19,6 +20,7 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
       canDrop: monitor.canDrop(),
     }),
   });
+  const set = item ? getEsoSetByName(item.setName) : null;
 
   let className = 'gear-slot';
   if (!item) {
@@ -31,7 +33,7 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
   return (
     <div ref={drop} className={className}>
       {item && 
-        <SimpleItemTooltip item={item}>
+        <SimpleItemTooltip item={item} set={set}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
         </SimpleItemTooltip>
     }

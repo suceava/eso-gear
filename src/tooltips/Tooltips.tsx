@@ -2,7 +2,7 @@ import Overlay from 'react-bootstrap/Overlay';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-import { EsoItem } from '../data/eso-sets';
+import { EsoItem, EsoSet, EsoSetType } from '../data/eso-sets';
 import './Tooltips.css';
 
 const popperConfig = {
@@ -18,6 +18,7 @@ const popperConfig = {
 
 export function ItemSetTooltip(props: any) {
   const set = props.set;
+  const setClass = (set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
 
   return (
     <OverlayTrigger
@@ -28,7 +29,7 @@ export function ItemSetTooltip(props: any) {
         <Tooltip id={`tooltip_set_${set.name}`} className='tooltip'>
           <div className='tooltip-item-set'>
             <img src={'../images/gear/' + set.image} alt={set.name}></img>
-            <h1 className='item-legendary'>{set.name}</h1>
+            <h1 className={setClass}>{set.name}</h1>
             <hr />
             <div dangerouslySetInnerHTML={{ __html: set.htmlDescription }} />
             <hr />
@@ -49,13 +50,14 @@ export function ItemSetTooltip(props: any) {
 }
 
 
-function TooltipContent(props: { item: EsoItem }) {
-  const item = props.item;
+function TooltipContent(props: { item: EsoItem, set?: EsoSet }) {
+  const { item, set } = props;
+  const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
 
   return (
     <div className='tooltip-item'>
       <img src={'../images/gear/' + item.image} alt={item.name}></img>
-      <h1 className='item-legendary'>{item.name}</h1>
+      <h1 className={itemClass}>{item.name}</h1>
       <hr />
       <h3>{`Part of the ${item.setName} set`}</h3>
     </div>
@@ -64,11 +66,12 @@ function TooltipContent(props: { item: EsoItem }) {
 
 export interface ItemTooltipProps {
   item: EsoItem;
+  set: EsoSet;
   show: boolean;
   target: any;
 }
 
-export function ItemTooltip({ item, show, target }: ItemTooltipProps) {
+export function ItemTooltip({ item, set, show, target }: ItemTooltipProps) {
   return (
     <Overlay
       target={target.current}
@@ -78,15 +81,15 @@ export function ItemTooltip({ item, show, target }: ItemTooltipProps) {
     >
       {(props) => (
         <Tooltip id="tooltip" className='tooltip' {...props}>
-          <TooltipContent item={item} />
+          <TooltipContent item={item} set={set} />
         </Tooltip>
       )}
     </Overlay>
   );
 }
 
-export function SimpleItemTooltip(props: { item: EsoItem, children: any }) {
-  const item = props.item;
+export function SimpleItemTooltip(props: { item: EsoItem, set?: EsoSet, children: any }) {
+  const { item, set } = props;
 
   return (
     <OverlayTrigger
@@ -94,7 +97,7 @@ export function SimpleItemTooltip(props: { item: EsoItem, children: any }) {
       flip={true}
       overlay={
         <Tooltip id={`tooltip_item_${item.name}`} className='tooltip'>
-          <TooltipContent item={item} />
+          <TooltipContent item={item} set={set} />
         </Tooltip>
       }
     >

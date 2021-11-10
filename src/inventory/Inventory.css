@@ -11,7 +11,7 @@
   border-collapse: collapse;
   width: 370px;
 }
-.inventory-container thead {
+.inventory-container table {
   color: #c5c29e;
 }
 .inventory-container tbody {

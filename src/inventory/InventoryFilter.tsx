@@ -31,7 +31,6 @@ export function InventoryFilter({
     filterOnChange(newFilter);
   }
   const subFilterButtonOnClick = (e: any, newSubFilter: InventorySubFilterType) => {
-    console.log('changing sub', newSubFilter)
     subFilterOnChange(newSubFilter);
   }
 

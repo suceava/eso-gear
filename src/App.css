@@ -97,6 +97,9 @@ hr {
 .item-legendary {
   color: #eeca2a;
 }
+.item-mythic {
+  color: #ff8200;
+}
 
 /* item set description highlights */
 .health {
