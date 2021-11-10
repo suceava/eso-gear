@@ -75,6 +75,20 @@ export enum EsoSlot {
   oneHand = 'oneHand',
   twoHands = 'twoHands'
 };
+export const Strings_EsoSlot = {
+  [EsoSlot.chest]: 'Chest',
+  [EsoSlot.feet]: 'Feet',
+  [EsoSlot.hands]: 'Hands',
+  [EsoSlot.head]: 'Head',
+  [EsoSlot.legs]: 'Legs',
+  [EsoSlot.shoulders]: 'Shoulders',
+  [EsoSlot.waist]: 'Waist',
+  [EsoSlot.neck]: 'Neck',
+  [EsoSlot.ring]: 'Ring',
+  [EsoSlot.offHand]: 'Off Hand',
+  [EsoSlot.oneHand]: 'One Hand',
+  [EsoSlot.twoHands]: 'Two Hands'
+};
 
 export enum EsoStat {
   armor = 'armor',

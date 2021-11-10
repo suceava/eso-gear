@@ -2,7 +2,16 @@ import Overlay from 'react-bootstrap/Overlay';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-import { EsoItem, EsoSet, EsoSetType } from '../data/eso-sets';
+import {
+  EsoItem,
+  EsoItemType,
+  EsoSet,
+  EsoSetType,
+  EsoSlot,
+  Strings_EsoArmorType,
+  Strings_EsoSlot,
+  Strings_EsoWeaponType
+} from '../data/eso-sets';
 import './Tooltips.css';
 
 const popperConfig = {
@@ -16,8 +25,8 @@ const popperConfig = {
   ]
 }
 
-export function ItemSetTooltip(props: any) {
-  const set = props.set;
+export function ItemSetTooltip(props: { set: EsoSet, children: any }) {
+  const { set } = props;
   const setClass = (set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
 
   return (
@@ -49,6 +58,48 @@ export function ItemSetTooltip(props: any) {
   );
 }
 
+function getItemTypeString(item: EsoItem) {
+  if (item.itemType === EsoItemType.weapons) {
+    // weapons => use weapon type
+    return item.weaponType? Strings_EsoWeaponType[item.weaponType] : '';
+  }
+  if (item.slot === EsoSlot.offHand) {
+    // odd one out - the shield
+    return 'Shield';
+  }
+  // use slot name
+  return Strings_EsoSlot[item.slot];
+}
+function getItemSubTypeString(item: EsoItem) {
+  if (item.itemType === EsoItemType.jewelry) {
+    // jewelry doesn't have subtypes
+    return null;
+  }
+  if (item.itemType === EsoItemType.weapons || (item.itemType === EsoItemType.armor && !item.armorType)) {
+    // weapons or shield => use slot name
+    return Strings_EsoSlot[item.slot];
+  }
+
+  return item.armorType ? Strings_EsoArmorType[item.armorType] : '';
+}
+function getItemStatString(item: EsoItem) {
+  if (item.itemType === EsoItemType.weapons) {
+    return 'DAMAGE';
+  }
+  if (item.itemType === EsoItemType.armor) {
+    return 'ARMOR';
+  }
+  return '';
+}
+function getItemStatValue(item: EsoItem) {
+  if (item.itemType === EsoItemType.weapons) {
+    return '0';
+  }
+  if (item.itemType === EsoItemType.armor) {
+    return '0';
+  }
+  return '';
+}
 
 function TooltipContent(props: { item: EsoItem, set?: EsoSet }) {
   const { item, set } = props;
@@ -56,9 +107,21 @@ function TooltipContent(props: { item: EsoItem, set?: EsoSet }) {
 
   return (
     <div className='tooltip-item'>
-      <img src={'../images/gear/' + item.image} alt={item.name}></img>
+      <div className='tooltip-item-type'>
+        {getItemTypeString(item)}
+        <br/>
+        {getItemSubTypeString(item)}
+      </div>
+      <div>
+        <img src={'../images/gear/' + item.image} alt={item.name}></img>
+      </div>
       <h1 className={itemClass}>{item.name}</h1>
       <hr />
+      <div className='tooltip-item-level'>
+        <div>{getItemStatString(item)} <span>{getItemStatValue(item)}</span></div>
+        <div>LEVEL <span>50</span></div>
+        <div>CP <span>160</span></div>
+      </div>
       <h3>{`Part of the ${item.setName} set`}</h3>
     </div>
   );

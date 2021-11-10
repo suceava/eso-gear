@@ -34,4 +34,28 @@
 .tooltip-item {
   align-content: center;
   text-align: center;
+  text-shadow: none;
+}
+.tooltip-item hr {
+  margin: 0px
+}
+
+.tooltip-item-type {
+  float: left;
+  font-family: "univers57";
+  position: absolute;
+  text-align: left;
+}
+.tooltip-item-level {
+  display: flex;
+  margin-bottom: 10px;
+}
+.tooltip-item-level div {
+  text-align: center;
+  width: 33%;
+}
+.tooltip-item-level span {
+  align-content: center;
+  color: white;
+  font-size: 22px;
 }
