@@ -173,7 +173,6 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
       return true;
     }
 
-    // console.log(search);
     if (item.setName.toLowerCase().includes(lowerSearch) || item.name.toLowerCase().includes(lowerSearch)) {
       return true;
     }

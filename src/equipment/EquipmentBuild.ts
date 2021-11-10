@@ -100,7 +100,6 @@ export class EquipmentBuild {
       const enumKey = key as EquipmentSlot;
       return buildItems[enumKey]?.id;
     });
-    console.log(hashArray.join('_'));
     return hashArray.join('_');
   }
 

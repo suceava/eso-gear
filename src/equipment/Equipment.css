@@ -1,9 +1,20 @@
 .Equipment {
-  background-size: 320px 800px, cover;
-  width: 256px;
+  background-size: 592px 790px, cover;
+  width: 512px;
+}
+.Equipment hr {
+  background-size: 520px 4px;
 }
 
-.Equipment hr {
+.equipment-grid {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.equipment-gear {
+  width: 256px;
+}
+.equipment-gear hr {
   background-size: 240px 4px;
 }
 
@@ -149,4 +160,14 @@
 .gear-slot-dummy {
   background-image: url(../images/silhouette_human_male.png);
   background-size: 100%;
+}
+
+
+/* equipement stats */
+.equipment-stats table {
+  width: 240px;
+  color: #c5c29e;
+}
+.equipment-stats table td:nth-child(2) {
+  color: white;
 }
