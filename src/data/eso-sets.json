@@ -45430,7 +45430,7 @@
     "items": {
       "list": [
         {
-          "name": "Kagrenac's Mace",
+          "name": "Mace of Kagrenac's Hope",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45439,7 +45439,7 @@
           "weaponType": "mace"
         },
         {
-          "name": "Kagrenac's Dagger",
+          "name": "Dagger of Kagrenac's Hope",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45448,7 +45448,7 @@
           "weaponType": "dagger"
         },
         {
-          "name": "Kagrenac's Axe",
+          "name": "Axe of Kagrenac's Hope",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45457,7 +45457,7 @@
           "weaponType": "axe"
         },
         {
-          "name": "Kagrenac's Sword",
+          "name": "Sword of Kagrenac's Hope",
           "image": "gear_breton_1hsword_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -45466,7 +45466,7 @@
           "weaponType": "sword"
         },
         {
-          "name": "Kagrenac's Shield",
+          "name": "Shield of Kagrenac's Hope",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -45474,7 +45474,7 @@
           "id": 3370004087
         },
         {
-          "name": "Kagrenac's Greatsword",
+          "name": "Greatsword of Kagrenac's Hope",
           "image": "gear_breton_2hsword_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45483,7 +45483,7 @@
           "weaponType": "greatsword"
         },
         {
-          "name": "Kagrenac's Maul",
+          "name": "Maul of Kagrenac's Hope",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45492,7 +45492,7 @@
           "weaponType": "maul"
         },
         {
-          "name": "Kagrenac's Battle Axe",
+          "name": "Battle Axe of Kagrenac's Hope",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45501,7 +45501,7 @@
           "weaponType": "battleAxe"
         },
         {
-          "name": "Kagrenac's Restoration Staff",
+          "name": "Restoration Staff of Kagrenac's Hope",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45510,7 +45510,7 @@
           "weaponType": "restorationStaff"
         },
         {
-          "name": "Kagrenac's Inferno Staff",
+          "name": "Inferno Staff of Kagrenac's Hope",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45519,7 +45519,7 @@
           "weaponType": "infernoStaff"
         },
         {
-          "name": "Kagrenac's Ice Staff",
+          "name": "Ice Staff of Kagrenac's Hope",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45528,7 +45528,7 @@
           "weaponType": "iceStaff"
         },
         {
-          "name": "Kagrenac's Bow",
+          "name": "Bow of Kagrenac's Hope",
           "image": "gear_breton_bow_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45537,7 +45537,7 @@
           "weaponType": "bow"
         },
         {
-          "name": "Kagrenac's Lightning Staff",
+          "name": "Lightning Staff of Kagrenac's Hope",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -45546,7 +45546,7 @@
           "weaponType": "lightningStaff"
         },
         {
-          "name": "Kagrenac's Sabatons",
+          "name": "Sabatons of Kagrenac's Hope",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -45555,7 +45555,7 @@
           "id": 704017309
         },
         {
-          "name": "Kagrenac's Shoes",
+          "name": "Shoes of Kagrenac's Hope",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -45564,7 +45564,7 @@
           "id": 183429170
         },
         {
-          "name": "Kagrenac's Boots",
+          "name": "Boots of Kagrenac's Hope",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -45573,7 +45573,7 @@
           "id": 1080999719
         },
         {
-          "name": "Kagrenac's Helm",
+          "name": "Helm of Kagrenac's Hope",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -45582,7 +45582,7 @@
           "id": 1994033254
         },
         {
-          "name": "Kagrenac's Hat",
+          "name": "Hat of Kagrenac's Hope",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -45591,7 +45591,7 @@
           "id": 649888323
         },
         {
-          "name": "Kagrenac's Helmet",
+          "name": "Helmet of Kagrenac's Hope",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
           "armorType": "medium",
@@ -45600,7 +45600,7 @@
           "id": 2054772407
         },
         {
-          "name": "Kagrenac's Ring",
+          "name": "Ring of Kagrenac's Hope",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -45608,7 +45608,7 @@
           "id": 2139269728
         },
         {
-          "name": "Kagrenac's Cuirass",
+          "name": "Cuirass of Kagrenac's Hope",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -45617,7 +45617,7 @@
           "id": 2315721038
         },
         {
-          "name": "Kagrenac's Robe",
+          "name": "Robe of Kagrenac's Hope",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -45626,7 +45626,7 @@
           "id": 181891776
         },
         {
-          "name": "Kagrenac's Jack",
+          "name": "Jack of Kagrenac's Hope",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -45635,7 +45635,7 @@
           "id": 143620769
         },
         {
-          "name": "Kagrenac's Greaves",
+          "name": "Greaves of Kagrenac's Hope",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -45644,7 +45644,7 @@
           "id": 2000226589
         },
         {
-          "name": "Kagrenac's Breeches",
+          "name": "Breeches of Kagrenac's Hope",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -45653,7 +45653,7 @@
           "id": 3828350327
         },
         {
-          "name": "Kagrenac's Guards",
+          "name": "Guards of Kagrenac's Hope",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -45662,7 +45662,7 @@
           "id": 2275073488
         },
         {
-          "name": "Kagrenac's Necklace",
+          "name": "Necklace of Kagrenac's Hope",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -45670,7 +45670,7 @@
           "id": 3910023066
         },
         {
-          "name": "Kagrenac's Gauntlets",
+          "name": "Gauntlets of Kagrenac's Hope",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -45679,7 +45679,7 @@
           "id": 1050837193
         },
         {
-          "name": "Kagrenac's Gloves",
+          "name": "Gloves of Kagrenac's Hope",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -45688,7 +45688,7 @@
           "id": 2575624208
         },
         {
-          "name": "Kagrenac's Bracers",
+          "name": "Bracers of Kagrenac's Hope",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -45697,7 +45697,7 @@
           "id": 4090078282
         },
         {
-          "name": "Kagrenac's Pauldron",
+          "name": "Pauldron of Kagrenac's Hope",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -45706,7 +45706,7 @@
           "id": 1956789767
         },
         {
-          "name": "Kagrenac's Epaulets",
+          "name": "Epaulets of Kagrenac's Hope",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -45715,7 +45715,7 @@
           "id": 3601448539
         },
         {
-          "name": "Kagrenac's Arm Cops",
+          "name": "Arm Cops of Kagrenac's Hope",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -45724,7 +45724,7 @@
           "id": 2578161131
         },
         {
-          "name": "Kagrenac's Girdle",
+          "name": "Girdle of Kagrenac's Hope",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -45733,7 +45733,7 @@
           "id": 3333516663
         },
         {
-          "name": "Kagrenac's Sash",
+          "name": "Sash of Kagrenac's Hope",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -45742,7 +45742,7 @@
           "id": 3561500381
         },
         {
-          "name": "Kagrenac's Belt",
+          "name": "Belt of Kagrenac's Hope",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
@@ -60996,7 +60996,7 @@
     "items": {
       "list": [
         {
-          "name": "Orgnum's Shield",
+          "name": "Shield of Orgnum's Scales",
           "image": "gear_breton_shield_d.png",
           "slot": "offHand",
           "itemType": "armor",
@@ -61004,7 +61004,7 @@
           "id": 3679586314
         },
         {
-          "name": "Orgnum's Sword",
+          "name": "Sword of Orgnum's Scales",
           "image": "gear_akaviri_1hsword_c.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -61013,7 +61013,7 @@
           "weaponType": "sword"
         },
         {
-          "name": "Orgnum's Dagger",
+          "name": "Dagger of Orgnum's Scales",
           "image": "gear_breton_dagger_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -61022,7 +61022,7 @@
           "weaponType": "dagger"
         },
         {
-          "name": "Orgnum's Axe",
+          "name": "Axe of Orgnum's Scales",
           "image": "gear_breton_1haxe_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -61031,7 +61031,7 @@
           "weaponType": "axe"
         },
         {
-          "name": "Orgnum's Mace",
+          "name": "Mace of Orgnum's Scales",
           "image": "gear_breton_1hhammer_d.png",
           "slot": "oneHand",
           "itemType": "weapons",
@@ -61040,7 +61040,7 @@
           "weaponType": "mace"
         },
         {
-          "name": "Orgnum's Greatsword",
+          "name": "Greatsword of Orgnum's Scales",
           "image": "gear_akaviri_2hsword_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61049,7 +61049,7 @@
           "weaponType": "greatsword"
         },
         {
-          "name": "Orgnum's Maul",
+          "name": "Maul of Orgnum's Scales",
           "image": "gear_breton_2hhammer_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61058,7 +61058,7 @@
           "weaponType": "maul"
         },
         {
-          "name": "Orgnum's Battle Axe",
+          "name": "Battle Axe of Orgnum's Scales",
           "image": "gear_breton_2haxe_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61067,7 +61067,7 @@
           "weaponType": "battleAxe"
         },
         {
-          "name": "Orgnum's Restoration Staff",
+          "name": "Restoration Staff of Orgnum's Scales",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61076,7 +61076,7 @@
           "weaponType": "restorationStaff"
         },
         {
-          "name": "Orgnum's Inferno Staff",
+          "name": "Inferno Staff of Orgnum's Scales",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61085,7 +61085,7 @@
           "weaponType": "infernoStaff"
         },
         {
-          "name": "Orgnum's Ice Staff",
+          "name": "Ice Staff of Orgnum's Scales",
           "image": "gear_breton_staff_d.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61094,7 +61094,7 @@
           "weaponType": "iceStaff"
         },
         {
-          "name": "Orgnum's Bow",
+          "name": "Bow of Orgnum's Scales",
           "image": "gear_akaviri_bow_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61103,7 +61103,7 @@
           "weaponType": "bow"
         },
         {
-          "name": "Orgnum's Lightning Staff",
+          "name": "Lightning Staff of Orgnum's Scales",
           "image": "gear_akaviri_staff_c.png",
           "slot": "twoHands",
           "itemType": "weapons",
@@ -61112,7 +61112,7 @@
           "weaponType": "lightningStaff"
         },
         {
-          "name": "Orgnum's Sabatons",
+          "name": "Sabatons of Orgnum's Scales",
           "image": "gear_breton_heavy_feet_d.png",
           "slot": "feet",
           "armorType": "heavy",
@@ -61121,7 +61121,7 @@
           "id": 3374805956
         },
         {
-          "name": "Orgnum's Shoes",
+          "name": "Shoes of Orgnum's Scales",
           "image": "gear_breton_light_feet_d.png",
           "slot": "feet",
           "armorType": "light",
@@ -61130,7 +61130,7 @@
           "id": 490362537
         },
         {
-          "name": "Orgnum's Boots",
+          "name": "Boots of Orgnum's Scales",
           "image": "gear_breton_medium_feet_d.png",
           "slot": "feet",
           "armorType": "medium",
@@ -61139,7 +61139,7 @@
           "id": 1011159796
         },
         {
-          "name": "Orgnum's Helm",
+          "name": "Helm of Orgnum's Scales",
           "image": "gear_breton_heavy_head_d.png",
           "slot": "head",
           "armorType": "heavy",
@@ -61148,7 +61148,7 @@
           "id": 694726055
         },
         {
-          "name": "Orgnum's Hat",
+          "name": "Hat of Orgnum's Scales",
           "image": "gear_breton_light_head_d.png",
           "slot": "head",
           "armorType": "light",
@@ -61157,7 +61157,7 @@
           "id": 758828364
         },
         {
-          "name": "Orgnum's Helmet",
+          "name": "Helmet of Orgnum's Scales",
           "image": "gear_breton_medium_head_d.png",
           "slot": "head",
           "armorType": "medium",
@@ -61166,7 +61166,7 @@
           "id": 2990617686
         },
         {
-          "name": "Orgnum's Ring",
+          "name": "Ring of Orgnum's Scales",
           "image": "gear_breton_ring_a.png",
           "slot": "ring",
           "itemType": "jewelry",
@@ -61174,7 +61174,7 @@
           "id": 852200437
         },
         {
-          "name": "Orgnum's Cuirass",
+          "name": "Cuirass of Orgnum's Scales",
           "image": "gear_breton_heavy_chest_d.png",
           "slot": "chest",
           "armorType": "heavy",
@@ -61183,7 +61183,7 @@
           "id": 1113508713
         },
         {
-          "name": "Orgnum's Robe",
+          "name": "Robe of Orgnum's Scales",
           "image": "gear_breton_light_shirt_d.png",
           "slot": "chest",
           "armorType": "light",
@@ -61192,7 +61192,7 @@
           "id": 268290677
         },
         {
-          "name": "Orgnum's Jack",
+          "name": "Jack of Orgnum's Scales",
           "image": "gear_breton_medium_chest_d.png",
           "slot": "chest",
           "armorType": "medium",
@@ -61201,7 +61201,7 @@
           "id": 547356420
         },
         {
-          "name": "Orgnum's Greaves",
+          "name": "Greaves of Orgnum's Scales",
           "image": "gear_breton_heavy_legs_d.png",
           "slot": "legs",
           "armorType": "heavy",
@@ -61210,7 +61210,7 @@
           "id": 1023436078
         },
         {
-          "name": "Orgnum's Breeches",
+          "name": "Breeches of Orgnum's Scales",
           "image": "gear_breton_light_legs_d.png",
           "slot": "legs",
           "armorType": "light",
@@ -61219,7 +61219,7 @@
           "id": 2169985670
         },
         {
-          "name": "Orgnum's Guards",
+          "name": "Guards of Orgnum's Scales",
           "image": "gear_breton_medium_legs_d.png",
           "slot": "legs",
           "armorType": "medium",
@@ -61228,7 +61228,7 @@
           "id": 2220241593
         },
         {
-          "name": "Orgnum's Necklace",
+          "name": "Necklace of Orgnum's Scales",
           "image": "gear_breton_neck_a.png",
           "slot": "neck",
           "itemType": "jewelry",
@@ -61236,7 +61236,7 @@
           "id": 2273915343
         },
         {
-          "name": "Orgnum's Gauntlets",
+          "name": "Gauntlets of Orgnum's Scales",
           "image": "gear_breton_heavy_hands_d.png",
           "slot": "hands",
           "armorType": "heavy",
@@ -61245,7 +61245,7 @@
           "id": 35133294
         },
         {
-          "name": "Orgnum's Gloves",
+          "name": "Gloves of Orgnum's Scales",
           "image": "gear_breton_light_hands_d.png",
           "slot": "hands",
           "armorType": "light",
@@ -61254,7 +61254,7 @@
           "id": 1245371133
         },
         {
-          "name": "Orgnum's Bracers",
+          "name": "Bracers of Orgnum's Scales",
           "image": "gear_breton_medium_hands_d.png",
           "slot": "hands",
           "armorType": "medium",
@@ -61263,7 +61263,7 @@
           "id": 316539157
         },
         {
-          "name": "Orgnum's Pauldron",
+          "name": "Pauldron of Orgnum's Scales",
           "image": "gear_breton_heavy_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "heavy",
@@ -61272,7 +61272,7 @@
           "id": 4141581778
         },
         {
-          "name": "Orgnum's Epaulets",
+          "name": "Epaulets of Orgnum's Scales",
           "image": "gear_breton_light_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "light",
@@ -61281,7 +61281,7 @@
           "id": 3230579762
         },
         {
-          "name": "Orgnum's Arm Cops",
+          "name": "Arm Cops of Orgnum's Scales",
           "image": "gear_breton_medium_shoulders_d.png",
           "slot": "shoulders",
           "armorType": "medium",
@@ -61290,7 +61290,7 @@
           "id": 1671056382
         },
         {
-          "name": "Orgnum's Girdle",
+          "name": "Girdle of Orgnum's Scales",
           "image": "gear_breton_heavy_waist_d.png",
           "slot": "waist",
           "armorType": "heavy",
@@ -61299,7 +61299,7 @@
           "id": 3367662318
         },
         {
-          "name": "Orgnum's Sash",
+          "name": "Sash of Orgnum's Scales",
           "image": "gear_breton_light_waist_d.png",
           "slot": "waist",
           "armorType": "light",
@@ -61308,7 +61308,7 @@
           "id": 640079496
         },
         {
-          "name": "Orgnum's Belt",
+          "name": "Belt of Orgnum's Scales",
           "image": "gear_breton_medium_waist_d.png",
           "slot": "waist",
           "armorType": "medium",
