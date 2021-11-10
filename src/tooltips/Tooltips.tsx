@@ -66,7 +66,7 @@ function TooltipContent(props: { item: EsoItem, set?: EsoSet }) {
 
 export interface ItemTooltipProps {
   item: EsoItem;
-  set: EsoSet;
+  set?: EsoSet;
   show: boolean;
   target: any;
 }

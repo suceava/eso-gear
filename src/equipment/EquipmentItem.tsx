@@ -20,7 +20,7 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
       canDrop: monitor.canDrop(),
     }),
   });
-  const set = item ? getEsoSetByName(item.setName) : null;
+  const set = item ? getEsoSetByName(item.setName) : undefined;
 
   let className = 'gear-slot';
   if (!item) {
