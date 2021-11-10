@@ -1,6 +1,6 @@
 // import 'bootstrap/dist/css/bootstrap-grid.min.css';
-// import { useState } from 'react';
-import { ButtonToolbar, Button } from 'react-bootstrap';
+import debounce from 'lodash.debounce';
+import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 
 import { InventoryFilterType } from './InventorySettings';
 
@@ -9,11 +9,25 @@ import './Inventory.css';
 export interface InventoryFilterProps {
   filter: InventoryFilterType;
   filterOnChange: (filter: InventoryFilterType) => void;
+  search: string;
+  searchOnChange: (search: string) => void;
 }
 
-export function InventoryFilter({ filter, filterOnChange }: InventoryFilterProps) {
+export function InventoryFilter({ filter, filterOnChange, search, searchOnChange }: InventoryFilterProps) {
   const filterButtonOnClick = (e: any, newFilter: InventoryFilterType) => {
     filterOnChange(newFilter);
+  }
+
+  const searchInputOnChange = (e: any) => {
+    debounce(searchOnChange, 500)(e.target.value);
+  }
+  const searchInputOnBlur = (e: any) => {
+    searchOnChange(e.target.value);
+  }
+  const searchInputOnKeyPress = (e: any) => {
+    if (e.key === 'Enter') {
+      searchOnChange(e.target.value);
+    }
   }
 
   return (
@@ -34,6 +48,10 @@ export function InventoryFilter({ filter, filterOnChange }: InventoryFilterProps
           );
         })
       }
+      <FormControl placeholder='Search' className='inventory-filter-search' defaultValue={search}
+        onKeyPress={searchInputOnKeyPress}
+        onBlur={searchInputOnBlur}
+      />
     </ButtonToolbar>
   );
 }

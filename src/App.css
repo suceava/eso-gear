@@ -9,20 +9,27 @@
 
 .App ::-webkit-scrollbar-button:single-button:vertical:increment {
   background-image: url(images/slider_marker_down.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .App ::-webkit-scrollbar-button:single-button:vertical:decrement {
   background-image: url(images/slider_marker_up.png);
-  padding: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .App ::-webkit-scrollbar-thumb {
   background-image: url(images/scrollbox_elevator.png);
+  background: linear-gradient(to bottom, #d8d8b0, #807850);
   height: 32px;
+  width: 12px;
 }
 .App ::-webkit-scrollbar-track {
   color: black;
 }
 .App ::-webkit-scrollbar {
-  width: 14px;
+  width: 12px;
 }
 
 h1 {

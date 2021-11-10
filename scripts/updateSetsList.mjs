@@ -338,9 +338,9 @@ const updateData = async () => {
   // fixMonsterSetArmorTpe(); // DONE
   // addItemType(); // DONE
   // addSetName(); // DONE
-  // updateItemNames("New Moon Acolyte", "Acolyte's", "");  // ALL DONE
+  // updateItemNames("Kagrenac's Hope", "", "of Kagrenac's Hope");  // ALL DONE
   // addIDs(); // DONE
-  addWeaponType();
+  // addWeaponType(); // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +

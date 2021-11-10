@@ -31,6 +31,7 @@ interface InventoryTableData {
 
 export interface InventoryTableProps {
   filter: InventoryFilterType;
+  search: string;
 }
 
 function rowExpandOnClick(originalOnClick: any) {
@@ -41,7 +42,7 @@ function rowExpandOnClick(originalOnClick: any) {
   };
 }
 
-export function InventoryTable({ filter }: InventoryTableProps) {
+export function InventoryTable({ filter, search }: InventoryTableProps) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
 
   const columns = useMemo(() => [
@@ -94,27 +95,41 @@ export function InventoryTable({ filter }: InventoryTableProps) {
     return originalRow?.items?.list || [];
   };
 
+  const itemTypeFilter = filter as unknown as EsoItemType;
+  const lowerSearch = search.toLowerCase();
+  const rowMatcher = (item: EsoItem) => {
+    if (filter !== InventoryFilterType.all && item.itemType !== itemTypeFilter) {
+      return false;
+    }
+    if (search === '') {
+      return true;
+    }
+
+    // console.log(search);
+    if (item.setName.toLowerCase().includes(lowerSearch) || item.name.toLowerCase().includes(lowerSearch)) {
+      return true;
+    }
+    return false;
+  };
+
   const globalFilter = (
     rows: Row<InventoryTableData>[],
     columnIds: string[],
     filterValue: string
   ) : Row<InventoryTableData>[] => {
-    if (filter === InventoryFilterType.all) {
+    if (filter === InventoryFilterType.all && search === '') {
       return rows;
     }
-
-    const filterItemType = filter as unknown as EsoItemType;
 
     return rows.filter(r => {
       if (r.depth === 0) {
         // set -> must contain an item matching filter
         const orig: EsoSet = r.original as EsoSet;
-        return orig.items.list.find((i: EsoItem) => i.itemType === filterItemType);
+        return orig.items.list.find(rowMatcher);
       }
 
       // item
-      const orig: EsoItem = r.original as EsoItem;
-      return orig.itemType === filterItemType;
+      return rowMatcher(r.original as EsoItem);
     });
   }
 

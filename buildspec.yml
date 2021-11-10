@@ -12,12 +12,14 @@ phases:
     on-failure: ABORT
     commands:
       - echo Build app on `date`
-      - export REACT_APP_BUILD_DATE=$(date +'%FT%T%Z')
+      - export REACT_APP_BUILD_DATE=$(date +'%FT%TZ')
       - npm run build
   post_build:
     commands:
       - echo Copy files to root
       - aws s3 sync ./build s3://eso.gnarlybits.com
+      - echo Invalidate CloudFront distribution
+      - aws cloudfront create-invalidation --distribution-id E31CWVO3G9OUXN --paths "/*"
       - echo Build completed on `date`
 
 artifacts:
