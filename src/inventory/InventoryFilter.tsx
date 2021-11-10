@@ -3,8 +3,8 @@ import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 import {
   InventoryFilterType,
   InventorySubFilterType,
-  inventoryFilterTypeToString,
-  inventoryWeaponSubFilterTypeToString,
+  Strings_InventoryFilterType,
+  Strings_InventorySubFilterType,
   isSubFilterOfFilterType
 } from './InventorySettings';
 
@@ -59,7 +59,7 @@ export function InventoryFilter({
                 key={f}
                 className={cls}
                 onClick={(e) => filterButtonOnClick(e, filterType)}
-                title={inventoryFilterTypeToString(filterType)}
+                title={Strings_InventoryFilterType[filterType]}
               ></Button>
             );
           })
@@ -86,7 +86,7 @@ export function InventoryFilter({
                 key={f}
                 className={cls}
                 onClick={(e) => subFilterButtonOnClick(e, subFilterType)}
-                title={inventoryWeaponSubFilterTypeToString(subFilterType)}
+                title={Strings_InventorySubFilterType[subFilterType]}
               ></Button>
             );
           })

@@ -17,6 +17,22 @@ export enum EquipmentSlot {
   mainHand2 = 'mainHand2',
   offHand2 = 'offHand2'
 }
+export const Strings_EquipmentSlot = {
+  [EquipmentSlot.head]: 'Head',
+  [EquipmentSlot.shoulders]: 'Shoulders',
+  [EquipmentSlot.chest]: 'Chest',
+  [EquipmentSlot.legs]: 'Legs',
+  [EquipmentSlot.hands]: 'Hands',
+  [EquipmentSlot.feet]: 'Feet',
+  [EquipmentSlot.waist]: 'Waist',
+  [EquipmentSlot.neck]: 'Neck',
+  [EquipmentSlot.ring1]: 'Ring 1',
+  [EquipmentSlot.ring2]: 'Ring 2',
+  [EquipmentSlot.mainHand1]: 'Main Hand 1',
+  [EquipmentSlot.offHand1]: 'Off Hand 1',
+  [EquipmentSlot.mainHand2]: 'Main Hand 2',
+  [EquipmentSlot.offHand2]: 'Off Hand 2'
+};
 
 // convert EquipmentSlot to EsoSlot
 export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | EsoSlot[] => {
@@ -46,40 +62,6 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
     case EquipmentSlot.offHand1:
     case EquipmentSlot.offHand2:
       return [EsoSlot.oneHand, EsoSlot.offHand];
-  }
-};
-
-// convert EquipmentSlot to readable string
-export const equipmentSlotToString = (equipmentSlot: EquipmentSlot): string => {
-  switch (equipmentSlot) {
-    case EquipmentSlot.head:
-      return 'Head';
-    case EquipmentSlot.shoulders:
-      return 'Shoulders';
-    case EquipmentSlot.chest:
-      return 'Chest';
-    case EquipmentSlot.legs:
-      return 'Legs';
-    case EquipmentSlot.hands:
-      return 'Hands';
-    case EquipmentSlot.feet:
-      return 'Feet';
-    case EquipmentSlot.waist:
-      return 'Waist';
-    case EquipmentSlot.neck:
-      return 'Neck';
-    case EquipmentSlot.ring1:
-      return 'Ring 1'
-    case EquipmentSlot.ring2:
-      return 'Ring 2';
-    case EquipmentSlot.mainHand1:
-      return 'Main Hand 1';
-    case EquipmentSlot.offHand1:
-      return 'Off Hand 1'
-    case EquipmentSlot.mainHand2:
-      return 'Main Hand 2';
-    case EquipmentSlot.offHand2:
-      return 'Off Hand 2';
   }
 };
 
