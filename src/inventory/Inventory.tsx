@@ -2,7 +2,8 @@
 import { InventoryFilter } from './InventoryFilter';
 import {
   InventorySettings,
-  InventoryFilterType
+  InventoryFilterType,
+  InventorySubFilterType
 } from './InventorySettings';
 import { InventoryTable } from './InventoryTable';
 import { useStickyState } from '../stickyState';
@@ -18,6 +19,12 @@ export function Inventory() {
       inventoryFilter: filter
     }));
   };
+  const subFilterOnChange = (subFilter: InventorySubFilterType) => {
+    setSettings(prevSettings => ({
+      ...prevSettings,
+      inventorySubFilter: subFilter
+    }));
+  };
   const searchOnChange = (search: string) => {
     setSettings(prevSettings => ({
       ...prevSettings,
@@ -31,9 +38,13 @@ export function Inventory() {
       <hr />
       <InventoryFilter
         filter={settings.inventoryFilter} filterOnChange={filterOnChange}
+        subFilter={settings.inventorySubFilter} subFilterOnChange={subFilterOnChange}
         search={settings.inventorySearch} searchOnChange={searchOnChange} />
       <hr />
-      <InventoryTable filter={settings.inventoryFilter} search={settings.inventorySearch} />
+      <InventoryTable
+        filter={settings.inventoryFilter}
+        subFilter={settings.inventorySubFilter}
+        search={settings.inventorySearch} />
     </div>
   );
 }

@@ -1,26 +1,40 @@
-// import 'bootstrap/dist/css/bootstrap-grid.min.css';
-import debounce from 'lodash.debounce';
 import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 
-import { InventoryFilterType } from './InventorySettings';
+import {
+  InventoryFilterType,
+  InventorySubFilterType,
+  inventoryFilterTypeToString,
+  inventoryWeaponSubFilterTypeToString,
+  isSubFilterOfFilterType
+} from './InventorySettings';
 
 import './Inventory.css';
 
 export interface InventoryFilterProps {
   filter: InventoryFilterType;
   filterOnChange: (filter: InventoryFilterType) => void;
+  subFilter: InventorySubFilterType;
+  subFilterOnChange: (subFilter: InventorySubFilterType) => void;
   search: string;
   searchOnChange: (search: string) => void;
 }
 
-export function InventoryFilter({ filter, filterOnChange, search, searchOnChange }: InventoryFilterProps) {
+export function InventoryFilter({
+  filter,
+  filterOnChange,
+  subFilter,
+  subFilterOnChange,
+  search,
+  searchOnChange
+}: InventoryFilterProps) {
   const filterButtonOnClick = (e: any, newFilter: InventoryFilterType) => {
     filterOnChange(newFilter);
   }
-
-  const searchInputOnChange = (e: any) => {
-    debounce(searchOnChange, 500)(e.target.value);
+  const subFilterButtonOnClick = (e: any, newSubFilter: InventorySubFilterType) => {
+    console.log('changing sub', newSubFilter)
+    subFilterOnChange(newSubFilter);
   }
+
   const searchInputOnBlur = (e: any) => {
     searchOnChange(e.target.value);
   }
@@ -31,27 +45,61 @@ export function InventoryFilter({ filter, filterOnChange, search, searchOnChange
   }
 
   return (
-    <ButtonToolbar className='inventory-filter-button-toolbar'>
-      {
-        Object.keys(InventoryFilterType).map(f => {
-          let cls = `inventory-filter-button-${f}`;
-          if (filter === f) {
-            cls += ' selected';
-          }
-          return (
-            <Button
-              key={f}
-              className={cls}
-              onClick={(e) => filterButtonOnClick(e, f as InventoryFilterType)}
-              title={f}
-            ></Button>
-          );
-        })
-      }
-      <FormControl placeholder='Search' className='inventory-filter-search' defaultValue={search}
+    <>
+      <ButtonToolbar className='inventory-filter-button-toolbar'>
+        {
+          Object.keys(InventoryFilterType).map(f => {
+            const filterType = f as InventoryFilterType;
+            let cls = `inventory-filter-button-${f}`;
+            if (filter === f) {
+              cls += ' selected';
+            }
+
+            return (
+              <Button
+                key={f}
+                className={cls}
+                onClick={(e) => filterButtonOnClick(e, filterType)}
+                title={inventoryFilterTypeToString(filterType)}
+              ></Button>
+            );
+          })
+        }
+      </ButtonToolbar>
+      <ButtonToolbar className='inventory-filter-button-toolbar inventory-subfilter-button-toolbar'>
+        {
+          Object.keys(InventorySubFilterType).map(f => {
+            const subFilterType = f as InventorySubFilterType;
+            if (!isSubFilterOfFilterType(filter, subFilterType)) {
+              if (subFilter === f) {
+                // selected subfilter not visible => select
+                subFilterOnChange(InventorySubFilterType.all);
+              }
+              return null;
+            }
+            let cls = `inventory-subfilter-button-${f}`;
+            if (subFilter === f) {
+              cls += ' selected';
+            }
+
+            return (
+              <Button
+                key={f}
+                className={cls}
+                onClick={(e) => subFilterButtonOnClick(e, subFilterType)}
+                title={inventoryWeaponSubFilterTypeToString(subFilterType)}
+              ></Button>
+            );
+          })
+        }
+      </ButtonToolbar>
+      <FormControl
+        placeholder='Search'
+        className='inventory-filter-search'
+        defaultValue={search}
         onKeyPress={searchInputOnKeyPress}
         onBlur={searchInputOnBlur}
       />
-    </ButtonToolbar>
+    </>
   );
 }

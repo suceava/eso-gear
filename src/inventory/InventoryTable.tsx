@@ -10,8 +10,8 @@ import {
 } from 'react-table';
 
 import { InventoryItem } from './InventoryItem';
-import { InventoryFilterType } from './InventorySettings';
-import { EsoSet, EsoItem, EsoItemType } from '../data/eso-sets';
+import { InventoryFilterType, InventorySubFilterType } from './InventorySettings';
+import { EsoSet, EsoItem, EsoItemType, EsoSlot, EsoWeaponType } from '../data/eso-sets';
 import { ItemSetTooltip } from '../tooltips/Tooltips';
 import { loadEsoSetData } from '../data/esoSetDataLoader';
 
@@ -31,6 +31,7 @@ interface InventoryTableData {
 
 export interface InventoryTableProps {
   filter: InventoryFilterType;
+  subFilter: InventorySubFilterType;
   search: string;
 }
 
@@ -42,7 +43,7 @@ function rowExpandOnClick(originalOnClick: any) {
   };
 }
 
-export function InventoryTable({ filter, search }: InventoryTableProps) {
+export function InventoryTable({ filter, subFilter, search }: InventoryTableProps) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
 
   const columns = useMemo(() => [
@@ -101,6 +102,68 @@ export function InventoryTable({ filter, search }: InventoryTableProps) {
     if (filter !== InventoryFilterType.all && item.itemType !== itemTypeFilter) {
       return false;
     }
+    if (subFilter !== InventorySubFilterType.all) {
+      switch (subFilter) {
+        case InventorySubFilterType.oneHanded:
+          if (item.itemType !== EsoItemType.weapons || (
+            item.weaponType !== EsoWeaponType.axe &&
+            item.weaponType !== EsoWeaponType.dagger &&
+            item.weaponType !== EsoWeaponType.mace &&
+            item.weaponType !== EsoWeaponType.sword)
+          ) {
+            return false;
+          }
+          break;
+        case InventorySubFilterType.twoHanded:
+          if (item.itemType !== EsoItemType.weapons || (
+            item.weaponType !== EsoWeaponType.battleAxe &&
+            item.weaponType !== EsoWeaponType.greatsword &&
+            item.weaponType !== EsoWeaponType.maul)
+          ) {
+            return false;
+          }
+        break;
+        case InventorySubFilterType.bow:
+          if (item.itemType !== EsoItemType.weapons || item.weaponType !== EsoWeaponType.bow) {
+            return false;
+          }
+          break;
+        case InventorySubFilterType.destructionStaff:
+          if (item.itemType !== EsoItemType.weapons || (
+              item.weaponType !== EsoWeaponType.infernoStaff &&
+              item.weaponType !== EsoWeaponType.iceStaff &&
+              item.weaponType !== EsoWeaponType.lightningStaff)
+          ) {
+            return false;
+          }
+          break;
+        case InventorySubFilterType.healingStaff:
+          if (item.itemType !== EsoItemType.weapons || item.weaponType !== EsoWeaponType.restorationStaff) {
+            return false;
+          }
+          break;
+
+        case InventorySubFilterType.heavy:
+        case InventorySubFilterType.light:
+        case InventorySubFilterType.medium:
+          if (item.itemType !== EsoItemType.armor || (item.armorType as string) !== (subFilter as string)) {
+            return false;
+          }
+          break;
+        case InventorySubFilterType.shield:
+          if (item.itemType !== EsoItemType.armor || item.slot !== EsoSlot.offHand) {
+            return false;
+          }
+          break;
+
+        case InventorySubFilterType.ring:
+        case InventorySubFilterType.neck:
+          if (item.itemType !== EsoItemType.jewelry || (item.slot as string) !== (subFilter as string)) {
+            return false;
+          }
+          break;
+      }
+    }
     if (!search || search === '') {
       return true;
     }
@@ -117,7 +180,7 @@ export function InventoryTable({ filter, search }: InventoryTableProps) {
     columnIds: string[],
     filterValue: string
   ) : Row<InventoryTableData>[] => {
-    if (filter === InventoryFilterType.all && search === '') {
+    if (filter === InventoryFilterType.all && subFilter === InventorySubFilterType.all && search === '') {
       return rows;
     }
 

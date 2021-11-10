@@ -16,7 +16,7 @@
 }
 .inventory-container tbody {
   display: block;
-  height: 560px;
+  height: 530px;
   overflow-y: auto;
   width: 100%;
 }
@@ -48,8 +48,8 @@
   background-position: center;
   background-size: contain;
   border: none;
-  width: 32px;
   height: 32px;
+  width: 32px;
   display: inline-block;
 }
 .inventory-filter-button-toolbar button:hover {
@@ -59,7 +59,13 @@
 .inventory-filter-button-toolbar button:active {
   transform: translate(-1px, 1px);
 }
+/* subfilter button bar */
+.inventory-subfilter-button-toolbar button {
+  height: 28px !important;
+  width: 28px !important;
+}
 
+/* filter All */
 .inventory-filter-button-all {
   background-image: url(../images/inventory_tabicon_all_up.png);
 }
@@ -71,7 +77,7 @@
 .inventory-filter-button-all.selected {
   background-image: url(../images/inventory_tabicon_all_down.png);
 }
-
+/* filter Weapons */
 .inventory-filter-button-weapons {
   background-image: url(../images/inventory_tabicon_weapons_up.png);
 }
@@ -83,7 +89,7 @@
 .inventory-filter-button-weapons.selected {
   background-image: url(../images/inventory_tabicon_weapons_down.png);
 }
-
+/* filter Armor */
 .inventory-filter-button-armor {
   background-image: url(../images/inventory_tabicon_armor_up.png);
 }
@@ -95,7 +101,7 @@
 .inventory-filter-button-armor.selected {
   background-image: url(../images/inventory_tabicon_armor_down.png);
 }
-
+/* filter Jewelry */
 .inventory-filter-button-jewelry {
   background-image: url(../images/jewelry_tabicon_icon_up.png);
 }
@@ -106,6 +112,154 @@
 }
 .inventory-filter-button-jewelry.selected {
   background-image: url(../images/jewelry_tabicon_icon_down.png);
+}
+
+/* subfilter All */
+.inventory-subfilter-button-all {
+  background-image: url(../images/inventory_tabicon_all_up.png);
+}
+.inventory-subfilter-button-all:hover {
+  background-image: 
+    url(../images/inventory_tabicon_all_up.png),
+    url(../images/inventory_tabicon_all_over.png);
+}
+.inventory-subfilter-button-all.selected {
+  background-image: url(../images/inventory_tabicon_all_down.png);
+}
+
+/* subfilter weapons One Handed */
+.inventory-subfilter-button-oneHanded {
+  background-image: url(../images/inventory_tabicon_1handed_up.png);
+}
+.inventory-subfilter-button-oneHanded:hover {
+  background-image:
+    url(../images/inventory_tabicon_1handed_up.png),
+    url(../images/inventory_tabicon_1handed_over.png);
+}
+.inventory-subfilter-button-oneHanded.selected {
+  background-image: url(../images/inventory_tabicon_1handed_down.png);
+}
+/* subfilter weapons Two Handed */
+.inventory-subfilter-button-twoHanded {
+  background-image: url(../images/inventory_tabicon_2handed_up.png);
+}
+.inventory-subfilter-button-twoHanded:hover {
+  background-image:
+    url(../images/inventory_tabicon_2handed_up.png),
+    url(../images/inventory_tabicon_2handed_over.png);
+}
+.inventory-subfilter-button-twoHanded.selected {
+  background-image: url(../images/inventory_tabicon_2handed_down.png);
+}
+/* subfilter weapons Bow */
+.inventory-subfilter-button-bow {
+  background-image: url(../images/inventory_tabicon_bow_up.png);
+}
+.inventory-subfilter-button-bow:hover {
+  background-image:
+    url(../images/inventory_tabicon_bow_up.png),
+    url(../images/inventory_tabicon_bow_over.png);
+}
+.inventory-subfilter-button-bow.selected {
+  background-image: url(../images/inventory_tabicon_bow_down.png);
+}
+/* subfilter weapons Destruction Staff */
+.inventory-subfilter-button-destructionStaff {
+  background-image: url(../images/inventory_tabicon_damagestaff_up.png);
+}
+.inventory-subfilter-button-destructionStaff:hover {
+  background-image:
+    url(../images/inventory_tabicon_damagestaff_up.png),
+    url(../images/inventory_tabicon_damagestaff_over.png);
+}
+.inventory-subfilter-button-destructionStaff.selected {
+  background-image: url(../images/inventory_tabicon_damagestaff_down.png);
+}
+/* subfilter weapons Healing Staff */
+.inventory-subfilter-button-healingStaff {
+  background-image: url(../images/inventory_tabicon_healstaff_up.png);
+}
+.inventory-subfilter-button-healingStaff:hover {
+  background-image:
+    url(../images/inventory_tabicon_healstaff_up.png),
+    url(../images/inventory_tabicon_healstaff_over.png);
+}
+.inventory-subfilter-button-healingStaff.selected {
+  background-image: url(../images/inventory_tabicon_healstaff_down.png);
+}
+
+/* subfilter armor Heavy */
+.inventory-subfilter-button-heavy {
+  background-image: url(../images/inventory_tabicon_armorheavy_up.png);
+}
+.inventory-subfilter-button-heavy:hover {
+  background-image:
+    url(../images/inventory_tabicon_armorheavy_up.png),
+    url(../images/inventory_tabicon_armorheavy_over.png);
+}
+.inventory-subfilter-button-heavy.selected {
+  background-image: url(../images/inventory_tabicon_armorheavy_down.png);
+}
+/* subfilter armor Medium */
+.inventory-subfilter-button-medium {
+  background-image: url(../images/inventory_tabicon_armormedium_up.png);
+}
+.inventory-subfilter-button-medium:hover {
+  background-image:
+    url(../images/inventory_tabicon_armormedium_up.png),
+    url(../images/inventory_tabicon_armormedium_over.png);
+}
+.inventory-subfilter-button-medium.selected {
+  background-image: url(../images/inventory_tabicon_armormedium_down.png);
+}
+/* subfilter armor Light */
+.inventory-subfilter-button-light {
+  background-image: url(../images/inventory_tabicon_armorlight_up.png);
+}
+.inventory-subfilter-button-light:hover {
+  background-image:
+    url(../images/inventory_tabicon_armorlight_up.png),
+    url(../images/inventory_tabicon_armorlight_over.png);
+}
+.inventory-subfilter-button-light.selected {
+  background-image: url(../images/inventory_tabicon_armorlight_down.png);
+}
+/* subfilter armor Shield */
+.inventory-subfilter-button-shield {
+  background-image: url(../images/inventory_tabicon_shield_up.png);
+}
+.inventory-subfilter-button-shield:hover {
+  background-image:
+    url(../images/inventory_tabicon_shield_up.png),
+    url(../images/inventory_tabicon_shield_over.png);
+}
+.inventory-subfilter-button-shield.selected {
+  background-image: url(../images/inventory_tabicon_shield_down.png);
+}
+
+/* subfilter jewelry Ring */
+.inventory-subfilter-button-ring {
+  background-image: url(../images/tradinghouse_apparel_accessories_ring_up.png);
+}
+.inventory-subfilter-button-ring:hover {
+  background-image:
+    url(../images/tradinghouse_apparel_accessories_ring_up.png),
+    url(../images/tradinghouse_apparel_accessories_ring_over.png);
+}
+.inventory-subfilter-button-ring.selected {
+  background-image: url(../images/tradinghouse_apparel_accessories_ring_down.png);
+}
+/* subfilter jewelry Neck */
+.inventory-subfilter-button-neck {
+  background-image: url(../images/tradinghouse_apparel_accessories_necklace_up.png);
+}
+.inventory-subfilter-button-neck:hover {
+  background-image:
+    url(../images/tradinghouse_apparel_accessories_necklace_up.png),
+    url(../images/tradinghouse_apparel_accessories_necklace_over.png);
+}
+.inventory-subfilter-button-neck.selected {
+  background-image: url(../images/tradinghouse_apparel_accessories_necklace_down.png);
 }
 
 /* search */

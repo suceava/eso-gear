@@ -40,14 +40,15 @@ export const armorTypeToString = (armorType: EsoArmorType | undefined): string =
 
 export enum EsoWeaponType {
   axe = 'axe',
-  bow = 'bow',
   dagger = 'dagger',
   mace = 'mace',
   sword = 'sword',
-
+  
   battleAxe = 'battleAxe',
   greatsword = 'greatsword',
   maul = 'maul',
+
+  bow = 'bow',
 
   restorationStaff = 'restorationStaff',
   infernoStaff = 'infernoStaff',
