@@ -4,15 +4,15 @@ import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import { 
   EsoItemType,
   EsoItem,
-  armorTypeToString,
-  weaponTypeToString,
-  EsoSlot
+  EsoSlot,
+  Strings_EsoArmorType,
+  Strings_EsoWeaponType
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { 
   EquipmentBuild,
   EquipmentSlot,
-  equipmentSlotToString
+  Strings_EquipmentSlot
 } from "../equipment/EquipmentBuild";
 import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
 
@@ -31,10 +31,10 @@ const getItemTypeString = (item?: EsoItem): string => {
       if (item.slot === EsoSlot.offHand) {
         return 'Shield';
       }
-      return armorTypeToString(item.armorType);
+      return item.armorType ? Strings_EsoArmorType[item.armorType] : '';
 
     case EsoItemType.weapons:
-      return weaponTypeToString(item.weaponType);
+      return item.weaponType ? Strings_EsoWeaponType[item.weaponType] : '';
 
     default:
       return '';
@@ -64,7 +64,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
 
           return (
             <Row key={enumKey} className={className}>
-              <Col>{equipmentSlotToString(EquipmentSlot[enumKey])}</Col>
+              <Col>{Strings_EquipmentSlot[EquipmentSlot[enumKey]]}</Col>
               { showItem &&
                 <Col>
                   { item &&

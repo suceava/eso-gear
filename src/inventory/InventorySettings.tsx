@@ -4,6 +4,12 @@ export enum InventoryFilterType {
   armor = 'armor',
   jewelry = 'jewelry'
 };
+export const Strings_InventoryFilterType = {
+  [InventoryFilterType.all]: 'All',
+  [InventoryFilterType.weapons]: 'Weapons',
+  [InventoryFilterType.armor]: 'Armor',
+  [InventoryFilterType.jewelry]: 'Jewelry'
+};
 
 export enum InventorySubFilterType {
   all = 'all',
@@ -21,6 +27,23 @@ export enum InventorySubFilterType {
   // jewelry
   ring = 'ring',
   neck = 'neck'
+};
+export const Strings_InventorySubFilterType = {
+  [InventorySubFilterType.all]: 'All',
+  // weapons
+  [InventorySubFilterType.oneHanded]: 'One-Handed Melee',
+  [InventorySubFilterType.twoHanded]: 'Two-Handed Melee',
+  [InventorySubFilterType.bow]: 'Bow',
+  [InventorySubFilterType.destructionStaff]: 'Destruction Staff',
+  [InventorySubFilterType.healingStaff]: 'Healing Staff',
+  // armor
+  [InventorySubFilterType.heavy]: 'Heavy Armor',
+  [InventorySubFilterType.medium]: 'Medium Armor',
+  [InventorySubFilterType.light]: 'Light Armor',
+  [InventorySubFilterType.shield]: 'Shield',
+  // jewelry
+  [InventorySubFilterType.ring]: 'Ring',
+  [InventorySubFilterType.neck]: 'Neck'
 };
 
 const filterSubFilterMap = {
@@ -53,54 +76,6 @@ export const isSubFilterOfFilterType = (filterType: InventoryFilterType, subFilt
   return filterSubFilterMap[filterType].includes(subFilterType);
 };
 
-export const inventoryFilterTypeToString = (filterType: InventoryFilterType) => {
-  switch (filterType) {
-    case InventoryFilterType.all:
-      return 'All';
-    case InventoryFilterType.weapons:
-      return 'Weapons';
-    case InventoryFilterType.armor:
-      return 'Armor';
-    case InventoryFilterType.jewelry:
-      return 'Jewelry';
-    default:
-      return '';
-  }
-};
-
-export const inventoryWeaponSubFilterTypeToString = (filterType: InventorySubFilterType) => {
-  switch (filterType) {
-    case InventorySubFilterType.all:
-      return 'All';
-    case InventorySubFilterType.oneHanded:
-      return 'One-Handed Melee';
-    case InventorySubFilterType.twoHanded:
-      return 'Two-Handed Melee';
-    case InventorySubFilterType.bow:
-      return 'Bow';
-    case InventorySubFilterType.destructionStaff:
-      return 'Destruction Staff';
-    case InventorySubFilterType.healingStaff:
-      return 'Healing Staff';
-
-    case InventorySubFilterType.heavy:
-      return 'Heavy Armor';
-    case InventorySubFilterType.medium:
-      return 'Medium Armor';
-    case InventorySubFilterType.light:
-      return 'Light Armor';
-    case InventorySubFilterType.shield:
-      return 'Shield';
-
-    case InventorySubFilterType.neck:
-      return 'Neck';
-    case InventorySubFilterType.ring:
-      return 'Ring';
-
-    default:
-      return '';
-  }
-};
 
 export class InventorySettings {
   inventoryFilter: InventoryFilterType;

@@ -8,7 +8,6 @@ import './Layout.css';
 export function ViewBuildLayout() {
   let build;
   if (window.location.hash) {
-    console.log('got hash', window.location.hash);
     build = EquipmentBuild.fromHash(window.location.hash);
   } else {
     build = new EquipmentBuild();

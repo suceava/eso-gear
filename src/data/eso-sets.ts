@@ -14,28 +14,17 @@ export enum EsoItemType {
   armor = 'armor',
   jewelry = 'jewelry',
   weapons = 'weapons'
-}
+};
 
 export enum EsoArmorType {
   heavy = 'heavy',
   light = 'light',
   medium = 'medium'
 };
-export const armorTypeToString = (armorType: EsoArmorType | undefined): string => {
-  if (!armorType) {
-    return '';
-  }
-
-  switch (armorType) {
-    case EsoArmorType.heavy:
-      return 'Heavy';
-    case EsoArmorType.light:
-      return 'Light';
-    case EsoArmorType.medium:
-      return 'Medium';
-    default:
-      return '';
-  }
+export const Strings_EsoArmorType = {
+  [EsoArmorType.heavy]: 'Heavy',
+  [EsoArmorType.light]: 'Light',
+  [EsoArmorType.medium]: 'Medium'
 };
 
 export enum EsoWeaponType {
@@ -55,39 +44,19 @@ export enum EsoWeaponType {
   iceStaff = 'iceStaff',
   lightningStaff = 'lightningStaff'
 };
-export const weaponTypeToString = (weaponType: EsoWeaponType | undefined): string => {
-  if (!weaponType) {
-    return '';
-  }
-
-  switch (weaponType) {
-    case EsoWeaponType.axe:
-      return 'Axe';
-    case EsoWeaponType.bow:
-      return 'Bow';
-    case EsoWeaponType.dagger:
-      return 'Dagger';
-    case EsoWeaponType.mace:
-      return 'Mace';
-    case EsoWeaponType.sword:
-      return 'Sword';
-    case EsoWeaponType.battleAxe:
-      return 'Battle Axe';
-    case EsoWeaponType.greatsword:
-      return 'Greatsword';
-    case EsoWeaponType.maul:
-      return 'Maul';
-    case EsoWeaponType.restorationStaff:
-      return 'Restoration Staff';
-    case EsoWeaponType.infernoStaff:
-      return 'Inferno Staff';
-    case EsoWeaponType.iceStaff:
-      return 'Ice Staff';
-    case EsoWeaponType.lightningStaff:
-      return 'Lightning Staff';
-    default:
-      return '';
-  }
+export const Strings_EsoWeaponType = {
+  [EsoWeaponType.axe]: 'Axe',
+  [EsoWeaponType.dagger]: 'Dagger',
+  [EsoWeaponType.mace]: 'Mace',
+  [EsoWeaponType.sword]: 'Sword',
+  [EsoWeaponType.battleAxe]: 'Battle Axe',
+  [EsoWeaponType.greatsword]: 'Greatsword',
+  [EsoWeaponType.maul]: 'Maul',
+  [EsoWeaponType.bow]: 'Bow',
+  [EsoWeaponType.restorationStaff]: 'Restoration Staff',
+  [EsoWeaponType.infernoStaff]: 'Inferno Staff',
+  [EsoWeaponType.iceStaff]: 'Ice Staff',
+  [EsoWeaponType.lightningStaff]: 'Lightning Staff'
 };
 
 export enum EsoSlot {
@@ -106,52 +75,72 @@ export enum EsoSlot {
   oneHand = 'oneHand',
   twoHands = 'twoHands'
 };
+export const Strings_EsoSlot = {
+  [EsoSlot.chest]: 'Chest',
+  [EsoSlot.feet]: 'Feet',
+  [EsoSlot.hands]: 'Hands',
+  [EsoSlot.head]: 'Head',
+  [EsoSlot.legs]: 'Legs',
+  [EsoSlot.shoulders]: 'Shoulders',
+  [EsoSlot.waist]: 'Waist',
+  [EsoSlot.neck]: 'Neck',
+  [EsoSlot.ring]: 'Ring',
+  [EsoSlot.offHand]: 'Off Hand',
+  [EsoSlot.oneHand]: 'One Hand',
+  [EsoSlot.twoHands]: 'Two Hands'
+};
 
 export enum EsoStat {
   armor = 'armor',
-  maximumHealth = 'maximumHealth',
+
   maximumMagicka = 'maximumMagicka',
+  maximumHealth = 'maximumHealth',
   maximumStamina = 'maximumStamina',
-  healthRecovery = 'healthRecovery',
   magickaRecovery = 'magickaRecovery',
+  healthRecovery = 'healthRecovery',
   staminaRecovery = 'staminaRecovery',
+
   spellDamage = 'spellDamage',
-  weaponDamage = 'weaponDamage',
   spellCritical = 'spellCritical',
-  weaponCritical = 'weaponCritical',
-  criticalChance = 'criticalChance',
-  criticalResistance = 'criticalResistance',
   spellPenetration = 'spellPenetration',
+  weaponDamage = 'weaponDamage',
+  weaponCritical = 'weaponCritical',
   physicalPenetration = 'physicalPenetration',
-  offensivePenetration = 'offensivePenetration',
+
   spellResistance = 'spellResistance',
   physicalResistance = 'physicalResistance',
+  criticalResistance = 'criticalResistance',
+
+  criticalChance = 'criticalChance',
+  offensivePenetration = 'offensivePenetration',
   healingDone = 'healingDone',
   healingTaken = 'healingTaken'
+};
+export const Strings_EsoStat = {
+  [EsoStat.armor]: 'Armor',
+  [EsoStat.maximumMagicka]: 'Maximum Magicka',
+  [EsoStat.maximumHealth]: 'Maximum Health',
+  [EsoStat.maximumStamina]: 'Maximum Stamina',
+  [EsoStat.magickaRecovery]: 'Magicka Recovery',
+  [EsoStat.healthRecovery]: 'Health Recovery',
+  [EsoStat.staminaRecovery]: 'Stamina Recovery',
+  [EsoStat.spellDamage]: 'Spell Damage',
+  [EsoStat.spellCritical]: 'Spell Critical',
+  [EsoStat.spellPenetration]: 'Spell Penetration',
+  [EsoStat.weaponDamage]: 'Weapon Damage',
+  [EsoStat.weaponCritical]: 'Weapon Critical',
+  [EsoStat.physicalPenetration]: 'Physical Penetration',
+  [EsoStat.spellResistance]: 'Spell Resistance',
+  [EsoStat.physicalResistance]: 'Physical Resistance',
+  [EsoStat.criticalResistance]: 'Critical Resistance',
+  [EsoStat.criticalChance]: 'Critical Chance',
+  [EsoStat.offensivePenetration]: 'Offensive Penetration',
+  [EsoStat.healingDone]: 'Healing Done',
+  [EsoStat.healingTaken]: 'Healing Taken'
 };
 
 export type EsoBonusStats = {
   [key in EsoStat]: number | undefined;
-  // armor: number | undefined,
-  // maximumHealth: number | undefined,
-  // maximumMagicka: number | undefined,
-  // maximumStamina: number | undefined,
-  // healthRecovery: number | undefined,
-  // magickaRecovery: number | undefined,
-  // staminaRecovery: number | undefined,
-  // spellDamage: number | undefined,
-  // weaponDamage: number | undefined,
-  // spellCritical: number | undefined,
-  // weaponCritical: number | undefined,
-  // criticalChance: number | undefined,
-  // criticalResistance: number | undefined,
-  // spellPenetration: number | undefined,
-  // physicalPenetration: number | undefined,
-  // offensivePenetration: number | undefined,
-  // spellResistance: number | undefined,
-  // physicalResistance: number | undefined,
-  // healingDone: number | undefined,
-  // healingTaken: number | undefined,
 }
 
 export type EsoSetBonus = {

@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react';
 import { DragPreviewImage, useDrag } from 'react-dnd';
 
-import { EsoItem } from '../data/eso-sets';
+import { EsoItem, EsoSetType } from '../data/eso-sets';
+import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
@@ -29,7 +30,6 @@ export function InventoryItem({ item }: InventoryItemProps) {
       setShowTip(true);
     }
   }
-
   if (isDragging && showTip) {
     // hide tooltip when dragging
     setShowTip(false);
@@ -37,6 +37,8 @@ export function InventoryItem({ item }: InventoryItemProps) {
 
   const tooltipRef = useRef<HTMLDivElement>(null);
   const imgPath = `../images/gear/${item.image}`;
+  const set = getEsoSetByName(item.setName);
+  const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
 
   return (
     <>
@@ -49,10 +51,10 @@ export function InventoryItem({ item }: InventoryItemProps) {
       >
         <div ref={drag}>
           <img src={imgPath} alt={item.name}></img>
-          <span className='item-legendary'>{item.name}</span>
+          <span className={itemClass}>{item.name}</span>
         </div>
       </div>
-      <ItemTooltip item={item} target={tooltipRef} show={showTip}></ItemTooltip>
+      <ItemTooltip item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }

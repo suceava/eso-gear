@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 
-import Equipment from '../equipment/Equipment';
+import { Equipment } from '../equipment/Equipment';
 import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { Inventory } from '../inventory/Inventory';
 import { Summary } from '../summary/Summary';
@@ -25,10 +25,10 @@ export function CreateBuildLayout() {
       <DndProvider backend={HTML5Backend}>
         <Container>
           <Row className='justify-content-lg-center'>
-            <Col lg={5}>
+            <Col lg={7}>
               <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
             </Col>
-            <Col lg={7}>
+            <Col lg={5}>
               <Inventory></Inventory>
             </Col>
             <Col lg={10}>

@@ -11,7 +11,14 @@ import {
 
 import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType, InventorySubFilterType } from './InventorySettings';
-import { EsoSet, EsoItem, EsoItemType, EsoSlot, EsoWeaponType } from '../data/eso-sets';
+import {
+  EsoSet,
+  EsoItem,
+  EsoItemType,
+  EsoSetType,
+  EsoSlot,
+  EsoWeaponType
+} from '../data/eso-sets';
 import { ItemSetTooltip } from '../tooltips/Tooltips';
 import { loadEsoSetData } from '../data/esoSetDataLoader';
 
@@ -70,24 +77,22 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
       Header: 'NAME',
       accessor: 'name',
       Cell: ({ row }: { row: Row<InventoryTableData> }) => {
-        // console.log(row);
-        let className = '';
-
-        if (row.depth === 0) {
-          // top level => item set
-          return (
-            <ItemSetTooltip set={row.original}>
-              <div className='inventory-item-cell'>
-                <img src={'../images/gear/' + row.original.image} alt={row.values.name}></img>
-                <span className={className}>{row.values.name}</span>
-              </div>
-            </ItemSetTooltip>
-          );
-        } else {
-          return (
-            <InventoryItem item={row.original as EsoItem}></InventoryItem>
-          );
+        if (row.depth === 1) {
+          // bottom level => an item of a set
+          return ( <InventoryItem item={row.original as EsoItem}></InventoryItem> );
         }
+
+        // top level => item set
+        const set = row.original as EsoSet;
+        const setClass = set.type === EsoSetType.mythic ? 'item-mythic' : '';
+        return (
+          <ItemSetTooltip set={set}>
+            <div className='inventory-item-cell'>
+              <img src={'../images/gear/' + set.image} alt={set.name}></img>
+              <span className={setClass}>{set.name}</span>
+            </div>
+          </ItemSetTooltip>
+        );
       }
     } as Column<InventoryTableData>
   ], []);
@@ -168,7 +173,6 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
       return true;
     }
 
-    // console.log(search);
     if (item.setName.toLowerCase().includes(lowerSearch) || item.name.toLowerCase().includes(lowerSearch)) {
       return true;
     }
