@@ -53,8 +53,11 @@
   display: inline-block;
 }
 .inventory-filter-button-toolbar button:hover {
-  transition: all 1s;
+  transition: all .1s;
   background-size: 125%;
+}
+.inventory-filter-button-toolbar button:active {
+  transform: translate(-1px, 1px);
 }
 
 .inventory-filter-button-all {
@@ -103,4 +106,15 @@
 }
 .inventory-filter-button-jewelry.selected {
   background-image: url(../images/jewelry_tabicon_icon_down.png);
+}
+
+/* search */
+.inventory-filter-search {
+  background-color: rgba(72, 72, 72, 0.8);
+  border: none;
+  border-radius: 5px;
+  color: #c5c29e;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
 }

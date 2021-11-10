@@ -30,14 +30,16 @@ export enum InventoryJewelrySubFilterType {
 
 export class InventorySettings {
   inventoryFilter: InventoryFilterType;
-  inventorySubFilter: 
-    InventoryWeaponSubFilterType |
-    InventoryArmorSubFilterType |
-    InventoryJewelrySubFilterType |
-    undefined;
+  inventorySubFilter?: InventoryWeaponSubFilterType | InventoryArmorSubFilterType | InventoryJewelrySubFilterType;
+    // InventoryWeaponSubFilterType |
+    // InventoryArmorSubFilterType |
+    // InventoryJewelrySubFilterType |
+    // undefined;
+  inventorySearch: string;
 
   constructor(inventoryFilter = InventoryFilterType.all, inventorySubFilter = undefined) {
     this.inventoryFilter = inventoryFilter;
     this.inventorySubFilter = inventorySubFilter;
+    this.inventorySearch = '';
   }
 }
