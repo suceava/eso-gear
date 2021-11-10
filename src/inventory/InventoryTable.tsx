@@ -96,12 +96,12 @@ export function InventoryTable({ filter, search }: InventoryTableProps) {
   };
 
   const itemTypeFilter = filter as unknown as EsoItemType;
-  const lowerSearch = search.toLowerCase();
+  const lowerSearch = search?.toLowerCase();
   const rowMatcher = (item: EsoItem) => {
     if (filter !== InventoryFilterType.all && item.itemType !== itemTypeFilter) {
       return false;
     }
-    if (search === '') {
+    if (!search || search === '') {
       return true;
     }
 
