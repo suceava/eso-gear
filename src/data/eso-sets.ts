@@ -182,6 +182,7 @@ export type EsoSet = {
     '3'?: EsoSetBonus | undefined;
     '4'?: EsoSetBonus | undefined;
     '5'?: EsoSetBonus | undefined;
+    count: number;
   }
   dlc: string | null;
   style: string | null;

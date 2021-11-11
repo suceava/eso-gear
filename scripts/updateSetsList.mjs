@@ -330,6 +330,21 @@ const addWeaponType = () => {
   });
 }
 
+const addSetBonusCount = () => {
+  setsList.forEach(s => {
+    if (s.bonuses['5']) {
+      s.bonuses.count = 5;
+    } else if (s.bonuses['4']) {
+      s.bonuses.count = 4;
+    } else if (s.bonuses['3']) {
+      s.bonuses.count = 3;
+    } else if (s.bonuses['2']) {
+      s.bonuses.count = 2;
+    } else if (s.bonuses['1']) {
+      s.bonuses.count = 1;
+    }
+  });
+}
 
 const updateData = async () => {
   // fixImagePaths();  // DONE
@@ -341,6 +356,7 @@ const updateData = async () => {
   // updateItemNames("Kagrenac's Hope", "", "of Kagrenac's Hope");  // ALL DONE
   // addIDs(); // DONE
   // addWeaponType(); // DONE
+  addSetBonusCount();
 
   // write to file
   const content = 'const ESO_SETS = ' +
