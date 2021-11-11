@@ -9,9 +9,13 @@ import { InventoryTable } from './InventoryTable';
 import { useStickyState } from '../stickyState';
 
 import './Inventory.css';
+import { EquipmentBuild } from '../equipment/EquipmentBuild';
 
+export interface InventoryProps {
+  build: EquipmentBuild;
+};
 
-export function Inventory() {
+export function Inventory({ build }: InventoryProps) {
   const [settings, setSettings] = useStickyState<InventorySettings>(new InventorySettings(), 'InventorySettings');
   const filterOnChange = (filter: InventoryFilterType) => {
     setSettings(prevSettings => ({
@@ -42,6 +46,7 @@ export function Inventory() {
         search={settings.inventorySearch} searchOnChange={searchOnChange} />
       <hr />
       <InventoryTable
+        build={build}
         filter={settings.inventoryFilter}
         subFilter={settings.inventorySubFilter}
         search={settings.inventorySearch} />

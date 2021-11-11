@@ -3,13 +3,15 @@ import { DragPreviewImage, useDrag } from 'react-dnd';
 
 import { EsoItem, EsoSetType } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
+import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
+  build: EquipmentBuild;
   item: EsoItem;
 }
 
-export function InventoryItem({ item }: InventoryItemProps) {
+export function InventoryItem({ build, item }: InventoryItemProps) {
   const [showTip, setShowTip] = useState(false);
 
   const [{ isDragging }, drag, preview] = useDrag(

@@ -19,8 +19,9 @@ import {
   EsoSlot,
   EsoWeaponType
 } from '../data/eso-sets';
-import { ItemSetTooltip } from '../tooltips/Tooltips';
 import { loadEsoSetData } from '../data/esoSetDataLoader';
+import { EquipmentBuild } from '../equipment/EquipmentBuild';
+import { ItemSetTooltip } from '../tooltips/Tooltips';
 
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
@@ -37,6 +38,7 @@ interface InventoryTableData {
 }
 
 export interface InventoryTableProps {
+  build: EquipmentBuild;
   filter: InventoryFilterType;
   subFilter: InventorySubFilterType;
   search: string;
@@ -50,7 +52,7 @@ function rowExpandOnClick(originalOnClick: any) {
   };
 }
 
-export function InventoryTable({ filter, subFilter, search }: InventoryTableProps) {
+export function InventoryTable({ build, filter, subFilter, search }: InventoryTableProps) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
 
   const columns = useMemo(() => [
@@ -79,7 +81,7 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
       Cell: ({ row }: { row: Row<InventoryTableData> }) => {
         if (row.depth === 1) {
           // bottom level => an item of a set
-          return ( <InventoryItem item={row.original as EsoItem}></InventoryItem> );
+          return ( <InventoryItem build={build} item={row.original as EsoItem}></InventoryItem> );
         }
 
         // top level => item set

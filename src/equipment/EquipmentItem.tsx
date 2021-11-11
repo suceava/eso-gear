@@ -1,17 +1,18 @@
 import { useDrop } from 'react-dnd'
 
-import { EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
+import { EquipmentBuild, EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
 import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 export interface EquipmentSlotProps {
+  build: EquipmentBuild;
   slot: EquipmentSlot;
   item: EsoItem | undefined;
   onItemDrop: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
 }
 
-export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
+export function EquipmentItem({ build, slot, item, onItemDrop }: EquipmentSlotProps) {
   const [{ canDrop }, drop] = useDrop({
     accept: equipmentSlotToEsoSlot(slot),
     drop: (droppedItem: EsoItem) => onItemDrop(droppedItem, slot),
@@ -33,7 +34,7 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
   return (
     <div ref={drop} className={className}>
       {item && 
-        <SimpleItemTooltip item={item} set={set}>
+        <SimpleItemTooltip build={build} item={item} set={set}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
         </SimpleItemTooltip>
     }

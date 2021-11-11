@@ -68,7 +68,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
               { showItem &&
                 <Col>
                   { item &&
-                    <SimpleItemTooltip item={item}>
+                    <SimpleItemTooltip build={build} item={item}>
                       <img src={`../images/gear/${item.image}`} alt={item.name} />
                     </SimpleItemTooltip>
                   }

@@ -139,4 +139,14 @@ export class EquipmentBuild {
     }
     this.items[slot] = item;
   }
+
+  public unequip(slot: EquipmentSlot): void {
+    delete this.items[slot];
+  }
+
+  // returns the count of items in a set
+  public countBySet(setName: string): number {
+    const setItems = Object.values(this.items).filter(item => item?.setName === setName);
+    return setItems.length;
+  }
 }

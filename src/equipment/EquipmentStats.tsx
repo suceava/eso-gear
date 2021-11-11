@@ -16,21 +16,23 @@ export function EquipmentStats({ build }: EquipmentProps) {
   return (
     <div className="equipment-stats">
       <table>
-      {
-        statsArray.map((stat, index) => {
-          if (stat === '') {
-            return <tr key={index}><td colSpan={2}>&nbsp;</td></tr>;
-          }
+        <tbody>
+        {
+          statsArray.map((stat, index) => {
+            if (stat === '') {
+              return <tr key={index}><td colSpan={2}>&nbsp;</td></tr>;
+            }
 
-          const esoStat = stat as EsoStat;
-          return (
-            <tr key={index}>
-              <td>{Strings_EsoStat[esoStat]}</td>
-              <td>{0}</td>
-            </tr>
-          );
-        })
-      }
+            const esoStat = stat as EsoStat;
+            return (
+              <tr key={index}>
+                <td>{Strings_EsoStat[esoStat]}</td>
+                <td>{0}</td>
+              </tr>
+            );
+          })
+        }
+        </tbody>
       </table>
     </div>
   );

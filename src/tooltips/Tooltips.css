@@ -39,6 +39,9 @@
 .tooltip-item hr {
   margin: 0px
 }
+.tooltip-item h3 {
+  margin-bottom: 4px
+}
 
 .tooltip-item-type {
   float: left;
