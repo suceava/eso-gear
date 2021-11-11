@@ -346,6 +346,21 @@ const addSetBonusCount = () => {
   });
 }
 
+const splitHtmlDescription = () => {
+  const rgx = /\((\d) item[s]?\)/g;
+  setsList.forEach(s => {
+    const bonuses = s.htmlDescription.split('<br>');
+    bonuses.forEach(b => {
+      if (b === '') {
+        return;
+      }
+      const match = rgx.exec(b);
+      s.bonuses[match[1]].htmlDescription = b;
+      rgx.lastIndex = 0;
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -357,6 +372,7 @@ const updateData = async () => {
   // addIDs(); // DONE
   // addWeaponType(); // DONE
   // addSetBonusCount(); // DONE
+  splitHtmlDescription();
 
   // write to file
   const content = 'const ESO_SETS = ' +

@@ -10,25 +10,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Gain Major Gallop and Major Expedition at all times, increasing your Movement Speed and Mounted Speed by 30%.",
         "buffs": [
           "Major Gallop"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain <span class=\"buff\">Major Gallop</span> and <span class=\"buff\">Major Expedition</span> at all times, increasing your Movement Speed and Mounted Speed by 30%."
       },
       "count": 5
     },
@@ -378,25 +382,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal critical damage with a Martial melee attack, summon a Lesser Aegis for 11 seconds. After 2.5 seconds, the Lesser Aegis spins its blades, dealing 502 Bleed Damage every 1 second. This effect can occur once every 12 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal critical damage with a Martial melee attack, summon a Lesser Aegis for 11 seconds. After 2.5 seconds, the Lesser Aegis spins its blades, dealing <span class=\"physical-damage\">502 Bleed Damage</span> every 1 second. This effect can occur once every 12 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -592,25 +600,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "After successfully blocking, you grant Empower to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds.",
         "buffs": [
           "Empower"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, you grant <span class=\"buff\">Empower</span> to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds."
       },
       "count": 5
     },
@@ -834,25 +846,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Adds 7377 Armor. Increases the cost of Block, Sprint, Dodge, and Break Free by 20%.",
         "stats": {
           "armor": 7377
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">7377 Armor</span>. Increases the cost of Block, Sprint, Dodge, and Break Free by 20%."
       },
       "count": 5
     },
@@ -1202,19 +1218,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "When you deal damage, you deal 346 Disease damage to the target. This damage immediately applies the Diseased status effect, applying Minor Defile to the target, reducing their Healing Received and Health Recovery by 8% for 4 seconds. This set can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
@@ -1224,7 +1243,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Defile"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you deal <span class=\"disease-damage\">346 Disease damage</span> to the target. This damage immediately applies the Diseased status effect, applying <span class=\"buff\">Minor Defile</span> to the target, reducing their Healing Received and Health Recovery by 8% for 4 seconds.  This set can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -1448,13 +1468,15 @@ const ESO_SETS = [
         "description": "Adds 1752 Maximum Stamina",
         "stats": {
           "maximumStamina": 1752
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1752 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 206 Weapon Damage",
         "stats": {
           "weaponDamage": 206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">206 Weapon Damage</span>"
       },
       "count": 3
     },
@@ -1615,25 +1637,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 158 Health Recovery, Reduces the cost of your Ultimate abilities by 15%.",
         "stats": {
           "healthRecovery": 158
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">158 Health Recovery</span>, Reduces the cost of your Ultimate abilities by 15%."
       },
       "count": 5
     },
@@ -1857,25 +1883,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you take damage from a Martial melee attack, you have a 15% chance to reduce the attacker's Weapon Damage by 300 for 5 seconds.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage from a Martial melee attack, you have a 15% chance to reduce the attacker's <span class=\"stamina\">Weapon Damage by 300</span> for 5 seconds."
       },
       "count": 5
     },
@@ -2233,19 +2263,22 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320. Current Bonus Health Recovery: 0.",
@@ -2253,7 +2286,8 @@ const ESO_SETS = [
           "healthRecovery": null,
           "spellResistance": null,
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320.\n\nCurrent Bonus Health Recovery: 0."
       },
       "count": 5
     },
@@ -2477,22 +2511,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "When you take damage, you heal you and your group members within 7 meters of you for 1204 Health over 3 seconds. This effect can occur once every 3 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "When you take damage, you heal you and your group members within 7 meters of you for 1204 Health over 3 seconds. This effect can occur once every 3 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you heal you and your group members within 7 meters of you for 1204 Health over 3 seconds. This effect can occur once every 3 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -2716,19 +2754,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 245 Magicka Recovery, Adds 245 Stamina Recovery, Adds 245 Health Recovery",
@@ -2736,7 +2777,8 @@ const ESO_SETS = [
           "healthRecovery": 245,
           "magickaRecovery": 245,
           "staminaRecovery": 245
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">245 Magicka Recovery</span>, Adds <span class=\"stamina\">245 Stamina Recovery</span>, Adds <span class=\"health\">245 Health Recovery</span>"
       },
       "count": 5
     },
@@ -2960,27 +3002,31 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
         "description": "Adds 300 Weapon and Spell Damage while your Health is above 50%. Adds 3460 Physical and Spell Resistance while your Health is 50% or less.",
         "stats": {
           "spellDamage": 300,
           "weaponDamage": 300
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">300 Weapon</span> and <span class=\"magicka\">Spell Damage</span> while your Health is above 50%. Adds 3460 Physical and Spell Resistance while your Health is 50% or less."
       },
       "count": 5
     },
@@ -3330,22 +3376,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "Increases your Critical Damage and Healing by 8%. Increases your Critical Damage and Healing by an additional 16% when you are Sneaking or Invisible."
+        "description": "Increases your Critical Damage and Healing by 8%. Increases your Critical Damage and Healing by an additional 16% when you are Sneaking or Invisible.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Critical Damage and Healing by 8%. Increases your Critical Damage and Healing by an additional 16% when you are Sneaking or Invisible."
       },
       "count": 5
     },
@@ -3569,22 +3619,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Whenever you drink a potion while in combat, you and 3 group members gain 44 Ultimate. This effect can occur once every 30 seconds."
+        "description": "Whenever you drink a potion while in combat, you and 3 group members gain 44 Ultimate. This effect can occur once every 30 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you drink a potion while in combat, you and 3 group members gain 44 Ultimate. This effect can occur once every 30 seconds."
       },
       "count": 5
     },
@@ -3808,26 +3862,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "While you have an Armor ability slotted, your Max Health is increased by 5%. When you use an Armor ability while in combat, your Physical and Spell Resistance is increased by 5940 for 10 seconds.",
         "stats": {
           "armor": null,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have an Armor ability slotted, your Max Health is increased by 5%. When you use an Armor ability while in combat, your Physical and Spell Resistance is increased by 5940 for 10 seconds."
       },
       "count": 5
     },
@@ -4174,25 +4232,29 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Armor of the Code\nIncrease your Weapon and Spell Critical Rating against targets with a lower % of health than you by 2051.<br><span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span><br><span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span><br><span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span><br>",
     "bonuses": {
       "1": {
-        "description": "Armor of the Code"
+        "description": "Armor of the Code",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Armor of the Code\nIncrease your Weapon and Spell Critical Rating against targets with a lower % of health than you by 2051."
       },
       "2": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "count": 4
     },
@@ -4231,22 +4293,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "Reduces the cost of your Magicka abilities by 10%."
+        "description": "Reduces the cost of your Magicka abilities by 10%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Magicka abilities by 10%."
       },
       "count": 5
     },
@@ -4604,19 +4670,22 @@ const ESO_SETS = [
         "description": "Adds 1454 Maximum Health",
         "stats": {
           "maximumHealth": 1454
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1454 Maximum Health</span>"
       },
       "2": {
         "description": "Adds 1454 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1454
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1454 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1454 Maximum Stamina",
         "stats": {
           "maximumStamina": 1454
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1454 Maximum Stamina</span>"
       },
       "count": 3
     },
@@ -4982,25 +5051,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you interrupt an enemy, you gain 516 Weapon Damage for 15 seconds. Your Bash attacks permanently deal 516 more damage.",
         "stats": {
           "weaponDamage": 516
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you interrupt an enemy, you gain <span class=\"stamina\">516 Weapon Damage</span> for 15 seconds.  Your Bash attacks permanently deal 516 more damage."
       },
       "count": 5
     },
@@ -5246,25 +5319,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal damage to an enemy who is Off Balance, your Weapon Damage is increased by 460 for 10 seconds.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage to an enemy who is Off Balance, your Weapon Damage is increased by 460 for 10 seconds."
       },
       "count": 5
     },
@@ -5492,7 +5569,8 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "count": 3
     },
@@ -5532,23 +5610,27 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal 52 Physical Damage per stack every 1 second. This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage.",
-        "stats": {}
+        "stats": {},
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal <span class=\"physical-damage\">52 Physical Damage</span> per stack every 1 second.  This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -5772,7 +5854,8 @@ const ESO_SETS = [
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "count": 3
     },
@@ -5812,23 +5895,27 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Martial melee damage, you breathe fire to all enemies in front of you for 813 Flame damage. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
-        "stats": {}
+        "stats": {},
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, you breathe fire to all enemies in front of you for <span class=\"flame-damage\">813 Flame damage</span>. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -6186,22 +6273,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you take damage while under 30% Health, you heal for 10481 Health and restore 10481 Magicka and Stamina. This effect can occur once every 45 seconds."
+        "description": "When you take damage while under 30% Health, you heal for 10481 Health and restore 10481 Magicka and Stamina. This effect can occur once every 45 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 30% Health, you heal for 10481 Health and restore <span class=\"magicka\">10481 Magicka</span> and <span class=\"stamina\">Stamina</span>. This effect can occur once every 45 seconds."
       },
       "count": 5
     },
@@ -6425,23 +6516,27 @@ const ESO_SETS = [
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds 657 Critical Chance"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
-        "description": "Increases the duration of your alchemical poisons by 4 seconds."
+        "description": "Increases the duration of your alchemical poisons by 4 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the duration of your alchemical poisons by 4 seconds."
       },
       "count": 5
     },
@@ -6791,23 +6886,27 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "5": {
         "description": "Dealing direct damage with a single target attack summons a cone of lightning from your chest for 3 seconds, dealing 214 Shock Damage every 0.5 seconds to enemies in the cone. This effect can occur every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
-        "stats": {}
+        "stats": {},
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a single target attack summons a cone of lightning from your chest for 3 seconds, dealing <span class=\"shock-damage\">214 Shock Damage</span> every 0.5 seconds to enemies in the cone. This effect can occur every 6 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -7031,25 +7130,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Aegis for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%.",
         "buffs": [
           "Major Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Aegis</span> for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%."
       },
       "count": 5
     },
@@ -7273,25 +7376,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "When you deal damage with a damage over time effect, you apply a stack of Blight Seed to your target for 5 seconds. At 20 stacks, the Blight Seed explodes, dealing 1832 Disease Damage to the target and nearby enemies, scaling off the higher of your Weapon or Spell Damage. An enemy can only have one instance of Blight Seed at a time. An enemy that has reached 20 stacks cannot be infected with Blight Seed for 2 seconds.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a damage over time effect, you apply a stack of Blight Seed to your target for 5 seconds. At 20 stacks, the Blight Seed explodes, dealing <span class=\"disease-damage\">1832 Disease Damage</span> to the target and nearby enemies, scaling off the higher of your Weapon or Spell Damage.\n\nAn enemy can only have one instance of Blight Seed at a time. An enemy that has reached 20 stacks cannot be infected with Blight Seed for 2 seconds."
       },
       "count": 5
     },
@@ -7515,22 +7622,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina, Reduces your damage taken from environmental traps by 40%.",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Reduces your damage taken from environmental traps by 40%."
       },
       "5": {
-        "description": "When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within 3.5 meters by 60%, damages them for 349 Magic damage every 1 second, and heals you for 100% of the damage done. This effect can occur once every 5 seconds and the damage scales off your Max Health."
+        "description": "When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within 3.5 meters by 60%, damages them for 349 Magic damage every 1 second, and heals you for 100% of the damage done. This effect can occur once every 5 seconds and the damage scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within 3.5 meters by 60%, damages them for <span class=\"magic-damage\">349 Magic damage</span> every 1 second, and heals you for 100% of the damage done.  This effect can occur once every 5 seconds and the damage scales off your Max Health."
       },
       "count": 5
     },
@@ -7880,22 +7991,26 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
-        "description": "Increases your damage done to non-player enemies by up to 15% based on your missing Magicka. Current value: 0%"
+        "description": "Increases your damage done to non-player enemies by up to 15% based on your missing Magicka. Current value: 0%",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done to non-player enemies by up to 15% based on your missing Magicka.\n\nCurrent value: 0%"
       },
       "count": 5
     },
@@ -8120,7 +8235,8 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "2": {
         "description": "When you use an Ultimate ability, you gain Weapon and Spell Damage equal to the amount of total Ultimate consumed, and Physical and Spell Penetration equal to 23 times the amount for 12 seconds.",
@@ -8128,7 +8244,8 @@ const ESO_SETS = [
           "spellDamage": null,
           "spellPenetration": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use an Ultimate ability, you gain Weapon and Spell Damage equal to the amount of total Ultimate consumed, and Physical and Spell Penetration equal to 23 times the amount for 12 seconds."
       },
       "count": 2
     },
@@ -8211,25 +8328,29 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you taunt a nearby enemy, you tether to them for 15 seconds. While tethered, you apply Major Maim to your enemy, reducing their damage done by 10%, and you gain Major Vitality, increasing your healing received by 16%. The tether is broken if the enemy moves 8 meters away from you. This effect can occur once every 15 seconds.",
         "buffs": [
           "Major Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt a nearby enemy, you tether to them for 15 seconds.  While tethered, you apply <span class=\"buff\">Major Maim</span> to your enemy, reducing their damage done by 10%, and you gain <span class=\"buff\">Major Vitality</span>, increasing your healing received by 16%.  The tether is broken if the enemy moves 8 meters away from you.  This effect can occur once every 15 seconds."
       },
       "count": 5
     },
@@ -8453,22 +8574,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 1715 Health and restore 858 Stamina. This effect can occur once every 5 seconds."
+        "description": "Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 1715 Health and restore 858 Stamina. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 1715 Health and restore 858 Stamina. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -8698,10 +8823,12 @@ const ESO_SETS = [
           "maximumHealth": 603,
           "maximumMagicka": 548,
           "maximumStamina": 548
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">548 Maximum Stamina</span>, Adds <span class=\"magicka\">548 Maximum Magicka</span>, Adds <span class=\"health\">603 Maximum Health</span>"
       },
       "2": {
-        "description": "Applying a status effect to an enemy grants you a stack of Zaudrus's Ambition for 10 seconds, up to 3 stacks max. When you gain 3 stacks, the stacks are removed and you gain 4 Ultimate. On gaining Ultimate, you cannot gain additional stacks of Zaudrus's Ambition for 1 second."
+        "description": "Applying a status effect to an enemy grants you a stack of Zaudrus's Ambition for 10 seconds, up to 3 stacks max. When you gain 3 stacks, the stacks are removed and you gain 4 Ultimate. On gaining Ultimate, you cannot gain additional stacks of Zaudrus's Ambition for 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Applying a status effect to an enemy grants you a stack of Zaudrus's Ambition for 10 seconds, up to 3 stacks max. When you gain 3 stacks, the stacks are removed and you gain 4 Ultimate. On gaining Ultimate, you cannot gain additional stacks of Zaudrus's Ambition for 1 second."
       },
       "count": 2
     },
@@ -8784,19 +8911,23 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
-        "description": "Reduces your damage taken from Players by 3%."
+        "description": "Reduces your damage taken from Players by 3%.",
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Reduces your damage taken from Players by 3%."
       },
       "5": {
-        "description": "Reduces your damage taken from Siege Weapons and Player area of effect abilities by 10%."
+        "description": "Reduces your damage taken from Siege Weapons and Player area of effect abilities by 10%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces your damage taken from Siege Weapons and Player area of effect abilities by 10%."
       },
       "count": 5
     },
@@ -9020,22 +9151,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
-        "description": "After successfully blocking, heal yourself or a group member within 15 meters of you for 897 Health. This effect can occur every 1 second and scales off your Max Health."
+        "description": "After successfully blocking, heal yourself or a group member within 15 meters of you for 897 Health. This effect can occur every 1 second and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, heal yourself or a group member within 15 meters of you for 897 Health. This effect can occur every 1 second and scales off your Max Health."
       },
       "count": 5
     },
@@ -9259,22 +9394,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Reduces the cost of all of your abilities by 6%."
+        "description": "Reduces the cost of all of your abilities by 6%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of all of your abilities by 6%."
       },
       "count": 5
     },
@@ -9498,22 +9637,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. You can only be affected by one instance of Beckoning Steel."
+        "description": "Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. You can only be affected by one instance of Beckoning Steel.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. \n\nYou can only be affected by one instance of Beckoning Steel."
       },
       "count": 5
     },
@@ -9737,25 +9880,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 900 Health Recovery",
         "stats": {
           "healthRecovery": 900
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">900 Health Recovery</span>"
       },
       "count": 5
     },
@@ -9979,7 +10126,8 @@ const ESO_SETS = [
         "description": "Increase the damage of your Light Attacks by 1185. When you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal 1471 Physical Damage to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your Light Attacks by 1185.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 1
     },
@@ -10016,25 +10164,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Martial melee damage, your Weapon Critical is increased by 241 for 5 seconds, stacking up to 10 times. This effect can occur once every half second.",
         "stats": {
           "weaponCritical": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, your Weapon Critical is increased by 241 for 5 seconds, stacking up to 10 times. This effect can occur once every half second."
       },
       "count": 5
     },
@@ -10213,26 +10365,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 176 Weapon and Spell Damage, Increases the Magicka and Stamina restored from the Constitution passive ability by 60%.",
         "stats": {
           "spellDamage": 176,
           "weaponDamage": 176
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">176 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, Increases the Magicka and Stamina restored from the Constitution passive ability by 60%."
       },
       "count": 5
     },
@@ -10453,10 +10609,12 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces your damage taken from Players by 3%.<br><span class=\"set-bonus\">(3 items)</span> Reduces the cost of your Ultimate abilities by 15%.<br>",
     "bonuses": {
       "2": {
-        "description": "Reduces your damage taken from Players by 3%."
+        "description": "Reduces your damage taken from Players by 3%.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces your damage taken from Players by 3%."
       },
       "3": {
-        "description": "Reduces the cost of your Ultimate abilities by 15%."
+        "description": "Reduces the cost of your Ultimate abilities by 15%.",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Reduces the cost of your Ultimate abilities by 15%."
       },
       "count": 3
     },
@@ -10617,22 +10775,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "When you deal damage with a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds"
+        "description": "When you deal damage with a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds"
       },
       "count": 5
     },
@@ -10856,22 +11018,26 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "Increases your Bleed damaging attacks by 20%."
+        "description": "Increases your Bleed damaging attacks by 20%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Bleed damaging attacks by 20%."
       },
       "count": 5
     },
@@ -11092,7 +11258,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second.<br>",
     "bonuses": {
       "1": {
-        "description": "Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second."
+        "description": "Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second."
       },
       "count": 1
     },
@@ -11124,14 +11291,16 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "2": {
         "description": "When you take damage, you have a 6% chance to generate 13 Ultimate and increase your Physical and Spell Resistance by 3731 for 5 seconds. This effect can occur once every 5 seconds.",
         "stats": {
           "spellResistance": 3731,
           "physicalResistance": 3731
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 6% chance to generate 13 Ultimate and increase your <span class=\"health\">Physical and Spell Resistance by 3731</span> for 5 seconds. This effect can occur once every 5 seconds."
       },
       "count": 2
     },
@@ -11214,22 +11383,26 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you deal direct damage, you restore 800 Magicka and Stamina. This effect can occur once every 5 seconds."
+        "description": "When you deal direct damage, you restore 800 Magicka and Stamina. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you restore <span class=\"magicka\">800 Magicka</span> and <span class=\"stamina\">Stamina</span>. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -11453,25 +11626,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When an enemy you have recently damaged dies, gain 10 Ultimate and increase your Health Recovery by 1156 for 10 seconds. This effect can occur once every 10 seconds.",
         "stats": {
           "healthRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you have recently damaged dies, gain 10 Ultimate and increase your Health Recovery by 1156 for 10 seconds. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -11695,25 +11872,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "While you have a drink buff active, your Max Stamina is increased by 2000 and Stamina Recovery by 133.",
         "stats": {
           "staminaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a drink buff active, your Max Stamina is increased by 2000 and Stamina Recovery by 133."
       },
       "count": 5
     },
@@ -11937,22 +12118,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "When you take damage, you grant you and your group members within 8 meters a damage shield that absorbs 11260 damage for 6 seconds. This effect can occur once every 12 seconds."
+        "description": "When you take damage, you grant you and your group members within 8 meters a damage shield that absorbs 11260 damage for 6 seconds. This effect can occur once every 12 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you grant you and your group members within 8 meters a damage shield that absorbs 11260 damage for 6 seconds. This effect can occur once every 12 seconds."
       },
       "count": 5
     },
@@ -12176,25 +12361,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Critical Damage, you increase your Weapon Damage by 450 for 10 seconds. While this effect is active your Critical Strikes heal you for 100 Health. This effect can occur once every 15 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you increase your <span class=\"stamina\">Weapon Damage by 450</span> for 10 seconds. While this effect is active your Critical Strikes heal you for 100 Health. This effect can occur once every 15 seconds and the heal scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -12418,25 +12607,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "While you have a drink buff active, your Max Magicka is increased by 2000 and Magicka Recovery by 133.",
         "stats": {
           "magickaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a drink buff active, your Max Magicka is increased by 2000 and Magicka Recovery by 133."
       },
       "count": 5
     },
@@ -12660,7 +12853,8 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "count": 2
     },
@@ -12691,22 +12885,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "Reduce damage taken from Players by 10%."
+        "description": "Reduce damage taken from Players by 10%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduce damage taken from Players by 10%."
       },
       "count": 5
     },
@@ -12930,25 +13128,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "When you deal damage with a Flame Damage ability, you apply the Burning status effect to the enemy and increase your Spell Damage by 490 for 8 seconds. These effects can occur once every 12 seconds.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Flame Damage ability, you apply the Burning status effect to the enemy and increase your <span class=\"magicka\">Spell Damage by 490</span> for 8 seconds. These effects can occur once every 12 seconds."
       },
       "count": 5
     },
@@ -13176,19 +13378,22 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "Adds 1206 Maximum Health, When you deal damage, you apply Minor Lifesteal to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them.",
@@ -13197,7 +13402,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Lifesteal"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you deal damage, you apply <span class=\"buff\">Minor Lifesteal</span> to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them."
       },
       "count": 5
     },
@@ -13421,25 +13627,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "When you deal direct Critical Damage with a single target attack, you launch a projectile at your target that deals 2160 Flame, 2160 Frost, 2160 Shock, or 2160 Disease damage and applies the respective status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct Critical Damage with a single target attack, you launch a projectile at your target that deals 2160 Flame, 2160 Frost, 2160 Shock, or <span class=\"disease-damage\">2160 Disease damage</span> and applies the respective status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -13663,7 +13873,8 @@ const ESO_SETS = [
         "description": "Increases your Weapon Damage by 330 against targets affected by your Poison Arrow.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases your <span class=\"stamina\">Weapon Damage by 330</span> against targets affected by your Poison Arrow."
       },
       "count": 2
     },
@@ -13701,19 +13912,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 1600 Maximum Health, Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
@@ -13722,7 +13936,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Heroism"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1600 Maximum Health</span>, Gain <span class=\"buff\">Minor Heroism</span> at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
       },
       "count": 5
     },
@@ -13943,7 +14158,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds.<br>",
     "bonuses": {
       "2": {
-        "description": "When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for 2675 Physical Damage. This effect can occur once every 10 seconds."
+        "description": "When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for 2675 Physical Damage. This effect can occur once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -14008,10 +14224,12 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "2": {
-        "description": "When you use a heal ability, you have a 33% chance to summon a strangler sapling that heals you or an ally for 7336 Health over 6 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "When you use a heal ability, you have a 33% chance to summon a strangler sapling that heals you or an ally for 7336 Health over 6 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use a heal ability, you have a 33% chance to summon a strangler sapling that heals you or an ally for 7336 Health over 6 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 2
     },
@@ -14094,19 +14312,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you taunt an enemy, you give yourself and 11 group members Minor Courage for 15 seconds, increasing your Weapon and Spell Damage by 215. This effect can occur once every 8 seconds.",
@@ -14116,7 +14337,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt an enemy, you give yourself and 11 group members <span class=\"buff\">Minor Courage</span> for 15 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 215</span>. This effect can occur once every 8 seconds."
       },
       "count": 5
     },
@@ -14340,27 +14562,31 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When you drink a potion during combat you feel a rush of energy, increasing your Weapon and Spell Damage by 675 for 20 seconds.",
         "stats": {
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion during combat you feel a rush of energy, increasing your Weapon and <span class=\"magicka\">Spell Damage by 675</span> for 20 seconds."
       },
       "count": 5
     },
@@ -14710,26 +14936,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Healing yourself or group member summons Honor, who after 2 seconds, begins healing you and group members near him for 4886 Health over 6 seconds based on the higher of your Max Magicka or Stamina. Dealing damage summons Honor, who after 2 seconds, explodes, damaging enemies near him for 2471 Magic Damage over 6 seconds based on the higher of your Weapon or Spell Damage. Honor can only be summoned once every 10 seconds.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Healing yourself or group member summons Honor, who after 2 seconds, begins healing you and group members near him for 4886 Health over 6 seconds based on the higher of your Max Magicka or Stamina.\n\nDealing damage summons Honor, who after 2 seconds, explodes, damaging enemies near him for <span class=\"magic-damage\">2471 Magic Damage</span> over 6 seconds based on the higher of your Weapon or Spell Damage.\n\nHonor can only be summoned once every 10 seconds."
       },
       "count": 5
     },
@@ -15079,22 +15309,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
-        "description": "When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 4308 damage for 6 seconds. This effect can occur once every 6 seconds per target."
+        "description": "When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 4308 damage for 6 seconds. This effect can occur once every 6 seconds per target.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 4308 damage for 6 seconds. This effect can occur once every 6 seconds per target."
       },
       "count": 5
     },
@@ -15319,7 +15553,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur<br>",
     "bonuses": {
       "2": {
-        "description": "Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur"
+        "description": "Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur"
       },
       "count": 2
     },
@@ -15375,19 +15610,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Adds 250 Stamina Recovery, While Sprinting you gain Major Expedition and Major Protection, increasing your Movement Speed by 30% and reducing your damage taken by 10%.",
@@ -15396,7 +15634,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">250 Stamina Recovery</span>, While Sprinting you gain <span class=\"buff\">Major Expedition</span> and <span class=\"buff\">Major Protection</span>, increasing your Movement Speed by 30% and reducing your damage taken by 10%."
       },
       "count": 5
     },
@@ -15620,25 +15859,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 2550 Maximum Magicka",
         "stats": {
           "maximumMagicka": 2550
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">2550 Maximum Magicka</span>"
       },
       "count": 5
     },
@@ -15862,22 +16105,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "After successfully blocking, heal for 2871 Health. This effect can occur every 4 seconds and scales off your Max Health."
+        "description": "After successfully blocking, heal for 2871 Health. This effect can occur every 4 seconds and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, heal for 2871 Health. This effect can occur every 4 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -16101,19 +16348,22 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Casting an ability, drinking a potion, or using a poison that applies a Major or Minor buff to yourself or an ally, sends out a wave of energy that reduces the Armor of nearby enemies within 12 meters by 3541 for 15 seconds. This effect can occur once every 12 seconds, and will only occur if an enemy is within range.",
@@ -16123,7 +16373,8 @@ const ESO_SETS = [
         "buffs": [
           "Minor buff",
           "Major or"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting an ability, drinking a potion, or using a poison that applies a Major or Minor buff to yourself or an ally, sends out a wave of energy that reduces the Armor of nearby enemies within 12 meters by 3541 for 15 seconds. This effect can occur once every 12 seconds, and will only occur if an enemy is within range."
       },
       "count": 5
     },
@@ -16347,22 +16598,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "After taking damage you surround yourself in an 8 meter mist of blood. After 2 seconds, the mist is violently siphoned into your body, dealing 1946 Bleed Damage to nearby enemies and healing you for 100% of the damage done. This effect can occur once every 8 seconds and scales off your Max Health."
+        "description": "After taking damage you surround yourself in an 8 meter mist of blood. After 2 seconds, the mist is violently siphoned into your body, dealing 1946 Bleed Damage to nearby enemies and healing you for 100% of the damage done. This effect can occur once every 8 seconds and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After taking damage you surround yourself in an 8 meter mist of blood. After 2 seconds, the mist is violently siphoned into your body, dealing <span class=\"physical-damage\">1946 Bleed Damage</span> to nearby enemies and healing you for 100% of the damage done. This effect can occur once every 8 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -16586,19 +16841,22 @@ const ESO_SETS = [
         "description": "Adds 424 Critical Resistance",
         "stats": {
           "criticalResistance": 424
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds 424 Critical Resistance"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 424 Critical Resistance",
         "stats": {
           "criticalResistance": 424
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 424 Critical Resistance"
       },
       "5": {
         "description": "When you take critical damage, you apply Minor Uncertainty and Minor Enervation to the enemy for 9 seconds, reducing their Physical and Spell Critical by 1314 and reducing their Critical Damage by 10%. An enemy can only be affected by your Critical Riposte once every 10 seconds.",
@@ -16607,7 +16865,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Uncertainty"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take critical damage, you apply <span class=\"buff\">Minor Uncertainty</span> and <span class=\"buff\">Minor Enervation</span> to the enemy for 9 seconds, reducing their Physical and Spell Critical by 1314 and reducing their Critical Damage by 10%. An enemy can only be affected by your Critical Riposte once every 10 seconds."
       },
       "count": 5
     },
@@ -16957,7 +17216,8 @@ const ESO_SETS = [
         "description": "When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage."
       },
       "count": 2
     },
@@ -17023,21 +17283,24 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you consecrate the ground beneath you for 10 seconds and gain a damage shield that absorbs 1595 damage for 6 seconds. Every 2 seconds you and up to 11 group members in the area gain Minor Courage for 12 seconds. These effects can occur once every 20 seconds and the damage shield scales off the higher of your Weapon or Spell Damage.",
@@ -17046,7 +17309,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you consecrate the ground beneath you for 10 seconds and gain a damage shield that absorbs 1595 damage for 6 seconds. Every 2 seconds you and up to 11 group members in the area gain <span class=\"buff\">Minor Courage</span> for 12 seconds.  These effects can occur once every 20 seconds and the damage shield scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -17267,7 +17531,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements.<br>",
     "bonuses": {
       "2": {
-        "description": "Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements."
+        "description": "Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements."
       },
       "count": 2
     },
@@ -17323,22 +17588,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 678 Magicka. This effect can occur every 8 seconds per target."
+        "description": "When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 678 Magicka. This effect can occur every 8 seconds per target.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 678 Magicka. This effect can occur every 8 seconds per target."
       },
       "count": 5
     },
@@ -17562,26 +17831,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When using a fully-charged melee Heavy Attack on a taunted monster or any enemy who is stunned, feared, or immobilized, you will deal 1902 Physical Damage. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When using a fully-charged melee Heavy Attack on a taunted monster or any enemy who is stunned, feared, or immobilized, you will deal <span class=\"physical-damage\">1902 Physical Damage</span>. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -17805,25 +18078,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "When you deal damage you gain one of 5 random Major Buffs for 21 seconds every 9 seconds. Eligible buffs are Expedition, Protection, Mending, Heroism, or Vitality.",
         "buffs": [
           "Major Buffs"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage you gain one of 5 random Major Buffs for 21 seconds every 9 seconds. Eligible buffs are Expedition, Protection, Mending, Heroism, or Vitality."
       },
       "count": 5
     },
@@ -18173,25 +18450,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 492 Weapon Damage to your area of effect abilities.",
         "stats": {
           "weaponDamage": 492
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">492 Weapon Damage</span> to your area of effect abilities."
       },
       "count": 5
     },
@@ -18415,25 +18696,29 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
         "description": "Reduce the cost of your Weapon abilities by 10% Magicka or Stamina. After casting a Weapon ability, you gain Minor Heroism for 8 seconds, generating 1 Ultimate every 1.5 seconds while in combat. This effect can occur every 8 seconds.",
         "buffs": [
           "Minor Heroism"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduce the cost of your Weapon abilities by <span class=\"magicka\">10% Magicka</span> or <span class=\"stamina\">Stamina</span>. \n\nAfter casting a Weapon ability, you gain <span class=\"buff\">Minor Heroism</span> for 8 seconds, generating 1 Ultimate every 1.5 seconds while in combat. This effect can occur every 8 seconds."
       },
       "count": 5
     },
@@ -18783,26 +19068,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Casting abilities that leave an effect on the ground will create an area that applies a 60% snare and pulls enemies every 2 seconds after a 1 second delay, and stun them for 1 second. After 4 seconds, the area deals 1999 Magic Damage to all enemies in the area, and 3998 Magic Damage to enemies within 3 meters of the center, increasing by 10% for each target. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground will create an area that applies a 60% snare and pulls enemies every 2 seconds after a 1 second delay, and stun them for 1 second. After 4 seconds, the area deals <span class=\"magic-damage\">1999 Magic Damage</span> to all enemies in the area, and <span class=\"magic-damage\">3998 Magic Damage</span> to enemies within 3 meters of the center, increasing by 10% for each target. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -19020,22 +19309,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "Reduces the cost of Sprint and Sneak by 50%."
+        "description": "Reduces the cost of Sprint and Sneak by 50%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Sprint and Sneak by 50%."
       },
       "count": 5
     },
@@ -19259,25 +19552,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 1206 Maximum Health, When you are affected by a disabling effect, you automatically Break Free for no cost. After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds.",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you are affected by a disabling effect, you automatically Break Free for no cost.  After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds."
       },
       "count": 5
     },
@@ -19627,25 +19924,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 129 Weapon Damage, Whenever you kill an enemy, you gain 15 Ultimate.",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, Whenever you kill an enemy, you gain 15 Ultimate."
       },
       "count": 5
     },
@@ -19869,26 +20170,30 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 200 Weapon Damage, Dealing damage to an enemy within 10 meters of you with a Heavy Attack causes you to throw a cone of knives, dealing 857 Physical Damage to enemies hit. If an enemy hit has 50% Health or less, they also take an additional 1715 Bleed Damage over 13 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null,
           "weaponDamage": 200
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">200 Weapon Damage</span>, Dealing damage to an enemy within 10 meters of you with a Heavy Attack causes you to throw a cone of knives, dealing <span class=\"physical-damage\">857 Physical Damage</span> to enemies hit. If an enemy hit has 50% Health or less, they also take an additional <span class=\"physical-damage\">1715 Bleed Damage</span> over 13 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -20112,23 +20417,27 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Your Bash attacks deal 935 more damage. When you Bash, you also deal 0 Physical Damage in a cone in front of you, interrupting any enemies hit. This effect can occur once every 2 seconds and counts as Bash damage."
+        "description": "Your Bash attacks deal 935 more damage. When you Bash, you also deal 0 Physical Damage in a cone in front of you, interrupting any enemies hit. This effect can occur once every 2 seconds and counts as Bash damage.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Bash attacks deal 935 more damage. When you Bash, you also deal <span class=\"physical-damage\">0 Physical Damage</span> in a cone in front of you, interrupting any enemies hit. This effect can occur once every 2 seconds and counts as Bash damage."
       },
       "count": 5
     },
@@ -20478,22 +20787,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Increase the damage your damage over time and channeled abilities do by 18%."
+        "description": "Increase the damage your damage over time and channeled abilities do by 18%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase the damage your damage over time and channeled abilities do by 18%."
       },
       "count": 5
     },
@@ -20717,7 +21030,8 @@ const ESO_SETS = [
         "description": "Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat.",
         "stats": {
           "maximumStamina": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat."
       },
       "count": 1
     },
@@ -20748,22 +21062,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 15 seconds."
+        "description": "When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 15 seconds."
       },
       "count": 5
     },
@@ -21121,22 +21439,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you block an attack, you deal 1196 Magic Damage to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 5 seconds and scales off your Max Health."
+        "description": "When you block an attack, you deal 1196 Magic Damage to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 5 seconds and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you deal <span class=\"magic-damage\">1196 Magic Damage</span> to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 5 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -21357,7 +21679,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead.<br>",
     "bonuses": {
       "2": {
-        "description": "When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead."
+        "description": "When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead."
       },
       "count": 2
     },
@@ -21430,25 +21753,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Critical Damage, you summon a Hunger that spews poison to all enemies in front of it, dealing 1040 Poison Damage and stunning any enemy hit for 5 seconds. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you summon a Hunger that spews poison to all enemies in front of it, dealing <span class=\"poison-damage\">1040 Poison Damage</span> and stunning any enemy hit for 5 seconds. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -21672,22 +21999,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you take damage, you have a 25% chance to restore 2012 Magicka. This effect can occur once every 4 seconds."
+        "description": "When you take damage, you have a 25% chance to restore 2012 Magicka. This effect can occur once every 4 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you have a 25% chance to restore 2012 Magicka. This effect can occur once every 4 seconds."
       },
       "count": 5
     },
@@ -21911,7 +22242,8 @@ const ESO_SETS = [
         "description": "Reduces the cost of Destructive Touch by 10% and increases your Spell Damage by 600 for 4 seconds after activating it.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces the cost of Destructive Touch by 10% and increases your <span class=\"magicka\">Spell Damage by 600</span> for 4 seconds after activating it."
       },
       "count": 2
     },
@@ -21967,25 +22299,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a fully-charged Heavy Attack, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack the bomb detonates, dealing 1000 Magic Damage all enemies within 8 meters. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack the bomb detonates, dealing <span class=\"magic-damage\">1000 Magic Damage</span> all enemies within 8 meters. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -22210,27 +22546,31 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds 657 Critical Chance"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "While in combat, using an ability with a range of 7 meters or less grants you Range Supremacy for 5 seconds, adding 437 Weapon and Spell Damage to your damage over time and ranged attacks. While in combat, using an ability with a range of over 7 meters grants you Melee Supremacy for 5 seconds, adding 437 Weapon and Spell Damage to your melee attacks.",
         "stats": {
           "spellDamage": 437,
           "weaponDamage": 437
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, using an ability with a range of 7 meters or less grants you Range Supremacy for 5 seconds, adding <span class=\"stamina\">437 Weapon</span> and <span class=\"magicka\">Spell Damage</span> to your damage over time and ranged attacks. \n\nWhile in combat, using an ability with a range of over 7 meters grants you Melee Supremacy for 5 seconds, adding <span class=\"stamina\">437 Weapon</span> and <span class=\"magicka\">Spell Damage</span> to your melee attacks."
       },
       "count": 5
     },
@@ -22577,7 +22917,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt.<br>",
     "bonuses": {
       "2": {
-        "description": "When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
+        "description": "When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
       },
       "count": 2
     },
@@ -22634,14 +22975,16 @@ const ESO_SETS = [
         "stats": {
           "maximumMagicka": 1096,
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
         "description": "When you deal damage, you create either a ring of fire or ring of molten earth around you for 10 seconds, which deals 209 Flame damage or 209 Physical damage every 1 second. Standing within the ring grants you 300 Spell Damage or 300 Weapon Damage. This effect can occur once every 15 seconds and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": 300,
           "weaponDamage": 300
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you create either a ring of fire or ring of molten earth around you for 10 seconds, which deals <span class=\"flame-damage\">209 Flame damage</span> or <span class=\"physical-damage\">209 Physical damage</span> every 1 second. Standing within the ring grants you <span class=\"magicka\">300 Spell Damage</span> or <span class=\"stamina\">300 Weapon Damage</span>. This effect can occur once every 15 seconds and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -22724,22 +23067,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "Increase your damage done to Bleeding enemies by 225. Dealing non-Bleed damage to Bleeding enemies generates a persistent stack of Dragon's Appetite, up to once per half second. After 10 stacks you consume Dragon's Appetite and heal for 4635 Health. The heal effect scales off the higher of your Max Magicka or Stamina."
+        "description": "Increase your damage done to Bleeding enemies by 225. Dealing non-Bleed damage to Bleeding enemies generates a persistent stack of Dragon's Appetite, up to once per half second. After 10 stacks you consume Dragon's Appetite and heal for 4635 Health. The heal effect scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase your damage done to Bleeding enemies by 225. Dealing non-Bleed damage to Bleeding enemies generates a persistent stack of Dragon's Appetite, up to once per half second. After 10 stacks you consume Dragon's Appetite and heal for 4635 Health.  The heal effect scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -23089,19 +23436,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 1206 Maximum Health, When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies Minor Breach to all enemies near you, reducing their Physical and Spell Resistance by 2974. This effect can occur every 5 seconds.",
@@ -23112,7 +23462,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Breach"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies <span class=\"buff\">Minor Breach</span> to all enemies near you, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>. This effect can occur every 5 seconds."
       },
       "count": 5
     },
@@ -23336,25 +23687,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "You gain a stack of Dragonguard Tactics for 5 seconds when you deal direct damage to an enemy from the front or their sides, up to 10 stacks. Each stack of Dragonguard Tactics increases your Weapon Critical by 275. You can only gain one stack every 0.5 seconds.",
         "stats": {
           "weaponCritical": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You gain a stack of Dragonguard Tactics for 5 seconds when you deal direct damage to an enemy from the front or their sides, up to 10 stacks.  Each stack of Dragonguard Tactics increases your Weapon Critical by 275. You can only gain one stack every 0.5 seconds."
       },
       "count": 5
     },
@@ -23578,25 +23933,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you Bash an enemy, you and up to 3 group members within 15 meters of you gain Major Heroism for 12 seconds, granting you 3 Ultimate every 1.5 seconds. This effect can occur once every 18 seconds.",
         "buffs": [
           "Major Heroism"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash an enemy, you and up to 3 group members within 15 meters of you gain <span class=\"buff\">Major Heroism</span> for 12 seconds, granting you 3 Ultimate every 1.5 seconds. This effect can occur once every 18 seconds."
       },
       "count": 5
     },
@@ -23820,25 +24179,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 2550 Maximum Stamina",
         "stats": {
           "maximumStamina": 2550
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">2550 Maximum Stamina</span>"
       },
       "count": 5
     },
@@ -24062,22 +24425,26 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 2631 Health. This effect can occur once every 7 seconds and the heal scales off the higher of your Max Magicka or Stamina."
+        "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 2631 Health. This effect can occur once every 7 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 2631 Health. This effect can occur once every 7 seconds and the heal scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -24301,22 +24668,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
-        "description": "When you complete a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your group members within 5 meters for 5832 Health over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "When you complete a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your group members within 5 meters for 5832 Health over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your group members within 5 meters for 5832 Health over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -24540,22 +24911,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "Dealing direct damage to an enemy places a ghostly curse on your enemy for 6 seconds. Cursed enemies take 617 extra damage from all of your damage abilities. This effect can occur once every 9 seconds."
+        "description": "Dealing direct damage to an enemy places a ghostly curse on your enemy for 6 seconds. Cursed enemies take 617 extra damage from all of your damage abilities. This effect can occur once every 9 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage to an enemy places a ghostly curse on your enemy for 6 seconds.  Cursed enemies take 617 extra damage from all of your damage abilities. This effect can occur once every 9 seconds."
       },
       "count": 5
     },
@@ -24779,22 +25154,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and restore 1058 Magicka. This effect can occur once every 7 seconds."
+        "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and restore 1058 Magicka. This effect can occur once every 7 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and restore 1058 Magicka. This effect can occur once every 7 seconds."
       },
       "count": 5
     },
@@ -25018,19 +25397,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Gain Major Brutality at all times, increasing your Weapon Damage by 20%. When you kill an enemy, you gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%.",
@@ -25039,7 +25421,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Brutality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain <span class=\"buff\">Major Brutality</span> at all times, increasing your <span class=\"stamina\">Weapon Damage by 20%</span>. When you kill an enemy, you gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%."
       },
       "count": 5
     },
@@ -25267,25 +25650,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Adds 129 Weapon Damage, For every bleed effect you have on an enemy, increase your Weapon Damage by 103 against them.",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, For every bleed effect you have on an enemy, increase your <span class=\"stamina\">Weapon Damage by 103</span> against them."
       },
       "count": 5
     },
@@ -25509,25 +25896,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "While you are blocking, your Physical and Spell Resistance are increased by 5310.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are blocking, your Physical and Spell Resistance are increased by 5310."
       },
       "count": 5
     },
@@ -25751,19 +26142,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you take damage, you apply Major Defile to the enemy for 5 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 7 seconds per enemy.",
@@ -25772,7 +26166,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Defile"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you apply <span class=\"buff\">Major Defile</span> to the enemy for 5 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 7 seconds per enemy."
       },
       "count": 5
     },
@@ -25996,13 +26391,15 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1652 Weapon Critical to your ranged direct damage abilities.",
         "stats": {
           "weaponCritical": 1652
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1652 Weapon Critical</span> to your ranged direct damage abilities."
       },
       "count": 3
     },
@@ -26092,10 +26489,12 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "2": {
-        "description": "When you heal yourself or a group member that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health group member in the area for 10219 Health over 10 seconds. This effect can occur once every 20 seconds and the heal scales off the higher of your Max Magicka or Stamina."
+        "description": "When you heal yourself or a group member that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health group member in the area for 10219 Health over 10 seconds. This effect can occur once every 20 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or a group member that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health group member in the area for 10219 Health over 10 seconds. This effect can occur once every 20 seconds and the heal scales off the higher of your Max Magicka or Stamina."
       },
       "count": 2
     },
@@ -26178,22 +26577,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "Increases your Max Health by 1000 for you and up to 11 other group members within 28 meters of you."
+        "description": "Increases your Max Health by 1000 for you and up to 11 other group members within 28 meters of you.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Max Health by 1000 for you and up to 11 other group members within 28 meters of you."
       },
       "count": 5
     },
@@ -26421,22 +26824,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Whenever you deal Flame, Shock, or Frost Damage, you apply a stack of Flame, Shock, or Frost Weakness to the enemy for 3 seconds. Each stack of an Elemental Weakness increases their Critical Damage taken by 5%. An enemy can only have one stack of each Elemental Weakness at a time."
+        "description": "Whenever you deal Flame, Shock, or Frost Damage, you apply a stack of Flame, Shock, or Frost Weakness to the enemy for 3 seconds. Each stack of an Elemental Weakness increases their Critical Damage taken by 5%. An enemy can only have one stack of each Elemental Weakness at a time.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal Flame, Shock, or Frost Damage, you apply a stack of Flame, Shock, or Frost Weakness to the enemy for 3 seconds. Each stack of an Elemental Weakness increases their Critical Damage taken by 5%. An enemy can only have one stack of each Elemental Weakness at a time."
       },
       "count": 5
     },
@@ -26660,25 +27067,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Whenever you deal Flame, Shock, or Frost Damage, you gain 492 Spell Damage for that element for 4 seconds. Each effect can occur every 4 seconds, and multiple effects can be active at once.",
         "stats": {
           "spellDamage": 492
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal Flame, Shock, or Frost Damage, you gain <span class=\"magicka\">492 Spell Damage</span> for that element for 4 seconds. Each effect can occur every 4 seconds, and multiple effects can be active at once."
       },
       "count": 5
     },
@@ -26902,22 +27313,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "While in combat, increases the duration of your Flame Damage over Time abilities by 5 seconds. This effect does not work with beam or channeled effects."
+        "description": "While in combat, increases the duration of your Flame Damage over Time abilities by 5 seconds. This effect does not work with beam or channeled effects.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, increases the duration of your Flame Damage over Time abilities by 5 seconds.\n\nThis effect does not work with beam or channeled effects."
       },
       "count": 5
     },
@@ -27141,26 +27556,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you complete a fully-charged Heavy Attack, you increase your Physical and Spell Resistance by 3300 and deal 0 Flame damage to all enemies within 5 meters of you every 1 second for 6 seconds. The damage scales off the higher of your Physical or Spell Resistance.",
         "stats": {
           "spellResistance": 3300,
           "physicalResistance": 3300
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you increase your <span class=\"health\">Physical and Spell Resistance by 3300</span> and deal <span class=\"flame-damage\">0 Flame damage</span> to all enemies within 5 meters of you every 1 second for 6 seconds.  The damage scales off the higher of your Physical or Spell Resistance."
       },
       "count": 5
     },
@@ -27388,10 +27807,12 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
-        "description": "Dealing Flame Damage to an enemy grants you Behemoth's Aura for 12 seconds that reaches up to 12 meters. You and up to 11 group members in the aura reduce Flame Damage taken by 5%. Enemies in the aura increase their Flame Damage taken by 5%. This effect can occur once every 15 seconds."
+        "description": "Dealing Flame Damage to an enemy grants you Behemoth's Aura for 12 seconds that reaches up to 12 meters. You and up to 11 group members in the aura reduce Flame Damage taken by 5%. Enemies in the aura increase their Flame Damage taken by 5%. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing Flame Damage to an enemy grants you Behemoth's Aura for 12 seconds that reaches up to 12 meters. You and up to 11 group members in the aura reduce Flame Damage taken by 5%. Enemies in the aura increase their Flame Damage taken by 5%. This effect can occur once every 15 seconds."
       },
       "count": 2
     },
@@ -27474,13 +27895,15 @@ const ESO_SETS = [
         "description": "Adds 1928 Maximum Health",
         "stats": {
           "maximumHealth": 1928
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1928 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 618 Health Recovery",
         "stats": {
           "healthRecovery": 618
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">618 Health Recovery</span>"
       },
       "count": 3
     },
@@ -27641,10 +28064,12 @@ const ESO_SETS = [
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "2": {
-        "description": "When you use an ability, you have a 25% chance to summon a Dwemer automation to restore 550 Stamina or Magicka or 1955 Health to you every 0.5 seconds for 6 seconds. This effect can occur once every 10 seconds."
+        "description": "When you use an ability, you have a 25% chance to summon a Dwemer automation to restore 550 Stamina or Magicka or 1955 Health to you every 0.5 seconds for 6 seconds. This effect can occur once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use an ability, you have a 25% chance to summon a Dwemer automation to restore 550 Stamina or Magicka or 1955 Health to you every 0.5 seconds for 6 seconds.  This effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -27727,22 +28152,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Dealing damage with a Light or Heavy Attack draws essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 4356 Health, restores 4356 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds."
+        "description": "Dealing damage with a Light or Heavy Attack draws essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 4356 Health, restores 4356 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Heavy Attack draws essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 4356 Health, restores 4356 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds."
       },
       "count": 5
     },
@@ -27966,25 +28395,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "When you use Roll Dodge, you leave behind a rune that detonates when enemies come close, dealing 1042 Poison damage and immobilizing them for 1.5 seconds. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use Roll Dodge, you leave behind a rune that detonates when enemies come close, dealing <span class=\"poison-damage\">1042 Poison damage</span> and immobilizing them for 1.5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -28334,26 +28767,30 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "5": {
         "description": "Adds 337 Stamina and Magicka Recovery while your Health is above 50%. Adds 1011 Health Recovery while your Health is 50% or less.",
         "stats": {
           "healthRecovery": 1011,
           "magickaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 337 Stamina and Magicka Recovery while your Health is above 50%. Adds <span class=\"health\">1011 Health Recovery</span> while your Health is 50% or less."
       },
       "count": 5
     },
@@ -28577,25 +29014,29 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 4% Healing Taken, When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health.",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">4% Healing Taken</span>, When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health."
       },
       "count": 5
     },
@@ -28824,7 +29265,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them.\n\nRestores 1890 Stamina if the target was below 50% Health.<br>",
     "bonuses": {
       "2": {
-        "description": "Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them. Restores 1890 Stamina if the target was below 50% Health."
+        "description": "Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them. Restores 1890 Stamina if the target was below 50% Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them.\n\nRestores 1890 Stamina if the target was below 50% Health."
       },
       "count": 2
     },
@@ -28889,26 +29331,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When you successfully block, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack, the bomb detonates, dealing 0 Flame Damage to all enemies within 8 meters and applying the Burning status effect to them. This effect can occur once every 8 seconds and scales off the higher of your Physical or Spell Resistance.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you successfully block, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack, the bomb detonates, dealing <span class=\"flame-damage\">0 Flame Damage</span> to all enemies within 8 meters and applying the Burning status effect to them. This effect can occur once every 8 seconds and scales off the higher of your Physical or Spell Resistance."
       },
       "count": 5
     },
@@ -29132,22 +29578,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
+        "description": "When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
       },
       "count": 5
     },
@@ -29371,23 +29821,27 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
-        "description": "When you deal Critical Damage, generate 7 Ultimate. This effect can occur once every 5 seconds."
+        "description": "When you deal Critical Damage, generate 7 Ultimate. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, generate 7 Ultimate. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -29611,22 +30065,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "Reduces the cost of your Restoration Staff abilities by 15%."
+        "description": "Reduces the cost of your Restoration Staff abilities by 15%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Restoration Staff abilities by 15%."
       },
       "count": 5
     },
@@ -29976,25 +30434,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
       },
       "count": 5
     },
@@ -30218,19 +30680,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "Adds 1487 Armor, While in combat, you apply Minor Defile to any enemy that comes within 5 meters of you for 2 seconds, reducing their healing received and Health Recovery by 8%.",
@@ -30240,7 +30705,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Defile"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1487 Armor</span>, While in combat, you apply <span class=\"buff\">Minor Defile</span> to any enemy that comes within 5 meters of you for 2 seconds, reducing their healing received and Health Recovery by 8%."
       },
       "count": 5
     },
@@ -30464,22 +30930,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "Reduces the cost and increases the Movement Speed bonus of Sprint by 15%."
+        "description": "Reduces the cost and increases the Movement Speed bonus of Sprint by 15%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost and increases the Movement Speed bonus of Sprint by 15%."
       },
       "count": 5
     },
@@ -30703,25 +31173,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "5": {
         "description": "When you deal damage, you summon a line of flame that moves forward after 1 second, dealing 1614 Flame Damage to any enemy in its path and applying the Burning status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you summon a line of flame that moves forward after 1 second, dealing <span class=\"flame-damage\">1614 Flame Damage</span> to any enemy in its path and applying the Burning status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -30945,25 +31419,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 400 Weapon Damage to your damaging abilities when you attack an enemy from behind or their sides.",
         "stats": {
           "weaponDamage": 400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">400 Weapon Damage</span> to your damaging abilities when you attack an enemy from behind or their sides."
       },
       "count": 5
     },
@@ -31187,22 +31665,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Activating Block while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores 5680 Magicka and Stamina. This effect can occur once every 30 seconds if a damage shield broke.This effect can occur once every 10 seconds if no damage shields broke."
+        "description": "Activating Block while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores 5680 Magicka and Stamina. This effect can occur once every 30 seconds if a damage shield broke.This effect can occur once every 10 seconds if no damage shields broke.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Activating Block while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores <span class=\"magicka\">5680 Magicka</span> and <span class=\"stamina\">Stamina</span>.\n\nThis effect can occur once every 30 seconds if a damage shield broke.This effect can occur once every 10 seconds if no damage shields broke."
       },
       "count": 5
     },
@@ -31426,22 +31908,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "Increases the amount of damage you block by 8%."
+        "description": "Increases the amount of damage you block by 8%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the amount of damage you block by 8%."
       },
       "count": 5
     },
@@ -31662,7 +32148,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds.  While the tether persists and you remain in range, you and allies in the tether restore <span class=\"magicka\">175 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.  This effect can occur once every 10 seconds.<br>",
     "bonuses": {
       "2": {
-        "description": "Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds. While the tether persists and you remain in range, you and allies in the tether restore 175 Magicka and Stamina every 1 second. This effect can occur once every 10 seconds."
+        "description": "Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds. While the tether persists and you remain in range, you and allies in the tether restore 175 Magicka and Stamina every 1 second. This effect can occur once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds.  While the tether persists and you remain in range, you and allies in the tether restore <span class=\"magicka\">175 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.  This effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -31700,25 +32187,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Adds 3460 Armor",
         "stats": {
           "armor": 3460
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">3460 Armor</span>"
       },
       "count": 5
     },
@@ -32069,7 +32560,8 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While Momentum is active, casting Stamina abilities while in combat generates a stack of Frenzied Momentum for 20 seconds, increasing your <span class=\"stamina\">Weapon Damage by 38</span> up to 5 times.  Upon reaching max stacks, your next Heavy Attack consumes all stacks and releases a violent explosion of energy around you, dealing <span class=\"physical-damage\">1495 Physical Damage</span> to all enemies within 8 meters, scaling off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -32125,25 +32617,29 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Increases your damage done with Frost abilities by 8%. Increases your damage done against Chilled enemies by 4%. Increases your damage done against enemies afflicted with Minor Brittle by 2%.",
         "buffs": [
           "Minor Brittle"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done with Frost abilities by 8%. Increases your damage done against Chilled enemies by 4%. Increases your damage done against enemies afflicted with <span class=\"buff\">Minor Brittle</span> by 2%."
       },
       "count": 5
     },
@@ -32367,22 +32863,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Summon a blizzard around you while blocking, inflicting 496 Frost Damage every 1 second to enemies within 6 meters. This effect scales off your Max Health. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged."
+        "description": "Summon a blizzard around you while blocking, inflicting 496 Frost Damage every 1 second to enemies within 6 meters. This effect scales off your Max Health. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Summon a blizzard around you while blocking, inflicting <span class=\"frost-damage\">496 Frost Damage</span> every 1 second to enemies within 6 meters. This effect scales off your Max Health. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged."
       },
       "count": 5
     },
@@ -32606,25 +33106,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a Light or Heavy Attack, you put a Mark of Revenge on the enemy for 15 seconds. After stacking 5 Marks of Revenge on an enemy they detonate for 1464 Magic Damage. You can only apply a stack once every second and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack, you put a Mark of Revenge on the enemy for 15 seconds. After stacking 5 Marks of Revenge on an enemy they detonate for <span class=\"magic-damage\">1464 Magic Damage</span>.\n\nYou can only apply a stack once every second and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -32845,7 +33349,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%.<br>",
     "bonuses": {
       "2": {
-        "description": "Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
+        "description": "Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
       },
       "count": 2
     },
@@ -32920,7 +33425,8 @@ const ESO_SETS = [
           "armor": 4000,
           "maximumHealth": 3276,
           "healthRecovery": 1025
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">3276 Maximum Health</span>, Adds <span class=\"health\">1025 Health Recovery</span>, Adds <span class=\"health\">4000 Armor</span>, Reduces your Block Mitigation to 0."
       },
       "count": 1
     },
@@ -32952,10 +33458,12 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "2": {
-        "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
+        "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
       },
       "count": 2
     },
@@ -33005,14 +33513,16 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "2": {
         "description": "While in combat, each second you stand still grants you a stack of Flesh Fortress, up to 10 stacks. Each stack increases your Armor by 380 and your Critical Resistance by 38. Each second you move removes a stack of Flesh Fortress. Exiting combat removes all stacks of Flesh Fortress. Using charge and teleport abilities do not remove stacks of Flesh Fortress.",
         "stats": {
           "armor": null,
           "criticalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While in combat, each second you stand still grants you a stack of Flesh Fortress, up to 10 stacks. Each stack increases your Armor by 380 and your Critical Resistance by 38. Each second you move removes a stack of Flesh Fortress. Exiting combat removes all stacks of Flesh Fortress.\n\nUsing charge and teleport abilities do not remove stacks of Flesh Fortress."
       },
       "count": 2
     },
@@ -33095,22 +33605,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "When you Bash an enemy, you gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you. This effect can occur once every 13 seconds."
+        "description": "When you Bash an enemy, you gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you. This effect can occur once every 13 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash an enemy, you gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you.  This effect can occur once every 13 seconds."
       },
       "count": 5
     },
@@ -33334,25 +33848,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "When you heal yourself or an ally, you grant them Major Evasion for 1 second, reducing damage from area attacks by 20%.",
         "buffs": [
           "Major Evasion"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally, you grant them <span class=\"buff\">Major Evasion</span> for 1 second, reducing damage from area attacks by 20%."
       },
       "count": 5
     },
@@ -33576,25 +34094,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you take damage, you become a living shadow for 10 seconds, causing you to heal for 927 every 2 seconds and gaining Major Evasion, reducing damage from area attacks by 20%. This effect can occur every 20 seconds and scales off your Max Health.",
         "buffs": [
           "Major Evasion"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you become a living shadow for 10 seconds, causing you to heal for 927 every 2 seconds and gaining <span class=\"buff\">Major Evasion</span>, reducing damage from area attacks by 20%. This effect can occur every 20 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -33818,13 +34340,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 2406 Maximum Magicka",
         "stats": {
           "maximumMagicka": 2406
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">2406 Maximum Magicka</span>"
       },
       "count": 3
     },
@@ -33982,7 +34506,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring <span class=\"magicka\">117 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.<br>",
     "bonuses": {
       "2": {
-        "description": "The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring 117 Magicka and Stamina every 1 second."
+        "description": "The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring 117 Magicka and Stamina every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring <span class=\"magicka\">117 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second."
       },
       "count": 2
     },
@@ -34020,26 +34545,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Summon a stone aura while blocking, hardening you and your nearby group members, increasing your Physical and Spell Resistance by 4430.",
         "stats": {
           "spellResistance": 4430,
           "physicalResistance": 4430
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Summon a stone aura while blocking, hardening you and your nearby group members, increasing your <span class=\"health\">Physical and Spell Resistance by 4430</span>."
       },
       "count": 5
     },
@@ -34263,22 +34792,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When an enemy you recently damaged dies, they drop a grave-stake for 6 seconds. When you touch the grave-stake, you restore 4564 Stamina and Magicka. Only one grave-stake can appear at a time."
+        "description": "When an enemy you recently damaged dies, they drop a grave-stake for 6 seconds. When you touch the grave-stake, you restore 4564 Stamina and Magicka. Only one grave-stake can appear at a time.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you recently damaged dies, they drop a grave-stake for 6 seconds. When you touch the grave-stake, you restore 4564 Stamina and Magicka. Only one grave-stake can appear at a time."
       },
       "count": 5
     },
@@ -34628,25 +35161,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "While you have a food buff active, your Max Health is increased by 2500 and Health Recovery by 356.",
         "stats": {
           "healthRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a food buff active, your Max Health is increased by 2500 and Health Recovery by 356."
       },
       "count": 5
     },
@@ -34892,26 +35429,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "Adds 526 Maximum Stamina, Dealing Light Attack damage grants you a stack of Baker's Delight for 5 seconds. When you gain 3 stacks, you create a Sweetroll next to your target for 5 seconds. If you or an ally touches the Sweetroll, both you and your ally gain one of the following effects:",
         "stats": {
           "maximumStamina": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">526 Maximum Stamina</span>, Dealing Light Attack damage grants you a stack of Baker's Delight for 5 seconds. When you gain 3 stacks, you create a Sweetroll next to your target for 5 seconds. If you or an ally touches the Sweetroll, both you and your ally gain one of the following effects:\n-Restore 1593 Health, Magicka and Stamina\n-Gain <span class=\"buff\">Empower</span> for 10 seconds\n-Gain <span class=\"buff\">Major Force</span> for 10 seconds\n\nThis effect can occur once every 2 seconds."
       },
       "count": 5
     },
@@ -35135,13 +35676,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
         "description": "When you deal damage to an enemy within 8 meters, you have a 10% chance to create lava pools that swirl around you, dealing 272 Flame damage to all enemies within 8 meters of you every 1 second for 5 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage to an enemy within 8 meters, you have a 10% chance to create lava pools that swirl around you, dealing <span class=\"flame-damage\">272 Flame damage</span> to all enemies within 8 meters of you every 1 second for 5 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -35224,10 +35767,12 @@ const ESO_SETS = [
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds 657 Critical Chance"
       },
       "2": {
-        "description": "Whenever you deal critical damage, restore 700 Magicka or Stamina, whichever maximum is higher. You also gain 350 of the other resource. This effect can occur once every 5 seconds."
+        "description": "Whenever you deal critical damage, restore 700 Magicka or Stamina, whichever maximum is higher. You also gain 350 of the other resource. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Whenever you deal critical damage, restore <span class=\"magicka\">700 Magicka</span> or <span class=\"stamina\">Stamina</span>, whichever maximum is higher. You also gain 350 of the other resource. This effect can occur once every 5 seconds."
       },
       "count": 2
     },
@@ -35310,25 +35855,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "After dealing direct damage, you gain Minor Force and Minor Expedition for 10 seconds, increasing your Critical Damage done by 10% and increasing your Movement Speed by 15%.",
         "buffs": [
           "Minor Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After dealing direct damage, you gain <span class=\"buff\">Minor Force</span> and <span class=\"buff\">Minor Expedition</span> for 10 seconds, increasing your Critical Damage done by 10% and increasing your Movement Speed by 15%."
       },
       "count": 5
     },
@@ -35552,25 +36101,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you take damage while under 50% Health, you summon a preservation of nature around you in a 8 meter radius for 8 seconds which grants Major Protection to you and up to 5 group members while in the area, reducing your damage taken by 10%. This effect can occur once every 30 seconds.",
         "buffs": [
           "Major Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 50% Health, you summon a preservation of nature around you in a 8 meter radius for 8 seconds which grants <span class=\"buff\">Major Protection</span> to you and up to 5 group members while in the area, reducing your damage taken by 10%. This effect can occur once every 30 seconds."
       },
       "count": 5
     },
@@ -35794,19 +36347,22 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you take damage, you encase the ground beneath you in webs for 5 seconds, reducing the Movement Speed of enemies within a 4 meter radius by 33% and applying Minor Breach to them, reducing their Physical and Spell Resistance by 2974. After 5 seconds the webs burst into venom, dealing 0 Poison Damage. This effect can occur once every 5 seconds and scales off the higher of your Physical or Spell Resistance.",
@@ -35816,7 +36372,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Breach"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you encase the ground beneath you in webs for 5 seconds, reducing the Movement Speed of enemies within a 4 meter radius by 33% and applying <span class=\"buff\">Minor Breach</span> to them, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>. After 5 seconds the webs burst into venom, dealing <span class=\"poison-damage\">0 Poison Damage</span>. This effect can occur once every 5 seconds and scales off the higher of your Physical or Spell Resistance."
       },
       "count": 5
     },
@@ -36040,19 +36597,22 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "Adds 1963 Maximum Magicka, When you resurrect another player while in combat, both you and the player gain Major Heroism for 15 seconds, granting you 3 Ultimate every 1.5 seconds.",
@@ -36061,7 +36621,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Heroism"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1963 Maximum Magicka</span>, When you resurrect another player while in combat, both you and the player gain <span class=\"buff\">Major Heroism</span> for 15 seconds, granting you 3 Ultimate every 1.5 seconds."
       },
       "count": 5
     },
@@ -36285,7 +36846,8 @@ const ESO_SETS = [
         "description": "Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. Taking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus.",
         "stats": {
           "criticalChance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus."
       },
       "count": 1
     },
@@ -36314,7 +36876,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester.\n\nHarvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events.<br>",
     "bonuses": {
       "1": {
-        "description": "Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester. Harvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events."
+        "description": "Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester. Harvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester.\n\nHarvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events."
       },
       "count": 1
     },
@@ -36345,22 +36908,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Gain a damage shield equal to 20% of your Max Health for 15 seconds every 15 seconds."
+        "description": "Gain a damage shield equal to 20% of your Max Health for 15 seconds every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain a damage shield equal to 20% of your Max Health for 15 seconds every 15 seconds."
       },
       "count": 5
     },
@@ -36584,22 +37151,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or a group member can activate a synergy on Ursus to grant a shield that protects up to 6 group members within a 28 meter radius from 13967 damage for 6 seconds. This effect can occur once every 10 seconds."
+        "description": "When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or a group member can activate a synergy on Ursus to grant a shield that protects up to 6 group members within a 28 meter radius from 13967 damage for 6 seconds. This effect can occur once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or a group member can activate a synergy on Ursus to grant a shield that protects up to 6 group members within a 28 meter radius from 13967 damage for 6 seconds. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -36823,22 +37394,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Reduces the cost and increases the damage of your Bow abilities by 6%."
+        "description": "Reduces the cost and increases the damage of your Bow abilities by 6%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost and increases the damage of your Bow abilities by 6%."
       },
       "count": 5
     },
@@ -36955,19 +37530,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 5% Healing Done, Gain Minor Mending at all times, increasing your healing done by 8%.",
@@ -36976,7 +37554,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Mending"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">5% Healing Done</span>, Gain <span class=\"buff\">Minor Mending</span> at all times, increasing your healing done by 8%."
       },
       "count": 5
     },
@@ -37200,19 +37779,22 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "When you use an area of effect heal ability, you apply Minor Cowardice to enemies within 10 meters of you, reducing their Weapon and Spell Damage by 215 for 5 seconds. This effect can occur once every 3 seconds.",
@@ -37222,7 +37804,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Cowardice"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an area of effect heal ability, you apply <span class=\"buff\">Minor Cowardice</span> to enemies within 10 meters of you, reducing their Weapon and <span class=\"magicka\">Spell Damage by 215</span> for 5 seconds.  This effect can occur once every 3 seconds."
       },
       "count": 5
     },
@@ -37447,22 +38030,26 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Increase the effectiveness of your Weapon Traits by 100%. This does not affect Ornate or Intricate traits."
+        "description": "Increase the effectiveness of your Weapon Traits by 100%. This does not affect Ornate or Intricate traits.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase the effectiveness of your Weapon Traits by 100%. This does not affect Ornate or Intricate traits."
       },
       "count": 5
     },
@@ -37812,19 +38399,22 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 129 Weapon Damage, When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain Major Berserk for 10 seconds, increasing your damage done by 10%.",
@@ -37833,7 +38423,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Berserk"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain <span class=\"buff\">Major Berserk</span> for 10 seconds, increasing your damage done by 10%."
       },
       "count": 5
     },
@@ -38057,25 +38648,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 171 Spell Damage, Whenever you Bash an enemy, you release a cone of hexing energy in front of you. Each enemy hit increases your Spell Damage by 88 for 8 seconds, up to a maximum of 6 enemies. This effect can occur once every 8 seconds. Whenever you successfully interrupt a target, you restore 1000 Magicka.",
         "stats": {
           "spellDamage": 171
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Whenever you Bash an enemy, you release a cone of hexing energy in front of you.  Each enemy hit increases your <span class=\"magicka\">Spell Damage by 88</span> for 8 seconds, up to a maximum of 6 enemies.  This effect can occur once every 8 seconds. \n\nWhenever you successfully interrupt a target, you restore 1000 Magicka."
       },
       "count": 5
     },
@@ -38299,23 +38894,27 @@ const ESO_SETS = [
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds 657 Critical Chance"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
-        "description": "Dealing direct Critical Damage grants you a damage shield that absorbs up to 12265 damage for 6 seconds. This effect can occur once every 6 seconds."
+        "description": "Dealing direct Critical Damage grants you a damage shield that absorbs up to 12265 damage for 6 seconds. This effect can occur once every 6 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct Critical Damage grants you a damage shield that absorbs up to 12265 damage for 6 seconds. This effect can occur once every 6 seconds."
       },
       "count": 5
     },
@@ -38539,26 +39138,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 129 Stamina Recovery, When you Roll Dodge through an enemy, you deal 0 Physical Damage and knock them down for 3 seconds. This effect scales off the higher of your Physical or Spell Resistance.",
         "stats": {
           "staminaRecovery": 129,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you Roll Dodge through an enemy, you deal <span class=\"physical-damage\">0 Physical Damage</span> and knock them down for 3 seconds.  This effect scales off the higher of your Physical or Spell Resistance."
       },
       "count": 5
     },
@@ -38782,22 +39385,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "When you take damage, you generate 6 Ultimate. This effect can occur once every 5 seconds."
+        "description": "When you take damage, you generate 6 Ultimate. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you generate 6 Ultimate. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -39021,25 +39628,29 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Grants 145 Stamina Recovery to you and up to 11 other group members within 28 meters of you.",
         "stats": {
           "staminaRecovery": 145
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Grants <span class=\"stamina\">145 Stamina Recovery</span> to you and up to 11 other group members within 28 meters of you."
       },
       "count": 5
     },
@@ -39263,25 +39874,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "While you are blocking you gain Major Evasion, reducing damage from area attacks by 20%.",
         "buffs": [
           "Major Evasion"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are blocking you gain <span class=\"buff\">Major Evasion</span>, reducing damage from area attacks by 20%."
       },
       "count": 5
     },
@@ -39639,22 +40254,26 @@ const ESO_SETS = [
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "Dealing damage with a Light or Medium Attack heals you for 318 Health and restores 318 Stamina and Magicka. Dealing damage with a fully-charged Heavy Attack heals you for 636 Health and restores 636 Stamina and Magicka."
+        "description": "Dealing damage with a Light or Medium Attack heals you for 318 Health and restores 318 Stamina and Magicka. Dealing damage with a fully-charged Heavy Attack heals you for 636 Health and restores 636 Stamina and Magicka.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Medium Attack heals you for 318 Health and restores 318 Stamina and Magicka. Dealing damage with a fully-charged Heavy Attack heals you for 636 Health and restores 636 Stamina and Magicka."
       },
       "count": 5
     },
@@ -40004,22 +40623,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you heal yourself or an ally with an ability, gain a Warming Aura for 10 seconds. While in the Warming Aura, you and group members restore 593 Health every 2 seconds and reduce the cost of Sprint, Block, and Roll Dodge by 5%. This effect can occur once every 12 seconds and the heal scales off the higher of your Max Magicka or Stamina."
+        "description": "When you heal yourself or an ally with an ability, gain a Warming Aura for 10 seconds. While in the Warming Aura, you and group members restore 593 Health every 2 seconds and reduce the cost of Sprint, Block, and Roll Dodge by 5%. This effect can occur once every 12 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with an ability, gain a Warming Aura for 10 seconds. While in the Warming Aura, you and group members restore 593 Health every 2 seconds and reduce the cost of Sprint, Block, and Roll Dodge by 5%. This effect can occur once every 12 seconds and the heal scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -40243,25 +40866,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Whenever you critically heal or critically damage a target, spawn a ball of Hemoglobin at their location. After 2 seconds the ball explodes, restoring 1750 Magicka and applying Minor Vitality to you and your group members within 6 meters of the ball for 9 seconds, increasing their healing received by 8%. This effect can occur once every 9 seconds.",
         "buffs": [
           "Minor Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you critically heal or critically damage a target, spawn a ball of Hemoglobin at their location. After 2 seconds the ball explodes, restoring 1750 Magicka and applying <span class=\"buff\">Minor Vitality</span> to you and your group members within 6 meters of the ball for 9 seconds, increasing their healing received by 8%. This effect can occur once every 9 seconds."
       },
       "count": 5
     },
@@ -40485,25 +41112,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "Stunning or Immobilizing your enemy causes them to burst with frost magic, applying the Chilled status effect and dealing 13% of their total Physical and Spell Resistance as Frost Damage to themselves and enemies within 8 meters of them. This effect can occur once every 7 seconds.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Stunning or Immobilizing your enemy causes them to burst with frost magic, applying the Chilled status effect and dealing 13% of their total Physical and Spell Resistance as Frost Damage to themselves and enemies within 8 meters of them. This effect can occur once every 7 seconds."
       },
       "count": 5
     },
@@ -40721,25 +41352,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 300 Weapon Damage",
         "stats": {
           "weaponDamage": 300
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">300 Weapon Damage</span>"
       },
       "count": 5
     },
@@ -41097,22 +41732,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds."
+        "description": "When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -41336,13 +41975,15 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "2": {
         "description": "When you deal Critical Damage, you have a 20% chance to gain a damage shield that absorbs 5000 damage for 6 seconds. While the damage shield holds, you deal 272 Frost damage to all enemies within 5 meters of you every 1 second. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Critical Damage, you have a 20% chance to gain a damage shield that absorbs 5000 damage for 6 seconds. While the damage shield holds, you deal <span class=\"frost-damage\">272 Frost damage</span> to all enemies within 5 meters of you every 1 second. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -41425,25 +42066,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "5": {
         "description": "Applying a minor debuff to your enemy summons a non-reflectable Ice Wraith that will charge into your enemy, dealing 3225 Frost Damage over 10 seconds. This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Applying a minor debuff to your enemy summons a non-reflectable Ice Wraith that will charge into your enemy, dealing <span class=\"frost-damage\">3225 Frost Damage</span> over 10 seconds.  This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -41667,13 +42312,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
         "description": "When you deal Flame or Shock Damage, you have a 33% chance to summon a meteor shower that deals 153 Flame damage and 153 Shock damage to all enemies within 4 meters every 1 second for 5 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Flame or Shock Damage, you have a 33% chance to summon a meteor shower that deals <span class=\"flame-damage\">153 Flame damage</span> and <span class=\"shock-damage\">153 Shock damage</span> to all enemies within 4 meters every 1 second for 5 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -41756,13 +42403,15 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "2": {
         "description": "Adds 1206 Maximum Health, When you take damage while below 50% Health, gain immunity to immobilization, snares, and crowd control effects for 10 seconds. This effect can occur once every 40 seconds.",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you take damage while below 50% Health, gain immunity to immobilization, snares, and crowd control effects for 10 seconds. This effect can occur once every 40 seconds."
       },
       "count": 2
     },
@@ -41845,25 +42494,29 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you take damage while below 35% Health you gain Major Protection for 20 seconds, reducing your damage taken by 10%. This effect can occur once every 20 seconds.",
         "buffs": [
           "Major Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while below 35% Health you gain <span class=\"buff\">Major Protection</span> for 20 seconds, reducing your damage taken by 10%. This effect can occur once every 20 seconds."
       },
       "count": 5
     },
@@ -42087,23 +42740,27 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
-        "description": "While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%."
+        "description": "While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%."
       },
       "count": 5
     },
@@ -42453,25 +43110,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 1650 Critical Resistance",
         "stats": {
           "criticalResistance": 1650
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 1650 Critical Resistance"
       },
       "count": 5
     },
@@ -42821,25 +43482,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "After Breaking Free, you gain Minor Protection and Minor Heroism for 7 seconds, reducing your damage taken by 5% and generating 1 Ultimate every 1.5 seconds.",
         "buffs": [
           "Minor Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After Breaking Free, you gain <span class=\"buff\">Minor Protection</span> and <span class=\"buff\">Minor Heroism</span> for 7 seconds, reducing your damage taken by 5% and generating 1 Ultimate every 1.5 seconds."
       },
       "count": 5
     },
@@ -43063,19 +43728,22 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 657 Spell Critical, Your Heavy Attacks deal an additional 900 damage. Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 5%.",
@@ -43084,7 +43752,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Vulnerability"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>, Your Heavy Attacks deal an additional 900 damage. Enemies you damage with fully-charged Heavy Attacks are afflicted with <span class=\"buff\">Minor Vulnerability</span> for 10 seconds, increasing their damage taken by 5%."
       },
       "count": 5
     },
@@ -43316,13 +43985,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
         "description": "When you apply a damage shield to yourself or an ally, you have a 50% chance to lob 3 mortars over 2 seconds at the furthest enemy from you that each deal 673 Flame damage to all enemies within 5 meters of the blast area. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you apply a damage shield to yourself or an ally, you have a 50% chance to lob 3 mortars over 2 seconds at the furthest enemy from you that each deal <span class=\"flame-damage\">673 Flame damage</span> to all enemies within 5 meters of the blast area. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -43406,26 +44077,30 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka, Adds 1096 Maximum Stamina",
         "stats": {
           "maximumMagicka": 1096,
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
         "description": "Adds 400 Spell and Weapon Damage to your Class abilities.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 400 Spell and Weapon Damage to your Class abilities."
       },
       "count": 5
     },
@@ -43775,25 +44450,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Aegis for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%.",
         "buffs": [
           "Major Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Aegis</span> for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%."
       },
       "count": 5
     },
@@ -44017,25 +44696,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you drink a potion while in combat, gain 7779 Armor for 20 seconds.",
         "stats": {
           "armor": 7779
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion while in combat, gain <span class=\"health\">7779 Armor</span> for 20 seconds."
       },
       "count": 5
     },
@@ -44385,22 +45068,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "When you take damage, you have a 10% chance to turn your blood into pure iron for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds."
+        "description": "When you take damage, you have a 10% chance to turn your blood into pure iron for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you have a 10% chance to turn your blood into pure iron for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds."
       },
       "count": 5
     },
@@ -44624,19 +45311,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Adds 142 Stamina Recovery, Gain Minor Expedition at all times, increasing your Movement Speed by 15%.",
@@ -44645,7 +45335,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">142 Stamina Recovery</span>, Gain <span class=\"buff\">Minor Expedition</span> at all times, increasing your Movement Speed by 15%."
       },
       "count": 5
     },
@@ -44873,25 +45564,29 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you lose 7000 or more Health from a single attack, you gain Major Vitality for 8 seconds, increasing your healing received by 16%.",
         "buffs": [
           "Major Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you lose 7000 or more Health from a single attack, you gain <span class=\"buff\">Major Vitality</span> for 8 seconds, increasing your healing received by 16%."
       },
       "count": 5
     },
@@ -45115,26 +45810,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you block an attack you charge your arms, increasing your Physical and Spell Resistance by 4620 for 6 seconds and causing your next Bash attack to deal an additional 3513 damage. This effect can occur once every 6 seconds.",
         "stats": {
           "spellResistance": 4620,
           "physicalResistance": 4620
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack you charge your arms, increasing your <span class=\"health\">Physical and Spell Resistance by 4620</span> for 6 seconds and causing your next Bash attack to deal an additional 3513 damage.\n\nThis effect can occur once every 6 seconds."
       },
       "count": 5
     },
@@ -45358,26 +46057,30 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "While in combat, increases the duration of all Major buffs, Minor buffs, and damage shields you apply to yourself and allies by 40%.",
         "buffs": [
           "Minor buffs",
           "Major buffs"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, increases the duration of all Major buffs, Minor buffs, and damage shields you apply to yourself and allies by 40%."
       },
       "count": 5
     },
@@ -45601,25 +46304,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 222 Spell Damage, Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 1720 Magicka.",
         "stats": {
           "spellDamage": 222
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">222 Spell Damage</span>, Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 1720 Magicka."
       },
       "count": 5
     },
@@ -45970,24 +46677,28 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
-        "description": "Adds 657 Critical"
+        "description": "Adds 657 Critical",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds 657 Critical"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Dealing damage with a Light or Heavy Attack grants you a stack of Burning Heart for 5 seconds, up to 5 stacks. While you have 5 stacks, you generate an aura of wrath, granting you Major Berserk, increasing your damage done by 10%. While you have an aura of wrath, allies within 12 meters of you gain Minor Berserk, increasing their damage done by 5%.",
         "buffs": [
           "Minor Berserk",
           "Major Berserk"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Heavy Attack grants you a stack of Burning Heart for 5 seconds, up to 5 stacks. While you have 5 stacks, you generate an aura of wrath, granting you <span class=\"buff\">Major Berserk</span>, increasing your damage done by 10%. While you have an aura of wrath, allies within 12 meters of you gain <span class=\"buff\">Minor Berserk</span>, increasing their damage done by 5%."
       },
       "count": 5
     },
@@ -46211,13 +46922,15 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "2": {
         "description": "Damaging an enemy with a Light Attack puts a Bone stack on them for 5 seconds, up to once every 0.5 seconds. At 5 stacks, an undodgeable skeletal hand attacks your enemy after 1 second, knocking them into the air and stunning them for 3 seconds, or dealing 2333 Magic damage if they cannot be stunned. Enemies then become immune to Kjalnar's Nightmare stacks for 4 seconds. The damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Damaging an enemy with a Light Attack puts a Bone stack on them for 5 seconds, up to once every 0.5 seconds. \n\nAt 5 stacks, an undodgeable skeletal hand attacks your enemy after 1 second, knocking them into the air and stunning them for 3 seconds, or dealing <span class=\"magic-damage\">2333 Magic damage</span> if they cannot be stunned. Enemies then become immune to Kjalnar's Nightmare stacks for 4 seconds. The damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -46300,22 +47013,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Your fully-charged Heavy Attacks deal an additional 8% of an enemy's Max Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage."
+        "description": "Your fully-charged Heavy Attacks deal an additional 8% of an enemy's Max Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your fully-charged Heavy Attacks deal an additional 8% of an enemy's Max Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage."
       },
       "count": 5
     },
@@ -46539,25 +47256,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 450 Weapon Damage to your One Hand and Shield abilities. When you use a One Hand and Shield ability, you heal for 1537 Health.",
         "stats": {
           "weaponDamage": 450
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">450 Weapon Damage</span> to your One Hand and Shield abilities. When you use a One Hand and Shield ability, you heal for 1537 Health."
       },
       "count": 5
     },
@@ -46781,19 +47502,22 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Adds 1206 Maximum Health, When you deal Martial melee damage, you apply Minor Maim to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 5%. This effect can occur once every 3 seconds.",
@@ -46802,7 +47526,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you deal Martial melee damage, you apply <span class=\"buff\">Minor Maim</span> to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 5%.  This effect can occur once every 3 seconds."
       },
       "count": 5
     },
@@ -46985,13 +47710,15 @@ const ESO_SETS = [
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "2": {
         "description": "When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing 261 Physical damage every 0.6 seconds for 2.4 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing <span class=\"physical-damage\">261 Physical damage</span> every 0.6 seconds for 2.4 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -47074,22 +47801,26 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "After an enemy you've recently damaged dies, you let out a howl, granting three allies within 15 meters the Heed the Call synergy. Activating the synergy gives you and the activator 12 Ultimate. This effect can occur once every 20 seconds."
+        "description": "After an enemy you've recently damaged dies, you let out a howl, granting three allies within 15 meters the Heed the Call synergy. Activating the synergy gives you and the activator 12 Ultimate. This effect can occur once every 20 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After an enemy you've recently damaged dies, you let out a howl, granting three allies within 15 meters the Heed the Call synergy. Activating the synergy gives you and the activator 12 Ultimate. This effect can occur once every 20 seconds."
       },
       "count": 5
     },
@@ -47313,25 +48044,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "You gain 1475 Weapon Damage against targets who are at or below 25% Health.",
         "stats": {
           "weaponDamage": 1475
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You gain <span class=\"stamina\">1475 Weapon Damage</span> against targets who are at or below 25% Health."
       },
       "count": 5
     },
@@ -47681,22 +48416,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "When you deal direct damage while 12 meters or further from your target, you heal for 1314 Health and restore 1314 Stamina. This effect can occur once every 5 seconds."
+        "description": "When you deal direct damage while 12 meters or further from your target, you heal for 1314 Health and restore 1314 Stamina. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage while 12 meters or further from your target, you heal for 1314 Health and restore 1314 Stamina.  This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -47849,25 +48588,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds.",
         "buffs": [
           "Major Buff"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -48091,25 +48834,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you deal direct damage, you apply one of 5 random Major Debuffs to enemies within 8 meters of you for 18 seconds. This effect can occur once every 8 seconds and only if an enemy is in range. Eligible debuffs are Major Breach, Major Cowardice, Major Defile, Major Maim, and Major Vulnerability.",
         "buffs": [
           "Major Debuffs"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you apply one of 5 random Major Debuffs to enemies within 8 meters of you for 18 seconds. This effect can occur once every 8 seconds and only if an enemy is in range.\n\nEligible debuffs are <span class=\"buff\">Major Breach</span>, <span class=\"buff\">Major Cowardice</span>, <span class=\"buff\">Major Defile</span>, <span class=\"buff\">Major Maim</span>, and <span class=\"buff\">Major Vulnerability</span>."
       },
       "count": 5
     },
@@ -48333,13 +49080,15 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "2": {
         "description": "Casting an ability that costs Health spawns a blood ball for 10 seconds. This effect can occur once every 10 seconds. You or an ally near the blood ball can activate the Sanguine Burst synergy, dealing 2879 Disease damage to nearby enemies and applying Major Maim for 8 seconds, decreasing their damage done by 10%. Enemies can only receive Major Maim from Sanguine Burst once every 20 seconds. The damage scales off the synergy activator's Max Health.",
         "buffs": [
           "Major Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting an ability that costs Health spawns a blood ball for 10 seconds. This effect can occur once every 10 seconds. \n\nYou or an ally near the blood ball can activate the Sanguine Burst synergy, dealing <span class=\"disease-damage\">2879 Disease damage</span> to nearby enemies and applying <span class=\"buff\">Major Maim</span> for 8 seconds, decreasing their damage done by 10%. Enemies can only receive <span class=\"buff\">Major Maim</span> from Sanguine Burst once every 20 seconds. The damage scales off the synergy activator's Max Health."
       },
       "count": 2
     },
@@ -48422,22 +49171,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you use an Ultimate ability, you and your group members within 20 meters of you heal for 25 Health and restore 25 Magicka and Stamina per point of the Ultimate's cost."
+        "description": "When you use an Ultimate ability, you and your group members within 20 meters of you heal for 25 Health and restore 25 Magicka and Stamina per point of the Ultimate's cost.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability, you and your group members within 20 meters of you heal for 25 Health and restore <span class=\"magicka\">25 Magicka</span> and <span class=\"stamina\">Stamina</span> per point of the Ultimate's cost."
       },
       "count": 5
     },
@@ -48661,25 +49414,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 300 Spell Damage",
         "stats": {
           "spellDamage": 300
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">300 Spell Damage</span>"
       },
       "count": 5
     },
@@ -49029,22 +49786,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you take damage, you summon a cloud of leeching poison under the assailant. The cloud deals 427 Poison damage every 1 second for 5 seconds and heals you for 100% of the damage caused. This effect can occur once every 5 seconds and scales off your Max Health."
+        "description": "When you take damage, you summon a cloud of leeching poison under the assailant. The cloud deals 427 Poison damage every 1 second for 5 seconds and heals you for 100% of the damage caused. This effect can occur once every 5 seconds and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you summon a cloud of leeching poison under the assailant. The cloud deals <span class=\"poison-damage\">427 Poison damage</span> every 1 second for 5 seconds and heals you for 100% of the damage caused. This effect can occur once every 5 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -49268,26 +50029,30 @@ const ESO_SETS = [
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds 657 Critical Chance"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "Enemies affected by your alchemic poisons take 300 Disease Damage every 1 second. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Enemies affected by your alchemic poisons take <span class=\"disease-damage\">300 Disease Damage</span> every 1 second. This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -49637,25 +50402,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Reduces your damage done with area of effect attacks by 5%, but grants Major Evasion at all times; reducing your damage taken from area of effect attacks by 20%.",
         "buffs": [
           "Major Evasion"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces your damage done with area of effect attacks by 5%, but grants <span class=\"buff\">Major Evasion</span> at all times; reducing your damage taken from area of effect attacks by 20%."
       },
       "count": 5
     },
@@ -49879,25 +50648,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 1528 Weapon Critical",
         "stats": {
           "weaponCritical": 1528
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">1528 Weapon Critical</span>"
       },
       "count": 5
     },
@@ -50125,22 +50898,26 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka ability will cost no Magicka."
+        "description": "While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka ability will cost no Magicka.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka ability will cost no Magicka."
       },
       "count": 5
     },
@@ -50364,25 +51141,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 600 Spell Damage to your Restoration Staff abilities.",
         "stats": {
           "spellDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Restoration Staff abilities."
       },
       "count": 5
     },
@@ -50503,22 +51284,26 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "When you take damage, you overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 6 seconds."
+        "description": "When you take damage, you overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 6 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 6 seconds."
       },
       "count": 5
     },
@@ -50742,13 +51527,15 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "2": {
         "description": "When you take damage, you have a 50% chance to summon a shadow orb for 10 seconds that increases the Physical and Spell Resistance of you and your group members within 8 meters by 3180. This effect can occur once every 10 seconds.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 50% chance to summon a shadow orb for 10 seconds that increases the Physical and Spell Resistance of you and your group members within 8 meters by 3180. This effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -50831,22 +51618,26 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you activate a synergy, you create a lunar blessing underneath you for 8 seconds. The blessing grants a stacking damage shield every 2 seconds that absorbs 2737 damage per stack for you and your group members within 8 meters. The damage shield lasts for 4 seconds and refreshes every tick. This effect can occur once every 20 seconds, and stacks up to 6 times."
+        "description": "When you activate a synergy, you create a lunar blessing underneath you for 8 seconds. The blessing grants a stacking damage shield every 2 seconds that absorbs 2737 damage per stack for you and your group members within 8 meters. The damage shield lasts for 4 seconds and refreshes every tick. This effect can occur once every 20 seconds, and stacks up to 6 times.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy, you create a lunar blessing underneath you for 8 seconds. The blessing grants a stacking damage shield every 2 seconds that absorbs 2737 damage per stack for you and your group members within 8 meters. The damage shield lasts for 4 seconds and refreshes every tick. This effect can occur once every 20 seconds, and stacks up to 6 times."
       },
       "count": 5
     },
@@ -51070,13 +51861,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you deal damage with a melee Heavy Attack, you spew a cone of corruption, dealing 1492 Disease damage to enemies over 4 seconds. This damage is increased by 2% for each negative effect the enemies have. This effect can occur once every 10 seconds and scales off your Weapon Damage.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a melee Heavy Attack, you spew a cone of corruption, dealing <span class=\"disease-damage\">1492 Disease damage</span> to enemies over 4 seconds. This damage is increased by 2% for each negative effect the enemies have. This effect can occur once every 10 seconds and scales off your Weapon Damage."
       },
       "count": 2
     },
@@ -51159,25 +51952,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage, you summon a Verminous Fabricant that charges the nearest enemy, dealing 1580 Shock Damage to all enemies in its path, knocking them into the air, and stunning them for 2 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you summon a Verminous Fabricant that charges the nearest enemy, dealing <span class=\"shock-damage\">1580 Shock Damage</span> to all enemies in its path, knocking them into the air, and stunning them for 2 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -51401,22 +52198,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 50% Magicka, you restore 7590 Magicka. This effect can occur once every 30 seconds."
+        "description": "When you take damage while you are under 50% Magicka, you restore 7590 Magicka. This effect can occur once every 30 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 50% Magicka, you restore 7590 Magicka. This effect can occur once every 30 seconds."
       },
       "count": 5
     },
@@ -51641,7 +52442,8 @@ const ESO_SETS = [
         "stats": {
           "magickaRecovery": 129,
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>, Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "2": {
         "description": "When you heal yourself or a group member with a single target heal ability, grant the lowest Health group member within 28 meters Minor Courage and Minor Resolve, increasing their Weapon and Spell Damage by 215 and Armor by 2974 for 10 seconds. Daedric Energy will then bounce to a nearby group member within 8 meters, up to 3 times, applying Minor Courage and Minor Resolve for 10 seconds. This effect can occur once every 15 seconds.",
@@ -51652,7 +52454,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or a group member with a single target heal ability, grant the lowest Health group member within 28 meters <span class=\"buff\">Minor Courage</span> and <span class=\"buff\">Minor Resolve</span>, increasing their Weapon and <span class=\"magicka\">Spell Damage by 215</span> and Armor by 2974 for 10 seconds. Daedric Energy will then bounce to a nearby group member within 8 meters, up to 3 times, applying <span class=\"buff\">Minor Courage</span> and <span class=\"buff\">Minor Resolve</span> for 10 seconds. This effect can occur once every 15 seconds."
       },
       "count": 2
     },
@@ -51735,22 +52538,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "When you cast a Magicka ability, you have an 15% chance to negate that ability's cost."
+        "description": "When you cast a Magicka ability, you have an 15% chance to negate that ability's cost.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability, you have an 15% chance to negate that ability's cost."
       },
       "count": 5
     },
@@ -52105,7 +52912,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your damage done by 16% but decreases your Critical Damage done by 50%.<br>",
     "bonuses": {
       "1": {
-        "description": "Increases your damage done by 16% but decreases your Critical Damage done by 50%."
+        "description": "Increases your damage done by 16% but decreases your Critical Damage done by 50%.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your damage done by 16% but decreases your Critical Damage done by 50%."
       },
       "count": 1
     },
@@ -52136,25 +52944,29 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your Spell Damage by 52. 10 stacks max.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your <span class=\"magicka\">Spell Damage by 52</span>. 10 stacks max."
       },
       "count": 5
     },
@@ -52378,22 +53190,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds."
+        "description": "When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds."
       },
       "count": 5
     },
@@ -52617,26 +53433,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Increases your Physical and Spell Resistance by up to 10206 based on your missing Health. Current value: 2373",
         "stats": {
           "spellResistance": null,
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Physical and Spell Resistance by up to 10206 based on your missing Health.\n\nCurrent value: 2373"
       },
       "count": 5
     },
@@ -52860,22 +53680,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Reduces the cost of your Stamina abilities by 5% and increases the damage of your Bow abilities against Players by 8%."
+        "description": "Reduces the cost of your Stamina abilities by 5% and increases the damage of your Bow abilities against Players by 8%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Stamina abilities by 5% and increases the damage of your Bow abilities against Players by 8%."
       },
       "count": 5
     },
@@ -52994,7 +53818,8 @@ const ESO_SETS = [
           "armor": 1157,
           "spellDamage": 100,
           "weaponDamage": 100
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain <span class=\"stamina\">100 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and <span class=\"health\">1157 Armor</span> for every set you are wearing at least 3 or more pieces of.\n\nCurrent bonus: <span class=\"stamina\">0 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and <span class=\"health\">0 Armor</span>."
       },
       "count": 1
     },
@@ -53031,25 +53856,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Slayer for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%.",
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Slayer</span> for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%."
       },
       "count": 5
     },
@@ -53273,13 +54102,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
         "description": "When you deal damage with a Light or Heavy Attack, you have a 33% chance to summon a fire breathing Daedroth for 15 seconds. The Daedroth's attacks deal 587 Flame damage, and alternate between Fiery Breath, Fiery Jaws, and Fiery Claw, which alternate once every 2 seconds. The Daedroth can only be summoned once every 15 seconds and its damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a Light or Heavy Attack, you have a 33% chance to summon a fire breathing Daedroth for 15 seconds. The Daedroth's attacks deal <span class=\"flame-damage\">587 Flame damage</span>, and alternate between Fiery Breath, Fiery Jaws, and Fiery Claw, which alternate once every 2 seconds.\n\nThe Daedroth can only be summoned once every 15 seconds and its damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -53362,23 +54193,27 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
-        "description": "When you deal direct damage, you gain unerring mechanical vision for 5 seconds, granting you 100% Critical Strike chance. This effect can occur once every 21 seconds."
+        "description": "When you deal direct damage, you gain unerring mechanical vision for 5 seconds, granting you 100% Critical Strike chance. This effect can occur once every 21 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you gain unerring mechanical vision for 5 seconds, granting you 100% Critical Strike chance. This effect can occur once every 21 seconds."
       },
       "count": 5
     },
@@ -53728,19 +54563,22 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 892 Spell Critical, Gain Minor Force at all times, increasing your Critical Damage by 10%.",
@@ -53749,7 +54587,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">892 Spell Critical</span>, Gain <span class=\"buff\">Minor Force</span> at all times, increasing your Critical Damage by 10%."
       },
       "count": 5
     },
@@ -53973,7 +54812,8 @@ const ESO_SETS = [
         "description": "Steadfast Ward applies Major Vitality to your target for 4 seconds, increasing the healing taken on your target by 16%.",
         "buffs": [
           "Major Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Steadfast Ward applies <span class=\"buff\">Major Vitality</span> to your target for 4 seconds, increasing the healing taken on your target by 16%."
       },
       "count": 2
     },
@@ -54011,7 +54851,8 @@ const ESO_SETS = [
         "description": "Dealing damage with Critical Charge causes enemies to bleed for 1338 Bleed Damage over 5 seconds. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing damage with Critical Charge causes enemies to bleed for <span class=\"physical-damage\">1338 Bleed Damage</span> over 5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -54067,25 +54908,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "When you block an attack, you gain Meridia's Blessed Armor for 5 seconds, causing you to dodge all incoming attacks. This effect can occur once every 25 seconds.",
         "stats": {
           "armor": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you gain Meridia's Blessed Armor for 5 seconds, causing you to dodge all incoming attacks. This effect can occur once every 25 seconds."
       },
       "count": 5
     },
@@ -54309,25 +55154,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you cast a Support ability while in combat, you increase the Physical and Spell Resistance of yourself and up to 5 group members within 10 meters by 3540 for 20 seconds.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Support ability while in combat, you increase the Physical and Spell Resistance of yourself and up to 5 group members within 10 meters by 3540 for 20 seconds."
       },
       "count": 5
     },
@@ -54551,20 +55400,23 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Adds 1206 Maximum Health, After successfully blocking, you gain Empower, increasing the damage of your Light and Heavy Attacks by 40% for 3 seconds.",
@@ -54573,7 +55425,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Empower"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, After successfully blocking, you gain <span class=\"buff\">Empower</span>, increasing the damage of your Light and Heavy Attacks by 40% for 3 seconds."
       },
       "count": 5
     },
@@ -54923,7 +55776,8 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "2": {
         "description": "Adds 1206 Maximum Health, Gain Major Resolve at all times, increasing your Physical and Spell Resistance by 5948.",
@@ -54934,7 +55788,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Resolve"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, Gain <span class=\"buff\">Major Resolve</span> at all times, increasing your <span class=\"health\">Physical and Spell Resistance by 5948</span>."
       },
       "count": 2
     },
@@ -55017,20 +55872,23 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery, Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129,
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "When you activate a snare or immobilize ability or hit a target with a snare or immobilize ability, you and up to 11 group members gain Major Resolve for 15 seconds, increasing your Physical and Spell Resistances by 5948. This effect can occur once every 10 seconds.",
@@ -55039,7 +55897,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Resolve"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a snare or immobilize ability or hit a target with a snare or immobilize ability, you and up to 11 group members gain <span class=\"buff\">Major Resolve</span> for 15 seconds, increasing your Physical and Spell Resistances by 5948. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -55264,14 +56123,16 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "2": {
         "description": "When you consecutively Light Attack 2 times, you trigger Overkill for 6 seconds, which increases your Weapon and Spell Damage by 560 but also increases the cost of your abilities by 8%.",
         "stats": {
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you consecutively Light Attack 2 times, you trigger Overkill for 6 seconds, which increases your Weapon and <span class=\"magicka\">Spell Damage by 560</span> but also increases the cost of your abilities by 8%."
       },
       "count": 2
     },
@@ -55354,25 +56215,29 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "When your alchemical poison fires, increase your Spell Damage by 547 for 8 seconds.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your alchemical poison fires, increase your <span class=\"magicka\">Spell Damage by 547</span> for 8 seconds."
       },
       "count": 5
     },
@@ -55596,26 +56461,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you activate a synergy while in combat, you gain a shadow blessing that increases your Spell Damage by 474 or a lunar blessing that increases your Magicka Recovery by 474 for 20 seconds. You can only have one blessing active at a time.",
         "stats": {
           "magickaRecovery": null,
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy while in combat, you gain a shadow blessing that increases your <span class=\"magicka\">Spell Damage by 474</span> or a lunar blessing that increases your Magicka Recovery by 474 for 20 seconds. You can only have one blessing active at a time."
       },
       "count": 5
     },
@@ -55839,25 +56708,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a Light or Heavy Attack, you summon an animated weapon to attack your enemies for 15 seconds. The animated weapon's basic attacks deal 443 Physical damage. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack, you summon an animated weapon to attack your enemies for 15 seconds. The animated weapon's basic attacks deal <span class=\"physical-damage\">443 Physical damage</span>.  This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -56207,10 +57080,12 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
-        "description": "While in combat, casting an ability with a cast time or channeling an ability grants you a damage shield that absorbs 5000 damage for 6 seconds. If the damage shield is broken, you restore 822 Magicka. This effect can occur once every 6 seconds."
+        "description": "While in combat, casting an ability with a cast time or channeling an ability grants you a damage shield that absorbs 5000 damage for 6 seconds. If the damage shield is broken, you restore 822 Magicka. This effect can occur once every 6 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While in combat, casting an ability with a cast time or channeling an ability grants you a damage shield that absorbs 5000 damage for 6 seconds.  If the damage shield is broken, you restore 822 Magicka. This effect can occur once every 6 seconds."
       },
       "count": 2
     },
@@ -56293,25 +57168,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 1528 Spell Critical",
         "stats": {
           "spellCritical": 1528
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1528 Spell Critical</span>"
       },
       "count": 5
     },
@@ -56535,25 +57414,29 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "3": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "When you cast a damage shield ability, you gain Minor Mending and Minor Vitality for 6 seconds, increasing your healing done and healing received by 8%. This effect can occur once every 6 seconds.",
         "buffs": [
           "Minor Mending"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, you gain <span class=\"buff\">Minor Mending</span> and <span class=\"buff\">Minor Vitality</span> for 6 seconds, increasing your healing done and healing received by 8%. This effect can occur once every 6 seconds."
       },
       "count": 5
     },
@@ -56903,22 +57786,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "While you have a pet active, your Max Magicka is increased by 3132."
+        "description": "While you have a pet active, your Max Magicka is increased by 3132.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a pet active, your Max Magicka is increased by 3132."
       },
       "count": 5
     },
@@ -57142,13 +58029,15 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "2": {
         "description": "When you deal direct damage, you have a 15% chance to summon a Lich crystal that explodes after 2 seconds, dealing 1428 Magic damage to all enemies within 4 meters. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal direct damage, you have a 15% chance to summon a Lich crystal that explodes after 2 seconds, dealing <span class=\"magic-damage\">1428 Magic damage</span> to all enemies within 4 meters. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -57231,25 +58120,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 400 Spell Damage to your Shock Damage abilities.",
         "stats": {
           "spellDamage": 400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Shock Damage abilities."
       },
       "count": 5
     },
@@ -57477,27 +58370,31 @@ const ESO_SETS = [
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds 657 Critical Chance"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "Adds 401 Weapon and Spell Damage. Increases the cost of your active abilities by 5%.",
         "stats": {
           "spellDamage": 401,
           "weaponDamage": 401
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">401 Weapon</span> and <span class=\"magicka\">Spell Damage</span>.  \n\nIncreases the cost of your active abilities by 5%."
       },
       "count": 5
     },
@@ -57847,25 +58744,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Adds 171 Weapon Damage, Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%.",
         "stats": {
           "weaponDamage": 171
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">171 Weapon Damage</span>, Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%."
       },
       "count": 5
     },
@@ -58089,19 +58990,22 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Critical Damage you apply Major Breach to the enemy, reducing their Physical and Spell Resistance by 5948 for 4 seconds.",
@@ -58111,7 +59015,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Breach"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage you apply <span class=\"buff\">Major Breach</span> to the enemy, reducing their <span class=\"health\">Physical and Spell Resistance by 5948</span> for 4 seconds."
       },
       "count": 5
     },
@@ -58469,22 +59374,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
-        "description": "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 27%."
+        "description": "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 27%.",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 27%."
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you take melee damage, you deal 300 Poison Damage to the attacker. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take melee damage, you deal <span class=\"poison-damage\">300 Poison Damage</span> to the attacker. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -58708,22 +59617,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "Ignore the Movement Speed penalty of Sneak."
+        "description": "Ignore the Movement Speed penalty of Sneak.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Ignore the Movement Speed penalty of Sneak."
       },
       "count": 5
     },
@@ -59081,10 +59994,12 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
-        "description": "When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 739 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 739 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 739 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 2
     },
@@ -59167,22 +60082,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Whenever you successfully block, you gain a stack of Nikulas' Resolve for 5 seconds, up to once every half second. After 8 stacks you consume Nikulas' Resolve and deflect the next direct damaging attack made against you within 5 seconds, avoiding it completely."
+        "description": "Whenever you successfully block, you gain a stack of Nikulas' Resolve for 5 seconds, up to once every half second. After 8 stacks you consume Nikulas' Resolve and deflect the next direct damaging attack made against you within 5 seconds, avoiding it completely.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully block, you gain a stack of Nikulas' Resolve for 5 seconds, up to once every half second.  After 8 stacks you consume Nikulas' Resolve and deflect the next direct damaging attack made against you within 5 seconds, avoiding it completely."
       },
       "count": 5
     },
@@ -59406,22 +60325,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "When you deal damage with a Light or Heavy Attack in melee range, you cause your Light and Heavy Attacks to deal an additional 1811 damage for 5 seconds. This effect can occur once every 5 seconds."
+        "description": "When you deal damage with a Light or Heavy Attack in melee range, you cause your Light and Heavy Attacks to deal an additional 1811 damage for 5 seconds. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack in melee range, you cause your Light and Heavy Attacks to deal an additional 1811 damage for 5 seconds.  This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -59645,25 +60568,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you Bash a target, you heal for 3408 Health over 10 seconds and apply Minor Vulnerability to the enemy for 10 seconds, increasing their damage taken by 5%. The heal can only activate once every 10 seconds and scales off your Max Health.",
         "buffs": [
           "Minor Vulnerability"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash a target, you heal for 3408 Health over 10 seconds and apply <span class=\"buff\">Minor Vulnerability</span> to the enemy for 10 seconds, increasing their damage taken by 5%. The heal can only activate once every 10 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -60013,22 +60940,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Whenever you successfully Dodge, you heal yourself for 2964 Health over 5 seconds. This effect can occur every 5 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "Whenever you successfully Dodge, you heal yourself for 2964 Health over 5 seconds. This effect can occur every 5 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully Dodge, you heal yourself for 2964 Health over 5 seconds. This effect can occur every 5 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -60378,25 +61309,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Adds 258 Weapon Damage, When you kill an enemy, you fill an empty Soul Gem and heal for 6202 Health. The heal can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
         "stats": {
           "weaponDamage": 258
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">258 Weapon Damage</span>, When you kill an enemy, you fill an empty Soul Gem and heal for 6202 Health.\n\nThe heal can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -60621,26 +61556,30 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "4": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds 657 Critical Chance"
       },
       "5": {
         "description": "Adds 129 Weapon and Spell Damage, When you deal damage with Soul Magic, you mark the target's soul dealing 1965 Magic damage over 10 seconds, as long as they are not already marked from you. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, When you deal damage with Soul Magic, you mark the target's soul dealing <span class=\"magic-damage\">1965 Magic damage</span> over 10 seconds, as long as they are not already marked from you.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -60990,19 +61929,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "Adds 5% Healing Taken, Gain Minor Vitality at all times, increasing your healing received by 8%.",
@@ -61011,7 +61953,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">5% Healing Taken</span>, Gain <span class=\"buff\">Minor Vitality</span> at all times, increasing your healing received by 8%."
       },
       "count": 5
     },
@@ -61235,26 +62178,30 @@ const ESO_SETS = [
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "While you are under 60% Health, your Health Recovery is increased by 800 and your Physical and Spell Resistance is increased by 6400.",
         "stats": {
           "healthRecovery": null,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are under 60% Health, your Health Recovery is increased by 800 and your Physical and Spell Resistance is increased by 6400."
       },
       "count": 5
     },
@@ -61604,25 +62551,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a Class ability, you surround yourself with a torrent that deals 154 Shock Damage to enemies within 8 meters of you every 1 second for 6 seconds. 15% of the damage you deal this way is restored to you as Magicka. This effect can occur every 7 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Class ability, you surround yourself with a torrent that deals <span class=\"shock-damage\">154 Shock Damage</span> to enemies within 8 meters of you every 1 second for 6 seconds. 15% of the damage you deal this way is restored to you as Magicka. This effect can occur every 7 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -61846,22 +62797,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Every 10 seconds you gain a damage shield that absorbs 7010 damage."
+        "description": "Every 10 seconds you gain a damage shield that absorbs 7010 damage.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Every 10 seconds you gain a damage shield that absorbs 7010 damage."
       },
       "count": 5
     },
@@ -62082,7 +63037,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate.<br>",
     "bonuses": {
       "1": {
-        "description": "Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate."
+        "description": "Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate."
       },
       "count": 1
     },
@@ -62114,27 +63070,31 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Whenever you kill an enemy you gain a damage shield that absorbs up to 3876 damage for 10 seconds and a stack of Wrath of Whitestrake for 10 seconds. Each stack of Wrath of Whitestrake grants you 100 Weapon and Spell Damage, but causes you to take 159 Oblivion damage every second, up to 10 stacks. The damage shield scales off the higher of your Weapon or Spell Damage, and the damage scales off your Max Health.",
         "stats": {
           "spellDamage": 100,
           "weaponDamage": 100
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you kill an enemy you gain a damage shield that absorbs up to 3876 damage for 10 seconds and a stack of Wrath of Whitestrake for 10 seconds.  Each stack of Wrath of Whitestrake grants you <span class=\"stamina\">100 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, but causes you to take 159 Oblivion damage every second, up to 10 stacks.  The damage shield scales off the higher of your Weapon or Spell Damage, and the damage scales off your Max Health."
       },
       "count": 5
     },
@@ -62484,19 +63444,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1206 Maximum Health, After successfully blocking, you grant Empower to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds.",
@@ -62505,7 +63468,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Empower"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">1206 Maximum Health</span>, After successfully blocking, you grant <span class=\"buff\">Empower</span> to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds."
       },
       "count": 5
     },
@@ -62729,26 +63693,30 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Stamina, Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal 52 Physical Damage per stack every 1 second. This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "maximumStamina": 1096,
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal <span class=\"physical-damage\">52 Physical Damage</span> per stack every 1 second.  This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -62972,25 +63940,29 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 129 Spell Damage, Increases your damage done to non-player enemies by up to 15% based on your missing Magicka. Current value: 0%",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Spell Damage</span>, Increases your damage done to non-player enemies by up to 15% based on your missing Magicka.\n\nCurrent value: 0%"
       },
       "count": 5
     },
@@ -63214,7 +64186,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Weapon Damage, Increases your Weapon Damage by 330 against targets affected by your Poison Arrow.",
         "stats": {
           "weaponDamage": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, Increases your <span class=\"stamina\">Weapon Damage by 330</span> against targets affected by your Poison Arrow."
       },
       "count": 2
     },
@@ -63252,7 +64225,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Weapon Critical, When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for 2675 Physical Damage. This effect can occur once every 10 seconds.",
         "stats": {
           "weaponCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -63317,19 +64291,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1206 Maximum Health, When you taunt an enemy, you give yourself and 11 group members Minor Courage for 15 seconds, increasing your Weapon and Spell Damage by 215. This effect can occur once every 8 seconds.",
@@ -63340,7 +64317,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">1206 Maximum Health</span>, When you taunt an enemy, you give yourself and 11 group members <span class=\"buff\">Minor Courage</span> for 15 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 215</span>. This effect can occur once every 8 seconds."
       },
       "count": 5
     },
@@ -63564,7 +64542,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Spell Damage, Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur",
         "stats": {
           "spellDamage": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Spell Damage</span>, Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur"
       },
       "count": 2
     },
@@ -63620,7 +64599,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Weapon Damage, When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage.",
         "stats": {
           "weaponDamage": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage."
       },
       "count": 2
     },
@@ -63685,7 +64665,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 1190 Spell Penetration, Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements.",
         "stats": {
           "spellPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements."
       },
       "count": 2
     },
@@ -63740,7 +64721,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Stamina Recovery, When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead.",
         "stats": {
           "staminaRecovery": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Stamina Recovery</span>, When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead."
       },
       "count": 2
     },
@@ -63813,7 +64795,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Spell Damage, Reduces the cost of Destructive Touch by 10% and increases your Spell Damage by 600 for 4 seconds after activating it.",
         "stats": {
           "spellDamage": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Spell Damage</span>, Reduces the cost of Destructive Touch by 10% and increases your <span class=\"magicka\">Spell Damage by 600</span> for 4 seconds after activating it."
       },
       "count": 2
     },
@@ -63869,7 +64852,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 877 Maximum Stamina, When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt.",
         "stats": {
           "maximumStamina": 877
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">877 Maximum Stamina</span>, When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
       },
       "count": 2
     },
@@ -63925,7 +64909,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Weapon Critical, Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them. Restores 1890 Stamina if the target was below 50% Health.",
         "stats": {
           "weaponCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them.\n\nRestores 1890 Stamina if the target was below 50% Health."
       },
       "count": 2
     },
@@ -63990,25 +64975,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Magicka, When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target.",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
       },
       "count": 5
     },
@@ -64232,19 +65221,22 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 129 Spell Damage, Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
@@ -64253,7 +65245,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Spell Damage</span>, Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
       },
       "count": 5
     },
@@ -64477,7 +65470,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 877 Maximum Magicka, Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds. While the tether persists and you remain in range, you and allies in the tether restore 175 Magicka and Stamina every 1 second. This effect can occur once every 10 seconds.",
         "stats": {
           "maximumMagicka": 877
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds.  While the tether persists and you remain in range, you and allies in the tether restore <span class=\"magicka\">175 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.  This effect can occur once every 10 seconds."
       },
       "count": 2
     },
@@ -64517,7 +65511,8 @@ const ESO_SETS = [
           "maximumStamina": 877,
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">877 Maximum Stamina</span>, While Momentum is active, casting Stamina abilities while in combat generates a stack of Frenzied Momentum for 20 seconds, increasing your <span class=\"stamina\">Weapon Damage by 38</span> up to 5 times.  Upon reaching max stacks, your next Heavy Attack consumes all stacks and releases a violent explosion of energy around you, dealing <span class=\"physical-damage\">1495 Physical Damage</span> to all enemies within 8 meters, scaling off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -64573,7 +65568,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 1190 Armor, Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%.",
         "stats": {
           "armor": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">1190 Armor</span>, Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
       },
       "count": 2
     },
@@ -64646,7 +65642,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 877 Maximum Magicka, The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring 117 Magicka and Stamina every 1 second.",
         "stats": {
           "maximumMagicka": 877
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring <span class=\"magicka\">117 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second."
       },
       "count": 2
     },
@@ -64684,19 +65681,22 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 129 Magicka Recovery, Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds.",
@@ -64705,7 +65705,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Buff"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Magicka Recovery</span>, Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -64929,26 +65930,30 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Magicka, Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your Spell Damage by 52. 10 stacks max.",
         "stats": {
           "maximumMagicka": 1096,
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your <span class=\"magicka\">Spell Damage by 52</span>. 10 stacks max."
       },
       "count": 5
     },
@@ -65175,7 +66180,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Magicka Recovery</span>, Steadfast Ward applies <span class=\"buff\">Major Vitality</span> to your target for 4 seconds, increasing the healing taken on your target by 16%."
       },
       "count": 2
     },
@@ -65214,7 +66220,8 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": null,
           "physicalPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Dealing damage with Critical Charge causes enemies to bleed for <span class=\"physical-damage\">1338 Bleed Damage</span> over 5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -65271,7 +66278,8 @@ const ESO_SETS = [
         "stats": {
           "physicalPenetration": 1190,
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, When you deal damage with Arrow Spray, you cause enemies hit to have 6600 less Physical Resistance against Bow attacks for 10 seconds."
       },
       "count": 2
     },
@@ -65309,7 +66317,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Weapon Damage, Increases your damage done with Snipe based on how close you are to your target. Max Damage: 33% at 3 meters.",
         "stats": {
           "weaponDamage": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, Increases your damage done with Snipe based on how close you are to your target.  \n\nMax Damage: 33% at 3 meters.\nMinimum Damage: 5% at 18.5 meters."
       },
       "count": 2
     },
@@ -65347,7 +66356,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Spell Critical, When your Regeneration critically strikes, you restore 558 Magicka. This effect cannot occur from simultaneous critical strikes.",
         "stats": {
           "spellCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">526 Spell Critical</span>, When your Regeneration critically strikes, you restore 558 Magicka.  This effect cannot occur from simultaneous critical strikes."
       },
       "count": 2
     },
@@ -65386,7 +66396,8 @@ const ESO_SETS = [
         "stats": {
           "physicalResistance": null,
           "healingTaken": 3
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">3% Healing Taken</span>, When you deal damage with Puncture, you heal for 2230 Health and gain Spell and Physical Resistance equal to the amount of healing or over healing done for 5 seconds. The healing scales off your Max Health."
       },
       "count": 2
     },
@@ -65459,7 +66470,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 1190 Physical Penetration, Uppercut deals 45% of its damage to all enemies near your primary target.",
         "stats": {
           "physicalPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Uppercut deals 45% of its damage to all enemies near your primary target."
       },
       "count": 2
     },
@@ -65516,7 +66528,8 @@ const ESO_SETS = [
         "stats": {
           "magickaRecovery": 77,
           "staminaRecovery": 77
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">77 Magicka Recovery</span>, (2 perfected items) Adds <span class=\"stamina\">77 Stamina Recovery</span>, When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores <span class=\"magicka\">1904 Magicka</span> and <span class=\"stamina\">Stamina</span>."
       },
       "count": 2
     },
@@ -65589,19 +66602,22 @@ const ESO_SETS = [
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Magicka, After completing a fully-charged Heavy Attack, you and up to 5 group members gain Major Slayer, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every 600 Spell Damage or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds. Maximum duration 12 seconds.",
@@ -65611,7 +66627,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, After completing a fully-charged Heavy Attack, you and up to 5 group members gain <span class=\"buff\">Major Slayer</span>, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every <span class=\"magicka\">600 Spell Damage</span> or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds.\n\nMaximum duration 12 seconds."
       },
       "count": 5
     },
@@ -65835,19 +66852,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Stamina, When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%.",
@@ -65856,7 +66876,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1096 Maximum Stamina</span>, When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain <span class=\"buff\">Major Force</span> for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
       },
       "count": 5
     },
@@ -66080,7 +67101,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 103 Stamina Recovery, Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%.",
         "stats": {
           "staminaRecovery": 103
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Stamina Recovery</span>, Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
       },
       "count": 2
     },
@@ -66145,7 +67167,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Weapon Critical, Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed.",
         "stats": {
           "weaponCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed."
       },
       "count": 2
     },
@@ -66210,25 +67233,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Magicka, Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds.",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds."
       },
       "count": 5
     },
@@ -66452,25 +67479,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 657 Weapon Critical, When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds.",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">657 Weapon Critical</span>, When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds."
       },
       "count": 5
     },
@@ -66694,7 +67725,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Weapon Critical, Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times.",
         "stats": {
           "weaponCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times."
       },
       "count": 2
     },
@@ -66732,7 +67764,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 877 Maximum Magicka, When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds.",
         "stats": {
           "maximumMagicka": 877
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
       },
       "count": 2
     },
@@ -66770,7 +67803,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 1190 Physical Penetration, Increases the direct damage Cleave deals by 1550 for each enemy in its cone.",
         "stats": {
           "physicalPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Increases the direct damage Cleave deals by 1550 for each enemy in its cone."
       },
       "count": 2
     },
@@ -66826,19 +67860,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 657 Weapon Critical, When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%.",
@@ -66847,7 +67884,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">657 Weapon Critical</span>, When you activate a synergy while in combat, gain <span class=\"buff\">Major Slayer</span> for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
       },
       "count": 5
     },
@@ -67071,19 +68109,22 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1096 Maximum Magicka, Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain Major Courage for 20 seconds, increasing your Weapon and Spell Damage by 430 for 20 seconds. This effect can occur once every 10 seconds.",
@@ -67094,7 +68135,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain <span class=\"buff\">Major Courage</span> for 20 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 20 seconds.  This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -67318,7 +68360,8 @@ const ESO_SETS = [
         "description": "(2 perfected items) Adds 526 Weapon Critical, Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds.",
         "stats": {
           "weaponCritical": 526
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
       },
       "count": 2
     },
@@ -67359,7 +68402,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">965 Maximum Health</span>, When you deal damage with Power Bash, you apply Call of the Void to yourself for 2 seconds. Enemies within 12 meters are immediately pulled to you.\n\nAfter Call of the Void ends, you apply <span class=\"buff\">Major Maim</span> to enemies in the area for 10 seconds, reducing their damage done by 10%.  This effect can occur once every 13 seconds."
       },
       "count": 2
     },
@@ -67432,19 +68476,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 4% Healing Taken, After completing a fully-charged Heavy Attack, apply Major Aegis to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds.",
@@ -67453,7 +68500,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">4% Healing Taken</span>, After completing a fully-charged Heavy Attack, apply <span class=\"buff\">Major Aegis</span> to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds."
       },
       "count": 5
     },
@@ -67678,7 +68726,8 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": null,
           "spellPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 636 Flame, 636 Shock, and <span class=\"frost-damage\">636 Frost Damage</span> over 8 seconds. Each element ticks once over the duration. The damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -67735,7 +68784,8 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": null,
           "spellPenetration": 1190
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Casting Weakness to Elements on a target within 15 meters of you causes a surge of elemental energy to tether between you for 10 seconds.  While the tether persists, enemies touching the tether take <span class=\"flame-damage\">331 Flame Damage</span>, <span class=\"shock-damage\">331 Shock Damage</span>, or <span class=\"frost-damage\">331 Frost Damage</span> every 1 second, which increases by 1% each time it deals damage, up to 20%. This effect can occur once every 10 seconds, and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -67791,26 +68841,30 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "(5 perfected items) Adds 1487 Physical Penetration, Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds 41 Weapon Damage, and stacks up to 10 times. Completing a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your Weapon Damage by 63 per stack removed. You cannot have Giant's Endurance and Might active at the same time.",
         "stats": {
           "weaponDamage": 41,
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1487 Physical Penetration</span>, Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds <span class=\"stamina\">41 Weapon Damage</span>, and stacks up to 10 times.\n\nCompleting a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your <span class=\"stamina\">Weapon Damage by 63</span> per stack removed.\n\nYou cannot have Giant's Endurance and Might active at the same time."
       },
       "count": 5
     },
@@ -68034,25 +69088,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "While you have a damage shield on you, your Health Recovery is increased by 1106.",
         "stats": {
           "healthRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a damage shield on you, your Health Recovery is increased by 1106."
       },
       "count": 5
     },
@@ -68276,26 +69334,30 @@ const ESO_SETS = [
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 1487 Physical Penetration, Whenever you kill an enemy afflicted with a poison effect, their corpse releases a writhing mass of Fetcherflies, which seek out the nearest enemy within 12 meters, causing them to bleed for 6140 Bleed Damage over 10 seconds. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null,
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>, Whenever you kill an enemy afflicted with a poison effect, their corpse releases a writhing mass of Fetcherflies, which seek out the nearest enemy within 12 meters, causing them to bleed for <span class=\"physical-damage\">6140 Bleed Damage</span> over 10 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -68519,25 +69581,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you take damage while below 25% Health, gain a damage shield that absorbs 25000 damage for 10 seconds and deals 1056 Flame damage to nearby enemies. This effect can occur once every 1 minute and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while below 25% Health, gain a damage shield that absorbs 25000 damage for 10 seconds and deals <span class=\"flame-damage\">1056 Flame damage</span> to nearby enemies. This effect can occur once every 1 minute and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -68761,7 +69827,8 @@ const ESO_SETS = [
         "description": "When you deal damage with Arrow Spray, you cause enemies hit to have 6600 less Physical Resistance against Bow attacks for 10 seconds.",
         "stats": {
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Arrow Spray, you cause enemies hit to have 6600 less Physical Resistance against Bow attacks for 10 seconds."
       },
       "count": 2
     },
@@ -68799,25 +69866,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal damage, you create a fissure underneath the enemy after 1 second, dealing 717 Bleed Damage to all enemies within 2.5 meters and causing them to bleed for an additional 3585 Bleed Damage over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you create a fissure underneath the enemy after 1 second, dealing <span class=\"physical-damage\">717 Bleed Damage</span> to all enemies within 2.5 meters and causing them to bleed for an additional <span class=\"physical-damage\">3585 Bleed Damage</span> over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -69041,7 +70112,8 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "2": {
         "description": "When you take damage to your Health, you transform into a skeleton and gain Major Protection and Minor Defile for 15 seconds, reducing your damage taken by 10% but reducing your healing received and Health Recovery by 8%. This effect can occur once every 20 seconds.",
@@ -69051,7 +70123,8 @@ const ESO_SETS = [
         "buffs": [
           "Minor Defile",
           "Major Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage to your Health, you transform into a skeleton and gain <span class=\"buff\">Major Protection</span> and <span class=\"buff\">Minor Defile</span> for 15 seconds, reducing your damage taken by 10% but reducing your healing received and Health Recovery by 8%. This effect can occur once every 20 seconds."
       },
       "count": 2
     },
@@ -69134,25 +70207,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 2804 Maximum Health",
         "stats": {
           "maximumHealth": 2804
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">2804 Maximum Health</span>"
       },
       "count": 5
     },
@@ -69376,25 +70453,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you take damage, summon a Skeever corpse which will launch five poison balls over 5 seconds that each deal 774 Poison Damage to the nearest enemy within 10 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, summon a Skeever corpse which will launch five poison balls over 5 seconds that each deal <span class=\"poison-damage\">774 Poison Damage</span> to the nearest enemy within 10 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -69618,27 +70699,31 @@ const ESO_SETS = [
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Dealing direct damage to an enemy, who is not a Plague Carrier, turns them into a Plague Carrier for 10 seconds, dealing 2068 Disease Damage over the duration. If the plague is removed early, it explodes, infecting enemies within 8 meters of the carrier and dealing 2075 Disease Damage. The explosion deals an additional 10% damage per enemy hit. This effect can occur once per attack and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage to an enemy, who is not a Plague Carrier, turns them into a Plague Carrier for 10 seconds, dealing <span class=\"disease-damage\">2068 Disease Damage</span> over the duration. If the plague is removed early, it explodes, infecting enemies within 8 meters of the carrier and dealing <span class=\"disease-damage\">2075 Disease Damage</span>. The explosion deals an additional 10% damage per enemy hit. This effect can occur once per attack and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -69853,7 +70938,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases your damage done with Snipe based on how close you are to your target.  \n\nMax Damage: 33% at 3 meters.\nMinimum Damage: 5% at 18.5 meters.<br>",
     "bonuses": {
       "2": {
-        "description": "Increases your damage done with Snipe based on how close you are to your target. Max Damage: 33% at 3 meters."
+        "description": "Increases your damage done with Snipe based on how close you are to your target. Max Damage: 33% at 3 meters.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases your damage done with Snipe based on how close you are to your target.  \n\nMax Damage: 33% at 3 meters.\nMinimum Damage: 5% at 18.5 meters."
       },
       "count": 2
     },
@@ -69891,25 +70977,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you deal damage with a Light or Heavy Attack against an enemy who has a Poison Damage ability on them, you deal an additional 600 Poison Damage. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack against an enemy who has a Poison Damage ability on them, you deal an additional <span class=\"poison-damage\">600 Poison Damage</span>. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -70133,26 +71223,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you cast an Assault ability while in combat, you and up to 5 group members within 10 meters gain 307 Weapon and Spell Damage for 10 seconds.",
         "stats": {
           "spellDamage": 307,
           "weaponDamage": 307
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an Assault ability while in combat, you and up to 5 group members within 10 meters gain <span class=\"stamina\">307 Weapon</span> and <span class=\"magicka\">Spell Damage</span> for 10 seconds."
       },
       "count": 5
     },
@@ -70376,22 +71470,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you overheal yourself or an ally, you grant them a damage shield that absorbs 4997 damage for 6 seconds. This effect can occur once every 2 seconds."
+        "description": "When you overheal yourself or an ally, you grant them a damage shield that absorbs 4997 damage for 6 seconds. This effect can occur once every 2 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself or an ally, you grant them a damage shield that absorbs 4997 damage for 6 seconds. This effect can occur once every 2 seconds."
       },
       "count": 5
     },
@@ -70616,7 +71714,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When your Regeneration critically strikes, you restore 558 Magicka.  This effect cannot occur from simultaneous critical strikes.<br>",
     "bonuses": {
       "2": {
-        "description": "When your Regeneration critically strikes, you restore 558 Magicka. This effect cannot occur from simultaneous critical strikes."
+        "description": "When your Regeneration critically strikes, you restore 558 Magicka. This effect cannot occur from simultaneous critical strikes.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When your Regeneration critically strikes, you restore 558 Magicka.  This effect cannot occur from simultaneous critical strikes."
       },
       "count": 2
     },
@@ -70655,10 +71754,12 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "2": {
-        "description": "Dealing direct damage with an area of effect ability creates a 6 meter shadowy whirlwind below your enemy for 7 seconds. Enemies within the whirlwind take 297 Physical damage each second and increase their damage taken from your area of effect abilities by 5%. This effect can occur once every 15 seconds."
+        "description": "Dealing direct damage with an area of effect ability creates a 6 meter shadowy whirlwind below your enemy for 7 seconds. Enemies within the whirlwind take 297 Physical damage each second and increase their damage taken from your area of effect abilities by 5%. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing direct damage with an area of effect ability creates a 6 meter shadowy whirlwind below your enemy for 7 seconds. Enemies within the whirlwind take <span class=\"physical-damage\">297 Physical damage</span> each second and increase their damage taken from your area of effect abilities by 5%. This effect can occur once every 15 seconds."
       },
       "count": 2
     },
@@ -70741,22 +71842,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "Reduces the cost of Sprint by 50%. While Sprinting, restore 1035 Magicka every 1 second."
+        "description": "Reduces the cost of Sprint by 50%. While Sprinting, restore 1035 Magicka every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Sprint by 50%. While Sprinting, restore 1035 Magicka every 1 second."
       },
       "count": 5
     },
@@ -70980,7 +72085,8 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "count": 1
     },
@@ -71115,7 +72221,8 @@ const ESO_SETS = [
         "description": "When you deal damage with Puncture, you heal for 2230 Health and gain Spell and Physical Resistance equal to the amount of healing or over healing done for 5 seconds. The healing scales off your Max Health.",
         "stats": {
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Puncture, you heal for 2230 Health and gain Spell and Physical Resistance equal to the amount of healing or over healing done for 5 seconds. The healing scales off your Max Health."
       },
       "count": 2
     },
@@ -71188,22 +72295,26 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you use a Light Attack you reduce the Health, Magicka, or Stamina cost of your next active ability by 10%. When you use a fully charged Heavy Attack you increase the damage of your next direct damage attack by 2610 against the first enemy you hit. These bonuses only last for 2 seconds and are consumed upon use."
+        "description": "When you use a Light Attack you reduce the Health, Magicka, or Stamina cost of your next active ability by 10%. When you use a fully charged Heavy Attack you increase the damage of your next direct damage attack by 2610 against the first enemy you hit. These bonuses only last for 2 seconds and are consumed upon use.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use a Light Attack you reduce the Health, Magicka, or Stamina cost of your next active ability by 10%.  When you use a fully charged Heavy Attack you increase the damage of your next direct damage attack by 2610 against the first enemy you hit.  \n\nThese bonuses only last for 2 seconds and are consumed upon use."
       },
       "count": 5
     },
@@ -71449,25 +72560,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Reduces the costs of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the costs of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
       },
       "count": 5
     },
@@ -71688,7 +72803,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Uppercut deals 45% of its damage to all enemies near your primary target.<br>",
     "bonuses": {
       "2": {
-        "description": "Uppercut deals 45% of its damage to all enemies near your primary target."
+        "description": "Uppercut deals 45% of its damage to all enemies near your primary target.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Uppercut deals 45% of its damage to all enemies near your primary target."
       },
       "count": 2
     },
@@ -71744,23 +72860,27 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Deal 10% of all direct damage done to you back to the attacker, up to 4250 damage."
+        "description": "Deal 10% of all direct damage done to you back to the attacker, up to 4250 damage.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Deal 10% of all direct damage done to you back to the attacker, up to 4250 damage."
       },
       "count": 5
     },
@@ -71981,7 +73101,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores <span class=\"magicka\">1904 Magicka</span> and <span class=\"stamina\">Stamina</span>.<br>",
     "bonuses": {
       "2": {
-        "description": "When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores 1904 Magicka and Stamina."
+        "description": "When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores 1904 Magicka and Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores <span class=\"magicka\">1904 Magicka</span> and <span class=\"stamina\">Stamina</span>."
       },
       "count": 2
     },
@@ -72054,25 +73175,29 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 129 Stamina Recovery, Reduce the effectiveness of snares applied to you by 50%.",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, Reduce the effectiveness of snares applied to you by 50%."
       },
       "count": 5
     },
@@ -72296,19 +73421,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 171 Spell Damage, Gain Major Sorcery at all times, increasing your Spell Damage by 20%.",
@@ -72317,7 +73445,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Sorcery"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Major Sorcery</span> at all times, increasing your <span class=\"magicka\">Spell Damage by 20%</span>."
       },
       "count": 5
     },
@@ -72541,26 +73670,30 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Each time you attempt to reduce the target's Physical or Spell Resistance, you gain a stack of Ravager for 5 seconds, increasing your Weapon Damage by 146. You can gain a stack every 1 second. At 4 stacks, the duration doubles but cannot be refreshed.",
         "stats": {
           "weaponDamage": null,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Each time you attempt to reduce the target's Physical or Spell Resistance, you gain a stack of Ravager for 5 seconds, increasing your <span class=\"stamina\">Weapon Damage by 146</span>. You can gain a stack every 1 second. At 4 stacks, the duration doubles but cannot be refreshed."
       },
       "count": 5
     },
@@ -72784,22 +73917,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "After you are affected by a disabling effect, your damage taken is reduced by 33% for 5 seconds. This effect can occur every 20 seconds."
+        "description": "After you are affected by a disabling effect, your damage taken is reduced by 33% for 5 seconds. This effect can occur every 20 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After you are affected by a disabling effect, your damage taken is reduced by 33% for 5 seconds.  This effect can occur every 20 seconds."
       },
       "count": 5
     },
@@ -73024,23 +74161,27 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 657 Critical Chance",
         "stats": {
           "criticalChance": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds 657 Critical Chance"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
-        "description": "Adds 469 Weapon and Spell Power to your Weapon Skill abilities. Increases the cost of your Weapon Skill abilities by 5%."
+        "description": "Adds 469 Weapon and Spell Power to your Weapon Skill abilities. Increases the cost of your Weapon Skill abilities by 5%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 469 Weapon and Spell Power to your Weapon Skill abilities. Increases the cost of your Weapon Skill abilities by 5%."
       },
       "count": 5
     },
@@ -73390,22 +74531,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you overheal yourself, you heal a group member within 15 meters of you for 697 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
+        "description": "When you overheal yourself, you heal a group member within 15 meters of you for 697 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself, you heal a group member within 15 meters of you for 697 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -73755,10 +74900,12 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
-        "description": "Increases your healing done by 5%."
+        "description": "Increases your healing done by 5%.",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Increases your healing done by 5%."
       },
       "count": 3
     },
@@ -73797,10 +74944,12 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
-        "description": "When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds"
+        "description": "When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds"
       },
       "count": 3
     },
@@ -73848,26 +74997,30 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Whenever you deal direct damage, gain a stack of Resolve for 5 seconds. Each stack increases your healing taken by 1% and your Physical and Spell Resistance by 420. This effect can occur once every half second and can stack up to 9 times.",
         "stats": {
           "spellResistance": 420,
           "physicalResistance": 420
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal direct damage, gain a stack of Resolve for 5 seconds. Each stack increases your healing taken by 1% and your <span class=\"health\">Physical and Spell Resistance by 420</span>.  \n\nThis effect can occur once every half second and can stack up to 9 times."
       },
       "count": 5
     },
@@ -74088,7 +75241,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself.<br>",
     "bonuses": {
       "1": {
-        "description": "Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself."
+        "description": "Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself."
       },
       "count": 1
     },
@@ -74116,7 +75270,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your movement speed by 15% while in combat.  Increases your movement speed by 45% while out of combat.<br>",
     "bonuses": {
       "1": {
-        "description": "Increases your movement speed by 15% while in combat. Increases your movement speed by 45% while out of combat."
+        "description": "Increases your movement speed by 15% while in combat. Increases your movement speed by 45% while out of combat.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your movement speed by 15% while in combat.  Increases your movement speed by 45% while out of combat."
       },
       "count": 1
     },
@@ -74147,19 +75302,22 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you activate a synergy, you send a shockwave from your position that deals 334 Physical damage and an additional 1670 Physical damage over 10 seconds. Reduces the Physical and Spell Resistance of any enemy hit by the amount of your Weapon Damage for the duration, up to a maximum of 6000. The damage scales off the higher of your Weapon and Spell Damage.",
@@ -74167,7 +75325,8 @@ const ESO_SETS = [
           "spellDamage": null,
           "weaponDamage": null,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy, you send a shockwave from your position that deals <span class=\"physical-damage\">334 Physical damage</span> and an additional <span class=\"physical-damage\">1670 Physical damage</span> over 10 seconds. Reduces the Physical and Spell Resistance of any enemy hit by the amount of your Weapon Damage for the duration, up to a maximum of 6000.  The damage scales off the higher of your Weapon and Spell Damage."
       },
       "count": 5
     },
@@ -74391,19 +75550,22 @@ const ESO_SETS = [
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "After completing a fully-charged Heavy Attack, you and up to 5 group members gain Major Slayer, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every 600 Spell Damage or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds. Maximum duration 12 seconds.",
@@ -74412,7 +75574,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After completing a fully-charged Heavy Attack, you and up to 5 group members gain <span class=\"buff\">Major Slayer</span>, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every <span class=\"magicka\">600 Spell Damage</span> or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds.\n\nMaximum duration 12 seconds."
       },
       "count": 5
     },
@@ -74636,22 +75799,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
-        "description": "Reduces the cost of all of your abilities by 6%."
+        "description": "Reduces the cost of all of your abilities by 6%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of all of your abilities by 6%."
       },
       "count": 5
     },
@@ -74875,22 +76042,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "While you have a Destruction Staff equipped, your Max Magicka is increased by 2840."
+        "description": "While you have a Destruction Staff equipped, your Max Magicka is increased by 2840.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a Destruction Staff equipped, your Max Magicka is increased by 2840."
       },
       "count": 5
     },
@@ -75025,22 +76196,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "After being hit by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second for 5 seconds. The effect can apply once every second, but cannot stack."
+        "description": "After being hit by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second for 5 seconds. The effect can apply once every second, but cannot stack.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After being hit by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second for 5 seconds.\n\nThe effect can apply once every second, but cannot stack."
       },
       "count": 5
     },
@@ -75264,22 +76439,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1637 Health and gain 1637 Magicka. This effect can occur once every 3 seconds."
+        "description": "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1637 Health and gain 1637 Magicka. This effect can occur once every 3 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1637 Health and gain 1637 Magicka. This effect can occur once every 3 seconds."
       },
       "count": 5
     },
@@ -75503,25 +76682,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "When you heal yourself or an ally with a healing over time ability, grant them 1400 Critical Resistance for 5 seconds.",
         "stats": {
           "criticalResistance": 1400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with a healing over time ability, grant them 1400 Critical Resistance for 5 seconds."
       },
       "count": 5
     },
@@ -75745,26 +76928,30 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, pull enemies within 10 meters to you. After 2 seconds, deal 1790 Physical Damage to all enemies within 7 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage. The pull will not apply Crowd Control Immunity to a target.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, pull enemies within 10 meters to you. After 2 seconds, deal <span class=\"physical-damage\">1790 Physical Damage</span> to all enemies within 7 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.\n\nThe pull will not apply Crowd Control Immunity to a target."
       },
       "count": 5
     },
@@ -75988,25 +77175,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Reduces the cost of your Werewolf Transformation ability by 33%. While in Werewolf form, your Weapon Damage is increased by 150.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Werewolf Transformation ability by 33%. While in Werewolf form, your Weapon Damage is increased by 150."
       },
       "count": 5
     },
@@ -76230,22 +77421,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Increases your healing received by 10% for you and up to 11 group members within 10 meters of you."
+        "description": "Increases your healing received by 10% for you and up to 11 group members within 10 meters of you.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your healing received by 10% for you and up to 11 group members within 10 meters of you."
       },
       "count": 5
     },
@@ -76473,25 +77668,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "Your Light and Heavy Attacks rend flesh, causing your enemy to bleed for 244 Bleed Damage every 1 second for 4 seconds. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light and Heavy Attacks rend flesh, causing your enemy to bleed for <span class=\"physical-damage\">244 Bleed Damage</span> every 1 second for 4 seconds. This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -76715,25 +77914,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%.",
         "buffs": [
           "Major Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain <span class=\"buff\">Major Force</span> for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
       },
       "count": 5
     },
@@ -76957,25 +78160,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "When you deal direct damage, you have a 20% chance to increase your Spell Damage by 516 for 5 seconds. This effect can occur once every 5 seconds.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you have a 20% chance to increase your <span class=\"magicka\">Spell Damage by 516</span> for 5 seconds. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -77199,19 +78406,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal Critical Poison Damage to an enemy, summon the Scavenging Maw which attacks your enemy after 2 seconds. The Scavenging Maw deals 2716 Poison Damage and inflicts Minor Vulnerability for 15 seconds, increasing their damage taken by 5%. This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
@@ -77220,7 +78430,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Vulnerability"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Poison Damage to an enemy, summon the Scavenging Maw which attacks your enemy after 2 seconds. The Scavenging Maw deals <span class=\"poison-damage\">2716 Poison Damage</span> and inflicts <span class=\"buff\">Minor Vulnerability</span> for 15 seconds, increasing their damage taken by 5%. This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -77444,20 +78655,23 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a fully-charged Heavy Attack, you gain an Imbued Aura for 10 seconds, granting you and up to 3 other group members 307 Magicka and Stamina Recovery. This effect can occur once every 20 seconds. If you deal damage with a fully-charged Heavy Attack with an Imbued Aura active, consume it and gain an Overflow Aura for 10 seconds, granting you and up to 3 other group members 307 Weapon and Spell Damage.",
@@ -77465,7 +78679,8 @@ const ESO_SETS = [
           "staminaRecovery": null,
           "spellDamage": 307,
           "weaponDamage": 307
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you gain an Imbued Aura for 10 seconds, granting you and up to 3 other group members <span class=\"magicka\">307 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery. This effect can occur once every 20 seconds.\n\nIf you deal damage with a fully-charged Heavy Attack with an Imbued Aura active, consume it and gain an Overflow Aura for 10 seconds, granting you and up to 3 other group members <span class=\"stamina\">307 Weapon</span> and <span class=\"magicka\">Spell Damage</span>."
       },
       "count": 5
     },
@@ -77689,13 +78904,15 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "2": {
         "description": "When you take damage, you have a 10% chance to create a beam that steals 2177 Health over 6 seconds from the attacker. While the beam holds you gain Major Vitality, increasing your healing received by 16%. The beam breaks if the enemy moves further than 8 meters away. This effect can occur once every 6 seconds and scales off your Max Health.",
         "buffs": [
           "Major Vitality"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 10% chance to create a beam that steals 2177 Health over 6 seconds from the attacker. While the beam holds you gain <span class=\"buff\">Major Vitality</span>, increasing your healing received by 16%. The beam breaks if the enemy moves further than 8 meters away. This effect can occur once every 6 seconds and scales off your Max Health."
       },
       "count": 2
     },
@@ -77778,13 +78995,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you deal Martial melee damage, you call upon a primal spirit that mauls the closest enemy in front of you after 1.3 seconds for 1787 Physical damage. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Martial melee damage, you call upon a primal spirit that mauls the closest enemy in front of you after 1.3 seconds for <span class=\"physical-damage\">1787 Physical damage</span>. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -77867,13 +79086,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you deal damage you create an earthquake under the enemy that erupts after 1.5 seconds, dealing 1023 Physical damage to all enemies within 4 meters and stunning them for 3 seconds. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage you create an earthquake under the enemy that erupts after 1.5 seconds, dealing <span class=\"physical-damage\">1023 Physical damage</span> to all enemies within 4 meters and stunning them for 3 seconds. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -77956,22 +79177,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal's Duty, up to 10 stacks. After completing a fully-charged Heavy Attack, restore 757 Stamina and Magicka for each stack of Senchal's Duty and consume them. You can only gain one stack of Senchal's Duty every 1 second."
+        "description": "Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal's Duty, up to 10 stacks. After completing a fully-charged Heavy Attack, restore 757 Stamina and Magicka for each stack of Senchal's Duty and consume them. You can only gain one stack of Senchal's Duty every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal's Duty, up to 10 stacks.  After completing a fully-charged Heavy Attack, restore 757 Stamina and Magicka for each stack of Senchal's Duty and consume them.  You can only gain one stack of Senchal's Duty every 1 second."
       },
       "count": 5
     },
@@ -78195,22 +79420,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Whenever you successfully Dodge, increase your Critical Damage and Critical Healing by 15% for 10 seconds."
+        "description": "Whenever you successfully Dodge, increase your Critical Damage and Critical Healing by 15% for 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully Dodge, increase your Critical Damage and Critical Healing by 15% for 10 seconds."
       },
       "count": 5
     },
@@ -78434,26 +79663,30 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "After being damaged by a damage over time ability, increase your Healing Received by 6% and your Physical and Spell Resistance by 2585 for 3 seconds.",
         "stats": {
           "spellResistance": 2585,
           "physicalResistance": 2585
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After being damaged by a damage over time ability, increase your Healing Received by 6% and your <span class=\"health\">Physical and Spell Resistance by 2585</span> for 3 seconds."
       },
       "count": 5
     },
@@ -78803,10 +80036,12 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "2": {
-        "description": "When you heal yourself or an ally you summon a Dwemer spider that heals for 1000 Health and restores 125 Magicka and Stamina to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds."
+        "description": "When you heal yourself or an ally you summon a Dwemer spider that heals for 1000 Health and restores 125 Magicka and Stamina to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally you summon a Dwemer spider that heals for 1000 Health and restores <span class=\"magicka\">125 Magicka</span> and <span class=\"stamina\">Stamina</span> to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds."
       },
       "count": 2
     },
@@ -78889,25 +80124,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 266 Weapon Damage, When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds.",
         "stats": {
           "weaponDamage": 266
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">266 Weapon Damage</span>, When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds."
       },
       "count": 5
     },
@@ -79131,22 +80370,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Increases the damage of your fully-charged Heavy Attacks by 2257."
+        "description": "Increases the damage of your fully-charged Heavy Attacks by 2257.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the damage of your fully-charged Heavy Attacks by 2257."
       },
       "count": 5
     },
@@ -79374,19 +80617,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you cast an ability that increases your Physical or Spell Resistance while in combat, you gain 341 Weapon Damage and 341 Health Recovery for 15 seconds. This effect can occur every 15 seconds.",
@@ -79394,7 +80640,8 @@ const ESO_SETS = [
           "healthRecovery": 341,
           "weaponDamage": 341,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that increases your Physical or Spell Resistance while in combat, you gain <span class=\"stamina\">341 Weapon Damage</span> and <span class=\"health\">341 Health Recovery</span> for 15 seconds. This effect can occur every 15 seconds."
       },
       "count": 5
     },
@@ -79618,27 +80865,31 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Adds 2065 Maximum Stamina, Adds 2065 Maximum Magicka",
         "stats": {
           "maximumMagicka": 2065,
           "maximumStamina": 2065
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">2065 Maximum Stamina</span>, Adds <span class=\"magicka\">2065 Maximum Magicka</span>"
       },
       "count": 5
     },
@@ -79988,25 +81239,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 129 Stamina Recovery, Ignore the Movement Speed penalty of Sneak.",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, Ignore the Movement Speed penalty of Sneak."
       },
       "count": 5
     },
@@ -80230,25 +81485,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal damage with a weapon, you spawn a volcano that erupts after 1 second, launching liquid hot lava at the closest enemy dealing 1952 Flame damage. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a weapon, you spawn a volcano that erupts after 1 second, launching liquid hot lava at the closest enemy dealing <span class=\"flame-damage\">1952 Flame damage</span>. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -80472,22 +81731,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second."
+        "description": "While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second."
       },
       "count": 5
     },
@@ -80711,13 +81974,15 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "2": {
         "description": "When you take damage, you summon a shadowy Clannfear for 15 seconds. The Clannfear's attacks deal 615 Magic damage and apply Minor Maim, reducing the target's damage done by 5% for 2 seconds. The Clannfear can be summoned once every 15 seconds and its damage scales off your Max Health.",
         "buffs": [
           "Minor Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you summon a shadowy Clannfear for 15 seconds. The Clannfear's attacks deal <span class=\"magic-damage\">615 Magic damage</span> and apply <span class=\"buff\">Minor Maim</span>, reducing the target's damage done by 5% for 2 seconds. \n\nThe Clannfear can be summoned once every 15 seconds and its damage scales off your Max Health."
       },
       "count": 2
     },
@@ -80800,22 +82065,26 @@ const ESO_SETS = [
         "description": "Adds 841 Maximum Health",
         "stats": {
           "maximumHealth": 841
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">841 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 841 Maximum Health",
         "stats": {
           "maximumHealth": 841
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">841 Maximum Health</span>"
       },
       "5": {
-        "description": "While you are under 50% Health, dealing damage with a Light or Heavy Attack heals you for 988 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
+        "description": "While you are under 50% Health, dealing damage with a Light or Heavy Attack heals you for 988 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are under 50% Health, dealing damage with a Light or Heavy Attack heals you for 988 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -81165,19 +82434,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 171 Spell Damage, Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
@@ -81186,7 +82458,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Heroism"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Minor Heroism</span> at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
       },
       "count": 5
     },
@@ -81410,7 +82683,8 @@ const ESO_SETS = [
         "description": "Reduce the cost of your Transformation Ultimate abilities by 15%. While transformed, increase your Maximum Health, Stamina, and Magicka by 1707.",
         "stats": {
           "maximumHealth": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Reduce the cost of your Transformation Ultimate abilities by 15%. While transformed, increase your Maximum Health, Stamina, and Magicka by 1707."
       },
       "count": 1
     },
@@ -81441,25 +82715,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal damage with an Execute ability you infect the enemy, dealing 996 Poison damage over 6 seconds and dealing up to 100% more damage to enemies under 100% Health. This effect can occur once every 6 seconds per target and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with an Execute ability you infect the enemy, dealing <span class=\"poison-damage\">996 Poison damage</span> over 6 seconds and dealing up to 100% more damage to enemies under 100% Health. This effect can occur once every 6 seconds per target and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -81683,22 +82961,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active."
+        "description": "Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active."
       },
       "count": 5
     },
@@ -81922,19 +83204,23 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
-        "description": "Reduces your damage taken from Players by 3%."
+        "description": "Reduces your damage taken from Players by 3%.",
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Reduces your damage taken from Players by 3%."
       },
       "5": {
-        "description": "Reduces the cost of Break Free by 40%."
+        "description": "Reduces the cost of Break Free by 40%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Break Free by 40%."
       },
       "count": 5
     },
@@ -82158,25 +83444,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "When you cast an ability that costs resources while under 33% Magicka while in combat, your Magicka Recovery is increased by 1106 for 20 seconds. This effect can occur once every 1 minute.",
         "stats": {
           "magickaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 33% Magicka while in combat, your Magicka Recovery is increased by 1106 for 20 seconds. This effect can occur once every 1 minute."
       },
       "count": 5
     },
@@ -82404,25 +83694,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 400 Spell Damage to your Flame Damage abilities.",
         "stats": {
           "spellDamage": 400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Flame Damage abilities."
       },
       "count": 5
     },
@@ -82646,25 +83940,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Blocking an attack grants you a stack of Realmshaper for 15 seconds, gaining up to 1 stack every 0.5 seconds. When you reach 3 stacks, you consume them and launch necrotic energy at your attacker, dealing 3226 Magic Damage and applying Major Maim for 12 seconds, reducing their damage done by 10%. Once you fire the necrotic energy, you cannot gain additional stacks of Realmshaper for 12 seconds. Damage scales off of your Max Health.",
         "buffs": [
           "Major Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Blocking an attack grants you a stack of Realmshaper for 15 seconds, gaining up to 1 stack every 0.5 seconds. When you reach 3 stacks, you consume them and launch necrotic energy at your attacker, dealing <span class=\"magic-damage\">3226 Magic Damage</span> and applying <span class=\"buff\">Major Maim</span> for 12 seconds, reducing their damage done by 10%. Once you fire the necrotic energy, you cannot gain additional stacks of Realmshaper for 12 seconds. Damage scales off of your Max Health."
       },
       "count": 5
     },
@@ -82888,23 +84186,27 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
-        "description": "When you kill an enemy you gain 5% movement speed for 30 seconds and become invisible for 3 seconds. The movement speed stacks up to 20 times."
+        "description": "When you kill an enemy you gain 5% movement speed for 30 seconds and become invisible for 3 seconds. The movement speed stacks up to 20 times.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you kill an enemy you gain 5% movement speed for 30 seconds and become invisible for 3 seconds.  The movement speed stacks up to 20 times."
       },
       "count": 5
     },
@@ -83254,25 +84556,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you drink a potion, you gain Major Expedition for 30 seconds, increasing your Movement Speed by 30%.",
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion, you gain <span class=\"buff\">Major Expedition</span> for 30 seconds, increasing your Movement Speed by 30%."
       },
       "count": 5
     },
@@ -83496,13 +84802,15 @@ const ESO_SETS = [
         "description": "Adds 771 Critical Chance",
         "stats": {
           "criticalChance": 771
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds 771 Critical Chance"
       },
       "2": {
         "description": "Gain Minor Berserk at all times, increasing your damage done by 5%.",
         "buffs": [
           "Minor Berserk"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Gain <span class=\"buff\">Minor Berserk</span> at all times, increasing your damage done by 5%."
       },
       "count": 2
     },
@@ -83585,23 +84893,27 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
-        "description": "Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds. This can deal a maximum of 3000 Oblivion Damage per tick."
+        "description": "Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds. This can deal a maximum of 3000 Oblivion Damage per tick.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds.\n\nThis can deal a maximum of 3000 Oblivion Damage per tick."
       },
       "count": 5
     },
@@ -83948,7 +85260,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint.<br>",
     "bonuses": {
       "1": {
-        "description": "While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint."
+        "description": "While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint.",
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint."
       },
       "count": 1
     },
@@ -83980,22 +85293,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Your melee Light Attacks place a ring on the ground that explodes after 1.3 seconds, applying 4830 Heal Absorption to all enemies hit for 4 seconds, negating the next 4830 points of healing done. This effect can occur once every 6 seconds."
+        "description": "Your melee Light Attacks place a ring on the ground that explodes after 1.3 seconds, applying 4830 Heal Absorption to all enemies hit for 4 seconds, negating the next 4830 points of healing done. This effect can occur once every 6 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your melee Light Attacks place a ring on the ground that explodes after 1.3 seconds, applying 4830 Heal Absorption to all enemies hit for 4 seconds, negating the next 4830 points of healing done. This effect can occur once every 6 seconds."
       },
       "count": 5
     },
@@ -84219,22 +85536,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 30% Health, you deal 1377 Magic damage to the attacker and heal for the damage done. This effect can occur once every 3 seconds and scales off your Max Health."
+        "description": "When you take damage while you are under 30% Health, you deal 1377 Magic damage to the attacker and heal for the damage done. This effect can occur once every 3 seconds and scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 30% Health, you deal <span class=\"magic-damage\">1377 Magic damage</span> to the attacker and heal for the damage done. This effect can occur once every 3 seconds and scales off your Max Health."
       },
       "count": 5
     },
@@ -84592,25 +85913,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Activating an ability with a cast or channel time grants you 369 Spell Damage for 5 seconds.",
         "stats": {
           "spellDamage": 369
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Activating an ability with a cast or channel time grants you <span class=\"magicka\">369 Spell Damage</span> for 5 seconds."
       },
       "count": 5
     },
@@ -84836,7 +86161,8 @@ const ESO_SETS = [
           "staminaRecovery": null,
           "spellDamage": 260,
           "weaponDamage": 260
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Activating crouch activates and deactivates a 12 meter Aura of Pride. Up to 6 allies in the aura gain <span class=\"stamina\">260 Weapon</span> and <span class=\"magicka\">Spell Damage</span>. Reduce your Health, Magicka, and Stamina Recovery by 70 for every ally benefiting from your Aura of Pride."
       },
       "count": 1
     },
@@ -84874,13 +86200,15 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you deal damage with a fully-charged Heavy Attack, you create a web for 10 seconds that deals 199 Poison damage every 1 second to all enemies within 4 meters and reduces their Movement Speed by 50%. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a fully-charged Heavy Attack, you create a web for 10 seconds that deals <span class=\"poison-damage\">199 Poison damage</span> every 1 second to all enemies within 4 meters and reduces their Movement Speed by 50%. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -84960,7 +86288,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%.<br>",
     "bonuses": {
       "2": {
-        "description": "Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
+        "description": "Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
       },
       "count": 2
     },
@@ -85025,25 +86354,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you cast a Magicka ability while in combat you gain Major Evasion for 30 seconds, reducing damage from area attacks by 20%. This effect can occur once every 30 seconds.",
         "buffs": [
           "Major Evasion"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability while in combat you gain <span class=\"buff\">Major Evasion</span> for 30 seconds, reducing damage from area attacks by 20%. This effect can occur once every 30 seconds."
       },
       "count": 5
     },
@@ -85393,22 +86726,26 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Whenever you deal damage, you restore 63 Magicka. This effect can occur once every 0.25 seconds."
+        "description": "Whenever you deal damage, you restore 63 Magicka. This effect can occur once every 0.25 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal damage, you restore 63 Magicka. This effect can occur once every 0.25 seconds."
       },
       "count": 5
     },
@@ -85758,19 +87095,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you overheal yourself or an ally, you give the target Major Courage for 5 seconds which increases their Weapon and Spell Damage by 430.",
@@ -85780,7 +87120,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself or an ally, you give the target <span class=\"buff\">Major Courage</span> for 5 seconds which increases their Weapon and <span class=\"magicka\">Spell Damage by 430</span>."
       },
       "count": 5
     },
@@ -86004,25 +87345,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage with a Light Attack, you place a mark over your target for 5 seconds, granting you 460 Spell Damage against your marked target. This effect can occur every 4 seconds.",
         "stats": {
           "spellDamage": 460
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light Attack, you place a mark over your target for 5 seconds, granting you <span class=\"magicka\">460 Spell Damage</span> against your marked target. This effect can occur every 4 seconds."
       },
       "count": 5
     },
@@ -86246,22 +87591,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "Reduces the cost of your Undaunted abilities by 10%. When an ally uses one of your Undaunted ability synergies you restore 730 Magicka and Stamina. This effect can occur once every 5 seconds."
+        "description": "Reduces the cost of your Undaunted abilities by 10%. When an ally uses one of your Undaunted ability synergies you restore 730 Magicka and Stamina. This effect can occur once every 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Undaunted abilities by 10%. When an ally uses one of your Undaunted ability synergies you restore <span class=\"magicka\">730 Magicka</span> and <span class=\"stamina\">Stamina</span>.  This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -86489,25 +87838,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 600 Spell Damage to your Destruction Staff abilities.",
         "stats": {
           "spellDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Destruction Staff abilities."
       },
       "count": 5
     },
@@ -86646,25 +87999,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 3460 Spell Penetration",
         "stats": {
           "spellPenetration": 3460
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">3460 Spell Penetration</span>"
       },
       "count": 5
     },
@@ -86888,25 +88245,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 3460 Physical Penetration",
         "stats": {
           "physicalPenetration": 3460
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">3460 Physical Penetration</span>"
       },
       "count": 5
     },
@@ -87130,25 +88491,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you cleanse a negative effect from yourself or an ally, gain Major Protection for 10 seconds, reducing your damage taken by 10%. This effect can occur once every 12 seconds.",
         "buffs": [
           "Major Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cleanse a negative effect from yourself or an ally, gain <span class=\"buff\">Major Protection</span> for 10 seconds, reducing your damage taken by 10%. This effect can occur once every 12 seconds."
       },
       "count": 5
     },
@@ -87372,22 +88737,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you heal yourself or an ally, you remove all negative effects from them. This effect can occur once every 30 seconds per target."
+        "description": "When you heal yourself or an ally, you remove all negative effects from them. This effect can occur once every 30 seconds per target.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally, you remove all negative effects from them. This effect can occur once every 30 seconds per target."
       },
       "count": 5
     },
@@ -87608,7 +88977,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed.<br>",
     "bonuses": {
       "2": {
-        "description": "Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed."
+        "description": "Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed."
       },
       "count": 2
     },
@@ -87673,14 +89043,16 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "2": {
         "description": "Your Heavy Attacks tether you to enemies within 10 meters for 5 seconds, as long as you remain within 12 meters. Enemies touching the tether take 223 Physical damage every 1 second and you gain a stack of Husk Drain, up to 15 stacks. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage. When the tether ends, you consume the stacks and gain 30 Weapon Damage per stack for 5 seconds.",
         "stats": {
           "spellDamage": null,
           "weaponDamage": 30
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Your Heavy Attacks tether you to enemies within 10 meters for 5 seconds, as long as you remain within 12 meters. Enemies touching the tether take <span class=\"physical-damage\">223 Physical damage</span> every 1 second and you gain a stack of Husk Drain, up to 15 stacks. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.\n\nWhen the tether ends, you consume the stacks and gain <span class=\"stamina\">30 Weapon Damage</span> per stack for 5 seconds."
       },
       "count": 2
     },
@@ -87763,22 +89135,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds."
+        "description": "Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds."
       },
       "count": 5
     },
@@ -88004,10 +89380,12 @@ const ESO_SETS = [
           "maximumHealth": 603,
           "maximumMagicka": 548,
           "maximumStamina": 548
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">548 Maximum Stamina</span>, Adds <span class=\"magicka\">548 Maximum Magicka</span>, Adds <span class=\"health\">603 Maximum Health</span>"
       },
       "2": {
-        "description": "When you block an attack, you gain an energy Charge stack. When you gain 6 Charges, you release the energy, restoring 2480 Stamina and Magicka, and healing for 2480. After releasing the Charges, you cannot regain new Charges for 14 seconds. Charges can be accumulated up to once every .25 seconds."
+        "description": "When you block an attack, you gain an energy Charge stack. When you gain 6 Charges, you release the energy, restoring 2480 Stamina and Magicka, and healing for 2480. After releasing the Charges, you cannot regain new Charges for 14 seconds. Charges can be accumulated up to once every .25 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack, you gain an energy Charge stack. When you gain 6 Charges, you release the energy, restoring 2480 Stamina and Magicka, and healing for 2480. After releasing the Charges, you cannot regain new Charges for 14 seconds.\n\nCharges can be accumulated up to once every .25 seconds."
       },
       "count": 2
     },
@@ -88090,25 +89468,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you take non-Physical Damage, you deal 375 Shock damage to all enemies within 5 meters of you every 2 seconds for 6 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take non-Physical Damage, you deal <span class=\"shock-damage\">375 Shock damage</span> to all enemies within 5 meters of you every 2 seconds for 6 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -88332,22 +89714,26 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "When you deal Critical Damage with a fully-charged Heavy Attack, your Light and Heavy Attacks deal an additional 1542 damage for 20 seconds. This effect can occur once every 10 seconds"
+        "description": "When you deal Critical Damage with a fully-charged Heavy Attack, your Light and Heavy Attacks deal an additional 1542 damage for 20 seconds. This effect can occur once every 10 seconds",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage with a fully-charged Heavy Attack, your Light and Heavy Attacks deal an additional 1542 damage for 20 seconds. This effect can occur once every 10 seconds"
       },
       "count": 5
     },
@@ -88571,14 +89957,16 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "2": {
         "description": "When you deal damage, you have a 10% chance to create a thunderfist to crush the enemy, dealing 291 Shock damage every 1 second for 3 seconds to all enemies within 4 meters and a final 9636 Physical damage when the fist closes. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage. The Shock Damage dealt from this set bypasses Spell Resistance.",
         "stats": {
           "spellDamage": null,
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 10% chance to create a thunderfist to crush the enemy, dealing <span class=\"shock-damage\">291 Shock damage</span> every 1 second for 3 seconds to all enemies within 4 meters and a final <span class=\"physical-damage\">9636 Physical damage</span> when the fist closes. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.\n\nThe Shock Damage dealt from this set bypasses Spell Resistance."
       },
       "count": 2
     },
@@ -88661,25 +90049,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 400 Weapon Damage to your Physical and Bleed Damage abilities.",
         "stats": {
           "weaponDamage": 400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">400 Weapon Damage</span> to your Physical and Bleed Damage abilities."
       },
       "count": 5
     },
@@ -88908,26 +90300,30 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "When you deal damage to an enemy who is Off Balance, your Physical and Spell Penetration is increased by 5312 for 10 seconds.",
         "stats": {
           "spellPenetration": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage to an enemy who is Off Balance, your Physical and Spell Penetration is increased by 5312 for 10 seconds."
       },
       "count": 5
     },
@@ -89278,27 +90674,31 @@ const ESO_SETS = [
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "5": {
         "description": "When you leave Sneak or invisibility while in combat, your Weapon and Spell Damage is increased by 369 for 15 seconds.",
         "stats": {
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you leave Sneak or invisibility while in combat, your Weapon and Spell Damage is increased by 369 for 15 seconds."
       },
       "count": 5
     },
@@ -89522,25 +90922,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds.",
         "stats": {
           "weaponCritical": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds."
       },
       "count": 5
     },
@@ -89764,19 +91168,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal damage with a fully-charged Heavy Attack, you deal an additional 2025 Flame Damage over 10 seconds and apply Minor Breach to the enemy, reducing their Physical and Spell Resistance by 2974. This effect scales off the higher of your Weapon or Spell Damage.",
@@ -89787,7 +91194,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Breach"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you deal an additional <span class=\"flame-damage\">2025 Flame Damage</span> over 10 seconds and apply <span class=\"buff\">Minor Breach</span> to the enemy, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>.  This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -90015,25 +91423,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 600 Weapon Damage to your Poison and Disease Damage abilities.",
         "stats": {
           "weaponDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Poison and Disease Damage abilities."
       },
       "count": 5
     },
@@ -90258,10 +91670,12 @@ const ESO_SETS = [
         "stats": {
           "maximumMagicka": 1096,
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "2": {
-        "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
+        "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
       },
       "count": 2
     },
@@ -90344,25 +91758,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Adds 600 Weapon Damage to your Dual Wield abilities.",
         "stats": {
           "weaponDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Dual Wield abilities."
       },
       "count": 5
     },
@@ -90506,25 +91924,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 600 Weapon Damage to your Two Handed abilities.",
         "stats": {
           "weaponDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Two Handed abilities."
       },
       "count": 5
     },
@@ -90659,10 +92081,12 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "2": {
-        "description": "When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores 570 Magicka or Stamina every 1 second for 6 seconds. This effect can occur every 18 seconds per target. The resource returned is based off the target's highest maximum resource."
+        "description": "When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores 570 Magicka or Stamina every 1 second for 6 seconds. This effect can occur every 18 seconds per target. The resource returned is based off the target's highest maximum resource.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores <span class=\"magicka\">570 Magicka</span> or <span class=\"stamina\">Stamina</span> every 1 second for 6 seconds. This effect can occur every 18 seconds per target.\n\nThe resource returned is based off the target's highest maximum resource."
       },
       "count": 2
     },
@@ -90745,22 +92169,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 805 Magicka. This effect can occur once every 1 second."
+        "description": "When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 805 Magicka. This effect can occur once every 1 second.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 805 Magicka. This effect can occur once every 1 second."
       },
       "count": 5
     },
@@ -90984,25 +92412,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka, Reduces your damage taken from Guards by 20%.",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Reduces your damage taken from Guards by 20%."
       },
       "5": {
         "description": "When you deal damage, you cause a burst of lamia poison that deals 157 Poison damage in a 5 meter radius and an additional 1572 Poison damage over 6 seconds to all enemies hit. This effect can occur once every 7 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you cause a burst of lamia poison that deals <span class=\"poison-damage\">157 Poison damage</span> in a 5 meter radius and an additional <span class=\"poison-damage\">1572 Poison damage</span> over 6 seconds to all enemies hit. This effect can occur once every 7 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -91352,25 +92784,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Increases Spell Damage by 372. Increase damage taken from Flame and Fighter's Guild abilities by 10%.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases <span class=\"magicka\">Spell Damage by 372</span>. Increase damage taken from Flame and Fighter's Guild abilities by 10%."
       },
       "count": 5
     },
@@ -91594,22 +93030,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you dodge an attack, you receive the blessing of Tava, generating 12 Ultimate over 3 seconds. This effect can occur once every 3 seconds."
+        "description": "When you dodge an attack, you receive the blessing of Tava, generating 12 Ultimate over 3 seconds. This effect can occur once every 3 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you dodge an attack, you receive the blessing of Tava, generating 12 Ultimate over 3 seconds.  This effect can occur once every 3 seconds."
       },
       "count": 5
     },
@@ -91959,25 +93399,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "When you complete a fully-charged Heavy Attack, you gain an additional 506 Magicka Recovery for 10 seconds.",
         "stats": {
           "magickaRecovery": 506
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you gain an additional <span class=\"magicka\">506 Magicka Recovery</span> for 10 seconds."
       },
       "count": 5
     },
@@ -92201,7 +93645,8 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "count": 3
     },
@@ -92256,25 +93701,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal Frost Damage, you deal an additional 250 Flame Damage to all enemies within 8 meters around the initial target. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Frost Damage, you deal an additional <span class=\"flame-damage\">250 Flame Damage</span> to all enemies within 8 meters around the initial target. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -92498,25 +93947,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "When you take damage while under 30% Health, heal for 4428 Health immediately and gain 20000 Armor for 15 seconds. This effect can occur once every 1 minute and the heal scales off your Max Health.",
         "stats": {
           "armor": 20000
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 30% Health, heal for 4428 Health immediately and gain <span class=\"health\">20000 Armor</span> for 15 seconds. This effect can occur once every 1 minute and the heal scales off your Max Health."
       },
       "count": 5
     },
@@ -92740,22 +94193,26 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
-        "description": "When you deal direct damage, you cause the enemy to take 10% more damage from Poison and Disease attacks for 5 seconds."
+        "description": "When you deal direct damage, you cause the enemy to take 10% more damage from Poison and Disease attacks for 5 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you cause the enemy to take 10% more damage from Poison and Disease attacks for 5 seconds."
       },
       "count": 5
     },
@@ -92979,13 +94436,15 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Done",
         "stats": {
           "healingDone": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Done</span>"
       },
       "2": {
         "description": "When you heal yourself or an ally, if they are still below 50% Health, their Health Recovery is increased by 925 for 10 seconds.",
         "stats": {
           "healthRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally, if they are still below 50% Health, their Health Recovery is increased by 925 for 10 seconds."
       },
       "count": 2
     },
@@ -93068,25 +94527,29 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "Grants 145 Magicka Recovery to you and up to 11 other group members within 28 meters of you.",
         "stats": {
           "magickaRecovery": 145
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Grants <span class=\"magicka\">145 Magicka Recovery</span> to you and up to 11 other group members within 28 meters of you."
       },
       "count": 5
     },
@@ -93310,22 +94773,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "When you block an attack, you deal 717 Physical Damage to the attacker. This effect scales off your Max Health."
+        "description": "When you block an attack, you deal 717 Physical Damage to the attacker. This effect scales off your Max Health.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you deal <span class=\"physical-damage\">717 Physical Damage</span> to the attacker. This effect scales off your Max Health."
       },
       "count": 5
     },
@@ -93587,7 +95054,8 @@ const ESO_SETS = [
           "maximumHealth": null,
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Killing an enemy grants you a stack of Sload's Call for 1 hour, up to a maximum of 50 stacks. Each stack increases your Weapon and <span class=\"magicka\">Spell Damage by 23</span>, reduces your Maximum Health by 120, and reduces effectiveness of your damage shields by 1%. \n\nSload's Call is lost if you remove Thrassian Stranglers, go invisible, or crouch."
       },
       "count": 1
     },
@@ -93619,27 +95087,31 @@ const ESO_SETS = [
         "description": "Adds 1487 Offensive Penetration",
         "stats": {
           "offensivePenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Offensive Penetration</span>"
       },
       "3": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "Dealing damage with a fully-charged Heavy Attack calls a bolt of lightning at your target, dealing 1875 Shock Damage and leaving a 4 meter lightning crater at their location for 6 seconds, dealing 393 Shock Damage per second to enemies touching the crater. This effect can occur once every 12 seconds and scales off of the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a fully-charged Heavy Attack calls a bolt of lightning at your target, dealing <span class=\"shock-damage\">1875 Shock Damage</span> and leaving a 4 meter lightning crater at their location for 6 seconds, dealing <span class=\"shock-damage\">393 Shock Damage</span> per second to enemies touching the crater. This effect can occur once every 12 seconds and scales off of the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -93863,25 +95335,29 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you take Physical Damage, you deal 750 Shock Damage in a 5 meter radius around you. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take Physical Damage, you deal <span class=\"shock-damage\">750 Shock Damage</span> in a 5 meter radius around you. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -94102,7 +95578,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times.<br>",
     "bonuses": {
       "2": {
-        "description": "Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times."
+        "description": "Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times."
       },
       "count": 2
     },
@@ -94140,7 +95617,8 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "2": {
         "description": "When you take damage from a nearby enemy, you summon a growing pool of desecrated bile for 8 seconds. Enemies in the bile take 195 Disease damage every 1 second and are afflicted with Minor Maim and the Diseased status for 4 seconds, reducing their damage done by 5% and healing received and Health Recovery by 8%. This effect can occur every 16 seconds and the damage scales off your Max Health.",
@@ -94149,7 +95627,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage from a nearby enemy, you summon a growing pool of desecrated bile for 8 seconds. Enemies in the bile take <span class=\"disease-damage\">195 Disease damage</span> every 1 second and are afflicted with <span class=\"buff\">Minor Maim</span> and the Diseased status for 4 seconds, reducing their damage done by 5% and healing received and Health Recovery by 8%. This effect can occur every 16 seconds and the damage scales off your Max Health."
       },
       "count": 2
     },
@@ -94229,7 +95708,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds.<br>",
     "bonuses": {
       "2": {
-        "description": "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
+        "description": "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
       },
       "count": 2
     },
@@ -94267,26 +95747,30 @@ const ESO_SETS = [
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "Adds 110 Weapon Damage and 1240 Physical Penetration. While in combat, this bonus doubles to 220 Weapon Damage and 2480 Physical Penetration when you are under 75% Health. While in combat, this bonus quadruples to 440 Weapon Damage and 4960 Physical Penetration when you are under 50% Health.",
         "stats": {
           "weaponDamage": 110,
           "physicalPenetration": 1240
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">110 Weapon Damage</span> and <span class=\"stamina\">1240 Physical Penetration</span>.  While in combat, this bonus doubles to <span class=\"stamina\">220 Weapon Damage</span> and <span class=\"stamina\">2480 Physical Penetration</span> when you are under 75% Health. While in combat, this bonus quadruples to <span class=\"stamina\">440 Weapon Damage</span> and <span class=\"stamina\">4960 Physical Penetration</span> when you are under 50% Health."
       },
       "count": 5
     },
@@ -94507,7 +95991,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the direct damage Cleave deals by 1550 for each enemy in its cone.<br>",
     "bonuses": {
       "2": {
-        "description": "Increases the direct damage Cleave deals by 1550 for each enemy in its cone."
+        "description": "Increases the direct damage Cleave deals by 1550 for each enemy in its cone.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the direct damage Cleave deals by 1550 for each enemy in its cone."
       },
       "count": 2
     },
@@ -94563,25 +96048,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%.",
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy while in combat, gain <span class=\"buff\">Major Slayer</span> for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
       },
       "count": 5
     },
@@ -94805,19 +96294,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 171 Weapon Damage, Gain Major Savagery at all times, increasing your Weapon Critical rating by 2629.",
@@ -94827,7 +96319,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Savagery"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">171 Weapon Damage</span>, Gain <span class=\"buff\">Major Savagery</span> at all times, increasing your Weapon Critical rating by 2629."
       },
       "count": 5
     },
@@ -95056,7 +96549,8 @@ const ESO_SETS = [
         "stats": {
           "magickaRecovery": null,
           "staminaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While your Stamina is less than 50%, increase your Magicka Recovery by 450. While your Magicka is less than 50%, increase your Stamina Recovery by 450."
       },
       "count": 1
     },
@@ -95087,25 +96581,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "When you deal direct damage with a Charge, Leap, Teleport, or Pull ability, you gain 3642 Physical and Spell Resistance and taunt the enemy to attack you for 15 seconds.",
         "stats": {
           "spellResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Charge, Leap, Teleport, or Pull ability, you gain 3642 Physical and Spell Resistance and taunt the enemy to attack you for 15 seconds."
       },
       "count": 5
     },
@@ -95333,22 +96831,26 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "Decreases weapon enchantment cooldown by 33% and increases non Oblivion Damage weapon enchantment potency by 45%."
+        "description": "Decreases weapon enchantment cooldown by 33% and increases non Oblivion Damage weapon enchantment potency by 45%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Decreases weapon enchantment cooldown by 33% and increases non Oblivion Damage weapon enchantment potency by 45%."
       },
       "count": 5
     },
@@ -95706,22 +97208,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
-        "description": "When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds."
+        "description": "When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds."
       },
       "count": 5
     },
@@ -95945,19 +97451,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 171 Spell Damage, Gain Major Prophecy at all times, increasing your Spell Critical rating by 2629.",
@@ -95967,7 +97476,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Prophecy"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Major Prophecy</span> at all times, increasing your Spell Critical rating by 2629."
       },
       "count": 5
     },
@@ -96191,7 +97701,8 @@ const ESO_SETS = [
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "count": 3
     },
@@ -96231,14 +97742,16 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you activate a taunt ability on an enemy, you cause a duneripper to burst from the ground beneath them after 1 second, dealing 0 Physical damage to all enemies within 4 meters and reducing their Physical Resistance by 2395 for 8 seconds. This effect can occur once every 8 seconds and the damage scales off the higher of your Physical or Spell Resistance.",
         "stats": {
           "spellResistance": null,
           "physicalResistance": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you activate a taunt ability on an enemy, you cause a duneripper to burst from the ground beneath them after 1 second, dealing <span class=\"physical-damage\">0 Physical damage</span> to all enemies within 4 meters and reducing their Physical Resistance by 2395 for 8 seconds. This effect can occur once every 8 seconds and the damage scales off the higher of your Physical or Spell Resistance."
       },
       "count": 2
     },
@@ -96321,25 +97834,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
         "description": "While under the effect of an Elemental Status Effect you gain 8500 Armor.",
         "stats": {
           "armor": 8500
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While under the effect of an Elemental Status Effect you gain <span class=\"health\">8500 Armor</span>."
       },
       "count": 5
     },
@@ -96689,22 +98206,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your group members for 1466 Health and damages enemies for 1466 Magic damage in a 5 meter radius after a 2 second delay. This effect can occur once every 5 seconds and scales with the higher of your Max Magicka or Stamina."
+        "description": "When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your group members for 1466 Health and damages enemies for 1466 Magic damage in a 5 meter radius after a 2 second delay. This effect can occur once every 5 seconds and scales with the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your group members for 1466 Health and damages enemies for <span class=\"magic-damage\">1466 Magic damage</span> in a 5 meter radius after a 2 second delay. This effect can occur once every 5 seconds and scales with the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -96928,25 +98449,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 708 Spell Critical and increases your Critical Damage by 4%. While in combat, this bonus doubles to 1416 Spell Critical and 8% increased Critical Damage when you are under 75% Health. While in combat this bonus quadruples to 2832 Spell Critical and 16% increased Critical Damage when you are under 50% Health.",
         "stats": {
           "spellCritical": 708
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">708 Spell Critical</span> and increases your Critical Damage by 4%. While in combat, this bonus doubles to <span class=\"magicka\">1416 Spell Critical</span> and 8% increased Critical Damage when you are under 75% Health. While in combat this bonus quadruples to <span class=\"magicka\">2832 Spell Critical</span> and 16% increased Critical Damage when you are under 50% Health."
       },
       "count": 5
     },
@@ -97170,22 +98695,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "You can have two Mundus Stone boons at the same time."
+        "description": "You can have two Mundus Stone boons at the same time.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You can have two Mundus Stone boons at the same time."
       },
       "count": 5
     },
@@ -97535,25 +99064,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal damage, your Physical Penetration is increased by 544 for 5 seconds, stacking up to 10 times. This effect can occur once every half second.",
         "stats": {
           "physicalPenetration": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, your Physical Penetration is increased by 544 for 5 seconds, stacking up to 10 times. This effect can occur once every half second."
       },
       "count": 5
     },
@@ -97777,25 +99310,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When an ally activates your synergy, they heal themselves for 8088 Health over 15 seconds and gain Minor Force for the duration, increasing their Critical Damage by 10%. This effect scales off the higher of the synergy activator's Max Magicka or Stamina.",
         "buffs": [
           "Minor Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an ally activates your synergy, they heal themselves for 8088 Health over 15 seconds and gain <span class=\"buff\">Minor Force</span> for the duration, increasing their Critical Damage by 10%.  This effect scales off the higher of the synergy activator's Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -98019,22 +99556,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "Increases your healing received by 10%."
+        "description": "Increases your healing received by 10%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your healing received by 10%."
       },
       "count": 5
     },
@@ -98392,25 +99933,29 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you block an attack, you cause all enemies within 5 meters of you to bleed for 2034 Bleed damage over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you cause all enemies within 5 meters of you to bleed for <span class=\"physical-damage\">2034 Bleed damage</span> over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -98656,19 +100201,22 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "5": {
         "description": "When you deal Critical Damage, you gain a stack of Precision, increasing your Weapon Critical by 177 for 5 seconds, up to 10 stacks max. At max stacks, you also gain Minor Force, increasing your Critical Damage done by 10%. This effect can occur once every half second.",
@@ -98677,7 +100225,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Force"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you gain a stack of Precision, increasing your Weapon Critical by 177 for 5 seconds, up to 10 stacks max. At max stacks, you also gain <span class=\"buff\">Minor Force</span>, increasing your Critical Damage done by 10%.  This effect can occur once every half second."
       },
       "count": 5
     },
@@ -98901,23 +100450,27 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery, Adds 129 Stamina Recovery",
         "stats": {
           "magickaRecovery": 129,
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>, Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "Increases the Magicka or Stamina your Heavy Attacks restore by 30%."
+        "description": "Increases the Magicka or Stamina your Heavy Attacks restore by 30%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the Magicka or Stamina your Heavy Attacks restore by 30%."
       },
       "count": 5
     },
@@ -99141,26 +100694,30 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "After Breaking Free, gain Major Berserk for 12 seconds, increasing your damage done by 10%. This effect can occur once every 14 seconds.",
         "buffs": [
           "Major Berserk"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After Breaking Free, gain <span class=\"buff\">Major Berserk</span> for 12 seconds, increasing your damage done by 10%.  This effect can occur once every 14 seconds."
       },
       "count": 5
     },
@@ -99510,22 +101067,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
-        "description": "When you use a taunt ability while you are under 75% Health, gain a damage shield that absorbs 14127 damage for 6 seconds. This effect can occur once every 10 seconds."
+        "description": "When you use a taunt ability while you are under 75% Health, gain a damage shield that absorbs 14127 damage for 6 seconds. This effect can occur once every 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use a taunt ability while you are under 75% Health, gain a damage shield that absorbs 14127 damage for 6 seconds. This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -99753,22 +101314,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
-        "description": "When you use an ability that costs Magicka while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
+        "description": "When you use an ability that costs Magicka while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an ability that costs Magicka while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
       },
       "count": 5
     },
@@ -99992,22 +101557,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
-        "description": "When you use an ability that costs Stamina while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
+        "description": "When you use an ability that costs Stamina while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an ability that costs Stamina while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
       },
       "count": 5
     },
@@ -100231,25 +101800,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1487 Physical Penetration",
         "stats": {
           "physicalPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you deal damage, you call a murder of crows around you for 12 seconds. Every 3 seconds a crow will be sent to peck the closest enemy within 12 meters of you, dealing 915 Physical Damage. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you call a murder of crows around you for 12 seconds. Every 3 seconds a crow will be sent to peck the closest enemy within 12 meters of you, dealing <span class=\"physical-damage\">915 Physical Damage</span>. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -100473,22 +102046,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Dealing damage to an enemy applies Ritualist's Mark to them for 10 seconds. Enemies with your Ritualist's Mark take an additional 16% damage from your summoned pets."
+        "description": "Dealing damage to an enemy applies Ritualist's Mark to them for 10 seconds. Enemies with your Ritualist's Mark take an additional 16% damage from your summoned pets.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage to an enemy applies Ritualist's Mark to them for 10 seconds. Enemies with your Ritualist's Mark take an additional 16% damage from your summoned pets."
       },
       "count": 5
     },
@@ -100712,25 +102289,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you cut your enemy, causing them to bleed for 10 seconds, dealing 2095 Bleed Damage over the duration and applying the Hemorrhaging status effect every tick. This ability can occur once every 10 seconds per target and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you cut your enemy, causing them to bleed for 10 seconds, dealing <span class=\"physical-damage\">2095 Bleed Damage</span> over the duration and applying the Hemorrhaging status effect every tick. This ability can occur once every 10 seconds per target and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -100954,13 +102535,15 @@ const ESO_SETS = [
         "description": "Adds 1487 Spell Penetration",
         "stats": {
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>"
       },
       "2": {
         "description": "When you deal damage with a damage over time effect, you have a 8% chance to summon a meteor that deals 1409 Flame damage to the target and 469 Flame damage to all other enemies within 5 meters. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a damage over time effect, you have a 8% chance to summon a meteor that deals <span class=\"flame-damage\">1409 Flame damage</span> to the target and <span class=\"flame-damage\">469 Flame damage</span> to all other enemies within 5 meters. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -101043,19 +102626,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "Adds 171 Spell Damage, Gain Minor Protection at all times, reducing your damage taken by 5%.",
@@ -101064,7 +102650,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Protection"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Minor Protection</span> at all times, reducing your damage taken by 5%."
       },
       "count": 5
     },
@@ -101288,22 +102875,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
-        "description": "Increases the bonuses and penalties of your Vampire Stage, depending on how far you've progressed. Stage 1/2/3/4 1%/2%/4%/6% additional Flame Damage Taken."
+        "description": "Increases the bonuses and penalties of your Vampire Stage, depending on how far you've progressed. Stage 1/2/3/4 1%/2%/4%/6% additional Flame Damage Taken.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the bonuses and penalties of your Vampire Stage, depending on how far you've progressed.\n\nStage 1/2/3/4\n\n1%/2%/4%/6% additional Flame Damage Taken.\n1%/2%/4%/6% increased Regular Ability cost.\n5%/10%/15%/20% reduced Vampire Ability cost."
       },
       "count": 5
     },
@@ -101527,27 +103118,31 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina, Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096,
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 129 Weapon and Spell Damage, When you kill an enemy, you heal for 11040 Health over 10 seconds. This effect scales off the higher of your Max Magicka or Stamina.",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, When you kill an enemy, you heal for 11040 Health over 10 seconds.  This effect scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -101905,22 +103500,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "When you taunt an enemy Player, they deal 35% less damage to all other Players but 35% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them."
+        "description": "When you taunt an enemy Player, they deal 35% less damage to all other Players but 35% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt an enemy Player, they deal 35% less damage to all other Players but 35% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them."
       },
       "count": 5
     },
@@ -102144,22 +103743,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "5": {
-        "description": "When you block an attack, your next direct damage area of effect attack used within 5 seconds deals an additional 3290 damage. This bonus does not work with channeled effects. This effect can occur once every 2 seconds."
+        "description": "When you block an attack, your next direct damage area of effect attack used within 5 seconds deals an additional 3290 damage. This bonus does not work with channeled effects. This effect can occur once every 2 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, your next direct damage area of effect attack used within 5 seconds deals an additional 3290 damage. This bonus does not work with channeled effects. This effect can occur once every 2 seconds."
       },
       "count": 5
     },
@@ -102509,19 +104112,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 129 Magicka Recovery, Adds 129 Stamina Recovery, When you resurrect an ally, you and your ally gain 258 Weapon and Spell Damage and 10% cost reduction to non-Ultimate abilities for 10 seconds.",
@@ -102530,7 +104136,8 @@ const ESO_SETS = [
           "staminaRecovery": 129,
           "spellDamage": 258,
           "weaponDamage": 258
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>, Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you resurrect an ally, you and your ally gain <span class=\"stamina\">258 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and 10% cost reduction to non-Ultimate abilities for 10 seconds."
       },
       "count": 5
     },
@@ -102880,13 +104487,15 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "2": {
         "description": "When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal 1962 Disease damage to any enemy they hit. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal <span class=\"disease-damage\">1962 Disease damage</span> to any enemy they hit. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -102969,10 +104578,12 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
-        "description": "When you kill an enemy, you heal for 2772 Health and restore 2772 Magicka and Stamina."
+        "description": "When you kill an enemy, you heal for 2772 Health and restore 2772 Magicka and Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> When you kill an enemy, you heal for 2772 Health and restore <span class=\"magicka\">2772 Magicka</span> and <span class=\"stamina\">Stamina</span>."
       },
       "count": 3
     },
@@ -103133,25 +104744,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Dealing Critical Damage inflicts Hunter's Venom on your enemy for 10 seconds, dealing 625 Poison Damage to your target and enemies within 6 meters of them every 2 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing Critical Damage inflicts Hunter's Venom on your enemy for 10 seconds, dealing <span class=\"poison-damage\">625 Poison Damage</span> to your target and enemies within 6 meters of them every 2 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -103375,19 +104990,22 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain Major Courage for 20 seconds, increasing your Weapon and Spell Damage by 430 for 20 seconds. This effect can occur once every 10 seconds.",
@@ -103397,7 +105015,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Courage"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain <span class=\"buff\">Major Courage</span> for 20 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 20 seconds.  This effect can occur once every 10 seconds."
       },
       "count": 5
     },
@@ -103621,22 +105240,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds."
+        "description": "When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds."
       },
       "count": 5
     },
@@ -103860,19 +105483,23 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
-        "description": "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 10%."
+        "description": "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 10%.",
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 10%."
       },
       "5": {
-        "description": "While crouching and not blocking, you restore 670 Magicka and Stamina and heal for 670 Health every second."
+        "description": "While crouching and not blocking, you restore 670 Magicka and Stamina and heal for 670 Health every second.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While crouching and not blocking, you restore <span class=\"magicka\">670 Magicka</span> and <span class=\"stamina\">Stamina</span> and heal for 670 Health every second."
       },
       "count": 5
     },
@@ -104096,25 +105723,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "When you deal direct Critical Damage to an enemy while behind them, you inject a leeching poison that deals 1365 Poison Damage over 10 seconds to them and heals you for 100% of the damage done. This effect can occur once every 10 seconds per enemy and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct Critical Damage to an enemy while behind them, you inject a leeching poison that deals <span class=\"poison-damage\">1365 Poison Damage</span> over 10 seconds to them and heals you for 100% of the damage done.  This effect can occur once every 10 seconds per enemy and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -104338,26 +105969,30 @@ const ESO_SETS = [
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "5": {
         "description": "Adds 1487 Spell Penetration, When you kill a Player, they violently explode for 3489 Flame damage to all other enemies in a 5 meter radius. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null,
           "spellPenetration": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>, When you kill a Player, they violently explode for <span class=\"flame-damage\">3489 Flame damage</span> to all other enemies in a 5 meter radius. This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -104581,19 +106216,22 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "Adds 129 Weapon Damage, Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
@@ -104602,7 +106240,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Expedition"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%.  These effects can occur once every second."
       },
       "count": 5
     },
@@ -104834,25 +106473,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal damage with a Martial melee attack, you deal an additional 976 Poison Damage over 4 seconds. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Martial melee attack, you deal an additional <span class=\"poison-damage\">976 Poison Damage</span> over 4 seconds. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -105032,7 +106675,8 @@ const ESO_SETS = [
     "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds.<br>",
     "bonuses": {
       "2": {
-        "description": "Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
+        "description": "Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
       },
       "count": 2
     },
@@ -105070,7 +106714,8 @@ const ESO_SETS = [
         "description": "When you deal damage with Power Bash, you apply Call of the Void to yourself for 2 seconds. Enemies within 12 meters are immediately pulled to you. After Call of the Void ends, you apply Major Maim to enemies in the area for 10 seconds, reducing their damage done by 10%. This effect can occur once every 13 seconds.",
         "buffs": [
           "Major Maim"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Power Bash, you apply Call of the Void to yourself for 2 seconds. Enemies within 12 meters are immediately pulled to you.\n\nAfter Call of the Void ends, you apply <span class=\"buff\">Major Maim</span> to enemies in the area for 10 seconds, reducing their damage done by 10%.  This effect can occur once every 13 seconds."
       },
       "count": 2
     },
@@ -105143,25 +106788,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you take damage, your Spell Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, your Spell Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed."
       },
       "count": 5
     },
@@ -105385,25 +107034,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Aegis</span> at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
         "description": "After completing a fully-charged Heavy Attack, apply Major Aegis to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds.",
         "buffs": [
           "Major Aegis"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After completing a fully-charged Heavy Attack, apply <span class=\"buff\">Major Aegis</span> to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds."
       },
       "count": 5
     },
@@ -105627,7 +107280,8 @@ const ESO_SETS = [
         "description": "Adds 4% Healing Taken",
         "stats": {
           "healingTaken": 4
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Taken</span>"
       },
       "2": {
         "description": "When you Bash an enemy you've taunted, you frighten them with a deafening howl, applying Major Cowardice to them, lowering their Weapon and Spell Damage by 430 for 8 seconds. This effect can occur once every 15 seconds.",
@@ -105637,7 +107291,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Cowardice"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you Bash an enemy you've taunted, you frighten them with a deafening howl, applying <span class=\"buff\">Major Cowardice</span> to them, lowering their Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 8 seconds. This effect can occur once every 15 seconds."
       },
       "count": 2
     },
@@ -105720,25 +107375,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Slayer for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%.",
         "buffs": [
           "Major Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Slayer</span> for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%."
       },
       "count": 5
     },
@@ -105962,25 +107621,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 600 Spell Damage to your Magic Damage abilities.",
         "stats": {
           "spellDamage": 600
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Magic Damage abilities."
       },
       "count": 5
     },
@@ -106204,19 +107867,22 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "5": {
         "description": "When you deal Martial melee damage, you apply Major Defile to the enemy for 4 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 5 seconds.",
@@ -106225,7 +107891,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Defile"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, you apply <span class=\"buff\">Major Defile</span> to the enemy for 4 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 5 seconds."
       },
       "count": 5
     },
@@ -106404,25 +108071,29 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "When you take damage, your Weapon Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, your Weapon Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed."
       },
       "count": 5
     },
@@ -106646,19 +108317,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "5": {
         "description": "Adds 1600 Maximum Health, Gain Minor Toughness at all times, increasing your Max Health by 10%.",
@@ -106667,7 +108341,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Toughness"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1600 Maximum Health</span>, Gain <span class=\"buff\">Minor Toughness</span> at all times, increasing your Max Health by 10%."
       },
       "count": 5
     },
@@ -106891,16 +108566,19 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
-        "description": "Increases the radius you can detect Sneaking enemies by 2 meters."
+        "description": "Increases the radius you can detect Sneaking enemies by 2 meters.",
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Increases the radius you can detect Sneaking enemies by 2 meters."
       },
       "5": {
         "description": "Adds 129 Stamina Recovery, When you use Roll Dodge, your Weapon and Spell Damage is increased by 391 for 6 seconds.",
@@ -106908,7 +108586,8 @@ const ESO_SETS = [
           "staminaRecovery": 129,
           "spellDamage": null,
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you use Roll Dodge, your Weapon and Spell Damage is increased by 391 for 6 seconds."
       },
       "count": 5
     },
@@ -107132,25 +108811,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "4": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "5": {
         "description": "When you deal damage with a weapon, you deal an additional 600 Flame damage. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a weapon, you deal an additional <span class=\"flame-damage\">600 Flame damage</span>. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -107374,22 +109057,26 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
-        "description": "While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds."
+        "description": "While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds."
       },
       "count": 5
     },
@@ -107613,22 +109300,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Reduces the cost of Break Free by 40%."
+        "description": "Reduces the cost of Break Free by 40%.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Break Free by 40%."
       },
       "count": 5
     },
@@ -107978,22 +109669,26 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 1487 Armor",
         "stats": {
           "armor": 1487
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
       },
       "4": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "5": {
-        "description": "When you take damage while you are under 30% Health, you gain a damage shield that absorbs 13035 damage for 6 seconds. This effect can occur once every 15 seconds."
+        "description": "When you take damage while you are under 30% Health, you gain a damage shield that absorbs 13035 damage for 6 seconds. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 30% Health, you gain a damage shield that absorbs 13035 damage for 6 seconds. This effect can occur once every 15 seconds."
       },
       "count": 5
     },
@@ -108351,25 +110046,29 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
         "description": "When your alchemical poison fires, you drop a poisonous spore in front of you that bursts after 1 second, dealing 3000 Poison Damage over 10 seconds to all enemies within 5 meters. This effect scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your alchemical poison fires, you drop a poisonous spore in front of you that bursts after 1 second, dealing <span class=\"poison-damage\">3000 Poison Damage</span> over 10 seconds to all enemies within 5 meters. This effect scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -108593,7 +110292,8 @@ const ESO_SETS = [
         "description": "Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 636 Flame, 636 Shock, and 636 Frost Damage over 8 seconds. Each element ticks once over the duration. The damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 636 Flame, 636 Shock, and <span class=\"frost-damage\">636 Frost Damage</span> over 8 seconds. Each element ticks once over the duration. The damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -108649,22 +110349,26 @@ const ESO_SETS = [
         "description": "Adds 657 Weapon Critical",
         "stats": {
           "weaponCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">657 Weapon Critical</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "5": {
-        "description": "Your Bow attacks reduce the Movement Speed of any enemy they hit by 15% and increase your Movement Speed by 15% for 3 seconds."
+        "description": "Your Bow attacks reduce the Movement Speed of any enemy they hit by 15% and increase your Movement Speed by 15% for 3 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Bow attacks reduce the Movement Speed of any enemy they hit by 15% and increase your Movement Speed by 15% for 3 seconds."
       },
       "count": 5
     },
@@ -108781,25 +110485,29 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Health Recovery",
         "stats": {
           "healthRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">129 Health Recovery</span>"
       },
       "5": {
         "description": "Increases your Health, Magicka, and Stamina Recovery by 18%.",
         "stats": {
           "staminaRecovery": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Health, Magicka, and Stamina Recovery by 18%."
       },
       "count": 5
     },
@@ -109157,13 +110865,15 @@ const ESO_SETS = [
         "description": "Adds 1752 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1752
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1752 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 206 Spell Damage",
         "stats": {
           "spellDamage": 206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">206 Spell Damage</span>"
       },
       "count": 3
     },
@@ -109324,22 +111034,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Casting abilities that leave an effect on the ground will create a circle of healing frost for 10 seconds. You and your group members restore 1182 Health every 2 seconds while inside the circle. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
+        "description": "Casting abilities that leave an effect on the ground will create a circle of healing frost for 10 seconds. You and your group members restore 1182 Health every 2 seconds while inside the circle. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground will create a circle of healing frost for 10 seconds. You and your group members restore 1182 Health every 2 seconds while inside the circle. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
       },
       "count": 5
     },
@@ -109563,25 +111277,29 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "When you deal Frost Damage, you summon an ice pillar that deals 1125 Frost damage to all enemies in a 3 meter radius. The ice pillar persists for 2 seconds and reduces the Movement Speed of all enemies within the radius by 50%. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Frost Damage, you summon an ice pillar that deals <span class=\"frost-damage\">1125 Frost damage</span> to all enemies in a 3 meter radius. The ice pillar persists for 2 seconds and reduces the Movement Speed of all enemies within the radius by 50%.  This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
       },
       "count": 5
     },
@@ -109805,19 +111523,22 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "3": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
         "description": "Adds 129 Spell Damage, After completing a fully-charged Heavy Attack, you gain Major Mending for 5 seconds, increasing your healing done by 16%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff.",
@@ -109826,7 +111547,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Major Mending"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>, After completing a fully-charged Heavy Attack, you gain <span class=\"buff\">Major Mending</span> for 5 seconds, increasing your healing done by 16%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff."
       },
       "count": 5
     },
@@ -110050,25 +111772,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 5%.",
         "buffs": [
           "Minor Vulnerability"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Enemies you damage with fully-charged Heavy Attacks are afflicted with <span class=\"buff\">Minor Vulnerability</span> for 10 seconds, increasing their damage taken by 5%."
       },
       "count": 5
     },
@@ -110292,25 +112018,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Increases your Weapon Damage by 369 against enemies inflicted with a Poison Damage effect.",
         "stats": {
           "weaponDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your <span class=\"stamina\">Weapon Damage by 369</span> against enemies inflicted with a Poison Damage effect."
       },
       "count": 5
     },
@@ -110534,22 +112264,26 @@ const ESO_SETS = [
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "4": {
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "When you use an Ultimate ability, you heal for 51 Health and restore 51 Stamina and Magicka per point of the Ultimate's cost."
+        "description": "When you use an Ultimate ability, you heal for 51 Health and restore 51 Stamina and Magicka per point of the Ultimate's cost.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability, you heal for 51 Health and restore 51 Stamina and Magicka per point of the Ultimate's cost."
       },
       "count": 5
     },
@@ -110773,19 +112507,22 @@ const ESO_SETS = [
         "description": "Adds 1206 Maximum Health",
         "stats": {
           "maximumHealth": 1206
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
         "description": "Adds 660 Critical Resistance, When you take direct Critical Damage, you apply Minor Enervation to the enemy for 5 seconds, reducing their Critical Damage done by 10%.",
@@ -110794,7 +112531,8 @@ const ESO_SETS = [
         },
         "buffs": [
           "Minor Enervation"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 660 Critical Resistance, When you take direct Critical Damage, you apply <span class=\"buff\">Minor Enervation</span> to the enemy for 5 seconds, reducing their Critical Damage done by 10%."
       },
       "count": 5
     },
@@ -111022,7 +112760,8 @@ const ESO_SETS = [
         "description": "Casting Weakness to Elements on a target within 15 meters of you causes a surge of elemental energy to tether between you for 10 seconds. While the tether persists, enemies touching the tether take 331 Flame Damage, 331 Shock Damage, or 331 Frost Damage every 1 second, which increases by 1% each time it deals damage, up to 20%. This effect can occur once every 10 seconds, and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting Weakness to Elements on a target within 15 meters of you causes a surge of elemental energy to tether between you for 10 seconds.  While the tether persists, enemies touching the tether take <span class=\"flame-damage\">331 Flame Damage</span>, <span class=\"shock-damage\">331 Shock Damage</span>, or <span class=\"frost-damage\">331 Frost Damage</span> every 1 second, which increases by 1% each time it deals damage, up to 20%. This effect can occur once every 10 seconds, and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -111078,13 +112817,15 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1652 Spell Critical to your ranged direct damage abilities.",
         "stats": {
           "spellCritical": 1652
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1652 Spell Critical</span> to your ranged direct damage abilities."
       },
       "count": 3
     },
@@ -111245,20 +112986,23 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Stamina Recovery",
         "stats": {
           "staminaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>"
       },
       "4": {
         "description": "Adds 129 Weapon and Spell Damage",
         "stats": {
           "spellDamage": 129,
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>"
       },
       "5": {
         "description": "While in combat, applying a Major Buff or Debuff to a target grants you 260 Magicka and Stamina Recovery for 15 seconds. While in combat, applying a Minor Buff or Debuff to a target grants you 130 Magicka and Stamina Recovery for 15 seconds.",
@@ -111268,7 +113012,8 @@ const ESO_SETS = [
         "buffs": [
           "Minor Buff",
           "Major Buff"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, applying a Major Buff or Debuff to a target grants you <span class=\"magicka\">260 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery for 15 seconds. \nWhile in combat, applying a Minor Buff or Debuff to a target grants you <span class=\"magicka\">130 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery for 15 seconds."
       },
       "count": 5
     },
@@ -111618,22 +113363,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "5": {
-        "description": "When you cast a Magicka ability, you remove all negative effects from yourself. This effect can occur once every 15 seconds."
+        "description": "When you cast a Magicka ability, you remove all negative effects from yourself. This effect can occur once every 15 seconds.",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability, you remove all negative effects from yourself. This effect can occur once every 15 seconds."
       },
       "count": 5
     },
@@ -111857,25 +113606,29 @@ const ESO_SETS = [
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "3": {
         "description": "Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.",
         "buffs": [
           "Minor Slayer"
-        ]
+        ],
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Gain <span class=\"buff\">Minor Slayer</span> at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%."
       },
       "4": {
         "description": "Adds 129 Weapon Damage",
         "stats": {
           "weaponDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
       },
       "5": {
         "description": "Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds 41 Weapon Damage, and stacks up to 10 times. Completing a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your Weapon Damage by 63 per stack removed. You cannot have Giant's Endurance and Might active at the same time.",
         "stats": {
           "weaponDamage": 41
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds <span class=\"stamina\">41 Weapon Damage</span>, and stacks up to 10 times.\n\nCompleting a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your <span class=\"stamina\">Weapon Damage by 63</span> per stack removed.\n\nYou cannot have Giant's Endurance and Might active at the same time."
       },
       "count": 5
     },
@@ -112099,25 +113852,29 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "3": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "4": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "5": {
         "description": "Adds 400 Spell Damage to your Frost Damage abilities.",
         "stats": {
           "spellDamage": 400
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Frost Damage abilities."
       },
       "count": 5
     },
@@ -112341,22 +114098,26 @@ const ESO_SETS = [
         "description": "Adds 129 Magicka Recovery",
         "stats": {
           "magickaRecovery": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
       },
       "3": {
         "description": "Adds 129 Spell Damage",
         "stats": {
           "spellDamage": 129
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>"
       },
       "4": {
         "description": "Adds 1096 Maximum Magicka",
         "stats": {
           "maximumMagicka": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
       },
       "5": {
-        "description": "Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy"
+        "description": "Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy",
+        "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy"
       },
       "count": 5
     },
@@ -112580,13 +114341,15 @@ const ESO_SETS = [
         "description": "Adds 657 Spell Critical",
         "stats": {
           "spellCritical": 657
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"magicka\">657 Spell Critical</span>"
       },
       "2": {
         "description": "When you damage a nearby enemy with a Light or Heavy Attack, you have a 33% chance to create a beam of fire that will connect you to your enemy as long as you remain within 8 meters of them. The beam deals 305 Flame damage every 1 second to your enemy for 6 seconds. Every second, this damage increases by 100%. This effect can occur every 18 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you damage a nearby enemy with a Light or Heavy Attack, you have a 33% chance to create a beam of fire that will connect you to your enemy as long as you remain within 8 meters of them. The beam deals <span class=\"flame-damage\">305 Flame damage</span> every 1 second to your enemy for 6 seconds. Every second, this damage increases by 100%. This effect can occur every 18 seconds and scales off the higher of your Weapon or Spell Damage."
       },
       "count": 2
     },
@@ -112669,14 +114432,16 @@ const ESO_SETS = [
         "description": "Adds 1096 Maximum Stamina",
         "stats": {
           "maximumStamina": 1096
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"stamina\">1096 Maximum Stamina</span>"
       },
       "2": {
         "description": "When you Break Free, you release a wave of Watcher energy, causing enemies within 8 meters of you to become Feared for 3 seconds. You also gain 34 Weapon and Spell Damage for each enemy hit, up to 6 enemies, for 7 seconds.",
         "stats": {
           "spellDamage": 34,
           "weaponDamage": 34
-        }
+        },
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you Break Free, you release a wave of Watcher energy, causing enemies within 8 meters of you to become Feared for 3 seconds. You also gain <span class=\"stamina\">34 Weapon</span> and <span class=\"magicka\">Spell Damage</span> for each enemy hit, up to 6 enemies, for 7 seconds."
       },
       "count": 2
     },
