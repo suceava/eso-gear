@@ -7,6 +7,7 @@ import {
   EsoItem,
   EsoItemType,
   EsoSet,
+  EsoSetBonus,
   EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
@@ -125,8 +126,23 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: Eso
         <div>LEVEL <span>50</span></div>
         <div>CP <span>160</span></div>
       </div>
-      <h3>{`Part of the ${item.setName} set (${itemsInSet}/5)`}</h3>
-      <div dangerouslySetInnerHTML={{ __html: set ? set.htmlDescription : '' }} />
+      <h3>{`Part of the ${item.setName} set (${itemsInSet}/${set ? set.bonusCount : 0})`}</h3>
+      {
+        set && Object.keys(set.bonuses).map(key => {
+          const bonusKey = key as '1' | '2' | '3' | '4' | '5';
+          const bonus = set.bonuses[bonusKey] as EsoSetBonus;
+          if (!bonus) {
+            return null;
+          }
+          return (
+            <div
+              key={key}
+              dangerouslySetInnerHTML={{ __html: bonus.htmlDescription }}
+              className={parseInt(key) > itemsInSet ? 'tooltip-item-set-bonus-disabled' : ''}
+            ></div>
+          );
+        })
+      }
     </div>
   );
 };

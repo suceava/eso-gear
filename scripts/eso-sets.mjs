@@ -33,8 +33,7 @@ const ESO_SETS = [
           "Major Gallop"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain <span class=\"buff\">Major Gallop</span> and <span class=\"buff\">Major Expedition</span> at all times, increasing your Movement Speed and Mounted Speed by 30%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Craftable",
@@ -369,7 +368,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2204043907
+    "id": 2204043907,
+    "bonusCount": 5
   },
   {
     "image": "gear_pyrewatchmed_head_a.png",
@@ -405,8 +405,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal critical damage with a Martial melee attack, summon a Lesser Aegis for 11 seconds. After 2.5 seconds, the Lesser Aegis spins its blades, dealing <span class=\"physical-damage\">502 Bleed Damage</span> every 1 second. This effect can occur once every 12 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Pyre Watch",
@@ -587,7 +586,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 846976883
+    "id": 846976883,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_heavy_head_a.png",
@@ -623,8 +623,7 @@ const ESO_SETS = [
           "Empower"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, you grant <span class=\"buff\">Empower</span> to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -833,7 +832,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3360918070
+    "id": 3360918070,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -869,8 +869,7 @@ const ESO_SETS = [
           "armor": 7377
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">7377 Armor</span>. Increases the cost of Block, Sprint, Dodge, and Break Free by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Craftable",
@@ -1205,7 +1204,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1848218581
+    "id": 1848218581,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -1245,8 +1245,7 @@ const ESO_SETS = [
           "Minor Defile"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you deal <span class=\"disease-damage\">346 Disease damage</span> to the target. This damage immediately applies the Diseased status effect, applying <span class=\"buff\">Minor Defile</span> to the target, reducing their Healing Received and Health Recovery by 8% for 4 seconds.  This set can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -1455,7 +1454,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2948782790
+    "id": 2948782790,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -1477,8 +1477,7 @@ const ESO_SETS = [
           "weaponDamage": 206
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">206 Weapon Damage</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -1624,7 +1623,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 410559960
+    "id": 410559960,
+    "bonusCount": 3
   },
   {
     "image": "gear_nord_heavy_head_d.png",
@@ -1660,8 +1660,7 @@ const ESO_SETS = [
           "healthRecovery": 158
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">158 Health Recovery</span>, Reduces the cost of your Ultimate abilities by 15%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -1870,7 +1869,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4147132996
+    "id": 4147132996,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -1906,8 +1906,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage from a Martial melee attack, you have a 15% chance to reduce the attacker's <span class=\"stamina\">Weapon Damage by 300</span> for 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -2250,7 +2249,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2271696641
+    "id": 2271696641,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -2288,8 +2288,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320.\n\nCurrent Bonus Health Recovery: 0."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -2498,7 +2497,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1975400507
+    "id": 1975400507,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -2531,8 +2531,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you heal you and your group members within 7 meters of you for 1204 Health over 3 seconds. This effect can occur once every 3 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you heal you and your group members within 7 meters of you for 1204 Health over 3 seconds. This effect can occur once every 3 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -2741,7 +2740,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2059957115
+    "id": 2059957115,
+    "bonusCount": 5
   },
   {
     "image": "gear_mazzatun_light_head_a.png",
@@ -2779,8 +2779,7 @@ const ESO_SETS = [
           "staminaRecovery": 245
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">245 Magicka Recovery</span>, Adds <span class=\"stamina\">245 Stamina Recovery</span>, Adds <span class=\"health\">245 Health Recovery</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Mazzatun",
@@ -2989,7 +2988,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 428689787
+    "id": 428689787,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -3027,8 +3027,7 @@ const ESO_SETS = [
           "weaponDamage": 300
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">300 Weapon</span> and <span class=\"magicka\">Spell Damage</span> while your Health is above 50%. Adds 3460 Physical and Spell Resistance while your Health is 50% or less."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Craftable",
@@ -3363,7 +3362,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3907103167
+    "id": 3907103167,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_medium_head_d.png",
@@ -3396,8 +3396,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your Critical Damage and Healing by 8%. Increases your Critical Damage and Healing by an additional 16% when you are Sneaking or Invisible.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Critical Damage and Healing by 8%. Increases your Critical Damage and Healing by an additional 16% when you are Sneaking or Invisible."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -3606,7 +3605,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3144862572
+    "id": 3144862572,
+    "bonusCount": 5
   },
   {
     "image": "gear_northlandsalch_heavy_head_a.png",
@@ -3639,8 +3639,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you drink a potion while in combat, you and 3 group members gain 44 Ultimate. This effect can occur once every 30 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you drink a potion while in combat, you and 3 group members gain 44 Ultimate. This effect can occur once every 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Hazardous Alchemy",
@@ -3849,7 +3848,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3252843174
+    "id": 3252843174,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -3886,8 +3886,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have an Armor ability slotted, your Max Health is increased by 5%. When you use an Armor ability while in combat, your Physical and Spell Resistance is increased by 5940 for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Craftable",
@@ -4222,7 +4221,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2191746842
+    "id": 2191746842,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_ring_a.png",
@@ -4255,8 +4255,7 @@ const ESO_SETS = [
           "maximumMagicka": 1096
         },
         "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
-      },
-      "count": 4
+      }
     },
     "dlc": null,
     "style": null,
@@ -4280,7 +4279,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4060907163
+    "id": 4060907163,
+    "bonusCount": 4
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -4313,8 +4313,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of your Magicka abilities by 10%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Magicka abilities by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -4657,7 +4656,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3381873009
+    "id": 3381873009,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -4686,8 +4686,7 @@ const ESO_SETS = [
           "maximumStamina": 1454
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1454 Maximum Stamina</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -5038,7 +5037,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4422074
+    "id": 4422074,
+    "bonusCount": 3
   },
   {
     "image": "gear_altmer_heavy_head_d.png",
@@ -5074,8 +5074,7 @@ const ESO_SETS = [
           "weaponDamage": 516
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you interrupt an enemy, you gain <span class=\"stamina\">516 Weapon Damage</span> for 15 seconds.  Your Bash attacks permanently deal 516 more damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -5306,7 +5305,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 511229694
+    "id": 511229694,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_heavy_head_d.png",
@@ -5342,8 +5342,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage to an enemy who is Off Balance, your Weapon Damage is increased by 460 for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -5556,7 +5555,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3986200560
+    "id": 3986200560,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_1hsword_c.png",
@@ -5571,8 +5571,7 @@ const ESO_SETS = [
           "weaponDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -5597,7 +5596,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1954289358
+    "id": 1954289358,
+    "bonusCount": 3
   },
   {
     "image": "gear_welkynar_medium_head_a.png",
@@ -5631,8 +5631,7 @@ const ESO_SETS = [
         "description": "Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal 52 Physical Damage per stack every 1 second. This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage.",
         "stats": {},
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal <span class=\"physical-damage\">52 Physical Damage</span> per stack every 1 second.  This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -5841,7 +5840,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2457696014
+    "id": 2457696014,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_bow_c.png",
@@ -5856,8 +5856,7 @@ const ESO_SETS = [
           "physicalPenetration": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -5882,7 +5881,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1860404970
+    "id": 1860404970,
+    "bonusCount": 3
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -5916,8 +5916,7 @@ const ESO_SETS = [
         "description": "When you deal Martial melee damage, you breathe fire to all enemies in front of you for 813 Flame damage. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {},
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, you breathe fire to all enemies in front of you for <span class=\"flame-damage\">813 Flame damage</span>. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -6260,7 +6259,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2514677260
+    "id": 2514677260,
+    "bonusCount": 5
   },
   {
     "image": "gear_mazzatun_heavy_head_a.png",
@@ -6293,8 +6293,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while under 30% Health, you heal for 10481 Health and restore 10481 Magicka and Stamina. This effect can occur once every 45 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 30% Health, you heal for 10481 Health and restore <span class=\"magicka\">10481 Magicka</span> and <span class=\"stamina\">Stamina</span>. This effect can occur once every 45 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Mazzatun",
@@ -6503,7 +6502,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4074042554
+    "id": 4074042554,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -6537,8 +6537,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases the duration of your alchemical poisons by 4 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the duration of your alchemical poisons by 4 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Craftable",
@@ -6873,7 +6872,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2375626946
+    "id": 2375626946,
+    "bonusCount": 5
   },
   {
     "image": "gear_meridian_light_head_a.png",
@@ -6907,8 +6907,7 @@ const ESO_SETS = [
         "description": "Dealing direct damage with a single target attack summons a cone of lightning from your chest for 3 seconds, dealing 214 Shock Damage every 0.5 seconds to enemies in the cone. This effect can occur every 6 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {},
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a single target attack summons a cone of lightning from your chest for 3 seconds, dealing <span class=\"shock-damage\">214 Shock Damage</span> every 0.5 seconds to enemies in the cone. This effect can occur every 6 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Meridian",
@@ -7117,7 +7116,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 362175185
+    "id": 362175185,
+    "bonusCount": 5
   },
   {
     "image": "gear_clockwork_heavy_head_a.png",
@@ -7153,8 +7153,7 @@ const ESO_SETS = [
           "Major Aegis"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Aegis</span> for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Refabricated",
@@ -7363,7 +7362,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2236373205
+    "id": 2236373205,
+    "bonusCount": 5
   },
   {
     "image": "gear_stagzenmed_helmet_a.png",
@@ -7399,8 +7399,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a damage over time effect, you apply a stack of Blight Seed to your target for 5 seconds. At 20 stacks, the Blight Seed explodes, dealing <span class=\"disease-damage\">1832 Disease Damage</span> to the target and nearby enemies, scaling off the higher of your Weapon or Spell Damage.\n\nAn enemy can only have one instance of Blight Seed at a time. An enemy that has reached 20 stacks cannot be infected with Blight Seed for 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Stags of Z'en",
@@ -7609,7 +7608,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4183962373
+    "id": 4183962373,
+    "bonusCount": 5
   },
   {
     "image": "gear_thievesguildv2_heavy_head_a.png",
@@ -7642,8 +7642,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within 3.5 meters by 60%, damages them for 349 Magic damage every 1 second, and heals you for 100% of the damage done. This effect can occur once every 5 seconds and the damage scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you have a 25% chance to create desecrated ground for 5 seconds, which reduces the Movement Speed of enemies within 3.5 meters by 60%, damages them for <span class=\"magic-damage\">349 Magic damage</span> every 1 second, and heals you for 100% of the damage done.  This effect can occur once every 5 seconds and the damage scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Thieves Guild",
@@ -7978,7 +7977,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3319693834
+    "id": 3319693834,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_lgt_head_a.png",
@@ -8011,8 +8011,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your damage done to non-player enemies by up to 15% based on your missing Magicka. Current value: 0%",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done to non-player enemies by up to 15% based on your missing Magicka.\n\nCurrent value: 0%"
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -8221,7 +8220,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2273266483
+    "id": 2273266483,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_werewolfbehemoth_head_a.png",
@@ -8246,8 +8246,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use an Ultimate ability, you gain Weapon and Spell Damage equal to the amount of total Ultimate consumed, and Physical and Spell Penetration equal to 23 times the amount for 12 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Undaunted",
@@ -8315,7 +8314,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1138994898
+    "id": 1138994898,
+    "bonusCount": 2
   },
   {
     "image": "gear_icereachhvy_head_a.png",
@@ -8351,8 +8351,7 @@ const ESO_SETS = [
           "Major Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt a nearby enemy, you tether to them for 15 seconds.  While tethered, you apply <span class=\"buff\">Major Maim</span> to your enemy, reducing their damage done by 10%, and you gain <span class=\"buff\">Major Vitality</span>, increasing your healing received by 16%.  The tether is broken if the enemy moves 8 meters away from you.  This effect can occur once every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Icereach Coven",
@@ -8561,7 +8560,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2149106354
+    "id": 2149106354,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_medium_head_a.png",
@@ -8594,8 +8594,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 1715 Health and restore 858 Stamina. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the duration of immobilizations and snares applied to you by 50%. When an immobilization or snare is applied to you, heal for 1715 Health and restore 858 Stamina. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -8808,7 +8807,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 31324098
+    "id": 31324098,
+    "bonusCount": 5
   },
   {
     "image": "gear_undredlord_head_a.png",
@@ -8829,8 +8829,7 @@ const ESO_SETS = [
       "2": {
         "description": "Applying a status effect to an enemy grants you a stack of Zaudrus's Ambition for 10 seconds, up to 3 stacks max. When you gain 3 stacks, the stacks are removed and you gain 4 Ultimate. On gaining Ultimate, you cannot gain additional stacks of Zaudrus's Ambition for 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Applying a status effect to an enemy grants you a stack of Zaudrus's Ambition for 10 seconds, up to 3 stacks max. When you gain 3 stacks, the stacks are removed and you gain 4 Ultimate. On gaining Ultimate, you cannot gain additional stacks of Zaudrus's Ambition for 1 second."
-      },
-      "count": 2
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "Undaunted",
@@ -8898,7 +8897,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3966374525
+    "id": 3966374525,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -8928,8 +8928,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces your damage taken from Siege Weapons and Player area of effect abilities by 10%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces your damage taken from Siege Weapons and Player area of effect abilities by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -9138,7 +9137,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1119077562
+    "id": 1119077562,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -9171,8 +9171,7 @@ const ESO_SETS = [
       "5": {
         "description": "After successfully blocking, heal yourself or a group member within 15 meters of you for 897 Health. This effect can occur every 1 second and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, heal yourself or a group member within 15 meters of you for 897 Health. This effect can occur every 1 second and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -9381,7 +9380,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1425338332
+    "id": 1425338332,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -9414,8 +9414,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of all of your abilities by 6%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of all of your abilities by 6%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -9624,7 +9623,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1325993507
+    "id": 1325993507,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -9657,8 +9657,7 @@ const ESO_SETS = [
       "5": {
         "description": "Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. You can only be affected by one instance of Beckoning Steel.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Generate an aura that causes you and 11 group members within the aura to take 10% less damage from projectiles. \n\nYou can only be affected by one instance of Beckoning Steel."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -9867,7 +9866,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2192563834
+    "id": 2192563834,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_heavy_head_d.png",
@@ -9903,8 +9903,7 @@ const ESO_SETS = [
           "healthRecovery": 900
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">900 Health Recovery</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Khajiit",
@@ -10113,7 +10112,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3367857130
+    "id": 3367857130,
+    "bonusCount": 5
   },
   {
     "image": "mythic_ring_belharzas_band.png",
@@ -10128,8 +10128,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your Light Attacks by 1185.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 1
+      }
     },
     "dlc": "Deadlands",
     "style": null,
@@ -10151,7 +10150,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1133652811
+    "id": 1133652811,
+    "bonusCount": 1
   },
   {
     "image": "gear_craglorn_heavy_head_a.png",
@@ -10187,8 +10187,7 @@ const ESO_SETS = [
           "weaponCritical": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, your Weapon Critical is increased by 241 for 5 seconds, stacking up to 10 times. This effect can occur once every half second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -10352,7 +10351,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3872361029
+    "id": 3872361029,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -10389,8 +10389,7 @@ const ESO_SETS = [
           "weaponDamage": 176
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">176 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, Increases the Magicka and Stamina restored from the Constitution passive ability by 60%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -10599,7 +10598,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3914113315
+    "id": 3914113315,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -10615,8 +10615,7 @@ const ESO_SETS = [
       "3": {
         "description": "Reduces the cost of your Ultimate abilities by 15%.",
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Reduces the cost of your Ultimate abilities by 15%."
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -10762,7 +10761,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4160090975
+    "id": 4160090975,
+    "bonusCount": 3
   },
   {
     "image": "gear_hircine_medium_head_a.png",
@@ -10795,8 +10795,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal damage with a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a melee Light Attack, you gain a stack of Blood Scent for 8 seconds. When you gain 5 stacks, you become Frenzied for 5 seconds, increasing your melee Light Attack damage by 55% and attack speed by 50%. This effect can occur every 15 seconds"
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Huntsman",
@@ -11005,7 +11004,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4138784288
+    "id": 4138784288,
+    "bonusCount": 5
   },
   {
     "image": "gear_bloodforge_medium_head_a.png",
@@ -11038,8 +11038,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your Bleed damaging attacks by 20%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Bleed damaging attacks by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Bloodforge",
@@ -11248,7 +11247,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2525894008
+    "id": 2525894008,
+    "bonusCount": 5
   },
   {
     "image": "gear_bloodchest_a.png",
@@ -11260,8 +11260,7 @@ const ESO_SETS = [
       "1": {
         "description": "Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing damage with a Bash attack places a persistent, un-cleansable Blood Curse on an enemy. You can only have one Blood Cursed enemy at a time and dealing additional Bash damage moves the Blood Curse. Blocking an attack from a Blood Cursed enemy restores 1605 Magicka to you. This effect can occur every 1 second."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": "Unique",
@@ -11278,7 +11277,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2348152475
+    "id": 2348152475,
+    "bonusCount": 1
   },
   {
     "image": "gear_undauntedgargoyle_head_a.png",
@@ -11301,8 +11301,7 @@ const ESO_SETS = [
           "physicalResistance": 3731
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 6% chance to generate 13 Ultimate and increase your <span class=\"health\">Physical and Spell Resistance by 3731</span> for 5 seconds. This effect can occur once every 5 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -11370,7 +11369,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 426073954
+    "id": 426073954,
+    "bonusCount": 2
   },
   {
     "image": "gear_primative_light_head_a.png",
@@ -11403,8 +11403,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal direct damage, you restore 800 Magicka and Stamina. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you restore <span class=\"magicka\">800 Magicka</span> and <span class=\"stamina\">Stamina</span>. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -11613,7 +11612,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4071561805
+    "id": 4071561805,
+    "bonusCount": 5
   },
   {
     "image": "gear_akaviri_heavy_head_a.png",
@@ -11649,8 +11649,7 @@ const ESO_SETS = [
           "healthRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you have recently damaged dies, gain 10 Ultimate and increase your Health Recovery by 1156 for 10 seconds. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -11859,7 +11858,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 511954262
+    "id": 511954262,
+    "bonusCount": 5
   },
   {
     "image": "gear_draugr_medium_head_a.png",
@@ -11895,8 +11895,7 @@ const ESO_SETS = [
           "staminaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a drink buff active, your Max Stamina is increased by 2000 and Stamina Recovery by 133."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Draugr",
@@ -12105,7 +12104,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4272342407
+    "id": 4272342407,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperialdaedric_heavy_head_a.png",
@@ -12138,8 +12138,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you grant you and your group members within 8 meters a damage shield that absorbs 11260 damage for 6 seconds. This effect can occur once every 12 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you grant you and your group members within 8 meters a damage shield that absorbs 11260 damage for 6 seconds. This effect can occur once every 12 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -12348,7 +12347,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 898147710
+    "id": 898147710,
+    "bonusCount": 5
   },
   {
     "image": "gear_snowreach_medium_head_a.png",
@@ -12384,8 +12384,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you increase your <span class=\"stamina\">Weapon Damage by 450</span> for 10 seconds. While this effect is active your Critical Strikes heal you for 100 Health. This effect can occur once every 15 seconds and the heal scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Reach Winter",
@@ -12594,7 +12593,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2391722525
+    "id": 2391722525,
+    "bonusCount": 5
   },
   {
     "image": "gear_elderarg_light_head_a.png",
@@ -12630,8 +12630,7 @@ const ESO_SETS = [
           "magickaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a drink buff active, your Max Magicka is increased by 2000 and Magicka Recovery by 133."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Elder Argonian",
@@ -12840,7 +12839,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 583416685
+    "id": 583416685,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_ring_a.png",
@@ -12855,8 +12855,7 @@ const ESO_SETS = [
           "maximumHealth": 1206
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -12872,7 +12871,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1834433515
+    "id": 1834433515,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -12905,8 +12905,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduce damage taken from Players by 10%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduce damage taken from Players by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -13115,7 +13114,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1718452544
+    "id": 1718452544,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_light_head_a.png",
@@ -13151,8 +13151,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Flame Damage ability, you apply the Burning status effect to the enemy and increase your <span class=\"magicka\">Spell Damage by 490</span> for 8 seconds. These effects can occur once every 12 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -13365,7 +13364,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1030099412
+    "id": 1030099412,
+    "bonusCount": 5
   },
   {
     "image": "gear_anequina_heavy_helmet_a.png",
@@ -13404,8 +13404,7 @@ const ESO_SETS = [
           "Minor Lifesteal"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you deal damage, you apply <span class=\"buff\">Minor Lifesteal</span> to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Pellitine",
@@ -13614,7 +13613,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 489223370
+    "id": 489223370,
+    "bonusCount": 5
   },
   {
     "image": "gear_fanglair_light_head_a.png",
@@ -13650,8 +13650,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct Critical Damage with a single target attack, you launch a projectile at your target that deals 2160 Flame, 2160 Frost, 2160 Shock, or <span class=\"disease-damage\">2160 Disease damage</span> and applies the respective status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Fang Lair",
@@ -13860,7 +13859,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 698796450
+    "id": 698796450,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_bow_e.png",
@@ -13875,8 +13875,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases your <span class=\"stamina\">Weapon Damage by 330</span> against targets affected by your Poison Arrow."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -13899,7 +13898,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3480222726
+    "id": 3480222726,
+    "bonusCount": 2
   },
   {
     "image": "gear_elderarg_heavy_head_a.png",
@@ -13938,8 +13938,7 @@ const ESO_SETS = [
           "Minor Heroism"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1600 Maximum Health</span>, Gain <span class=\"buff\">Minor Heroism</span> at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Elder Argonian",
@@ -14148,7 +14147,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4258186916
+    "id": 4258186916,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_1hsword_a.png",
@@ -14160,8 +14160,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for 2675 Physical Damage. This effect can occur once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -14211,7 +14210,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1909711588
+    "id": 1909711588,
+    "bonusCount": 2
   },
   {
     "image": "gear_undaunted_strangler_heavy_head_a.png",
@@ -14230,8 +14230,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you use a heal ability, you have a 33% chance to summon a strangler sapling that heals you or an ally for 7336 Health over 6 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use a heal ability, you have a 33% chance to summon a strangler sapling that heals you or an ally for 7336 Health over 6 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -14299,7 +14298,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1520288964
+    "id": 1520288964,
+    "bonusCount": 2
   },
   {
     "image": "gear_sunspire_heavy_helmet_a.png",
@@ -14339,8 +14339,7 @@ const ESO_SETS = [
           "Minor Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt an enemy, you give yourself and 11 group members <span class=\"buff\">Minor Courage</span> for 15 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 215</span>. This effect can occur once every 8 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -14549,7 +14548,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3738896505
+    "id": 3738896505,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -14587,8 +14587,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion during combat you feel a rush of energy, increasing your Weapon and <span class=\"magicka\">Spell Damage by 675</span> for 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Craftable",
@@ -14923,7 +14922,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2535138610
+    "id": 2535138610,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -14960,8 +14960,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Healing yourself or group member summons Honor, who after 2 seconds, begins healing you and group members near him for 4886 Health over 6 seconds based on the higher of your Max Magicka or Stamina.\n\nDealing damage summons Honor, who after 2 seconds, explodes, damaging enemies near him for <span class=\"magic-damage\">2471 Magic Damage</span> over 6 seconds based on the higher of your Weapon or Spell Damage.\n\nHonor can only be summoned once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Craftable",
@@ -15296,7 +15295,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 958250668
+    "id": 958250668,
+    "bonusCount": 5
   },
   {
     "image": "gear_redguard_light_head_d.png",
@@ -15329,8 +15329,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 4308 damage for 6 seconds. This effect can occur once every 6 seconds per target.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you critically heal yourself or an ally, you grant your target a damage shield that absorbs 4308 damage for 6 seconds. This effect can occur once every 6 seconds per target."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -15543,7 +15542,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2298459921
+    "id": 2298459921,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_staff_a.png",
@@ -15555,8 +15555,7 @@ const ESO_SETS = [
       "2": {
         "description": "Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur"
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -15597,7 +15596,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1777062222
+    "id": 1777062222,
+    "bonusCount": 2
   },
   {
     "image": "gear_ordinator_medium_head_a.png",
@@ -15636,8 +15636,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">250 Stamina Recovery</span>, While Sprinting you gain <span class=\"buff\">Major Expedition</span> and <span class=\"buff\">Major Protection</span>, increasing your Movement Speed by 30% and reducing your damage taken by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Militant Ordinator",
@@ -15846,7 +15845,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1691762886
+    "id": 1691762886,
+    "bonusCount": 5
   },
   {
     "image": "gear_pellitine_light_helmet_a.png",
@@ -15882,8 +15882,7 @@ const ESO_SETS = [
           "maximumMagicka": 2550
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">2550 Maximum Magicka</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Pellitine",
@@ -16092,7 +16091,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3141044259
+    "id": 3141044259,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -16125,8 +16125,7 @@ const ESO_SETS = [
       "5": {
         "description": "After successfully blocking, heal for 2871 Health. This effect can occur every 4 seconds and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After successfully blocking, heal for 2871 Health. This effect can occur every 4 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -16335,7 +16334,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3880664182
+    "id": 3880664182,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackironhvy_head_a.png",
@@ -16375,8 +16375,7 @@ const ESO_SETS = [
           "Major or"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting an ability, drinking a potion, or using a poison that applies a Major or Minor buff to yourself or an ally, sends out a wave of energy that reduces the Armor of nearby enemies within 12 meters by 3541 for 15 seconds. This effect can occur once every 12 seconds, and will only occur if an enemy is within range."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Crimson Oath",
@@ -16585,7 +16584,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4181452620
+    "id": 4181452620,
+    "bonusCount": 5
   },
   {
     "image": "gear_arcticvampire_heavy_head_a.png",
@@ -16618,8 +16618,7 @@ const ESO_SETS = [
       "5": {
         "description": "After taking damage you surround yourself in an 8 meter mist of blood. After 2 seconds, the mist is violently siphoned into your body, dealing 1946 Bleed Damage to nearby enemies and healing you for 100% of the damage done. This effect can occur once every 8 seconds and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After taking damage you surround yourself in an 8 meter mist of blood. After 2 seconds, the mist is violently siphoned into your body, dealing <span class=\"physical-damage\">1946 Bleed Damage</span> to nearby enemies and healing you for 100% of the damage done. This effect can occur once every 8 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Thorn Legion",
@@ -16828,7 +16827,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3589572286
+    "id": 3589572286,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -16867,8 +16867,7 @@ const ESO_SETS = [
           "Minor Uncertainty"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take critical damage, you apply <span class=\"buff\">Minor Uncertainty</span> and <span class=\"buff\">Minor Enervation</span> to the enemy for 9 seconds, reducing their Physical and Spell Critical by 1314 and reducing their Critical Damage by 10%. An enemy can only be affected by your Critical Riposte once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -17203,7 +17202,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 124588662
+    "id": 124588662,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_1haxe_a.png",
@@ -17218,8 +17218,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -17269,7 +17268,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2040142114
+    "id": 2040142114,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -17311,8 +17311,7 @@ const ESO_SETS = [
           "Minor Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you consecrate the ground beneath you for 10 seconds and gain a damage shield that absorbs 1595 damage for 6 seconds. Every 2 seconds you and up to 11 group members in the area gain <span class=\"buff\">Minor Courage</span> for 12 seconds.  These effects can occur once every 20 seconds and the damage shield scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -17521,7 +17520,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1305985002
+    "id": 1305985002,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_staff_a.png",
@@ -17533,8 +17533,7 @@ const ESO_SETS = [
       "2": {
         "description": "Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -17575,7 +17574,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2195997080
+    "id": 2195997080,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -17608,8 +17608,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 678 Magicka. This effect can occur every 8 seconds per target.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with a direct heal ability, remove up to 3 negative effects from them. If a negative effect was removed this way, your target restores 678 Magicka. This effect can occur every 8 seconds per target."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -17818,7 +17817,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1120057144
+    "id": 1120057144,
+    "bonusCount": 5
   },
   {
     "image": "gear_scalecaller_heavy_head_a.png",
@@ -17855,8 +17855,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When using a fully-charged melee Heavy Attack on a taunted monster or any enemy who is stunned, feared, or immobilized, you will deal <span class=\"physical-damage\">1902 Physical Damage</span>. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Scalecaller",
@@ -18065,7 +18064,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3355849260
+    "id": 3355849260,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -18101,8 +18101,7 @@ const ESO_SETS = [
           "Major Buffs"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage you gain one of 5 random Major Buffs for 21 seconds every 9 seconds. Eligible buffs are Expedition, Protection, Mending, Heroism, or Vitality."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Craftable",
@@ -18437,7 +18436,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3434724034
+    "id": 3434724034,
+    "bonusCount": 5
   },
   {
     "image": "gear_cauldron_med_head_a.png",
@@ -18473,8 +18473,7 @@ const ESO_SETS = [
           "weaponDamage": 492
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">492 Weapon Damage</span> to your area of effect abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "Waking Flame",
@@ -18683,7 +18682,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2191647295
+    "id": 2191647295,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -18719,8 +18719,7 @@ const ESO_SETS = [
           "Minor Heroism"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduce the cost of your Weapon abilities by <span class=\"magicka\">10% Magicka</span> or <span class=\"stamina\">Stamina</span>. \n\nAfter casting a Weapon ability, you gain <span class=\"buff\">Minor Heroism</span> for 8 seconds, generating 1 Ultimate every 1.5 seconds while in combat. This effect can occur every 8 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Craftable",
@@ -19055,7 +19054,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3503338503
+    "id": 3503338503,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -19092,8 +19092,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground will create an area that applies a 60% snare and pulls enemies every 2 seconds after a 1 second delay, and stun them for 1 second. After 4 seconds, the area deals <span class=\"magic-damage\">1999 Magic Damage</span> to all enemies in the area, and <span class=\"magic-damage\">3998 Magic Damage</span> to enemies within 3 meters of the center, increasing by 10% for each target. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -19296,7 +19295,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2520826044
+    "id": 2520826044,
+    "bonusCount": 5
   },
   {
     "image": "gear_thievesguildv2_medium_head_a.png",
@@ -19329,8 +19329,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of Sprint and Sneak by 50%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Sprint and Sneak by 50%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Thieves Guild",
@@ -19539,7 +19538,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1153079448
+    "id": 1153079448,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -19575,8 +19575,7 @@ const ESO_SETS = [
           "maximumHealth": 1206
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you are affected by a disabling effect, you automatically Break Free for no cost.  After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -19911,7 +19910,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3427951831
+    "id": 3427951831,
+    "bonusCount": 5
   },
   {
     "image": "gear_deadwater_medium_head_a.png",
@@ -19947,8 +19947,7 @@ const ESO_SETS = [
           "weaponDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, Whenever you kill an enemy, you gain 15 Ultimate."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Dead-Water",
@@ -20157,7 +20156,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 26160839
+    "id": 26160839,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperial_medium_head_d.png",
@@ -20194,8 +20194,7 @@ const ESO_SETS = [
           "weaponDamage": 200
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">200 Weapon Damage</span>, Dealing damage to an enemy within 10 meters of you with a Heavy Attack causes you to throw a cone of knives, dealing <span class=\"physical-damage\">857 Physical Damage</span> to enemies hit. If an enemy hit has 50% Health or less, they also take an additional <span class=\"physical-damage\">1715 Bleed Damage</span> over 13 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -20404,7 +20403,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 434003960
+    "id": 434003960,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -20438,8 +20438,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your Bash attacks deal 935 more damage. When you Bash, you also deal 0 Physical Damage in a cone in front of you, interrupting any enemies hit. This effect can occur once every 2 seconds and counts as Bash damage.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Bash attacks deal 935 more damage. When you Bash, you also deal <span class=\"physical-damage\">0 Physical Damage</span> in a cone in front of you, interrupting any enemies hit. This effect can occur once every 2 seconds and counts as Bash damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "Craftable",
@@ -20774,7 +20773,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 360777189
+    "id": 360777189,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -20807,8 +20807,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increase the damage your damage over time and channeled abilities do by 18%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase the damage your damage over time and channeled abilities do by 18%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -21017,7 +21016,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3181796418
+    "id": 3181796418,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_u30_mythic_ring02.png",
@@ -21032,8 +21032,7 @@ const ESO_SETS = [
           "maximumStamina": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat."
-      },
-      "count": 1
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -21049,7 +21048,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 644873246
+    "id": 644873246,
+    "bonusCount": 1
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -21082,8 +21082,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take melee damage while you are under 35% Health, you knockback and stun all enemies within 8 meters of you for 4 seconds. This effect can occur once every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -21426,7 +21425,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3796934327
+    "id": 3796934327,
+    "bonusCount": 5
   },
   {
     "image": "gear_craglorn_heavy_head_a.png",
@@ -21459,8 +21459,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you block an attack, you deal 1196 Magic Damage to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 5 seconds and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you deal <span class=\"magic-damage\">1196 Magic Damage</span> to all enemies within 10 meters of you and heal for 100% of the damage done. This effect can occur once every 5 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -21669,7 +21668,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3274081249
+    "id": 3274081249,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_1hsword_a.png",
@@ -21681,8 +21681,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -21740,7 +21739,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1385642833
+    "id": 1385642833,
+    "bonusCount": 2
   },
   {
     "image": "gear_ashlanderv_medium_head_a.png",
@@ -21776,8 +21776,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you summon a Hunger that spews poison to all enemies in front of it, dealing <span class=\"poison-damage\">1040 Poison Damage</span> and stunning any enemy hit for 5 seconds. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Hlaalu",
@@ -21986,7 +21985,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1243434306
+    "id": 1243434306,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -22019,8 +22019,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you have a 25% chance to restore 2012 Magicka. This effect can occur once every 4 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you have a 25% chance to restore 2012 Magicka. This effect can occur once every 4 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -22229,7 +22228,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 58452411
+    "id": 58452411,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_staff_e.png",
@@ -22244,8 +22244,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces the cost of Destructive Touch by 10% and increases your <span class=\"magicka\">Spell Damage by 600</span> for 4 seconds after activating it."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -22286,7 +22285,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 513541787
+    "id": 513541787,
+    "bonusCount": 2
   },
   {
     "image": "gear_craglorn_light_head_a.png",
@@ -22322,8 +22322,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack the bomb detonates, dealing <span class=\"magic-damage\">1000 Magic Damage</span> all enemies within 8 meters. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -22532,7 +22531,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3752005855
+    "id": 3752005855,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -22571,8 +22571,7 @@ const ESO_SETS = [
           "weaponDamage": 437
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, using an ability with a range of 7 meters or less grants you Range Supremacy for 5 seconds, adding <span class=\"stamina\">437 Weapon</span> and <span class=\"magicka\">Spell Damage</span> to your damage over time and ranged attacks. \n\nWhile in combat, using an ability with a range of over 7 meters grants you Melee Supremacy for 5 seconds, adding <span class=\"stamina\">437 Weapon</span> and <span class=\"magicka\">Spell Damage</span> to your melee attacks."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Craftable",
@@ -22907,7 +22906,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2814269503
+    "id": 2814269503,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_2hsword_a.png",
@@ -22919,8 +22919,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -22961,7 +22960,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3270874196
+    "id": 3270874196,
+    "bonusCount": 2
   },
   {
     "image": "gear_undauntedminotaur_a.png",
@@ -22985,8 +22985,7 @@ const ESO_SETS = [
           "weaponDamage": 300
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you create either a ring of fire or ring of molten earth around you for 10 seconds, which deals <span class=\"flame-damage\">209 Flame damage</span> or <span class=\"physical-damage\">209 Physical damage</span> every 1 second. Standing within the ring grants you <span class=\"magicka\">300 Spell Damage</span> or <span class=\"stamina\">300 Weapon Damage</span>. This effect can occur once every 15 seconds and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Undaunted",
@@ -23054,7 +23053,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 833911421
+    "id": 833911421,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -23087,8 +23087,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increase your damage done to Bleeding enemies by 225. Dealing non-Bleed damage to Bleeding enemies generates a persistent stack of Dragon's Appetite, up to once per half second. After 10 stacks you consume Dragon's Appetite and heal for 4635 Health. The heal effect scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase your damage done to Bleeding enemies by 225. Dealing non-Bleed damage to Bleeding enemies generates a persistent stack of Dragon's Appetite, up to once per half second. After 10 stacks you consume Dragon's Appetite and heal for 4635 Health.  The heal effect scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Craftable",
@@ -23423,7 +23422,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3682405502
+    "id": 3682405502,
+    "bonusCount": 5
   },
   {
     "image": "gear_stagzenhvy_helmet_a.png",
@@ -23464,8 +23464,7 @@ const ESO_SETS = [
           "Minor Breach"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies <span class=\"buff\">Minor Breach</span> to all enemies near you, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>. This effect can occur every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Stags of Z'en",
@@ -23674,7 +23673,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1106775605
+    "id": 1106775605,
+    "bonusCount": 5
   },
   {
     "image": "gear_dragonguardmed_head_a.png",
@@ -23710,8 +23710,7 @@ const ESO_SETS = [
           "weaponCritical": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You gain a stack of Dragonguard Tactics for 5 seconds when you deal direct damage to an enemy from the front or their sides, up to 10 stacks.  Each stack of Dragonguard Tactics increases your Weapon Critical by 275. You can only gain one stack every 0.5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Dragonguard",
@@ -23920,7 +23919,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 96905300
+    "id": 96905300,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackdv_hvy_head_a.png",
@@ -23956,8 +23956,7 @@ const ESO_SETS = [
           "Major Heroism"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash an enemy, you and up to 3 group members within 15 meters of you gain <span class=\"buff\">Major Heroism</span> for 12 seconds, granting you 3 Ultimate every 1.5 seconds. This effect can occur once every 18 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "True-Sworn",
@@ -24166,7 +24165,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4269237858
+    "id": 4269237858,
+    "bonusCount": 5
   },
   {
     "image": "gear_draugr_medium_head_a.png",
@@ -24202,8 +24202,7 @@ const ESO_SETS = [
           "maximumStamina": 2550
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">2550 Maximum Stamina</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Draugr",
@@ -24412,7 +24411,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3237976022
+    "id": 3237976022,
+    "bonusCount": 5
   },
   {
     "image": "gear_draugr_heavy_head_a.png",
@@ -24445,8 +24445,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 2631 Health. This effect can occur once every 7 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and heal for 2631 Health. This effect can occur once every 7 seconds and the heal scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Draugr",
@@ -24655,7 +24654,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1859196939
+    "id": 1859196939,
+    "bonusCount": 5
   },
   {
     "image": "gear_falkreath_light_head_a.png",
@@ -24688,8 +24688,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you complete a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your group members within 5 meters for 5832 Health over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you create a circle of consecrated ground that heals you and your group members within 5 meters for 5832 Health over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Dreadhorn",
@@ -24898,7 +24897,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 277259916
+    "id": 277259916,
+    "bonusCount": 5
   },
   {
     "image": "gear_pyrewatchlgt_head_a.png",
@@ -24931,8 +24931,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing direct damage to an enemy places a ghostly curse on your enemy for 6 seconds. Cursed enemies take 617 extra damage from all of your damage abilities. This effect can occur once every 9 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage to an enemy places a ghostly curse on your enemy for 6 seconds.  Cursed enemies take 617 extra damage from all of your damage abilities. This effect can occur once every 9 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Pyre Watch",
@@ -25141,7 +25140,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 752369352
+    "id": 752369352,
+    "bonusCount": 5
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -25174,8 +25174,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and restore 1058 Magicka. This effect can occur once every 7 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 35% Health, you knockdown all enemies within 4 meters of you for 2 seconds and restore 1058 Magicka. This effect can occur once every 7 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -25384,7 +25383,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 301413668
+    "id": 301413668,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_heavy_head_d.png",
@@ -25423,8 +25423,7 @@ const ESO_SETS = [
           "Major Brutality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain <span class=\"buff\">Major Brutality</span> at all times, increasing your <span class=\"stamina\">Weapon Damage by 20%</span>. When you kill an enemy, you gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -25637,7 +25636,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1253505261
+    "id": 1253505261,
+    "bonusCount": 5
   },
   {
     "image": "gear_moongravefane_med_helmet_a.png",
@@ -25673,8 +25673,7 @@ const ESO_SETS = [
           "weaponDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, For every bleed effect you have on an enemy, increase your <span class=\"stamina\">Weapon Damage by 103</span> against them."
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Moongrave Fane",
@@ -25883,7 +25882,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 516929316
+    "id": 516929316,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_heavy_head_a.png",
@@ -25919,8 +25919,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are blocking, your Physical and Spell Resistance are increased by 5310."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -26129,7 +26128,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 550914914
+    "id": 550914914,
+    "bonusCount": 5
   },
   {
     "image": "gear_redguard_heavy_head_d.png",
@@ -26168,8 +26168,7 @@ const ESO_SETS = [
           "Major Defile"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you apply <span class=\"buff\">Major Defile</span> to the enemy for 5 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 7 seconds per enemy."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -26378,7 +26377,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2486598520
+    "id": 2486598520,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_bow_d.png",
@@ -26400,8 +26400,7 @@ const ESO_SETS = [
           "weaponCritical": 1652
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1652 Weapon Critical</span> to your ranged direct damage abilities."
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -26476,7 +26475,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 355478290
+    "id": 355478290,
+    "bonusCount": 3
   },
   {
     "image": "gear_undaunted_ironatronach_head_a.png",
@@ -26495,8 +26495,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you heal yourself or a group member that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health group member in the area for 10219 Health over 10 seconds. This effect can occur once every 20 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or a group member that is under 50% Health, you conjure a pool of quenching blood underneath them, immediately removing all previous enemy placed effects, and healing the lowest Health group member in the area for 10219 Health over 10 seconds. This effect can occur once every 20 seconds and the heal scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 2
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Undaunted",
@@ -26564,7 +26563,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 960087704
+    "id": 960087704,
+    "bonusCount": 2
   },
   {
     "image": "gear_artifactebonyheavy_head_a.png",
@@ -26597,8 +26597,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your Max Health by 1000 for you and up to 11 other group members within 28 meters of you.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Max Health by 1000 for you and up to 11 other group members within 28 meters of you."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Soul Shriven",
@@ -26811,7 +26810,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2762347631
+    "id": 2762347631,
+    "bonusCount": 5
   },
   {
     "image": "gear_northlandsalchlgt_head_a.png",
@@ -26844,8 +26844,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you deal Flame, Shock, or Frost Damage, you apply a stack of Flame, Shock, or Frost Weakness to the enemy for 3 seconds. Each stack of an Elemental Weakness increases their Critical Damage taken by 5%. An enemy can only have one stack of each Elemental Weakness at a time.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal Flame, Shock, or Frost Damage, you apply a stack of Flame, Shock, or Frost Weakness to the enemy for 3 seconds. Each stack of an Elemental Weakness increases their Critical Damage taken by 5%. An enemy can only have one stack of each Elemental Weakness at a time."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Hazardous Alchemy",
@@ -27054,7 +27053,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1856809765
+    "id": 1856809765,
+    "bonusCount": 5
   },
   {
     "image": "gear_malacath_light_head_a.png",
@@ -27090,8 +27090,7 @@ const ESO_SETS = [
           "spellDamage": 492
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal Flame, Shock, or Frost Damage, you gain <span class=\"magicka\">492 Spell Damage</span> for that element for 4 seconds. Each effect can occur every 4 seconds, and multiple effects can be active at once."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Malacath",
@@ -27300,7 +27299,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1578240857
+    "id": 1578240857,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -27333,8 +27333,7 @@ const ESO_SETS = [
       "5": {
         "description": "While in combat, increases the duration of your Flame Damage over Time abilities by 5 seconds. This effect does not work with beam or channeled effects.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, increases the duration of your Flame Damage over Time abilities by 5 seconds.\n\nThis effect does not work with beam or channeled effects."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -27543,7 +27542,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2869168950
+    "id": 2869168950,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_heavy_head_a.png",
@@ -27580,8 +27580,7 @@ const ESO_SETS = [
           "physicalResistance": 3300
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you increase your <span class=\"health\">Physical and Spell Resistance by 3300</span> and deal <span class=\"flame-damage\">0 Flame damage</span> to all enemies within 5 meters of you every 1 second for 6 seconds.  The damage scales off the higher of your Physical or Spell Resistance."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -27794,7 +27793,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1581509797
+    "id": 1581509797,
+    "bonusCount": 5
   },
   {
     "image": "gear_undfiregiant_head_a.png",
@@ -27813,8 +27813,7 @@ const ESO_SETS = [
       "2": {
         "description": "Dealing Flame Damage to an enemy grants you Behemoth's Aura for 12 seconds that reaches up to 12 meters. You and up to 11 group members in the aura reduce Flame Damage taken by 5%. Enemies in the aura increase their Flame Damage taken by 5%. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing Flame Damage to an enemy grants you Behemoth's Aura for 12 seconds that reaches up to 12 meters. You and up to 11 group members in the aura reduce Flame Damage taken by 5%. Enemies in the aura increase their Flame Damage taken by 5%. This effect can occur once every 15 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "Undaunted",
@@ -27882,7 +27881,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1795166190
+    "id": 1795166190,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -27904,8 +27904,7 @@ const ESO_SETS = [
           "healthRecovery": 618
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">618 Health Recovery</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -28051,7 +28050,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2250338118
+    "id": 2250338118,
+    "bonusCount": 3
   },
   {
     "image": "gear_undaunteddwemer_head_a.png",
@@ -28070,8 +28070,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you use an ability, you have a 25% chance to summon a Dwemer automation to restore 550 Stamina or Magicka or 1955 Health to you every 0.5 seconds for 6 seconds. This effect can occur once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you use an ability, you have a 25% chance to summon a Dwemer automation to restore 550 Stamina or Magicka or 1955 Health to you every 0.5 seconds for 6 seconds.  This effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -28139,7 +28138,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3584175714
+    "id": 3584175714,
+    "bonusCount": 2
   },
   {
     "image": "gear_imperialdaedric_medium_head_a.png",
@@ -28172,8 +28172,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing damage with a Light or Heavy Attack draws essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 4356 Health, restores 4356 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Heavy Attack draws essence from the enemy that pools near them for 5 seconds. Drawing from the pool heals you for 4356 Health, restores 4356 Stamina, and increases your damage done by 10% for 10 seconds. A pool can only be created once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -28382,7 +28381,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1279403637
+    "id": 1279403637,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -28418,8 +28418,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use Roll Dodge, you leave behind a rune that detonates when enemies come close, dealing <span class=\"poison-damage\">1042 Poison damage</span> and immobilizing them for 1.5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Craftable",
@@ -28754,7 +28753,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2912623095
+    "id": 2912623095,
+    "bonusCount": 5
   },
   {
     "image": "gear_greyhosthvy_helmet_a.png",
@@ -28791,8 +28791,7 @@ const ESO_SETS = [
           "magickaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 337 Stamina and Magicka Recovery while your Health is above 50%. Adds <span class=\"health\">1011 Health Recovery</span> while your Health is 50% or less."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": null,
@@ -29001,7 +29000,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1086480649
+    "id": 1086480649,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_heavy_head_a.png",
@@ -29037,8 +29037,7 @@ const ESO_SETS = [
           "healingTaken": 4
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">4% Healing Taken</span>, When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -29255,7 +29254,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2619628976
+    "id": 2619628976,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_dagger_a.png",
@@ -29267,8 +29267,7 @@ const ESO_SETS = [
       "2": {
         "description": "Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them. Restores 1890 Stamina if the target was below 50% Health.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them.\n\nRestores 1890 Stamina if the target was below 50% Health."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -29318,7 +29317,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1830056618
+    "id": 1830056618,
+    "bonusCount": 2
   },
   {
     "image": "gear_reachv2_heavy_head_a.png",
@@ -29355,8 +29355,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you successfully block, you place a bomb on the enemy for 10 seconds. When they are hit with a fully-charged Heavy Attack, the bomb detonates, dealing <span class=\"flame-damage\">0 Flame Damage</span> to all enemies within 8 meters and applying the Burning status effect to them. This effect can occur once every 8 seconds and scales off the higher of your Physical or Spell Resistance."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Ancestral Reach",
@@ -29565,7 +29564,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2171343124
+    "id": 2171343124,
+    "bonusCount": 5
   },
   {
     "image": "gear_sunspire_light_helmet_a.png",
@@ -29598,8 +29598,7 @@ const ESO_SETS = [
       "5": {
         "description": "When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -29808,7 +29807,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2133094273
+    "id": 2133094273,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_light_head_d.png",
@@ -29842,8 +29842,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal Critical Damage, generate 7 Ultimate. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, generate 7 Ultimate. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "Fargrave Guardian",
@@ -30052,7 +30051,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 278191379
+    "id": 278191379,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -30085,8 +30085,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of your Restoration Staff abilities by 15%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Restoration Staff abilities by 15%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -30421,7 +30420,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2673439463
+    "id": 2673439463,
+    "bonusCount": 5
   },
   {
     "image": "gear_sunspire_light_helmet_a.png",
@@ -30457,8 +30457,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -30667,7 +30666,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1271091522
+    "id": 1271091522,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_heavy_head_a.png",
@@ -30707,8 +30707,7 @@ const ESO_SETS = [
           "Minor Defile"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1487 Armor</span>, While in combat, you apply <span class=\"buff\">Minor Defile</span> to any enemy that comes within 5 meters of you for 2 seconds, reducing their healing received and Health Recovery by 8%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -30917,7 +30916,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3682121685
+    "id": 3682121685,
+    "bonusCount": 5
   },
   {
     "image": "gear_nord_medium_head_d.png",
@@ -30950,8 +30950,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost and increases the Movement Speed bonus of Sprint by 15%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost and increases the Movement Speed bonus of Sprint by 15%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -31160,7 +31159,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2046683112
+    "id": 2046683112,
+    "bonusCount": 5
   },
   {
     "image": "gear_bloodforge_light_head_a.png",
@@ -31196,8 +31196,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you summon a line of flame that moves forward after 1 second, dealing <span class=\"flame-damage\">1614 Flame Damage</span> to any enemy in its path and applying the Burning status effect. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Bloodforge",
@@ -31406,7 +31405,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3610566781
+    "id": 3610566781,
+    "bonusCount": 5
   },
   {
     "image": "gear_ooth_medium_head_a.png",
@@ -31442,8 +31442,7 @@ const ESO_SETS = [
           "weaponDamage": 400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">400 Weapon Damage</span> to your damaging abilities when you attack an enemy from behind or their sides."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Order of the Hour",
@@ -31652,7 +31651,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3121390583
+    "id": 3121390583,
+    "bonusCount": 5
   },
   {
     "image": "gear_cauldron_hvy_head_a.png",
@@ -31685,8 +31685,7 @@ const ESO_SETS = [
       "5": {
         "description": "Activating Block while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores 5680 Magicka and Stamina. This effect can occur once every 30 seconds if a damage shield broke.This effect can occur once every 10 seconds if no damage shields broke.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Activating Block while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores <span class=\"magicka\">5680 Magicka</span> and <span class=\"stamina\">Stamina</span>.\n\nThis effect can occur once every 30 seconds if a damage shield broke.This effect can occur once every 10 seconds if no damage shields broke."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "Waking Flame",
@@ -31895,7 +31894,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2075628074
+    "id": 2075628074,
+    "bonusCount": 5
   },
   {
     "image": "gear_orc_heavy_head_d.png",
@@ -31928,8 +31928,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases the amount of damage you block by 8%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the amount of damage you block by 8%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Orc",
@@ -32138,7 +32137,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1531293044
+    "id": 1531293044,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_staff_a.png",
@@ -32150,8 +32150,7 @@ const ESO_SETS = [
       "2": {
         "description": "Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds. While the tether persists and you remain in range, you and allies in the tether restore 175 Magicka and Stamina every 1 second. This effect can occur once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds.  While the tether persists and you remain in range, you and allies in the tether restore <span class=\"magicka\">175 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.  This effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -32174,7 +32173,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3136610586
+    "id": 3136610586,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -32210,8 +32210,7 @@ const ESO_SETS = [
           "armor": 3460
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">3460 Armor</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Craftable",
@@ -32546,7 +32545,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1391810426
+    "id": 1391810426,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_2hsword_a.png",
@@ -32562,8 +32562,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While Momentum is active, casting Stamina abilities while in combat generates a stack of Frenzied Momentum for 20 seconds, increasing your <span class=\"stamina\">Weapon Damage by 38</span> up to 5 times.  Upon reaching max stacks, your next Heavy Attack consumes all stacks and releases a violent explosion of energy around you, dealing <span class=\"physical-damage\">1495 Physical Damage</span> to all enemies within 8 meters, scaling off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -32604,7 +32603,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2391873020
+    "id": 2391873020,
+    "bonusCount": 2
   },
   {
     "image": "gear_argonian_light_head_d.png",
@@ -32640,8 +32640,7 @@ const ESO_SETS = [
           "Minor Brittle"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done with Frost abilities by 8%. Increases your damage done against Chilled enemies by 4%. Increases your damage done against enemies afflicted with <span class=\"buff\">Minor Brittle</span> by 2%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -32850,7 +32849,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 579956711
+    "id": 579956711,
+    "bonusCount": 5
   },
   {
     "image": "gear_meridian_heavy_head_a.png",
@@ -32883,8 +32883,7 @@ const ESO_SETS = [
       "5": {
         "description": "Summon a blizzard around you while blocking, inflicting 496 Frost Damage every 1 second to enemies within 6 meters. This effect scales off your Max Health. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Summon a blizzard around you while blocking, inflicting <span class=\"frost-damage\">496 Frost Damage</span> every 1 second to enemies within 6 meters. This effect scales off your Max Health. Your blizzard has a 15% chance of inflicting Chilled on enemies damaged."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Meridian",
@@ -33093,7 +33092,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3400336099
+    "id": 3400336099,
+    "bonusCount": 5
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -33129,8 +33129,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack, you put a Mark of Revenge on the enemy for 15 seconds. After stacking 5 Marks of Revenge on an enemy they detonate for <span class=\"magic-damage\">1464 Magic Damage</span>.\n\nYou can only apply a stack once every second and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "High Elf",
@@ -33339,7 +33338,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4028093126
+    "id": 4028093126,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_1hsword_a.png",
@@ -33351,8 +33351,7 @@ const ESO_SETS = [
       "2": {
         "description": "Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -33410,7 +33409,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3312765490
+    "id": 3312765490,
+    "bonusCount": 2
   },
   {
     "image": "gear_sithisargonian_head_a.png",
@@ -33427,8 +33427,7 @@ const ESO_SETS = [
           "healthRecovery": 1025
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">3276 Maximum Health</span>, Adds <span class=\"health\">1025 Health Recovery</span>, Adds <span class=\"health\">4000 Armor</span>, Reduces your Block Mitigation to 0."
-      },
-      "count": 1
+      }
     },
     "dlc": "Blackwood",
     "style": "Unique",
@@ -33445,7 +33444,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3625690715
+    "id": 3625690715,
+    "bonusCount": 1
   },
   {
     "image": "gear_undauntedspider_head_a.png",
@@ -33464,8 +33464,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -33500,7 +33499,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1158661843
+    "id": 1158661843,
+    "bonusCount": 2
   },
   {
     "image": "gear_undfleshcolossus_head_a.png",
@@ -33523,8 +33523,7 @@ const ESO_SETS = [
           "criticalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While in combat, each second you stand still grants you a stack of Flesh Fortress, up to 10 stacks. Each stack increases your Armor by 380 and your Critical Resistance by 38. Each second you move removes a stack of Flesh Fortress. Exiting combat removes all stacks of Flesh Fortress.\n\nUsing charge and teleport abilities do not remove stacks of Flesh Fortress."
-      },
-      "count": 2
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -33592,7 +33591,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3250700293
+    "id": 3250700293,
+    "bonusCount": 2
   },
   {
     "image": "gear_trinimac_heavy_head_a.png",
@@ -33625,8 +33625,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you Bash an enemy, you gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you. This effect can occur once every 13 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash an enemy, you gain Glorious Defense for 10 seconds, allowing you to dodge the next attack made against you.  This effect can occur once every 13 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Trinimac",
@@ -33835,7 +33834,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 204288854
+    "id": 204288854,
+    "bonusCount": 5
   },
   {
     "image": "gear_kothringi_light_head_a.png",
@@ -33871,8 +33871,7 @@ const ESO_SETS = [
           "Major Evasion"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally, you grant them <span class=\"buff\">Major Evasion</span> for 1 second, reducing damage from area attacks by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Silken Ring",
@@ -34081,7 +34080,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1695185100
+    "id": 1695185100,
+    "bonusCount": 5
   },
   {
     "image": "gear_nocturnal_heavy_head_a.png",
@@ -34117,8 +34117,7 @@ const ESO_SETS = [
           "Major Evasion"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you become a living shadow for 10 seconds, causing you to heal for 927 every 2 seconds and gaining <span class=\"buff\">Major Evasion</span>, reducing damage from area attacks by 20%. This effect can occur every 20 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Ebonshadow",
@@ -34327,7 +34326,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 52530360
+    "id": 52530360,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -34349,8 +34349,7 @@ const ESO_SETS = [
           "maximumMagicka": 2406
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">2406 Maximum Magicka</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -34496,7 +34495,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3692915820
+    "id": 3692915820,
+    "bonusCount": 3
   },
   {
     "image": "gear_breton_staff_e.png",
@@ -34508,8 +34508,7 @@ const ESO_SETS = [
       "2": {
         "description": "The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring 117 Magicka and Stamina every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring <span class=\"magicka\">117 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -34532,7 +34531,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 376949189
+    "id": 376949189,
+    "bonusCount": 2
   },
   {
     "image": "gear_pyrewatchhvy_head_a.png",
@@ -34569,8 +34569,7 @@ const ESO_SETS = [
           "physicalResistance": 4430
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Summon a stone aura while blocking, hardening you and your nearby group members, increasing your <span class=\"health\">Physical and Spell Resistance by 4430</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Pyre Watch",
@@ -34779,7 +34778,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3994011461
+    "id": 3994011461,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -34812,8 +34812,7 @@ const ESO_SETS = [
       "5": {
         "description": "When an enemy you recently damaged dies, they drop a grave-stake for 6 seconds. When you touch the grave-stake, you restore 4564 Stamina and Magicka. Only one grave-stake can appear at a time.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you recently damaged dies, they drop a grave-stake for 6 seconds. When you touch the grave-stake, you restore 4564 Stamina and Magicka. Only one grave-stake can appear at a time."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Craftable",
@@ -35148,7 +35147,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3778148870
+    "id": 3778148870,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_heavy_head_d.png",
@@ -35184,8 +35184,7 @@ const ESO_SETS = [
           "healthRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a food buff active, your Max Health is increased by 2500 and Health Recovery by 356."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -35416,7 +35415,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3401684120
+    "id": 3401684120,
+    "bonusCount": 5
   },
   {
     "image": "gear_knightsotsmed_head_a.png",
@@ -35453,8 +35453,7 @@ const ESO_SETS = [
           "maximumStamina": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">526 Maximum Stamina</span>, Dealing Light Attack damage grants you a stack of Baker's Delight for 5 seconds. When you gain 3 stacks, you create a Sweetroll next to your target for 5 seconds. If you or an ally touches the Sweetroll, both you and your ally gain one of the following effects:\n-Restore 1593 Health, Magicka and Stamina\n-Gain <span class=\"buff\">Empower</span> for 10 seconds\n-Gain <span class=\"buff\">Major Force</span> for 10 seconds\n\nThis effect can occur once every 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Silver Rose",
@@ -35663,7 +35662,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 416235850
+    "id": 416235850,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedfleshatronach_head_a.png",
@@ -35685,8 +35685,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage to an enemy within 8 meters, you have a 10% chance to create lava pools that swirl around you, dealing <span class=\"flame-damage\">272 Flame damage</span> to all enemies within 8 meters of you every 1 second for 5 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -35754,7 +35753,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2779590290
+    "id": 2779590290,
+    "bonusCount": 2
   },
   {
     "image": "gear_undmfgrundwulf_helmet_a.png",
@@ -35773,8 +35773,7 @@ const ESO_SETS = [
       "2": {
         "description": "Whenever you deal critical damage, restore 700 Magicka or Stamina, whichever maximum is higher. You also gain 350 of the other resource. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Whenever you deal critical damage, restore <span class=\"magicka\">700 Magicka</span> or <span class=\"stamina\">Stamina</span>, whichever maximum is higher. You also gain 350 of the other resource. This effect can occur once every 5 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Undaunted",
@@ -35842,7 +35841,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3402720775
+    "id": 3402720775,
+    "bonusCount": 2
   },
   {
     "image": "gear_ancient_elf_medium_head_a.png",
@@ -35878,8 +35878,7 @@ const ESO_SETS = [
           "Minor Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After dealing direct damage, you gain <span class=\"buff\">Minor Force</span> and <span class=\"buff\">Minor Expedition</span> for 10 seconds, increasing your Critical Damage done by 10% and increasing your Movement Speed by 15%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Ancient Elf",
@@ -36088,7 +36087,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 899022413
+    "id": 899022413,
+    "bonusCount": 5
   },
   {
     "image": "gear_bloodforge_heavy_head_a.png",
@@ -36124,8 +36124,7 @@ const ESO_SETS = [
           "Major Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 50% Health, you summon a preservation of nature around you in a 8 meter radius for 8 seconds which grants <span class=\"buff\">Major Protection</span> to you and up to 5 group members while in the area, reducing your damage taken by 10%. This effect can occur once every 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Bloodforge",
@@ -36334,7 +36333,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4003128070
+    "id": 4003128070,
+    "bonusCount": 5
   },
   {
     "image": "gear_kothringi_heavy_head_a.png",
@@ -36374,8 +36374,7 @@ const ESO_SETS = [
           "Minor Breach"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you encase the ground beneath you in webs for 5 seconds, reducing the Movement Speed of enemies within a 4 meter radius by 33% and applying <span class=\"buff\">Minor Breach</span> to them, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>. After 5 seconds the webs burst into venom, dealing <span class=\"poison-damage\">0 Poison Damage</span>. This effect can occur once every 5 seconds and scales off the higher of your Physical or Spell Resistance."
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Silken Ring",
@@ -36584,7 +36583,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3884424875
+    "id": 3884424875,
+    "bonusCount": 5
   },
   {
     "image": "gear_hircine_light_head_a.png",
@@ -36623,8 +36623,7 @@ const ESO_SETS = [
           "Major Heroism"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1963 Maximum Magicka</span>, When you resurrect another player while in combat, both you and the player gain <span class=\"buff\">Major Heroism</span> for 15 seconds, granting you 3 Ultimate every 1.5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Huntsman",
@@ -36833,7 +36832,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1664801165
+    "id": 1664801165,
+    "bonusCount": 5
   },
   {
     "image": "gear_kothringikilt_a.png",
@@ -36848,8 +36848,7 @@ const ESO_SETS = [
           "criticalChance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus."
-      },
-      "count": 1
+      }
     },
     "dlc": "Blackwood",
     "style": "Unique",
@@ -36866,7 +36865,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 820547537
+    "id": 820547537,
+    "bonusCount": 1
   },
   {
     "image": "antiquities_malacaths_band_of_brutality.png",
@@ -36878,8 +36878,7 @@ const ESO_SETS = [
       "1": {
         "description": "Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester. Harvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester.\n\nHarvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": null,
@@ -36895,7 +36894,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 169810620
+    "id": 169810620,
+    "bonusCount": 1
   },
   {
     "image": "gear_argonian_heavy_head_d.png",
@@ -36928,8 +36928,7 @@ const ESO_SETS = [
       "5": {
         "description": "Gain a damage shield equal to 20% of your Max Health for 15 seconds every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Gain a damage shield equal to 20% of your Max Health for 15 seconds every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -37138,7 +37137,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1972910709
+    "id": 1972910709,
+    "bonusCount": 5
   },
   {
     "image": "gear_hircine_heavy_head_a.png",
@@ -37171,8 +37171,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or a group member can activate a synergy on Ursus to grant a shield that protects up to 6 group members within a 28 meter radius from 13967 damage for 6 seconds. This effect can occur once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 50% Health, summon Ursus's spirit for 6 seconds at a random group member. You or a group member can activate a synergy on Ursus to grant a shield that protects up to 6 group members within a 28 meter radius from 13967 damage for 6 seconds. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Huntsman",
@@ -37381,7 +37380,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3925183192
+    "id": 3925183192,
+    "bonusCount": 5
   },
   {
     "image": "gear_huntsman_head_a.png",
@@ -37414,8 +37414,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost and increases the damage of your Bow abilities by 6%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost and increases the damage of your Bow abilities by 6%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -37517,7 +37516,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2749548755
+    "id": 2749548755,
+    "bonusCount": 5
   },
   {
     "image": "gear_ancient_elf_light_head_a.png",
@@ -37556,8 +37556,7 @@ const ESO_SETS = [
           "Minor Mending"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">5% Healing Done</span>, Gain <span class=\"buff\">Minor Mending</span> at all times, increasing your healing done by 8%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Ancient Elf",
@@ -37766,7 +37765,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 475047348
+    "id": 475047348,
+    "bonusCount": 5
   },
   {
     "image": "gear_craglorn_light_head_a.png",
@@ -37806,8 +37806,7 @@ const ESO_SETS = [
           "Minor Cowardice"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an area of effect heal ability, you apply <span class=\"buff\">Minor Cowardice</span> to enemies within 10 meters of you, reducing their Weapon and <span class=\"magicka\">Spell Damage by 215</span> for 5 seconds.  This effect can occur once every 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -38016,7 +38015,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1675163617
+    "id": 1675163617,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -38050,8 +38050,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increase the effectiveness of your Weapon Traits by 100%. This does not affect Ornate or Intricate traits.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increase the effectiveness of your Weapon Traits by 100%. This does not affect Ornate or Intricate traits."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Craftable",
@@ -38386,7 +38385,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2008743710
+    "id": 2008743710,
+    "bonusCount": 5
   },
   {
     "image": "gear_mazzatun_medium_head_a.png",
@@ -38425,8 +38425,7 @@ const ESO_SETS = [
           "Major Berserk"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain <span class=\"buff\">Major Berserk</span> for 10 seconds, increasing your damage done by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Mazzatun",
@@ -38635,7 +38634,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 980790225
+    "id": 980790225,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_light_head_a.png",
@@ -38671,8 +38671,7 @@ const ESO_SETS = [
           "spellDamage": 171
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Whenever you Bash an enemy, you release a cone of hexing energy in front of you.  Each enemy hit increases your <span class=\"magicka\">Spell Damage by 88</span> for 8 seconds, up to a maximum of 6 enemies.  This effect can occur once every 8 seconds. \n\nWhenever you successfully interrupt a target, you restore 1000 Magicka."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Ancestral Reach",
@@ -38881,7 +38880,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1615550459
+    "id": 1615550459,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperialv2_med_head_a.png",
@@ -38915,8 +38915,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing direct Critical Damage grants you a damage shield that absorbs up to 12265 damage for 6 seconds. This effect can occur once every 6 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct Critical Damage grants you a damage shield that absorbs up to 12265 damage for 6 seconds. This effect can occur once every 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "House Hexos",
@@ -39125,7 +39124,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4293151529
+    "id": 4293151529,
+    "bonusCount": 5
   },
   {
     "image": "gear_minotaur_heavy_head_a.png",
@@ -39162,8 +39162,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you Roll Dodge through an enemy, you deal <span class=\"physical-damage\">0 Physical Damage</span> and knock them down for 3 seconds.  This effect scales off the higher of your Physical or Spell Resistance."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Minotaur",
@@ -39372,7 +39371,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3458062844
+    "id": 3458062844,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_medium_head_a.png",
@@ -39405,8 +39405,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you generate 6 Ultimate. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you generate 6 Ultimate. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -39615,7 +39614,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3667604466
+    "id": 3667604466,
+    "bonusCount": 5
   },
   {
     "image": "gear_artifactsaviorhidemd_head_a.png",
@@ -39651,8 +39651,7 @@ const ESO_SETS = [
           "staminaRecovery": 145
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Grants <span class=\"stamina\">145 Stamina Recovery</span> to you and up to 11 other group members within 28 meters of you."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Soul Shriven",
@@ -39861,7 +39860,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3999538242
+    "id": 3999538242,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -39897,8 +39897,7 @@ const ESO_SETS = [
           "Major Evasion"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are blocking you gain <span class=\"buff\">Major Evasion</span>, reducing damage from area attacks by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -40241,7 +40240,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 62112025
+    "id": 62112025,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -40274,8 +40274,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing damage with a Light or Medium Attack heals you for 318 Health and restores 318 Stamina and Magicka. Dealing damage with a fully-charged Heavy Attack heals you for 636 Health and restores 636 Stamina and Magicka.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Medium Attack heals you for 318 Health and restores 318 Stamina and Magicka. Dealing damage with a fully-charged Heavy Attack heals you for 636 Health and restores 636 Stamina and Magicka."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Craftable",
@@ -40610,7 +40609,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1612665676
+    "id": 1612665676,
+    "bonusCount": 5
   },
   {
     "image": "gear_icereachlgt_head_a.png",
@@ -40643,8 +40643,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you heal yourself or an ally with an ability, gain a Warming Aura for 10 seconds. While in the Warming Aura, you and group members restore 593 Health every 2 seconds and reduce the cost of Sprint, Block, and Roll Dodge by 5%. This effect can occur once every 12 seconds and the heal scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with an ability, gain a Warming Aura for 10 seconds. While in the Warming Aura, you and group members restore 593 Health every 2 seconds and reduce the cost of Sprint, Block, and Roll Dodge by 5%. This effect can occur once every 12 seconds and the heal scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Icereach Coven",
@@ -40853,7 +40852,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3483045245
+    "id": 3483045245,
+    "bonusCount": 5
   },
   {
     "image": "gear_moongravefane_lgt_helmet_a.png",
@@ -40889,8 +40889,7 @@ const ESO_SETS = [
           "Minor Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you critically heal or critically damage a target, spawn a ball of Hemoglobin at their location. After 2 seconds the ball explodes, restoring 1750 Magicka and applying <span class=\"buff\">Minor Vitality</span> to you and your group members within 6 meters of the ball for 9 seconds, increasing their healing received by 8%. This effect can occur once every 9 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Moongrave Fane",
@@ -41099,7 +41098,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2089592432
+    "id": 2089592432,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -41135,8 +41135,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Stunning or Immobilizing your enemy causes them to burst with frost magic, applying the Chilled status effect and dealing 13% of their total Physical and Spell Resistance as Frost Damage to themselves and enemies within 8 meters of them. This effect can occur once every 7 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -41339,7 +41338,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 239268206
+    "id": 239268206,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -41375,8 +41375,7 @@ const ESO_SETS = [
           "weaponDamage": 300
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">300 Weapon Damage</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -41719,7 +41718,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1169353091
+    "id": 1169353091,
+    "bonusCount": 5
   },
   {
     "image": "gear_malacath_medium_head_a.png",
@@ -41752,8 +41752,7 @@ const ESO_SETS = [
       "5": {
         "description": "When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your pets attack an enemy you have also attacked in the last 10 seconds, you heal for 2433 Health and restore 1216 Stamina. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Malacath",
@@ -41962,7 +41961,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 102299917
+    "id": 102299917,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedatronach_head_a.png",
@@ -41984,8 +41984,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Critical Damage, you have a 20% chance to gain a damage shield that absorbs 5000 damage for 6 seconds. While the damage shield holds, you deal <span class=\"frost-damage\">272 Frost damage</span> to all enemies within 5 meters of you every 1 second. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -42053,7 +42052,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 915822524
+    "id": 915822524,
+    "bonusCount": 2
   },
   {
     "image": "gear_coldsnap_light_head_a.png",
@@ -42089,8 +42089,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Applying a minor debuff to your enemy summons a non-reflectable Ice Wraith that will charge into your enemy, dealing <span class=\"frost-damage\">3225 Frost Damage</span> over 10 seconds.  This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Coldsnap",
@@ -42299,7 +42298,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2535606648
+    "id": 2535606648,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedxivilai_head_a.png",
@@ -42321,8 +42321,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Flame or Shock Damage, you have a 33% chance to summon a meteor shower that deals <span class=\"flame-damage\">153 Flame damage</span> and <span class=\"shock-damage\">153 Shock damage</span> to all enemies within 4 meters every 1 second for 5 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -42390,7 +42389,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 990994650
+    "id": 990994650,
+    "bonusCount": 2
   },
   {
     "image": "gear_undarmoredogrim_head_a.png",
@@ -42412,8 +42412,7 @@ const ESO_SETS = [
           "maximumHealth": 1206
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you take damage while below 50% Health, gain immunity to immobilization, snares, and crowd control effects for 10 seconds. This effect can occur once every 40 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -42481,7 +42480,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2863193691
+    "id": 2863193691,
+    "bonusCount": 2
   },
   {
     "image": "gear_craglorn_heavy_head_a.png",
@@ -42517,8 +42517,7 @@ const ESO_SETS = [
           "Major Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while below 35% Health you gain <span class=\"buff\">Major Protection</span> for 20 seconds, reducing your damage taken by 10%. This effect can occur once every 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -42727,7 +42726,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2336929830
+    "id": 2336929830,
+    "bonusCount": 5
   },
   {
     "image": "gear_ooth_heavy_head_a.png",
@@ -42761,8 +42761,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are in Imperial City, you tap into the power of the Tel Var Stones you are carrying, increasing your Health, Magicka, and Stamina by 1032. While you have a 4x Tel Var Stone multiplier this effect is increased by 600%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Order of the Hour",
@@ -43097,7 +43096,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 767177168
+    "id": 767177168,
+    "bonusCount": 5
   },
   {
     "image": "gear_ordinator_heavy_head_a.png",
@@ -43133,8 +43133,7 @@ const ESO_SETS = [
           "criticalResistance": 1650
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 1650 Critical Resistance"
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Militant Ordinator",
@@ -43469,7 +43468,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2602689334
+    "id": 2602689334,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -43505,8 +43505,7 @@ const ESO_SETS = [
           "Minor Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After Breaking Free, you gain <span class=\"buff\">Minor Protection</span> and <span class=\"buff\">Minor Heroism</span> for 7 seconds, reducing your damage taken by 5% and generating 1 Ultimate every 1.5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -43715,7 +43714,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 529570613
+    "id": 529570613,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_light_head_a.png",
@@ -43754,8 +43754,7 @@ const ESO_SETS = [
           "Minor Vulnerability"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">657 Spell Critical</span>, Your Heavy Attacks deal an additional 900 damage. Enemies you damage with fully-charged Heavy Attacks are afflicted with <span class=\"buff\">Minor Vulnerability</span> for 10 seconds, increasing their damage taken by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -43972,7 +43971,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1398943995
+    "id": 1398943995,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedlurcher_head_a.png",
@@ -43994,8 +43994,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you apply a damage shield to yourself or an ally, you have a 50% chance to lob 3 mortars over 2 seconds at the furthest enemy from you that each deal <span class=\"flame-damage\">673 Flame damage</span> to all enemies within 5 meters of the blast area. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -44063,7 +44062,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 150959529
+    "id": 150959529,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -44101,8 +44101,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 400 Spell and Weapon Damage to your Class abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Craftable",
@@ -44437,7 +44436,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2365529256
+    "id": 2365529256,
+    "bonusCount": 5
   },
   {
     "image": "gear_clockwork_light_head_a.png",
@@ -44473,8 +44473,7 @@ const ESO_SETS = [
           "Major Aegis"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Aegis</span> for 1 second per 10 Ultimate spent, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Refabricated",
@@ -44683,7 +44682,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2441489707
+    "id": 2441489707,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -44719,8 +44719,7 @@ const ESO_SETS = [
           "armor": 7779
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion while in combat, gain <span class=\"health\">7779 Armor</span> for 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "Craftable",
@@ -45055,7 +45054,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1029829396
+    "id": 1029829396,
+    "bonusCount": 5
   },
   {
     "image": "gear_falkreath_heavy_head_a.png",
@@ -45088,8 +45088,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you have a 10% chance to turn your blood into pure iron for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you have a 10% chance to turn your blood into pure iron for 10 seconds, reducing your damage taken by 30%, but your Movement Speed is reduced by 50%. This effect can occur once every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Dreadhorn",
@@ -45298,7 +45297,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2809374613
+    "id": 2809374613,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_medium_head_d.png",
@@ -45337,8 +45337,7 @@ const ESO_SETS = [
           "Minor Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">142 Stamina Recovery</span>, Gain <span class=\"buff\">Minor Expedition</span> at all times, increasing your Movement Speed by 15%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Khajiit",
@@ -45551,7 +45550,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3836330915
+    "id": 3836330915,
+    "bonusCount": 5
   },
   {
     "image": "gear_silverdawn_heavy_head_a.png",
@@ -45587,8 +45587,7 @@ const ESO_SETS = [
           "Major Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you lose 7000 or more Health from a single attack, you gain <span class=\"buff\">Major Vitality</span> for 8 seconds, increasing your healing received by 16%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Silver Dawn",
@@ -45797,7 +45796,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2799667153
+    "id": 2799667153,
+    "bonusCount": 5
   },
   {
     "image": "gear_ancient_elf_heavy_head_a.png",
@@ -45834,8 +45834,7 @@ const ESO_SETS = [
           "physicalResistance": 4620
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack you charge your arms, increasing your <span class=\"health\">Physical and Spell Resistance by 4620</span> for 6 seconds and causing your next Bash attack to deal an additional 3513 damage.\n\nThis effect can occur once every 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Maormer",
@@ -46044,7 +46043,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2809614433
+    "id": 2809614433,
+    "bonusCount": 5
   },
   {
     "image": "gear_scalecaller_light_head_a.png",
@@ -46081,8 +46081,7 @@ const ESO_SETS = [
           "Major buffs"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, increases the duration of all Major buffs, Minor buffs, and damage shields you apply to yourself and allies by 40%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Scalecaller",
@@ -46291,7 +46290,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3168753515
+    "id": 3168753515,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -46327,8 +46327,7 @@ const ESO_SETS = [
           "spellDamage": 222
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">222 Spell Damage</span>, Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 1720 Magicka."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -46663,7 +46662,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4175561889
+    "id": 4175561889,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackdrakevilla_med_head_a.png",
@@ -46699,8 +46699,7 @@ const ESO_SETS = [
           "Major Berserk"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a Light or Heavy Attack grants you a stack of Burning Heart for 5 seconds, up to 5 stacks. While you have 5 stacks, you generate an aura of wrath, granting you <span class=\"buff\">Major Berserk</span>, increasing your damage done by 10%. While you have an aura of wrath, allies within 12 meters of you gain <span class=\"buff\">Minor Berserk</span>, increasing their damage done by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "True-Sworn",
@@ -46909,7 +46908,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 704730099
+    "id": 704730099,
+    "bonusCount": 5
   },
   {
     "image": "gear_undbonecolossus_head_a.png",
@@ -46931,8 +46931,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Damaging an enemy with a Light Attack puts a Bone stack on them for 5 seconds, up to once every 0.5 seconds. \n\nAt 5 stacks, an undodgeable skeletal hand attacks your enemy after 1 second, knocking them into the air and stunning them for 3 seconds, or dealing <span class=\"magic-damage\">2333 Magic damage</span> if they cannot be stunned. Enemies then become immune to Kjalnar's Nightmare stacks for 4 seconds. The damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Undaunted",
@@ -47000,7 +46999,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2433294593
+    "id": 2433294593,
+    "bonusCount": 2
   },
   {
     "image": "gear_ordinator_light_head_a.png",
@@ -47033,8 +47033,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your fully-charged Heavy Attacks deal an additional 8% of an enemy's Max Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your fully-charged Heavy Attacks deal an additional 8% of an enemy's Max Health as Oblivion Damage. This can deal a maximum of 8000 Oblivion Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Militant Ordinator",
@@ -47243,7 +47242,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2628897238
+    "id": 2628897238,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_heavy_head_a.png",
@@ -47279,8 +47279,7 @@ const ESO_SETS = [
           "weaponDamage": 450
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">450 Weapon Damage</span> to your One Hand and Shield abilities. When you use a One Hand and Shield ability, you heal for 1537 Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -47489,7 +47488,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2129804492
+    "id": 2129804492,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_heavy_head_d.png",
@@ -47528,8 +47528,7 @@ const ESO_SETS = [
           "Minor Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, When you deal Martial melee damage, you apply <span class=\"buff\">Minor Maim</span> to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 5%.  This effect can occur once every 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -47697,7 +47696,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1383352539
+    "id": 1383352539,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunteddreugh_head_a.png",
@@ -47719,8 +47719,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing <span class=\"physical-damage\">261 Physical damage</span> every 0.6 seconds for 2.4 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -47788,7 +47787,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4153720195
+    "id": 4153720195,
+    "bonusCount": 2
   },
   {
     "image": "gear_northlandsalchmed_head_a.png",
@@ -47821,8 +47821,7 @@ const ESO_SETS = [
       "5": {
         "description": "After an enemy you've recently damaged dies, you let out a howl, granting three allies within 15 meters the Heed the Call synergy. Activating the synergy gives you and the activator 12 Ultimate. This effect can occur once every 20 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After an enemy you've recently damaged dies, you let out a howl, granting three allies within 15 meters the Heed the Call synergy. Activating the synergy gives you and the activator 12 Ultimate. This effect can occur once every 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Hazardous Alchemy",
@@ -48031,7 +48030,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2535044677
+    "id": 2535044677,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -48067,8 +48067,7 @@ const ESO_SETS = [
           "weaponDamage": 1475
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You gain <span class=\"stamina\">1475 Weapon Damage</span> against targets who are at or below 25% Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Craftable",
@@ -48403,7 +48402,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2745927003
+    "id": 2745927003,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -48436,8 +48436,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal direct damage while 12 meters or further from your target, you heal for 1314 Health and restore 1314 Stamina. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage while 12 meters or further from your target, you heal for 1314 Health and restore 1314 Stamina.  This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -48575,7 +48574,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2410133416
+    "id": 2410133416,
+    "bonusCount": 5
   },
   {
     "image": "gear_seagiantlgt_helmet.png",
@@ -48611,8 +48611,7 @@ const ESO_SETS = [
           "Major Buff"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -48821,7 +48820,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2972810684
+    "id": 2972810684,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_heavy_head_a.png",
@@ -48857,8 +48857,7 @@ const ESO_SETS = [
           "Major Debuffs"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you apply one of 5 random Major Debuffs to enemies within 8 meters of you for 18 seconds. This effect can occur once every 8 seconds and only if an enemy is in range.\n\nEligible debuffs are <span class=\"buff\">Major Breach</span>, <span class=\"buff\">Major Cowardice</span>, <span class=\"buff\">Major Defile</span>, <span class=\"buff\">Major Maim</span>, and <span class=\"buff\">Major Vulnerability</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "Annihilarch's Chosen",
@@ -49067,7 +49066,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3548091183
+    "id": 3548091183,
+    "bonusCount": 5
   },
   {
     "image": "gear_undvamplord_head_a.png",
@@ -49089,8 +49089,7 @@ const ESO_SETS = [
           "Major Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting an ability that costs Health spawns a blood ball for 10 seconds. This effect can occur once every 10 seconds. \n\nYou or an ally near the blood ball can activate the Sanguine Burst synergy, dealing <span class=\"disease-damage\">2879 Disease damage</span> to nearby enemies and applying <span class=\"buff\">Major Maim</span> for 8 seconds, decreasing their damage done by 10%. Enemies can only receive <span class=\"buff\">Major Maim</span> from Sanguine Burst once every 20 seconds. The damage scales off the synergy activator's Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": "Stonethorn",
     "style": "Undaunted",
@@ -49158,7 +49157,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2473995964
+    "id": 2473995964,
+    "bonusCount": 2
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -49191,8 +49191,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use an Ultimate ability, you and your group members within 20 meters of you heal for 25 Health and restore 25 Magicka and Stamina per point of the Ultimate's cost.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability, you and your group members within 20 meters of you heal for 25 Health and restore <span class=\"magicka\">25 Magicka</span> and <span class=\"stamina\">Stamina</span> per point of the Ultimate's cost."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -49401,7 +49400,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 442234246
+    "id": 442234246,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -49437,8 +49437,7 @@ const ESO_SETS = [
           "spellDamage": 300
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">300 Spell Damage</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Craftable",
@@ -49773,7 +49772,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 667391611
+    "id": 667391611,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperialdaedric_heavy_head_a.png",
@@ -49806,8 +49806,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you summon a cloud of leeching poison under the assailant. The cloud deals 427 Poison damage every 1 second for 5 seconds and heals you for 100% of the damage caused. This effect can occur once every 5 seconds and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you summon a cloud of leeching poison under the assailant. The cloud deals <span class=\"poison-damage\">427 Poison damage</span> every 1 second for 5 seconds and heals you for 100% of the damage caused. This effect can occur once every 5 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -50016,7 +50015,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1533538358
+    "id": 1533538358,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -50053,8 +50053,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Enemies affected by your alchemic poisons take <span class=\"disease-damage\">300 Disease Damage</span> every 1 second. This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Craftable",
@@ -50389,7 +50388,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2218727577
+    "id": 2218727577,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_medium_head_a.png",
@@ -50425,8 +50425,7 @@ const ESO_SETS = [
           "Major Evasion"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces your damage done with area of effect attacks by 5%, but grants <span class=\"buff\">Major Evasion</span> at all times; reducing your damage taken from area of effect attacks by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -50635,7 +50634,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 768409872
+    "id": 768409872,
+    "bonusCount": 5
   },
   {
     "image": "gear_reach_medium_head_a.png",
@@ -50671,8 +50671,7 @@ const ESO_SETS = [
           "weaponCritical": 1528
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">1528 Weapon Critical</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Barbaric",
@@ -50885,7 +50884,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2220496457
+    "id": 2220496457,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -50918,8 +50918,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka ability will cost no Magicka.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are casting or channeling an ability, your damage taken is reduced by 15%. When you are interrupted, your next Magicka ability will cost no Magicka."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -51128,7 +51127,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3533527609
+    "id": 3533527609,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_light_head_d.png",
@@ -51164,8 +51164,7 @@ const ESO_SETS = [
           "spellDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Restoration Staff abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -51271,7 +51270,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1696749466
+    "id": 1696749466,
+    "bonusCount": 5
   },
   {
     "image": "gear_apostle_heavy_head_a.png",
@@ -51304,8 +51304,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage, you overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 6 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, you overload your circuits, applying Concussion to enemies within 8 meters of you and healing for 1000 Health for each enemy hit. This effect can occur once every 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -51514,7 +51513,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 85454498
+    "id": 85454498,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedgrievoust_head_a.png",
@@ -51536,8 +51536,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 50% chance to summon a shadow orb for 10 seconds that increases the Physical and Spell Resistance of you and your group members within 8 meters by 3180. This effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Imperial City",
     "style": "Undaunted",
@@ -51605,7 +51604,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 537676915
+    "id": 537676915,
+    "bonusCount": 2
   },
   {
     "image": "gear_dromathra_heavy_head_a.png",
@@ -51638,8 +51638,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you activate a synergy, you create a lunar blessing underneath you for 8 seconds. The blessing grants a stacking damage shield every 2 seconds that absorbs 2737 damage per stack for you and your group members within 8 meters. The damage shield lasts for 4 seconds and refreshes every tick. This effect can occur once every 20 seconds, and stacks up to 6 times.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy, you create a lunar blessing underneath you for 8 seconds. The blessing grants a stacking damage shield every 2 seconds that absorbs 2737 damage per stack for you and your group members within 8 meters. The damage shield lasts for 4 seconds and refreshes every tick. This effect can occur once every 20 seconds, and stacks up to 6 times."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Dro-m'Athra",
@@ -51848,7 +51847,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 852315559
+    "id": 852315559,
+    "bonusCount": 5
   },
   {
     "image": "gear_undmaarselok_helmet_a.png",
@@ -51870,8 +51870,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a melee Heavy Attack, you spew a cone of corruption, dealing <span class=\"disease-damage\">1492 Disease damage</span> to enemies over 4 seconds. This damage is increased by 2% for each negative effect the enemies have. This effect can occur once every 10 seconds and scales off your Weapon Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Undaunted",
@@ -51939,7 +51938,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2050367534
+    "id": 2050367534,
+    "bonusCount": 2
   },
   {
     "image": "gear_apostle_light_head_a.png",
@@ -51975,8 +51975,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you summon a Verminous Fabricant that charges the nearest enemy, dealing <span class=\"shock-damage\">1580 Shock Damage</span> to all enemies in its path, knocking them into the air, and stunning them for 2 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -52185,7 +52184,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 448542935
+    "id": 448542935,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_light_head_d.png",
@@ -52218,8 +52218,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 50% Magicka, you restore 7590 Magicka. This effect can occur once every 30 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 50% Magicka, you restore 7590 Magicka. This effect can occur once every 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -52428,7 +52427,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 277260656
+    "id": 277260656,
+    "bonusCount": 5
   },
   {
     "image": "gear_undearthinvarnate_head_a.png",
@@ -52456,8 +52456,7 @@ const ESO_SETS = [
           "Minor Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or a group member with a single target heal ability, grant the lowest Health group member within 28 meters <span class=\"buff\">Minor Courage</span> and <span class=\"buff\">Minor Resolve</span>, increasing their Weapon and <span class=\"magicka\">Spell Damage by 215</span> and Armor by 2974 for 10 seconds. Daedric Energy will then bounce to a nearby group member within 8 meters, up to 3 times, applying <span class=\"buff\">Minor Courage</span> and <span class=\"buff\">Minor Resolve</span> for 10 seconds. This effect can occur once every 15 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Waking Flame",
     "style": "Undaunted",
@@ -52525,7 +52524,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 257541007
+    "id": 257541007,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -52558,8 +52558,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast a Magicka ability, you have an 15% chance to negate that ability's cost.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability, you have an 15% chance to negate that ability's cost."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -52902,7 +52901,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2431216299
+    "id": 2431216299,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_malacaths_band_of_brutality.png",
@@ -52914,8 +52914,7 @@ const ESO_SETS = [
       "1": {
         "description": "Increases your damage done by 16% but decreases your Critical Damage done by 50%.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your damage done by 16% but decreases your Critical Damage done by 50%."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": null,
@@ -52931,7 +52930,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3978351574
+    "id": 3978351574,
+    "bonusCount": 1
   },
   {
     "image": "gear_welkynar_light_head_a.png",
@@ -52967,8 +52967,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your <span class=\"magicka\">Spell Damage by 52</span>. 10 stacks max."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -53177,7 +53176,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 188327138
+    "id": 188327138,
+    "bonusCount": 5
   },
   {
     "image": "gear_pellitine_light_helmet_a.png",
@@ -53210,8 +53210,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, increase your Movement Speed by 20% for 9 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Pellitine",
@@ -53420,7 +53419,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3694283573
+    "id": 3694283573,
+    "bonusCount": 5
   },
   {
     "image": "gear_malacath_heavy_head_a.png",
@@ -53457,8 +53457,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Physical and Spell Resistance by up to 10206 based on your missing Health.\n\nCurrent value: 2373"
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Malacath",
@@ -53667,7 +53666,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1109639509
+    "id": 1109639509,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_medium_head_a.png",
@@ -53700,8 +53700,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of your Stamina abilities by 5% and increases the damage of your Bow abilities against Players by 8%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Stamina abilities by 5% and increases the damage of your Bow abilities against Players by 8%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -53803,7 +53802,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 387620850
+    "id": 387620850,
+    "bonusCount": 5
   },
   {
     "image": "mythic_ring_markyn_ring_of_majesty.png",
@@ -53820,8 +53820,7 @@ const ESO_SETS = [
           "weaponDamage": 100
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain <span class=\"stamina\">100 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and <span class=\"health\">1157 Armor</span> for every set you are wearing at least 3 or more pieces of.\n\nCurrent bonus: <span class=\"stamina\">0 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and <span class=\"health\">0 Armor</span>."
-      },
-      "count": 1
+      }
     },
     "dlc": "Deadlands",
     "style": null,
@@ -53843,7 +53842,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1059887399
+    "id": 1059887399,
+    "bonusCount": 1
   },
   {
     "image": "gear_clockwork_light_head_a.png",
@@ -53879,8 +53879,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Slayer</span> for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Refabricated",
@@ -54089,7 +54088,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1238020104
+    "id": 1238020104,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_daedroth_head_a.png",
@@ -54111,8 +54111,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a Light or Heavy Attack, you have a 33% chance to summon a fire breathing Daedroth for 15 seconds. The Daedroth's attacks deal <span class=\"flame-damage\">587 Flame damage</span>, and alternate between Fiery Breath, Fiery Jaws, and Fiery Claw, which alternate once every 2 seconds.\n\nThe Daedroth can only be summoned once every 15 seconds and its damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -54180,7 +54179,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1789818173
+    "id": 1789818173,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -54214,8 +54214,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal direct damage, you gain unerring mechanical vision for 5 seconds, granting you 100% Critical Strike chance. This effect can occur once every 21 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you gain unerring mechanical vision for 5 seconds, granting you 100% Critical Strike chance. This effect can occur once every 21 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Craftable",
@@ -54550,7 +54549,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3880155131
+    "id": 3880155131,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_heavy_head_d.png",
@@ -54589,8 +54589,7 @@ const ESO_SETS = [
           "Minor Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">892 Spell Critical</span>, Gain <span class=\"buff\">Minor Force</span> at all times, increasing your Critical Damage by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -54799,7 +54798,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1336593756
+    "id": 1336593756,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_staff_a.png",
@@ -54814,8 +54814,7 @@ const ESO_SETS = [
           "Major Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Steadfast Ward applies <span class=\"buff\">Major Vitality</span> to your target for 4 seconds, increasing the healing taken on your target by 16%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -54838,7 +54837,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1086247650
+    "id": 1086247650,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_2hsword_a.png",
@@ -54853,8 +54853,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing damage with Critical Charge causes enemies to bleed for <span class=\"physical-damage\">1338 Bleed Damage</span> over 5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -54895,7 +54894,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3256137070
+    "id": 3256137070,
+    "bonusCount": 2
   },
   {
     "image": "gear_ancient_elf_heavy_head_a.png",
@@ -54931,8 +54931,7 @@ const ESO_SETS = [
           "armor": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you gain Meridia's Blessed Armor for 5 seconds, causing you to dodge all incoming attacks. This effect can occur once every 25 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Ancient Elf",
@@ -55141,7 +55140,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2889267379
+    "id": 2889267379,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -55177,8 +55177,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Support ability while in combat, you increase the Physical and Spell Resistance of yourself and up to 5 group members within 10 meters by 3540 for 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -55387,7 +55386,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 341772044
+    "id": 341772044,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -55427,8 +55427,7 @@ const ESO_SETS = [
           "Empower"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, After successfully blocking, you gain <span class=\"buff\">Empower</span>, increasing the damage of your Light and Heavy Attacks by 40% for 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Craftable",
@@ -55763,7 +55762,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2664517458
+    "id": 2664517458,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_hajmota_head_a.png",
@@ -55790,8 +55790,7 @@ const ESO_SETS = [
           "Major Resolve"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>, Gain <span class=\"buff\">Major Resolve</span> at all times, increasing your <span class=\"health\">Physical and Spell Resistance by 5948</span>."
-      },
-      "count": 2
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Undaunted",
@@ -55859,7 +55858,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3757181128
+    "id": 3757181128,
+    "bonusCount": 2
   },
   {
     "image": "gear_coldsnap_heavy_head_a.png",
@@ -55899,8 +55899,7 @@ const ESO_SETS = [
           "Major Resolve"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a snare or immobilize ability or hit a target with a snare or immobilize ability, you and up to 11 group members gain <span class=\"buff\">Major Resolve</span> for 15 seconds, increasing your Physical and Spell Resistances by 5948. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Coldsnap",
@@ -56109,7 +56108,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2975111734
+    "id": 2975111734,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedclivia_head_a.png",
@@ -56133,8 +56133,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you consecutively Light Attack 2 times, you trigger Overkill for 6 seconds, which increases your Weapon and <span class=\"magicka\">Spell Damage by 560</span> but also increases the cost of your abilities by 8%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Imperial City",
     "style": "Undaunted",
@@ -56202,7 +56201,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1520119140
+    "id": 1520119140,
+    "bonusCount": 2
   },
   {
     "image": "gear_silverdawn_light_head_a.png",
@@ -56238,8 +56238,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your alchemical poison fires, increase your <span class=\"magicka\">Spell Damage by 547</span> for 8 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Silver Dawn",
@@ -56448,7 +56447,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1353516142
+    "id": 1353516142,
+    "bonusCount": 5
   },
   {
     "image": "gear_dromathra_light_head_a.png",
@@ -56485,8 +56485,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy while in combat, you gain a shadow blessing that increases your <span class=\"magicka\">Spell Damage by 474</span> or a lunar blessing that increases your Magicka Recovery by 474 for 20 seconds. You can only have one blessing active at a time."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Dro-m'Athra",
@@ -56695,7 +56694,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 203292159
+    "id": 203292159,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -56731,8 +56731,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack, you summon an animated weapon to attack your enemies for 15 seconds. The animated weapon's basic attacks deal <span class=\"physical-damage\">443 Physical damage</span>.  This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Craftable",
@@ -57067,7 +57066,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1389138670
+    "id": 1389138670,
+    "bonusCount": 5
   },
   {
     "image": "gear_undciannait_head_a.png",
@@ -57086,8 +57086,7 @@ const ESO_SETS = [
       "2": {
         "description": "While in combat, casting an ability with a cast time or channeling an ability grants you a damage shield that absorbs 5000 damage for 6 seconds. If the damage shield is broken, you restore 822 Magicka. This effect can occur once every 6 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> While in combat, casting an ability with a cast time or channeling an ability grants you a damage shield that absorbs 5000 damage for 6 seconds.  If the damage shield is broken, you restore 822 Magicka. This effect can occur once every 6 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Undaunted",
@@ -57155,7 +57154,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1120474517
+    "id": 1120474517,
+    "bonusCount": 2
   },
   {
     "image": "gear_argonian_light_head_d.png",
@@ -57191,8 +57191,7 @@ const ESO_SETS = [
           "spellCritical": 1528
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1528 Spell Critical</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -57401,7 +57400,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2415926880
+    "id": 2415926880,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -57437,8 +57437,7 @@ const ESO_SETS = [
           "Minor Mending"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, you gain <span class=\"buff\">Minor Mending</span> and <span class=\"buff\">Minor Vitality</span> for 6 seconds, increasing your healing done and healing received by 8%. This effect can occur once every 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Murkmire",
     "style": "Craftable",
@@ -57773,7 +57772,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3164621998
+    "id": 3164621998,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_light_head_d.png",
@@ -57806,8 +57806,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you have a pet active, your Max Magicka is increased by 3132.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a pet active, your Max Magicka is increased by 3132."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -58016,7 +58015,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2059156566
+    "id": 2059156566,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_lich_head_a.png",
@@ -58038,8 +58038,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal direct damage, you have a 15% chance to summon a Lich crystal that explodes after 2 seconds, dealing <span class=\"magic-damage\">1428 Magic damage</span> to all enemies within 4 meters. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -58107,7 +58106,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 218423318
+    "id": 218423318,
+    "bonusCount": 2
   },
   {
     "image": "gear_reach_light_head_a.png",
@@ -58143,8 +58143,7 @@ const ESO_SETS = [
           "spellDamage": 400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Shock Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Barbaric",
@@ -58357,7 +58356,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 457533190
+    "id": 457533190,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -58395,8 +58395,7 @@ const ESO_SETS = [
           "weaponDamage": 401
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">401 Weapon</span> and <span class=\"magicka\">Spell Damage</span>.  \n\nIncreases the cost of your active abilities by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Craftable",
@@ -58731,7 +58730,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2671908187
+    "id": 2671908187,
+    "bonusCount": 5
   },
   {
     "image": "gear_thievesguildv2_heavy_head_a.png",
@@ -58767,8 +58767,7 @@ const ESO_SETS = [
           "weaponDamage": 171
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">171 Weapon Damage</span>, Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Thieves Guild",
@@ -58977,7 +58976,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3072023279
+    "id": 3072023279,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -59017,8 +59017,7 @@ const ESO_SETS = [
           "Major Breach"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage you apply <span class=\"buff\">Major Breach</span> to the enemy, reducing their <span class=\"health\">Physical and Spell Resistance by 5948</span> for 4 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -59361,7 +59360,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1536265595
+    "id": 1536265595,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_medium_head_a.png",
@@ -59394,8 +59394,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take melee damage, you deal <span class=\"poison-damage\">300 Poison Damage</span> to the attacker. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -59604,7 +59603,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3225017841
+    "id": 3225017841,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -59637,8 +59637,7 @@ const ESO_SETS = [
       "5": {
         "description": "Ignore the Movement Speed penalty of Sneak.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Ignore the Movement Speed penalty of Sneak."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -59981,7 +59980,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1756134760
+    "id": 1756134760,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_titan_head_a.png",
@@ -60000,8 +60000,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 739 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 739 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -60069,7 +60068,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 174261028
+    "id": 174261028,
+    "bonusCount": 2
   },
   {
     "image": "gear_nord_heavy_head_d.png",
@@ -60102,8 +60102,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you successfully block, you gain a stack of Nikulas' Resolve for 5 seconds, up to once every half second. After 8 stacks you consume Nikulas' Resolve and deflect the next direct damaging attack made against you within 5 seconds, avoiding it completely.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully block, you gain a stack of Nikulas' Resolve for 5 seconds, up to once every half second.  After 8 stacks you consume Nikulas' Resolve and deflect the next direct damaging attack made against you within 5 seconds, avoiding it completely."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -60312,7 +60311,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1917226141
+    "id": 1917226141,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -60345,8 +60345,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal damage with a Light or Heavy Attack in melee range, you cause your Light and Heavy Attacks to deal an additional 1811 damage for 5 seconds. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack in melee range, you cause your Light and Heavy Attacks to deal an additional 1811 damage for 5 seconds.  This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -60555,7 +60554,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1036530069
+    "id": 1036530069,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -60591,8 +60591,7 @@ const ESO_SETS = [
           "Minor Vulnerability"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you Bash a target, you heal for 3408 Health over 10 seconds and apply <span class=\"buff\">Minor Vulnerability</span> to the enemy for 10 seconds, increasing their damage taken by 5%. The heal can only activate once every 10 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Craftable",
@@ -60927,7 +60926,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2658843701
+    "id": 2658843701,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -60960,8 +60960,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you successfully Dodge, you heal yourself for 2964 Health over 5 seconds. This effect can occur every 5 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully Dodge, you heal yourself for 2964 Health over 5 seconds. This effect can occur every 5 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Craftable",
@@ -61296,7 +61295,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2713485671
+    "id": 2713485671,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -61332,8 +61332,7 @@ const ESO_SETS = [
           "weaponDamage": 258
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">258 Weapon Damage</span>, When you kill an enemy, you fill an empty Soul Gem and heal for 6202 Health.\n\nThe heal can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -61542,7 +61541,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3093520314
+    "id": 3093520314,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -61580,8 +61580,7 @@ const ESO_SETS = [
           "weaponDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, When you deal damage with Soul Magic, you mark the target's soul dealing <span class=\"magic-damage\">1965 Magic damage</span> over 10 seconds, as long as they are not already marked from you.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -61916,7 +61915,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1923118107
+    "id": 1923118107,
+    "bonusCount": 5
   },
   {
     "image": "gear_redguard_heavy_head_d.png",
@@ -61955,8 +61955,7 @@ const ESO_SETS = [
           "Minor Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">5% Healing Taken</span>, Gain <span class=\"buff\">Minor Vitality</span> at all times, increasing your healing received by 8%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -62165,7 +62164,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2297082630
+    "id": 2297082630,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -62202,8 +62202,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are under 60% Health, your Health Recovery is increased by 800 and your Physical and Spell Resistance is increased by 6400."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -62538,7 +62537,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1912050592
+    "id": 1912050592,
+    "bonusCount": 5
   },
   {
     "image": "gear_ancient_elf_light_head_a.png",
@@ -62574,8 +62574,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Class ability, you surround yourself with a torrent that deals <span class=\"shock-damage\">154 Shock Damage</span> to enemies within 8 meters of you every 1 second for 6 seconds. 15% of the damage you deal this way is restored to you as Magicka. This effect can occur every 7 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Maormer",
@@ -62784,7 +62783,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3758191762
+    "id": 3758191762,
+    "bonusCount": 5
   },
   {
     "image": "gear_trinimac_medium_head_a.png",
@@ -62817,8 +62817,7 @@ const ESO_SETS = [
       "5": {
         "description": "Every 10 seconds you gain a damage shield that absorbs 7010 damage.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Every 10 seconds you gain a damage shield that absorbs 7010 damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Trinimac",
@@ -63027,7 +63026,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3088228786
+    "id": 3088228786,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_ornate_necklace_3.png",
@@ -63039,8 +63039,7 @@ const ESO_SETS = [
       "1": {
         "description": "Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you cast a healing ability while in combat and your dominant resource is under 30%, gain 5 Ultimate."
-      },
-      "count": 1
+      }
     },
     "dlc": "Markarth",
     "style": null,
@@ -63056,7 +63055,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1592491831
+    "id": 1592491831,
+    "bonusCount": 1
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -63095,8 +63095,7 @@ const ESO_SETS = [
           "weaponDamage": 100
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you kill an enemy you gain a damage shield that absorbs up to 3876 damage for 10 seconds and a stack of Wrath of Whitestrake for 10 seconds.  Each stack of Wrath of Whitestrake grants you <span class=\"stamina\">100 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, but causes you to take 159 Oblivion damage every second, up to 10 stacks.  The damage shield scales off the higher of your Weapon or Spell Damage, and the damage scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Craftable",
@@ -63431,7 +63430,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 86353982
+    "id": 86353982,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_heavy_head_a.png",
@@ -63470,8 +63470,7 @@ const ESO_SETS = [
           "Empower"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">1206 Maximum Health</span>, After successfully blocking, you grant <span class=\"buff\">Empower</span> to 11 allies within 15 meters for 3 seconds, increasing the damage of their Light and Heavy Attacks by 40%. This effect can occur once every 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -63680,7 +63679,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 279747694
+    "id": 279747694,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_medium_head_a.png",
@@ -63717,8 +63717,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1096 Maximum Stamina</span>, Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds. Harmful winds deal <span class=\"physical-damage\">52 Physical Damage</span> per stack every 1 second.  This effect can stack once every half second, up to 10 times and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -63927,7 +63926,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3807727974
+    "id": 3807727974,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_lgt_head_a.png",
@@ -63963,8 +63963,7 @@ const ESO_SETS = [
           "spellDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Spell Damage</span>, Increases your damage done to non-player enemies by up to 15% based on your missing Magicka.\n\nCurrent value: 0%"
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Sul-Xan",
@@ -64173,7 +64172,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 773916059
+    "id": 773916059,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_bow_e.png",
@@ -64188,8 +64188,7 @@ const ESO_SETS = [
           "weaponDamage": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, Increases your <span class=\"stamina\">Weapon Damage by 330</span> against targets affected by your Poison Arrow."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -64212,7 +64211,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1586532622
+    "id": 1586532622,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_1hsword_a.png",
@@ -64227,8 +64227,7 @@ const ESO_SETS = [
           "weaponCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -64278,7 +64277,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3245716268
+    "id": 3245716268,
+    "bonusCount": 2
   },
   {
     "image": "gear_sunspire_heavy_helmet_a.png",
@@ -64319,8 +64319,7 @@ const ESO_SETS = [
           "Minor Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">1206 Maximum Health</span>, When you taunt an enemy, you give yourself and 11 group members <span class=\"buff\">Minor Courage</span> for 15 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 215</span>. This effect can occur once every 8 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -64529,7 +64528,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1157007953
+    "id": 1157007953,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_staff_a.png",
@@ -64544,8 +64544,7 @@ const ESO_SETS = [
           "spellDamage": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Spell Damage</span>, Every second cast of Force Shock will always apply the Burning, Concussion, and Chilled status effects. The Force Shock casts must be made within 2 seconds of each other for this effect to occur"
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -64586,7 +64585,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2785089062
+    "id": 2785089062,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_dagger_a.png",
@@ -64601,8 +64601,7 @@ const ESO_SETS = [
           "weaponDamage": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, When you deal damage with Flurry, your single target damage over time abilities used within 4 seconds gain 1690 Spell and Weapon Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -64652,7 +64651,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1022969770
+    "id": 1022969770,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_staff_a.png",
@@ -64667,8 +64667,7 @@ const ESO_SETS = [
           "spellPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Your Light and Heavy Attacks deal an additional 1353 damage to enemies in your Wall of Elements."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -64708,7 +64707,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 715572496
+    "id": 715572496,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_1hsword_a.png",
@@ -64723,8 +64723,7 @@ const ESO_SETS = [
           "staminaRecovery": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Stamina Recovery</span>, When you reflect or absorb a spell projectile with Defensive Posture, you restore 2200 Magicka. If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 6600 Magicka instead."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -64782,7 +64781,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 422565145
+    "id": 422565145,
+    "bonusCount": 2
   },
   {
     "image": "gear_nord_staff_e.png",
@@ -64797,8 +64797,7 @@ const ESO_SETS = [
           "spellDamage": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Spell Damage</span>, Reduces the cost of Destructive Touch by 10% and increases your <span class=\"magicka\">Spell Damage by 600</span> for 4 seconds after activating it."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -64839,7 +64838,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2242602115
+    "id": 2242602115,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_2hsword_a.png",
@@ -64854,8 +64854,7 @@ const ESO_SETS = [
           "maximumStamina": 877
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">877 Maximum Stamina</span>, When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -64896,7 +64895,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 665960396
+    "id": 665960396,
+    "bonusCount": 2
   },
   {
     "image": "gear_reachv2_dagger_a.png",
@@ -64911,8 +64911,7 @@ const ESO_SETS = [
           "weaponCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Hidden Blade deals up to 250% more damage to targets under 100% Health when you are standing behind them.\n\nRestores 1890 Stamina if the target was below 50% Health."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -64962,7 +64961,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3459016322
+    "id": 3459016322,
+    "bonusCount": 2
   },
   {
     "image": "gear_sunspire_light_helmet_a.png",
@@ -64998,8 +64998,7 @@ const ESO_SETS = [
           "maximumMagicka": 1096
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, When an ally activates one of your synergies, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -65208,7 +65207,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3038840905
+    "id": 3038840905,
+    "bonusCount": 5
   },
   {
     "image": "gear_sunspire_light_helmet_a.png",
@@ -65247,8 +65247,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Spell Damage</span>, Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 2454 Magicka and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -65457,7 +65456,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 101683322
+    "id": 101683322,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_staff_a.png",
@@ -65472,8 +65472,7 @@ const ESO_SETS = [
           "maximumMagicka": 877
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, Casting Force Siphon on a target within 15 meters of you causes a surge of magical energy to tether between you for 10 seconds.  While the tether persists and you remain in range, you and allies in the tether restore <span class=\"magicka\">175 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second.  This effect can occur once every 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -65496,7 +65495,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2461539122
+    "id": 2461539122,
+    "bonusCount": 2
   },
   {
     "image": "gear_reachv2_2hsword_a.png",
@@ -65513,8 +65513,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">877 Maximum Stamina</span>, While Momentum is active, casting Stamina abilities while in combat generates a stack of Frenzied Momentum for 20 seconds, increasing your <span class=\"stamina\">Weapon Damage by 38</span> up to 5 times.  Upon reaching max stacks, your next Heavy Attack consumes all stacks and releases a violent explosion of energy around you, dealing <span class=\"physical-damage\">1495 Physical Damage</span> to all enemies within 8 meters, scaling off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -65555,7 +65554,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1837174404
+    "id": 1837174404,
+    "bonusCount": 2
   },
   {
     "image": "gear_honorguard_1hsword_a.png",
@@ -65570,8 +65570,7 @@ const ESO_SETS = [
           "armor": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">1190 Armor</span>, Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -65629,7 +65628,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 610517834
+    "id": 610517834,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_staff_e.png",
@@ -65644,8 +65644,7 @@ const ESO_SETS = [
           "maximumMagicka": 877
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, The initial heal of Grand Healing invigorates you and group members affected for 4 seconds, restoring <span class=\"magicka\">117 Magicka</span> and <span class=\"stamina\">Stamina</span> every 1 second."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -65668,7 +65667,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2678156093
+    "id": 2678156093,
+    "bonusCount": 2
   },
   {
     "image": "gear_seagiantlgt_helmet.png",
@@ -65707,8 +65707,7 @@ const ESO_SETS = [
           "Major Buff"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">129 Magicka Recovery</span>, Casting an ability or drinking a potion that applies a Major Buff on yourself or a group member creates a pool of Kyne's Blessing for 4 seconds. You and group members standing in Kyne's Blessing restore 420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -65917,7 +65916,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3111704724
+    "id": 3111704724,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_light_head_a.png",
@@ -65954,8 +65954,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Dealing direct damage with a single target attack creates a ring of fire beneath you for 10 seconds. This effect can occur once every 10 seconds. Standing in the ring grants you a stack of Siroria's Boon for 5 seconds. Each stack increases your <span class=\"magicka\">Spell Damage by 52</span>. 10 stacks max."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -66164,7 +66163,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1390225882
+    "id": 1390225882,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_staff_a.png",
@@ -66182,8 +66182,7 @@ const ESO_SETS = [
           "Major Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">103 Magicka Recovery</span>, Steadfast Ward applies <span class=\"buff\">Major Vitality</span> to your target for 4 seconds, increasing the healing taken on your target by 16%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -66206,7 +66205,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1327798282
+    "id": 1327798282,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_2haxe_a.png",
@@ -66222,8 +66222,7 @@ const ESO_SETS = [
           "physicalPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Dealing damage with Critical Charge causes enemies to bleed for <span class=\"physical-damage\">1338 Bleed Damage</span> over 5 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -66264,7 +66263,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 514166726
+    "id": 514166726,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_bow_a.png",
@@ -66280,8 +66280,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, When you deal damage with Arrow Spray, you cause enemies hit to have 6600 less Physical Resistance against Bow attacks for 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -66304,7 +66303,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4069369531
+    "id": 4069369531,
+    "bonusCount": 2
   },
   {
     "image": "gear_reachv2_bow_a.png",
@@ -66319,8 +66319,7 @@ const ESO_SETS = [
           "weaponDamage": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Weapon Damage</span>, Increases your damage done with Snipe based on how close you are to your target.  \n\nMax Damage: 33% at 3 meters.\nMinimum Damage: 5% at 18.5 meters."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -66343,7 +66342,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3261890581
+    "id": 3261890581,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_staff_a.png",
@@ -66358,8 +66358,7 @@ const ESO_SETS = [
           "spellCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">526 Spell Critical</span>, When your Regeneration critically strikes, you restore 558 Magicka.  This effect cannot occur from simultaneous critical strikes."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -66382,7 +66381,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3075153201
+    "id": 3075153201,
+    "bonusCount": 2
   },
   {
     "image": "gear_dunmer_shield_e.png",
@@ -66398,8 +66398,7 @@ const ESO_SETS = [
           "healingTaken": 3
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">3% Healing Taken</span>, When you deal damage with Puncture, you heal for 2230 Health and gain Spell and Physical Resistance equal to the amount of healing or over healing done for 5 seconds. The healing scales off your Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -66457,7 +66456,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4241828328
+    "id": 4241828328,
+    "bonusCount": 2
   },
   {
     "image": "gear_honorguard_2hsword_a.png",
@@ -66472,8 +66472,7 @@ const ESO_SETS = [
           "physicalPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Uppercut deals 45% of its damage to all enemies near your primary target."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -66514,7 +66513,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1195408422
+    "id": 1195408422,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarvenscavenged_shield_a.png",
@@ -66530,8 +66530,7 @@ const ESO_SETS = [
           "staminaRecovery": 77
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">77 Magicka Recovery</span>, (2 perfected items) Adds <span class=\"stamina\">77 Stamina Recovery</span>, When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores <span class=\"magicka\">1904 Magicka</span> and <span class=\"stamina\">Stamina</span>."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -66589,7 +66588,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1745151158
+    "id": 1745151158,
+    "bonusCount": 2
   },
   {
     "image": "gear_seagiantlgt_helmet.png",
@@ -66629,8 +66629,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, After completing a fully-charged Heavy Attack, you and up to 5 group members gain <span class=\"buff\">Major Slayer</span>, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every <span class=\"magicka\">600 Spell Damage</span> or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds.\n\nMaximum duration 12 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -66839,7 +66838,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3666370370
+    "id": 3666370370,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_heavy_head_a.png",
@@ -66878,8 +66878,7 @@ const ESO_SETS = [
           "Major Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1096 Maximum Stamina</span>, When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain <span class=\"buff\">Major Force</span> for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Sul-Xan",
@@ -67088,7 +67087,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1166513334
+    "id": 1166513334,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_1hsword_a.png",
@@ -67103,8 +67103,7 @@ const ESO_SETS = [
           "staminaRecovery": 103
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">103 Stamina Recovery</span>, Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -67154,7 +67153,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 410249505
+    "id": 410249505,
+    "bonusCount": 2
   },
   {
     "image": "gear_khajiit_dagger_e.png",
@@ -67169,8 +67169,7 @@ const ESO_SETS = [
           "weaponCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -67220,7 +67219,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1808883235
+    "id": 1808883235,
+    "bonusCount": 2
   },
   {
     "image": "gear_rockgrove_lgt_head_a.png",
@@ -67256,8 +67256,7 @@ const ESO_SETS = [
           "maximumMagicka": 1096
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Sul-Xan",
@@ -67466,7 +67465,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3306214014
+    "id": 3306214014,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_med_head_a.png",
@@ -67502,8 +67502,7 @@ const ESO_SETS = [
           "weaponCritical": 657
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">657 Weapon Critical</span>, When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": "Sul-Xan",
@@ -67712,7 +67711,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2059985230
+    "id": 2059985230,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_bow_a.png",
@@ -67727,8 +67727,7 @@ const ESO_SETS = [
           "weaponCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -67751,7 +67750,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2719010083
+    "id": 2719010083,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_staff_a.png",
@@ -67766,8 +67766,7 @@ const ESO_SETS = [
           "maximumMagicka": 877
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">877 Maximum Magicka</span>, When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -67790,7 +67789,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4044242390
+    "id": 4044242390,
+    "bonusCount": 2
   },
   {
     "image": "gear_orc_2haxe_e.png",
@@ -67805,8 +67805,7 @@ const ESO_SETS = [
           "physicalPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">1190 Physical Penetration</span>, Increases the direct damage Cleave deals by 1550 for each enemy in its cone."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -67847,7 +67846,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1377843503
+    "id": 1377843503,
+    "bonusCount": 2
   },
   {
     "image": "gear_sunspire_medium_helmet_a.png",
@@ -67886,8 +67886,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">657 Weapon Critical</span>, When you activate a synergy while in combat, gain <span class=\"buff\">Major Slayer</span> for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -68096,7 +68095,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3953797749
+    "id": 3953797749,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_light_head_a.png",
@@ -68137,8 +68137,7 @@ const ESO_SETS = [
           "Major Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"magicka\">1096 Maximum Magicka</span>, Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain <span class=\"buff\">Major Courage</span> for 20 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 20 seconds.  This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -68347,7 +68346,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2599653971
+    "id": 2599653971,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_bow_a.png",
@@ -68362,8 +68362,7 @@ const ESO_SETS = [
           "weaponCritical": 526
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"stamina\">526 Weapon Critical</span>, Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -68386,7 +68385,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1928625180
+    "id": 1928625180,
+    "bonusCount": 2
   },
   {
     "image": "gear_voidrot_shield_a.png",
@@ -68404,8 +68404,7 @@ const ESO_SETS = [
           "Major Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"health\">965 Maximum Health</span>, When you deal damage with Power Bash, you apply Call of the Void to yourself for 2 seconds. Enemies within 12 meters are immediately pulled to you.\n\nAfter Call of the Void ends, you apply <span class=\"buff\">Major Maim</span> to enemies in the area for 10 seconds, reducing their damage done by 10%.  This effect can occur once every 13 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -68463,7 +68462,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 891162639
+    "id": 891162639,
+    "bonusCount": 2
   },
   {
     "image": "gear_seagianthvy_helmet.png",
@@ -68502,8 +68502,7 @@ const ESO_SETS = [
           "Major Aegis"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"health\">4% Healing Taken</span>, After completing a fully-charged Heavy Attack, apply <span class=\"buff\">Major Aegis</span> to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -68712,7 +68711,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3769033933
+    "id": 3769033933,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_staff_a.png",
@@ -68728,8 +68728,7 @@ const ESO_SETS = [
           "spellPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 636 Flame, 636 Shock, and <span class=\"frost-damage\">636 Frost Damage</span> over 8 seconds. Each element ticks once over the duration. The damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -68770,7 +68769,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3169348366
+    "id": 3169348366,
+    "bonusCount": 2
   },
   {
     "image": "gear_reachv2_staff_a.png",
@@ -68786,8 +68786,7 @@ const ESO_SETS = [
           "spellPenetration": 1190
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> (2 perfected items) Adds <span class=\"magicka\">1190 Spell Penetration</span>, Casting Weakness to Elements on a target within 15 meters of you causes a surge of elemental energy to tether between you for 10 seconds.  While the tether persists, enemies touching the tether take <span class=\"flame-damage\">331 Flame Damage</span>, <span class=\"shock-damage\">331 Shock Damage</span>, or <span class=\"frost-damage\">331 Frost Damage</span> every 1 second, which increases by 1% each time it deals damage, up to 20%. This effect can occur once every 10 seconds, and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -68828,7 +68827,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 779902629
+    "id": 779902629,
+    "bonusCount": 2
   },
   {
     "image": "gear_seagiantmed_head.png",
@@ -68865,8 +68865,7 @@ const ESO_SETS = [
           "physicalPenetration": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> (5 perfected items) Adds <span class=\"stamina\">1487 Physical Penetration</span>, Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds <span class=\"stamina\">41 Weapon Damage</span>, and stacks up to 10 times.\n\nCompleting a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your <span class=\"stamina\">Weapon Damage by 63</span> per stack removed.\n\nYou cannot have Giant's Endurance and Might active at the same time."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -69075,7 +69074,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2726209151
+    "id": 2726209151,
+    "bonusCount": 5
   },
   {
     "image": "gear_snowreach_heavy_head_a.png",
@@ -69111,8 +69111,7 @@ const ESO_SETS = [
           "healthRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a damage shield on you, your Health Recovery is increased by 1106."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Barbaric",
@@ -69321,7 +69320,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1443250684
+    "id": 1443250684,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_med_head_a.png",
@@ -69358,8 +69358,7 @@ const ESO_SETS = [
           "physicalPenetration": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>, Whenever you kill an enemy afflicted with a poison effect, their corpse releases a writhing mass of Fetcherflies, which seek out the nearest enemy within 12 meters, causing them to bleed for <span class=\"physical-damage\">6140 Bleed Damage</span> over 10 seconds.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Ancestral Reach",
@@ -69568,7 +69567,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2151725253
+    "id": 2151725253,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -69604,8 +69604,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while below 25% Health, gain a damage shield that absorbs 25000 damage for 10 seconds and deals <span class=\"flame-damage\">1056 Flame damage</span> to nearby enemies. This effect can occur once every 1 minute and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -69814,7 +69813,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3793837196
+    "id": 3793837196,
+    "bonusCount": 5
   },
   {
     "image": "gear_factotum_gear_factotum_bow_a.png",
@@ -69829,8 +69829,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Arrow Spray, you cause enemies hit to have 6600 less Physical Resistance against Bow attacks for 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -69853,7 +69852,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2323562851
+    "id": 2323562851,
+    "bonusCount": 2
   },
   {
     "image": "gear_falkreath_medium_head_a.png",
@@ -69889,8 +69889,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you create a fissure underneath the enemy after 1 second, dealing <span class=\"physical-damage\">717 Bleed Damage</span> to all enemies within 2.5 meters and causing them to bleed for an additional <span class=\"physical-damage\">3585 Bleed Damage</span> over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Horns of the Reach",
     "style": "Dreadhorn",
@@ -70099,7 +70098,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1897274771
+    "id": 1897274771,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedpirateskeleton_head_a.png",
@@ -70125,8 +70125,7 @@ const ESO_SETS = [
           "Major Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage to your Health, you transform into a skeleton and gain <span class=\"buff\">Major Protection</span> and <span class=\"buff\">Minor Defile</span> for 15 seconds, reducing your damage taken by 10% but reducing your healing received and Health Recovery by 8%. This effect can occur once every 20 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -70194,7 +70193,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1584943831
+    "id": 1584943831,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -70230,8 +70230,7 @@ const ESO_SETS = [
           "maximumHealth": 2804
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">2804 Maximum Health</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -70440,7 +70439,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3580868466
+    "id": 3580868466,
+    "bonusCount": 5
   },
   {
     "image": "gear_scalecaller_medium_head_a.png",
@@ -70476,8 +70476,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, summon a Skeever corpse which will launch five poison balls over 5 seconds that each deal <span class=\"poison-damage\">774 Poison Damage</span> to the nearest enemy within 10 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Scalecaller",
@@ -70686,7 +70685,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1124075521
+    "id": 1124075521,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -70724,8 +70724,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage to an enemy, who is not a Plague Carrier, turns them into a Plague Carrier for 10 seconds, dealing <span class=\"disease-damage\">2068 Disease Damage</span> over the duration. If the plague is removed early, it explodes, infecting enemies within 8 meters of the carrier and dealing <span class=\"disease-damage\">2075 Disease Damage</span>. The explosion deals an additional 10% damage per enemy hit. This effect can occur once per attack and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -70928,7 +70927,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4124472570
+    "id": 4124472570,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_bow_a.png",
@@ -70940,8 +70940,7 @@ const ESO_SETS = [
       "2": {
         "description": "Increases your damage done with Snipe based on how close you are to your target. Max Damage: 33% at 3 meters.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases your damage done with Snipe based on how close you are to your target.  \n\nMax Damage: 33% at 3 meters.\nMinimum Damage: 5% at 18.5 meters."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -70964,7 +70963,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2013110429
+    "id": 2013110429,
+    "bonusCount": 2
   },
   {
     "image": "gear_craglorn_medium_head_a.png",
@@ -71000,8 +71000,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light or Heavy Attack against an enemy who has a Poison Damage ability on them, you deal an additional <span class=\"poison-damage\">600 Poison Damage</span>. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -71210,7 +71209,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3254822905
+    "id": 3254822905,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -71247,8 +71247,7 @@ const ESO_SETS = [
           "weaponDamage": 307
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an Assault ability while in combat, you and up to 5 group members within 10 meters gain <span class=\"stamina\">307 Weapon</span> and <span class=\"magicka\">Spell Damage</span> for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -71457,7 +71456,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 6792590
+    "id": 6792590,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_light_head_d.png",
@@ -71490,8 +71490,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you overheal yourself or an ally, you grant them a damage shield that absorbs 4997 damage for 6 seconds. This effect can occur once every 2 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself or an ally, you grant them a damage shield that absorbs 4997 damage for 6 seconds. This effect can occur once every 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -71704,7 +71703,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 694087103
+    "id": 694087103,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_staff_a.png",
@@ -71716,8 +71716,7 @@ const ESO_SETS = [
       "2": {
         "description": "When your Regeneration critically strikes, you restore 558 Magicka. This effect cannot occur from simultaneous critical strikes.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When your Regeneration critically strikes, you restore 558 Magicka.  This effect cannot occur from simultaneous critical strikes."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -71740,7 +71739,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2346322249
+    "id": 2346322249,
+    "bonusCount": 2
   },
   {
     "image": "gear_undartifactmaster_head_a.png",
@@ -71760,8 +71760,7 @@ const ESO_SETS = [
       "2": {
         "description": "Dealing direct damage with an area of effect ability creates a 6 meter shadowy whirlwind below your enemy for 7 seconds. Enemies within the whirlwind take 297 Physical damage each second and increase their damage taken from your area of effect abilities by 5%. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing direct damage with an area of effect ability creates a 6 meter shadowy whirlwind below your enemy for 7 seconds. Enemies within the whirlwind take <span class=\"physical-damage\">297 Physical damage</span> each second and increase their damage taken from your area of effect abilities by 5%. This effect can occur once every 15 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Waking Flame",
     "style": "Undaunted",
@@ -71829,7 +71828,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 21714251
+    "id": 21714251,
+    "bonusCount": 2
   },
   {
     "image": "gear_soulshriven_light_head_a.png",
@@ -71862,8 +71862,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of Sprint by 50%. While Sprinting, restore 1035 Magicka every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Sprint by 50%. While Sprinting, restore 1035 Magicka every 1 second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Soul Shriven",
@@ -72072,7 +72071,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2828825314
+    "id": 2828825314,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_shield_c.png",
@@ -72087,8 +72087,7 @@ const ESO_SETS = [
           "maximumHealth": 1206
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -72208,7 +72207,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1839466739
+    "id": 1839466739,
+    "bonusCount": 1
   },
   {
     "image": "gear_argonian_1hhammer_e.png",
@@ -72223,8 +72223,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Puncture, you heal for 2230 Health and gain Spell and Physical Resistance equal to the amount of healing or over healing done for 5 seconds. The healing scales off your Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -72282,7 +72281,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2462243664
+    "id": 2462243664,
+    "bonusCount": 2
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -72315,8 +72315,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use a Light Attack you reduce the Health, Magicka, or Stamina cost of your next active ability by 10%. When you use a fully charged Heavy Attack you increase the damage of your next direct damage attack by 2610 against the first enemy you hit. These bonuses only last for 2 seconds and are consumed upon use.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use a Light Attack you reduce the Health, Magicka, or Stamina cost of your next active ability by 10%.  When you use a fully charged Heavy Attack you increase the damage of your next direct damage attack by 2610 against the first enemy you hit.  \n\nThese bonuses only last for 2 seconds and are consumed upon use."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -72547,7 +72546,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 16345219
+    "id": 16345219,
+    "bonusCount": 5
   },
   {
     "image": "gear_craglorn_medium_head_a.png",
@@ -72583,8 +72583,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the costs of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -72793,7 +72792,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3902485039
+    "id": 3902485039,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_2hsword_a.png",
@@ -72805,8 +72805,7 @@ const ESO_SETS = [
       "2": {
         "description": "Uppercut deals 45% of its damage to all enemies near your primary target.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Uppercut deals 45% of its damage to all enemies near your primary target."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -72847,7 +72846,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3183710494
+    "id": 3183710494,
+    "bonusCount": 2
   },
   {
     "image": "gear_arkthzand_heavy_head_a.png",
@@ -72881,8 +72881,7 @@ const ESO_SETS = [
       "5": {
         "description": "Deal 10% of all direct damage done to you back to the attacker, up to 4250 damage.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Deal 10% of all direct damage done to you back to the attacker, up to 4250 damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Arkthzand Armory",
@@ -73091,7 +73090,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 875837128
+    "id": 875837128,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_1hhammer_a.png",
@@ -73103,8 +73103,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores 1904 Magicka and Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores <span class=\"magicka\">1904 Magicka</span> and <span class=\"stamina\">Stamina</span>."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -73162,7 +73161,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2156890014
+    "id": 2156890014,
+    "bonusCount": 2
   },
   {
     "image": "gear_bosmer_medium_head_d.png",
@@ -73198,8 +73198,7 @@ const ESO_SETS = [
           "staminaRecovery": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, Reduce the effectiveness of snares applied to you by 50%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -73408,7 +73407,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3518915291
+    "id": 3518915291,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_heavy_head_a.png",
@@ -73447,8 +73447,7 @@ const ESO_SETS = [
           "Major Sorcery"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Major Sorcery</span> at all times, increasing your <span class=\"magicka\">Spell Damage by 20%</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -73657,7 +73656,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 285677167
+    "id": 285677167,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -73694,8 +73694,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Each time you attempt to reduce the target's Physical or Spell Resistance, you gain a stack of Ravager for 5 seconds, increasing your <span class=\"stamina\">Weapon Damage by 146</span>. You can gain a stack every 1 second. At 4 stacks, the duration doubles but cannot be refreshed."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -73904,7 +73903,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4048787241
+    "id": 4048787241,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -73937,8 +73937,7 @@ const ESO_SETS = [
       "5": {
         "description": "After you are affected by a disabling effect, your damage taken is reduced by 33% for 5 seconds. This effect can occur every 20 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After you are affected by a disabling effect, your damage taken is reduced by 33% for 5 seconds.  This effect can occur every 20 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -74147,7 +74146,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3201151885
+    "id": 3201151885,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -74182,8 +74182,7 @@ const ESO_SETS = [
       "5": {
         "description": "Adds 469 Weapon and Spell Power to your Weapon Skill abilities. Increases the cost of your Weapon Skill abilities by 5%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 469 Weapon and Spell Power to your Weapon Skill abilities. Increases the cost of your Weapon Skill abilities by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Craftable",
@@ -74518,7 +74517,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1092166898
+    "id": 1092166898,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -74551,8 +74551,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you overheal yourself, you heal a group member within 15 meters of you for 697 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself, you heal a group member within 15 meters of you for 697 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Craftable",
@@ -74887,7 +74886,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3785768185
+    "id": 3785768185,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_staff_c.png",
@@ -74906,8 +74906,7 @@ const ESO_SETS = [
       "3": {
         "description": "Increases your healing done by 5%.",
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Increases your healing done by 5%."
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -74931,7 +74930,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1912012784
+    "id": 1912012784,
+    "bonusCount": 3
   },
   {
     "image": "gear_daedric_shield_c.png",
@@ -74950,8 +74950,7 @@ const ESO_SETS = [
       "3": {
         "description": "When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds",
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -74984,7 +74983,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2753060079
+    "id": 2753060079,
+    "bonusCount": 3
   },
   {
     "image": "gear_moongravefane_hvy_helmet_a.png",
@@ -75021,8 +75021,7 @@ const ESO_SETS = [
           "physicalResistance": 420
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal direct damage, gain a stack of Resolve for 5 seconds. Each stack increases your healing taken by 1% and your <span class=\"health\">Physical and Spell Resistance by 420</span>.  \n\nThis effect can occur once every half second and can stack up to 9 times."
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Moongrave Fane",
@@ -75231,7 +75230,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3605581103
+    "id": 3605581103,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_ornate_ring_4.png",
@@ -75243,8 +75243,7 @@ const ESO_SETS = [
       "1": {
         "description": "Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Restore 20% of the damage you deal as Health. This value is decreased by 4% per ally you are grouped with. You cannot be healed by anyone but yourself."
-      },
-      "count": 1
+      }
     },
     "dlc": "Markarth",
     "style": null,
@@ -75260,7 +75259,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1626104249
+    "id": 1626104249,
+    "bonusCount": 1
   },
   {
     "image": "antiquities_ring_of_the_wild_hunt.png",
@@ -75272,8 +75272,7 @@ const ESO_SETS = [
       "1": {
         "description": "Increases your movement speed by 15% while in combat. Increases your movement speed by 45% while out of combat.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increases your movement speed by 15% while in combat.  Increases your movement speed by 45% while out of combat."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": null,
@@ -75289,7 +75288,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1676323314
+    "id": 1676323314,
+    "bonusCount": 1
   },
   {
     "image": "gear_dromathra_medium_head_a.png",
@@ -75327,8 +75327,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy, you send a shockwave from your position that deals <span class=\"physical-damage\">334 Physical damage</span> and an additional <span class=\"physical-damage\">1670 Physical damage</span> over 10 seconds. Reduces the Physical and Spell Resistance of any enemy hit by the amount of your Weapon Damage for the duration, up to a maximum of 6000.  The damage scales off the higher of your Weapon and Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Dro-m'Athra",
@@ -75537,7 +75536,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1120710926
+    "id": 1120710926,
+    "bonusCount": 5
   },
   {
     "image": "gear_seagiantlgt_helmet.png",
@@ -75576,8 +75576,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After completing a fully-charged Heavy Attack, you and up to 5 group members gain <span class=\"buff\">Major Slayer</span>, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every <span class=\"magicka\">600 Spell Damage</span> or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds.\n\nMaximum duration 12 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -75786,7 +75785,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2115408842
+    "id": 2115408842,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -75819,8 +75819,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of all of your abilities by 6%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of all of your abilities by 6%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -76029,7 +76028,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 644378255
+    "id": 644378255,
+    "bonusCount": 5
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -76062,8 +76062,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you have a Destruction Staff equipped, your Max Magicka is increased by 2840.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you have a Destruction Staff equipped, your Max Magicka is increased by 2840."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -76183,7 +76182,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2113433792
+    "id": 2113433792,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_light_head_d.png",
@@ -76216,8 +76216,7 @@ const ESO_SETS = [
       "5": {
         "description": "After being hit by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second for 5 seconds. The effect can apply once every second, but cannot stack.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After being hit by a disabling effect, immobilization, or snare, you heal for 2000 Health every 1 second for 5 seconds.\n\nThe effect can apply once every second, but cannot stack."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -76426,7 +76425,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2343238226
+    "id": 2343238226,
+    "bonusCount": 5
   },
   {
     "image": "gear_wormcult_light_head_a.png",
@@ -76459,8 +76459,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1637 Health and gain 1637 Magicka. This effect can occur once every 3 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you heal for 1637 Health and gain 1637 Magicka. This effect can occur once every 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Worm Cult",
@@ -76669,7 +76668,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1241660001
+    "id": 1241660001,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_light_head_a.png",
@@ -76705,8 +76705,7 @@ const ESO_SETS = [
           "criticalResistance": 1400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally with a healing over time ability, grant them 1400 Critical Resistance for 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -76915,7 +76914,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1435778364
+    "id": 1435778364,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackiron_head_a.png",
@@ -76952,8 +76952,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, pull enemies within 10 meters to you. After 2 seconds, deal <span class=\"physical-damage\">1790 Physical Damage</span> to all enemies within 7 meters. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.\n\nThe pull will not apply Crowd Control Immunity to a target."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Crimson Oath",
@@ -77162,7 +77161,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3530079016
+    "id": 3530079016,
+    "bonusCount": 5
   },
   {
     "image": "gear_altmer_medium_head_d.png",
@@ -77198,8 +77198,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Werewolf Transformation ability by 33%. While in Werewolf form, your Weapon Damage is increased by 150."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -77408,7 +77407,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 781758736
+    "id": 781758736,
+    "bonusCount": 5
   },
   {
     "image": "gear_orc_light_head_d.png",
@@ -77441,8 +77441,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your healing received by 10% for you and up to 11 group members within 10 meters of you.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your healing received by 10% for you and up to 11 group members within 10 meters of you."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Orc",
@@ -77655,7 +77654,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 310678793
+    "id": 310678793,
+    "bonusCount": 5
   },
   {
     "image": "gear_silverdawn_medium_head_a.png",
@@ -77691,8 +77691,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light and Heavy Attacks rend flesh, causing your enemy to bleed for <span class=\"physical-damage\">244 Bleed Damage</span> every 1 second for 4 seconds. This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Silver Dawn",
@@ -77901,7 +77900,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 943614449
+    "id": 943614449,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_heavy_head_a.png",
@@ -77937,8 +77937,7 @@ const ESO_SETS = [
           "Major Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain <span class=\"buff\">Major Force</span> for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -78147,7 +78146,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1957741854
+    "id": 1957741854,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperialdaedric_light_head_a.png",
@@ -78183,8 +78183,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you have a 20% chance to increase your <span class=\"magicka\">Spell Damage by 516</span> for 5 seconds. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -78393,7 +78392,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1566241412
+    "id": 1566241412,
+    "bonusCount": 5
   },
   {
     "image": "gear_meridian_medium_head_a.png",
@@ -78432,8 +78432,7 @@ const ESO_SETS = [
           "Minor Vulnerability"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Poison Damage to an enemy, summon the Scavenging Maw which attacks your enemy after 2 seconds. The Scavenging Maw deals <span class=\"poison-damage\">2716 Poison Damage</span> and inflicts <span class=\"buff\">Minor Vulnerability</span> for 15 seconds, increasing their damage taken by 5%. This effect can occur every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Meridian",
@@ -78642,7 +78641,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3230404813
+    "id": 3230404813,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackironlgt_head_a.png",
@@ -78681,8 +78681,7 @@ const ESO_SETS = [
           "weaponDamage": 307
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you gain an Imbued Aura for 10 seconds, granting you and up to 3 other group members <span class=\"magicka\">307 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery. This effect can occur once every 20 seconds.\n\nIf you deal damage with a fully-charged Heavy Attack with an Imbued Aura active, consume it and gain an Overflow Aura for 10 seconds, granting you and up to 3 other group members <span class=\"stamina\">307 Weapon</span> and <span class=\"magicka\">Spell Damage</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Crimson Oath",
@@ -78891,7 +78890,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2365962921
+    "id": 2365962921,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedharvester_head_a.png",
@@ -78913,8 +78913,7 @@ const ESO_SETS = [
           "Major Vitality"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you have a 10% chance to create a beam that steals 2177 Health over 6 seconds from the attacker. While the beam holds you gain <span class=\"buff\">Major Vitality</span>, increasing your healing received by 16%. The beam breaks if the enemy moves further than 8 meters away. This effect can occur once every 6 seconds and scales off your Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -78982,7 +78981,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1967262809
+    "id": 1967262809,
+    "bonusCount": 2
   },
   {
     "image": "gear_undauntedspider_head_a.png",
@@ -79004,8 +79004,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal Martial melee damage, you call upon a primal spirit that mauls the closest enemy in front of you after 1.3 seconds for <span class=\"physical-damage\">1787 Physical damage</span>. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -79073,7 +79072,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 696111435
+    "id": 696111435,
+    "bonusCount": 2
   },
   {
     "image": "gear_undauntedlamia_head_a.png",
@@ -79095,8 +79095,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage you create an earthquake under the enemy that erupts after 1.5 seconds, dealing <span class=\"physical-damage\">1023 Physical damage</span> to all enemies within 4 meters and stunning them for 3 seconds. This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -79164,7 +79163,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3019215842
+    "id": 3019215842,
+    "bonusCount": 2
   },
   {
     "image": "gear_shieldssenchalhvy_head_a.png",
@@ -79197,8 +79197,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal's Duty, up to 10 stacks. After completing a fully-charged Heavy Attack, restore 757 Stamina and Magicka for each stack of Senchal's Duty and consume them. You can only gain one stack of Senchal's Duty every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing direct damage with a non-Heavy Attack grants you one persistent stack of Senchal's Duty, up to 10 stacks.  After completing a fully-charged Heavy Attack, restore 757 Stamina and Magicka for each stack of Senchal's Duty and consume them.  You can only gain one stack of Senchal's Duty every 1 second."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragonhold",
     "style": "Shield of Senchal",
@@ -79407,7 +79406,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2938929834
+    "id": 2938929834,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_medium_head_d.png",
@@ -79440,8 +79440,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you successfully Dodge, increase your Critical Damage and Critical Healing by 15% for 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you successfully Dodge, increase your Critical Damage and Critical Healing by 15% for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Khajiit",
@@ -79650,7 +79649,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2006572927
+    "id": 2006572927,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -79687,8 +79687,7 @@ const ESO_SETS = [
           "physicalResistance": 2585
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After being damaged by a damage over time ability, increase your Healing Received by 6% and your <span class=\"health\">Physical and Spell Resistance by 2585</span> for 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -80023,7 +80022,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 498266445
+    "id": 498266445,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedcenturion_head_a.png",
@@ -80042,8 +80042,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you heal yourself or an ally you summon a Dwemer spider that heals for 1000 Health and restores 125 Magicka and Stamina to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally you summon a Dwemer spider that heals for 1000 Health and restores <span class=\"magicka\">125 Magicka</span> and <span class=\"stamina\">Stamina</span> to you and your allies within 5 meters every 1 second for 8 seconds. This effect can occur once every 15 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -80111,7 +80110,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1609205987
+    "id": 1609205987,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -80147,8 +80147,7 @@ const ESO_SETS = [
           "weaponDamage": 266
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">266 Weapon Damage</span>, When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -80357,7 +80356,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 321244970
+    "id": 321244970,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_heavy_head_d.png",
@@ -80390,8 +80390,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases the damage of your fully-charged Heavy Attacks by 2257.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the damage of your fully-charged Heavy Attacks by 2257."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dark Elf",
@@ -80604,7 +80603,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3141754867
+    "id": 3141754867,
+    "bonusCount": 5
   },
   {
     "image": "gear_orc_heavy_head_d.png",
@@ -80642,8 +80642,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that increases your Physical or Spell Resistance while in combat, you gain <span class=\"stamina\">341 Weapon Damage</span> and <span class=\"health\">341 Health Recovery</span> for 15 seconds. This effect can occur every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Orc",
@@ -80852,7 +80851,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1472286092
+    "id": 1472286092,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -80890,8 +80890,7 @@ const ESO_SETS = [
           "maximumStamina": 2065
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">2065 Maximum Stamina</span>, Adds <span class=\"magicka\">2065 Maximum Magicka</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Craftable",
@@ -81226,7 +81225,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 678127500
+    "id": 678127500,
+    "bonusCount": 5
   },
   {
     "image": "gear_thievesguildv2_light_head_a.png",
@@ -81262,8 +81262,7 @@ const ESO_SETS = [
           "staminaRecovery": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, Ignore the Movement Speed penalty of Sneak."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Thieves Guild",
@@ -81472,7 +81471,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 82108726
+    "id": 82108726,
+    "bonusCount": 5
   },
   {
     "image": "gear_ashlander_head_a.png",
@@ -81508,8 +81508,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a weapon, you spawn a volcano that erupts after 1 second, launching liquid hot lava at the closest enemy dealing <span class=\"flame-damage\">1952 Flame damage</span>. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Ashlander",
@@ -81718,7 +81717,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 846584397
+    "id": 846584397,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -81751,8 +81751,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are Sneaking or invisible and are not moving, heal for 2150 Health and restore 2150 Stamina every 1 second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -81961,7 +81960,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 722302377
+    "id": 722302377,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedclannfear_head_a.png",
@@ -81983,8 +81983,7 @@ const ESO_SETS = [
           "Minor Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage, you summon a shadowy Clannfear for 15 seconds. The Clannfear's attacks deal <span class=\"magic-damage\">615 Magic damage</span> and apply <span class=\"buff\">Minor Maim</span>, reducing the target's damage done by 5% for 2 seconds. \n\nThe Clannfear can be summoned once every 15 seconds and its damage scales off your Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -82052,7 +82051,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2524440654
+    "id": 2524440654,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -82085,8 +82085,7 @@ const ESO_SETS = [
       "5": {
         "description": "While you are under 50% Health, dealing damage with a Light or Heavy Attack heals you for 988 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While you are under 50% Health, dealing damage with a Light or Heavy Attack heals you for 988 Health. This effect can occur once every 1 second and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -82421,7 +82420,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3289702535
+    "id": 3289702535,
+    "bonusCount": 5
   },
   {
     "image": "gear_reach_heavy_head_a.png",
@@ -82460,8 +82460,7 @@ const ESO_SETS = [
           "Minor Heroism"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Minor Heroism</span> at all times while you are in combat, generating 1 Ultimate every 1.5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Barbaric",
@@ -82670,7 +82669,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1163570437
+    "id": 1163570437,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_u30_mythic_neck.png",
@@ -82685,8 +82685,7 @@ const ESO_SETS = [
           "maximumHealth": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Reduce the cost of your Transformation Ultimate abilities by 15%. While transformed, increase your Maximum Health, Stamina, and Magicka by 1707."
-      },
-      "count": 1
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -82702,7 +82701,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3435394842
+    "id": 3435394842,
+    "bonusCount": 1
   },
   {
     "image": "gear_imperialdaedric_medium_head_a.png",
@@ -82738,8 +82738,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with an Execute ability you infect the enemy, dealing <span class=\"poison-damage\">996 Poison damage</span> over 6 seconds and dealing up to 100% more damage to enemies under 100% Health. This effect can occur once every 6 seconds per target and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -82948,7 +82947,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1965946211
+    "id": 1965946211,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -82981,8 +82981,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your damage done by 6%. This effect is doubled when attacking targets with a damage shield active."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -83191,7 +83190,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 21578372
+    "id": 21578372,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -83221,8 +83221,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of Break Free by 40%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Break Free by 40%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -83431,7 +83430,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1702439233
+    "id": 1702439233,
+    "bonusCount": 5
   },
   {
     "image": "gear_lich_head_a.png",
@@ -83467,8 +83467,7 @@ const ESO_SETS = [
           "magickaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 33% Magicka while in combat, your Magicka Recovery is increased by 1106 for 20 seconds. This effect can occur once every 1 minute."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -83681,7 +83680,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1967687578
+    "id": 1967687578,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -83717,8 +83717,7 @@ const ESO_SETS = [
           "spellDamage": 400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Flame Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -83927,7 +83926,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 379347007
+    "id": 379347007,
+    "bonusCount": 5
   },
   {
     "image": "gear_knightsotsrose_head_a.png",
@@ -83963,8 +83963,7 @@ const ESO_SETS = [
           "Major Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Blocking an attack grants you a stack of Realmshaper for 15 seconds, gaining up to 1 stack every 0.5 seconds. When you reach 3 stacks, you consume them and launch necrotic energy at your attacker, dealing <span class=\"magic-damage\">3226 Magic Damage</span> and applying <span class=\"buff\">Major Maim</span> for 12 seconds, reducing their damage done by 10%. Once you fire the necrotic energy, you cannot gain additional stacks of Realmshaper for 12 seconds. Damage scales off of your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Silver Rose",
@@ -84173,7 +84172,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4204831256
+    "id": 4204831256,
+    "bonusCount": 5
   },
   {
     "image": "gear_darkbrotherhoodv2_heavy_head_a.png",
@@ -84207,8 +84207,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you kill an enemy you gain 5% movement speed for 30 seconds and become invisible for 3 seconds. The movement speed stacks up to 20 times.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you kill an enemy you gain 5% movement speed for 30 seconds and become invisible for 3 seconds.  The movement speed stacks up to 20 times."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Dark Brotherhood",
@@ -84543,7 +84542,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1964255973
+    "id": 1964255973,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_light_head_d.png",
@@ -84579,8 +84579,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you drink a potion, you gain <span class=\"buff\">Major Expedition</span> for 30 seconds, increasing your Movement Speed by 30%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Khajiit",
@@ -84789,7 +84788,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 805256865
+    "id": 805256865,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedcrocodile_head_a.png",
@@ -84811,8 +84811,7 @@ const ESO_SETS = [
           "Minor Berserk"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Gain <span class=\"buff\">Minor Berserk</span> at all times, increasing your damage done by 5%."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -84880,7 +84879,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2660352702
+    "id": 2660352702,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -84914,8 +84914,7 @@ const ESO_SETS = [
       "5": {
         "description": "Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds. This can deal a maximum of 3000 Oblivion Damage per tick.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds.\n\nThis can deal a maximum of 3000 Oblivion Damage per tick."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Craftable",
@@ -85250,7 +85249,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3792178066
+    "id": 3792178066,
+    "bonusCount": 5
   },
   {
     "image": "gear_snowtreaders_feet_a.png",
@@ -85262,8 +85262,7 @@ const ESO_SETS = [
       "1": {
         "description": "While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint.",
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While you are in combat, you are immune to Snares and Immobilizations that can be cleansed, but you cannot Sprint."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": "Unique",
@@ -85280,7 +85279,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1650950798
+    "id": 1650950798,
+    "bonusCount": 1
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -85313,8 +85313,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your melee Light Attacks place a ring on the ground that explodes after 1.3 seconds, applying 4830 Heal Absorption to all enemies hit for 4 seconds, negating the next 4830 points of healing done. This effect can occur once every 6 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your melee Light Attacks place a ring on the ground that explodes after 1.3 seconds, applying 4830 Heal Absorption to all enemies hit for 4 seconds, negating the next 4830 points of healing done. This effect can occur once every 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -85523,7 +85522,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3466240199
+    "id": 3466240199,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -85556,8 +85556,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 30% Health, you deal 1377 Magic damage to the attacker and heal for the damage done. This effect can occur once every 3 seconds and scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 30% Health, you deal <span class=\"magic-damage\">1377 Magic damage</span> to the attacker and heal for the damage done. This effect can occur once every 3 seconds and scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -85900,7 +85899,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2099776725
+    "id": 2099776725,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_heavy_head_d.png",
@@ -85936,8 +85936,7 @@ const ESO_SETS = [
           "spellDamage": 369
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Activating an ability with a cast or channel time grants you <span class=\"magicka\">369 Spell Damage</span> for 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Khajiit",
@@ -86146,7 +86145,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1472359673
+    "id": 1472359673,
+    "bonusCount": 5
   },
   {
     "image": "gear_razorhorndaedric_shoulder_a.png",
@@ -86163,8 +86163,7 @@ const ESO_SETS = [
           "weaponDamage": 260
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Activating crouch activates and deactivates a 12 meter Aura of Pride. Up to 6 allies in the aura gain <span class=\"stamina\">260 Weapon</span> and <span class=\"magicka\">Spell Damage</span>. Reduce your Health, Magicka, and Stamina Recovery by 70 for every ally benefiting from your Aura of Pride."
-      },
-      "count": 1
+      }
     },
     "dlc": "Deadlands",
     "style": "Unique",
@@ -86187,7 +86186,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1566887170
+    "id": 1566887170,
+    "bonusCount": 1
   },
   {
     "image": "gear_undauntedspiderdaedra_head_a.png",
@@ -86209,8 +86209,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a fully-charged Heavy Attack, you create a web for 10 seconds that deals <span class=\"poison-damage\">199 Poison damage</span> every 1 second to all enemies within 4 meters and reduces their Movement Speed by 50%. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -86278,7 +86277,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2002476979
+    "id": 2002476979,
+    "bonusCount": 2
   },
   {
     "image": "gear_honorguard_1hsword_a.png",
@@ -86290,8 +86290,7 @@ const ESO_SETS = [
       "2": {
         "description": "Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Dealing damage with Blade Cloak grants you Spectral Cloak for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -86341,7 +86340,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1393779593
+    "id": 1393779593,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -86377,8 +86377,7 @@ const ESO_SETS = [
           "Major Evasion"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability while in combat you gain <span class=\"buff\">Major Evasion</span> for 30 seconds, reducing damage from area attacks by 20%. This effect can occur once every 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -86713,7 +86712,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2795082616
+    "id": 2795082616,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -86746,8 +86746,7 @@ const ESO_SETS = [
       "5": {
         "description": "Whenever you deal damage, you restore 63 Magicka. This effect can occur once every 0.25 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Whenever you deal damage, you restore 63 Magicka. This effect can occur once every 0.25 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Craftable",
@@ -87082,7 +87081,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 327569086
+    "id": 327569086,
+    "bonusCount": 5
   },
   {
     "image": "gear_imperialdaedric_light_head_a.png",
@@ -87122,8 +87122,7 @@ const ESO_SETS = [
           "Major Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you overheal yourself or an ally, you give the target <span class=\"buff\">Major Courage</span> for 5 seconds which increases their Weapon and <span class=\"magicka\">Spell Damage by 430</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Xivkyn",
@@ -87332,7 +87331,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3200585993
+    "id": 3200585993,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -87368,8 +87368,7 @@ const ESO_SETS = [
           "spellDamage": 460
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Light Attack, you place a mark over your target for 5 seconds, granting you <span class=\"magicka\">460 Spell Damage</span> against your marked target. This effect can occur every 4 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -87578,7 +87577,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1576692137
+    "id": 1576692137,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_medium_head_a.png",
@@ -87611,8 +87611,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of your Undaunted abilities by 10%. When an ally uses one of your Undaunted ability synergies you restore 730 Magicka and Stamina. This effect can occur once every 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of your Undaunted abilities by 10%. When an ally uses one of your Undaunted ability synergies you restore <span class=\"magicka\">730 Magicka</span> and <span class=\"stamina\">Stamina</span>.  This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -87825,7 +87824,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3149383482
+    "id": 3149383482,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_light_head_a.png",
@@ -87861,8 +87861,7 @@ const ESO_SETS = [
           "spellDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Destruction Staff abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -87986,7 +87985,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1308476937
+    "id": 1308476937,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_light_head_d.png",
@@ -88022,8 +88022,7 @@ const ESO_SETS = [
           "spellPenetration": 3460
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">3460 Spell Penetration</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -88232,7 +88231,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1007216891
+    "id": 1007216891,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_medium_head_d.png",
@@ -88268,8 +88268,7 @@ const ESO_SETS = [
           "physicalPenetration": 3460
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">3460 Physical Penetration</span>"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -88478,7 +88477,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4062988018
+    "id": 4062988018,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -88514,8 +88514,7 @@ const ESO_SETS = [
           "Major Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cleanse a negative effect from yourself or an ally, gain <span class=\"buff\">Major Protection</span> for 10 seconds, reducing your damage taken by 10%. This effect can occur once every 12 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -88724,7 +88723,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2296936514
+    "id": 2296936514,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_light_head_d.png",
@@ -88757,8 +88757,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you heal yourself or an ally, you remove all negative effects from them. This effect can occur once every 30 seconds per target.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you heal yourself or an ally, you remove all negative effects from them. This effect can occur once every 30 seconds per target."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -88967,7 +88966,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1887648225
+    "id": 1887648225,
+    "bonusCount": 5
   },
   {
     "image": "gear_khajiit_dagger_e.png",
@@ -88979,8 +88979,7 @@ const ESO_SETS = [
       "2": {
         "description": "Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Twin Slashes deals 1635 more damage for each hit of the initial attack and bleed."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -89030,7 +89029,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1567414027
+    "id": 1567414027,
+    "bonusCount": 2
   },
   {
     "image": "gear_undstonehusk_head_a.png",
@@ -89053,8 +89053,7 @@ const ESO_SETS = [
           "weaponDamage": 30
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Your Heavy Attacks tether you to enemies within 10 meters for 5 seconds, as long as you remain within 12 meters. Enemies touching the tether take <span class=\"physical-damage\">223 Physical damage</span> every 1 second and you gain a stack of Husk Drain, up to 15 stacks. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.\n\nWhen the tether ends, you consume the stacks and gain <span class=\"stamina\">30 Weapon Damage</span> per stack for 5 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Stonethorn",
     "style": "Undaunted",
@@ -89122,7 +89121,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2682205579
+    "id": 2682205579,
+    "bonusCount": 2
   },
   {
     "image": "gear_rockgrove_lgt_head_a.png",
@@ -89155,8 +89155,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -89365,7 +89364,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1197003750
+    "id": 1197003750,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedstonekeeper_head_a.png",
@@ -89386,8 +89386,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you block an attack, you gain an energy Charge stack. When you gain 6 Charges, you release the energy, restoring 2480 Stamina and Magicka, and healing for 2480. After releasing the Charges, you cannot regain new Charges for 14 seconds. Charges can be accumulated up to once every .25 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack, you gain an energy Charge stack. When you gain 6 Charges, you release the energy, restoring 2480 Stamina and Magicka, and healing for 2480. After releasing the Charges, you cannot regain new Charges for 14 seconds.\n\nCharges can be accumulated up to once every .25 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Wrathstone",
     "style": "Undaunted",
@@ -89455,7 +89454,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1989858228
+    "id": 1989858228,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -89491,8 +89491,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take non-Physical Damage, you deal <span class=\"shock-damage\">375 Shock damage</span> to all enemies within 5 meters of you every 2 seconds for 6 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -89701,7 +89700,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4067749041
+    "id": 4067749041,
+    "bonusCount": 5
   },
   {
     "image": "gear_ancient_elf_medium_head_a.png",
@@ -89734,8 +89734,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal Critical Damage with a fully-charged Heavy Attack, your Light and Heavy Attacks deal an additional 1542 damage for 20 seconds. This effect can occur once every 10 seconds",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage with a fully-charged Heavy Attack, your Light and Heavy Attacks deal an additional 1542 damage for 20 seconds. This effect can occur once every 10 seconds"
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Maormer",
@@ -89944,7 +89943,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4085155808
+    "id": 4085155808,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedstormatronach_head_a.png",
@@ -89967,8 +89967,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 10% chance to create a thunderfist to crush the enemy, dealing <span class=\"shock-damage\">291 Shock damage</span> every 1 second for 3 seconds to all enemies within 4 meters and a final <span class=\"physical-damage\">9636 Physical damage</span> when the fist closes. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage.\n\nThe Shock Damage dealt from this set bypasses Spell Resistance."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -90036,7 +90035,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1071770340
+    "id": 1071770340,
+    "bonusCount": 2
   },
   {
     "image": "gear_dwarven_medium_head_a.png",
@@ -90072,8 +90072,7 @@ const ESO_SETS = [
           "weaponDamage": 400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">400 Weapon Damage</span> to your Physical and Bleed Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Dwemer",
@@ -90286,7 +90285,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3924217824
+    "id": 3924217824,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -90324,8 +90324,7 @@ const ESO_SETS = [
           "spellPenetration": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage to an enemy who is Off Balance, your Physical and Spell Penetration is increased by 5312 for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Craftable",
@@ -90660,7 +90659,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2803043877
+    "id": 2803043877,
+    "bonusCount": 5
   },
   {
     "image": "gear_draugr_medium_head_a.png",
@@ -90699,8 +90699,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you leave Sneak or invisibility while in combat, your Weapon and Spell Damage is increased by 369 for 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Draugr",
@@ -90909,7 +90908,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1240531818
+    "id": 1240531818,
+    "bonusCount": 5
   },
   {
     "image": "gear_rockgrove_med_head_a.png",
@@ -90945,8 +90945,7 @@ const ESO_SETS = [
           "weaponCritical": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Weapon Critical by 2160 and your Critical Damage by 12% for 30 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Blackwood",
     "style": null,
@@ -91155,7 +91154,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2221818838
+    "id": 2221818838,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_medium_head_a.png",
@@ -91196,8 +91196,7 @@ const ESO_SETS = [
           "Minor Breach"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a fully-charged Heavy Attack, you deal an additional <span class=\"flame-damage\">2025 Flame Damage</span> over 10 seconds and apply <span class=\"buff\">Minor Breach</span> to the enemy, reducing their <span class=\"health\">Physical and Spell Resistance by 2974</span>.  This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -91410,7 +91409,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3970354799
+    "id": 3970354799,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_medium_head_d.png",
@@ -91446,8 +91446,7 @@ const ESO_SETS = [
           "weaponDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Poison and Disease Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -91656,7 +91655,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1518740754
+    "id": 1518740754,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedgiantspider_head_a.png",
@@ -91676,8 +91676,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -91745,7 +91744,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2487749202
+    "id": 2487749202,
+    "bonusCount": 2
   },
   {
     "image": "gear_redguard_medium_head_d.png",
@@ -91781,8 +91781,7 @@ const ESO_SETS = [
           "weaponDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Dual Wield abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -91911,7 +91910,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1473216901
+    "id": 1473216901,
+    "bonusCount": 5
   },
   {
     "image": "gear_redguard_medium_head_d.png",
@@ -91947,8 +91947,7 @@ const ESO_SETS = [
           "weaponDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">600 Weapon Damage</span> to your Two Handed abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -92068,7 +92067,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 450826925
+    "id": 450826925,
+    "bonusCount": 5
   },
   {
     "image": "gear_undnarlimor_head_a.png",
@@ -92087,8 +92087,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores 570 Magicka or Stamina every 1 second for 6 seconds. This effect can occur every 18 seconds per target. The resource returned is based off the target's highest maximum resource.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal an ally who is under 50% of their primary resource, grant them Meridia's Favor, which restores <span class=\"magicka\">570 Magicka</span> or <span class=\"stamina\">Stamina</span> every 1 second for 6 seconds. This effect can occur every 18 seconds per target.\n\nThe resource returned is based off the target's highest maximum resource."
-      },
-      "count": 2
+      }
     },
     "dlc": "Wrathstone",
     "style": "Undaunted",
@@ -92156,7 +92155,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2229073808
+    "id": 2229073808,
+    "bonusCount": 2
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -92189,8 +92189,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 805 Magicka. This effect can occur once every 1 second.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block a Flame, Frost, Shock, or Magic Damage ability, you restore 805 Magicka. This effect can occur once every 1 second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -92399,7 +92398,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 849699846
+    "id": 849699846,
+    "bonusCount": 5
   },
   {
     "image": "gear_ancientyokudan_heavy_head_a.png",
@@ -92435,8 +92435,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you cause a burst of lamia poison that deals <span class=\"poison-damage\">157 Poison damage</span> in a 5 meter radius and an additional <span class=\"poison-damage\">1572 Poison damage</span> over 6 seconds to all enemies hit. This effect can occur once every 7 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Thieves Guild",
@@ -92771,7 +92770,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 733771764
+    "id": 733771764,
+    "bonusCount": 5
   },
   {
     "image": "gear_arcticvampire_light_head_a.png",
@@ -92807,8 +92807,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases <span class=\"magicka\">Spell Damage by 372</span>. Increase damage taken from Flame and Fighter's Guild abilities by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Thorn Legion",
@@ -93017,7 +93016,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3100303265
+    "id": 3100303265,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -93050,8 +93050,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you dodge an attack, you receive the blessing of Tava, generating 12 Ultimate over 3 seconds. This effect can occur once every 3 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you dodge an attack, you receive the blessing of Tava, generating 12 Ultimate over 3 seconds.  This effect can occur once every 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Craftable",
@@ -93386,7 +93385,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4194283885
+    "id": 4194283885,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -93422,8 +93422,7 @@ const ESO_SETS = [
           "magickaRecovery": 506
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you complete a fully-charged Heavy Attack, you gain an additional <span class=\"magicka\">506 Magicka Recovery</span> for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -93632,7 +93631,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2105677877
+    "id": 2105677877,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_staff_c.png",
@@ -93647,8 +93647,7 @@ const ESO_SETS = [
           "armor": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -93688,7 +93687,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4053093716
+    "id": 4053093716,
+    "bonusCount": 3
   },
   {
     "image": "gear_nord_heavy_head_d.png",
@@ -93724,8 +93724,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Frost Damage, you deal an additional <span class=\"flame-damage\">250 Flame Damage</span> to all enemies within 8 meters around the initial target. This effect can occur once every 1 second and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -93934,7 +93933,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3610725959
+    "id": 3610725959,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -93970,8 +93970,7 @@ const ESO_SETS = [
           "armor": 20000
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while under 30% Health, heal for 4428 Health immediately and gain <span class=\"health\">20000 Armor</span> for 15 seconds. This effect can occur once every 1 minute and the heal scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -94180,7 +94179,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2167994752
+    "id": 2167994752,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -94213,8 +94213,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you deal direct damage, you cause the enemy to take 10% more damage from Poison and Disease attacks for 5 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage, you cause the enemy to take 10% more damage from Poison and Disease attacks for 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -94423,7 +94422,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4025994104
+    "id": 4025994104,
+    "bonusCount": 5
   },
   {
     "image": "gear_undauntedtroll_head_a.png",
@@ -94445,8 +94445,7 @@ const ESO_SETS = [
           "healthRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you heal yourself or an ally, if they are still below 50% Health, their Health Recovery is increased by 925 for 10 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -94514,7 +94513,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3407963986
+    "id": 3407963986,
+    "bonusCount": 2
   },
   {
     "image": "gear_artifactwormcultlight_head_a.png",
@@ -94550,8 +94550,7 @@ const ESO_SETS = [
           "magickaRecovery": 145
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Grants <span class=\"magicka\">145 Magicka Recovery</span> to you and up to 11 other group members within 28 meters of you."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Soul Shriven",
@@ -94760,7 +94759,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 497151405
+    "id": 497151405,
+    "bonusCount": 5
   },
   {
     "image": "gear_nord_heavy_head_d.png",
@@ -94793,8 +94793,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you block an attack, you deal 717 Physical Damage to the attacker. This effect scales off your Max Health.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you deal <span class=\"physical-damage\">717 Physical Damage</span> to the attacker. This effect scales off your Max Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Nord",
@@ -95039,7 +95038,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2687258070
+    "id": 2687258070,
+    "bonusCount": 5
   },
   {
     "image": "gear_thrassianstranglers_a.png",
@@ -95056,8 +95056,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Killing an enemy grants you a stack of Sload's Call for 1 hour, up to a maximum of 50 stacks. Each stack increases your Weapon and <span class=\"magicka\">Spell Damage by 23</span>, reduces your Maximum Health by 120, and reduces effectiveness of your damage shields by 1%. \n\nSload's Call is lost if you remove Thrassian Stranglers, go invisible, or crouch."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": "Unique",
@@ -95074,7 +95073,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2968637007
+    "id": 2968637007,
+    "bonusCount": 1
   },
   {
     "image": "gear_knightsotsroselgt_head_a.png",
@@ -95112,8 +95112,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage with a fully-charged Heavy Attack calls a bolt of lightning at your target, dealing <span class=\"shock-damage\">1875 Shock Damage</span> and leaving a 4 meter lightning crater at their location for 6 seconds, dealing <span class=\"shock-damage\">393 Shock Damage</span> per second to enemies touching the crater. This effect can occur once every 12 seconds and scales off of the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Waking Flame",
     "style": "Silver Rose",
@@ -95322,7 +95321,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2674602032
+    "id": 2674602032,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_heavy_head_a.png",
@@ -95358,8 +95358,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take Physical Damage, you deal <span class=\"shock-damage\">750 Shock Damage</span> in a 5 meter radius around you. This effect can occur once every 3 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -95568,7 +95567,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 513990211
+    "id": 513990211,
+    "bonusCount": 5
   },
   {
     "image": "gear_dwarvenscavenged_bow_a.png",
@@ -95580,8 +95580,7 @@ const ESO_SETS = [
       "2": {
         "description": "Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the damage Volley deals by 430 each tick. This bonus increases by 143 every time Volley ticks, up to a maximum of 8 times."
-      },
-      "count": 2
+      }
     },
     "dlc": "Orsinium",
     "style": "Dwemer",
@@ -95604,7 +95603,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2168395147
+    "id": 2168395147,
+    "bonusCount": 2
   },
   {
     "image": "gear_undaunted_fanglair_head_a.png",
@@ -95629,8 +95629,7 @@ const ESO_SETS = [
           "Minor Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you take damage from a nearby enemy, you summon a growing pool of desecrated bile for 8 seconds. Enemies in the bile take <span class=\"disease-damage\">195 Disease damage</span> every 1 second and are afflicted with <span class=\"buff\">Minor Maim</span> and the Diseased status for 4 seconds, reducing their damage done by 5% and healing received and Health Recovery by 8%. This effect can occur every 16 seconds and the damage scales off your Max Health."
-      },
-      "count": 2
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Undaunted",
@@ -95698,7 +95697,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2929511037
+    "id": 2929511037,
+    "bonusCount": 2
   },
   {
     "image": "gear_factotum_gear_factotum_staff_a.png",
@@ -95710,8 +95710,7 @@ const ESO_SETS = [
       "2": {
         "description": "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Clockwork City",
     "style": "Apostle",
@@ -95734,7 +95733,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1494235150
+    "id": 1494235150,
+    "bonusCount": 2
   },
   {
     "image": "gear_icereachmed_head_a.png",
@@ -95771,8 +95771,7 @@ const ESO_SETS = [
           "physicalPenetration": 1240
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">110 Weapon Damage</span> and <span class=\"stamina\">1240 Physical Penetration</span>.  While in combat, this bonus doubles to <span class=\"stamina\">220 Weapon Damage</span> and <span class=\"stamina\">2480 Physical Penetration</span> when you are under 75% Health. While in combat, this bonus quadruples to <span class=\"stamina\">440 Weapon Damage</span> and <span class=\"stamina\">4960 Physical Penetration</span> when you are under 50% Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Harrowstorm",
     "style": "Icereach Coven",
@@ -95981,7 +95980,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4149680063
+    "id": 4149680063,
+    "bonusCount": 5
   },
   {
     "image": "gear_dunmer_2hhammer_e.png",
@@ -95993,8 +95993,7 @@ const ESO_SETS = [
       "2": {
         "description": "Increases the direct damage Cleave deals by 1550 for each enemy in its cone.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Increases the direct damage Cleave deals by 1550 for each enemy in its cone."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Redguard",
@@ -96035,7 +96034,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2465181559
+    "id": 2465181559,
+    "bonusCount": 2
   },
   {
     "image": "gear_sunspire_medium_helmet_a.png",
@@ -96071,8 +96071,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you activate a synergy while in combat, gain <span class=\"buff\">Major Slayer</span> for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Sunspire",
@@ -96281,7 +96280,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2979990493
+    "id": 2979990493,
+    "bonusCount": 5
   },
   {
     "image": "gear_primative_medium_head_a.png",
@@ -96321,8 +96321,7 @@ const ESO_SETS = [
           "Major Savagery"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">171 Weapon Damage</span>, Gain <span class=\"buff\">Major Savagery</span> at all times, increasing your Weapon Critical rating by 2629."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Primal",
@@ -96535,7 +96534,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2600152171
+    "id": 2600152171,
+    "bonusCount": 5
   },
   {
     "image": "antiquities_torc_of_tonal_constancy_icon.png",
@@ -96551,8 +96551,7 @@ const ESO_SETS = [
           "staminaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While your Stamina is less than 50%, increase your Magicka Recovery by 450. While your Magicka is less than 50%, increase your Stamina Recovery by 450."
-      },
-      "count": 1
+      }
     },
     "dlc": null,
     "style": null,
@@ -96568,7 +96567,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4251952388
+    "id": 4251952388,
+    "bonusCount": 1
   },
   {
     "image": "gear_daedric_heavy_head_a.png",
@@ -96604,8 +96604,7 @@ const ESO_SETS = [
           "spellResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Charge, Leap, Teleport, or Pull ability, you gain 3642 Physical and Spell Resistance and taunt the enemy to attack you for 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -96818,7 +96817,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2397954031
+    "id": 2397954031,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -96851,8 +96851,7 @@ const ESO_SETS = [
       "5": {
         "description": "Decreases weapon enchantment cooldown by 33% and increases non Oblivion Damage weapon enchantment potency by 45%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Decreases weapon enchantment cooldown by 33% and increases non Oblivion Damage weapon enchantment potency by 45%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -97195,7 +97194,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 535538444
+    "id": 535538444,
+    "bonusCount": 5
   },
   {
     "image": "gear_fanglair_medium_head_a.png",
@@ -97228,8 +97228,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 25% Stamina, you restore 11350 Stamina. This effect can occur once every 45 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Fang Lair",
@@ -97438,7 +97437,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1001131959
+    "id": 1001131959,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_light_head_a.png",
@@ -97478,8 +97478,7 @@ const ESO_SETS = [
           "Major Prophecy"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Major Prophecy</span> at all times, increasing your Spell Critical rating by 2629."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -97688,7 +97687,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 885219322
+    "id": 885219322,
+    "bonusCount": 5
   },
   {
     "image": "gear_daedric_2hhammer_c.png",
@@ -97703,8 +97703,7 @@ const ESO_SETS = [
           "armor": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": "Daedric",
@@ -97729,7 +97728,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1381145652
+    "id": 1381145652,
+    "bonusCount": 3
   },
   {
     "image": "gear_undauntedsuneripper_head_a.png",
@@ -97752,8 +97752,7 @@ const ESO_SETS = [
           "physicalResistance": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you activate a taunt ability on an enemy, you cause a duneripper to burst from the ground beneath them after 1 second, dealing <span class=\"physical-damage\">0 Physical damage</span> to all enemies within 4 meters and reducing their Physical Resistance by 2395 for 8 seconds. This effect can occur once every 8 seconds and the damage scales off the higher of your Physical or Spell Resistance."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -97821,7 +97820,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4205589174
+    "id": 4205589174,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -97857,8 +97857,7 @@ const ESO_SETS = [
           "armor": 8500
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While under the effect of an Elemental Status Effect you gain <span class=\"health\">8500 Armor</span>."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Craftable",
@@ -98193,7 +98192,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2454228156
+    "id": 2454228156,
+    "bonusCount": 5
   },
   {
     "image": "gear_trinimac_light_head_a.png",
@@ -98226,8 +98226,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your group members for 1466 Health and damages enemies for 1466 Magic damage in a 5 meter radius after a 2 second delay. This effect can occur once every 5 seconds and scales with the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a damage shield ability, you call down a fragment of Trinimac that heals you and your group members for 1466 Health and damages enemies for <span class=\"magic-damage\">1466 Magic damage</span> in a 5 meter radius after a 2 second delay. This effect can occur once every 5 seconds and scales with the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Trinimac",
@@ -98436,7 +98435,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1693021982
+    "id": 1693021982,
+    "bonusCount": 5
   },
   {
     "image": "gear_blackdrakevilla_lgt_head_a.png",
@@ -98472,8 +98472,7 @@ const ESO_SETS = [
           "spellCritical": 708
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">708 Spell Critical</span> and increases your Critical Damage by 4%. While in combat, this bonus doubles to <span class=\"magicka\">1416 Spell Critical</span> and 8% increased Critical Damage when you are under 75% Health. While in combat this bonus quadruples to <span class=\"magicka\">2832 Spell Critical</span> and 16% increased Critical Damage when you are under 50% Health."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "True-Sworn",
@@ -98682,7 +98681,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2529713381
+    "id": 2529713381,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -98715,8 +98715,7 @@ const ESO_SETS = [
       "5": {
         "description": "You can have two Mundus Stone boons at the same time.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> You can have two Mundus Stone boons at the same time."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -99051,7 +99050,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2850984783
+    "id": 2850984783,
+    "bonusCount": 5
   },
   {
     "image": "gear_craglorn_medium_head_a.png",
@@ -99087,8 +99087,7 @@ const ESO_SETS = [
           "physicalPenetration": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, your Physical Penetration is increased by 544 for 5 seconds, stacking up to 10 times. This effect can occur once every half second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -99297,7 +99296,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3533860006
+    "id": 3533860006,
+    "bonusCount": 5
   },
   {
     "image": "gear_dromathra_light_head_a.png",
@@ -99333,8 +99333,7 @@ const ESO_SETS = [
           "Minor Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When an ally activates your synergy, they heal themselves for 8088 Health over 15 seconds and gain <span class=\"buff\">Minor Force</span> for the duration, increasing their Critical Damage by 10%.  This effect scales off the higher of the synergy activator's Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Thieves Guild",
     "style": "Dro-m'Athra",
@@ -99543,7 +99542,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4095664351
+    "id": 4095664351,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -99576,8 +99576,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases your healing received by 10%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your healing received by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -99920,7 +99919,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1496451470
+    "id": 1496451470,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -99956,8 +99956,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, you cause all enemies within 5 meters of you to bleed for <span class=\"physical-damage\">2034 Bleed damage</span> over 10 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -100188,7 +100187,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1637039090
+    "id": 1637039090,
+    "bonusCount": 5
   },
   {
     "image": "gear_coldsnap_medium_head_a.png",
@@ -100227,8 +100227,7 @@ const ESO_SETS = [
           "Minor Force"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Critical Damage, you gain a stack of Precision, increasing your Weapon Critical by 177 for 5 seconds, up to 10 stacks max. At max stacks, you also gain <span class=\"buff\">Minor Force</span>, increasing your Critical Damage done by 10%.  This effect can occur once every half second."
-      },
-      "count": 5
+      }
     },
     "dlc": "Wrathstone",
     "style": "Coldsnap",
@@ -100437,7 +100436,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 554028585
+    "id": 554028585,
+    "bonusCount": 5
   },
   {
     "image": "gear_fanglair_heavy_head_a.png",
@@ -100471,8 +100471,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases the Magicka or Stamina your Heavy Attacks restore by 30%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the Magicka or Stamina your Heavy Attacks restore by 30%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Fang Lair",
@@ -100681,7 +100680,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1954188591
+    "id": 1954188591,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -100718,8 +100718,7 @@ const ESO_SETS = [
           "Major Berserk"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After Breaking Free, gain <span class=\"buff\">Major Berserk</span> for 12 seconds, increasing your damage done by 10%.  This effect can occur once every 14 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -101054,7 +101053,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 222023889
+    "id": 222023889,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_heavy_head_a.png",
@@ -101087,8 +101087,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use a taunt ability while you are under 75% Health, gain a damage shield that absorbs 14127 damage for 6 seconds. This effect can occur once every 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use a taunt ability while you are under 75% Health, gain a damage shield that absorbs 14127 damage for 6 seconds. This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -101301,7 +101300,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3427512719
+    "id": 3427512719,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_medium_head_a.png",
@@ -101334,8 +101334,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use an ability that costs Magicka while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an ability that costs Magicka while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -101544,7 +101543,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1670727907
+    "id": 1670727907,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_light_head_a.png",
@@ -101577,8 +101577,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use an ability that costs Stamina while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an ability that costs Stamina while in combat, you increase the damage of your Light and Heavy Attacks by 1685 for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Mercenary",
@@ -101787,7 +101786,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3741553778
+    "id": 3741553778,
+    "bonusCount": 5
   },
   {
     "image": "gear_nocturnal_medium_head_a.png",
@@ -101823,8 +101823,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage, you call a murder of crows around you for 12 seconds. Every 3 seconds a crow will be sent to peck the closest enemy within 12 meters of you, dealing <span class=\"physical-damage\">915 Physical Damage</span>. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Clockwork City",
     "style": "Ebonshadow",
@@ -102033,7 +102032,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1715606434
+    "id": 1715606434,
+    "bonusCount": 5
   },
   {
     "image": "gear_cauldron_lgt_head_a.png",
@@ -102066,8 +102066,7 @@ const ESO_SETS = [
       "5": {
         "description": "Dealing damage to an enemy applies Ritualist's Mark to them for 10 seconds. Enemies with your Ritualist's Mark take an additional 16% damage from your summoned pets.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing damage to an enemy applies Ritualist's Mark to them for 10 seconds. Enemies with your Ritualist's Mark take an additional 16% damage from your summoned pets."
-      },
-      "count": 5
+      }
     },
     "dlc": "Flames of Ambition",
     "style": "Waking Flame",
@@ -102276,7 +102275,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 392443035
+    "id": 392443035,
+    "bonusCount": 5
   },
   {
     "image": "gear_arcticvampire_medium_head_a.png",
@@ -102312,8 +102312,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you cut your enemy, causing them to bleed for 10 seconds, dealing <span class=\"physical-damage\">2095 Bleed Damage</span> over the duration and applying the Hemorrhaging status effect every tick. This ability can occur once every 10 seconds per target and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Stonethorn",
     "style": "Thorn Legion",
@@ -102522,7 +102521,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3110382028
+    "id": 3110382028,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_magma_head_a.png",
@@ -102544,8 +102544,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with a damage over time effect, you have a 8% chance to summon a meteor that deals <span class=\"flame-damage\">1409 Flame damage</span> to the target and <span class=\"flame-damage\">469 Flame damage</span> to all other enemies within 5 meters. This effect can occur once every 5 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": null,
     "style": "Undaunted",
@@ -102613,7 +102612,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3484058375
+    "id": 3484058375,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -102652,8 +102652,7 @@ const ESO_SETS = [
           "Minor Protection"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">171 Spell Damage</span>, Gain <span class=\"buff\">Minor Protection</span> at all times, reducing your damage taken by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -102862,7 +102861,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 277239613
+    "id": 277239613,
+    "bonusCount": 5
   },
   {
     "image": "gear_altmer_light_head_d.png",
@@ -102895,8 +102895,7 @@ const ESO_SETS = [
       "5": {
         "description": "Increases the bonuses and penalties of your Vampire Stage, depending on how far you've progressed. Stage 1/2/3/4 1%/2%/4%/6% additional Flame Damage Taken.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases the bonuses and penalties of your Vampire Stage, depending on how far you've progressed.\n\nStage 1/2/3/4\n\n1%/2%/4%/6% additional Flame Damage Taken.\n1%/2%/4%/6% increased Regular Ability cost.\n5%/10%/15%/20% reduced Vampire Ability cost."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "High Elf",
@@ -103105,7 +103104,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3698345732
+    "id": 3698345732,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -103143,8 +103143,7 @@ const ESO_SETS = [
           "weaponDamage": 129
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon</span> and <span class=\"magicka\">Spell Damage</span>, When you kill an enemy, you heal for 11040 Health over 10 seconds.  This effect scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -103487,7 +103486,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3208656039
+    "id": 3208656039,
+    "bonusCount": 5
   },
   {
     "image": "gear_ordinator_heavy_head_a.png",
@@ -103520,8 +103520,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you taunt an enemy Player, they deal 35% less damage to all other Players but 35% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you taunt an enemy Player, they deal 35% less damage to all other Players but 35% more damage to you for 15 seconds. This effect is lost if you enter Sneak, invisibility, or move further than 28 meters away from them."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Militant Ordinator",
@@ -103730,7 +103729,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1384451072
+    "id": 1384451072,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -103763,8 +103763,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you block an attack, your next direct damage area of effect attack used within 5 seconds deals an additional 3290 damage. This bonus does not work with channeled effects. This effect can occur once every 2 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you block an attack, your next direct damage area of effect attack used within 5 seconds deals an additional 3290 damage. This bonus does not work with channeled effects. This effect can occur once every 2 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Dark Brotherhood",
     "style": "Craftable",
@@ -104099,7 +104098,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3157915870
+    "id": 3157915870,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -104138,8 +104138,7 @@ const ESO_SETS = [
           "weaponDamage": 258
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>, Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you resurrect an ally, you and your ally gain <span class=\"stamina\">258 Weapon</span> and <span class=\"magicka\">Spell Damage</span> and 10% cost reduction to non-Ultimate abilities for 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Craftable",
@@ -104474,7 +104473,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 804762803
+    "id": 804762803,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_hoarvordaedra_head_a.png",
@@ -104496,8 +104496,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal <span class=\"disease-damage\">1962 Disease damage</span> to any enemy they hit. This effect can occur once every 8 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Undaunted",
@@ -104565,7 +104564,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2425616204
+    "id": 2425616204,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -104584,8 +104584,7 @@ const ESO_SETS = [
       "3": {
         "description": "When you kill an enemy, you heal for 2772 Health and restore 2772 Magicka and Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> When you kill an enemy, you heal for 2772 Health and restore <span class=\"magicka\">2772 Magicka</span> and <span class=\"stamina\">Stamina</span>."
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -104731,7 +104730,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 808685680
+    "id": 808685680,
+    "bonusCount": 3
   },
   {
     "image": "gear_greyhostmed_helmet_a.png",
@@ -104767,8 +104767,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing Critical Damage inflicts Hunter's Venom on your enemy for 10 seconds, dealing <span class=\"poison-damage\">625 Poison Damage</span> to your target and enemies within 6 meters of them every 2 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": null,
@@ -104977,7 +104976,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 533802775
+    "id": 533802775,
+    "bonusCount": 5
   },
   {
     "image": "gear_welkynar_light_head_a.png",
@@ -105017,8 +105017,7 @@ const ESO_SETS = [
           "Major Courage"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain <span class=\"buff\">Major Courage</span> for 20 seconds, increasing your Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 20 seconds.  This effect can occur once every 10 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Welkynar",
@@ -105227,7 +105226,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1343350379
+    "id": 1343350379,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_light_head_d.png",
@@ -105260,8 +105260,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast an ability that costs resources while under 25% Magicka, you restore 11350 Magicka. This effect can occur once every 45 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Breton",
@@ -105470,7 +105469,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1861403723
+    "id": 1861403723,
+    "bonusCount": 5
   },
   {
     "image": "gear_anequina_medium_helmet_a.png",
@@ -105500,8 +105500,7 @@ const ESO_SETS = [
       "5": {
         "description": "While crouching and not blocking, you restore 670 Magicka and Stamina and heal for 670 Health every second.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While crouching and not blocking, you restore <span class=\"magicka\">670 Magicka</span> and <span class=\"stamina\">Stamina</span> and heal for 670 Health every second."
-      },
-      "count": 5
+      }
     },
     "dlc": "Elsweyr",
     "style": "Anequina",
@@ -105710,7 +105709,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1570521351
+    "id": 1570521351,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_medium_head_d.png",
@@ -105746,8 +105746,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal direct Critical Damage to an enemy while behind them, you inject a leeching poison that deals <span class=\"poison-damage\">1365 Poison Damage</span> over 10 seconds to them and heals you for 100% of the damage done.  This effect can occur once every 10 seconds per enemy and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Imperial City",
     "style": "Argonian",
@@ -105956,7 +105955,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1832925893
+    "id": 1832925893,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_light_head_a.png",
@@ -105993,8 +105993,7 @@ const ESO_SETS = [
           "spellPenetration": 1487
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">1487 Spell Penetration</span>, When you kill a Player, they violently explode for <span class=\"flame-damage\">3489 Flame damage</span> to all other enemies in a 5 meter radius. This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -106203,7 +106202,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3288149447
+    "id": 3288149447,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_medium_head_a.png",
@@ -106242,8 +106242,7 @@ const ESO_SETS = [
           "Major Expedition"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>, Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 2454 Stamina and gain <span class=\"buff\">Major Expedition</span> for 8 seconds, increasing your Movement Speed by 30%.  These effects can occur once every second."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -106460,7 +106459,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 879545114
+    "id": 879545114,
+    "bonusCount": 5
   },
   {
     "image": "gear_argonian_medium_head_d.png",
@@ -106496,8 +106496,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a Martial melee attack, you deal an additional <span class=\"poison-damage\">976 Poison Damage</span> over 4 seconds. This effect can occur once every 4 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Argonian",
@@ -106665,7 +106664,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3890407972
+    "id": 3890407972,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_bow_a.png",
@@ -106677,8 +106677,7 @@ const ESO_SETS = [
       "2": {
         "description": "Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Scatter Shot applies a damage over time effect that deals 65% of your initial attack as Poison Damage every 2 seconds for 4 seconds. The duration increases if you are farther away from your target to a maximum of 12 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -106701,7 +106700,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1835959396
+    "id": 1835959396,
+    "bonusCount": 2
   },
   {
     "image": "gear_voidrot_shield_a.png",
@@ -106716,8 +106716,7 @@ const ESO_SETS = [
           "Major Maim"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you deal damage with Power Bash, you apply Call of the Void to yourself for 2 seconds. Enemies within 12 meters are immediately pulled to you.\n\nAfter Call of the Void ends, you apply <span class=\"buff\">Major Maim</span> to enemies in the area for 10 seconds, reducing their damage done by 10%.  This effect can occur once every 13 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -106775,7 +106774,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3897491223
+    "id": 3897491223,
+    "bonusCount": 2
   },
   {
     "image": "gear_nighthollowreg_lgt_head_a.png",
@@ -106811,8 +106811,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, your Spell Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Nighthollow",
@@ -107021,7 +107020,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4265750980
+    "id": 4265750980,
+    "bonusCount": 5
   },
   {
     "image": "gear_seagianthvy_helmet.png",
@@ -107057,8 +107057,7 @@ const ESO_SETS = [
           "Major Aegis"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> After completing a fully-charged Heavy Attack, apply <span class=\"buff\">Major Aegis</span> to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -107267,7 +107266,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1875494005
+    "id": 1875494005,
+    "bonusCount": 5
   },
   {
     "image": "gear_undvykosa_helmet_a.png",
@@ -107293,8 +107293,7 @@ const ESO_SETS = [
           "Major Cowardice"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you Bash an enemy you've taunted, you frighten them with a deafening howl, applying <span class=\"buff\">Major Cowardice</span> to them, lowering their Weapon and <span class=\"magicka\">Spell Damage by 430</span> for 8 seconds. This effect can occur once every 15 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Wolfhunter",
     "style": "Undaunted",
@@ -107362,7 +107361,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1259044942
+    "id": 1259044942,
+    "bonusCount": 2
   },
   {
     "image": "gear_clockwork_medium_head_a.png",
@@ -107398,8 +107398,7 @@ const ESO_SETS = [
           "Major Slayer"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain <span class=\"buff\">Major Slayer</span> for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Refabricated",
@@ -107608,7 +107607,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2376017484
+    "id": 2376017484,
+    "bonusCount": 5
   },
   {
     "image": "gear_telvanni_light_head_a.png",
@@ -107644,8 +107644,7 @@ const ESO_SETS = [
           "spellDamage": 600
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">600 Spell Damage</span> to your Magic Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Telvanni",
@@ -107854,7 +107853,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1912659507
+    "id": 1912659507,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -107893,8 +107893,7 @@ const ESO_SETS = [
           "Major Defile"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Martial melee damage, you apply <span class=\"buff\">Major Defile</span> to the enemy for 4 seconds, reducing their healing received and Health Recovery by 16%. This effect can occur once every 5 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": null,
@@ -108058,7 +108057,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2577188165
+    "id": 2577188165,
+    "bonusCount": 5
   },
   {
     "image": "gear_abahswatch_heavy_head_a.png",
@@ -108094,8 +108094,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage, your Weapon Damage is increased by 24 for 5 seconds, stacking up to 20 times. This effect can occur once every half second. Upon reaching 20 stacks, the duration is doubled but can no longer be refreshed."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Abah's Watch",
@@ -108304,7 +108303,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3937679341
+    "id": 3937679341,
+    "bonusCount": 5
   },
   {
     "image": "gear_redoran_heavy_head_a.png",
@@ -108343,8 +108343,7 @@ const ESO_SETS = [
           "Minor Toughness"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"health\">1600 Maximum Health</span>, Gain <span class=\"buff\">Minor Toughness</span> at all times, increasing your Max Health by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": "Morrowind",
     "style": "Redoran",
@@ -108553,7 +108552,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 947820776
+    "id": 947820776,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_medium_head_a.png",
@@ -108588,8 +108588,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"stamina\">129 Stamina Recovery</span>, When you use Roll Dodge, your Weapon and Spell Damage is increased by 391 for 6 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -108798,7 +108797,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 412381593
+    "id": 412381593,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_heavy_head_a.png",
@@ -108834,8 +108834,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal damage with a weapon, you deal an additional <span class=\"flame-damage\">600 Flame damage</span>. This effect can occur once every 2 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -109044,7 +109043,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2919270771
+    "id": 2919270771,
+    "bonusCount": 5
   },
   {
     "image": "gear_yokudan_light_head_a.png",
@@ -109077,8 +109077,7 @@ const ESO_SETS = [
       "5": {
         "description": "While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While your Stamina is below 50%, your Light Attacks cause the enemy to take 8% additional damage for 5 seconds. This effect can occur once every 8 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Yokudan",
@@ -109287,7 +109286,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1598267279
+    "id": 1598267279,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -109320,8 +109320,7 @@ const ESO_SETS = [
       "5": {
         "description": "Reduces the cost of Break Free by 40%.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Reduces the cost of Break Free by 40%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -109656,7 +109655,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2892958705
+    "id": 2892958705,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -109689,8 +109689,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you take damage while you are under 30% Health, you gain a damage shield that absorbs 13035 damage for 6 seconds. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you take damage while you are under 30% Health, you gain a damage shield that absorbs 13035 damage for 6 seconds. This effect can occur once every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -110033,7 +110032,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 955207659
+    "id": 955207659,
+    "bonusCount": 5
   },
   {
     "image": "gear_kothringi_medium_head_a.png",
@@ -110069,8 +110069,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When your alchemical poison fires, you drop a poisonous spore in front of you that bursts after 1 second, dealing <span class=\"poison-damage\">3000 Poison Damage</span> over 10 seconds to all enemies within 5 meters. This effect scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Shadows of the Hist",
     "style": "Silken Ring",
@@ -110279,7 +110278,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 457367915
+    "id": 457367915,
+    "bonusCount": 5
   },
   {
     "image": "gear_honorguard_staff_a.png",
@@ -110294,8 +110294,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Reduce the cost of Impulse by 10%. Impulse places lingering elemental damage on your targets, dealing 636 Flame, 636 Shock, and <span class=\"frost-damage\">636 Frost Damage</span> over 8 seconds. Each element ticks once over the duration. The damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Murkmire",
     "style": "Honor Guard",
@@ -110336,7 +110335,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3820775878
+    "id": 3820775878,
+    "bonusCount": 2
   },
   {
     "image": "gear_bosmer_medium_head_d.png",
@@ -110369,8 +110369,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your Bow attacks reduce the Movement Speed of any enemy they hit by 15% and increase your Movement Speed by 15% for 3 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Bow attacks reduce the Movement Speed of any enemy they hit by 15% and increase your Movement Speed by 15% for 3 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -110472,7 +110471,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3513215134
+    "id": 3513215134,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_heavy_head_d.png",
@@ -110508,8 +110508,7 @@ const ESO_SETS = [
           "staminaRecovery": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your Health, Magicka, and Stamina Recovery by 18%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Craftable",
@@ -110852,7 +110851,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 792454944
+    "id": 792454944,
+    "bonusCount": 5
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -110874,8 +110874,7 @@ const ESO_SETS = [
           "spellDamage": 206
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">206 Spell Damage</span>"
-      },
-      "count": 3
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -111021,7 +111020,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2000159246
+    "id": 2000159246,
+    "bonusCount": 3
   },
   {
     "image": "gear_blackreachexlgt_helmet.png",
@@ -111054,8 +111054,7 @@ const ESO_SETS = [
       "5": {
         "description": "Casting abilities that leave an effect on the ground will create a circle of healing frost for 10 seconds. You and your group members restore 1182 Health every 2 seconds while inside the circle. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Casting abilities that leave an effect on the ground will create a circle of healing frost for 10 seconds. You and your group members restore 1182 Health every 2 seconds while inside the circle. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": null,
@@ -111264,7 +111263,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2390046348
+    "id": 2390046348,
+    "bonusCount": 5
   },
   {
     "image": "gear_snowreach_light_head_a.png",
@@ -111300,8 +111300,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you deal Frost Damage, you summon an ice pillar that deals <span class=\"frost-damage\">1125 Frost damage</span> to all enemies in a 3 meter radius. The ice pillar persists for 2 seconds and reduces the Movement Speed of all enemies within the radius by 50%.  This effect can occur once every 6 seconds and the damage scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 5
+      }
     },
     "dlc": "Orsinium",
     "style": "Barbaric",
@@ -111510,7 +111509,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 4230402203
+    "id": 4230402203,
+    "bonusCount": 5
   },
   {
     "image": "gear_psijicorder_light_head_a.png",
@@ -111549,8 +111549,7 @@ const ESO_SETS = [
           "Major Mending"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">129 Spell Damage</span>, After completing a fully-charged Heavy Attack, you gain <span class=\"buff\">Major Mending</span> for 5 seconds, increasing your healing done by 16%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff."
-      },
-      "count": 5
+      }
     },
     "dlc": "Summerset",
     "style": "Psijic Order",
@@ -111759,7 +111758,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2824427142
+    "id": 2824427142,
+    "bonusCount": 5
   },
   {
     "image": "gear_craglorn_light_head_a.png",
@@ -111795,8 +111795,7 @@ const ESO_SETS = [
           "Minor Vulnerability"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Enemies you damage with fully-charged Heavy Attacks are afflicted with <span class=\"buff\">Minor Vulnerability</span> for 10 seconds, increasing their damage taken by 5%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Celestial",
@@ -112005,7 +112004,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2891108145
+    "id": 2891108145,
+    "bonusCount": 5
   },
   {
     "image": "gear_waywardguardianmed_head_a.png",
@@ -112041,8 +112041,7 @@ const ESO_SETS = [
           "weaponDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Increases your <span class=\"stamina\">Weapon Damage by 369</span> against enemies inflicted with a Poison Damage effect."
-      },
-      "count": 5
+      }
     },
     "dlc": "Markarth",
     "style": "Wayward Guardian",
@@ -112251,7 +112250,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2160300233
+    "id": 2160300233,
+    "bonusCount": 5
   },
   {
     "image": "gear_reach_medium_head_a.png",
@@ -112284,8 +112284,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you use an Ultimate ability, you heal for 51 Health and restore 51 Stamina and Magicka per point of the Ultimate's cost.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you use an Ultimate ability, you heal for 51 Health and restore 51 Stamina and Magicka per point of the Ultimate's cost."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Barbaric",
@@ -112494,7 +112493,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 359856811
+    "id": 359856811,
+    "bonusCount": 5
   },
   {
     "image": "gear_ordinator_light_head_a.png",
@@ -112533,8 +112533,7 @@ const ESO_SETS = [
           "Minor Enervation"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds 660 Critical Resistance, When you take direct Critical Damage, you apply <span class=\"buff\">Minor Enervation</span> to the enemy for 5 seconds, reducing their Critical Damage done by 10%."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Militant Ordinator",
@@ -112747,7 +112746,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 319047314
+    "id": 319047314,
+    "bonusCount": 5
   },
   {
     "image": "gear_reachv2_staff_a.png",
@@ -112762,8 +112762,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Casting Weakness to Elements on a target within 15 meters of you causes a surge of elemental energy to tether between you for 10 seconds.  While the tether persists, enemies touching the tether take <span class=\"flame-damage\">331 Flame Damage</span>, <span class=\"shock-damage\">331 Shock Damage</span>, or <span class=\"frost-damage\">331 Frost Damage</span> every 1 second, which increases by 1% each time it deals damage, up to 20%. This effect can occur once every 10 seconds, and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Markarth",
     "style": "Unique",
@@ -112804,7 +112803,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2143399565
+    "id": 2143399565,
+    "bonusCount": 2
   },
   {
     "image": "gear_breton_staff_d.png",
@@ -112826,8 +112826,7 @@ const ESO_SETS = [
           "spellCritical": 1652
         },
         "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">1652 Spell Critical</span> to your ranged direct damage abilities."
-      },
-      "count": 3
+      }
     },
     "dlc": null,
     "style": null,
@@ -112973,7 +112972,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 2278403947
+    "id": 2278403947,
+    "bonusCount": 3
   },
   {
     "image": "gear_breton_medium_head_d.png",
@@ -113014,8 +113014,7 @@ const ESO_SETS = [
           "Major Buff"
         ],
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> While in combat, applying a Major Buff or Debuff to a target grants you <span class=\"magicka\">260 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery for 15 seconds. \nWhile in combat, applying a Minor Buff or Debuff to a target grants you <span class=\"magicka\">130 Magicka</span> and <span class=\"stamina\">Stamina</span> Recovery for 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": "Deadlands",
     "style": "Craftable",
@@ -113350,7 +113349,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3824449527
+    "id": 3824449527,
+    "bonusCount": 5
   },
   {
     "image": "gear_bosmer_heavy_head_d.png",
@@ -113383,8 +113383,7 @@ const ESO_SETS = [
       "5": {
         "description": "When you cast a Magicka ability, you remove all negative effects from yourself. This effect can occur once every 15 seconds.",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> When you cast a Magicka ability, you remove all negative effects from yourself. This effect can occur once every 15 seconds."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Wood Elf",
@@ -113593,7 +113592,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1418130940
+    "id": 1418130940,
+    "bonusCount": 5
   },
   {
     "image": "gear_seagiantmed_head.png",
@@ -113629,8 +113629,7 @@ const ESO_SETS = [
           "weaponDamage": 41
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Dealing Critical Damage grants you a stack of Giant's Endurance for 5 seconds, up to one every half second. Each stack of Giant's Endurance adds <span class=\"stamina\">41 Weapon Damage</span>, and stacks up to 10 times.\n\nCompleting a fully-charged Heavy Attack removes Giant's Endurance and grants Giant's Might for 15 seconds, increasing your <span class=\"stamina\">Weapon Damage by 63</span> per stack removed.\n\nYou cannot have Giant's Endurance and Might active at the same time."
-      },
-      "count": 5
+      }
     },
     "dlc": "Greymoor",
     "style": "Sea Giant",
@@ -113839,7 +113838,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3820248071
+    "id": 3820248071,
+    "bonusCount": 5
   },
   {
     "image": "gear_nord_light_head_d.png",
@@ -113875,8 +113875,7 @@ const ESO_SETS = [
           "spellDamage": 400
         },
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Adds <span class=\"magicka\">400 Spell Damage</span> to your Frost Damage abilities."
-      },
-      "count": 5
+      }
     },
     "dlc": null,
     "style": "Nord",
@@ -114085,7 +114084,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 1249077574
+    "id": 1249077574,
+    "bonusCount": 5
   },
   {
     "image": "gear_stagzenlgt_helmet_a.png",
@@ -114118,8 +114118,7 @@ const ESO_SETS = [
       "5": {
         "description": "Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy",
         "htmlDescription": "<span class=\"set-bonus\">(5 items)</span> Your Light Attacks apply the Touch of Z'en on enemies for 20 seconds. Enemies with the Touch of Z'en take an additional 1% more damage for each damage over time effect you've placed on them, up to 5%. You can only receive the benefit from one Touch of Z'en per enemy"
-      },
-      "count": 5
+      }
     },
     "dlc": "Scalebreaker",
     "style": "Stags of Z'en",
@@ -114328,7 +114327,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 17172763
+    "id": 17172763,
+    "bonusCount": 5
   },
   {
     "image": "gear_undaunted_dragonpriest_head_a.png",
@@ -114350,8 +114350,7 @@ const ESO_SETS = [
           "spellDamage": null
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you damage a nearby enemy with a Light or Heavy Attack, you have a 33% chance to create a beam of fire that will connect you to your enemy as long as you remain within 8 meters of them. The beam deals <span class=\"flame-damage\">305 Flame damage</span> every 1 second to your enemy for 6 seconds. Every second, this damage increases by 100%. This effect can occur every 18 seconds and scales off the higher of your Weapon or Spell Damage."
-      },
-      "count": 2
+      }
     },
     "dlc": "Dragon Bones",
     "style": "Undaunted",
@@ -114419,7 +114418,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3237660035
+    "id": 3237660035,
+    "bonusCount": 2
   },
   {
     "image": "gear_undwatcher_head_a.png",
@@ -114442,8 +114442,7 @@ const ESO_SETS = [
           "weaponDamage": 34
         },
         "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you Break Free, you release a wave of Watcher energy, causing enemies within 8 meters of you to become Feared for 3 seconds. You also gain <span class=\"stamina\">34 Weapon</span> and <span class=\"magicka\">Spell Damage</span> for each enemy hit, up to 6 enemies, for 7 seconds."
-      },
-      "count": 2
+      }
     },
     "dlc": "Imperial City",
     "style": null,
@@ -114511,7 +114510,8 @@ const ESO_SETS = [
         }
       ]
     },
-    "id": 3200928850
+    "id": 3200928850,
+    "bonusCount": 2
   }
 ];
 export default ESO_SETS;
