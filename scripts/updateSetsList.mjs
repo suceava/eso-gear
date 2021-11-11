@@ -18,9 +18,9 @@ const fixImagePaths = () => {
 const fixHtmlDescription = () => {
   setsList.forEach(s => {
     // change <strong> tag to <span>
-    s.htmlDescription = s.htmlDescription.replace('<strong', '<span').replace('strong>', 'span>');
+    s.htmlDescription = s.htmlDescription.replaceAll('<strong', '<span').replaceAll('strong>', 'span>');
     // remove <a> tags
-    s.htmlDescription = s.htmlDescription.replace('</a>', '').replace(/<a[^>]*>/g, '');
+    s.htmlDescription = s.htmlDescription.replaceAll('</a>', '').replace(/<a[^>]*>/g, '');
   });
 }
 
@@ -356,7 +356,7 @@ const updateData = async () => {
   // updateItemNames("Kagrenac's Hope", "", "of Kagrenac's Hope");  // ALL DONE
   // addIDs(); // DONE
   // addWeaponType(); // DONE
-  addSetBonusCount();
+  // addSetBonusCount(); // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +
