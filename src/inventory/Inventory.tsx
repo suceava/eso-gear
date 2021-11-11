@@ -7,9 +7,9 @@ import {
 } from './InventorySettings';
 import { InventoryTable } from './InventoryTable';
 import { useStickyState } from '../stickyState';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 
 import './Inventory.css';
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 
 export interface InventoryProps {
   build: EquipmentBuild;

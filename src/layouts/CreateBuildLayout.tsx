@@ -2,11 +2,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 
+import { useStickyState } from '../stickyState';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import { Equipment } from '../equipment/Equipment';
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { Inventory } from '../inventory/Inventory';
 import { Summary } from '../summary/Summary';
-import { useStickyState } from '../stickyState';
 
 import './Layout.css';
 

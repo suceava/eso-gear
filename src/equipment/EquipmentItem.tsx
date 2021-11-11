@@ -1,6 +1,6 @@
 import { useDrop } from 'react-dnd'
 
-import { EquipmentBuild, EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
+import { EquipmentBuild, EquipmentSlot, equipmentSlotToEsoSlot } from '../character/EquipmentBuild';
 import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';

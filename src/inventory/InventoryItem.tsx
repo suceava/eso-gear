@@ -1,9 +1,9 @@
 import { useRef, useState } from 'react';
 import { DragPreviewImage, useDrag } from 'react-dnd';
 
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import { EsoItem, EsoSetType } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
@@ -56,7 +56,7 @@ export function InventoryItem({ build, item }: InventoryItemProps) {
           <span className={itemClass}>{item.name}</span>
         </div>
       </div>
-      <ItemTooltip item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
+      <ItemTooltip build={build} item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }

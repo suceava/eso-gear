@@ -2,6 +2,7 @@ import Overlay from 'react-bootstrap/Overlay';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import {
   EsoItem,
   EsoItemType,
@@ -12,7 +13,6 @@ import {
   Strings_EsoSlot,
   Strings_EsoWeaponType
 } from '../data/eso-sets';
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 
 import './Tooltips.css';
 

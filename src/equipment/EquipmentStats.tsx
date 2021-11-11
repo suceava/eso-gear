@@ -1,4 +1,4 @@
-import { EquipmentBuild } from './EquipmentBuild';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import { EsoStat, Strings_EsoStat } from '../data/eso-sets';
 
 export interface EquipmentProps {

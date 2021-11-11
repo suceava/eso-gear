@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
-import { EquipmentBuild, EquipmentSlot } from './EquipmentBuild';
 import { EquipmentItem } from './EquipmentItem';
+import { EquipmentBuild, EquipmentSlot } from '../character/EquipmentBuild';
 import { EsoItem } from '../data/eso-sets';
 
 export interface EquipmentProps {

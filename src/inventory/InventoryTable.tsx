@@ -11,6 +11,7 @@ import {
 
 import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType, InventorySubFilterType } from './InventorySettings';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import {
   EsoSet,
   EsoItem,
@@ -20,7 +21,6 @@ import {
   EsoWeaponType
 } from '../data/eso-sets';
 import { loadEsoSetData } from '../data/esoSetDataLoader';
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { ItemSetTooltip } from '../tooltips/Tooltips';
 
 import './Inventory.css';
@@ -97,7 +97,7 @@ export function InventoryTable({ build, filter, subFilter, search }: InventoryTa
         );
       }
     } as Column<InventoryTableData>
-  ], []);
+  ], [build]);
 
   const getSubRows = (originalRow: InventoryTableData, index: number) => {
     return originalRow?.items?.list || [];
