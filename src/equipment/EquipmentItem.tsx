@@ -9,13 +9,14 @@ export interface EquipmentSlotProps {
   build: EquipmentBuild;
   slot: EquipmentSlot;
   item: EsoItem | undefined;
-  onItemDrop: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
+  onEquip: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
+  onUnequip: (slot: EquipmentSlot) => void;
 }
 
-export function EquipmentItem({ build, slot, item, onItemDrop }: EquipmentSlotProps) {
+export function EquipmentItem({ build, slot, item, onEquip, onUnequip }: EquipmentSlotProps) {
   const [{ canDrop }, drop] = useDrop({
     accept: equipmentSlotToEsoSlot(slot),
-    drop: (droppedItem: EsoItem) => onItemDrop(droppedItem, slot),
+    drop: (droppedItem: EsoItem) => onEquip(droppedItem, slot),
     collect: (monitor) => ({
       isOver: monitor.isOver(),
       canDrop: monitor.canDrop(),
@@ -32,7 +33,7 @@ export function EquipmentItem({ build, slot, item, onItemDrop }: EquipmentSlotPr
   }
 
   return (
-    <div ref={drop} className={className}>
+    <div ref={drop} className={className} onDoubleClick={() => onUnequip(slot)}>
       {item && 
         <SimpleItemTooltip build={build} item={item} set={set}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />

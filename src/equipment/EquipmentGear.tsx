@@ -12,8 +12,14 @@ export interface EquipmentProps {
 export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
   const onEquip = useCallback(
     (droppedItem: EsoItem, slot: EquipmentSlot) => {
-      console.log('equipped', droppedItem, slot);
       build.equip(droppedItem, slot);
+      buildOnChange(build);
+    },
+    [build, buildOnChange]
+  );
+  const onUnequip = useCallback(
+    (slot: EquipmentSlot) => {
+      build.unequip(slot);
       buildOnChange(build);
     },
     [build, buildOnChange]
@@ -28,18 +34,42 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <div className='gear-slot-empty'></div>
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.shoulders} item={build.items[EquipmentSlot.shoulders]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.shoulders}
+              item={build.items[EquipmentSlot.shoulders]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.hands} item={build.items[EquipmentSlot.hands]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.hands}
+              item={build.items[EquipmentSlot.hands]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.legs} item={build.items[EquipmentSlot.legs]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.legs}
+              item={build.items[EquipmentSlot.legs]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.head} item={build.items[EquipmentSlot.head]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.head}
+              item={build.items[EquipmentSlot.head]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-3 gear-slot-dummy'></div>
         </div>
@@ -48,13 +78,31 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <div className='gear-slot-empty'></div>
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.chest} item={build.items[EquipmentSlot.chest]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.chest}
+              item={build.items[EquipmentSlot.chest]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.waist} item={build.items[EquipmentSlot.waist]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.waist}
+              item={build.items[EquipmentSlot.waist]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.feet} item={build.items[EquipmentSlot.feet]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.feet}
+              item={build.items[EquipmentSlot.feet]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
       </div>
@@ -63,17 +111,35 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.neck} item={build.items[EquipmentSlot.neck]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.neck}
+              item={build.items[EquipmentSlot.neck]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.ring1} item={build.items[EquipmentSlot.ring1]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.ring1}
+              item={build.items[EquipmentSlot.ring1]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.ring2} item={build.items[EquipmentSlot.ring2]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.ring2}
+              item={build.items[EquipmentSlot.ring2]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
       </div>
@@ -82,18 +148,42 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
       <div className='gear-slots-grid'>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.mainHand1} item={build.items[EquipmentSlot.mainHand1]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.mainHand1}
+              item={build.items[EquipmentSlot.mainHand1]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.mainHand2} item={build.items[EquipmentSlot.mainHand2]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.mainHand2}
+              item={build.items[EquipmentSlot.mainHand2]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
         <div className='gear-slots-col'>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.offHand1} item={build.items[EquipmentSlot.offHand1]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.offHand1}
+              item={build.items[EquipmentSlot.offHand1]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
           <div className='gear-slots-row-1'>
-            <EquipmentItem build={build} slot={EquipmentSlot.offHand2} item={build.items[EquipmentSlot.offHand2]} onItemDrop={onEquip} />
+            <EquipmentItem
+              build={build}
+              slot={EquipmentSlot.offHand2}
+              item={build.items[EquipmentSlot.offHand2]}
+              onEquip={onEquip}
+              onUnequip={onUnequip}
+            />
           </div>
         </div>
         <div className='gear-slots-col'>

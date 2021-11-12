@@ -64,6 +64,35 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
       return [EsoSlot.oneHand, EsoSlot.offHand];
   }
 };
+// convert EsoSlot to EquipmentSlot
+export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot): EquipmentSlot => {
+  switch (esoSlot) {
+    case EsoSlot.head:
+      return EquipmentSlot.head;
+    case EsoSlot.shoulders:
+      return EquipmentSlot.shoulders;
+    case EsoSlot.hands:
+      return EquipmentSlot.hands;
+    case EsoSlot.legs:
+      return EquipmentSlot.legs;
+    case EsoSlot.chest:
+      return EquipmentSlot.chest;
+    case EsoSlot.waist:
+      return EquipmentSlot.waist;
+    case EsoSlot.feet:
+      return EquipmentSlot.feet;
+    case EsoSlot.neck:
+      return EquipmentSlot.neck;
+    case EsoSlot.ring:
+      return EquipmentSlot.ring1;
+    case EsoSlot.oneHand:
+      return EquipmentSlot.mainHand1;
+    case EsoSlot.twoHands:
+      return EquipmentSlot.mainHand1;
+    case EsoSlot.offHand:
+      return EquipmentSlot.offHand1;
+  }
+};
 
 type EquipmentBuildSlot = {
   [key in EquipmentSlot]: EsoItem | undefined;
