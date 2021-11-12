@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from 'react';
+import { useMemo } from 'react';
 import {
   useExpanded,
   useGlobalFilter,
@@ -61,8 +61,9 @@ export function InventoryTable({ build, buildOnChange, filter, subFilter, search
     if (!e.target.id) {
       return;
     }
-    // id of the item
+
     try {
+      // id of the item
       const id = parseInt(e.target.id, 10);
       const item = getEsoItemById(id);
       if (item) {
@@ -73,12 +74,6 @@ export function InventoryTable({ build, buildOnChange, filter, subFilter, search
       console.error(e);
     }
   };
-  // const onDoubleClickRow = useCallback((item: EsoItem) => {
-  //   build.equip(item, esoSlotToEquipmentSlot(item.slot));
-  //   buildOnChange(build);
-  //   },
-  //   [build, buildOnChange]
-  // );
 
   const columns = useMemo(() => [
     {
@@ -106,7 +101,7 @@ export function InventoryTable({ build, buildOnChange, filter, subFilter, search
       Cell: ({ row }: { row: Row<InventoryTableData> }) => {
         if (row.depth === 1) {
           // bottom level => an item of a set
-          return ( <InventoryItem item={row.original as EsoItem} /> );
+          return ( <InventoryItem item={row.original as EsoItem} build={build} /> );
         }
 
         // top level => item set
@@ -122,7 +117,7 @@ export function InventoryTable({ build, buildOnChange, filter, subFilter, search
         );
       }
     } as Column<InventoryTableData>
-  ], []);
+  ], [build]);
 
   const getSubRows = (originalRow: InventoryTableData, index: number) => {
     return originalRow?.items?.list || [];

@@ -8,11 +8,10 @@ import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
   build?: EquipmentBuild;
-  // onDoubleClickRow: (item: EsoItem) => void;
   item: EsoItem;
 }
 
-export function InventoryItem({ build, onDoubleClickRow, item }: InventoryItemProps) {
+export function InventoryItem({ build, item }: InventoryItemProps) {
   const [showTip, setShowTip] = useState(false);
 
   const [{ isDragging }, drag, preview] = useDrag(
