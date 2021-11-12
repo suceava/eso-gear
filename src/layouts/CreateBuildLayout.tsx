@@ -29,7 +29,7 @@ export function CreateBuildLayout() {
               <Equipment build={build} buildOnChange={buildOnChange}></Equipment>
             </Col>
             <Col lg={5}>
-              <Inventory build={build}></Inventory>
+              <Inventory build={build} buildOnChange={buildOnChange}></Inventory>
             </Col>
             <Col lg={10}>
               <Summary build={build} layout='create'></Summary>

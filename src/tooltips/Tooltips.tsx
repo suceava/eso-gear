@@ -104,7 +104,7 @@ function getItemStatValue(item: EsoItem) {
   return '';
 }
 
-function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
+function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
   const { build, item, set } = props;
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
   const itemsInSet = build ? build.countBySet(item.setName) : 0;
@@ -148,7 +148,7 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: Eso
 };
 
 export interface ItemTooltipProps {
-  build: EquipmentBuild;
+  build?: EquipmentBuild;
   item: EsoItem;
   set?: EsoSet;
   show: boolean;

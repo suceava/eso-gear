@@ -7,11 +7,12 @@ import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
-  build: EquipmentBuild;
+  build?: EquipmentBuild;
+  // onDoubleClickRow: (item: EsoItem) => void;
   item: EsoItem;
 }
 
-export function InventoryItem({ build, item }: InventoryItemProps) {
+export function InventoryItem({ build, onDoubleClickRow, item }: InventoryItemProps) {
   const [showTip, setShowTip] = useState(false);
 
   const [{ isDragging }, drag, preview] = useDrag(
@@ -52,11 +53,11 @@ export function InventoryItem({ build, item }: InventoryItemProps) {
         onMouseLeave={() => setShowTip(false)}
       >
         <div ref={drag}>
-          <img src={imgPath} alt={item.name}></img>
-          <span className={itemClass}>{item.name}</span>
+          <img id={item.id.toString()} src={imgPath} alt={item.name}></img>
+          <span id={item.id.toString()} className={itemClass}>{item.name}</span>
         </div>
       </div>
-      <ItemTooltip build={build} item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
+      <ItemTooltip item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }
