@@ -39,6 +39,9 @@
 .tooltip-item hr {
   margin: 0px
 }
+.tooltip-item h3 {
+  margin-bottom: 4px
+}
 
 .tooltip-item-type {
   float: left;
@@ -58,4 +61,20 @@
   align-content: center;
   color: white;
   font-size: 22px;
+}
+
+.tooltip-item-set-bonus-disabled {
+  color: #454545 !important;
+}
+.tooltip-item-set-bonus-disabled .health {
+  color: #730000;
+}
+.tooltip-item-set-bonus-disabled .stamina {
+  color: #004018;
+}
+.tooltip-item-set-bonus-disabled .magicka {
+  color: #000c3c;
+}
+.tooltip-item-set-bonus-disabled .buff {
+  color: #764500;
 }

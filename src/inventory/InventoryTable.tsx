@@ -11,6 +11,7 @@ import {
 
 import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType, InventorySubFilterType } from './InventorySettings';
+import { EquipmentBuild, esoSlotToEquipmentSlot } from '../character/EquipmentBuild';
 import {
   EsoSet,
   EsoItem,
@@ -19,8 +20,8 @@ import {
   EsoSlot,
   EsoWeaponType
 } from '../data/eso-sets';
+import { loadEsoSetData, getEsoItemById } from '../data/esoSetDataLoader';
 import { ItemSetTooltip } from '../tooltips/Tooltips';
-import { loadEsoSetData } from '../data/esoSetDataLoader';
 
 import './Inventory.css';
 import treeOpenImage from '../images/tree_open_up.png';
@@ -29,6 +30,7 @@ import treeClosedImage from '../images/tree_closed_up.png';
 const ESO_SETS: EsoSet[] = loadEsoSetData();
 
 interface InventoryTableData {
+  id: number;
   image: string;
   name: string;
   items?: {
@@ -37,6 +39,8 @@ interface InventoryTableData {
 }
 
 export interface InventoryTableProps {
+  build: EquipmentBuild;
+  buildOnChange: (newBuild: EquipmentBuild) => void;
   filter: InventoryFilterType;
   subFilter: InventorySubFilterType;
   search: string;
@@ -50,8 +54,26 @@ function rowExpandOnClick(originalOnClick: any) {
   };
 }
 
-export function InventoryTable({ filter, subFilter, search }: InventoryTableProps) {
+export function InventoryTable({ build, buildOnChange, filter, subFilter, search }: InventoryTableProps) {
   const data: InventoryTableData[] = useMemo(() => ESO_SETS, []);
+
+  const onDoubleClickRow = (e: any) => {
+    if (!e.target.id) {
+      return;
+    }
+
+    try {
+      // id of the item
+      const id = parseInt(e.target.id, 10);
+      const item = getEsoItemById(id);
+      if (item) {
+        build.equip(item, esoSlotToEquipmentSlot(item.slot));
+        buildOnChange(build);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   const columns = useMemo(() => [
     {
@@ -79,7 +101,7 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
       Cell: ({ row }: { row: Row<InventoryTableData> }) => {
         if (row.depth === 1) {
           // bottom level => an item of a set
-          return ( <InventoryItem item={row.original as EsoItem}></InventoryItem> );
+          return ( <InventoryItem item={row.original as EsoItem} build={build} /> );
         }
 
         // top level => item set
@@ -95,7 +117,7 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
         );
       }
     } as Column<InventoryTableData>
-  ], []);
+  ], [build]);
 
   const getSubRows = (originalRow: InventoryTableData, index: number) => {
     return originalRow?.items?.list || [];
@@ -245,7 +267,7 @@ export function InventoryTable({ filter, subFilter, search }: InventoryTableProp
                   {
                     row.cells.map((cell: Cell<InventoryTableData>) => {
                       return (
-                        <td {...cell.getCellProps()}>
+                        <td {...cell.getCellProps()} onDoubleClick={cell.value && cell.row.depth === 1 ? onDoubleClickRow : undefined}>
                           {cell.render('Cell')}
                         </td>
                       );

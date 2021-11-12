@@ -1,6 +1,6 @@
-import { EquipmentBuild } from './EquipmentBuild';
 import { EquipmentGear } from './EquipmentGear';
 import { EquipmentStats } from './EquipmentStats';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 
 import './Equipment.css';
 

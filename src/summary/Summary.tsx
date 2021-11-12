@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
 import { GearSummary } from './GearSummary';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 
 import './Summary.css';
 

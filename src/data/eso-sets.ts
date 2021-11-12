@@ -145,6 +145,7 @@ export type EsoBonusStats = {
 
 export type EsoSetBonus = {
   description: string;
+  htmlDescription: string;
   stats?: EsoBonusStats | undefined;
   buffs?: string[] | undefined;
 };
@@ -176,6 +177,7 @@ export type EsoSet = {
   type: EsoSetType;
   link: string;
   htmlDescription: string;
+  bonusCount: number;
   bonuses: {
     '1'?: EsoSetBonus | undefined;
     '2'?: EsoSetBonus | undefined;
@@ -183,8 +185,8 @@ export type EsoSet = {
     '4'?: EsoSetBonus | undefined;
     '5'?: EsoSetBonus | undefined;
   }
-  dlc: string | null;
-  style: string | null;
+  dlc?: string | undefined;
+  style?: string | undefined;
   location: EsoLocation[];
   items: {
     list: EsoItem[];

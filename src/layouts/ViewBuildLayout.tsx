@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 
-import { EquipmentBuild } from '../equipment/EquipmentBuild';
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import { Summary } from '../summary/Summary';
 
 import './Layout.css';

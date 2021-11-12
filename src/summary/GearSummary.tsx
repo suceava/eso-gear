@@ -2,6 +2,11 @@ import { Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
 import { 
+  EquipmentBuild,
+  EquipmentSlot,
+  Strings_EquipmentSlot
+} from "../character/EquipmentBuild";
+import { 
   EsoItemType,
   EsoItem,
   EsoSlot,
@@ -9,11 +14,6 @@ import {
   Strings_EsoWeaponType
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
-import { 
-  EquipmentBuild,
-  EquipmentSlot,
-  Strings_EquipmentSlot
-} from "../equipment/EquipmentBuild";
 import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
 
 export interface GearSummaryProps {
@@ -68,7 +68,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
               { showItem &&
                 <Col>
                   { item &&
-                    <SimpleItemTooltip item={item}>
+                    <SimpleItemTooltip build={build} item={item}>
                       <img src={`../images/gear/${item.image}`} alt={item.name} />
                     </SimpleItemTooltip>
                   }

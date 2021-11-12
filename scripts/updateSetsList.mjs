@@ -18,9 +18,9 @@ const fixImagePaths = () => {
 const fixHtmlDescription = () => {
   setsList.forEach(s => {
     // change <strong> tag to <span>
-    s.htmlDescription = s.htmlDescription.replace('<strong', '<span').replace('strong>', 'span>');
+    s.htmlDescription = s.htmlDescription.replaceAll('<strong', '<span').replaceAll('strong>', 'span>');
     // remove <a> tags
-    s.htmlDescription = s.htmlDescription.replace('</a>', '').replace(/<a[^>]*>/g, '');
+    s.htmlDescription = s.htmlDescription.replaceAll('</a>', '').replace(/<a[^>]*>/g, '');
   });
 }
 
@@ -330,6 +330,37 @@ const addWeaponType = () => {
   });
 }
 
+const addSetBonusCount = () => {
+  setsList.forEach(s => {
+    if (s.bonuses['5']) {
+      s.bonusCount = 5;
+    } else if (s.bonuses['4']) {
+      s.bonusCount = 4;
+    } else if (s.bonuses['3']) {
+      s.bonusCount = 3;
+    } else if (s.bonuses['2']) {
+      s.bonusCount = 2;
+    } else if (s.bonuses['1']) {
+      s.bonusCount = 1;
+    }
+    delete s.bonuses.count;
+  });
+}
+
+const splitHtmlDescription = () => {
+  const rgx = /\((\d) item[s]?\)/g;
+  setsList.forEach(s => {
+    const bonuses = s.htmlDescription.split('<br>');
+    bonuses.forEach(b => {
+      if (b === '') {
+        return;
+      }
+      const match = rgx.exec(b);
+      s.bonuses[match[1]].htmlDescription = b;
+      rgx.lastIndex = 0;
+    });
+  });
+}
 
 const updateData = async () => {
   // fixImagePaths();  // DONE
@@ -341,6 +372,8 @@ const updateData = async () => {
   // updateItemNames("Kagrenac's Hope", "", "of Kagrenac's Hope");  // ALL DONE
   // addIDs(); // DONE
   // addWeaponType(); // DONE
+  addSetBonusCount(); // DONE
+  // splitHtmlDescription(); // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +

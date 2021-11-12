@@ -1,20 +1,22 @@
 import { useDrop } from 'react-dnd'
 
-import { EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuild';
+import { EquipmentBuild, EquipmentSlot, equipmentSlotToEsoSlot } from '../character/EquipmentBuild';
 import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 export interface EquipmentSlotProps {
+  build: EquipmentBuild;
   slot: EquipmentSlot;
   item: EsoItem | undefined;
-  onItemDrop: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
+  onEquip: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
+  onUnequip: (slot: EquipmentSlot) => void;
 }
 
-export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
+export function EquipmentItem({ build, slot, item, onEquip, onUnequip }: EquipmentSlotProps) {
   const [{ canDrop }, drop] = useDrop({
     accept: equipmentSlotToEsoSlot(slot),
-    drop: (droppedItem: EsoItem) => onItemDrop(droppedItem, slot),
+    drop: (droppedItem: EsoItem) => onEquip(droppedItem, slot),
     collect: (monitor) => ({
       isOver: monitor.isOver(),
       canDrop: monitor.canDrop(),
@@ -31,9 +33,9 @@ export function EquipmentItem({ slot, item, onItemDrop }: EquipmentSlotProps) {
   }
 
   return (
-    <div ref={drop} className={className}>
+    <div ref={drop} className={className} onDoubleClick={() => onUnequip(slot)}>
       {item && 
-        <SimpleItemTooltip item={item} set={set}>
+        <SimpleItemTooltip build={build} item={item} set={set}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
         </SimpleItemTooltip>
     }

@@ -1,15 +1,17 @@
 import { useRef, useState } from 'react';
 import { DragPreviewImage, useDrag } from 'react-dnd';
 
+import { EquipmentBuild } from '../character/EquipmentBuild';
 import { EsoItem, EsoSetType } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
+  build?: EquipmentBuild;
   item: EsoItem;
 }
 
-export function InventoryItem({ item }: InventoryItemProps) {
+export function InventoryItem({ build, item }: InventoryItemProps) {
   const [showTip, setShowTip] = useState(false);
 
   const [{ isDragging }, drag, preview] = useDrag(
@@ -50,8 +52,8 @@ export function InventoryItem({ item }: InventoryItemProps) {
         onMouseLeave={() => setShowTip(false)}
       >
         <div ref={drag}>
-          <img src={imgPath} alt={item.name}></img>
-          <span className={itemClass}>{item.name}</span>
+          <img id={item.id.toString()} src={imgPath} alt={item.name}></img>
+          <span id={item.id.toString()} className={itemClass}>{item.name}</span>
         </div>
       </div>
       <ItemTooltip item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
