@@ -7,38 +7,36 @@
   background-size: 390px 4px;
 }
 
-.inventory-container table {
-  border-collapse: collapse;
-  width: 370px;
-}
-.inventory-container table {
+.inventory-container {
   color: #c5c29e;
 }
-.inventory-container tbody {
-  display: block;
-  height: 510px;
-  overflow-y: auto;
-  width: 100%;
-}
-.inventory-container thead tr {
-  display: table;
-}
-.inventory-container td:first-child,
-.inventory-container th:first-child {
-  width: 32px;
-}
-.inventory-container th:nth-child(2) {
-  width: 90%;
-}
 
-.inventory-container td img {
+.inventory-container img {
   vertical-align: middle;
   margin-right: 5px;
 }
 
+.inventory-item-row {
+  display: table-row;
+}
+.inventory-item-cell,
+.inventory-expander-cell {
+  display: table-cell;
+}
+.inventory-item-cell {
+  width: 330px
+}
 .inventory-item-cell:hover {
   background-color: rgba(31, 72, 72, 0.8);
 }
+.inventory-expander-cell:hover {
+  cursor: pointer;
+}
+
+.inventory-expander-cell {
+  width: 40px;
+}
+
 .inventory-item {
   padding-left: 25px;
 }
