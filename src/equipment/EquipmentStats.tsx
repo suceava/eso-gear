@@ -6,6 +6,7 @@ export interface EquipmentProps {
 }
 
 export function EquipmentStats({ build }: EquipmentProps) {
+  const statBonuses = build.getTotalBonusStats()
   const statsArray = Object.keys(EsoStat);
   // insert blank stats to make some grouping space
   statsArray.splice(16, 0, '');
@@ -27,7 +28,7 @@ export function EquipmentStats({ build }: EquipmentProps) {
             return (
               <tr key={index}>
                 <td>{Strings_EsoStat[esoStat]}</td>
-                <td>{0}</td>
+                <td>{statBonuses[esoStat] || 0}</td>
               </tr>
             );
           })

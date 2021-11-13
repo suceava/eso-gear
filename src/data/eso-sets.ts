@@ -150,6 +150,8 @@ export type EsoSetBonus = {
   buffs?: string[] | undefined;
 };
 
+export type EsoSetBonusKey = '1' | '2' | '3' | '4' | '5';
+
 export type EsoItem = {
   id: number;
   image: string;
@@ -179,11 +181,7 @@ export type EsoSet = {
   htmlDescription: string;
   bonusCount: number;
   bonuses: {
-    '1'?: EsoSetBonus | undefined;
-    '2'?: EsoSetBonus | undefined;
-    '3'?: EsoSetBonus | undefined;
-    '4'?: EsoSetBonus | undefined;
-    '5'?: EsoSetBonus | undefined;
+    [key in EsoSetBonusKey]: EsoSetBonus | undefined;
   }
   dlc?: string | undefined;
   style?: string | undefined;

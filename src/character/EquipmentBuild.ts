@@ -1,5 +1,5 @@
-import { EsoItem, EsoSlot } from '../data/eso-sets';
-import { getEsoItemById } from '../data/esoSetDataLoader';
+import { EsoItem, EsoSlot, EsoBonusStats, EsoSet, EsoSetBonus, EsoSetBonusKey, EsoStat } from '../data/eso-sets';
+import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
 
 export enum EquipmentSlot {
   head = 'head',
@@ -95,7 +95,12 @@ export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot): EquipmentSlot => {
 };
 
 type EquipmentBuildSlot = {
-  [key in EquipmentSlot]: EsoItem | undefined;
+  [key in EquipmentSlot]?: EsoItem;
+}
+
+export interface EquipmentSet {
+  set: EsoSet;
+  bonusCount: number;
 }
 
 export class EquipmentBuild {
@@ -118,7 +123,10 @@ export class EquipmentBuild {
         return;
       }
       const slot = Object.keys(EquipmentSlot)[index] as EquipmentSlot;
-      buildItems[slot] = getEsoItemById(parseInt(itemId));
+      const item = getEsoItemById(parseInt(itemId));
+      if (item) {
+        buildItems[slot] = item;
+      }
     });
     return new EquipmentBuild('New Build', buildItems);
   }
@@ -177,5 +185,46 @@ export class EquipmentBuild {
   public countBySet(setName: string): number {
     const setItems = Object.values(this.items).filter(item => item?.setName === setName);
     return setItems.length;
+  }
+
+  // return the list of sets that this build has
+  public getSets(): Map<EsoSet, number> {
+    const sets = new Map<EsoSet, number>();
+    Object.values(this.items).filter(item => !!item).forEach(item => {
+      const set = getEsoSetByName(item.setName);
+      if (!set) {
+        return;
+      }
+      if (!sets.has(set)) {
+        sets.set(set, 1);
+      } else {
+        sets.set(set, (sets.get(set) || 0) + 1);
+      }
+    });
+    return sets;
+  }
+
+  // return total bonus stats for the build
+  public getTotalBonusStats(): EsoBonusStats {
+    const bonusStats = {} as EsoBonusStats;
+    const sets = this.getSets();
+    sets.forEach((count, set) => {
+      for (let i = 1; i <= count; i++) {
+        const bonusKey = i.toString() as EsoSetBonusKey;
+        const bonus: EsoSetBonus | undefined = set.bonuses[bonusKey];
+        if (!bonus || !bonus.stats) {
+          continue;
+        }
+
+        for (const stat in bonus.stats) {
+          const esoStat = stat as EsoStat;
+          if (!bonusStats[esoStat]) {
+            bonusStats[esoStat] = 0;
+          }
+          bonusStats[esoStat] = (bonusStats[esoStat] as number) + (bonus.stats[esoStat] as number);
+        }
+      }
+    });
+    return bonusStats;
   }
 }
