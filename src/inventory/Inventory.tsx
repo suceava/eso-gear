@@ -1,11 +1,11 @@
 
 import { InventoryFilter } from './InventoryFilter';
+import { InventoryList } from './InventoryList';
 import {
   InventorySettings,
   InventoryFilterType,
   InventorySubFilterType
 } from './InventorySettings';
-import { InventoryTable } from './InventoryTable';
 import { useStickyState } from '../stickyState';
 import { EquipmentBuild } from '../character/EquipmentBuild';
 
@@ -44,14 +44,16 @@ export function Inventory({ build, buildOnChange }: InventoryProps) {
       <InventoryFilter
         filter={settings.inventoryFilter} filterOnChange={filterOnChange}
         subFilter={settings.inventorySubFilter} subFilterOnChange={subFilterOnChange}
-        search={settings.inventorySearch} searchOnChange={searchOnChange} />
+        search={settings.inventorySearch} searchOnChange={searchOnChange}
+      />
       <hr />
-      <InventoryTable
+      <InventoryList
         build={build}
         buildOnChange={buildOnChange}
         filter={settings.inventoryFilter}
         subFilter={settings.inventorySubFilter}
-        search={settings.inventorySearch} />
+        search={settings.inventorySearch}
+      />
     </div>
   );
 }

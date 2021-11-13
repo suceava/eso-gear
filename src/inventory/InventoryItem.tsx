@@ -9,9 +9,10 @@ import { ItemTooltip } from '../tooltips/Tooltips';
 export interface InventoryItemProps {
   build?: EquipmentBuild;
   item: EsoItem;
+  onEquip: (item: EsoItem) => void;
 }
 
-export function InventoryItem({ build, item }: InventoryItemProps) {
+export function InventoryItem({ build, item, onEquip }: InventoryItemProps) {
   const [showTip, setShowTip] = useState(false);
 
   const [{ isDragging }, drag, preview] = useDrag(
@@ -50,13 +51,14 @@ export function InventoryItem({ build, item }: InventoryItemProps) {
         className='inventory-item-cell inventory-item'
         onMouseEnter={onMouseEnterRow}
         onMouseLeave={() => setShowTip(false)}
+        onDoubleClick={() => onEquip(item)}
       >
         <div ref={drag}>
           <img id={item.id.toString()} src={imgPath} alt={item.name}></img>
           <span id={item.id.toString()} className={itemClass}>{item.name}</span>
         </div>
       </div>
-      <ItemTooltip item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
+      <ItemTooltip build={build} item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }
