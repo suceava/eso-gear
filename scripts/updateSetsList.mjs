@@ -362,6 +362,56 @@ const splitHtmlDescription = () => {
   });
 }
 
+const getSortOrderMap = () => {
+  const sortOrderMap = new Map();
+  sortOrderMap.set('head', 1);
+  sortOrderMap.set('shoulders', 2);
+  sortOrderMap.set('chest', 3);
+  sortOrderMap.set('hands', 4);
+  sortOrderMap.set('waist', 5);
+  sortOrderMap.set('legs', 6);
+  sortOrderMap.set('feet', 7);
+  sortOrderMap.set('neck', 8);
+  sortOrderMap.set('ring', 9);
+  sortOrderMap.set('dagger', 10);
+  sortOrderMap.set('axe', 11);
+  sortOrderMap.set('mace', 12);
+  sortOrderMap.set('sword', 13);
+  sortOrderMap.set('battleAxe', 14);
+  sortOrderMap.set('maul', 15);
+  sortOrderMap.set('greatsword', 16);
+  sortOrderMap.set('bow', 17);
+  sortOrderMap.set('restorationStaff', 18);
+  sortOrderMap.set('infernoStaff', 19);
+  sortOrderMap.set('iceStaff', 20);
+  sortOrderMap.set('lightningStaff', 21);
+  sortOrderMap.set('shield', 22);
+  return sortOrderMap;
+}
+
+const sortItems = () => {
+  const sortOrderMap = getSortOrderMap();
+
+  setsList.forEach(s => {
+    s.items.list.sort((a, b) => {
+      const aSortOrder = a.itemType === 'weapons' ? sortOrderMap.get(a.weaponType) : (a.slot === 'offHand' ?  sortOrderMap.get('shield') : sortOrderMap.get(a.slot));
+      const bSortOrder = b.itemType === 'weapons' ? sortOrderMap.get(b.weaponType) : (b.slot === 'offHand' ?  sortOrderMap.get('shield') : sortOrderMap.get(b.slot));
+      if (aSortOrder !== bSortOrder) {
+        return aSortOrder - bSortOrder;
+      }
+      // same slot => light > medium > heavy
+      switch (a.armorType) {
+        case 'light':
+          return -1;
+        case 'medium':
+          return b.armorType === 'light' ? 1 : -1;
+        case 'heavy':
+          return 1;
+      }
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -372,8 +422,9 @@ const updateData = async () => {
   // updateItemNames("Kagrenac's Hope", "", "of Kagrenac's Hope");  // ALL DONE
   // addIDs(); // DONE
   // addWeaponType(); // DONE
-  addSetBonusCount(); // DONE
+  // addSetBonusCount(); // DONE
   // splitHtmlDescription(); // DONE
+  sortItems();
 
   // write to file
   const content = 'const ESO_SETS = ' +

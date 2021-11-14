@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-feedback">
-        Feedback welcome: feedback@gnarlybits.com
+        Feedback welcome: <a href="mailto:feedback@gnarlybits.com?subjet=ESO Builder">feedback@gnarlybits.com</a>
       </div>
       <div className="footer-build">
         Built on {buildDate.toUTCString()}
