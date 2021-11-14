@@ -66,6 +66,9 @@
 .tooltip-item-set-bonus-disabled {
   color: #454545 !important;
 }
+.tooltip-item-set-bonus-disabled .set-bonus {
+  color: #454545;
+}
 .tooltip-item-set-bonus-disabled .health {
   color: #730000;
 }
@@ -73,7 +76,7 @@
   color: #004018;
 }
 .tooltip-item-set-bonus-disabled .magicka {
-  color: #000c3c;
+  color: #202c5c;
 }
 .tooltip-item-set-bonus-disabled .buff {
   color: #764500;

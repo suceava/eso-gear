@@ -8,7 +8,7 @@ import './Layout.css';
 export function ViewBuildLayout() {
   let build;
   if (window.location.hash) {
-    build = EquipmentBuild.fromHash(window.location.hash);
+    build = EquipmentBuild.fromHash(window.location.hash.replace('#', ''));
   } else {
     build = new EquipmentBuild();
   }

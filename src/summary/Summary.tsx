@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import { GearSummary } from './GearSummary';
+import { SetSummary } from './SetSummary';
 import { EquipmentBuild } from '../character/EquipmentBuild';
 
 import './Summary.css';
@@ -37,7 +38,11 @@ export function Summary({ build, layout }: SummaryProps) {
       }
       <hr/>
       <h2>{build.name}</h2>
-      <GearSummary build={build} showItem={layout === 'view'}></GearSummary>
+      <GearSummary build={build} showItem={layout === 'view'} />
+      <br/>
+      <hr/>
+      <br/>
+      <SetSummary build={build} />
     </div>
   );
 }

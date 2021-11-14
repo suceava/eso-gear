@@ -36,29 +36,37 @@
   transform: translate(-1px, 1px);
 }
 
-.GearSummary {
+.GearSummary,
+.SetSummary {
+  color: #c5c29e;
   font-family: "univers57";
 }
 
-.gear-summary-table-header-row {
+.summary-table-header-row {
   font-family: "univers67";
   margin-bottom: 5px;
 }
 
-.gear-summary-table-row {
+.summary-table-row {
   border-top: solid 1px #444;
 }
-.gear-summary-table-row.cozy{
+.summary-table-row.cozy{
   min-height: 64px;
 }
-.gear-summary-table-row.compact{
+.summary-table-row.compact{
   min-height: 24px;
+  padding-bottom: 3px;
+  padding-top: 3px;
 }
-.gear-summary-table-row.row img {
+.summary-table-row.row img {
   vertical-align: middle;
 }
 
-.gear-summary-table-row .col {
+.summary-table-row .col {
   vertical-align: middle;
   align-items: center;
+}
+
+.set-summary-bonus-count {
+  float: right;
 }

@@ -102,6 +102,9 @@ hr {
 }
 
 /* item set description highlights */
+.set-bonus {
+  color: #c5c29e;
+}
 .health {
   color: #c33331;
 }
