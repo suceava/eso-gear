@@ -9,6 +9,7 @@ import {
 import { 
   EsoItemType,
   EsoItem,
+  EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
   Strings_EsoWeaponType
@@ -44,7 +45,7 @@ const getItemTypeString = (item?: EsoItem): string => {
 export function GearSummary({ build, showItem }: GearSummaryProps) {
   return (
     <Container className='GearSummary'>
-      <Row className="row-table-header gear-summary-table-header-row">
+      <Row className="row-table-header summary-table-header-row">
         <Col>Slot</Col>
         { showItem &&
           <Col>Item</Col>
@@ -60,7 +61,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
           const item = build.items[enumKey];
           const set = item ? getEsoSetByName(item.setName) : undefined;
 
-          const className = `align-items-center gear-summary-table-row ${showItem ? 'cozy' : 'compact'}`;
+          const className = `align-items-center summary-table-row ${showItem ? 'cozy' : 'compact'}`;
 
           return (
             <Row key={enumKey} className={className}>
@@ -79,7 +80,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
                   set &&
                   <ItemSetTooltip set={set}>
                     <a target='_blank'rel='noreferrer' href={set.link}>
-                      <span className='item-legendary'>{set.name}</span>
+                      <span className={set.type === EsoSetType.mythic ? 'item-mythic' : 'item-legendary'}>{set.name}</span>
                     </a>
                   </ItemSetTooltip>
                 }

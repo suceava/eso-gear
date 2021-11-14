@@ -8,6 +8,7 @@ import {
   EsoItemType,
   EsoSet,
   EsoSetBonus,
+  EsoSetBonusKey,
   EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
@@ -129,7 +130,7 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
       <h3>{`Part of the ${item.setName} set (${itemsInSet}/${set ? set.bonusCount : 0})`}</h3>
       {
         set && Object.keys(set.bonuses).map(key => {
-          const bonusKey = key as '1' | '2' | '3' | '4' | '5';
+          const bonusKey = key as EsoSetBonusKey;
           const bonus = set.bonuses[bonusKey] as EsoSetBonus;
           if (!bonus) {
             return null;

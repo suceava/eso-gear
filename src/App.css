@@ -102,6 +102,9 @@ hr {
 }
 
 /* item set description highlights */
+.set-bonus {
+  color: #c5c29e;
+}
 .health {
   color: #c33331;
 }
@@ -127,6 +130,11 @@ hr {
   font-family: "univers57";
   padding: 30px;
   text-align: center;
+}
+.footer a,
+.footer a:visited {
+  color: #c5c29e;
+  text-decoration: none;
 }
 .footer .footer-feedback {
   font-size: 11px;
