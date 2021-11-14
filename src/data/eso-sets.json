@@ -15568,15 +15568,6 @@
     "items": {
       "list": [
         {
-          "name": "The Asylum's Restoration Staff",
-          "image": "gear_factotum_gear_factotum_staff_a.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Concentrated Force",
-          "id": 3506862289,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "The Asylum's Inferno Staff",
           "image": "gear_factotum_gear_factotum_staff_a.png",
           "slot": "twoHands",
@@ -15593,6 +15584,15 @@
           "setName": "Concentrated Force",
           "id": 950806054,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "The Asylum's Lightning Staff",
+          "image": "gear_factotum_gear_factotum_staff_a.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Concentrated Force",
+          "id": 3506862289,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -22257,15 +22257,6 @@
     "items": {
       "list": [
         {
-          "name": "The Master's Restoration Staff",
-          "image": "gear_altmer_staff_e.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Destructive Impact",
-          "id": 2175184139,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "The Master's Inferno Staff",
           "image": "gear_nord_staff_e.png",
           "slot": "twoHands",
@@ -22282,6 +22273,15 @@
           "setName": "Destructive Impact",
           "id": 3964646412,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "The Master's Lightning Staff",
+          "image": "gear_altmer_staff_e.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Destructive Impact",
+          "id": 2175184139,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -64557,15 +64557,6 @@
     "items": {
       "list": [
         {
-          "name": "The Asylum's Perfected Restoration Staff",
-          "image": "gear_factotum_gear_factotum_staff_a.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Perfected Concentrated Force",
-          "id": 241566577,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "The Asylum's Perfected Inferno Staff",
           "image": "gear_factotum_gear_factotum_staff_a.png",
           "slot": "twoHands",
@@ -64582,6 +64573,15 @@
           "setName": "Perfected Concentrated Force",
           "id": 3056571590,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "The Asylum's Perfected Lightning Staff",
+          "image": "gear_factotum_gear_factotum_staff_a.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Perfected Concentrated Force",
+          "id": 241566577,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -64680,14 +64680,6 @@
     "items": {
       "list": [
         {
-          "name": "The Maelstrom's Perfected Lighting Staff",
-          "image": "gear_dwarvenscavenged_staff_a.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Perfected Crushing Wall",
-          "id": 4124373866
-        },
-        {
           "name": "The Maelstrom's Perfected Inferno Staff",
           "image": "gear_dwarvenscavenged_staff_a.png",
           "slot": "twoHands",
@@ -64704,6 +64696,15 @@
           "setName": "Perfected Crushing Wall",
           "id": 3231584929,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "The Maelstrom's Perfected Lightning Staff",
+          "image": "gear_dwarvenscavenged_staff_a.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Perfected Crushing Wall",
+          "id": 4124373866,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -64810,15 +64811,6 @@
     "items": {
       "list": [
         {
-          "name": "The Master's Perfected Restoration Staff",
-          "image": "gear_dunmer_staff_e.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Perfected Destructive Impact",
-          "id": 4044913743,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "The Master's Perfected Inferno Staff",
           "image": "gear_altmer_staff_e.png",
           "slot": "twoHands",
@@ -64835,6 +64827,15 @@
           "setName": "Perfected Destructive Impact",
           "id": 4110618456,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "The Master's Perfected Lightning Staff",
+          "image": "gear_dunmer_staff_e.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Perfected Destructive Impact",
+          "id": 4044913743,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -68741,15 +68742,6 @@
     "items": {
       "list": [
         {
-          "name": "Blackrose Perfected Restoration Staff",
-          "image": "gear_honorguard_staff_a.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Perfected Wild Impulse",
-          "id": 367066967,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "Blackrose Perfected Inferno Staff",
           "image": "gear_honorguard_staff_a.png",
           "slot": "twoHands",
@@ -68766,6 +68758,15 @@
           "setName": "Perfected Wild Impulse",
           "id": 3367370160,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "Blackrose Perfected Lightning Staff",
+          "image": "gear_honorguard_staff_a.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Perfected Wild Impulse",
+          "id": 367066967,
+          "weaponType": "lightningStaff"
         }
       ]
     },
@@ -110307,15 +110308,6 @@
     "items": {
       "list": [
         {
-          "name": "Blackrose Restoration Staff",
-          "image": "gear_honorguard_staff_a.png",
-          "slot": "twoHands",
-          "itemType": "weapons",
-          "setName": "Wild Impulse",
-          "id": 3955664691,
-          "weaponType": "restorationStaff"
-        },
-        {
           "name": "Blackrose Inferno Staff",
           "image": "gear_honorguard_staff_a.png",
           "slot": "twoHands",
@@ -110332,6 +110324,15 @@
           "setName": "Wild Impulse",
           "id": 4290797348,
           "weaponType": "iceStaff"
+        },
+        {
+          "name": "Blackrose Lightning Staff",
+          "image": "gear_honorguard_staff_a.png",
+          "slot": "twoHands",
+          "itemType": "weapons",
+          "setName": "Wild Impulse",
+          "id": 3955664691,
+          "weaponType": "lightningStaff"
         }
       ]
     },

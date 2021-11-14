@@ -424,7 +424,7 @@ const updateData = async () => {
   // addWeaponType(); // DONE
   // addSetBonusCount(); // DONE
   // splitHtmlDescription(); // DONE
-  sortItems();
+  // sortItems(); // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +
