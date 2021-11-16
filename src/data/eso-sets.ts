@@ -174,6 +174,7 @@ export type EsoItem = {
   weaponType?: EsoWeaponType | undefined;
 
   // overridden on build
+  rarity: EsoItemRarity;
   enchantment?: string | undefined;
   trait?: string | undefined;
 };

@@ -1,4 +1,4 @@
-import { EsoItem, EsoSlot, EsoBonusStats, EsoSet, EsoSetBonus, EsoSetBonusKey, EsoStat } from '../data/eso-sets';
+import { EsoItem, EsoSlot, EsoBonusStats, EsoSet, EsoSetBonus, EsoSetBonusKey, EsoStat, EsoItemRarity } from '../data/eso-sets';
 import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
 
 export enum EquipmentSlot {
@@ -172,6 +172,15 @@ export class EquipmentBuild {
       this.items[EquipmentSlot.mainHand2]?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
       delete this.items[EquipmentSlot.mainHand2];
+    }
+    if (item.rarity === EsoItemRarity.mythic) {
+      // only one mythic item allowed
+      Object.keys(this.items).forEach(key => {
+        const enumKey = key as EquipmentSlot;
+        if (this.items[enumKey]?.rarity === EsoItemRarity.mythic) {
+          delete this.items[enumKey];
+        }
+      });
     }
 
     this.items[slot] = item;
