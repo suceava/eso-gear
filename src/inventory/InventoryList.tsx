@@ -187,7 +187,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
 
   const onEquip = useCallback(
     (item: EsoItem) => {
-      build.equip(item, esoSlotToEquipmentSlot(item.slot));
+      build.equip(item, esoSlotToEquipmentSlot(item.slot, build.isMainWeaponSetActive));
       buildOnChange(build);
     },
     [build, buildOnChange]
@@ -235,7 +235,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
 
   return (
     <div className='inventory-container'>
-      <FixedSizeTree treeWalker={treeWalker} itemSize={64} height={525} width={370}>
+      <FixedSizeTree treeWalker={treeWalker} itemSize={64} height={550} width={370}>
         {Node}
       </FixedSizeTree>
     </div>

@@ -1,4 +1,14 @@
-import { EsoItem, EsoSlot, EsoBonusStats, EsoSet, EsoSetBonus, EsoSetBonusKey, EsoStat, EsoItemRarity } from '../data/eso-sets';
+import {
+  EsoBonusStats,
+  EsoItem,
+  EsoItemRarity,
+  EsoItemType,
+  EsoSet,
+  EsoSetBonus,
+  EsoSetBonusKey,
+  EsoSlot,
+  EsoStat
+} from '../data/eso-sets';
 import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
 
 export enum EquipmentSlot {
@@ -65,7 +75,7 @@ export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | 
   }
 };
 // convert EsoSlot to EquipmentSlot
-export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot): EquipmentSlot => {
+export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot, isMainWeaponSet: boolean = true): EquipmentSlot => {
   switch (esoSlot) {
     case EsoSlot.head:
       return EquipmentSlot.head;
@@ -86,11 +96,11 @@ export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot): EquipmentSlot => {
     case EsoSlot.ring:
       return EquipmentSlot.ring1;
     case EsoSlot.oneHand:
-      return EquipmentSlot.mainHand1;
+      return isMainWeaponSet ? EquipmentSlot.mainHand1 : EquipmentSlot.mainHand2;
     case EsoSlot.twoHands:
-      return EquipmentSlot.mainHand1;
+      return isMainWeaponSet ? EquipmentSlot.mainHand1 : EquipmentSlot.mainHand2;
     case EsoSlot.offHand:
-      return EquipmentSlot.offHand1;
+      return isMainWeaponSet ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2;
   }
 };
 
@@ -106,14 +116,16 @@ export interface EquipmentSet {
 export class EquipmentBuild {
   name: string;
   items: EquipmentBuildSlot;
+  isMainWeaponSetActive: boolean;
 
-  constructor(name = 'New Build', items = {} as EquipmentBuildSlot) {
+  constructor(name = 'New Build', items = {} as EquipmentBuildSlot, isMainWeaponSetActive: boolean = true) {
     this.name = name;
     this.items = items;
+    this.isMainWeaponSetActive = isMainWeaponSetActive;
   }
 
   static fromPlainBuild(build: EquipmentBuild): EquipmentBuild {
-    return new EquipmentBuild(build.name, build.items);
+    return new EquipmentBuild(build.name, build.items, build.isMainWeaponSetActive);
   }
 
   static fromHash(hash: string): EquipmentBuild {
@@ -137,7 +149,9 @@ export class EquipmentBuild {
       const enumKey = key as EquipmentSlot;
       return buildItems[enumKey]?.id;
     });
-    return hashArray.join('_');
+    const itemsHash = hashArray.join('_');
+
+    return itemsHash;
   }
 
   public equip(item: EsoItem, slot: EquipmentSlot): void {
@@ -190,16 +204,53 @@ export class EquipmentBuild {
     delete this.items[slot];
   }
 
-  // returns the count of items in a set
-  public countBySet(setName: string): number {
-    const setItems = Object.values(this.items).filter(item => item?.setName === setName);
-    return setItems.length;
+  public toggleWeaponSet(): void {
+    this.isMainWeaponSetActive = !this.isMainWeaponSetActive;
   }
 
-  // return the list of sets that this build has
-  public getSets(): Map<EsoSet, number> {
+  // returns the count of bonuses in a set
+  public countBonusesBySet(setName: string): number {
+    let count = 0;
+    Object.keys(this.items).forEach(key => {
+      const slotKey = key as EquipmentSlot;
+      const item = this.items[slotKey];
+      if (item?.setName !== setName) {
+        return;
+      }
+      if ((slotKey === EquipmentSlot.mainHand2 || slotKey === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
+        return;
+      }
+      if ((slotKey === EquipmentSlot.mainHand1 || slotKey === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
+        return;
+      }
+      count++;
+      // 2 handed weapons are counted as two bonuses
+      if (item?.itemType === EsoItemType.weapons && item?.slot === EsoSlot.twoHands) {
+        count++;
+      }
+    });
+    return count;
+  }
+
+  // return the list of sets that this build has and the count of bonuses in each set
+  public getSets(onlyCountActive: boolean = false): Map<EsoSet, number> {
     const sets = new Map<EsoSet, number>();
-    Object.values(this.items).filter(item => !!item).forEach(item => {
+    Object.keys(this.items).forEach(key => {
+      const slotKey = key as EquipmentSlot;
+      const item = this.items[slotKey];
+      if (!item) {
+        return;
+      }
+
+      if (onlyCountActive) {
+        // only count active weapons
+        if ((slotKey === EquipmentSlot.mainHand2 || slotKey === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
+          return false;
+        }
+        if ((slotKey === EquipmentSlot.mainHand1 || slotKey === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
+          return;
+        }
+      }
       const set = getEsoSetByName(item.setName);
       if (!set) {
         return;
@@ -207,7 +258,9 @@ export class EquipmentBuild {
       if (!sets.has(set)) {
         sets.set(set, 1);
       } else {
-        sets.set(set, (sets.get(set) || 0) + 1);
+        // increment
+        const inc = (item.itemType === EsoItemType.weapons && item.slot === EsoSlot.twoHands) ? 2 : 1;
+        sets.set(set, (sets.get(set) || 0) + inc);
       }
     });
     return sets;
@@ -216,7 +269,7 @@ export class EquipmentBuild {
   // return total bonus stats for the build
   public getTotalBonusStats(): EsoBonusStats {
     const bonusStats = {} as EsoBonusStats;
-    const sets = this.getSets();
+    const sets = this.getSets(true);
     sets.forEach((count, set) => {
       for (let i = 1; i <= count; i++) {
         const bonusKey = i.toString() as EsoSetBonusKey;

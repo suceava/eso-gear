@@ -109,7 +109,8 @@ function getItemStatValue(item: EsoItem) {
 function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
   const { build, item, set } = props;
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
-  const itemsInSet = build ? build.countBySet(item.setName) : 0;
+  const setBonusCount = set ? set.bonusCount : 0;
+  const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
 
   return (
     <div className='tooltip-item'>
@@ -128,7 +129,7 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
         <div>LEVEL <span>50</span></div>
         <div>CP <span>160</span></div>
       </div>
-      <h3>{`Part of the ${item.setName} set (${itemsInSet}/${set ? set.bonusCount : 0})`}</h3>
+      <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
         set && Object.keys(set.bonuses).map(key => {
           const bonusKey = key as EsoSetBonusKey;

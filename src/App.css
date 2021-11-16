@@ -121,6 +121,9 @@ hr {
 .disease-damage {
   color: #2dc50e;
 }
+.poison-damage {
+  color: #386e2e;
+}
 
 .App {
   color: white;

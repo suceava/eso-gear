@@ -31,6 +31,11 @@ export function EquipmentItem({ build, slot, item, onEquip, onUnequip }: Equipme
   if (canDrop) {
     className += ' drop-target';
   }
+  if ((slot === EquipmentSlot.mainHand1 || slot === EquipmentSlot.offHand1) && build.isMainWeaponSetActive) {
+    className += ' gear-slot-weapon-active';
+  } else if ((slot === EquipmentSlot.mainHand2 || slot === EquipmentSlot.offHand2) && !build.isMainWeaponSetActive) {
+    className += ' gear-slot-weapon-active';
+  }
 
   return (
     <div ref={drop} className={className} onDoubleClick={() => onUnequip(slot)}>
