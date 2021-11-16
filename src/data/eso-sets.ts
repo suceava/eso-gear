@@ -6,8 +6,7 @@ export enum EsoSetType {
   mythic = 'Mythic',
   overland = 'Overland',
   pvp = 'PvP',
-  trial = 'Trial',
-  unknown = 'Unknown'
+  trial = 'Trial'
 };
 
 export enum EsoItemRarity {
@@ -43,7 +42,7 @@ export enum EsoWeaponType {
   dagger = 'dagger',
   mace = 'mace',
   sword = 'sword',
-  
+
   battleAxe = 'battleAxe',
   greatsword = 'greatsword',
   maul = 'maul',
@@ -163,6 +162,31 @@ export type EsoSetBonus = {
 
 export type EsoSetBonusKey = '1' | '2' | '3' | '4' | '5';
 
+export enum EsoItemEnchantment {
+  maximumHealth = 'maximumHealth',
+  maximumMagicka = 'maximumMagicka',
+  maximumStamina = 'maximumStamina',
+  healthRecovery = 'healthRecovery',
+  magickaRecovery = 'magickaRecovery',
+  staminaRecovery = 'staminaRecovery',
+  lifeDrain = 'lifeDrain',
+  absorbMagicka = 'absorbMagicka',
+  absorbStamina = 'absorbStamina',
+  multiEffect = 'multiEffect'
+};
+export const Strings_EsoItemEnchantment = {
+  [EsoItemEnchantment.maximumHealth]: 'Maximum Health',
+  [EsoItemEnchantment.maximumMagicka]: 'Maximum Magicka',
+  [EsoItemEnchantment.maximumStamina]: 'Maximum Stamina',
+  [EsoItemEnchantment.healthRecovery]: 'Health Recovery',
+  [EsoItemEnchantment.magickaRecovery]: 'Magicka Recovery',
+  [EsoItemEnchantment.staminaRecovery]: 'Stamina Recovery',
+  [EsoItemEnchantment.lifeDrain]: 'Life Drain',
+  [EsoItemEnchantment.absorbMagicka]: 'Absorb Magicka',
+  [EsoItemEnchantment.absorbStamina]: 'Absorb Stamina',
+  [EsoItemEnchantment.multiEffect]: 'Multi-Effect'
+};
+
 export type EsoItem = {
   id: number;
   image: string;
@@ -175,7 +199,7 @@ export type EsoItem = {
 
   // overridden on build
   rarity: EsoItemRarity;
-  enchantment?: string | undefined;
+  enchantment: EsoItemEnchantment;
   trait?: string | undefined;
 };
 

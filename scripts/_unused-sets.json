@@ -1312,3 +1312,647 @@
 
 
 
+
+/**************************
+ * UNKNOWN SETS
+ **************************/
+ {
+  "image": "gear_breton_ring_a.png",
+  "name": "Armor of the Code",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/armor-of-the-code",
+  "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Armor of the Code\nIncrease your Weapon and Spell Critical Rating against targets with a lower % of health than you by 2051.<br><span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span><br><span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span><br><span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span><br>",
+  "bonuses": {
+    "1": {
+      "description": "Armor of the Code",
+      "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Armor of the Code\nIncrease your Weapon and Spell Critical Rating against targets with a lower % of health than you by 2051."
+    },
+    "2": {
+      "description": "Adds 1096 Maximum Magicka",
+      "stats": {
+        "maximumMagicka": 1096
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
+    },
+    "3": {
+      "description": "Adds 129 Magicka Recovery",
+      "stats": {
+        "magickaRecovery": 129
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"magicka\">129 Magicka Recovery</span>"
+    },
+    "4": {
+      "description": "Adds 1096 Maximum Magicka",
+      "stats": {
+        "maximumMagicka": 1096
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
+    }
+  },
+  "dlc": null,
+  "style": null,
+  "items": {
+    "list": [
+      {
+        "name": "Necklace",
+        "image": "gear_breton_neck_a.png",
+        "slot": "neck",
+        "itemType": "jewelry",
+        "setName": "Armor of the Code",
+        "id": 1664236204,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Armor of the Code",
+        "id": 2318322118,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 4060907163,
+  "bonusCount": 4
+},
+{
+  "image": "gear_daedric_1hsword_c.png",
+  "name": "Arms of Infernace",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/arms-of-infernace",
+  "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span><br>",
+  "bonuses": {
+    "3": {
+      "description": "Adds 129 Weapon Damage",
+      "stats": {
+        "weaponDamage": 129
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">129 Weapon Damage</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Necklace",
+        "image": "gear_breton_neck_a.png",
+        "slot": "neck",
+        "itemType": "jewelry",
+        "setName": "Arms of Infernace",
+        "id": 3656737775,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Sword 3",
+        "image": "gear_daedric_1hsword_c.png",
+        "slot": "oneHand",
+        "itemType": "weapon",
+        "setName": "Arms of Infernace",
+        "id": 171964141,
+        "weaponType": "sword",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 1954289358,
+  "bonusCount": 3
+},
+{
+  "image": "gear_breton_ring_a.png",
+  "name": "Broken Soul",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/broken-soul",
+  "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span><br>",
+  "bonuses": {
+    "2": {
+      "description": "Adds 1206 Maximum Health",
+      "stats": {
+        "maximumHealth": 1206
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Wood Elf",
+  "items": {
+    "list": [
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Broken Soul",
+        "id": 1725092982,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 1834433515,
+  "bonusCount": 2
+},
+{
+  "image": "gear_undauntedspider_head_a.png",
+  "name": "Giant Spider",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/giant-spider",
+  "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Taken</span><br><span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.<br>",
+  "bonuses": {
+    "1": {
+      "description": "Adds 4% Healing Taken",
+      "stats": {
+        "healingTaken": 4
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">4% Healing Taken</span>"
+    },
+    "2": {
+      "description": "When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second.",
+      "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you block an attack from an enemy that is between 8 and 22 meters from you, you spin strands of spider silk to pull the enemy to you. This effect can occur once every 1 second."
+    }
+  },
+  "dlc": null,
+  "style": "Undaunted",
+  "items": {
+    "list": [
+      {
+        "name": "Hat",
+        "image": "gear_undauntedspider_head_a.png",
+        "slot": "head",
+        "armorType": "light",
+        "itemType": "armor",
+        "setName": "Giant Spider",
+        "id": 120892177,
+        "rarity": "legendary",
+        "enchantment": "maximumMagicka"
+      },
+      {
+        "name": "Helmet",
+        "image": "gear_undauntedspider_head_a.png",
+        "slot": "head",
+        "armorType": "heavy",
+        "itemType": "armor",
+        "setName": "Giant Spider",
+        "id": 3467436593,
+        "rarity": "legendary",
+        "enchantment": "maximumHealth"
+      },
+      {
+        "name": "Helm",
+        "image": "gear_undauntedspider_head_a.png",
+        "slot": "head",
+        "armorType": "heavy",
+        "itemType": "armor",
+        "setName": "Giant Spider",
+        "id": 4284502112,
+        "rarity": "legendary",
+        "enchantment": "maximumHealth"
+      }
+    ]
+  },
+  "id": 1158661843,
+  "bonusCount": 2
+},
+{
+  "image": "antiquities_malacaths_band_of_brutality.png",
+  "name": "Harvester's Hope-Ring",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/harvesters-hope-ring",
+  "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester.\n\nHarvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events.<br>",
+  "bonuses": {
+    "1": {
+      "description": "Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester. Harvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events.",
+      "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Whenever you gather resources from a harvesting node, gain 1 stack of Harvester, up to 20 stacks max. Each stack of Harvester increases your chance of gathering bonus materials by 10%. Removing this ring removes all stacks of Harvester.\n\nHarvester does not affect resources gathered with Crafting Surveys or bonus resources received during holiday events."
+    }
+  },
+  "dlc": null,
+  "style": null,
+  "items": {
+    "list": [
+      {
+        "name": "Ring",
+        "image": "antiquities_malacaths_band_of_brutality.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Harvester's Hope-Ring",
+        "id": 4152575439,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 169810620,
+  "bonusCount": 1
+},
+{
+  "image": "gear_primative_shield_c.png",
+  "name": "Prophet's",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/prophets",
+  "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span><br>",
+  "bonuses": {
+    "1": {
+      "description": "Adds 1206 Maximum Health",
+      "stats": {
+        "maximumHealth": 1206
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Wood Elf",
+  "items": {
+    "list": [
+      {
+        "name": "Primal Robe",
+        "image": "gear_primative_light_robe_a.png",
+        "slot": "chest",
+        "armorType": "light",
+        "itemType": "armor",
+        "setName": "Prophet's",
+        "id": 2623270229,
+        "rarity": "legendary",
+        "enchantment": "maximumMagicka"
+      },
+      {
+        "name": "Primal Jack",
+        "image": "gear_primative_medium_chest_a.png",
+        "slot": "chest",
+        "armorType": "medium",
+        "itemType": "armor",
+        "setName": "Prophet's",
+        "id": 3326690276,
+        "rarity": "legendary",
+        "enchantment": "maxStamina",
+        "enchantement": "maximumStamina"
+      },
+      {
+        "name": "Primal Cuirass",
+        "image": "gear_primative_heavy_chest_a.png",
+        "slot": "chest",
+        "armorType": "heavy",
+        "itemType": "armor",
+        "setName": "Prophet's",
+        "id": 1884987593,
+        "rarity": "legendary",
+        "enchantment": "maximumHealth"
+      },
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Prophet's",
+        "id": 1335733822,
+        "rarity": "legendary",
+        "enchantment": "healthRecovery"
+      },
+      {
+        "name": "Primal Dagger 3",
+        "image": "gear_primative_dagger_c.png",
+        "slot": "oneHand",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 1133028084,
+        "weaponType": "dagger",
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Axe 3",
+        "image": "gear_primative_1haxe_c.png",
+        "slot": "oneHand",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 3098421996,
+        "weaponType": "axe",
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Maul 3",
+        "image": "gear_primative_2hhammer_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 1934653257,
+        "weaponType": "maul",
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Greatsword 3",
+        "image": "gear_primative_2hsword_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 3467019080,
+        "weaponType": "greatsword",
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Staff 3",
+        "image": "gear_primative_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 2818827706,
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Staff 3",
+        "image": "gear_primative_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 2818827706,
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Staff 3",
+        "image": "gear_primative_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 2818827706,
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Bow 3",
+        "image": "gear_primative_bow_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Prophet's",
+        "id": 1857244472,
+        "weaponType": "bow",
+        "rarity": "legendary",
+        "enchantment": "lifeDrain"
+      },
+      {
+        "name": "Primal Shield 3",
+        "image": "gear_primative_shield_c.png",
+        "slot": "offHand",
+        "itemType": "armor",
+        "setName": "Prophet's",
+        "id": 3937124279,
+        "rarity": "legendary",
+        "armorType": "shield",
+        "enchantment": "maximumStamina"
+      }
+    ]
+  },
+  "id": 1839466739,
+  "bonusCount": 1
+},
+{
+  "image": "gear_daedric_staff_c.png",
+  "name": "Relics of the Physician, Ansur",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/relics-of-the-physician-ansur",
+  "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span><br><span class=\"set-bonus\">(3 items)</span> Increases your healing done by 5%.<br>",
+  "bonuses": {
+    "2": {
+      "description": "Adds 1096 Maximum Magicka",
+      "stats": {
+        "maximumMagicka": 1096
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"magicka\">1096 Maximum Magicka</span>"
+    },
+    "3": {
+      "description": "Increases your healing done by 5%.",
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Increases your healing done by 5%."
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Relics of the Physician, Ansur",
+        "id": 3642073251,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Staff 3",
+        "image": "gear_daedric_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Relics of the Physician, Ansur",
+        "id": 1384939292,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 1912012784,
+  "bonusCount": 3
+},
+{
+  "image": "gear_daedric_shield_c.png",
+  "name": "Relics of the Rebellion",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/relics-of-the-rebellion",
+  "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span><br><span class=\"set-bonus\">(3 items)</span> When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds<br>",
+  "bonuses": {
+    "2": {
+      "description": "Adds 1206 Maximum Health",
+      "stats": {
+        "maximumHealth": 1206
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
+    },
+    "3": {
+      "description": "When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds",
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> When you deal damage, you have a 5% chance to gain a damage shield that absorbs 3080 damage for 5 seconds"
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Necklace",
+        "image": "gear_breton_neck_a.png",
+        "slot": "neck",
+        "itemType": "jewelry",
+        "setName": "Relics of the Rebellion",
+        "id": 2748069536,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Mace 3",
+        "image": "gear_daedric_1hhammer_c.png",
+        "slot": "oneHand",
+        "itemType": "weapon",
+        "setName": "Relics of the Rebellion",
+        "id": 3264499691,
+        "weaponType": "mace",
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Shield 3",
+        "image": "gear_daedric_shield_c.png",
+        "slot": "offHand",
+        "itemType": "armor",
+        "setName": "Relics of the Rebellion",
+        "id": 1579490268,
+        "rarity": "legendary",
+        "armorType": "shield"
+      }
+    ]
+  },
+  "id": 2753060079,
+  "bonusCount": 3
+},
+{
+  "image": "gear_daedric_staff_c.png",
+  "name": "The Destruction Suite",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/the-destruction-suite",
+  "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span><br>",
+  "bonuses": {
+    "3": {
+      "description": "Adds 1487 Armor",
+      "stats": {
+        "armor": 1487
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Daedric Staff 3",
+        "image": "gear_daedric_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "The Destruction Suite",
+        "id": 3738349224,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Staff 3",
+        "image": "gear_daedric_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "The Destruction Suite",
+        "id": 3738349224,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Staff 3",
+        "image": "gear_daedric_staff_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "The Destruction Suite",
+        "id": 3738349224,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "The Destruction Suite",
+        "id": 3770196583,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 4053093716,
+  "bonusCount": 3
+},
+{
+  "image": "gear_daedric_2hhammer_c.png",
+  "name": "Treasures of the Earthforge",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/treasures-of-the-earthforge",
+  "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span><br>",
+  "bonuses": {
+    "3": {
+      "description": "Adds 1487 Armor",
+      "stats": {
+        "armor": 1487
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Treasures of the Earthforge",
+        "id": 2480638535,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Maul 3",
+        "image": "gear_daedric_2hhammer_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Treasures of the Earthforge",
+        "id": 1094775527,
+        "weaponType": "maul",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 1381145652,
+  "bonusCount": 3
+},
+{
+  "image": "gear_daedric_bow_c.png",
+  "name": "Arms of the Ancestors",
+  "type": "Unknown",
+  "link": "https://eso-hub.com/en/sets/arms-of-the-ancestors",
+  "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span><br>",
+  "bonuses": {
+    "3": {
+      "description": "Adds 1487 Physical Penetration",
+      "stats": {
+        "physicalPenetration": 1487
+      },
+      "htmlDescription": "<span class=\"set-bonus\">(3 items)</span> Adds <span class=\"stamina\">1487 Physical Penetration</span>"
+    }
+  },
+  "dlc": null,
+  "style": "Daedric",
+  "items": {
+    "list": [
+      {
+        "name": "Ring",
+        "image": "gear_breton_ring_a.png",
+        "slot": "ring",
+        "itemType": "jewelry",
+        "setName": "Arms of the Ancestors",
+        "id": 3509429489,
+        "rarity": "legendary"
+      },
+      {
+        "name": "Daedric Bow 3",
+        "image": "gear_daedric_bow_c.png",
+        "slot": "twoHands",
+        "itemType": "weapon",
+        "setName": "Arms of the Ancestors",
+        "id": 1052021696,
+        "weaponType": "bow",
+        "rarity": "legendary"
+      }
+    ]
+  },
+  "id": 1860404970,
+  "bonusCount": 3
+},

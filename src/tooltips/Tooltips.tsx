@@ -13,6 +13,7 @@ import {
   EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
+  Strings_EsoItemEnchantment,
   Strings_EsoSlot,
   Strings_EsoWeaponType
 } from '../data/eso-sets';
@@ -129,6 +130,8 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
         <div>LEVEL <span>50</span></div>
         <div>CP <span>160</span></div>
       </div>
+      <h3>{Strings_EsoItemEnchantment[item.enchantment]}</h3>
+      <div className='tooltip-enchantment'></div>
       <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
         set && Object.keys(set.bonuses).map(key => {
