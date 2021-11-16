@@ -9,7 +9,6 @@ import {
   EsoItem,
   EsoItemType,
   EsoSetType,
-  EsoSlot,
   EsoWeaponType
 } from '../data/eso-sets';
 import { loadEsoSetData } from '../data/esoSetDataLoader';
@@ -96,12 +95,8 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
         case InventorySubFilterType.heavy:
         case InventorySubFilterType.light:
         case InventorySubFilterType.medium:
-          if (item.itemType !== EsoItemType.armor || (item.armorType as string) !== (subFilter as string)) {
-            return false;
-          }
-          break;
         case InventorySubFilterType.shield:
-          if (item.itemType !== EsoItemType.armor || item.slot !== EsoSlot.offHand) {
+            if (item.itemType !== EsoItemType.armor || (item.armorType as string) !== (subFilter as string)) {
             return false;
           }
           break;

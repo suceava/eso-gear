@@ -412,6 +412,28 @@ const sortItems = () => {
   });
 }
 
+const addItemRarity = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (s.type === 'Mythic') {
+        i.rarity = 'mythic';
+      } else {
+        i.rarity = 'legendary';
+      }
+    });
+  });
+}
+
+const addShieldArmorType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (i.itemType === 'armor' && i.slot === 'offHand') {
+        i.armorType = 'shield';
+      }
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -425,6 +447,8 @@ const updateData = async () => {
   // addSetBonusCount(); // DONE
   // splitHtmlDescription(); // DONE
   // sortItems(); // DONE
+  // addItemRarity(); // DONE
+  // addShieldArmorType(); // DONE
 
   // write to file
   const content = 'const ESO_SETS = ' +

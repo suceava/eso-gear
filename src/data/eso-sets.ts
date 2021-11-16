@@ -10,6 +10,15 @@ export enum EsoSetType {
   unknown = 'Unknown'
 };
 
+export enum EsoItemRarity {
+  normal = 'normal',
+  fine = 'fine',
+  superior = 'superior',
+  epic = 'epic',
+  legendary = 'legendary',
+  mythic = 'mythic'
+}
+
 export enum EsoItemType {
   armor = 'armor',
   jewelry = 'jewelry',
@@ -19,12 +28,14 @@ export enum EsoItemType {
 export enum EsoArmorType {
   heavy = 'heavy',
   light = 'light',
-  medium = 'medium'
+  medium = 'medium',
+  shield = 'shield'
 };
 export const Strings_EsoArmorType = {
   [EsoArmorType.heavy]: 'Heavy',
   [EsoArmorType.light]: 'Light',
-  [EsoArmorType.medium]: 'Medium'
+  [EsoArmorType.medium]: 'Medium',
+  [EsoArmorType.shield]: 'Shield'
 };
 
 export enum EsoWeaponType {

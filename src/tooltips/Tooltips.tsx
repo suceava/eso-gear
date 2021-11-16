@@ -4,6 +4,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
 import {
+  EsoArmorType,
   EsoItem,
   EsoItemType,
   EsoSet,
@@ -69,7 +70,7 @@ function getItemTypeString(item: EsoItem) {
   }
   if (item.slot === EsoSlot.offHand) {
     // odd one out - the shield
-    return 'Shield';
+    return Strings_EsoArmorType[EsoArmorType.shield];
   }
   // use slot name
   return Strings_EsoSlot[item.slot];
@@ -79,7 +80,7 @@ function getItemSubTypeString(item: EsoItem) {
     // jewelry doesn't have subtypes
     return null;
   }
-  if (item.itemType === EsoItemType.weapons || (item.itemType === EsoItemType.armor && !item.armorType)) {
+  if (item.itemType === EsoItemType.weapons || (item.itemType === EsoItemType.armor && item.armorType === EsoArmorType.shield)) {
     // weapons or shield => use slot name
     return Strings_EsoSlot[item.slot];
   }

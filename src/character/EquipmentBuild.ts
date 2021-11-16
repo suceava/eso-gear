@@ -145,6 +145,7 @@ export class EquipmentBuild {
       return;
     }
 
+    // validate item is being equipped to a valid slot
     const itemSlot = equipmentSlotToEsoSlot(slot);
     if (itemSlot instanceof Array) {
       if (!itemSlot.includes(item.slot)) {
@@ -161,19 +162,18 @@ export class EquipmentBuild {
     if (item.slot === EsoSlot.twoHands) {
       // clear out off hand slot
       delete this.items[slot === EquipmentSlot.mainHand1 ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2];
-    }
-    if (slot === EquipmentSlot.offHand1 && 
+    } else if (slot === EquipmentSlot.offHand1 && 
       this.items[EquipmentSlot.mainHand1] && 
       this.items[EquipmentSlot.mainHand1]?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
       delete this.items[EquipmentSlot.mainHand1];
-    }
-    if (slot === EquipmentSlot.offHand2 && 
+    } else if (slot === EquipmentSlot.offHand2 && 
       this.items[EquipmentSlot.mainHand2] && 
       this.items[EquipmentSlot.mainHand2]?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
       delete this.items[EquipmentSlot.mainHand2];
     }
+
     this.items[slot] = item;
   }
 
