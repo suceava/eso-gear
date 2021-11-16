@@ -2257,7 +2257,7 @@ const ESO_SETS = [
     "name": "Alessian Order",
     "type": "PvP",
     "link": "https://eso-hub.com/en/sets/alessian-order",
-    "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span><br><span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span><br><span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span><br><span class=\"set-bonus\">(5 items)</span> Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320.\n\nCurrent Bonus Health Recovery: 0.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> Adds <span class=\"health\">1487 Armor</span><br><span class=\"set-bonus\">(3 items)</span> Adds <span class=\"health\">1487 Armor</span><br><span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span><br><span class=\"set-bonus\">(5 items)</span> Increase your <span class=\"health\">Health Recovery by 2%</span> of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320.\n\nCurrent Bonus Health Recovery: 0.<br>",
     "bonuses": {
       "2": {
         "description": "Adds 1487 Armor",
@@ -2281,7 +2281,7 @@ const ESO_SETS = [
         "htmlDescription": "<span class=\"set-bonus\">(4 items)</span> Adds <span class=\"health\">1206 Maximum Health</span>"
       },
       "5": {
-        "description": "Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320. Current Bonus Health Recovery: 0.",
+        "description": "Increase your <span class=\"health\">Health Recovery by 2%</span> of your sum total Physical Resistance and Spell Resistance, up to a maximum of 1320. Current Bonus Health Recovery: 0.",
         "stats": {
           "healthRecovery": null,
           "spellResistance": null,
@@ -10120,14 +10120,14 @@ const ESO_SETS = [
     "name": "Belharza's Band",
     "type": "Mythic",
     "link": "https://eso-hub.com/en/sets/belharzas-band",
-    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your Light Attacks by 1185.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your <span class=\"physical-damage\">Light Attacks by 1185</span>.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of <span class=\"buff\">Belharza's Temper</span> for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.<br>",
     "bonuses": {
       "1": {
         "description": "Increase the damage of your Light Attacks by 1185. When you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal 1471 Physical Damage to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage.",
         "stats": {
           "spellDamage": null
         },
-        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your Light Attacks by 1185.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Increase the damage of your <span class=\"physical-damage\">Light Attacks by 1185</span>.\n\nWhen you deal damage with consecutive melee Light Attacks, gain a stack of Belharza's Temper for 10 seconds, up to 5 stacks max. At 5 stacks, consume Belharza's Temper and after a 1 second delay, deal <span class=\"physical-damage\">1471 Physical Damage</span> to enemies in a line and stun them for 3 seconds. This effect can occur once every 10 seconds and scales off the higher of your Weapon or Spell Damage."
       }
     },
     "dlc": "Deadlands",
@@ -14155,11 +14155,11 @@ const ESO_SETS = [
     "name": "Chaotic Whirlwind",
     "type": "Trial",
     "link": "https://eso-hub.com/en/sets/chaotic-whirlwind",
-    "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you gain a stack of <span class=\"buff\">Chaotic Whirlwind</span> for 5 seconds, granting you 5% Movement Speed per stack, up to a maximum of 5 times. While Chaotic Whirlwind is active, you gain <psan class=\"stamina\">6 Weapon</span> and <span class=\"magicka\">Spell Damage</spell> for every 1% bonus Movement Speed you have, up to a maximum of 450. At 5 stacks, the duration doubles but cannot be refreshed.<br>",
     "bonuses": {
       "2": {
-        "description": "When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for 2675 Physical Damage. This effect can occur once every 10 seconds.",
-        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you envelop yourself in a destructive flurry of blades for 6 seconds that pulse outward, striking up to 3 random enemies within a 5 meter radius every 1 second for <span class=\"physical-damage\">2675 Physical Damage</span>.  \n\nThis effect can occur once every 10 seconds."
+        "description": "When you cast Whirlwind, you gain a stack of Chaotic Whirlwind for 5 seconds, granting you 5% Movement Speed per stack, up to a maximum of 5 times. While Chaotic Whirlwind is active, you gain 6 Weapon and Spell Damage for every 1% bonus Movement Speed you have, up to a maximum of 450. At 5 stacks, the duration doubles but cannot be refreshed.",
+        "htmlDescription": "<span class=\"set-bonus\">(2 items)</span> When you cast Whirlwind, you gain a stack of <span class=\"buff\">Chaotic Whirlwind</span> for 5 seconds, granting you 5% Movement Speed per stack, up to a maximum of 5 times. While Chaotic Whirlwind is active, you gain <psan class=\"stamina\">6 Weapon</span> and <span class=\"magicka\">Spell Damage</spell> for every 1% bonus Movement Speed you have, up to a maximum of 450. At 5 stacks, the duration doubles but cannot be refreshed."
       }
     },
     "dlc": "Clockwork City",
@@ -21024,14 +21024,14 @@ const ESO_SETS = [
     "name": "Death Dealer's Fete",
     "type": "Mythic",
     "link": "https://eso-hub.com/en/sets/death-dealers-fete",
-    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of <span class=\"buff\">Escalating Fete</span> every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat.<br>",
     "bonuses": {
       "1": {
         "description": "Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat.",
         "stats": {
           "maximumStamina": null
         },
-        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of Escalating Fete every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat."
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Gain a persistent stack of <span class=\"buff\">Escalating Fete</span> every 2 seconds you are in combat, up to 30 stacks max. Each stack of Escalating Fete increases your Maximum Stamina, Health, and Magicka by 88. You lose a stack of Escalating Fete every 4 seconds you are out of combat."
       }
     },
     "dlc": "Blackwood",
@@ -36840,14 +36840,14 @@ const ESO_SETS = [
     "name": "Harpooner's Wading Kilt",
     "type": "Mythic",
     "link": "https://eso-hub.com/en/sets/harpooners-wading-kilt",
-    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of <span class=\"buff\">Hunter's Focus</span> for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus.<br>",
     "bonuses": {
       "1": {
         "description": "Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. Taking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus.",
         "stats": {
           "criticalChance": null
         },
-        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of Hunter's Focus for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus."
+        "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Dealing direct damage grants you a stack of <span class=\"buff\">Hunter's Focus</span> for 1 minute, up to 10 stacks max. You can only gain 1 stack of Hunter's Focus per second. Each stack of Hunter's Focus increases your Critical Chance by 125 and your Critical Damage by 1%. \n\nTaking direct damage removes 5 stacks of Hunter's Focus, up to once per second. Removing Harpooner's Wading Kilt removes all stacks of Hunter's Focus."
       }
     },
     "dlc": "Blackwood",
@@ -95047,7 +95047,7 @@ const ESO_SETS = [
     "name": "Thrassian Stranglers",
     "type": "Mythic",
     "link": "https://eso-hub.com/en/sets/thrassian-stranglers",
-    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Killing an enemy grants you a stack of Sload's Call for 1 hour, up to a maximum of 50 stacks. Each stack increases your Weapon and <span class=\"magicka\">Spell Damage by 23</span>, reduces your Maximum Health by 120, and reduces effectiveness of your damage shields by 1%. \n\nSload's Call is lost if you remove Thrassian Stranglers, go invisible, or crouch.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> Killing an enemy grants you a stack of <span class=\"buff\">Sload's Call</span> for 1 hour, up to a maximum of 50 stacks. Each stack increases your Weapon and <span class=\"magicka\">Spell Damage by 23</span>, reduces your Maximum Health by 120, and reduces effectiveness of your damage shields by 1%. \n\nSload's Call is lost if you remove Thrassian Stranglers, go invisible, or crouch.<br>",
     "bonuses": {
       "1": {
         "description": "Killing an enemy grants you a stack of Sload's Call for 1 hour, up to a maximum of 50 stacks. Each stack increases your Weapon and Spell Damage by 23, reduces your Maximum Health by 120, and reduces effectiveness of your damage shields by 1%. Sload's Call is lost if you remove Thrassian Stranglers, go invisible, or crouch.",
@@ -96543,7 +96543,7 @@ const ESO_SETS = [
     "name": "Torc of Tonal Constancy",
     "type": "Mythic",
     "link": "https://eso-hub.com/en/sets/torc-of-tonal-constancy",
-    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While your Stamina is less than 50%, increase your Magicka Recovery by 450. While your Magicka is less than 50%, increase your Stamina Recovery by 450.<br>",
+    "htmlDescription": "<span class=\"set-bonus\">(1 item)</span> While your Stamina is less than 50%, increase your <span class=\"magicka\">Magicka Recovery by 450</span>. While your Magicka is less than 50%, increase your Stamina Recovery by 450.<br>",
     "bonuses": {
       "1": {
         "description": "While your Stamina is less than 50%, increase your Magicka Recovery by 450. While your Magicka is less than 50%, increase your Stamina Recovery by 450.",

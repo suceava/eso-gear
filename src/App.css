@@ -105,7 +105,8 @@ hr {
 .set-bonus {
   color: #c5c29e;
 }
-.health {
+.health,
+.physical-damage {
   color: #c33331;
 }
 .stamina {
@@ -116,6 +117,9 @@ hr {
 }
 .buff {
   color: #c69510;
+}
+.disease-damage {
+  color: #2dc50e;
 }
 
 .App {
