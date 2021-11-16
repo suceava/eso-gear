@@ -30,7 +30,7 @@ const getItemTypeString = (item?: EsoItem): string => {
     case EsoItemType.armor:
       return item.armorType ? Strings_EsoArmorType[item.armorType] : '';
 
-    case EsoItemType.weapons:
+    case EsoItemType.weapon:
       return item.weaponType ? Strings_EsoWeaponType[item.weaponType] : '';
 
     default:

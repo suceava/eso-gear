@@ -54,7 +54,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
     if (subFilter !== InventorySubFilterType.all) {
       switch (subFilter) {
         case InventorySubFilterType.oneHanded:
-          if (item.itemType !== EsoItemType.weapons || (
+          if (item.itemType !== EsoItemType.weapon || (
             item.weaponType !== EsoWeaponType.axe &&
             item.weaponType !== EsoWeaponType.dagger &&
             item.weaponType !== EsoWeaponType.mace &&
@@ -64,7 +64,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
           }
           break;
         case InventorySubFilterType.twoHanded:
-          if (item.itemType !== EsoItemType.weapons || (
+          if (item.itemType !== EsoItemType.weapon || (
             item.weaponType !== EsoWeaponType.battleAxe &&
             item.weaponType !== EsoWeaponType.greatsword &&
             item.weaponType !== EsoWeaponType.maul)
@@ -73,12 +73,12 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
           }
         break;
         case InventorySubFilterType.bow:
-          if (item.itemType !== EsoItemType.weapons || item.weaponType !== EsoWeaponType.bow) {
+          if (item.itemType !== EsoItemType.weapon || item.weaponType !== EsoWeaponType.bow) {
             return false;
           }
           break;
         case InventorySubFilterType.destructionStaff:
-          if (item.itemType !== EsoItemType.weapons || (
+          if (item.itemType !== EsoItemType.weapon || (
               item.weaponType !== EsoWeaponType.infernoStaff &&
               item.weaponType !== EsoWeaponType.iceStaff &&
               item.weaponType !== EsoWeaponType.lightningStaff)
@@ -87,7 +87,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
           }
           break;
         case InventorySubFilterType.healingStaff:
-          if (item.itemType !== EsoItemType.weapons || item.weaponType !== EsoWeaponType.restorationStaff) {
+          if (item.itemType !== EsoItemType.weapon || item.weaponType !== EsoWeaponType.restorationStaff) {
             return false;
           }
           break;

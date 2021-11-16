@@ -64,7 +64,7 @@ export function ItemSetTooltip(props: { set: EsoSet, children: any }) {
 }
 
 function getItemTypeString(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     // weapons => use weapon type
     return item.weaponType? Strings_EsoWeaponType[item.weaponType] : '';
   }
@@ -80,7 +80,7 @@ function getItemSubTypeString(item: EsoItem) {
     // jewelry doesn't have subtypes
     return null;
   }
-  if (item.itemType === EsoItemType.weapons || (item.itemType === EsoItemType.armor && item.armorType === EsoArmorType.shield)) {
+  if (item.itemType === EsoItemType.weapon || (item.itemType === EsoItemType.armor && item.armorType === EsoArmorType.shield)) {
     // weapons or shield => use slot name
     return Strings_EsoSlot[item.slot];
   }
@@ -88,7 +88,7 @@ function getItemSubTypeString(item: EsoItem) {
   return item.armorType ? Strings_EsoArmorType[item.armorType] : '';
 }
 function getItemStatString(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     return 'DAMAGE';
   }
   if (item.itemType === EsoItemType.armor) {
@@ -97,7 +97,7 @@ function getItemStatString(item: EsoItem) {
   return '';
 }
 function getItemStatValue(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     return '0';
   }
   if (item.itemType === EsoItemType.armor) {

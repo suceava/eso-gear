@@ -22,7 +22,7 @@ export enum EsoItemRarity {
 export enum EsoItemType {
   armor = 'armor',
   jewelry = 'jewelry',
-  weapons = 'weapons'
+  weapon = 'weapon'
 };
 
 export enum EsoArmorType {

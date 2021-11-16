@@ -434,6 +434,16 @@ const addShieldArmorType = () => {
   });
 }
 
+const fixWeaponItemType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (i.itemType === 'weapons') {
+        i.itemType = 'weapon';
+      }
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -449,6 +459,7 @@ const updateData = async () => {
   // sortItems(); // DONE
   // addItemRarity(); // DONE
   // addShieldArmorType(); // DONE
+  fixWeaponItemType();
 
   // write to file
   const content = 'const ESO_SETS = ' +

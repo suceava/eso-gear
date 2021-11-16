@@ -225,7 +225,7 @@ export class EquipmentBuild {
       }
       count++;
       // 2 handed weapons are counted as two bonuses
-      if (item?.itemType === EsoItemType.weapons && item?.slot === EsoSlot.twoHands) {
+      if (item?.itemType === EsoItemType.weapon && item?.slot === EsoSlot.twoHands) {
         count++;
       }
     });
@@ -259,7 +259,7 @@ export class EquipmentBuild {
         sets.set(set, 1);
       } else {
         // increment
-        const inc = (item.itemType === EsoItemType.weapons && item.slot === EsoSlot.twoHands) ? 2 : 1;
+        const inc = (item.itemType === EsoItemType.weapon && item.slot === EsoSlot.twoHands) ? 2 : 1;
         sets.set(set, (sets.get(set) || 0) + inc);
       }
     });
