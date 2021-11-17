@@ -1,6 +1,7 @@
 import {
   EsoBonusStats,
   EsoItem,
+  EsoItemEnchantment,
   EsoItemRarity,
   EsoItemType,
   EsoSet,
@@ -27,22 +28,6 @@ export enum EquipmentSlot {
   mainHand2 = 'mainHand2',
   offHand2 = 'offHand2'
 }
-export const Strings_EquipmentSlot = {
-  [EquipmentSlot.head]: 'Head',
-  [EquipmentSlot.shoulders]: 'Shoulders',
-  [EquipmentSlot.chest]: 'Chest',
-  [EquipmentSlot.legs]: 'Legs',
-  [EquipmentSlot.hands]: 'Hands',
-  [EquipmentSlot.feet]: 'Feet',
-  [EquipmentSlot.waist]: 'Waist',
-  [EquipmentSlot.neck]: 'Neck',
-  [EquipmentSlot.ring1]: 'Ring 1',
-  [EquipmentSlot.ring2]: 'Ring 2',
-  [EquipmentSlot.mainHand1]: 'Main Hand 1',
-  [EquipmentSlot.offHand1]: 'Off Hand 1',
-  [EquipmentSlot.mainHand2]: 'Main Hand 2',
-  [EquipmentSlot.offHand2]: 'Off Hand 2'
-};
 
 // convert EquipmentSlot to EsoSlot
 export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | EsoSlot[] => {
@@ -105,31 +90,45 @@ export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot, isMainWeaponSet: boolea
 };
 
 type EquipmentBuildSlot = {
-  [key in EquipmentSlot]?: EsoItem;
+  item: EsoItem;
+  itemEnchantment?: {
+    enchantment: EsoItemEnchantment;
+    values: number[];
+  };
+  armor?: number;
+  damage?: number;
 }
-
-export interface EquipmentSet {
-  set: EsoSet;
-  bonusCount: number;
+type EquipmentBuildItems = {
+  [key in EquipmentSlot]?: EquipmentBuildSlot;
 }
 
 export class EquipmentBuild {
+  private items: EquipmentBuildItems;
   name: string;
-  items: EquipmentBuildSlot;
   isMainWeaponSetActive: boolean;
 
-  constructor(name = 'New Build', items = {} as EquipmentBuildSlot, isMainWeaponSetActive: boolean = true) {
+  constructor(name = 'New Build', items = {} as EquipmentBuildItems, isMainWeaponSetActive: boolean = true) {
     this.name = name;
     this.items = items;
     this.isMainWeaponSetActive = isMainWeaponSetActive;
   }
 
   static fromPlainBuild(build: EquipmentBuild): EquipmentBuild {
-    return new EquipmentBuild(build.name, build.items, build.isMainWeaponSetActive);
+    // check for old structure
+    let itemList = build.items;
+    if (itemList) {
+      const item = Object.values(itemList)[0] as any;
+      if (item.id) {
+        // old structure => clear it out
+        itemList = {};
+      }
+    }
+    
+    return new EquipmentBuild(build.name, itemList, build.isMainWeaponSetActive);
   }
 
   static fromHash(hash: string): EquipmentBuild {
-    const buildItems = {} as EquipmentBuildSlot;
+    const buildItems = {} as EquipmentBuildItems;
     hash.split('_').forEach((itemId, index) => {
       if (!itemId) {
         return;
@@ -137,21 +136,33 @@ export class EquipmentBuild {
       const slot = Object.keys(EquipmentSlot)[index] as EquipmentSlot;
       const item = getEsoItemById(parseInt(itemId));
       if (item) {
-        buildItems[slot] = item;
+        buildItems[slot] = { item };
       }
     });
     return new EquipmentBuild('New Build', buildItems);
   }
 
   public toHash(): string {
-    const buildItems = this.items;
     const hashArray = Object.keys(EquipmentSlot).map(key => {
       const enumKey = key as EquipmentSlot;
-      return buildItems[enumKey]?.id;
+      const buildItem = this.getEquipmentItem(enumKey);
+      if (!buildItem) {
+        return '';
+      }
+      console.log(buildItem);
+      return buildItem.item.id;
     });
     const itemsHash = hashArray.join('_');
 
     return itemsHash;
+  }
+
+  public getEquipmentItem(slot: EquipmentSlot): EquipmentBuildSlot | undefined {
+    return this.items[slot];
+  }
+  public getEsoItem(slot: EquipmentSlot): EsoItem | undefined {
+    const item = this.items[slot];
+    return item?.item;
   }
 
   public equip(item: EsoItem, slot: EquipmentSlot): void {
@@ -178,12 +189,12 @@ export class EquipmentBuild {
       delete this.items[slot === EquipmentSlot.mainHand1 ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2];
     } else if (slot === EquipmentSlot.offHand1 && 
       this.items[EquipmentSlot.mainHand1] && 
-      this.items[EquipmentSlot.mainHand1]?.slot === EsoSlot.twoHands) {
+      this.items[EquipmentSlot.mainHand1]?.item.slot === EsoSlot.twoHands) {
       // clear out main hand slot
       delete this.items[EquipmentSlot.mainHand1];
     } else if (slot === EquipmentSlot.offHand2 && 
       this.items[EquipmentSlot.mainHand2] && 
-      this.items[EquipmentSlot.mainHand2]?.slot === EsoSlot.twoHands) {
+      this.items[EquipmentSlot.mainHand2]?.item.slot === EsoSlot.twoHands) {
       // clear out main hand slot
       delete this.items[EquipmentSlot.mainHand2];
     }
@@ -191,13 +202,13 @@ export class EquipmentBuild {
       // only one mythic item allowed
       Object.keys(this.items).forEach(key => {
         const enumKey = key as EquipmentSlot;
-        if (this.items[enumKey]?.rarity === EsoItemRarity.mythic) {
+        if (this.items[enumKey]?.item.rarity === EsoItemRarity.mythic) {
           delete this.items[enumKey];
         }
       });
     }
 
-    this.items[slot] = item;
+    this.items[slot] = { item };
   }
 
   public unequip(slot: EquipmentSlot): void {
@@ -213,7 +224,7 @@ export class EquipmentBuild {
     let count = 0;
     Object.keys(this.items).forEach(key => {
       const slotKey = key as EquipmentSlot;
-      const item = this.items[slotKey];
+      const item = this.getEsoItem(slotKey);
       if (item?.setName !== setName) {
         return;
       }
@@ -237,7 +248,7 @@ export class EquipmentBuild {
     const sets = new Map<EsoSet, number>();
     Object.keys(this.items).forEach(key => {
       const slotKey = key as EquipmentSlot;
-      const item = this.items[slotKey];
+      const item = this.getEsoItem(slotKey);
       if (!item) {
         return;
       }

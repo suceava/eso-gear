@@ -188,7 +188,6 @@ export type EsoItem = {
   // overridden on build
   rarity: EsoItemRarity;
   enchantment: EsoItemEnchantment;
-  trait?: string | undefined;
 };
 
 export type EsoLocation = {

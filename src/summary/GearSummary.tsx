@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
 import { 
   EquipmentBuild,
-  EquipmentSlot,
-  Strings_EquipmentSlot
+  EquipmentSlot
 } from "../character/EquipmentBuild";
 import { 
   EsoItemType,
@@ -15,6 +14,7 @@ import {
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { Strings_EsoItemEnchantment } from '../strings/enchantments';
+import { Strings_EquipmentSlot } from '../strings/equipment';
 import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
 
 export interface GearSummaryProps {
@@ -55,7 +55,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
       {
         Object.keys(EquipmentSlot).map(key => {
           const enumKey = key as EquipmentSlot;
-          const item = build.items[enumKey];
+          const item = build.getEsoItem(enumKey);
           const set = item ? getEsoSetByName(item.setName) : undefined;
 
           const className = `align-items-center summary-table-row ${showItem ? 'cozy' : 'compact'}`;

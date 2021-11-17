@@ -105,7 +105,7 @@ function getItemStatValue(item: EsoItem) {
   if (item.itemType === EsoItemType.weapon) {
     return '0';
   }
-  if (item.itemType === EsoItemType.armor) {
+  if (item.itemType === EsoItemType.armor && item.armorType && item.armorType !== EsoArmorType.shield) {
     return ESO_ITEM_STATS[EsoItemType.armor][item.slot][item.armorType].armor;
   }
   return '';
@@ -117,7 +117,7 @@ function getItemEnchantmentDescription(item: EsoItem) {
     if (item.enchantment === EsoItemEnchantment.multiEffect) {
       return "eek";
     } else {
-      values.push(ESO_ITEM_STATS[EsoItemType.armor][item.slot][armorType][item.enchantment]);
+      values.push(ESO_ITEM_STATS[EsoItemType.armor][item.slot][armorType]['maximumHealth']);
     }
   }
   return getEsoItemEnchantmentDescription(item.enchantment, values);

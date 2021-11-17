@@ -27,5 +27,5 @@ const Strings_EsoItemEnchantment_Description = {
 };
 
 export function getEsoItemEnchantmentDescription(enchantment: EsoItemEnchantment, values: number[]): string {
-  return Strings_EsoItemEnchantment_Description[enchantment].replace(/{(\d+)}/g, (match, number) => values[number].toString());
+  return Strings_EsoItemEnchantment_Description[enchantment].replace(/{(\d+)}/g, (match, number) => (values[number] || 0).toString());
 };
