@@ -14,6 +14,7 @@ import {
   Strings_EsoWeaponType
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
+import { Strings_EsoItemEnchantment } from '../strings/enchantments';
 import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
 
 export interface GearSummaryProps {
@@ -83,7 +84,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
               </Col>
               <Col>{getItemTypeString(item)}</Col>
               <Col></Col>
-              <Col></Col>
+              <Col>{item ? Strings_EsoItemEnchantment[item.enchantment] : ''}</Col>
             </Row>
           );
         })

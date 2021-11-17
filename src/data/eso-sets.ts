@@ -174,18 +174,6 @@ export enum EsoItemEnchantment {
   absorbStamina = 'absorbStamina',
   multiEffect = 'multiEffect'
 };
-export const Strings_EsoItemEnchantment = {
-  [EsoItemEnchantment.maximumHealth]: 'Maximum Health',
-  [EsoItemEnchantment.maximumMagicka]: 'Maximum Magicka',
-  [EsoItemEnchantment.maximumStamina]: 'Maximum Stamina',
-  [EsoItemEnchantment.healthRecovery]: 'Health Recovery',
-  [EsoItemEnchantment.magickaRecovery]: 'Magicka Recovery',
-  [EsoItemEnchantment.staminaRecovery]: 'Stamina Recovery',
-  [EsoItemEnchantment.lifeDrain]: 'Life Drain',
-  [EsoItemEnchantment.absorbMagicka]: 'Absorb Magicka',
-  [EsoItemEnchantment.absorbStamina]: 'Absorb Stamina',
-  [EsoItemEnchantment.multiEffect]: 'Multi-Effect'
-};
 
 export type EsoItem = {
   id: number;

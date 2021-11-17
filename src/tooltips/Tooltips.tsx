@@ -3,9 +3,11 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
+import { loadEsoItemStatsData } from '../data/esoItemStatsDataLoader';
 import {
   EsoArmorType,
   EsoItem,
+  EsoItemEnchantment,
   EsoItemType,
   EsoSet,
   EsoSetBonus,
@@ -13,10 +15,10 @@ import {
   EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
-  Strings_EsoItemEnchantment,
   Strings_EsoSlot,
   Strings_EsoWeaponType
 } from '../data/eso-sets';
+import { Strings_EsoItemEnchantment, getEsoItemEnchantmentDescription } from '../strings/enchantments';
 
 import './Tooltips.css';
 
@@ -30,6 +32,8 @@ const popperConfig = {
     }
   ]
 }
+
+const ESO_ITEM_STATS = loadEsoItemStatsData();
 
 export function ItemSetTooltip(props: { set: EsoSet, children: any }) {
   const { set } = props;
@@ -102,9 +106,21 @@ function getItemStatValue(item: EsoItem) {
     return '0';
   }
   if (item.itemType === EsoItemType.armor) {
-    return '0';
+    return ESO_ITEM_STATS[EsoItemType.armor][item.slot][item.armorType].armor;
   }
   return '';
+}
+function getItemEnchantmentDescription(item: EsoItem) {
+  const values = [];
+  if (item.itemType === EsoItemType.armor && item.armorType && item.armorType !== EsoArmorType.shield) {
+    const armorType = item.armorType;
+    if (item.enchantment === EsoItemEnchantment.multiEffect) {
+      return "eek";
+    } else {
+      values.push(ESO_ITEM_STATS[EsoItemType.armor][item.slot][armorType][item.enchantment]);
+    }
+  }
+  return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 
 function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
@@ -112,6 +128,7 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
   const setBonusCount = set ? set.bonusCount : 0;
   const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
+
 
   return (
     <div className='tooltip-item'>
@@ -130,8 +147,9 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
         <div>LEVEL <span>50</span></div>
         <div>CP <span>160</span></div>
       </div>
-      <h3>{Strings_EsoItemEnchantment[item.enchantment]}</h3>
-      <div className='tooltip-enchantment'></div>
+      <h3>{Strings_EsoItemEnchantment[item.enchantment]} Enchantment</h3>
+      <div className='tooltip-enchantment' dangerouslySetInnerHTML={{ __html: getItemEnchantmentDescription(item) }}></div>
+      <br/>
       <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
         set && Object.keys(set.bonuses).map(key => {

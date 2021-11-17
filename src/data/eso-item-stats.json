@@ -1,0 +1,144 @@
+{
+  "armor": {
+    "head": {
+      "light": {
+        "armor": 1221,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "medium": {
+        "armor": 1823,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "heavy": {
+        "armor": 2425,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      }
+    },
+    "shoulders": {
+      "light": {
+        "armor": 1221,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "medium": {
+        "armor": 1823,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "heavy": {
+        "armor": 2425,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      }
+    },
+    "chest": {
+      "light": {
+        "armor": 1396,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "medium": {
+        "armor": 2084,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "heavy": {
+        "armor": 2772,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      }
+    },
+    "hands": {
+      "light": {
+        "armor": 698,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "medium": {
+        "armor": 1042,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "heavy": {
+        "armor": 1386,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      }
+    },
+    "waist": {
+      "light": {
+        "armor": 523,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "medium": {
+        "armor": 781,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "heavy": {
+        "armor": 1039,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      }
+    },
+    "legs": {
+      "light": {
+        "armor": 1221,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "medium": {
+        "armor": 1823,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      },
+      "heavy": {
+        "armor": 2425,
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
+      }
+    },
+    "feet": {
+      "light": {
+        "armor": 1221,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "medium": {
+        "armor": 1823,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      },
+      "heavy": {
+        "armor": 2425,
+        "maximumHealth": 386,
+        "maximumMagicka": 351,
+        "maximumStamina": 351
+      }
+    }
+  }
+}
