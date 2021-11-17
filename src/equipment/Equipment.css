@@ -1,5 +1,5 @@
 .Equipment {
-  background-size: 592px 790px, cover;
+  background-size: 592px 785px, cover;
   width: 512px;
 }
 .Equipment hr {
@@ -24,14 +24,21 @@
 .gear-slots-col {
   width: 80px;
 }
-.gear-slots-row-1 div {
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 80px;
-}
+.gear-slots-row-1 div,
+.gear-slots-row-2 div,
 .gear-slots-row-3 {
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 4px;
+  margin: 1px;
+}
+.gear-slots-row-1 div {
+  height: 80px;
+}
+.gear-slots-row-2 div {
+  height: 160px;
+}
+.gear-slots-row-3 {
   height: 240px;
 }
 
@@ -42,6 +49,9 @@
 }
 .gear-slot.drop-target {
   background-image: url(../images/gearslot_over2.png);
+}
+.gear-slot-weapon-active {
+  background-color: rgba(31, 53, 54, 0.8);
 }
 
 .gear-slot-chest {
@@ -160,6 +170,22 @@
 .gear-slot-dummy {
   background-image: url(../images/silhouette_human_male.png);
   background-size: 100%;
+}
+
+.gear-slot-weapon-swap {
+  background-image: url(../images/swap_button_up.png);
+  transform: rotate(180deg);
+}
+.gear-slot-weapon-swap:hover {
+  background-image:
+    url(../images/swap_button_up.png),
+    url(../images/swap_button_over.png);
+}
+.gear-slot-weapon-swap:active {
+  transform: rotate(180deg) translate(1px, -1px);
+}
+.gear-slot-weapon-swap span {
+  transform: rotate(180deg) !important;
 }
 
 

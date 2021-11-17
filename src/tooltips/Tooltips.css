@@ -81,3 +81,9 @@
 .tooltip-item-set-bonus-disabled .buff {
   color: #764500;
 }
+.tooltip-item-set-bonus-disabled .disease-damage {
+  color: #007500;
+}
+.tooltip-item-set-bonus-disabled .poison-damage {
+  color: #002e00;
+}

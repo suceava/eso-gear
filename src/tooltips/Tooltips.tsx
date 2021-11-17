@@ -4,6 +4,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
 import {
+  EsoArmorType,
   EsoItem,
   EsoItemType,
   EsoSet,
@@ -12,6 +13,7 @@ import {
   EsoSetType,
   EsoSlot,
   Strings_EsoArmorType,
+  Strings_EsoItemEnchantment,
   Strings_EsoSlot,
   Strings_EsoWeaponType
 } from '../data/eso-sets';
@@ -63,13 +65,13 @@ export function ItemSetTooltip(props: { set: EsoSet, children: any }) {
 }
 
 function getItemTypeString(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     // weapons => use weapon type
     return item.weaponType? Strings_EsoWeaponType[item.weaponType] : '';
   }
   if (item.slot === EsoSlot.offHand) {
     // odd one out - the shield
-    return 'Shield';
+    return Strings_EsoArmorType[EsoArmorType.shield];
   }
   // use slot name
   return Strings_EsoSlot[item.slot];
@@ -79,7 +81,7 @@ function getItemSubTypeString(item: EsoItem) {
     // jewelry doesn't have subtypes
     return null;
   }
-  if (item.itemType === EsoItemType.weapons || (item.itemType === EsoItemType.armor && !item.armorType)) {
+  if (item.itemType === EsoItemType.weapon || (item.itemType === EsoItemType.armor && item.armorType === EsoArmorType.shield)) {
     // weapons or shield => use slot name
     return Strings_EsoSlot[item.slot];
   }
@@ -87,7 +89,7 @@ function getItemSubTypeString(item: EsoItem) {
   return item.armorType ? Strings_EsoArmorType[item.armorType] : '';
 }
 function getItemStatString(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     return 'DAMAGE';
   }
   if (item.itemType === EsoItemType.armor) {
@@ -96,7 +98,7 @@ function getItemStatString(item: EsoItem) {
   return '';
 }
 function getItemStatValue(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapons) {
+  if (item.itemType === EsoItemType.weapon) {
     return '0';
   }
   if (item.itemType === EsoItemType.armor) {
@@ -108,7 +110,8 @@ function getItemStatValue(item: EsoItem) {
 function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
   const { build, item, set } = props;
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
-  const itemsInSet = build ? build.countBySet(item.setName) : 0;
+  const setBonusCount = set ? set.bonusCount : 0;
+  const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
 
   return (
     <div className='tooltip-item'>
@@ -127,7 +130,9 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
         <div>LEVEL <span>50</span></div>
         <div>CP <span>160</span></div>
       </div>
-      <h3>{`Part of the ${item.setName} set (${itemsInSet}/${set ? set.bonusCount : 0})`}</h3>
+      <h3>{Strings_EsoItemEnchantment[item.enchantment]}</h3>
+      <div className='tooltip-enchantment'></div>
+      <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
         set && Object.keys(set.bonuses).map(key => {
           const bonusKey = key as EsoSetBonusKey;

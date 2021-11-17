@@ -412,6 +412,112 @@ const sortItems = () => {
   });
 }
 
+const addItemRarity = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (s.type === 'Mythic') {
+        i.rarity = 'mythic';
+      } else {
+        i.rarity = 'legendary';
+      }
+    });
+  });
+}
+
+const addShieldArmorType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (i.itemType === 'armor' && i.slot === 'offHand') {
+        i.armorType = 'shield';
+      }
+    });
+  });
+}
+
+const fixWeaponItemType = () => {
+  setsList.forEach(s => {
+    s.items.list.forEach(i => {
+      if (i.itemType === 'weapons') {
+        i.itemType = 'weapon';
+      }
+    });
+  });
+}
+
+const addItemEnchantment = () => {
+  setsList.forEach(s => {
+    if (s.items.list[0].itemType !== 'armor') {
+      console.log(`No armor set: ${s.name}`);
+      return;
+    }
+    let setArmorType = s.items.list[0].armorType;
+    // see if there are multiple armor types
+    if (s.items.list.some(i => i.itemType === 'armor' && i.armorType !== setArmorType && i.armorType !== 'shield')) {
+      // default jewelry and weapon to heavy stats
+      setArmorType = 'heavy';
+    }
+
+    s.items.list.forEach(i => {
+      if (i.itemType === 'armor') {
+        switch (i.armorType) {
+          case 'shield':
+            i.enchantment = 'maximumStamina';
+            return;
+          case 'light':
+            i.enchantment = 'maximumMagicka';
+            return;
+          case 'medium':
+            delete i.enchantement;
+            i.enchantment = 'maximumStamina';
+            return;
+          case 'heavy':
+            i.enchantment = 'maximumHealth';
+            return;
+        }
+      }
+      if (i.itemType === 'jewelry') {
+        switch (setArmorType) {
+          case 'light':
+            i.enchantment = 'magickaRecovery';
+            return;
+          case 'medium':
+            i.enchantment = 'staminaRecovery';
+            return;
+          case 'heavy':
+            i.enchantment = 'healthRecovery';
+            return;
+        }
+      }
+      // weapons
+      switch (setArmorType) {
+        case 'light':
+          i.enchantment = 'absorbMagicka';
+          return;
+        case 'medium':
+          i.enchantment = 'absorbStamina';
+          return;
+        case 'heavy':
+          i.enchantment = 'lifeDrain';
+          return;
+      }
+    });
+  });
+}
+
+const validateData = () => {
+  setsList.forEach(s => {
+    if (s.type === 'Unknown') {
+      console.log(`Unknown set: ${s.name}`);
+      return;
+    }
+    s.items.list.forEach(i => {
+      if (!i.enchantment) {
+        console.error(`No enchantment - ${s.name} - ${i.name}`);
+      }
+    });
+  });
+}
+
 const updateData = async () => {
   // fixImagePaths();  // DONE
   // fixHtmlDescription();  // DONE
@@ -425,6 +531,12 @@ const updateData = async () => {
   // addSetBonusCount(); // DONE
   // splitHtmlDescription(); // DONE
   // sortItems(); // DONE
+  // addItemRarity(); // DONE
+  // addShieldArmorType(); // DONE
+  // fixWeaponItemType(); // DONE
+  addItemEnchantment(); // DONE
+
+  validateData();
 
   // write to file
   const content = 'const ESO_SETS = ' +

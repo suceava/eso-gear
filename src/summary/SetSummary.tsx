@@ -34,7 +34,7 @@ export function SetSummary({ build }: SetSummaryProps) {
                   <span className={set.type === EsoSetType.mythic ? 'item-mythic' : 'item-legendary'}>{set.name}</span>
                 </a>
               </ItemSetTooltip>
-              <div className='set-summary-bonus-count'>({setsMap.get(set)}/{set.bonusCount})</div>
+              <div className='set-summary-bonus-count'>({Math.min(setsMap.get(set) || 0, set.bonusCount)}/{set.bonusCount})</div>
             </Col>
             <Col lg={5}>
               {

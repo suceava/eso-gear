@@ -24,6 +24,13 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
     },
     [build, buildOnChange]
   );
+  const onToggleWeaponSet = useCallback(
+    () => {
+      build.toggleWeaponSet();
+      buildOnChange(build);
+    },
+    [build, buildOnChange]
+  );
 
   return (
     <div className="equipment-gear">
@@ -187,11 +194,10 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
           </div>
         </div>
         <div className='gear-slots-col'>
-          <div className='gear-slots-row-1'>
-            <div className='gear-slot-empty'></div>
-          </div>
-          <div className='gear-slots-row-1'>
-            <div className='gear-slot-empty'></div>
+          <div className='gear-slots-row-2'>
+            <div className='gear-slot-weapon-swap gear-slot' onClick={onToggleWeaponSet}>
+              <span>{build.isMainWeaponSetActive ? 1 : 2}</span>
+            </div>
           </div>
         </div>
       </div>
