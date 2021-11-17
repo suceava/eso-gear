@@ -5,7 +5,7 @@ import {
   InventorySettings,
   InventoryFilterType,
   InventorySubFilterType
-} from './InventorySettings';
+} from './inventorySettings';
 import { useStickyState } from '../stickyState';
 import { EquipmentBuild } from '../character/EquipmentBuild';
 

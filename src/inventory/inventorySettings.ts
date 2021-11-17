@@ -1,3 +1,5 @@
+import { EsoItemType } from '../data/eso-sets';
+
 export enum InventoryFilterType {
   all = 'all',
   weapons = 'weapons',
@@ -67,6 +69,19 @@ const filterSubFilterMap = {
     InventorySubFilterType.ring,
     InventorySubFilterType.neck
   ]
+};
+
+export const inventoryFitlerTypeToEsoItemType = (inventoryFilterType: InventoryFilterType): EsoItemType | EsoItemType[] => {
+  switch (inventoryFilterType) {
+    case InventoryFilterType.all:
+      return [EsoItemType.weapon, EsoItemType.armor, EsoItemType.jewelry];
+    case InventoryFilterType.weapons:
+      return EsoItemType.weapon;
+    case InventoryFilterType.armor:
+      return EsoItemType.armor;
+    case InventoryFilterType.jewelry:
+      return EsoItemType.jewelry;
+  }
 };
 
 export const isSubFilterOfFilterType = (filterType: InventoryFilterType, subFilterType: InventorySubFilterType) => {

@@ -1,6 +1,8 @@
 import {
+  EsoArmorType,
   EsoBonusStats,
   EsoItem,
+  EsoItemEnchantment,
   EsoItemRarity,
   EsoItemType,
   EsoSet,
@@ -9,6 +11,7 @@ import {
   EsoSlot,
   EsoStat
 } from '../data/eso-sets';
+import { getArmorStats } from '../data/esoItemStatsDataLoader';
 import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
 
 export enum EquipmentSlot {
@@ -27,22 +30,6 @@ export enum EquipmentSlot {
   mainHand2 = 'mainHand2',
   offHand2 = 'offHand2'
 }
-export const Strings_EquipmentSlot = {
-  [EquipmentSlot.head]: 'Head',
-  [EquipmentSlot.shoulders]: 'Shoulders',
-  [EquipmentSlot.chest]: 'Chest',
-  [EquipmentSlot.legs]: 'Legs',
-  [EquipmentSlot.hands]: 'Hands',
-  [EquipmentSlot.feet]: 'Feet',
-  [EquipmentSlot.waist]: 'Waist',
-  [EquipmentSlot.neck]: 'Neck',
-  [EquipmentSlot.ring1]: 'Ring 1',
-  [EquipmentSlot.ring2]: 'Ring 2',
-  [EquipmentSlot.mainHand1]: 'Main Hand 1',
-  [EquipmentSlot.offHand1]: 'Off Hand 1',
-  [EquipmentSlot.mainHand2]: 'Main Hand 2',
-  [EquipmentSlot.offHand2]: 'Off Hand 2'
-};
 
 // convert EquipmentSlot to EsoSlot
 export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | EsoSlot[] => {
@@ -104,32 +91,89 @@ export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot, isMainWeaponSet: boolea
   }
 };
 
-type EquipmentBuildSlot = {
-  [key in EquipmentSlot]?: EsoItem;
+export class EquipmentBuildSlot {
+  equipmentSlot: EquipmentSlot;
+  item?: EsoItem;
+  itemEnchantment?: {
+    enchantment: EsoItemEnchantment;
+    values: number[];
+  };
+  armor?: number;
+  damage?: number;
+
+  constructor(equipmentSlot: EquipmentSlot, item?: EsoItem) {
+    this.equipmentSlot = equipmentSlot;
+    this.setItem(item);
+  }
+
+  public setItem(item?: EsoItem) {
+    this.item = item;
+    this.assignStats();
+  }
+
+  public assignStats() {
+    if (!this.item) {
+      return;
+    }
+
+    if (this.item.itemType === EsoItemType.armor && this.item.armorType) {
+      const armorStats = getArmorStats(this.item.slot, this.item.armorType);
+      this.armor = armorStats ? armorStats.armor : 0;
+    } else if (this.item.itemType === EsoItemType.weapon) {
+      this.damage = 0;
+    }
+  }
+}
+type EquipmentBuildItems = {
+  [key in EquipmentSlot]?: EquipmentBuildSlot;
 }
 
-export interface EquipmentSet {
-  set: EsoSet;
-  bonusCount: number;
-}
-
-export class EquipmentBuild {
+export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
+  private items: EquipmentBuildItems;
   name: string;
-  items: EquipmentBuildSlot;
   isMainWeaponSetActive: boolean;
 
-  constructor(name = 'New Build', items = {} as EquipmentBuildSlot, isMainWeaponSetActive: boolean = true) {
+  constructor(name = 'New Build', items = {} as EquipmentBuildItems, isMainWeaponSetActive: boolean = true) {
     this.name = name;
     this.items = items;
     this.isMainWeaponSetActive = isMainWeaponSetActive;
   }
 
+  public *[Symbol.iterator]() {
+    for (let key of Object.keys(EquipmentSlot)) {
+      const enumKey = key as EquipmentSlot;
+      const item = this.items[enumKey];
+      if (item) {
+        yield item;
+      }
+    }
+  }
+
   static fromPlainBuild(build: EquipmentBuild): EquipmentBuild {
-    return new EquipmentBuild(build.name, build.items, build.isMainWeaponSetActive);
+    // check for old structure
+    let itemList = build.items;
+    if (itemList) {
+      const item = Object.values(itemList)[0] as any;
+      if (item.id) {
+        // old structure => clear it out
+        itemList = {};
+      }
+    }
+
+    // must instantiate classes from plain objects so we can have access to methods
+    Object.keys(EquipmentSlot).forEach(key => {
+      const equipmentSlot = key as EquipmentSlot;
+      const buildItem = itemList[equipmentSlot];
+      if (buildItem) {
+        itemList[equipmentSlot] = new EquipmentBuildSlot(equipmentSlot, buildItem.item);
+      }
+    });
+
+    return new EquipmentBuild(build.name, itemList, build.isMainWeaponSetActive);
   }
 
   static fromHash(hash: string): EquipmentBuild {
-    const buildItems = {} as EquipmentBuildSlot;
+    const buildItems = {} as EquipmentBuildItems;
     hash.split('_').forEach((itemId, index) => {
       if (!itemId) {
         return;
@@ -137,21 +181,32 @@ export class EquipmentBuild {
       const slot = Object.keys(EquipmentSlot)[index] as EquipmentSlot;
       const item = getEsoItemById(parseInt(itemId));
       if (item) {
-        buildItems[slot] = item;
+        buildItems[slot] = new EquipmentBuildSlot(slot, item);
       }
     });
     return new EquipmentBuild('New Build', buildItems);
   }
 
   public toHash(): string {
-    const buildItems = this.items;
     const hashArray = Object.keys(EquipmentSlot).map(key => {
       const enumKey = key as EquipmentSlot;
-      return buildItems[enumKey]?.id;
+      const buildItem = this.getEquipmentItem(enumKey);
+      if (!buildItem || !buildItem.item) {
+        return '';
+      }
+      return buildItem.item.id;
     });
     const itemsHash = hashArray.join('_');
 
     return itemsHash;
+  }
+
+  public getEquipmentItem(slot: EquipmentSlot): EquipmentBuildSlot | undefined {
+    return this.items[slot];
+  }
+  public getEsoItem(slot: EquipmentSlot): EsoItem | undefined {
+    const item = this.items[slot];
+    return item?.item;
   }
 
   public equip(item: EsoItem, slot: EquipmentSlot): void {
@@ -175,33 +230,41 @@ export class EquipmentBuild {
 
     if (item.slot === EsoSlot.twoHands) {
       // clear out off hand slot
-      delete this.items[slot === EquipmentSlot.mainHand1 ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2];
+      this.unequip(slot === EquipmentSlot.mainHand1 ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2);
     } else if (slot === EquipmentSlot.offHand1 && 
       this.items[EquipmentSlot.mainHand1] && 
-      this.items[EquipmentSlot.mainHand1]?.slot === EsoSlot.twoHands) {
+      this.items[EquipmentSlot.mainHand1]?.item?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
-      delete this.items[EquipmentSlot.mainHand1];
+      this.unequip(EquipmentSlot.mainHand1);
     } else if (slot === EquipmentSlot.offHand2 && 
       this.items[EquipmentSlot.mainHand2] && 
-      this.items[EquipmentSlot.mainHand2]?.slot === EsoSlot.twoHands) {
+      this.items[EquipmentSlot.mainHand2]?.item?.slot === EsoSlot.twoHands) {
       // clear out main hand slot
-      delete this.items[EquipmentSlot.mainHand2];
+      this.unequip(EquipmentSlot.mainHand2);
     }
     if (item.rarity === EsoItemRarity.mythic) {
       // only one mythic item allowed
-      Object.keys(this.items).forEach(key => {
-        const enumKey = key as EquipmentSlot;
-        if (this.items[enumKey]?.rarity === EsoItemRarity.mythic) {
-          delete this.items[enumKey];
+      for (const buildItem of this) {
+        if (buildItem.item?.rarity === EsoItemRarity.mythic) {
+          this.unequip(buildItem.equipmentSlot);
         }
-      });
+      }
     }
 
-    this.items[slot] = item;
+    let buildItem = this.getEquipmentItem(slot);
+    if (buildItem) {
+      buildItem.setItem(item);
+    } else {
+      buildItem = new EquipmentBuildSlot(slot, item);
+      this.items[slot] = buildItem;
+    }
   }
 
   public unequip(slot: EquipmentSlot): void {
-    delete this.items[slot];
+    let buildItem = this.getEquipmentItem(slot);
+    if (buildItem) {
+      delete buildItem.item;
+    }
   }
 
   public toggleWeaponSet(): void {
@@ -213,7 +276,7 @@ export class EquipmentBuild {
     let count = 0;
     Object.keys(this.items).forEach(key => {
       const slotKey = key as EquipmentSlot;
-      const item = this.items[slotKey];
+      const item = this.getEsoItem(slotKey);
       if (item?.setName !== setName) {
         return;
       }
@@ -235,25 +298,24 @@ export class EquipmentBuild {
   // return the list of sets that this build has and the count of bonuses in each set
   public getSets(onlyCountActive: boolean = false): Map<EsoSet, number> {
     const sets = new Map<EsoSet, number>();
-    Object.keys(this.items).forEach(key => {
-      const slotKey = key as EquipmentSlot;
-      const item = this.items[slotKey];
+    for (const buildItem of this) {
+      const item = buildItem.item;
       if (!item) {
-        return;
+        continue;
       }
 
       if (onlyCountActive) {
         // only count active weapons
-        if ((slotKey === EquipmentSlot.mainHand2 || slotKey === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
-          return false;
+        if ((buildItem.equipmentSlot === EquipmentSlot.mainHand2 || buildItem.equipmentSlot === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
+          continue;
         }
-        if ((slotKey === EquipmentSlot.mainHand1 || slotKey === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
-          return;
+        if ((buildItem.equipmentSlot === EquipmentSlot.mainHand1 || buildItem.equipmentSlot === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
+          continue;
         }
       }
       const set = getEsoSetByName(item.setName);
       if (!set) {
-        return;
+        continue;
       }
       if (!sets.has(set)) {
         sets.set(set, 1);
@@ -262,7 +324,7 @@ export class EquipmentBuild {
         const inc = (item.itemType === EsoItemType.weapon && item.slot === EsoSlot.twoHands) ? 2 : 1;
         sets.set(set, (sets.get(set) || 0) + inc);
       }
-    });
+    }
     return sets;
   }
 
@@ -288,5 +350,27 @@ export class EquipmentBuild {
       }
     });
     return bonusStats;
+  }
+
+  // return total armor from items
+  public getTotalArmor(): number {
+    let armor = 0;
+    for (const buildItem of this) {
+      const item = buildItem.item;
+      if (!item) {
+        continue;
+      }
+      if (item.itemType === EsoItemType.armor) {
+        // only count active weapons bar
+        if (buildItem.equipmentSlot === EquipmentSlot.offHand2 && this.isMainWeaponSetActive) {
+          continue;
+        }
+        if (buildItem.equipmentSlot === EquipmentSlot.offHand1 && !this.isMainWeaponSetActive) {
+          continue;
+        }
+        armor += (buildItem.armor | 0);
+      }
+    }
+    return armor;
   }
 }

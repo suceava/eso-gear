@@ -7,7 +7,7 @@ import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { ItemTooltip } from '../tooltips/Tooltips';
 
 export interface InventoryItemProps {
-  build?: EquipmentBuild;
+  build: EquipmentBuild;
   item: EsoItem;
   onEquip: (item: EsoItem) => void;
 }

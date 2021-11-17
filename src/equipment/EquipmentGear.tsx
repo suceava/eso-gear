@@ -44,7 +44,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.shoulders}
-              item={build.items[EquipmentSlot.shoulders]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -53,7 +52,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.hands}
-              item={build.items[EquipmentSlot.hands]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -62,7 +60,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.legs}
-              item={build.items[EquipmentSlot.legs]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -73,7 +70,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.head}
-              item={build.items[EquipmentSlot.head]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -88,7 +84,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.chest}
-              item={build.items[EquipmentSlot.chest]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -97,7 +92,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.waist}
-              item={build.items[EquipmentSlot.waist]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -106,7 +100,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.feet}
-              item={build.items[EquipmentSlot.feet]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -121,7 +114,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.neck}
-              item={build.items[EquipmentSlot.neck]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -132,7 +124,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.ring1}
-              item={build.items[EquipmentSlot.ring1]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -143,7 +134,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.ring2}
-              item={build.items[EquipmentSlot.ring2]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -158,7 +148,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.mainHand1}
-              item={build.items[EquipmentSlot.mainHand1]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -167,7 +156,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.mainHand2}
-              item={build.items[EquipmentSlot.mainHand2]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -178,7 +166,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.offHand1}
-              item={build.items[EquipmentSlot.offHand1]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />
@@ -187,7 +174,6 @@ export function EquipmentGear({ build, buildOnChange }: EquipmentProps) {
             <EquipmentItem
               build={build}
               slot={EquipmentSlot.offHand2}
-              item={build.items[EquipmentSlot.offHand2]}
               onEquip={onEquip}
               onUnequip={onUnequip}
             />

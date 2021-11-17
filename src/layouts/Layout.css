@@ -36,11 +36,11 @@
 
 
 .ViewBuildLayout.container{
-  max-width: 960px !important;
+  max-width: 1060px !important;
 }
 
 .ViewBuildLayout .Summary {
-  background-size: 940px 1100px, cover;
+  background-size: 1040px 1100px, cover;
 }
 
 .ViewBuildLayout .Summary hr {
