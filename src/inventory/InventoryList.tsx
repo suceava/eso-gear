@@ -2,7 +2,7 @@ import { useCallback, useMemo } from 'react';
 import { FixedSizeTree, FixedSizeNodeComponentProps } from 'react-vtree';
 
 import { InventoryItem } from './InventoryItem';
-import { InventoryFilterType, InventorySubFilterType } from './InventorySettings';
+import { InventoryFilterType, InventorySubFilterType, inventoryFitlerTypeToEsoItemType } from './inventorySettings';
 import { EquipmentBuild, esoSlotToEquipmentSlot } from '../character/EquipmentBuild';
 import {
   EsoSet,
@@ -45,10 +45,9 @@ export interface InventoryTableProps {
 }
 
 export function InventoryList({ build, buildOnChange, filter, subFilter, search }: InventoryTableProps) {
-  const itemTypeFilter = filter as unknown as EsoItemType;
   const lowerSearch = search?.toLowerCase();
   const rowMatcher = useCallback((item: EsoItem) => {
-    if (filter !== InventoryFilterType.all && item.itemType !== itemTypeFilter) {
+    if (filter !== InventoryFilterType.all && item.itemType !== inventoryFitlerTypeToEsoItemType(filter)) {
       return false;
     }
     if (subFilter !== InventorySubFilterType.all) {
@@ -117,7 +116,7 @@ export function InventoryList({ build, buildOnChange, filter, subFilter, search 
       return true;
     }
     return false;
-  }, [filter, subFilter, search, itemTypeFilter, lowerSearch]);
+  }, [filter, subFilter, search, lowerSearch]);
 
   const filteredList = useMemo((): FilteredListItem[] => {
     const filteredList: FilteredListItem[] = [];

@@ -139,6 +139,14 @@
         "maximumMagicka": 351,
         "maximumStamina": 351
       }
+    },
+    "offHand": {
+      "shield": {
+        "armor": 1720,
+        "maximumHealth": 0,
+        "maximumMagicka": 0,
+        "maximumStamina": 0
+      }
     }
   }
 }

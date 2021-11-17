@@ -1,4 +1,5 @@
-import { EsoItemStats  } from "./eso-item-stats";
+import { EsoArmorStats, EsoItemStats  } from "./eso-item-stats";
+import { EsoArmorType, EsoSlot } from './eso-sets';
 // json data
 import itemStatsData from "./eso-item-stats.json";
 
@@ -13,4 +14,8 @@ export const loadEsoItemStatsData = (): EsoItemStats => {
   ESO_ITEM_STATS = itemStatsData as EsoItemStats;
 
   return ESO_ITEM_STATS;
+};
+
+export const getArmorStats = (slot: EsoSlot, armorType: EsoArmorType): EsoArmorStats | undefined => {
+  return ESO_ITEM_STATS.armor[slot][armorType];
 };

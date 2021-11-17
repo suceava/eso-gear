@@ -6,7 +6,7 @@ import {
   Strings_InventoryFilterType,
   Strings_InventorySubFilterType,
   isSubFilterOfFilterType
-} from './InventorySettings';
+} from './inventorySettings';
 
 import './Inventory.css';
 

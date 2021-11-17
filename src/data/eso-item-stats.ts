@@ -12,9 +12,7 @@ export type EsoWeaponStats = {
 };
 
 type EsoArmorSlotStats = {
-  [EsoArmorType.light]: EsoArmorStats;
-  [EsoArmorType.medium]: EsoArmorStats;
-  [EsoArmorType.heavy]: EsoArmorStats;
+  [key in EsoArmorType]?: EsoArmorStats | undefined;
 };
 
 export type EsoItemStats = {

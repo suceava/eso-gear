@@ -105,7 +105,7 @@ function getItemStatValue(item: EsoItem) {
   if (item.itemType === EsoItemType.weapon) {
     return '0';
   }
-  if (item.itemType === EsoItemType.armor && item.armorType && item.armorType !== EsoArmorType.shield) {
+  if (item.itemType === EsoItemType.armor && item.armorType) {
     return ESO_ITEM_STATS[EsoItemType.armor][item.slot][item.armorType].armor;
   }
   return '';

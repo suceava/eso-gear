@@ -1,6 +1,10 @@
 import { useDrop } from 'react-dnd'
 
-import { EquipmentBuild, EquipmentSlot, equipmentSlotToEsoSlot } from '../character/EquipmentBuild';
+import {
+  EquipmentBuild,
+  EquipmentSlot,
+  equipmentSlotToEsoSlot
+} from '../character/EquipmentBuild';
 import { SimpleItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
@@ -8,12 +12,11 @@ import { getEsoSetByName } from '../data/esoSetDataLoader';
 export interface EquipmentSlotProps {
   build: EquipmentBuild;
   slot: EquipmentSlot;
-  item: EsoItem | undefined;
   onEquip: (droppedItem: EsoItem, slot: EquipmentSlot) => void;
   onUnequip: (slot: EquipmentSlot) => void;
 }
 
-export function EquipmentItem({ build, slot, item, onEquip, onUnequip }: EquipmentSlotProps) {
+export function EquipmentItem({ build, slot, onEquip, onUnequip }: EquipmentSlotProps) {
   const [{ canDrop }, drop] = useDrop({
     accept: equipmentSlotToEsoSlot(slot),
     drop: (droppedItem: EsoItem) => onEquip(droppedItem, slot),
@@ -22,6 +25,8 @@ export function EquipmentItem({ build, slot, item, onEquip, onUnequip }: Equipme
       canDrop: monitor.canDrop(),
     }),
   });
+  const buildItem = build.getEquipmentItem(slot);
+  const item = buildItem ? buildItem.item : undefined;
   const set = item ? getEsoSetByName(item.setName) : undefined;
 
   let className = 'gear-slot';
