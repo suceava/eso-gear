@@ -3,7 +3,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
-import { loadEsoItemStatsData } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
 import {
   EsoArmorType,
   EsoItem,
@@ -32,8 +32,6 @@ const popperConfig = {
     }
   ]
 }
-
-const ESO_ITEM_STATS = loadEsoItemStatsData();
 
 export function ItemSetTooltip(props: { set: EsoSet, children: any }) {
   const { set } = props;
@@ -106,20 +104,41 @@ function getItemStatValue(item: EsoItem) {
     return '0';
   }
   if (item.itemType === EsoItemType.armor && item.armorType) {
-    return ESO_ITEM_STATS[EsoItemType.armor][item.slot][item.armorType].armor;
+    const armorStats = getArmorStats(item.slot, item.armorType);
+    return (armorStats ? armorStats.armor : 0).toString();
   }
   return '';
 }
 function getItemEnchantmentDescription(item: EsoItem) {
   const values = [];
-  if (item.itemType === EsoItemType.armor && item.armorType && item.armorType !== EsoArmorType.shield) {
-    const armorType = item.armorType;
+  if (item.itemType === EsoItemType.armor && item.armorType) {
+    // armor enchantments
     if (item.enchantment === EsoItemEnchantment.multiEffect) {
       return "eek";
-    } else {
-      values.push(ESO_ITEM_STATS[EsoItemType.armor][item.slot][armorType]['maximumHealth']);
+    } else if (
+      item.enchantment === EsoItemEnchantment.maximumHealth ||
+      item.enchantment === EsoItemEnchantment.maximumMagicka ||
+      item.enchantment === EsoItemEnchantment.maximumStamina
+    ) {
+      const armorStats = getArmorStats(item.slot, item.armorType);
+      if (armorStats) {
+        values.push(armorStats[item.enchantment]);
+      }
+    }
+  } else if (item.itemType === EsoItemType.jewelry) {
+    // jewelry enchantments
+    if (
+      item.enchantment === EsoItemEnchantment.healthRecovery ||
+      item.enchantment === EsoItemEnchantment.magickaRecovery ||
+      item.enchantment === EsoItemEnchantment.staminaRecovery
+    ) {
+      const jewelryStats = getJewelryStats(item.slot);
+      if (jewelryStats) {
+        values.push(jewelryStats[item.enchantment]);
+      }
     }
   }
+
   return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 

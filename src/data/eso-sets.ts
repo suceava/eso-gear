@@ -163,16 +163,38 @@ export type EsoSetBonus = {
 export type EsoSetBonusKey = '1' | '2' | '3' | '4' | '5';
 
 export enum EsoItemEnchantment {
+  // armor
   maximumHealth = 'maximumHealth',
   maximumMagicka = 'maximumMagicka',
   maximumStamina = 'maximumStamina',
+  multiEffect = 'multiEffect',
+  // jewelry
   healthRecovery = 'healthRecovery',
   magickaRecovery = 'magickaRecovery',
   staminaRecovery = 'staminaRecovery',
+  // weapon
   lifeDrain = 'lifeDrain',
   absorbMagicka = 'absorbMagicka',
-  absorbStamina = 'absorbStamina',
-  multiEffect = 'multiEffect'
+  absorbStamina = 'absorbStamina'
+};
+export const esoItemEnchantmentToEsoStat = (enchantment: EsoItemEnchantment): EsoStat | undefined => {
+  switch (enchantment) {
+    case EsoItemEnchantment.maximumHealth:
+      return EsoStat.maximumHealth;
+    case EsoItemEnchantment.maximumMagicka:
+      return EsoStat.maximumMagicka;
+    case EsoItemEnchantment.maximumStamina:
+      return EsoStat.maximumStamina;
+    case EsoItemEnchantment.healthRecovery:
+      return EsoStat.healthRecovery;
+    case EsoItemEnchantment.magickaRecovery:
+      return EsoStat.magickaRecovery;
+    case EsoItemEnchantment.staminaRecovery:
+      return EsoStat.staminaRecovery;
+
+    default:
+      return undefined;
+  }
 };
 
 export type EsoItem = {

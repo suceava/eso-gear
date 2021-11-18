@@ -148,5 +148,18 @@
         "maximumStamina": 0
       }
     }
+  },
+
+  "jewelry": {
+    "neck": {
+      "healthRecovery": 169,
+      "magickaRecovery": 169,
+      "staminaRecovery": 169
+    },
+    "ring": {
+      "healthRecovery": 169,
+      "magickaRecovery": 169,
+      "staminaRecovery": 169
+    }
   }
 }

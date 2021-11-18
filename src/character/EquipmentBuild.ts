@@ -1,129 +1,19 @@
+import { EquipmentBuildSlot, EquipmentSlot, equipmentSlotToEsoSlot } from './EquipmentBuildSlot';
 import {
-  EsoArmorType,
   EsoBonusStats,
   EsoItem,
-  EsoItemEnchantment,
   EsoItemRarity,
   EsoItemType,
   EsoSet,
   EsoSetBonus,
   EsoSetBonusKey,
   EsoSlot,
-  EsoStat
+  EsoStat,
+  esoItemEnchantmentToEsoStat
 } from '../data/eso-sets';
-import { getArmorStats } from '../data/esoItemStatsDataLoader';
 import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
 
-export enum EquipmentSlot {
-  head = 'head',
-  shoulders = 'shoulders',
-  chest = 'chest',
-  legs = 'legs',
-  hands = 'hands',
-  feet = 'feet',
-  waist = 'waist',
-  neck = 'neck',
-  ring1 = 'ring1',
-  ring2 = 'ring2',
-  mainHand1 = 'mainHand1',
-  offHand1 = 'offHand1',
-  mainHand2 = 'mainHand2',
-  offHand2 = 'offHand2'
-}
 
-// convert EquipmentSlot to EsoSlot
-export const equipmentSlotToEsoSlot = (equipmentSlot: EquipmentSlot): EsoSlot | EsoSlot[] => {
-  switch (equipmentSlot) {
-    case EquipmentSlot.head:
-      return EsoSlot.head;
-    case EquipmentSlot.shoulders:
-      return EsoSlot.shoulders;
-    case EquipmentSlot.hands:
-      return EsoSlot.hands;
-    case EquipmentSlot.legs:
-      return EsoSlot.legs;
-    case EquipmentSlot.chest:
-      return EsoSlot.chest;
-    case EquipmentSlot.waist:
-      return EsoSlot.waist;
-    case EquipmentSlot.feet:
-      return EsoSlot.feet;
-    case EquipmentSlot.neck:
-      return EsoSlot.neck;
-    case EquipmentSlot.ring1:
-    case EquipmentSlot.ring2:
-      return EsoSlot.ring;
-    case EquipmentSlot.mainHand1:
-    case EquipmentSlot.mainHand2:
-      return [EsoSlot.oneHand, EsoSlot.twoHands];
-    case EquipmentSlot.offHand1:
-    case EquipmentSlot.offHand2:
-      return [EsoSlot.oneHand, EsoSlot.offHand];
-  }
-};
-// convert EsoSlot to EquipmentSlot
-export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot, isMainWeaponSet: boolean = true): EquipmentSlot => {
-  switch (esoSlot) {
-    case EsoSlot.head:
-      return EquipmentSlot.head;
-    case EsoSlot.shoulders:
-      return EquipmentSlot.shoulders;
-    case EsoSlot.hands:
-      return EquipmentSlot.hands;
-    case EsoSlot.legs:
-      return EquipmentSlot.legs;
-    case EsoSlot.chest:
-      return EquipmentSlot.chest;
-    case EsoSlot.waist:
-      return EquipmentSlot.waist;
-    case EsoSlot.feet:
-      return EquipmentSlot.feet;
-    case EsoSlot.neck:
-      return EquipmentSlot.neck;
-    case EsoSlot.ring:
-      return EquipmentSlot.ring1;
-    case EsoSlot.oneHand:
-      return isMainWeaponSet ? EquipmentSlot.mainHand1 : EquipmentSlot.mainHand2;
-    case EsoSlot.twoHands:
-      return isMainWeaponSet ? EquipmentSlot.mainHand1 : EquipmentSlot.mainHand2;
-    case EsoSlot.offHand:
-      return isMainWeaponSet ? EquipmentSlot.offHand1 : EquipmentSlot.offHand2;
-  }
-};
-
-export class EquipmentBuildSlot {
-  equipmentSlot: EquipmentSlot;
-  item?: EsoItem;
-  itemEnchantment?: {
-    enchantment: EsoItemEnchantment;
-    values: number[];
-  };
-  armor?: number;
-  damage?: number;
-
-  constructor(equipmentSlot: EquipmentSlot, item?: EsoItem) {
-    this.equipmentSlot = equipmentSlot;
-    this.setItem(item);
-  }
-
-  public setItem(item?: EsoItem) {
-    this.item = item;
-    this.assignStats();
-  }
-
-  public assignStats() {
-    if (!this.item) {
-      return;
-    }
-
-    if (this.item.itemType === EsoItemType.armor && this.item.armorType) {
-      const armorStats = getArmorStats(this.item.slot, this.item.armorType);
-      this.armor = armorStats ? armorStats.armor : 0;
-    } else if (this.item.itemType === EsoItemType.weapon) {
-      this.damage = 0;
-    }
-  }
-}
 type EquipmentBuildItems = {
   [key in EquipmentSlot]?: EquipmentBuildSlot;
 }
@@ -139,7 +29,7 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
     this.isMainWeaponSetActive = isMainWeaponSetActive;
   }
 
-  public *[Symbol.iterator]() {
+  public *[Symbol.iterator](): Iterator<EquipmentBuildSlot> {
     for (let key of Object.keys(EquipmentSlot)) {
       const enumKey = key as EquipmentSlot;
       const item = this.items[enumKey];
@@ -328,8 +218,8 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
     return sets;
   }
 
-  // return total bonus stats for the build
-  public getTotalBonusStats(): EsoBonusStats {
+  // return set bonus stats for the build
+  public getSetBonusStats(): EsoBonusStats {
     const bonusStats = {} as EsoBonusStats;
     const sets = this.getSets(true);
     sets.forEach((count, set) => {
@@ -356,10 +246,11 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
   public getTotalArmor(): number {
     let armor = 0;
     for (const buildItem of this) {
-      const item = buildItem.item;
-      if (!item) {
+      if (!buildItem || !buildItem.item) {
         continue;
       }
+
+      const item = buildItem.item;
       if (item.itemType === EsoItemType.armor) {
         // only count active weapons bar
         if (buildItem.equipmentSlot === EquipmentSlot.offHand2 && this.isMainWeaponSetActive) {
@@ -368,9 +259,68 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
         if (buildItem.equipmentSlot === EquipmentSlot.offHand1 && !this.isMainWeaponSetActive) {
           continue;
         }
-        armor += (buildItem.armor | 0);
+        armor += (buildItem.armor || 0);
       }
     }
     return armor;
+  }
+
+  // return total enchantment bonuses from items
+  public getTotalEnchantmentBonuses(): EsoBonusStats {
+    const bonusStats = {} as EsoBonusStats;
+    for (const prop of this) {
+      const buildItem = prop as EquipmentBuildSlot;
+      if (!buildItem || !buildItem.item) {
+        continue;
+      }
+
+      // ensure item has enchantment
+      const item = buildItem.item;
+      if (!item.enchantment) {
+        continue;
+      }
+      // only count active weapons bar
+      if ((buildItem.equipmentSlot === EquipmentSlot.mainHand2 || buildItem.equipmentSlot === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
+        continue;
+      }
+      if ((buildItem.equipmentSlot === EquipmentSlot.mainHand1 || buildItem.equipmentSlot === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
+        continue;
+      }
+
+      // convert to EsoStat
+      const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
+      if (!esoStat) {
+        continue;
+      }
+      if (!bonusStats[esoStat]) {
+        bonusStats[esoStat] = 0;
+      }
+
+      if (buildItem.slotEnchantment?.stats) {
+        bonusStats[esoStat] = (bonusStats[esoStat] as number) + (buildItem.slotEnchantment?.stats[esoStat] as number);
+      }
+    }
+    return bonusStats;
+  }
+
+  // return total bonuses from items and sets
+  public getTotalStats(): EsoBonusStats {
+    // start with set bonuses
+    const stats = this.getSetBonusStats();
+
+    // get total armor
+    const armor = this.getTotalArmor();
+    // add armor to stats
+    stats[EsoStat.armor] = armor + (stats[EsoStat.armor] || 0);
+
+    // get total enchantment bonuses
+    const enchantments = this.getTotalEnchantmentBonuses();
+    // add enchantments to stats
+    for (const stat in enchantments) {
+      const esoStat = stat as EsoStat;
+      stats[esoStat] = (stats[esoStat] as number || 0) + (enchantments[esoStat] as number || 0);
+    }
+
+    return stats;
   }
 }
