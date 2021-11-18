@@ -3,7 +3,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
-import { getArmorStats } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
 import {
   EsoArmorType,
   EsoItem,
@@ -112,6 +112,7 @@ function getItemStatValue(item: EsoItem) {
 function getItemEnchantmentDescription(item: EsoItem) {
   const values = [];
   if (item.itemType === EsoItemType.armor && item.armorType) {
+    // armor enchantments
     if (item.enchantment === EsoItemEnchantment.multiEffect) {
       return "eek";
     } else if (
@@ -124,7 +125,20 @@ function getItemEnchantmentDescription(item: EsoItem) {
         values.push(armorStats[item.enchantment]);
       }
     }
+  } else if (item.itemType === EsoItemType.jewelry) {
+    // jewelry enchantments
+    if (
+      item.enchantment === EsoItemEnchantment.healthRecovery ||
+      item.enchantment === EsoItemEnchantment.magickaRecovery ||
+      item.enchantment === EsoItemEnchantment.staminaRecovery
+    ) {
+      const jewelryStats = getJewelryStats(item.slot);
+      if (jewelryStats) {
+        values.push(jewelryStats[item.enchantment]);
+      }
+    }
   }
+
   return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 

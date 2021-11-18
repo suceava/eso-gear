@@ -274,10 +274,19 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
         continue;
       }
 
+      // ensure item has enchantment
       const item = buildItem.item;
       if (!item.enchantment) {
         continue;
       }
+      // only count active weapons bar
+      if ((buildItem.equipmentSlot === EquipmentSlot.mainHand2 || buildItem.equipmentSlot === EquipmentSlot.offHand2) && this.isMainWeaponSetActive) {
+        continue;
+      }
+      if ((buildItem.equipmentSlot === EquipmentSlot.mainHand1 || buildItem.equipmentSlot === EquipmentSlot.offHand1) && !this.isMainWeaponSetActive) {
+        continue;
+      }
+
       // convert to EsoStat
       const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
       if (!esoStat) {
@@ -287,18 +296,8 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
         bonusStats[esoStat] = 0;
       }
 
-      if (item.itemType === EsoItemType.armor) {
-        // only count active weapons bar
-        if (buildItem.equipmentSlot === EquipmentSlot.offHand2 && this.isMainWeaponSetActive) {
-          continue;
-        }
-        if (buildItem.equipmentSlot === EquipmentSlot.offHand1 && !this.isMainWeaponSetActive) {
-          continue;
-        }
-
-        if (buildItem.slotEnchantment?.stats) {
-          bonusStats[esoStat] = (bonusStats[esoStat] as number) + (buildItem.slotEnchantment?.stats[esoStat] as number);
-        }
+      if (buildItem.slotEnchantment?.stats) {
+        bonusStats[esoStat] = (bonusStats[esoStat] as number) + (buildItem.slotEnchantment?.stats[esoStat] as number);
       }
     }
     return bonusStats;

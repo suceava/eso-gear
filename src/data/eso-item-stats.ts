@@ -12,6 +12,16 @@ export type EsoArmorStatsItemEnchantmentProps =
   EsoItemEnchantment.maximumMagicka |
   EsoItemEnchantment.maximumStamina;
 
+export type EsoJewelryStats = {
+  [EsoItemEnchantment.healthRecovery]: number;
+  [EsoItemEnchantment.magickaRecovery]: number;
+  [EsoItemEnchantment.staminaRecovery]: number;
+};
+export type EsoJewelryStatsItemEnchantmentProps =
+  EsoItemEnchantment.healthRecovery |
+  EsoItemEnchantment.magickaRecovery |
+  EsoItemEnchantment.staminaRecovery;
+
 export type EsoWeaponStats = {
   damage: number;
 };
@@ -23,5 +33,8 @@ type EsoArmorSlotStats = {
 export type EsoItemStats = {
   [EsoItemType.armor]: {
     [key in EsoSlot]: EsoArmorSlotStats;
+  },
+  [EsoItemType.jewelry]: {
+    [key in EsoSlot]: EsoJewelryStats;
   }
 };

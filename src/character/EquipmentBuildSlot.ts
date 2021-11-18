@@ -1,4 +1,7 @@
-import { EsoArmorStatsItemEnchantmentProps } from '../data/eso-item-stats';
+import {
+  EsoArmorStatsItemEnchantmentProps,
+  EsoJewelryStatsItemEnchantmentProps
+} from '../data/eso-item-stats';
 import {
   EsoBonusStats,
   EsoItem,
@@ -7,7 +10,7 @@ import {
   EsoSlot,
   esoItemEnchantmentToEsoStat
 } from '../data/eso-sets';
-import { getArmorStats } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
 
 export enum EquipmentSlot {
   head = 'head',
@@ -109,7 +112,7 @@ const getArmorEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefine
   }
 
   const values: number[] = [];
-  const prop = item.enchantment as EsoArmorStatsItemEnchantmentProps
+  const prop = item.enchantment as EsoArmorStatsItemEnchantmentProps;
   if (!prop || !armorStats[prop]) {
     return undefined;
   }
@@ -129,6 +132,44 @@ const getArmorEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefine
 
   return enchantment;
 };
+
+const getJewelryEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefined => {
+  // jewelry enchantments
+  if (!item) {
+    return undefined;
+  }
+  if (item.itemType !== EsoItemType.jewelry) {
+    return undefined;
+  }
+
+  // get stats from data
+  const jewelryStats = getJewelryStats(item.slot);
+  if (!jewelryStats) {
+    return undefined;
+  }
+
+  const values: number[] = [];
+  const prop = item.enchantment as EsoJewelryStatsItemEnchantmentProps;
+  if (!prop || !jewelryStats[prop]) {
+    return undefined;
+  }
+  values.push(jewelryStats[prop]);
+
+  const enchantment = {
+    enchantment: item.enchantment,
+    values
+  } as EquipmentItemEnchantment;
+
+  const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
+  if (esoStat) {
+    enchantment.stats = {
+      [esoStat]: jewelryStats[prop]
+    } as EsoBonusStats;
+  }
+
+  return enchantment;
+};
+
 
 export class EquipmentBuildSlot {
   equipmentSlot: EquipmentSlot;
@@ -166,6 +207,9 @@ export class EquipmentBuildSlot {
       if (this.item.itemType === EsoItemType.armor && this.item.armorType) {
         // armor enchantments
         this.slotEnchantment = getArmorEnchantment(this.item);
+      } else if (this.item.itemType === EsoItemType.jewelry) {
+        // jewelry enchantments
+        this.slotEnchantment = getJewelryEnchantment(this.item);
       }
     }
   }
