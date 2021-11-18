@@ -1,5 +1,6 @@
 import { EquipmentBuild } from '../character/EquipmentBuild';
-import { EsoStat, Strings_EsoStat } from '../data/eso-sets';
+import { EsoStat } from '../data/eso-sets';
+import { Strings_EsoStat } from '../strings/equipment';
 
 export interface EquipmentProps {
   build: EquipmentBuild;

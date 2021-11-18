@@ -6,13 +6,15 @@ import { EquipmentSlot } from '../character/EquipmentBuildSlot';
 import { 
   EsoItemType,
   EsoItem,
-  EsoSetType,
-  Strings_EsoArmorType,
-  Strings_EsoWeaponType
+  EsoSetType
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { Strings_EsoItemEnchantment } from '../strings/enchantments';
-import { Strings_EquipmentSlot } from '../strings/equipment';
+import {
+  Strings_EsoArmorType,
+  Strings_EquipmentSlot,
+  Strings_EsoWeaponType
+} from '../strings/equipment';
 import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
 
 export interface GearSummaryProps {

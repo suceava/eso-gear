@@ -1,6 +1,7 @@
 import {
   EsoArmorStatsItemEnchantmentProps,
-  EsoJewelryStatsItemEnchantmentProps
+  EsoJewelryStatsItemEnchantmentProps,
+  EsoWeaponStatsItemEnchantmentProps
 } from '../data/eso-item-stats';
 import {
   EsoBonusStats,
@@ -10,7 +11,7 @@ import {
   EsoSlot,
   esoItemEnchantmentToEsoStat
 } from '../data/eso-sets';
-import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats, getWeaponStats } from '../data/esoItemStatsDataLoader';
 
 export enum EquipmentSlot {
   head = 'head',
@@ -133,6 +134,7 @@ const getArmorEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefine
   return enchantment;
 };
 
+// get the enchantment for the given jewelry item
 const getJewelryEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefined => {
   // jewelry enchantments
   if (!item) {
@@ -170,6 +172,37 @@ const getJewelryEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefi
   return enchantment;
 };
 
+// get the enchantment for the given weapon item
+const getWeaponEnchantment = (item: EsoItem, equipmentSlot: EquipmentSlot): EquipmentItemEnchantment | undefined => {
+  // weapon enchantments
+  if (!item) {
+    return undefined;
+  }
+  if (item.itemType !== EsoItemType.weapon || !item.weaponType) {
+    return undefined;
+  }
+
+  // get stats from data
+  const weaponStats = getWeaponStats(item.weaponType);
+  if (!weaponStats) {
+    return undefined;
+  }
+
+  const values: number[] = [];
+  const prop = item.enchantment as EsoWeaponStatsItemEnchantmentProps;
+  if (!prop || !weaponStats[prop]) {
+    return undefined;
+  }
+  console.log(prop, weaponStats[prop]);
+  Object.values(weaponStats[prop]).forEach(value => values.push(value));
+
+  const enchantment = {
+    enchantment: item.enchantment,
+    values
+  } as EquipmentItemEnchantment;
+
+  return enchantment;
+};
 
 export class EquipmentBuildSlot {
   equipmentSlot: EquipmentSlot;
@@ -196,8 +229,9 @@ export class EquipmentBuildSlot {
     if (this.item.itemType === EsoItemType.armor && this.item.armorType) {
       const armorStats = getArmorStats(this.item.slot, this.item.armorType);
       this.armor = armorStats ? armorStats.armor : 0;
-    } else if (this.item.itemType === EsoItemType.weapon) {
-      this.damage = 0;
+    } else if (this.item.itemType === EsoItemType.weapon && this.item.weaponType) {
+      const weaponStats = getWeaponStats(this.item.weaponType);
+      this.damage = weaponStats ? weaponStats.damage : 0;
     }
 
     // first delete old enchantment
@@ -210,6 +244,9 @@ export class EquipmentBuildSlot {
       } else if (this.item.itemType === EsoItemType.jewelry) {
         // jewelry enchantments
         this.slotEnchantment = getJewelryEnchantment(this.item);
+      } else if (this.item.itemType === EsoItemType.weapon) {
+        // weapon enchantments
+        this.slotEnchantment = getWeaponEnchantment(this.item, this.equipmentSlot);
       }
     }
   }

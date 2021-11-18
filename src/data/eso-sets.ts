@@ -30,12 +30,6 @@ export enum EsoArmorType {
   medium = 'medium',
   shield = 'shield'
 };
-export const Strings_EsoArmorType = {
-  [EsoArmorType.heavy]: 'Heavy',
-  [EsoArmorType.light]: 'Light',
-  [EsoArmorType.medium]: 'Medium',
-  [EsoArmorType.shield]: 'Shield'
-};
 
 export enum EsoWeaponType {
   axe = 'axe',
@@ -54,20 +48,16 @@ export enum EsoWeaponType {
   iceStaff = 'iceStaff',
   lightningStaff = 'lightningStaff'
 };
-export const Strings_EsoWeaponType = {
-  [EsoWeaponType.axe]: 'Axe',
-  [EsoWeaponType.dagger]: 'Dagger',
-  [EsoWeaponType.mace]: 'Mace',
-  [EsoWeaponType.sword]: 'Sword',
-  [EsoWeaponType.battleAxe]: 'Battle Axe',
-  [EsoWeaponType.greatsword]: 'Greatsword',
-  [EsoWeaponType.maul]: 'Maul',
-  [EsoWeaponType.bow]: 'Bow',
-  [EsoWeaponType.restorationStaff]: 'Restoration Staff',
-  [EsoWeaponType.infernoStaff]: 'Inferno Staff',
-  [EsoWeaponType.iceStaff]: 'Ice Staff',
-  [EsoWeaponType.lightningStaff]: 'Lightning Staff'
-};
+
+export enum EsoDamageType {
+  physical = 'physicalDamage',
+  magic = 'magicDamage',
+  fire = 'fireDamage',
+  cold = 'coldDamage',
+  lightning = 'lightningDamage',
+  poison = 'poisonDamage',
+  disease = 'diseaseDamage'
+}
 
 export enum EsoSlot {
   chest = 'chest',
@@ -84,20 +74,6 @@ export enum EsoSlot {
   offHand = 'offHand',
   oneHand = 'oneHand',
   twoHands = 'twoHands'
-};
-export const Strings_EsoSlot = {
-  [EsoSlot.chest]: 'Chest',
-  [EsoSlot.feet]: 'Feet',
-  [EsoSlot.hands]: 'Hands',
-  [EsoSlot.head]: 'Head',
-  [EsoSlot.legs]: 'Legs',
-  [EsoSlot.shoulders]: 'Shoulders',
-  [EsoSlot.waist]: 'Waist',
-  [EsoSlot.neck]: 'Neck',
-  [EsoSlot.ring]: 'Ring',
-  [EsoSlot.offHand]: 'Off Hand',
-  [EsoSlot.oneHand]: 'One Hand',
-  [EsoSlot.twoHands]: 'Two Hands'
 };
 
 export enum EsoStat {
@@ -125,28 +101,6 @@ export enum EsoStat {
   offensivePenetration = 'offensivePenetration',
   healingDone = 'healingDone',
   healingTaken = 'healingTaken'
-};
-export const Strings_EsoStat = {
-  [EsoStat.armor]: 'Armor',
-  [EsoStat.maximumMagicka]: 'Maximum Magicka',
-  [EsoStat.maximumHealth]: 'Maximum Health',
-  [EsoStat.maximumStamina]: 'Maximum Stamina',
-  [EsoStat.magickaRecovery]: 'Magicka Recovery',
-  [EsoStat.healthRecovery]: 'Health Recovery',
-  [EsoStat.staminaRecovery]: 'Stamina Recovery',
-  [EsoStat.spellDamage]: 'Spell Damage',
-  [EsoStat.spellCritical]: 'Spell Critical',
-  [EsoStat.spellPenetration]: 'Spell Penetration',
-  [EsoStat.weaponDamage]: 'Weapon Damage',
-  [EsoStat.weaponCritical]: 'Weapon Critical',
-  [EsoStat.physicalPenetration]: 'Physical Penetration',
-  [EsoStat.spellResistance]: 'Spell Resistance',
-  [EsoStat.physicalResistance]: 'Physical Resistance',
-  [EsoStat.criticalResistance]: 'Critical Resistance',
-  [EsoStat.criticalChance]: 'Critical Chance',
-  [EsoStat.offensivePenetration]: 'Offensive Penetration',
-  [EsoStat.healingDone]: 'Healing Done',
-  [EsoStat.healingTaken]: 'Healing Taken'
 };
 
 export type EsoBonusStats = {
@@ -235,4 +189,17 @@ export type EsoSet = {
     list: EsoItem[];
   }
 };
- 
+
+
+export const esoWeaponTypeToEsoSlot = (weaponType: EsoWeaponType): EsoSlot => {
+  switch (weaponType) {
+    case EsoWeaponType.axe:
+    case EsoWeaponType.dagger:
+    case EsoWeaponType.mace:
+    case EsoWeaponType.sword:
+      return EsoSlot.oneHand;
+
+    default:
+      return EsoSlot.twoHands;
+  }
+};

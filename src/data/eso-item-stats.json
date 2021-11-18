@@ -143,23 +143,49 @@
     "offHand": {
       "shield": {
         "armor": 1720,
-        "maximumHealth": 0,
-        "maximumMagicka": 0,
-        "maximumStamina": 0
+        "maximumHealth": 954,
+        "maximumMagicka": 868,
+        "maximumStamina": 868
       }
     }
   },
 
   "jewelry": {
-    "neck": {
-      "healthRecovery": 169,
-      "magickaRecovery": 169,
-      "staminaRecovery": 169
+    "healthRecovery": 169,
+    "magickaRecovery": 169,
+    "staminaRecovery": 169
+  },
+
+  "weapon": {
+    "oneHand": {
+      "damage": 1335,
+      "lifeDrain": {
+        "magicDamage": 950,
+        "restoreHealth": 430
+      },
+      "absorbMagicka": {
+        "magicDamage": 950,
+        "restoreMagicka": 177
+      },
+      "absorbStamina": {
+        "physicalDamage": 950,
+        "restoreStamina": 177
+      }
     },
-    "ring": {
-      "healthRecovery": 169,
-      "magickaRecovery": 169,
-      "staminaRecovery": 169
+    "twoHands": {
+      "damage": 1571,
+      "lifeDrain": {
+        "magicDamage": 1900,
+        "restoreHealth": 861
+      },
+      "absorbMagicka": {
+        "magicDamage": 1900,
+        "restoreMagicka": 354
+      },
+      "absorbStamina": {
+        "physicalDamage": 1900,
+        "restoreStamina": 354
+      }
     }
   }
 }

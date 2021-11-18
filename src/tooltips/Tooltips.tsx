@@ -3,7 +3,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
-import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats, getWeaponStats } from '../data/esoItemStatsDataLoader';
 import {
   EsoArmorType,
   EsoItem,
@@ -13,12 +13,14 @@ import {
   EsoSetBonus,
   EsoSetBonusKey,
   EsoSetType,
-  EsoSlot,
+  EsoSlot
+} from '../data/eso-sets';
+import { Strings_EsoItemEnchantment, getEsoItemEnchantmentDescription } from '../strings/enchantments';
+import {
   Strings_EsoArmorType,
   Strings_EsoSlot,
   Strings_EsoWeaponType
-} from '../data/eso-sets';
-import { Strings_EsoItemEnchantment, getEsoItemEnchantmentDescription } from '../strings/enchantments';
+} from '../strings/equipment';
 
 import './Tooltips.css';
 
@@ -100,8 +102,9 @@ function getItemStatString(item: EsoItem) {
   return '';
 }
 function getItemStatValue(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapon) {
-    return '0';
+  if (item.itemType === EsoItemType.weapon && item.weaponType) {
+    const weaponStats = getWeaponStats(item.weaponType);
+    return (weaponStats ? weaponStats.damage : 0).toString();
   }
   if (item.itemType === EsoItemType.armor && item.armorType) {
     const armorStats = getArmorStats(item.slot, item.armorType);
@@ -137,12 +140,24 @@ function getItemEnchantmentDescription(item: EsoItem) {
         values.push(jewelryStats[item.enchantment]);
       }
     }
+  } else if (item.itemType === EsoItemType.weapon && item.weaponType) {
+    // weapon enchantments
+    if (
+      item.enchantment === EsoItemEnchantment.lifeDrain ||
+      item.enchantment === EsoItemEnchantment.absorbMagicka ||
+      item.enchantment === EsoItemEnchantment.absorbStamina
+    ) {
+      const weaponStats = getWeaponStats(item.weaponType);
+      if (weaponStats) {
+        values.push(weaponStats[item.enchantment]);
+      }
+    }
   }
 
   return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 
-function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
+function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
   const { build, item, set } = props;
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
   const setBonusCount = set ? set.bonusCount : 0;
