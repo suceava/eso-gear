@@ -17,5 +17,6 @@ export const loadEsoItemStatsData = (): EsoItemStats => {
 };
 
 export const getArmorStats = (slot: EsoSlot, armorType: EsoArmorType): EsoArmorStats | undefined => {
+  loadEsoItemStatsData();
   return ESO_ITEM_STATS.armor[slot][armorType];
 };

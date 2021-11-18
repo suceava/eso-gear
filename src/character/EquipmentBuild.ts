@@ -1,5 +1,4 @@
 import {
-  EsoArmorType,
   EsoBonusStats,
   EsoItem,
   EsoItemEnchantment,
@@ -356,10 +355,11 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
   public getTotalArmor(): number {
     let armor = 0;
     for (const buildItem of this) {
-      const item = buildItem.item;
-      if (!item) {
+      if (!buildItem || !buildItem.item) {
         continue;
       }
+
+      const item = buildItem.item;
       if (item.itemType === EsoItemType.armor) {
         // only count active weapons bar
         if (buildItem.equipmentSlot === EquipmentSlot.offHand2 && this.isMainWeaponSetActive) {
@@ -368,7 +368,7 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
         if (buildItem.equipmentSlot === EquipmentSlot.offHand1 && !this.isMainWeaponSetActive) {
           continue;
         }
-        armor += (buildItem.armor | 0);
+        armor += (buildItem.armor || 0);
       }
     }
     return armor;

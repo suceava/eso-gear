@@ -1,10 +1,11 @@
-import { EsoArmorType, EsoItemType, EsoSlot } from './eso-sets';
+import { EsoArmorType, EsoItemEnchantment, EsoItemType, EsoSlot } from './eso-sets';
 
 export type EsoArmorStats = {
   armor: number;
-  maximumHealth: number;
-  maximumMagicka: number;
-  maximumStamina: number;
+
+  [EsoItemEnchantment.maximumHealth]: number;
+  [EsoItemEnchantment.maximumMagicka]: number;
+  [EsoItemEnchantment.maximumStamina]: number;
 };
 
 export type EsoWeaponStats = {
