@@ -1,10 +1,8 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
-import { 
-  EquipmentBuild,
-  EquipmentSlot
-} from "../character/EquipmentBuild";
+import { EquipmentBuild } from "../character/EquipmentBuild";
+import { EquipmentSlot } from '../character/EquipmentBuildSlot';
 import { 
   EsoItemType,
   EsoItem,

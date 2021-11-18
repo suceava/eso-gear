@@ -3,7 +3,8 @@ import { FixedSizeTree, FixedSizeNodeComponentProps } from 'react-vtree';
 
 import { InventoryItem } from './InventoryItem';
 import { InventoryFilterType, InventorySubFilterType, inventoryFitlerTypeToEsoItemType } from './inventorySettings';
-import { EquipmentBuild, esoSlotToEquipmentSlot } from '../character/EquipmentBuild';
+import { EquipmentBuild } from '../character/EquipmentBuild';
+import { esoSlotToEquipmentSlot } from '../character/EquipmentBuildSlot';
 import {
   EsoSet,
   EsoItem,

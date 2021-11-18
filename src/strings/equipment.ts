@@ -1,4 +1,4 @@
-import { EquipmentSlot } from '../character/EquipmentBuild';
+import { EquipmentSlot } from '../character/EquipmentBuildSlot';
 
 export const Strings_EquipmentSlot = {
   [EquipmentSlot.head]: 'Head',
