@@ -6,8 +6,7 @@ export interface EquipmentProps {
 }
 
 export function EquipmentStats({ build }: EquipmentProps) {
-  const armor = build.getTotalArmor();
-  const statBonuses = build.getTotalBonusStats()
+  const stats = build.getTotalStats()
   const statsArray = Object.keys(EsoStat);
   // insert blank stats to make some grouping space
   statsArray.splice(16, 0, '');
@@ -26,14 +25,10 @@ export function EquipmentStats({ build }: EquipmentProps) {
             }
 
             const esoStat = stat as EsoStat;
-            let statValue = statBonuses[esoStat] || 0;
-            if (esoStat === EsoStat.armor) {
-              statValue += armor;
-            }
             return (
               <tr key={index}>
                 <td>{Strings_EsoStat[esoStat]}</td>
-                <td>{statValue}</td>
+                <td>{stats[esoStat] || 0}</td>
               </tr>
             );
           })

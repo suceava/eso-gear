@@ -7,6 +7,10 @@ export type EsoArmorStats = {
   [EsoItemEnchantment.maximumMagicka]: number;
   [EsoItemEnchantment.maximumStamina]: number;
 };
+export type EsoArmorStatsItemEnchantmentProps =
+  EsoItemEnchantment.maximumHealth |
+  EsoItemEnchantment.maximumMagicka |
+  EsoItemEnchantment.maximumStamina;
 
 export type EsoWeaponStats = {
   damage: number;

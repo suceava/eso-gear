@@ -1,3 +1,4 @@
+import { EsoArmorStatsItemEnchantmentProps } from '../data/eso-item-stats';
 import {
   EsoBonusStats,
   EsoItem,
@@ -8,7 +9,8 @@ import {
   EsoSetBonus,
   EsoSetBonusKey,
   EsoSlot,
-  EsoStat
+  EsoStat,
+  esoItemEnchantmentToEsoStat
 } from '../data/eso-sets';
 import { getArmorStats } from '../data/esoItemStatsDataLoader';
 import { getEsoItemById, getEsoSetByName } from '../data/esoSetDataLoader';
@@ -90,13 +92,16 @@ export const esoSlotToEquipmentSlot = (esoSlot: EsoSlot, isMainWeaponSet: boolea
   }
 };
 
+type EquipmentItemEnchantment = {
+  enchantment: EsoItemEnchantment;
+  values: number[];
+  stats?: EsoBonusStats[];
+};
+
 export class EquipmentBuildSlot {
   equipmentSlot: EquipmentSlot;
   item?: EsoItem;
-  itemEnchantment?: {
-    enchantment: EsoItemEnchantment;
-    values: number[];
-  };
+  slotEnchantment?: EquipmentItemEnchantment;
   armor?: number;
   damage?: number;
 
@@ -110,6 +115,29 @@ export class EquipmentBuildSlot {
     this.assignStats();
   }
 
+  private getArmorEnchantment(): EquipmentItemEnchantment | undefined {
+    // armor enchantments
+    if (!this.item) {
+      return undefined;
+    }
+    if (this.item.itemType !== EsoItemType.armor || !this.item.armorType) {
+      return undefined;
+    }
+
+    const armorStats = getArmorStats(this.item.slot, this.item.armorType);
+    const values: number[] = [];
+    if (armorStats) {
+      const prop = this.item.enchantment as EsoArmorStatsItemEnchantmentProps
+      if (prop && armorStats[prop]) {
+        values.push(armorStats[prop]);
+      }
+    }
+    return {
+      enchantment: this.item.enchantment,
+      values
+    } as EquipmentItemEnchantment;
+  }
+
   public assignStats() {
     if (!this.item) {
       return;
@@ -120,6 +148,16 @@ export class EquipmentBuildSlot {
       this.armor = armorStats ? armorStats.armor : 0;
     } else if (this.item.itemType === EsoItemType.weapon) {
       this.damage = 0;
+    }
+
+    // first delete old enchantment
+    delete this.slotEnchantment;
+
+    if (this.item.enchantment) {
+      if (this.item.itemType === EsoItemType.armor && this.item.armorType) {
+        // armor enchantments
+        this.slotEnchantment = this.getArmorEnchantment();
+      }
     }
   }
 }
@@ -327,8 +365,8 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
     return sets;
   }
 
-  // return total bonus stats for the build
-  public getTotalBonusStats(): EsoBonusStats {
+  // return set bonus stats for the build
+  public getSetBonusStats(): EsoBonusStats {
     const bonusStats = {} as EsoBonusStats;
     const sets = this.getSets(true);
     sets.forEach((count, set) => {
@@ -372,5 +410,54 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
       }
     }
     return armor;
+  }
+
+  // return total enchantment bonuses from items
+  public getTotalEnchantmentBonuses(): EsoBonusStats {
+    const bonusStats = {} as EsoBonusStats;
+    for (const buildItem of this) {
+      if (!buildItem || !buildItem.item) {
+        continue;
+      }
+
+      const item = buildItem.item;
+      if (!item.enchantment) {
+        continue;
+      }
+      // convert to EsoStat
+      const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
+      if (!esoStat) {
+        continue;
+      }
+      if (!bonusStats[esoStat]) {
+        bonusStats[esoStat] = 0;
+      }
+
+      if (item.itemType === EsoItemType.armor) {
+        // only count active weapons bar
+        if (buildItem.equipmentSlot === EquipmentSlot.offHand2 && this.isMainWeaponSetActive) {
+          continue;
+        }
+        if (buildItem.equipmentSlot === EquipmentSlot.offHand1 && !this.isMainWeaponSetActive) {
+          continue;
+        }
+
+
+      }
+    }
+    return bonusStats;
+  }
+
+  // return total bonuses from items and sets
+  public getTotalStats(): EsoBonusStats {
+    // start with set bonuses
+    const stats = this.getSetBonusStats();
+
+    // get total armor
+    const armor = this.getTotalArmor();
+    // add armor to stats
+    stats[EsoStat.armor] = armor + (stats[EsoStat.armor] || 0);
+
+    return stats;
   }
 }
