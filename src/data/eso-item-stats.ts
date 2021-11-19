@@ -1,15 +1,17 @@
-import { EsoArmorType, EsoItemEnchantment, EsoItemType, EsoSlot, EsoWeaponType } from './eso-sets';
+import { EsoArmorType, EsoItemEnchantment, EsoItemType, EsoSlot } from './eso-sets';
 
 export type EsoArmorStatsItemEnchantmentProps =
   EsoItemEnchantment.maximumHealth |
   EsoItemEnchantment.maximumMagicka |
-  EsoItemEnchantment.maximumStamina;
+  EsoItemEnchantment.maximumStamina |
+  EsoItemEnchantment.multiEffect;
 export type EsoArmorStats = {
   armor: number;
 
   [EsoItemEnchantment.maximumHealth]: number;
   [EsoItemEnchantment.maximumMagicka]: number;
   [EsoItemEnchantment.maximumStamina]: number;
+  [EsoItemEnchantment.multiEffect]?: object;
 };
 type EsoArmorSlotStats = {
   [key in EsoArmorType]?: EsoArmorStats | undefined;

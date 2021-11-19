@@ -118,16 +118,20 @@ function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
   const values: number[] = [];
   if (item.itemType === EsoItemType.armor && item.armorType) {
     // armor enchantments
-    if (item.enchantment === EsoItemEnchantment.multiEffect) {
-      return "eek";
-    } else if (
+    if (
       item.enchantment === EsoItemEnchantment.maximumHealth ||
       item.enchantment === EsoItemEnchantment.maximumMagicka ||
-      item.enchantment === EsoItemEnchantment.maximumStamina
+      item.enchantment === EsoItemEnchantment.maximumStamina ||
+      item.enchantment === EsoItemEnchantment.multiEffect
     ) {
       const armorStats = getArmorStats(item.slot, item.armorType);
       if (armorStats) {
-        values.push(armorStats[item.enchantment]);
+        const stats = armorStats[item.enchantment];
+        if (typeof stats === 'number') {
+          values.push(stats);
+        } else{
+          values.push(...Object.values(stats as object) as number[]);
+        }
       }
     }
   } else if (item.itemType === EsoItemType.jewelry) {
