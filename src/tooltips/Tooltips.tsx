@@ -23,6 +23,8 @@ import {
 } from '../strings/equipment';
 
 import './Tooltips.css';
+import { EquipmentSlot } from '../character/EquipmentBuildSlot';
+import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 const popperConfig = {
   modifiers: [
@@ -113,7 +115,7 @@ function getItemStatValue(item: EsoItem) {
   return '';
 }
 function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
-  const values = [];
+  const values: number[] = [];
   if (item.itemType === EsoItemType.armor && item.armorType) {
     // armor enchantments
     if (item.enchantment === EsoItemEnchantment.multiEffect) {
@@ -149,7 +151,7 @@ function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
     ) {
       const weaponStats = getWeaponStats(item.weaponType);
       if (weaponStats) {
-        values.push(weaponStats[item.enchantment]);
+        values.push(...Object.values(weaponStats[item.enchantment]) as number[]);
       }
     }
   }
@@ -157,8 +159,9 @@ function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
   return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 
-function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
-  const { build, item, set } = props;
+function TooltipContent(props: { build: EquipmentBuild, item: EsoItem }) {
+  const { build, item } = props;
+  const set = getEsoSetByName(item.setName);
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
   const setBonusCount = set ? set.bonusCount : 0;
   const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
@@ -208,12 +211,11 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: Eso
 export interface ItemTooltipProps {
   build: EquipmentBuild;
   item: EsoItem;
-  set?: EsoSet;
   show: boolean;
   target: any;
 }
 
-export function ItemTooltip({ build, item, set, show, target }: ItemTooltipProps) {
+export function ItemTooltip({ build, item, show, target }: ItemTooltipProps) {
   return (
     <Overlay
       target={target.current}
@@ -223,15 +225,19 @@ export function ItemTooltip({ build, item, set, show, target }: ItemTooltipProps
     >
       {(props) => (
         <Tooltip id="tooltip" className='tooltip' {...props}>
-          <TooltipContent build={build} item={item} set={set} />
+          <TooltipContent build={build} item={item} />
         </Tooltip>
       )}
     </Overlay>
   );
 }
 
-export function EquipmentItemTooltip(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet, children: any }) {
-  const { build, item, set } = props;
+export function EquipmentItemTooltip(props: { build: EquipmentBuild, equipmentSlot: EquipmentSlot, children: any }) {
+  const { build, equipmentSlot } = props;
+  const item = build.getEsoItem(equipmentSlot);
+  if (!item) {
+    return null;
+  }
 
   return (
     <OverlayTrigger
@@ -239,7 +245,7 @@ export function EquipmentItemTooltip(props: { build: EquipmentBuild, item: EsoIt
       flip={true}
       overlay={
         <Tooltip id={`tooltip_item_${item.name}`} className='tooltip'>
-          <TooltipContent build={build} item={item} set={set} />
+          <TooltipContent build={build} item={item} />
         </Tooltip>
       }
     >

@@ -4,7 +4,6 @@ import { EquipmentBuild } from '../character/EquipmentBuild';
 import { EquipmentSlot, equipmentSlotToEsoSlot } from '../character/EquipmentBuildSlot';
 import { EquipmentItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
-import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 export interface EquipmentSlotProps {
   build: EquipmentBuild;
@@ -24,7 +23,6 @@ export function EquipmentItem({ build, slot, onEquip, onUnequip }: EquipmentSlot
   });
   const buildItem = build.getEquipmentItem(slot);
   const item = buildItem ? buildItem.item : undefined;
-  const set = item ? getEsoSetByName(item.setName) : undefined;
 
   let className = 'gear-slot';
   if (!item) {
@@ -42,7 +40,7 @@ export function EquipmentItem({ build, slot, onEquip, onUnequip }: EquipmentSlot
   return (
     <div ref={drop} className={className} onDoubleClick={() => onUnequip(slot)}>
       {item && 
-        <EquipmentItemTooltip build={build} item={item} set={set}>
+        <EquipmentItemTooltip build={build} equipmentSlot={slot}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
         </EquipmentItemTooltip>
     }

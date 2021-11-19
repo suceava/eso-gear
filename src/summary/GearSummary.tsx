@@ -57,7 +57,6 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
           const equipmentSlot = key as EquipmentSlot;
           const item = build.getEsoItem(equipmentSlot);
           const set = item ? getEsoSetByName(item.setName) : undefined;
-
           const className = `align-items-center summary-table-row ${showItem ? 'cozy' : 'compact'}`;
 
           return (
@@ -66,7 +65,7 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
               { showItem &&
                 <Col>
                   { item &&
-                    <EquipmentItemTooltip build={build} item={item} set={set}>
+                    <EquipmentItemTooltip build={build} equipmentSlot={equipmentSlot}>
                       <img src={`../images/gear/${item.image}`} alt={item.name} />
                     </EquipmentItemTooltip>
                   }

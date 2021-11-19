@@ -193,7 +193,6 @@ const getWeaponEnchantment = (item: EsoItem, equipmentSlot: EquipmentSlot): Equi
   if (!prop || !weaponStats[prop]) {
     return undefined;
   }
-  console.log(prop, weaponStats[prop]);
   Object.values(weaponStats[prop]).forEach(value => values.push(value));
 
   const enchantment = {
