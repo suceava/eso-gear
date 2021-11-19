@@ -166,7 +166,6 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem }) {
   const setBonusCount = set ? set.bonusCount : 0;
   const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
 
-
   return (
     <div className='tooltip-item'>
       <div className='tooltip-item-type'>

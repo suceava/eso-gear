@@ -207,11 +207,11 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
       if (!set) {
         continue;
       }
+      const inc = (item.itemType === EsoItemType.weapon && item.slot === EsoSlot.twoHands) ? 2 : 1;
       if (!sets.has(set)) {
-        sets.set(set, 1);
+        sets.set(set, inc);
       } else {
         // increment
-        const inc = (item.itemType === EsoItemType.weapon && item.slot === EsoSlot.twoHands) ? 2 : 1;
         sets.set(set, (sets.get(set) || 0) + inc);
       }
     }
