@@ -3,10 +3,12 @@ import { ButtonToolbar, Button, FormControl } from 'react-bootstrap';
 import {
   InventoryFilterType,
   InventorySubFilterType,
-  Strings_InventoryFilterType,
-  Strings_InventorySubFilterType,
   isSubFilterOfFilterType
 } from './inventorySettings';
+import {
+  Strings_InventoryFilterType,
+  Strings_InventorySubFilterType,
+} from '../strings/inventory';
 
 import './Inventory.css';
 
