@@ -40,6 +40,9 @@
 .inventory-item {
   padding-left: 25px;
 }
+.inventory-item span {
+  white-space: nowrap;
+}
 
 .inventory-filter-button-toolbar button {
   background-color: transparent;

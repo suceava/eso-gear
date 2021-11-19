@@ -112,7 +112,7 @@ function getItemStatValue(item: EsoItem) {
   }
   return '';
 }
-function getItemEnchantmentDescription(item: EsoItem) {
+function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
   const values = [];
   if (item.itemType === EsoItemType.armor && item.armorType) {
     // armor enchantments
@@ -182,7 +182,7 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: Eso
         <div>CP <span>160</span></div>
       </div>
       <h3>{Strings_EsoItemEnchantment[item.enchantment]} Enchantment</h3>
-      <div className='tooltip-enchantment' dangerouslySetInnerHTML={{ __html: getItemEnchantmentDescription(item) }}></div>
+      <div className='tooltip-enchantment' dangerouslySetInnerHTML={{ __html: getItemEnchantmentDescription(item, build) }}></div>
       <br/>
       <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
@@ -206,7 +206,7 @@ function TooltipContent(props: { build: EquipmentBuild, item: EsoItem, set?: Eso
 };
 
 export interface ItemTooltipProps {
-  build?: EquipmentBuild;
+  build: EquipmentBuild;
   item: EsoItem;
   set?: EsoSet;
   show: boolean;
@@ -230,7 +230,7 @@ export function ItemTooltip({ build, item, set, show, target }: ItemTooltipProps
   );
 }
 
-export function SimpleItemTooltip(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet, children: any }) {
+export function EquipmentItemTooltip(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet, children: any }) {
   const { build, item, set } = props;
 
   return (

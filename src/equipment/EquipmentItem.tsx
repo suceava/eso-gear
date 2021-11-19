@@ -2,7 +2,7 @@ import { useDrop } from 'react-dnd'
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
 import { EquipmentSlot, equipmentSlotToEsoSlot } from '../character/EquipmentBuildSlot';
-import { SimpleItemTooltip } from '../tooltips/Tooltips';
+import { EquipmentItemTooltip } from '../tooltips/Tooltips';
 import { EsoItem } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 
@@ -42,9 +42,9 @@ export function EquipmentItem({ build, slot, onEquip, onUnequip }: EquipmentSlot
   return (
     <div ref={drop} className={className} onDoubleClick={() => onUnequip(slot)}>
       {item && 
-        <SimpleItemTooltip build={build} item={item} set={set}>
+        <EquipmentItemTooltip build={build} item={item} set={set}>
           <img src={`../images/gear/${item.image}`} alt={item.name} />
-        </SimpleItemTooltip>
+        </EquipmentItemTooltip>
     }
     </div>
   );
