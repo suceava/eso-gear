@@ -196,4 +196,5 @@
 }
 .equipment-stats table td:nth-child(2) {
   color: white;
+  text-align: right;
 }
