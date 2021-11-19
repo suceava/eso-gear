@@ -3,7 +3,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import { EquipmentBuild } from '../character/EquipmentBuild';
-import { getArmorStats, getJewelryStats } from '../data/esoItemStatsDataLoader';
+import { getArmorStats, getJewelryStats, getWeaponStats } from '../data/esoItemStatsDataLoader';
 import {
   EsoArmorType,
   EsoItem,
@@ -13,14 +13,18 @@ import {
   EsoSetBonus,
   EsoSetBonusKey,
   EsoSetType,
-  EsoSlot,
+  EsoSlot
+} from '../data/eso-sets';
+import { Strings_EsoItemEnchantment, getEsoItemEnchantmentDescription } from '../strings/enchantments';
+import {
   Strings_EsoArmorType,
   Strings_EsoSlot,
   Strings_EsoWeaponType
-} from '../data/eso-sets';
-import { Strings_EsoItemEnchantment, getEsoItemEnchantmentDescription } from '../strings/enchantments';
+} from '../strings/equipment';
 
 import './Tooltips.css';
+import { EquipmentSlot } from '../character/EquipmentBuildSlot';
+import { getEsoSetByName } from '../data/esoSetDataLoader';
 
 const popperConfig = {
   modifiers: [
@@ -100,8 +104,9 @@ function getItemStatString(item: EsoItem) {
   return '';
 }
 function getItemStatValue(item: EsoItem) {
-  if (item.itemType === EsoItemType.weapon) {
-    return '0';
+  if (item.itemType === EsoItemType.weapon && item.weaponType) {
+    const weaponStats = getWeaponStats(item.weaponType);
+    return (weaponStats ? weaponStats.damage : 0).toString();
   }
   if (item.itemType === EsoItemType.armor && item.armorType) {
     const armorStats = getArmorStats(item.slot, item.armorType);
@@ -109,8 +114,8 @@ function getItemStatValue(item: EsoItem) {
   }
   return '';
 }
-function getItemEnchantmentDescription(item: EsoItem) {
-  const values = [];
+function getItemEnchantmentDescription(item: EsoItem, build: EquipmentBuild) {
+  const values: number[] = [];
   if (item.itemType === EsoItemType.armor && item.armorType) {
     // armor enchantments
     if (item.enchantment === EsoItemEnchantment.multiEffect) {
@@ -137,17 +142,29 @@ function getItemEnchantmentDescription(item: EsoItem) {
         values.push(jewelryStats[item.enchantment]);
       }
     }
+  } else if (item.itemType === EsoItemType.weapon && item.weaponType) {
+    // weapon enchantments
+    if (
+      item.enchantment === EsoItemEnchantment.lifeDrain ||
+      item.enchantment === EsoItemEnchantment.absorbMagicka ||
+      item.enchantment === EsoItemEnchantment.absorbStamina
+    ) {
+      const weaponStats = getWeaponStats(item.weaponType);
+      if (weaponStats) {
+        values.push(...Object.values(weaponStats[item.enchantment]) as number[]);
+      }
+    }
   }
 
   return getEsoItemEnchantmentDescription(item.enchantment, values);
 }
 
-function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: EsoSet }) {
-  const { build, item, set } = props;
+function TooltipContent(props: { build: EquipmentBuild, item: EsoItem }) {
+  const { build, item } = props;
+  const set = getEsoSetByName(item.setName);
   const itemClass = (set && set.type === EsoSetType.mythic) ? 'item-mythic' : 'item-legendary';
   const setBonusCount = set ? set.bonusCount : 0;
   const itemsInSet = build ? build.countBonusesBySet(item.setName) : 0;
-
 
   return (
     <div className='tooltip-item'>
@@ -167,7 +184,7 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
         <div>CP <span>160</span></div>
       </div>
       <h3>{Strings_EsoItemEnchantment[item.enchantment]} Enchantment</h3>
-      <div className='tooltip-enchantment' dangerouslySetInnerHTML={{ __html: getItemEnchantmentDescription(item) }}></div>
+      <div className='tooltip-enchantment' dangerouslySetInnerHTML={{ __html: getItemEnchantmentDescription(item, build) }}></div>
       <br/>
       <h3>{`Part of the ${item.setName} set (${Math.min(itemsInSet, setBonusCount)}/${setBonusCount})`}</h3>
       {
@@ -191,14 +208,13 @@ function TooltipContent(props: { build?: EquipmentBuild, item: EsoItem, set?: Es
 };
 
 export interface ItemTooltipProps {
-  build?: EquipmentBuild;
+  build: EquipmentBuild;
   item: EsoItem;
-  set?: EsoSet;
   show: boolean;
   target: any;
 }
 
-export function ItemTooltip({ build, item, set, show, target }: ItemTooltipProps) {
+export function ItemTooltip({ build, item, show, target }: ItemTooltipProps) {
   return (
     <Overlay
       target={target.current}
@@ -208,15 +224,19 @@ export function ItemTooltip({ build, item, set, show, target }: ItemTooltipProps
     >
       {(props) => (
         <Tooltip id="tooltip" className='tooltip' {...props}>
-          <TooltipContent build={build} item={item} set={set} />
+          <TooltipContent build={build} item={item} />
         </Tooltip>
       )}
     </Overlay>
   );
 }
 
-export function SimpleItemTooltip(props: { build: EquipmentBuild, item: EsoItem, set?: EsoSet, children: any }) {
-  const { build, item, set } = props;
+export function EquipmentItemTooltip(props: { build: EquipmentBuild, equipmentSlot: EquipmentSlot, children: any }) {
+  const { build, equipmentSlot } = props;
+  const item = build.getEsoItem(equipmentSlot);
+  if (!item) {
+    return null;
+  }
 
   return (
     <OverlayTrigger
@@ -224,7 +244,7 @@ export function SimpleItemTooltip(props: { build: EquipmentBuild, item: EsoItem,
       flip={true}
       overlay={
         <Tooltip id={`tooltip_item_${item.name}`} className='tooltip'>
-          <TooltipContent build={build} item={item} set={set} />
+          <TooltipContent build={build} item={item} />
         </Tooltip>
       }
     >

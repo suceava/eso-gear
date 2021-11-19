@@ -6,14 +6,16 @@ import { EquipmentSlot } from '../character/EquipmentBuildSlot';
 import { 
   EsoItemType,
   EsoItem,
-  EsoSetType,
-  Strings_EsoArmorType,
-  Strings_EsoWeaponType
+  EsoSetType
 } from '../data/eso-sets';
 import { getEsoSetByName } from '../data/esoSetDataLoader';
 import { Strings_EsoItemEnchantment } from '../strings/enchantments';
-import { Strings_EquipmentSlot } from '../strings/equipment';
-import { ItemSetTooltip, SimpleItemTooltip } from '../tooltips/Tooltips';
+import {
+  Strings_EsoArmorType,
+  Strings_EquipmentSlot,
+  Strings_EsoWeaponType
+} from '../strings/equipment';
+import { ItemSetTooltip, EquipmentItemTooltip } from '../tooltips/Tooltips';
 
 export interface GearSummaryProps {
   build: EquipmentBuild,
@@ -52,21 +54,20 @@ export function GearSummary({ build, showItem }: GearSummaryProps) {
       </Row>
       {
         Object.keys(EquipmentSlot).map(key => {
-          const enumKey = key as EquipmentSlot;
-          const item = build.getEsoItem(enumKey);
+          const equipmentSlot = key as EquipmentSlot;
+          const item = build.getEsoItem(equipmentSlot);
           const set = item ? getEsoSetByName(item.setName) : undefined;
-
           const className = `align-items-center summary-table-row ${showItem ? 'cozy' : 'compact'}`;
 
           return (
-            <Row key={enumKey} className={className}>
-              <Col>{Strings_EquipmentSlot[EquipmentSlot[enumKey]]}</Col>
+            <Row key={equipmentSlot} className={className}>
+              <Col>{Strings_EquipmentSlot[EquipmentSlot[equipmentSlot]]}</Col>
               { showItem &&
                 <Col>
                   { item &&
-                    <SimpleItemTooltip build={build} item={item}>
+                    <EquipmentItemTooltip build={build} equipmentSlot={equipmentSlot}>
                       <img src={`../images/gear/${item.image}`} alt={item.name} />
-                    </SimpleItemTooltip>
+                    </EquipmentItemTooltip>
                   }
                 </Col>
               }

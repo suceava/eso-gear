@@ -58,7 +58,7 @@ export function InventoryItem({ build, item, onEquip }: InventoryItemProps) {
           <span id={item.id.toString()} className={itemClass}>{item.name}</span>
         </div>
       </div>
-      <ItemTooltip build={build} item={item} set={set} target={tooltipRef} show={showTip}></ItemTooltip>
+      <ItemTooltip build={build} item={item} target={tooltipRef} show={showTip}></ItemTooltip>
     </>
   );
 }

@@ -112,12 +112,14 @@ hr {
 .stamina {
   color: #0d9068;
 }
-.magicka {
+.magicka,
+.magic-damage {
   color: #0d5c9c;
 }
 .buff {
   color: #c69510;
 }
+/* damage types */
 .disease-damage {
   color: #2dc50e;
 }
