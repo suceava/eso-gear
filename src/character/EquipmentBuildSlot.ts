@@ -9,6 +9,7 @@ import {
   EsoItemEnchantment,
   EsoItemType,
   EsoSlot,
+  EsoStat,
   esoItemEnchantmentToEsoStat
 } from '../data/eso-sets';
 import { getArmorStats, getJewelryStats, getWeaponStats } from '../data/esoItemStatsDataLoader';
@@ -117,7 +118,12 @@ const getArmorEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefine
   if (!prop || !armorStats[prop]) {
     return undefined;
   }
-  values.push(armorStats[prop]);
+  const stats = armorStats[prop];
+  if (typeof stats === 'number') {
+    values.push(stats);
+  } else{
+    values.push(...Object.values(stats as object) as number[]);
+  }
 
   const enchantment = {
     enchantment: item.enchantment,
@@ -126,9 +132,24 @@ const getArmorEnchantment = (item: EsoItem): EquipmentItemEnchantment | undefine
 
   const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
   if (esoStat) {
+    // enchantment maps to a stat
     enchantment.stats = {
       [esoStat]: armorStats[prop]
     } as EsoBonusStats;
+  } else if (typeof stats === 'object') {
+    // enchantment is an object => see if its props map to stats
+    Object.keys(stats).forEach(key => {
+      const statKey: EsoStat = (EsoStat as any)[key];
+      if (statKey) {
+        if (enchantment.stats) {
+          enchantment.stats[statKey] = (stats as any)[key] as number;
+        } else {
+          enchantment.stats = {
+            [statKey]: (stats as any)[key] as number
+          } as EsoBonusStats;
+        }
+      }
+    });
   }
 
   return enchantment;
@@ -193,7 +214,8 @@ const getWeaponEnchantment = (item: EsoItem, equipmentSlot: EquipmentSlot): Equi
   if (!prop || !weaponStats[prop]) {
     return undefined;
   }
-  Object.values(weaponStats[prop]).forEach(value => values.push(value));
+  values.push(...Object.values(weaponStats[prop]) as number[]);
+//  Object.values(weaponStats[prop]).forEach(value => values.push(value));
 
   const enchantment = {
     enchantment: item.enchantment,

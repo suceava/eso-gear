@@ -287,17 +287,32 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
         continue;
       }
 
-      // convert to EsoStat
-      const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
-      if (!esoStat) {
+      if (!buildItem.slotEnchantment?.stats) {
         continue;
       }
-      if (!bonusStats[esoStat]) {
-        bonusStats[esoStat] = 0;
-      }
 
-      if (buildItem.slotEnchantment?.stats) {
+      // convert to EsoStat
+      const esoStat = esoItemEnchantmentToEsoStat(item.enchantment);
+      if (esoStat) {
+        if (!bonusStats[esoStat]) {
+          bonusStats[esoStat] = 0;
+        }
         bonusStats[esoStat] = (bonusStats[esoStat] as number) + (buildItem.slotEnchantment?.stats[esoStat] as number);
+      } else if (typeof buildItem.slotEnchantment.stats === 'object') {
+        // enchantment is an object
+        const { stats } = buildItem.slotEnchantment;
+        Object.keys(stats).forEach(key => {
+          // loop through enchantment object's props
+          const statKey: EsoStat = (EsoStat as any)[key];
+          if (!statKey) {
+            return;
+          }
+
+          if (!bonusStats[statKey]) {
+            bonusStats[statKey] = 0;
+          }
+          bonusStats[statKey] = (bonusStats[statKey] as number) + (stats[statKey] as number);
+        });
       }
     }
     return bonusStats;

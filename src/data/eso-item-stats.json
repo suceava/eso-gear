@@ -145,7 +145,12 @@
         "armor": 1720,
         "maximumHealth": 954,
         "maximumMagicka": 868,
-        "maximumStamina": 868
+        "maximumStamina": 868,
+        "multiEffect": {
+          "maximumHealth": 477,
+          "maximumMagicka": 434,
+          "maximumStamina": 434
+        }
       }
     }
   },
