@@ -44,7 +44,7 @@ export class EquipmentBuild implements Iterable<EquipmentBuildSlot> {
     let itemList = build.items;
     if (itemList) {
       const item = Object.values(itemList)[0] as any;
-      if (item.id) {
+      if (item && item.id) {
         // old structure => clear it out
         itemList = {};
       }
